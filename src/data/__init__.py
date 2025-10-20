@@ -14,6 +14,7 @@ from src.data.stores import (
     get_recent_raw_items,
     save_scores,
     save_prices,
+    get_recent_prices,
     get_prices,
     save_sentiment_indices,
     get_index,

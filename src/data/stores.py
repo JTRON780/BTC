@@ -233,6 +233,43 @@ def save_prices(prices: List[Dict[str, Any]]) -> int:
     return len(prices)
 
 
+def get_recent_prices(hours: int = 24) -> List[Dict[str, Any]]:
+    """
+    Retrieve recent Bitcoin price data from the database.
+    
+    Args:
+        hours: Number of hours to look back (default: 24)
+        
+    Returns:
+        List of dictionaries containing price data (ts, price, volume)
+        
+    Example:
+        >>> recent_prices = get_recent_prices(hours=48)
+        >>> for point in recent_prices:
+        ...     print(f"Price at {point['ts']}: ${point['price']:.2f}")
+    """
+    engine = get_engine()
+    cutoff_time = datetime.utcnow() - timedelta(hours=hours)
+    
+    with Session(engine) as session:
+        # Build query
+        stmt = select(Price).where(Price.ts >= cutoff_time)
+        stmt = stmt.order_by(Price.ts.desc())
+        
+        # Execute and convert to dicts
+        results = session.execute(stmt).scalars().all()
+        
+        return [
+            {
+                'ts': price.ts,
+                'price': price.price,
+                'volume': price.volume,
+                'created_at': price.created_at
+            }
+            for price in results
+        ]
+
+
 def get_index(granularity: str, days: int = 7) -> List[Dict[str, Any]]:
     """
     Retrieve sentiment index data for a specific granularity and time range.
