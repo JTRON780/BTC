@@ -1,1 +1,132 @@
-# TODO
+"""
+Index router for the BTC sentiment analysis API.
+
+Provides sentiment index data endpoints for time series analysis.
+"""
+
+from datetime import datetime
+from typing import List, Optional
+from fastapi import APIRouter, Query, HTTPException
+
+from src.core import get_logger, get_settings
+from src.data import get_index, init_db
+from src.api.schemas.sentiment import SentimentIndexPoint, SentimentResponse
+
+logger = get_logger(__name__)
+router = APIRouter()
+
+
+@router.get("/", response_model=SentimentResponse)
+async def get_sentiment_indices(
+    granularity: str = Query("daily", description="Time granularity (hourly, daily)"),
+    days: int = Query(7, description="Number of days to look back", ge=1, le=365),
+    source: Optional[str] = Query(None, description="Filter by data source")
+) -> SentimentResponse:
+    """
+    Get sentiment indices for the specified time range and granularity.
+    
+    Args:
+        granularity: Time granularity ('hourly', 'daily')
+        days: Number of days to look back (1-365)
+        source: Optional source filter
+        
+    Returns:
+        SentimentResponse with list of sentiment index data points
+    """
+    try:
+        # Validate granularity
+        if granularity not in ("hourly", "daily"):
+            raise HTTPException(
+                status_code=400, 
+                detail="Granularity must be 'hourly' or 'daily'"
+            )
+        
+        # Initialize database if needed
+        config = get_settings()
+        init_db(config.DB_URL)
+        
+        # Get indices
+        indices = get_index(granularity=granularity, days=days)
+        
+        # Apply source filter if provided
+        if source:
+            # Note: Current schema doesn't have source field in sentiment_indices
+            # This would need to be added to the schema for source filtering
+            pass
+        
+        # Convert to Pydantic models
+        data_points = []
+        for idx in indices:
+            point = SentimentIndexPoint(
+                ts=idx['ts'],
+                raw=idx['raw_value'],
+                smoothed=idx.get('smoothed_value', idx['raw_value']),  # Fallback to raw if no smoothed
+                n_posts=idx['n_posts']
+            )
+            data_points.append(point)
+        
+        logger.info(
+            f"Retrieved sentiment indices",
+            extra={
+                'count': len(indices),
+                'granularity': granularity,
+                'days': days,
+                'source': source
+            }
+        )
+        
+        return SentimentResponse(
+            granularity=granularity,
+            data=data_points
+        )
+        
+    except Exception as e:
+        logger.error(f"Error retrieving sentiment indices", extra={'error': str(e)})
+        raise HTTPException(status_code=500, detail="Internal server error")
+
+
+@router.get("/latest", response_model=SentimentResponse)
+async def get_latest_sentiment() -> SentimentResponse:
+    """
+    Get the most recent sentiment reading.
+    
+    Returns:
+        SentimentResponse with the latest sentiment index data point
+    """
+    try:
+        config = get_settings()
+        init_db(config.DB_URL)
+        
+        # Get latest daily reading
+        indices = get_index(granularity="daily", days=1)
+        
+        if not indices:
+            # Try hourly if no daily data
+            indices = get_index(granularity="hourly", days=1)
+        
+        if not indices:
+            # Return empty response if no data
+            return SentimentResponse(
+                granularity="daily",
+                data=[]
+            )
+        
+        # Get the latest index
+        latest = max(indices, key=lambda x: x['ts'])
+        
+        # Convert to Pydantic model
+        latest_point = SentimentIndexPoint(
+            ts=latest['ts'],
+            raw=latest['raw_value'],
+            smoothed=latest.get('smoothed_value', latest['raw_value']),
+            n_posts=latest['n_posts']
+        )
+        
+        return SentimentResponse(
+            granularity="latest",
+            data=[latest_point]
+        )
+        
+    except Exception as e:
+        logger.error(f"Error retrieving latest sentiment", extra={'error': str(e)})
+        raise HTTPException(status_code=500, detail="Internal server error")
