@@ -6,7 +6,9 @@ Provides sentiment index data endpoints for time series analysis.
 
 from datetime import datetime
 from typing import List, Optional
-from fastapi import APIRouter, Query, HTTPException
+from fastapi import APIRouter, Query, HTTPException, Response
+from hashlib import md5
+import json
 
 from src.core import get_logger, get_settings
 from src.data import get_index, init_db
@@ -18,6 +20,7 @@ router = APIRouter()
 
 @router.get("/", response_model=SentimentResponse)
 async def get_sentiment_indices(
+    response: Response,
     granularity: str = Query("daily", description="Time granularity (hourly, daily)"),
     days: int = Query(7, description="Number of days to look back", ge=1, le=365),
     source: Optional[str] = Query(None, description="Filter by data source")
@@ -25,13 +28,24 @@ async def get_sentiment_indices(
     """
     Get sentiment indices for the specified time range and granularity.
     
+    This endpoint retrieves aggregated sentiment data with both raw and EWMA-smoothed
+    values. Results are cached for improved performance.
+    
     Args:
+        response: FastAPI Response object for setting headers
         granularity: Time granularity ('hourly', 'daily')
         days: Number of days to look back (1-365)
-        source: Optional source filter
+        source: Optional source filter (currently not supported in schema)
         
     Returns:
         SentimentResponse with list of sentiment index data points
+        
+    Example:
+        GET /api/v1/sentiment/?granularity=hourly&days=7
+        
+    Cache Headers:
+        Cache-Control: Caching policy based on granularity
+        ETag: Content hash for conditional requests
     """
     try:
         # Validate granularity
@@ -45,14 +59,17 @@ async def get_sentiment_indices(
         config = get_settings()
         init_db(config.DB_URL)
         
-        # Get indices
+        # Get indices from database
         indices = get_index(granularity=granularity, days=days)
         
         # Apply source filter if provided
+        # Note: Current schema doesn't have source field in sentiment_indices
+        # This would need to be added to the schema for source filtering
         if source:
-            # Note: Current schema doesn't have source field in sentiment_indices
-            # This would need to be added to the schema for source filtering
-            pass
+            logger.warning(
+                "Source filtering requested but not supported in current schema",
+                extra={'source': source}
+            )
         
         # Convert to Pydantic models
         data_points = []
@@ -65,21 +82,46 @@ async def get_sentiment_indices(
             )
             data_points.append(point)
         
+        # Create response
+        sentiment_response = SentimentResponse(
+            granularity=granularity,
+            data=data_points
+        )
+        
+        # Set cache headers
+        # Hourly data: cache for 5 minutes (data updates frequently)
+        # Daily data: cache for 30 minutes (more stable)
+        cache_duration = 300 if granularity == "hourly" else 1800
+        response.headers["Cache-Control"] = f"public, max-age={cache_duration}"
+        
+        # Generate ETag based on content for conditional requests
+        content_hash = md5(
+            sentiment_response.model_dump_json().encode('utf-8')
+        ).hexdigest()
+        response.headers["ETag"] = f'"{content_hash}"'
+        
+        # Add Last-Modified header if we have data
+        if data_points:
+            latest_ts = max(point.ts for point in data_points)
+            response.headers["Last-Modified"] = latest_ts.strftime(
+                "%a, %d %b %Y %H:%M:%S GMT"
+            )
+        
         logger.info(
             f"Retrieved sentiment indices",
             extra={
                 'count': len(indices),
                 'granularity': granularity,
                 'days': days,
-                'source': source
+                'source': source,
+                'cache_duration': cache_duration
             }
         )
         
-        return SentimentResponse(
-            granularity=granularity,
-            data=data_points
-        )
+        return sentiment_response
         
+    except HTTPException:
+        raise
     except Exception as e:
         logger.error(f"Error retrieving sentiment indices", extra={'error': str(e)})
         raise HTTPException(status_code=500, detail="Internal server error")

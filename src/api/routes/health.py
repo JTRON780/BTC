@@ -16,15 +16,24 @@ router = APIRouter()
 @router.get("/")
 async def health_check():
     """
-    Basic health check endpoint.
+    Health check endpoint for Docker liveness and readiness probes.
+    
+    Returns simple status indicator with current UTC timestamp.
+    This endpoint is designed to be lightweight and always return
+    a successful response when the service is running.
     
     Returns:
-        Dictionary with status and timestamp
+        Dictionary with status and current UTC time
+        
+    Example Response:
+        {
+            "status": "healthy",
+            "time": "2025-11-10T15:30:45.123456"
+        }
     """
     return {
         "status": "healthy",
-        "timestamp": datetime.utcnow().isoformat(),
-        "service": "btc-sentiment-api"
+        "time": datetime.utcnow().isoformat()
     }
 
 

@@ -18,6 +18,144 @@ logger = get_logger(__name__)
 router = APIRouter()
 
 
+@router.get("/", response_model=TopDriversResponse)
+async def get_top_drivers(
+    day: str = Query(..., description="Target date in YYYY-MM-DD format")
+) -> TopDriversResponse:
+    """
+    Get top 5 positive and negative sentiment drivers for a specific day.
+    
+    This endpoint retrieves the most influential positive and negative sentiment
+    items for a given day, helping identify what content drove market sentiment.
+    
+    Args:
+        day: Target date in YYYY-MM-DD format (required)
+        
+    Returns:
+        TopDriversResponse with top 5 positive and top 5 negative drivers
+        
+    Raises:
+        400: Invalid date format
+        404: No data available for the specified date
+        500: Internal server error
+        
+    Example:
+        GET /api/v1/top_drivers?day=2025-11-04
+    """
+    try:
+        # Parse the date parameter
+        try:
+            parsed_date = datetime.strptime(day, "%Y-%m-%d").date()
+        except ValueError:
+            raise HTTPException(
+                status_code=400,
+                detail="Invalid date format. Use YYYY-MM-DD (e.g., 2025-11-04)"
+            )
+        
+        # Calculate time range for the day
+        start_time = datetime.combine(parsed_date, datetime.min.time())
+        end_time = datetime.combine(parsed_date, datetime.max.time())
+        
+        # Initialize database
+        config = get_settings()
+        init_db(config.DB_URL)
+        engine = get_engine()
+        
+        # Query scored items for the day
+        with Session(engine) as session:
+            # Get top 5 positive drivers
+            positive_stmt = (
+                select(ScoredItem)
+                .where(ScoredItem.ts >= start_time)
+                .where(ScoredItem.ts <= end_time)
+                .where(ScoredItem.polarity > 0)
+                .order_by(desc(ScoredItem.polarity))
+                .limit(5)
+            )
+            positive_results = session.execute(positive_stmt).scalars().all()
+            
+            # Get top 5 negative drivers
+            negative_stmt = (
+                select(ScoredItem)
+                .where(ScoredItem.ts >= start_time)
+                .where(ScoredItem.ts <= end_time)
+                .where(ScoredItem.polarity < 0)
+                .order_by(ScoredItem.polarity)  # Ascending to get most negative first
+                .limit(5)
+            )
+            negative_results = session.execute(negative_stmt).scalars().all()
+        
+        # Check if we have any data for this day
+        if not positive_results and not negative_results:
+            logger.info(
+                f"No sentiment data found for date",
+                extra={'date': str(parsed_date)}
+            )
+            raise HTTPException(
+                status_code=404,
+                detail=f"No sentiment data available for {parsed_date}"
+            )
+        
+        # Fetch raw items for titles and URLs
+        raw_items_map = {}
+        try:
+            # Calculate hours to look back from the target date
+            days_ago = (date.today() - parsed_date).days
+            hours_to_fetch = max(24, (days_ago + 1) * 24)  # At least 24 hours, or more for older dates
+            
+            raw_items = get_recent_raw_items(hours=min(hours_to_fetch, 168))  # Cap at 7 days
+            raw_items_map = {item['id']: item for item in raw_items}
+        except Exception as e:
+            logger.warning(
+                f"Could not fetch raw items for metadata",
+                extra={'error': str(e), 'date': str(parsed_date)}
+            )
+        
+        # Convert to TopDriverItem models
+        def create_driver_item(scored_item) -> TopDriverItem:
+            """Helper function to create TopDriverItem from ScoredItem."""
+            item_id = cast(str, scored_item.id)
+            raw_item = raw_items_map.get(item_id, {})
+            
+            # Use title from raw item or construct a fallback
+            title = raw_item.get('title', f'Item {item_id[:8]}...')
+            
+            return TopDriverItem(
+                title=title,
+                polarity=float(cast(float, scored_item.polarity)),
+                url=raw_item.get('url', ''),
+                source=cast(str, scored_item.source)
+            )
+        
+        # Create response
+        positives = [create_driver_item(item) for item in positive_results]
+        negatives = [create_driver_item(item) for item in negative_results]
+        
+        logger.info(
+            f"Retrieved top drivers for date",
+            extra={
+                'date': str(parsed_date),
+                'positives_count': len(positives),
+                'negatives_count': len(negatives)
+            }
+        )
+        
+        return TopDriversResponse(
+            day=parsed_date,
+            positives=positives,
+            negatives=negatives
+        )
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(
+            f"Error retrieving top drivers",
+            extra={'error': str(e), 'day': day}
+        )
+        raise HTTPException(status_code=500, detail="Internal server error")
+
+
 @router.get("/sentiment")
 async def get_top_sentiment_drivers(
     limit: int = Query(10, description="Number of top items to return", ge=1, le=100),

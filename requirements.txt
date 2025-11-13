@@ -9,5 +9,6 @@ pydantic-settings
 plotly
 requests
 pytest
+httpx
 python-json-logger
 feedparser
