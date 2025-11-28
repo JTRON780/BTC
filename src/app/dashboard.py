@@ -271,8 +271,8 @@ def main():
     days = st.sidebar.slider(
         "Days to Display",
         min_value=7,
-        max_value=90,
-        value=30,
+        max_value=180,
+        value=30 if granularity == "daily" else 7,
         step=1,
         help="Number of days to show in the trend chart"
     )
@@ -313,8 +313,8 @@ def main():
     st.markdown("### 📊 Key Metrics")
     
     # Calculate metrics
-    current_smoothed = data_points[-1]["smoothed"] if data_points else 0
-    current_raw = data_points[-1]["raw"] if data_points else 0
+    current_smoothed = data_points[-1]["smoothed"] if data_points else 0.0
+    current_raw = data_points[-1]["raw"] if data_points else 0.0
     
     # Calculate 24h delta (last vs previous day)
     delta_24h = 0
@@ -357,16 +357,16 @@ def main():
     with col3:
         st.metric(
             label="24h Change",
-            value=f"{current_smoothed:.3f}",
-            delta=f"{delta_24h:+.3f}",
+            value=f"{delta_24h:+.3f}",
+            delta=None,
             help="Change in sentiment over the last 24 hours"
         )
     
     with col4:
         st.metric(
             label="7d Change",
-            value=f"{current_smoothed:.3f}",
-            delta=f"{delta_7d:+.3f}",
+            value=f"{delta_7d:+.3f}",
+            delta=None,
             help="Change in sentiment over the last 7 days"
         )
     
@@ -382,6 +382,10 @@ def main():
     with viz_col1:
         st.markdown("### 📈 Sentiment Trend")
         trend_chart = create_sentiment_chart(data_points, granularity)
+        # Constrain x-axis to the selected range window
+        end_dt = datetime.now()
+        start_dt = end_dt - timedelta(days=days)
+        trend_chart.update_xaxes(range=[start_dt, end_dt])
         st.plotly_chart(trend_chart, use_container_width=True)
     
     with viz_col2:

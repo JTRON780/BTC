@@ -144,8 +144,8 @@ def compute_rollups(granularity: str = 'hourly', days: int = 7) -> List[Dict[str
 
     logger.info("Fetched scored items for aggregation", extra={'count': len(rows)})
 
-    # Group by (window_ts, source)
-    groups: Dict[Tuple[datetime, str], List[Tuple[float, float]]] = defaultdict(list)
+    # Group across all sources per time window
+    groups: Dict[datetime, List[Tuple[float, float]]] = defaultdict(list)
     # store list of (polarity, weight)
 
     for r in rows:
@@ -157,13 +157,13 @@ def compute_rollups(granularity: str = 'hourly', days: int = 7) -> List[Dict[str
         source_val = cast(str, r.source) if getattr(r, 'source', None) is not None else 'unknown'
         weight = _weight_for_source(source_val)
         polarity_val = float(cast(float, r.polarity))
-        groups[(window, source_val)].append((polarity_val, weight))
+        groups[window].append((polarity_val, weight))
 
     logger.info("Computed groups for aggregation", extra={'groups': len(groups)})
 
-    # Compute weighted average per group
-    raw_results = []
-    for (window, source), values in groups.items():
+    # Compute weighted average per window
+    raw_series = []
+    for window, values in groups.items():
         total_weight = sum(w for (_, w) in values)
         if total_weight == 0:
             raw_value = 0.0
@@ -173,21 +173,21 @@ def compute_rollups(granularity: str = 'hourly', days: int = 7) -> List[Dict[str
 
         n_posts = len(values)
 
-        raw_results.append({
+        raw_series.append({
             'ts': window,
-            'source': source,
+            'source': 'combined',  # placeholder for EWMA grouping
             'granularity': granularity,
             'raw_value': float(raw_value),
             'n_posts': n_posts,
         })
 
-    # Sort by source, then by ts for EWMA computation
-    raw_results.sort(key=lambda x: (x['source'], x['ts']))
+    # Sort by timestamp
+    raw_series.sort(key=lambda x: x['ts'])
 
-    # Apply EWMA smoothing per source
-    results_with_ewma = _apply_ewma_smoothing(raw_results, alpha=0.2)
+    # Apply EWMA smoothing on combined series
+    results_with_ewma = _apply_ewma_smoothing(raw_series, alpha=0.2)
 
-    # Remove source field and sort by timestamp for final output
+    # Prepare final output without source
     final_results = []
     for item in results_with_ewma:
         final_results.append({
@@ -198,7 +198,7 @@ def compute_rollups(granularity: str = 'hourly', days: int = 7) -> List[Dict[str
             'n_posts': item['n_posts'],
         })
 
-    # Sort results by ts for final output
+    # Sort results by ts
     final_results.sort(key=lambda x: x['ts'])
 
     return final_results
