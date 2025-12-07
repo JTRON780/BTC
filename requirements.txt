@@ -2,7 +2,7 @@ fastapi
 uvicorn
 streamlit
 transformers
-torch
+# torch installed separately as CPU-only version in GitHub Actions
 sqlalchemy
 pandas
 pydantic-settings
