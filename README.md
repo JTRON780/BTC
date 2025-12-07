@@ -3,7 +3,21 @@ Everything Bitcoin - Real-time sentiment analysis and dashboard
 
 ## 🚀 Quick Start
 
-### Option 1: Docker (Recommended)
+### Option 1: Automated Scheduling (New! ⭐)
+
+**Run pipelines automatically with GitHub Actions or local scheduler:**
+
+```bash
+# Local scheduler (runs every hour)
+python -m src.pipelines.scheduler --daemon --interval 1
+
+# Or run once
+python -m src.pipelines.scheduler --once
+```
+
+**GitHub Actions:** See `AUTOMATION_SETUP.md` for setup instructions. Pipelines run automatically every hour!
+
+### Option 2: Docker (Recommended for Full Stack)
 
 The easiest way to run the entire stack:
 
@@ -20,7 +34,7 @@ Access the services:
 - **API**: http://localhost:8000
 - **API Docs**: http://localhost:8000/docs
 
-### Option 2: Local Development
+### Option 3: Local Development
 
 ```bash
 # Create virtual environment
@@ -63,6 +77,16 @@ pytest src/tests/ --quiet
 # Run fast tests only
 pytest src/tests/ -m fast
 ```
+
+## 🤖 Automated Pipeline Scheduling
+
+**New!** Pipelines can now run automatically:
+- **GitHub Actions** - Runs every hour (free for public repos)
+- **Local Scheduler** - Run on your machine with `python -m src.pipelines.scheduler --daemon`
+- **Cloud Deployment** - Deploy to Render/Railway for continuous operation
+
+See [AUTOMATION_SETUP.md](AUTOMATION_SETUP.md) for quick start guide.  
+See [DEPLOYMENT.md](DEPLOYMENT.md) for full deployment options.
 
 ## 🐋 Docker Deployment
 

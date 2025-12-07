@@ -1,0 +1,84 @@
+name: BTC Sentiment Pipeline
+
+on:
+  # Run on schedule (every hour)
+  schedule:
+    - cron: '0 * * * *'  # Every hour at minute 0
+  
+  # Allow manual triggering
+  workflow_dispatch:
+  
+  # Run on push to main (optional - for testing)
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/pipelines/**'
+      - '.github/workflows/pipeline.yml'
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Create .env file
+        run: |
+          # Create .env from GitHub Secrets
+          cat > .env << EOF
+          DB_URL=sqlite:///btc_sentiment.db
+          NEWS_FEEDS=${{ secrets.NEWS_FEEDS }}
+          REDDIT_FEEDS=${{ secrets.REDDIT_FEEDS }}
+          COINGECKO_BASE=${{ secrets.COINGECKO_BASE || 'https://api.coingecko.com/api/v3' }}
+          ALLOWED_ORIGINS=${{ secrets.ALLOWED_ORIGINS || 'http://localhost:8501,http://localhost:8000' }}
+          EOF
+      
+      - name: Download database (if exists)
+        uses: actions/download-artifact@v3
+        with:
+          name: database
+          path: .
+        continue-on-error: true
+      
+      - name: Run collection pipeline
+        run: |
+          python -m src.pipelines.collect
+      
+      - name: Run scoring pipeline
+        run: |
+          python -m src.pipelines.score
+      
+      - name: Run aggregation pipeline (hourly)
+        run: |
+          python -m src.pipelines.aggregate --granularity hourly --days 7
+      
+      - name: Run aggregation pipeline (daily)
+        run: |
+          python -m src.pipelines.aggregate --granularity daily --days 30
+      
+      - name: Upload database as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: database
+          path: btc_sentiment.db
+          retention-days: 7
+      
+      - name: Summary
+        run: |
+          echo "✅ Pipeline completed successfully"
+          echo "Database saved as artifact for next run"
+
