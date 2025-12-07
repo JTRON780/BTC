@@ -7,12 +7,15 @@ analysis using the NLP model, and persists the results.
 
 import argparse
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import List, Dict, Any
 import json
 
+from sqlalchemy import select
+from sqlalchemy.orm import Session
+
 from src.core import get_logger, get_settings
-from src.data import get_recent_raw_items, save_scores, init_db
+from src.data import get_engine, RawItem, ScoredItem, init_db, save_scores
 from src.nlp import clean_text, compose_text, SentimentModel
 
 logger = get_logger(__name__)
@@ -22,18 +25,50 @@ def get_unscored_items(hours: int = 24) -> List[Dict[str, Any]]:
     """
     Retrieve recent raw items that haven't been scored yet.
     
+    Uses a LEFT JOIN to exclude items that already exist in scored_items,
+    ensuring we only process items that haven't been analyzed.
+    
     Args:
         hours: Number of hours to look back
         
     Returns:
-        List of raw item dictionaries
+        List of raw item dictionaries that haven't been scored
     """
     logger.info(f"Fetching unscored items", extra={'hours': hours})
     
-    # Get recent raw items
-    items = get_recent_raw_items(hours=hours)
+    engine = get_engine()
+    cutoff_time = datetime.utcnow() - timedelta(hours=hours)
     
-    logger.info(f"Found raw items", extra={'count': len(items)})
+    with Session(engine) as session:
+        # Query raw items that don't have corresponding scored items
+        # LEFT JOIN with WHERE scored_items.id IS NULL excludes already-scored items
+        stmt = (
+            select(RawItem)
+            .outerjoin(ScoredItem, RawItem.id == ScoredItem.id)
+            .where(RawItem.ts >= cutoff_time)
+            .where(ScoredItem.id.is_(None))  # Only items NOT in scored_items
+            .order_by(RawItem.ts.desc())
+        )
+        
+        results = session.execute(stmt).scalars().all()
+        
+        items = [
+            {
+                'id': item.id,
+                'source': item.source,
+                'ts': item.ts,
+                'title': item.title,
+                'text': item.text,
+                'url': item.url,
+                'created_at': item.created_at
+            }
+            for item in results
+        ]
+    
+    logger.info(
+        f"Found unscored items",
+        extra={'count': len(items), 'hours': hours}
+    )
     
     return items
 
