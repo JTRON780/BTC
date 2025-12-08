@@ -125,6 +125,10 @@ jobs:
         run: |
           python -m src.pipelines.aggregate --granularity daily --days 30
       
+      - name: Cleanup old data (keep 60 days)
+        run: |
+          python -m src.pipelines.cleanup --retention-days 60
+      
       - name: Upload database as artifact
         if: always()  # Upload even if some steps failed
         uses: actions/upload-artifact@v4

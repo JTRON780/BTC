@@ -28,29 +28,70 @@ from src.ingest.price import fetch_price_snapshot
 
 logger = get_logger(__name__)
 
+# Bitcoin-related keywords for filtering
+BTC_KEYWORDS = [
+    'bitcoin', 'btc', 'satoshi', 'sats', 'nakamoto',
+    'lightning network', 'taproot', 'ordinals'
+]
+
+
+def is_bitcoin_related(item: Dict[str, Any]) -> bool:
+    """Check if an item is Bitcoin-related based on title and text."""
+    title = item.get('title', '').lower()
+    text = item.get('text', '').lower()
+    combined = f"{title} {text}"
+    
+    return any(keyword in combined for keyword in BTC_KEYWORDS)
+
 
 def collect_news(feeds: List[str]) -> int:
-	"""Fetch and persist news items."""
-	items = fetch_news_feeds(feeds)
-	if not items:
-		logger.info("No news items fetched")
-		return 0
-	count = upsert_raw_items(items)
-	logger.info("News items saved", extra={"count": count})
-	return count
-
-
+    """Fetch and persist Bitcoin-related news items."""
+    items = fetch_news_feeds(feeds)
+    if not items:
+        logger.info("No news items fetched")
+        return 0
+    
+    # Filter to Bitcoin-related items only
+    btc_items = [item for item in items if is_bitcoin_related(item)]
+    filtered_count = len(items) - len(btc_items)
+    
+    if filtered_count > 0:
+        logger.info(
+            "Filtered non-Bitcoin items",
+            extra={"total": len(items), "filtered": filtered_count, "kept": len(btc_items)}
+        )
+    
+    if not btc_items:
+        logger.info("No Bitcoin-related news items found")
+        return 0
+    
+    count = upsert_raw_items(btc_items)
+    logger.info("Bitcoin news items saved", extra={"count": count})
+    return count
 def collect_reddit(feeds: List[str]) -> int:
-	"""Fetch and persist reddit items."""
-	items = fetch_reddit_feeds(feeds)
-	if not items:
-		logger.info("No reddit items fetched")
-		return 0
-	count = upsert_raw_items(items)
-	logger.info("Reddit items saved", extra={"count": count})
-	return count
-
-
+    """Fetch and persist Bitcoin-related reddit items."""
+    items = fetch_reddit_feeds(feeds)
+    if not items:
+        logger.info("No reddit items fetched")
+        return 0
+    
+    # Filter to Bitcoin-related items only
+    btc_items = [item for item in items if is_bitcoin_related(item)]
+    filtered_count = len(items) - len(btc_items)
+    
+    if filtered_count > 0:
+        logger.info(
+            "Filtered non-Bitcoin items",
+            extra={"total": len(items), "filtered": filtered_count, "kept": len(btc_items)}
+        )
+    
+    if not btc_items:
+        logger.info("No Bitcoin-related reddit items found")
+        return 0
+    
+    count = upsert_raw_items(btc_items)
+    logger.info("Bitcoin reddit items saved", extra={"count": count})
+    return count
 def collect_price_snapshot() -> int:
 	"""Fetch and persist a single BTC price snapshot."""
 	try:
