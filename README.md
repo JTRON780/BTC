@@ -3,39 +3,9 @@ Everything Bitcoin - Real-time sentiment analysis and dashboard
 
 ## 🚀 Quick Start
 
-### Option 1: Automated Scheduling (New! ⭐)
+### Option 1: Local Development (Recommended)
 
-**Run pipelines automatically with GitHub Actions or local scheduler:**
-
-```bash
-# Local scheduler (runs every hour)
-python -m src.pipelines.scheduler --daemon --interval 1
-
-# Or run once
-python -m src.pipelines.scheduler --once
-```
-
-**GitHub Actions:** See `AUTOMATION_SETUP.md` for setup instructions. Pipelines run automatically every hour!
-
-### Option 2: Docker (Recommended for Full Stack)
-
-The easiest way to run the entire stack:
-
-```bash
-# Using deployment script
-./deploy.sh start
-
-# Or using Docker Compose directly
-docker compose up -d
-```
-
-Access the services:
-- **Dashboard**: http://localhost:8501
-- **API**: http://localhost:8000
-- **API Docs**: http://localhost:8000/docs
-
-### Option 3: Local Development
-
+**Backend (FastAPI):**
 ```bash
 # Create virtual environment
 python -m venv .venv
@@ -44,78 +14,160 @@ source .venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Run API
-uvicorn src.api.main:app --reload
-
-# Run Dashboard (in separate terminal)
-streamlit run src/app/dashboard.py
+# Run API server
+python -m uvicorn src.api.main:app --reload
 ```
+
+**Frontend (Next.js):**
+```bash
+# Navigate to frontend directory
+cd frontend
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+```
+
+Access the services:
+- **Dashboard**: http://localhost:3000
+- **API**: http://localhost:8000
+- **API Docs**: http://localhost:8000/docs
+
+### Option 2: Production Build
+
+**Backend:**
+```bash
+# Activate environment
+source .venv/bin/activate
+
+# Run with production server
+python -m uvicorn src.api.main:app --host 0.0.0.0 --port 8000
+```
+
+**Frontend:**
+```bash
+cd frontend
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
+
+### Option 3: Automated Data Pipeline
+
+**Run pipelines automatically with GitHub Actions:**
+
+```bash
+# Manual pipeline execution
+python -m src.pipelines.collect    # Fetch news/Reddit/price data
+python -m src.pipelines.score      # Run FinBERT sentiment analysis
+python -m src.pipelines.aggregate  # Generate daily/hourly indices
+python -m src.pipelines.cleanup    # Clean old data (60-day retention)
+```
+
+**GitHub Actions:** Pipelines run automatically every hour via `.github/workflows/pipeline.yml`
 
 ## 📦 What's Inside
 
 ### Backend (FastAPI)
-- `/api/v1/sentiment/` - Get sentiment index data
-- `/api/v1/drivers/` - Get top sentiment drivers
+- `/api/v1/sentiment/` - Get sentiment index data (daily/hourly)
+- `/api/v1/drivers/` - Get top sentiment drivers (positive/negative articles)
 - `/api/v1/health` - Health check endpoint
 - Auto-generated OpenAPI docs at `/docs`
+- **Sentiment Engine**: FinBERT model for financial sentiment analysis
+- **Weighted Aggregation**: News sources (1.2x) + Reddit (1.0x)
+- **EWMA Smoothing**: Exponential weighted moving average (α=0.2)
 
-### Frontend (Streamlit)
-- Real-time KPI cards (Current Index, 24h Change, Volatility)
-- Interactive Plotly charts with zoom/pan
-- Gauge visualization for sentiment strength
-- Top positive/negative drivers display
+### Frontend (Next.js 14)
+- **Modern React UI** with TypeScript + Tailwind CSS
+- **Real-time KPI Cards**: Current Sentiment, Raw Sentiment, 24h/7d Changes
+### Data Pipeline
+- **Collection**: RSS feeds (Cointelegraph, Decrypt) + Reddit (r/bitcoin, r/cryptocurrency)
+- **Bitcoin Filtering**: Keyword-based filtering for BTC-specific content
+- **Sentiment Scoring**: FinBERT model (ProsusAI/finbert)
+- **Aggregation**: Weighted average + EWMA smoothing
+- **Retention**: 60-day rolling window for raw data, indefinite for indices
+- **Automation**: GitHub Actions hourly cron job
 
 ### Testing
-- 63 comprehensive tests (unit + E2E)
-- Pytest with custom markers (`@pytest.mark.fast`, `@pytest.mark.e2e`)
-- 100% passing test suite
-
 ```bash
 # Run all tests
-pytest src/tests/ --quiet
+pytest src/tests/ -v
 
-# Run fast tests only
-pytest src/tests/ -m fast
+# Run specific test suite
+pytest src/tests/test_api.py -v
+pytest src/tests/test_sentiment.py -v
+pytest src/tests/test_aggregate.py -v
 ```
 
-## 🤖 Automated Pipeline Scheduling
+## 🤖 Data Pipeline
 
-**New!** Pipelines can now run automatically:
-- **GitHub Actions** - Runs every hour (free for public repos)
-- **Local Scheduler** - Run on your machine with `python -m src.pipelines.scheduler --daemon`
-- **Cloud Deployment** - Deploy to Render/Railway for continuous operation
-
-See [AUTOMATION_SETUP.md](AUTOMATION_SETUP.md) for quick start guide.  
-See [DEPLOYMENT.md](DEPLOYMENT.md) for full deployment options.
-
-## 🐋 Docker Deployment
-
-See [DOCKER.md](DOCKER.md) for comprehensive Docker deployment guide.
-
-**Quick Commands:**
+### Manual Execution
 ```bash
-./deploy.sh build      # Build images
-./deploy.sh start      # Start services
-./deploy.sh stop       # Stop services
-./deploy.sh logs       # View logs
-./deploy.sh status     # Check health
-./deploy.sh clean      # Remove everything
+# Activate environment
+source .venv/bin/activate
+
+# Run full pipeline
+python -m src.pipelines.collect      # Fetch data (news, Reddit, prices)
+python -m src.pipelines.score        # Score sentiment with FinBERT
+python -m src.pipelines.aggregate    # Compute daily/hourly indices
+python -m src.pipelines.cleanup      # Remove data older than 60 days
+
+# Backfill historical data
+python -m src.pipelines.backfill --days 90           # Price history
+python -m src.pipelines.historical_backfill --days 30  # Synthetic content
 ```
 
 ## 📁 Project Structure
 
 ```
 BTC/
+├── frontend/                   # Next.js 14 frontend
+│   ├── app/
+│   │   ├── layout.tsx         # Root layout
+│   │   └── page.tsx           # Main dashboard page
+│   ├── components/
+│   │   ├── kpi-card.tsx       # Metric cards
+│   │   ├── sentiment-chart.tsx # Recharts line chart
+│   │   └── top-drivers.tsx    # Article lists
+│   ├── lib/
+│   │   ├── api.ts             # API client
+│   │   └── utils.ts           # Utility functions
+│   ├── .env.local             # Environment variables
+│   └── package.json           # Dependencies
 ├── src/
-│   ├── api/              # FastAPI backend
-│   │   ├── main.py       # App entry point
-│   │   ├── routes/       # API endpoints
-│   │   └── schemas/      # Pydantic models
-│   ├── app/              # Streamlit frontend
-│   │   ├── dashboard.py  # Main dashboard
-│   │   └── __init__.py   # Launch helpers
-│   ├── nlp/              # NLP processing
-│   ├── pipelines/        # Data pipelines
+│   ├── api/                   # FastAPI backend
+│   │   ├── main.py            # App entry point
+│   │   ├── routes/            # API endpoints
+│   │   │   ├── index.py       # Sentiment index endpoint
+│   │   │   ├── top_drivers.py # Top drivers endpoint
+│   │   │   └── health.py      # Health check
+│   │   └── schemas/           # Pydantic models
+│   ├── nlp/                   # NLP processing
+│   │   ├── models.py          # FinBERT wrapper
+│   │   └── preprocess.py      # Text cleaning
+│   ├── pipelines/             # Data pipelines
+│   │   ├── collect.py         # Data collection
+│   │   ├── score.py           # Sentiment scoring
+│   │   ├── aggregate.py       # Index aggregation
+│   │   ├── cleanup.py         # Data retention
+│   │   └── backfill.py        # Historical data
+│   ├── data/                  # Database models
+│   │   ├── schemas.py         # SQLAlchemy models
+│   │   └── stores.py          # Database operations
+│   └── tests/                 # Test suite
+│       ├── test_api.py        # API tests
+│       ├── test_sentiment.py  # NLP tests
+│       └── test_aggregate.py  # Aggregation tests
+├── .github/workflows/
+│   └── pipeline.yml           # Automated pipeline
+├── requirements.txt           # Python dependencies
+└── pytest.ini                 # Pytest configuration
+``` ├── pipelines/        # Data pipelines
 │   └── tests/            # Test suite
 │       ├── test_sentiment.py   # 21 NLP tests
 │       ├── test_aggregate.py   # 22 aggregation tests
@@ -132,34 +184,60 @@ BTC/
 
 ### Configuration
 
-Copy `.env.example` to `.env` and configure:
+## 📊 Architecture
 
-```bash
-cp .env.example .env
+```
+┌──────────────────────────────────────────────────────┐
+│ Next.js Frontend (Port 3000)                        │
+│  - TypeScript + Tailwind CSS                        │
+│  - Recharts visualization                           │
+│  - Server-side rendering                            │
+│  - Real-time data fetching                          │
+└────────────┬─────────────────────────────────────────┘
+             │ HTTP/fetch API
+             ▼
+┌──────────────────────────────────────────────────────┐
+│ FastAPI Backend (Port 8000)                         │
+│  - /api/v1/sentiment/?granularity=daily&days=30     │
+│  - /api/v1/drivers/?date=YYYY-MM-DD                 │
+│  - /api/v1/health                                   │
+│  - CORS Enabled (localhost:3000)                    │
+└────────────┬─────────────────────────────────────────┘
+             │ SQLAlchemy ORM
+             ▼
+┌──────────────────────────────────────────────────────┐
+│ SQLite Database (data/sentiment.db)                 │
+│  - raw_items: RSS/Reddit posts                      │
+│  - scored_items: FinBERT sentiment scores           │
+│  - sentiment_indices: Daily/hourly aggregations     │
+│  - prices: BTC price snapshots                      │
+└──────────────────────────────────────────────────────┘
+             ▲
+             │
+┌──────────────────────────────────────────────────────┐
+│ Data Pipeline (GitHub Actions Hourly)              │
+│  1. collect.py → Fetch RSS + Reddit + Price         │
+│  2. score.py → FinBERT sentiment analysis           │
+│  3. aggregate.py → Weighted avg + EWMA smoothing    │
+│  4. cleanup.py → 60-day retention policy            │
+└──────────────────────────────────────────────────────┘
 ```
 
-### Running Tests
+## 🧮 Sentiment Calculation
 
-```bash
-# All tests
-pytest src/tests/ -v
+1. **Scoring**: FinBERT model returns `{neg, neu, pos}` probabilities
+## 🙏 Acknowledgments
 
-# Specific test file
-pytest src/tests/test_sentiment.py -v
+- **FastAPI** - Modern Python web framework
+- **Next.js** - React framework for production
+- **FinBERT** (ProsusAI/finbert) - Financial sentiment model
+- **Recharts** - Composable charting library
+- **Tailwind CSS** - Utility-first CSS framework
+- **Pytest** - Testing frameworkeight)`
 
-# With coverage
-pytest src/tests/ --cov=src --cov-report=html
-```
-
-### Code Quality
-
-```bash
-# Format code
-black src/
-
-# Lint
-flake8 src/
-
+3. **EWMA Smoothing** (α=0.2):
+   - Formula: `smoothed = 0.2 × raw + 0.8 × previous_smoothed`
+   - Reduces noise while preserving trends
 # Type checking
 mypy src/
 ```
