@@ -92,11 +92,22 @@ jobs:
           PYTHON
       
       - name: Download database (if exists)
+        id: download-db
         uses: actions/download-artifact@v4
         with:
           name: database
           path: .
         continue-on-error: true
+      
+      - name: Check if database was downloaded
+        run: |
+          if [ -f "btc_sentiment.db" ]; then
+            echo "✅ Found existing database, will append new data"
+            ls -lh btc_sentiment.db
+          else
+            echo "ℹ️ No existing database found - this is normal on first run"
+            echo "Creating new database..."
+          fi
       
       - name: Run collection pipeline
         run: |
@@ -115,14 +126,21 @@ jobs:
           python -m src.pipelines.aggregate --granularity daily --days 30
       
       - name: Upload database as artifact
+        if: always()  # Upload even if some steps failed
         uses: actions/upload-artifact@v4
         with:
           name: database
           path: btc_sentiment.db
           retention-days: 7
+          if-no-files-found: warn  # Warn instead of failing if file doesn't exist
       
       - name: Summary
         run: |
           echo "✅ Pipeline completed successfully"
-          echo "Database saved as artifact for next run"
+          if [ -f "btc_sentiment.db" ]; then
+            echo "📦 Database saved as artifact for next run"
+            ls -lh btc_sentiment.db
+          else
+            echo "⚠️ No database file found to upload"
+          fi
 
