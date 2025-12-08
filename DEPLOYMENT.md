@@ -1,53 +1,136 @@
 # Deployment Guide for BTC Sentiment Analysis
 
-## ⚠️ Important: GitHub Pages Limitation
+## 🎯 Current Setup
 
-**GitHub Pages cannot run Python applications or scheduled tasks.** It only hosts static HTML/CSS/JS files.
+Your GitHub Actions pipeline already runs automatically every hour to:
+- ✅ Collect new data (RSS feeds, Reddit, BTC price)
+- ✅ Score sentiment with FinBERT
+- ✅ Aggregate daily/hourly indices  
+- ✅ Clean up old data (60-day retention)
+- ✅ Save database as artifact for next run
 
-However, we can use **GitHub Actions** to run the pipelines automatically, and deploy the dashboard to alternative platforms.
+**The data pipeline is fully automated!** Now you just need to deploy the frontend/backend to serve the data.
 
 ---
 
-## 🚀 Deployment Options
+## 🚀 Recommended Deployment (Free Tier)
 
-### Option 1: GitHub Actions (Recommended for Automation) ✅
+### Architecture
+```
+GitHub Actions (hourly)
+    ↓ generates database
+    ↓
+Railway/Render Backend (downloads DB artifact)
+    ↑ API calls
+    ↑
+Vercel Frontend (free, auto-deploy)
+```
 
-**Best for:** Automated data collection and processing
+### 1. Deploy Frontend to Vercel (Free)
 
-**What it does:**
-- Runs pipelines on a schedule (every hour)
-- Stores database as artifact
-- Completely free for public repositories
+**Perfect for Next.js apps with automatic deployments**
 
-**Setup:**
+```bash
+# Install Vercel CLI
+npm i -g vercel
 
-1. **Add GitHub Secrets:**
-   Go to: `Settings > Secrets and variables > Actions > New repository secret`
+# Deploy from frontend directory
+cd frontend
+vercel --prod
+```
+
+**Or via Vercel Dashboard:**
+1. Go to https://vercel.com/new
+2. Import your GitHub repo (`JTRON780/BTC`)
+3. Set **Root Directory:** `frontend`
+4. Add environment variable:
+   - `NEXT_PUBLIC_API_URL` = `https://your-backend.railway.app` (add after backend setup)
+5. Click **Deploy**
+
+**Result:** Frontend auto-deploys on every git push to main!
+
+---
+
+### 2. Deploy Backend to Railway (Free 500 hrs/month)
+
+**Perfect for Python APIs with persistent storage**
+
+1. **Create Railway account** at https://railway.app
+
+2. **New Project** → **Deploy from GitHub repo**
+
+3. **Select** `JTRON780/BTC`
+
+4. **Settings:**
+   - **Start Command:**
+     ```bash
+     python -m uvicorn src.api.main:app --host 0.0.0.0 --port $PORT
+     ```
    
-   Add these secrets:
+   - **Environment Variables:**
+     ```
+     DB_URL=sqlite:///data/btc_sentiment.db
+     ALLOWED_ORIGINS=https://your-vercel-app.vercel.app
+     ```
+
+5. **Add Persistent Storage:**
+   - Railway → **Variables** → **New Volume**
+   - **Mount Path:** `/data`
+   - This keeps your database between deployments!
+
+6. **Add Database Sync (Optional):**
+   
+   Create `railway-start.sh` in project root:
+   ```bash
+   #!/bin/bash
+   # Download latest database from GitHub Actions
+   mkdir -p /data
+   
+   # Use GitHub API to get latest artifact (requires GITHUB_TOKEN)
+   if [ ! -z "$GITHUB_TOKEN" ]; then
+     echo "Downloading latest database from GitHub Actions..."
+     curl -L \
+       -H "Accept: application/vnd.github+json" \
+       -H "Authorization: Bearer $GITHUB_TOKEN" \
+       "https://api.github.com/repos/JTRON780/BTC/actions/artifacts" \
+       | jq -r '.artifacts[] | select(.name=="database") | .archive_download_url' | head -1 \
+       | xargs curl -L -H "Authorization: Bearer $GITHUB_TOKEN" -o /tmp/database.zip
+     
+     unzip -o /tmp/database.zip -d /data
+     rm /tmp/database.zip
+   fi
+   
+   # Start backend
+   python -m uvicorn src.api.main:app --host 0.0.0.0 --port $PORT
    ```
-   NEWS_FEEDS=https://cointelegraph.com/rss,https://decrypt.co/feed
-   REDDIT_FEEDS=bitcoin,cryptocurrency
-   COINGECKO_BASE=https://api.coingecko.com/api/v3
-   ALLOWED_ORIGINS=https://your-domain.com
+   
+   Update Railway **Start Command:**
+   ```bash
+   chmod +x railway-start.sh && ./railway-start.sh
+   ```
+   
+   Add to Railway **Environment Variables:**
+   ```
+   GITHUB_TOKEN=${{ your GitHub personal access token }}
    ```
 
-2. **The workflow is already configured** in `.github/workflows/pipeline.yml`
-   - Runs every hour automatically
-   - Can be triggered manually via "Actions" tab
-
-3. **View results:**
-   - Check "Actions" tab to see pipeline runs
-   - Database is saved as artifact (downloadable)
-
-**Limitations:**
-- Database is ephemeral (resets if artifact expires)
-- No persistent storage between runs
-- Cannot host dashboard directly
+7. **Get your Railway URL** (e.g., `https://btc-production.up.railway.app`)
 
 ---
 
-### Option 2: Render.com (Recommended for Full Deployment) 🌟
+### 3. Connect Frontend to Backend
+
+Update Vercel environment variable:
+- `NEXT_PUBLIC_API_URL` = `https://your-backend.railway.app`
+
+Update Railway CORS:
+- `ALLOWED_ORIGINS` = `https://your-frontend.vercel.app,http://localhost:3000`
+
+**Done!** Your app is live and auto-updates hourly! 🎉
+
+---
+
+## 🔄 Alternative: Render.com (Free with limitations)
 
 **Best for:** Complete deployment with dashboard + API + scheduled tasks
 

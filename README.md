@@ -15,8 +15,10 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 # Run API server
-python -m uvicorn src.api.main:app --reload
+uvicorn src.api.main:app --reload
 ```
+
+> **💡 Tip:** For automated cloud deployment, see [DEPLOYMENT.md](DEPLOYMENT.md) - includes Vercel (frontend) + Railway (backend) setup with automatic database sync from GitHub Actions.
 
 **Frontend (Next.js):**
 ```bash
@@ -70,6 +72,11 @@ python -m src.pipelines.cleanup    # Clean old data (60-day retention)
 ```
 
 **GitHub Actions:** Pipelines run automatically every hour via `.github/workflows/pipeline.yml`
+
+> **🚀 Production Deployment:** See [DEPLOYMENT.md](DEPLOYMENT.md) for automated cloud deployment with:
+> - **Vercel** (free frontend hosting with auto-deploy)
+> - **Railway** (free backend with database persistence)  
+> - **GitHub Actions** (automated hourly data updates)
 
 ## 📦 What's Inside
 
