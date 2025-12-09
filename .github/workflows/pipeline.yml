@@ -93,23 +93,36 @@ jobs:
               print(f.read())
           PYTHON
       
-      - name: Download database (if exists)
-        id: download-db
-        uses: actions/download-artifact@v4
-        with:
-          name: database
-          path: .
-        continue-on-error: true
-      
-      - name: Check if database was downloaded
+      - name: Download database from latest release
         run: |
-          if [ -f "btc_sentiment.db" ]; then
-            echo "✅ Found existing database, will append new data"
-            ls -lh btc_sentiment.db
+          echo "🔍 Checking for existing database releases..."
+          
+          # Get the most recent database release tag
+          LATEST_TAG=$(gh release list --limit 100 --json tagName,createdAt \
+            | jq -r '[.[] | select(.tagName | startswith("db-"))] | sort_by(.createdAt) | reverse | .[0].tagName' \
+            | head -1)
+          
+          if [ ! -z "$LATEST_TAG" ] && [ "$LATEST_TAG" != "null" ]; then
+            echo "📥 Found latest database release: $LATEST_TAG"
+            echo "   Downloading database..."
+            
+            # Download the database file from the release
+            gh release download "$LATEST_TAG" --pattern "btc_sentiment.db" --clobber || {
+              echo "⚠️  Download failed, will start with fresh database"
+              exit 0
+            }
+            
+            if [ -f "btc_sentiment.db" ]; then
+              echo "✅ Database downloaded successfully"
+              ls -lh btc_sentiment.db
+              sqlite3 btc_sentiment.db "SELECT COUNT(*) as total_records FROM sentiment_indices;" || echo "   (Database stats unavailable)"
+            fi
           else
-            echo "ℹ️ No existing database found - this is normal on first run"
-            echo "Creating new database..."
+            echo "ℹ️  No previous database releases found"
+            echo "   This is normal on first run - will create new database"
           fi
+        env:
+          GH_TOKEN: ${{ github.token }}
       
       - name: Run collection pipeline
         run: |
@@ -131,33 +144,46 @@ jobs:
         run: |
           python -m src.pipelines.cleanup --retention-days 60
       
-      - name: Upload database as artifact
-        if: always()  # Upload even if some steps failed
-        uses: actions/upload-artifact@v4
-        with:
-          name: database
-          path: btc_sentiment.db
-          retention-days: 7
-          if-no-files-found: warn  # Warn instead of failing if file doesn't exist
-      
       - name: Upload to GitHub Release (for Render to download)
         if: success()
         run: |
+          echo "📦 Preparing database release..."
+          
+          # Show database stats before upload
+          if [ -f "btc_sentiment.db" ]; then
+            echo "Database size: $(du -h btc_sentiment.db | cut -f1)"
+            echo "Records by granularity:"
+            sqlite3 btc_sentiment.db "SELECT granularity, COUNT(*) as count FROM sentiment_indices GROUP BY granularity;" || echo "  (Stats unavailable)"
+          fi
+          
           # Create a release tag with timestamp
           TAG_NAME="db-$(date +%Y%m%d-%H%M%S)"
+          
+          echo "🚀 Creating release: $TAG_NAME"
           
           # Create release and upload database
           gh release create "$TAG_NAME" btc_sentiment.db \
             --title "Database Update $(date '+%Y-%m-%d %H:%M UTC')" \
-            --notes "Automated database update from pipeline" \
+            --notes "Automated database update from pipeline. Contains accumulated sentiment data." \
             --repo ${{ github.repository }}
           
+          echo "✅ Release created successfully"
+          
           # Keep only the 3 most recent releases (cleanup old ones)
-          gh release list --limit 100 --json tagName,createdAt --jq '.[] | select(.tagName | startswith("db-")) | .tagName' | tail -n +4 | xargs -I {} gh release delete {} --yes --cleanup-tag || true
-        env:
-          GH_TOKEN: ${{ github.token }}
-      
       - name: Summary
+        run: |
+          echo "✅ Pipeline completed successfully"
+          if [ -f "btc_sentiment.db" ]; then
+            echo "📦 Database uploaded to GitHub Release"
+            echo "🌐 Render will download latest release on next deployment"
+            echo ""
+            echo "Database info:"
+            ls -lh btc_sentiment.db
+            echo ""
+            echo "Next run will download this database and append new data"
+          else
+            echo "⚠️ No database file found"
+          fi
         run: |
           echo "✅ Pipeline completed successfully"
           if [ -f "btc_sentiment.db" ]; then
