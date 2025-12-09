@@ -35,9 +35,10 @@ COPY --from=base /usr/local/bin /usr/local/bin
 # Copy application source code
 COPY src/ /app/src/
 COPY .env* /app/
+COPY start.sh /app/
 
 # Create data directory for SQLite database
-RUN mkdir -p /app/data
+RUN mkdir -p /app/data && chmod +x /app/start.sh
 
 # ARG for build-time configuration (can be overridden at build time)
 ARG MODE=api
@@ -52,10 +53,6 @@ ENV PYTHONPATH=/app
 # 8501 for Streamlit dashboard
 EXPOSE 8000 8501
 
-# Default command runs the FastAPI backend
-# Override with MODE=app to run Streamlit dashboard
-CMD if [ "$MODE" = "app" ]; then \
-    streamlit run src/app/dashboard.py --server.port 8501 --server.address 0.0.0.0; \
-    else \
-    uvicorn src.api.main:app --host 0.0.0.0 --port 8000; \
-    fi
+# Use startup script that handles database setup
+CMD ["/app/start.sh"]
+

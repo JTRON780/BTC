@@ -138,13 +138,32 @@ jobs:
           retention-days: 7
           if-no-files-found: warn  # Warn instead of failing if file doesn't exist
       
+      - name: Upload to GitHub Release (for Render to download)
+        if: success()
+        run: |
+          # Create a release tag with timestamp
+          TAG_NAME="db-$(date +%Y%m%d-%H%M%S)"
+          
+          # Create release and upload database
+          gh release create "$TAG_NAME" btc_sentiment.db \
+            --title "Database Update $(date '+%Y-%m-%d %H:%M UTC')" \
+            --notes "Automated database update from pipeline" \
+            --repo ${{ github.repository }}
+          
+          # Keep only the 3 most recent releases (cleanup old ones)
+          gh release list --limit 100 --json tagName,createdAt --jq '.[] | select(.tagName | startswith("db-")) | .tagName' | tail -n +4 | xargs -I {} gh release delete {} --yes --cleanup-tag || true
+        env:
+          GH_TOKEN: ${{ github.token }}
+      
       - name: Summary
         run: |
           echo "✅ Pipeline completed successfully"
           if [ -f "btc_sentiment.db" ]; then
             echo "📦 Database saved as artifact for next run"
+            echo "🌐 Database uploaded to GitHub Releases (accessible to Render)"
             ls -lh btc_sentiment.db
           else
             echo "⚠️ No database file found to upload"
           fi
+
 
