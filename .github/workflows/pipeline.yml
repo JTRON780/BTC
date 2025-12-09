@@ -146,6 +146,8 @@ jobs:
       
       - name: Upload to GitHub Release (for Render to download)
         if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           echo "📦 Preparing database release..."
           
