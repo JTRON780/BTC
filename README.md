@@ -5,16 +5,6 @@ A real-time Bitcoin sentiment analysis dashboard that collects data from news an
 **Live Dashboard**: [Vercel Deployment](https://btc-sentiment.vercel.app)  
 **API**: [https://jtron780.github.io/BTC](https://jtron780.github.io/BTC)
 
-## Features
-
-- **📰 Multi-source Data Collection**: News feeds (Cointelegraph, Decrypt, CoinDesk) + Reddit discussions
-- **🧠 AI-Powered Sentiment Analysis**: FinBERT for financial sentiment classification
-- **📈 Real-time Metrics**: Daily/hourly sentiment indices with smoothing
-- **💰 Price Integration**: Current Bitcoin price with 24-hour changes
-- **🔝 Top Drivers**: Most influential positive/negative posts for each day
-- **⚡ Fully Serverless**: GitHub Actions automation + GitHub Pages API + Vercel frontend
-- **📱 Responsive UI**: Next.js dashboard with interactive charts
-
 ## Tech Stack
 
 **Backend**:
