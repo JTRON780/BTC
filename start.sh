@@ -21,13 +21,13 @@ echo "📥 Checking for latest database from GitHub Releases..."
 echo ""
 
 # Get latest release with database (public, no auth needed)
-LATEST_RELEASE=$(curl -s "https://api.github.com/repos/JTRON780/BTC/releases" | \
-    grep -A 3 '"tag_name".*"db-' | head -20)
+# Use simple grep to extract download URL from JSON
+LATEST_DB_URL=$(curl -s "https://api.github.com/repos/JTRON780/BTC/releases" | \
+    grep -o '"browser_download_url":[[:space:]]*"[^"]*btc_sentiment.db"' | \
+    head -1 | \
+    cut -d'"' -f4)
 
-if [ ! -z "$LATEST_RELEASE" ]; then
-    LATEST_DB_URL=$(echo "$LATEST_RELEASE" | grep -o 'https://github.com/JTRON780/BTC/releases/download/[^"]*btc_sentiment.db' | head -1)
-    
-    if [ ! -z "$LATEST_DB_URL" ]; then
+if [ ! -z "$LATEST_DB_URL" ]; then
         echo "✅ Found database release"
         echo "   URL: $LATEST_DB_URL"
         echo ""
@@ -53,9 +53,6 @@ if [ ! -z "$LATEST_RELEASE" ]; then
                 echo "⚠️  No database available - will start with empty database"
             fi
         fi
-    else
-        echo "⚠️  No database file found in releases"
-    fi
 else
     echo "⚠️  No database releases found on GitHub"
     echo "   GitHub Actions will create releases hourly"
