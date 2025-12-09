@@ -11,10 +11,19 @@ async function DashboardContent() {
   const granularity = 'daily';
   const days = 30;
   
-  // Fetch data
-  const sentimentData = await fetchSentimentIndex(granularity, days);
-  const today = format(new Date(), 'yyyy-MM-dd');
-  const driversData = await fetchTopDrivers(today);
+  // Fetch data with error handling
+  let sentimentData = { data: [] };
+  let driversData = { positives: [], negatives: [] };
+  
+  try {
+    [sentimentData, driversData] = await Promise.all([
+      fetchSentimentIndex(granularity, days),
+      fetchTopDrivers(format(new Date(), 'yyyy-MM-dd'))
+    ]);
+  } catch (error) {
+    console.error('Failed to fetch data from backend:', error);
+    // Continue with empty data rather than crashing
+  }
   
   // Calculate metrics
   const data = sentimentData.data || [];
