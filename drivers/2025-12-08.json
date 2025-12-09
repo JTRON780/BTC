@@ -1,0 +1,91 @@
+{
+  "day": "2025-12-08",
+  "positives": [
+    {
+      "title": "news_38a6c5c0919389fb",
+      "polarity": 0.8896087892353535,
+      "ts": "2025-12-08T22:03:25",
+      "source": "news"
+    },
+    {
+      "title": "news_ff9dbe51ee480623",
+      "polarity": 0.8747533597052097,
+      "ts": "2025-12-08T23:16:20",
+      "source": "news"
+    },
+    {
+      "title": "reddit_9d408fb965720c6a",
+      "polarity": 0.8568598413839936,
+      "ts": "2025-12-08T05:43:13",
+      "source": "www.reddit.com"
+    },
+    {
+      "title": "news_3963b103def32409",
+      "polarity": 0.7596677094697952,
+      "ts": "2025-12-08T03:29:52",
+      "source": "news"
+    },
+    {
+      "title": "news_06abb39925fd081f",
+      "polarity": 0.7398633067496121,
+      "ts": "2025-12-08T05:40:01",
+      "source": "news"
+    },
+    {
+      "title": "news_610532da429a5760",
+      "polarity": 0.6924000326544046,
+      "ts": "2025-12-08T21:51:01",
+      "source": "news"
+    },
+    {
+      "title": "news_b3c15fb16203b9fe",
+      "polarity": 0.4435005206614733,
+      "ts": "2025-12-08T22:28:16",
+      "source": "news"
+    },
+    {
+      "title": "reddit_f6e158a92c9f48d3",
+      "polarity": 0.28995954245328903,
+      "ts": "2025-12-08T20:52:43",
+      "source": "www.reddit.com"
+    },
+    {
+      "title": "news_5783680c57e0abf8",
+      "polarity": 0.1374788023531437,
+      "ts": "2025-12-08T20:54:00",
+      "source": "news"
+    },
+    {
+      "title": "reddit_f2b2a5dc5400604f",
+      "polarity": 0.12294953875243664,
+      "ts": "2025-12-08T03:02:00",
+      "source": "www.reddit.com"
+    }
+  ],
+  "negatives": [
+    {
+      "title": "news_511e6770cc381250",
+      "polarity": -0.9087006486952305,
+      "ts": "2025-12-08T05:48:38",
+      "source": "news"
+    },
+    {
+      "title": "news_a884fc2cf2e64024",
+      "polarity": -0.3294789809733629,
+      "ts": "2025-12-08T03:36:33",
+      "source": "news"
+    },
+    {
+      "title": "reddit_391e5ae64395b065",
+      "polarity": -0.022449642419815063,
+      "ts": "2025-12-08T00:21:47",
+      "source": "www.reddit.com"
+    },
+    {
+      "title": "reddit_0ccc484f6d6d5631",
+      "polarity": -0.008500201627612114,
+      "ts": "2025-12-08T00:55:52",
+      "source": "www.reddit.com"
+    }
+  ]
+}

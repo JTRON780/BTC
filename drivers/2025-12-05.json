@@ -1,0 +1,85 @@
+{
+  "day": "2025-12-05",
+  "positives": [
+    {
+      "title": "backfill_b4d2b04595253684",
+      "polarity": 0.9377723438665271,
+      "ts": "2025-12-05T03:17:29.674240",
+      "source": "news"
+    },
+    {
+      "title": "backfill_2df3d79823121a86",
+      "polarity": 0.9368585776537657,
+      "ts": "2025-12-05T12:17:29.674287",
+      "source": "news"
+    },
+    {
+      "title": "backfill_69caba233e36f3a7",
+      "polarity": 0.9356728252023458,
+      "ts": "2025-12-05T18:03:29.674265",
+      "source": "news"
+    },
+    {
+      "title": "backfill_75b4d357fc55b63e",
+      "polarity": 0.9214496146887541,
+      "ts": "2025-12-05T02:47:29.674255",
+      "source": "news"
+    },
+    {
+      "title": "backfill_4821a40722b8609c",
+      "polarity": 0.8541151015087962,
+      "ts": "2025-12-05T21:18:29.674275",
+      "source": "news"
+    },
+    {
+      "title": "news_9440542d4cd9e1a8",
+      "polarity": 0.796286360360682,
+      "ts": "2025-12-05T16:40:11",
+      "source": "news"
+    },
+    {
+      "title": "news_1eddc9c87bd7f86e",
+      "polarity": 0.16528266482055187,
+      "ts": "2025-12-05T14:14:10",
+      "source": "news"
+    }
+  ],
+  "negatives": [
+    {
+      "title": "news_6baa68b0a4427d87",
+      "polarity": -0.9649886311963201,
+      "ts": "2025-12-05T15:55:25",
+      "source": "news"
+    },
+    {
+      "title": "news_919ed120acae3f05",
+      "polarity": -0.9579845564439893,
+      "ts": "2025-12-05T12:19:06",
+      "source": "news"
+    },
+    {
+      "title": "news_88c973cf7019d86a",
+      "polarity": -0.9183607082813978,
+      "ts": "2025-12-05T17:56:10",
+      "source": "news"
+    },
+    {
+      "title": "news_72ce70a5427004df",
+      "polarity": -0.8781324066221714,
+      "ts": "2025-12-05T19:27:20",
+      "source": "news"
+    },
+    {
+      "title": "news_26760e6e53607a74",
+      "polarity": -0.7642722129821777,
+      "ts": "2025-12-05T04:43:42",
+      "source": "news"
+    },
+    {
+      "title": "news_2d986ce0c83accdc",
+      "polarity": -0.37402278184890747,
+      "ts": "2025-12-05T12:47:27",
+      "source": "news"
+    }
+  ]
+}

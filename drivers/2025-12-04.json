@@ -1,0 +1,49 @@
+{
+  "day": "2025-12-04",
+  "positives": [
+    {
+      "title": "backfill_a638600b980c3a2c",
+      "polarity": 0.9372691474854946,
+      "ts": "2025-12-04T16:09:29.674233",
+      "source": "news"
+    },
+    {
+      "title": "news_d2739ae79f0b0c1f",
+      "polarity": 0.92950090020895,
+      "ts": "2025-12-04T16:06:55",
+      "source": "news"
+    },
+    {
+      "title": "news_49a6401c1f53f5a9",
+      "polarity": 0.7627751287072897,
+      "ts": "2025-12-04T22:04:45",
+      "source": "news"
+    },
+    {
+      "title": "backfill_286d2475cf31e2ae",
+      "polarity": 0.6802709400653839,
+      "ts": "2025-12-04T09:05:29.674247",
+      "source": "news"
+    },
+    {
+      "title": "backfill_cd2ee5499e70bfe4",
+      "polarity": 0.6572807542979717,
+      "ts": "2025-12-04T07:09:29.674225",
+      "source": "news"
+    },
+    {
+      "title": "news_d2e97fd289628554",
+      "polarity": 0.17336568236351013,
+      "ts": "2025-12-04T21:36:01",
+      "source": "news"
+    }
+  ],
+  "negatives": [
+    {
+      "title": "news_9a3a46a39bad0a47",
+      "polarity": -0.9194110725075006,
+      "ts": "2025-12-04T17:47:13",
+      "source": "news"
+    }
+  ]
+}

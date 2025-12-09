@@ -1,0 +1,36 @@
+{
+  "day": "2025-12-03",
+  "positives": [
+    {
+      "title": "backfill_633c44663d2abe23",
+      "polarity": 0.9358524866402149,
+      "ts": "2025-12-03T02:22:29.674185",
+      "source": "news"
+    },
+    {
+      "title": "backfill_abad55cfc4b8cc40",
+      "polarity": 0.9283068273216486,
+      "ts": "2025-12-03T20:19:29.674217",
+      "source": "news"
+    },
+    {
+      "title": "news_1d1ebd827db98a55",
+      "polarity": 0.9206594405695796,
+      "ts": "2025-12-03T18:32:48",
+      "source": "news"
+    },
+    {
+      "title": "news_e166a95c9250f9bb",
+      "polarity": 0.5288548804819584,
+      "ts": "2025-12-03T14:32:33",
+      "source": "news"
+    },
+    {
+      "title": "backfill_7ff5f4fbe74698e1",
+      "polarity": 0.42915916442871094,
+      "ts": "2025-12-03T07:11:29.674209",
+      "source": "news"
+    }
+  ],
+  "negatives": []
+}

@@ -1,0 +1,127 @@
+{
+  "day": "2025-12-09",
+  "positives": [
+    {
+      "title": "news_89ff0307cec964e5",
+      "polarity": 0.8775291815400124,
+      "ts": "2025-12-09T20:28:49",
+      "source": "news"
+    },
+    {
+      "title": "news_10596c251e4f7e04",
+      "polarity": 0.8511796668171883,
+      "ts": "2025-12-09T20:55:16",
+      "source": "news"
+    },
+    {
+      "title": "news_893e98efdbd137bd",
+      "polarity": 0.8354010079056025,
+      "ts": "2025-12-09T15:55:40",
+      "source": "news"
+    },
+    {
+      "title": "news_fa7ab1ccb2fe365d",
+      "polarity": 0.7327912310138345,
+      "ts": "2025-12-09T15:00:24",
+      "source": "news"
+    },
+    {
+      "title": "news_9adf2b5774b17fd3",
+      "polarity": 0.729728676378727,
+      "ts": "2025-12-09T17:04:37",
+      "source": "news"
+    },
+    {
+      "title": "reddit_fcb7917ca7bb45e8",
+      "polarity": 0.7238758020102978,
+      "ts": "2025-12-09T08:56:05",
+      "source": "www.reddit.com"
+    },
+    {
+      "title": "news_a13a3765071f430f",
+      "polarity": 0.7236275561153889,
+      "ts": "2025-12-09T15:16:22",
+      "source": "news"
+    },
+    {
+      "title": "reddit_798397d2e6772f77",
+      "polarity": 0.6734801232814789,
+      "ts": "2025-12-09T18:10:19",
+      "source": "www.reddit.com"
+    },
+    {
+      "title": "news_74fa2fea7339514a",
+      "polarity": 0.6544666774570942,
+      "ts": "2025-12-09T18:15:32",
+      "source": "news"
+    },
+    {
+      "title": "news_c397999c19029008",
+      "polarity": 0.18468749802559614,
+      "ts": "2025-12-09T01:42:20",
+      "source": "news"
+    }
+  ],
+  "negatives": [
+    {
+      "title": "news_1492ab25c7ade53c",
+      "polarity": -0.9155539907515049,
+      "ts": "2025-12-09T05:19:59",
+      "source": "news"
+    },
+    {
+      "title": "reddit_9789cf00b9b8972d",
+      "polarity": -0.720074525102973,
+      "ts": "2025-12-09T15:42:56",
+      "source": "www.reddit.com"
+    },
+    {
+      "title": "reddit_de0511cc52e6214a",
+      "polarity": -0.5306348204612732,
+      "ts": "2025-12-09T02:59:32",
+      "source": "www.reddit.com"
+    },
+    {
+      "title": "news_cfe92576c649ad5c",
+      "polarity": -0.41349275037646294,
+      "ts": "2025-12-09T05:28:52",
+      "source": "news"
+    },
+    {
+      "title": "reddit_a1dfccade4f3def9",
+      "polarity": -0.2548590153455734,
+      "ts": "2025-12-09T01:50:20",
+      "source": "www.reddit.com"
+    },
+    {
+      "title": "reddit_6a6187c009fd882d",
+      "polarity": -0.11160613968968391,
+      "ts": "2025-12-09T10:02:31",
+      "source": "www.reddit.com"
+    },
+    {
+      "title": "reddit_e15a6be6d4b12f07",
+      "polarity": -0.10288451984524727,
+      "ts": "2025-12-09T10:24:49",
+      "source": "www.reddit.com"
+    },
+    {
+      "title": "reddit_4a746c083305d4ea",
+      "polarity": -0.03160711191594601,
+      "ts": "2025-12-09T09:50:30",
+      "source": "www.reddit.com"
+    },
+    {
+      "title": "news_ef808440884df9fe",
+      "polarity": -0.02968064695596695,
+      "ts": "2025-12-09T13:46:02",
+      "source": "news"
+    },
+    {
+      "title": "reddit_390e457856ff0615",
+      "polarity": -0.014130905270576477,
+      "ts": "2025-12-09T18:43:58",
+      "source": "www.reddit.com"
+    }
+  ]
+}
