@@ -30,6 +30,13 @@ FROM python:3.11-slim
 # Set working directory
 WORKDIR /app
 
+# Install runtime dependencies (curl for downloading DB, sqlite3 for debugging)
+RUN apt-get update && apt-get install -y \
+    --no-install-recommends \
+    curl \
+    sqlite3 \
+    && rm -rf /var/lib/apt/lists/*
+
 # Copy installed packages from base stage
 COPY --from=base /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
 COPY --from=base /usr/local/bin /usr/local/bin
