@@ -12,14 +12,16 @@ async function DashboardContent() {
   const days = 30;
   
   // Fetch data with error handling
-  let sentimentData = { data: [] };
-  let driversData = { positives: [], negatives: [] };
+  let sentimentData: { data: any[] } = { data: [] };
+  let driversData: { positives: any[], negatives: any[] } = { positives: [], negatives: [] };
   
   try {
-    [sentimentData, driversData] = await Promise.all([
+    const [sentiment, drivers] = await Promise.all([
       fetchSentimentIndex(granularity, days),
       fetchTopDrivers(format(new Date(), 'yyyy-MM-dd'))
     ]);
+    sentimentData = sentiment;
+    driversData = drivers;
   } catch (error) {
     console.error('Failed to fetch data from backend:', error);
     // Continue with empty data rather than crashing
