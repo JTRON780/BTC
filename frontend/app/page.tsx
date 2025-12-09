@@ -7,6 +7,10 @@ import { SentimentChart } from '@/components/sentiment-chart';
 import { TopDrivers } from '@/components/top-drivers';
 import { formatSentiment, getSentimentLabel } from '@/lib/utils';
 
+// Force dynamic rendering
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 async function DashboardContent() {
   const granularity = 'daily';
   const days = 30;
