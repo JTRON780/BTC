@@ -2,7 +2,7 @@
 
 A real-time Bitcoin sentiment analysis dashboard that collects data from news and social media, analyzes it with FinBERT, and displays insights through an interactive web interface.
 
-**Live Dashboard**: [Vercel Deployment](https://btc-sentiment.vercel.app)  
+**Live Dashboard**: [Vercel Deployment](https://btc-delta-one.vercel.app)  
 **API**: [https://jtron780.github.io/BTC](https://jtron780.github.io/BTC)
 
 ## Tech Stack
