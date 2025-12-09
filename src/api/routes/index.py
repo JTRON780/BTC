@@ -59,8 +59,25 @@ async def get_sentiment_indices(
         config = get_settings()
         init_db(config.DB_URL)
         
+        logger.info(f"Querying database with granularity={granularity}, days={days}")
+        logger.info(f"Database URL: {config.DB_URL}")
+        
         # Get indices from database
         indices = get_index(granularity=granularity, days=days)
+        
+        logger.info(f"Found {len(indices)} indices")
+        if len(indices) == 0:
+            logger.warning("No data returned from database - checking if DB has any records")
+            # Quick diagnostic query
+            try:
+                from src.data.stores import get_engine
+                from sqlalchemy import text
+                engine = get_engine()
+                with engine.connect() as conn:
+                    result = conn.execute(text("SELECT COUNT(*) FROM sentiment_indices")).scalar()
+                    logger.info(f"Total records in sentiment_indices table: {result}")
+            except Exception as e:
+                logger.error(f"Error checking database: {e}")
         
         # Apply source filter if provided
         # Note: Current schema doesn't have source field in sentiment_indices
