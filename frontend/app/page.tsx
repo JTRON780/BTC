@@ -1,12 +1,13 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Activity, TrendingUp, Calendar, BarChart3, DollarSign } from 'lucide-react';
+import { Activity, TrendingUp, Calendar, BarChart3, DollarSign, Database } from 'lucide-react';
 import { format } from 'date-fns';
 import { fetchSentimentIndex, fetchTopDrivers, fetchCurrentPrice } from '@/lib/api';
 import { KPICard } from '@/components/kpi-card';
 import { SentimentChart } from '@/components/sentiment-chart';
 import { TopDrivers } from '@/components/top-drivers';
+import { SourcesModal } from '@/components/sources-modal';
 import { formatSentiment, getSentimentLabel } from '@/lib/utils';
 
 function DashboardContent() {
@@ -22,6 +23,7 @@ function DashboardContent() {
   const [loading, setLoading] = useState(true);
   const [initialLoading, setInitialLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [isSourcesModalOpen, setIsSourcesModalOpen] = useState(false);
   
   // Fetch sentiment data and price on mount
   useEffect(() => {
@@ -114,14 +116,24 @@ function DashboardContent() {
       {/* Header */}
       <header className="border-b">
         <div className="container mx-auto px-4 py-6">
-          <div className="flex items-center gap-3">
-            <Activity className="w-8 h-8" />
-            <div>
-              <h1 className="text-3xl font-bold">BTC Market Index</h1>
-              <p className="text-muted-foreground">
-                Real-time Bitcoin sentiment from news and social media
-              </p>
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <Activity className="w-8 h-8" />
+              <div>
+                <h1 className="text-3xl font-bold">BTC Market Index</h1>
+                <p className="text-muted-foreground">
+                  Real-time Bitcoin sentiment from news and social media
+                </p>
+              </div>
             </div>
+            <button
+              onClick={() => setIsSourcesModalOpen(true)}
+              className="flex items-center gap-2 px-4 py-2 border rounded-lg hover:bg-accent transition-colors"
+            >
+              <Database className="w-4 h-4" />
+              <span className="hidden sm:inline">View All Sources</span>
+              <span className="sm:hidden">Sources</span>
+            </button>
           </div>
         </div>
       </header>
@@ -223,6 +235,12 @@ function DashboardContent() {
         </>
         )}
       </main>
+
+      {/* Sources Modal */}
+      <SourcesModal 
+        isOpen={isSourcesModalOpen} 
+        onClose={() => setIsSourcesModalOpen(false)} 
+      />
     </div>
   );
 }

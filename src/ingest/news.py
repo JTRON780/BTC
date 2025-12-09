@@ -177,9 +177,12 @@ def _normalize_entry(entry: Any, feed_url: str) -> Dict[str, Any] | None:
             # Fallback to current time if no timestamp
             ts = datetime.utcnow()
         
+        # Extract source from URL domain
+        source = _extract_source_from_url(url)
+        
         return {
             'id': item_id,
-            'source': 'news',  # Tag all news items with "news" source
+            'source': source,
             'ts': ts,
             'title': title,
             'text': text,
@@ -195,6 +198,40 @@ def _normalize_entry(entry: Any, feed_url: str) -> Dict[str, Any] | None:
             }
         )
         return None
+
+
+def _extract_source_from_url(url: str) -> str:
+    """
+    Extract a clean source name from a URL.
+    
+    Args:
+        url: Article URL
+        
+    Returns:
+        Source name (e.g., 'cointelegraph', 'decrypt', 'coindesk')
+    """
+    try:
+        parsed = urlparse(url)
+        domain = parsed.netloc.lower()
+        
+        # Remove www. prefix
+        if domain.startswith('www.'):
+            domain = domain[4:]
+        
+        # Extract main domain (before .com, .co, etc)
+        # Handle cases like 'decrypt.co', 'ft.com', 'bloomberg.com'
+        parts = domain.split('.')
+        if len(parts) >= 2:
+            # Use the main part before TLD
+            source = parts[0]
+        else:
+            source = domain
+            
+        return source
+        
+    except Exception as e:
+        logger.warning(f"Failed to extract source from URL: {url}", extra={'error': str(e)})
+        return 'news'
 
 
 def _strip_html(text: str) -> str:

@@ -83,7 +83,7 @@ export function TopDrivers({
       ) : (
         <div className="grid md:grid-cols-2 gap-6">
           {/* Positive Drivers */}
-          <div className="rounded-lg border bg-card p-6">
+          <div className="rounded-lg border bg-card p-6 flex flex-col">
             <div className="flex items-center gap-2 mb-4">
               <TrendingUp className="w-5 h-5 text-green-600 dark:text-green-400" />
               <h3 className="text-lg font-semibold">Most Positive</h3>
@@ -91,7 +91,7 @@ export function TopDrivers({
             {positives.length === 0 ? (
               <p className="text-sm text-muted-foreground">No positive sentiment drivers found</p>
             ) : (
-              <div className="space-y-0">
+              <div className="space-y-0 overflow-y-auto max-h-[500px] pr-2 scrollbar-thin scrollbar-thumb-muted scrollbar-track-transparent">
                 {positives.map((driver, idx) => (
                   <DriverItem key={idx} driver={driver} index={idx} />
                 ))}
@@ -100,7 +100,7 @@ export function TopDrivers({
           </div>
 
           {/* Negative Drivers */}
-          <div className="rounded-lg border bg-card p-6">
+          <div className="rounded-lg border bg-card p-6 flex flex-col">
             <div className="flex items-center gap-2 mb-4">
               <TrendingDown className="w-5 h-5 text-red-600 dark:text-red-400" />
               <h3 className="text-lg font-semibold">Most Negative</h3>
@@ -108,7 +108,7 @@ export function TopDrivers({
             {negatives.length === 0 ? (
               <p className="text-sm text-muted-foreground">No negative sentiment drivers found</p>
             ) : (
-              <div className="space-y-0">
+              <div className="space-y-0 overflow-y-auto max-h-[500px] pr-2 scrollbar-thin scrollbar-thumb-muted scrollbar-track-transparent">
                 {negatives.map((driver, idx) => (
                   <DriverItem key={idx} driver={driver} index={idx} />
                 ))}

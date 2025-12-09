@@ -13,7 +13,7 @@ from typing import Any, Dict, List
 from src.core import get_logger, get_settings
 from src.data import get_engine, init_db
 from src.ingest.price import fetch_current_price
-from sqlalchemy import select, and_, desc
+from sqlalchemy import select, and_, desc, func
 from sqlalchemy.orm import Session
 from src.data.schemas import SentimentIndex, ScoredItem, RawItem
 
@@ -76,56 +76,81 @@ def export_sentiment_indices(
 
 def export_top_drivers(output_dir: str | Path, days: int = 7) -> None:
     """
-    Export top sentiment drivers (positive and negative posts) for each day.
+    Export all sentiment drivers (positive and negative posts) for each day.
     
     Args:
         output_dir: Directory to write JSON files
         days: Number of days to export
     """
     output_dir = Path(output_dir)
-    logger.info(f"Exporting top drivers for {days} days")
+    logger.info(f"Exporting all top drivers for {days} days (no per-sentiment limit)")
     
     engine = get_engine()
     cutoff_time = datetime.utcnow() - timedelta(days=days)
     
-    with Session(engine) as session:
-        # Get all scored items from the last N days, joined with raw items
-        stmt = (
-            select(ScoredItem, RawItem)
-            .join(RawItem, ScoredItem.id == RawItem.id)
-            .where(ScoredItem.ts >= cutoff_time)
-            .order_by(desc(ScoredItem.polarity))
-        )
-        
-        results = session.execute(stmt).all()
-        
-        # Group by day
-        drivers_by_day: Dict[str, Dict[str, List[Dict]]] = {}
-        
-        for scored_item, raw_item in results:
-            day = scored_item.ts.strftime('%Y-%m-%d')
-            
-            if day not in drivers_by_day:
-                drivers_by_day[day] = {"positives": [], "negatives": []}
-            
-            item_data = {
-                "title": raw_item.title or scored_item.id,  # Use actual title
-                "polarity": scored_item.polarity,
-                "ts": scored_item.ts.isoformat(),
-                "source": scored_item.source,
-                "url": raw_item.url or ""  # Add URL
-            }
-            
-            # Add to appropriate list
-            # Type ignore: polarity is a float on the Python object, not SQLAlchemy column
-            if scored_item.polarity > 0 and len(drivers_by_day[day]["positives"]) < 10:  # type: ignore
-                drivers_by_day[day]["positives"].append(item_data)
-            elif scored_item.polarity < 0 and len(drivers_by_day[day]["negatives"]) < 10:  # type: ignore
-                drivers_by_day[day]["negatives"].append(item_data)
+    # Group by day
+    drivers_by_day: Dict[str, Dict[str, List[Dict]]] = {}
     
-    # Sort negatives by most negative first
-    for day in drivers_by_day:
-        drivers_by_day[day]["negatives"].sort(key=lambda x: x["polarity"])
+    with Session(engine) as session:
+        # Get distinct days first
+        days_stmt = (
+            select(func.date(ScoredItem.ts).label('day'))
+            .where(ScoredItem.ts >= cutoff_time)
+            .distinct()
+        )
+        days_results = session.execute(days_stmt).all()
+        
+        for day_row in days_results:
+            day_obj = day_row[0]
+            # Convert string to date object if needed (SQLite returns string, PostgreSQL returns date)
+            if isinstance(day_obj, str):
+                day_obj = datetime.strptime(day_obj, '%Y-%m-%d').date()
+            
+            day_str = day_obj.strftime('%Y-%m-%d')
+            start_time = datetime.combine(day_obj, datetime.min.time())
+            end_time = datetime.combine(day_obj, datetime.max.time())
+            
+            drivers_by_day[day_str] = {"positives": [], "negatives": []}
+            
+            # Get all positive drivers for this day
+            positive_stmt = (
+                select(ScoredItem, RawItem)
+                .join(RawItem, ScoredItem.id == RawItem.id)
+                .where(ScoredItem.ts >= start_time)
+                .where(ScoredItem.ts <= end_time)
+                .where(ScoredItem.polarity > 0)
+                .order_by(desc(ScoredItem.polarity))
+            )
+            positive_results = session.execute(positive_stmt).all()
+            
+            for scored_item, raw_item in positive_results:
+                drivers_by_day[day_str]["positives"].append({
+                    "title": raw_item.title or scored_item.id,
+                    "polarity": scored_item.polarity,
+                    "ts": scored_item.ts.isoformat(),
+                    "source": scored_item.source,
+                    "url": raw_item.url or ""
+                })
+            
+            # Get all negative drivers for this day
+            negative_stmt = (
+                select(ScoredItem, RawItem)
+                .join(RawItem, ScoredItem.id == RawItem.id)
+                .where(ScoredItem.ts >= start_time)
+                .where(ScoredItem.ts <= end_time)
+                .where(ScoredItem.polarity < 0)
+                .order_by(ScoredItem.polarity.asc())  # Most negative first
+            )
+            negative_results = session.execute(negative_stmt).all()
+            
+            for scored_item, raw_item in negative_results:
+                drivers_by_day[day_str]["negatives"].append({
+                    "title": raw_item.title or scored_item.id,
+                    "polarity": scored_item.polarity,
+                    "ts": scored_item.ts.isoformat(),
+                    "source": scored_item.source,
+                    "url": raw_item.url or ""
+                })
     
     # Write each day to a separate file
     drivers_dir = output_dir / "drivers"

@@ -20,19 +20,21 @@ router = APIRouter()
 
 @router.get("/", response_model=TopDriversResponse)
 async def get_top_drivers(
-    day: str = Query(..., description="Target date in YYYY-MM-DD format")
+    day: str = Query(..., description="Target date in YYYY-MM-DD format"),
+    limit: int = Query(20, description="Number of top drivers to return per sentiment (positive/negative)", ge=1, le=100)
 ) -> TopDriversResponse:
     """
-    Get top 5 positive and negative sentiment drivers for a specific day.
+    Get top positive and negative sentiment drivers for a specific day.
     
     This endpoint retrieves the most influential positive and negative sentiment
     items for a given day, helping identify what content drove market sentiment.
     
     Args:
         day: Target date in YYYY-MM-DD format (required)
+        limit: Number of drivers per sentiment type (default: 20, max: 100)
         
     Returns:
-        TopDriversResponse with top 5 positive and top 5 negative drivers
+        TopDriversResponse with top positive and top negative drivers
         
     Raises:
         400: Invalid date format
@@ -40,7 +42,7 @@ async def get_top_drivers(
         500: Internal server error
         
     Example:
-        GET /api/v1/top_drivers?day=2025-11-04
+        GET /api/v1/top_drivers?day=2025-11-04&limit=20
     """
     try:
         # Parse the date parameter
@@ -63,25 +65,25 @@ async def get_top_drivers(
         
         # Query scored items for the day
         with Session(engine) as session:
-            # Get top 5 positive drivers
+            # Get top positive drivers
             positive_stmt = (
                 select(ScoredItem)
                 .where(ScoredItem.ts >= start_time)
                 .where(ScoredItem.ts <= end_time)
                 .where(ScoredItem.polarity > 0)
                 .order_by(desc(ScoredItem.polarity))
-                .limit(5)
+                .limit(limit)
             )
             positive_results = session.execute(positive_stmt).scalars().all()
             
-            # Get top 5 negative drivers
+            # Get top negative drivers
             negative_stmt = (
                 select(ScoredItem)
                 .where(ScoredItem.ts >= start_time)
                 .where(ScoredItem.ts <= end_time)
                 .where(ScoredItem.polarity < 0)
                 .order_by(ScoredItem.polarity)  # Ascending to get most negative first
-                .limit(5)
+                .limit(limit)
             )
             negative_results = session.execute(negative_stmt).scalars().all()
         
