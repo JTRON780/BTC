@@ -1,4 +1,6 @@
-import { Suspense } from 'react';
+'use client';
+
+import { useState, useEffect } from 'react';
 import { Activity, TrendingUp, Calendar, BarChart3 } from 'lucide-react';
 import { format } from 'date-fns';
 import { fetchSentimentIndex, fetchTopDrivers } from '@/lib/api';
@@ -7,29 +9,47 @@ import { SentimentChart } from '@/components/sentiment-chart';
 import { TopDrivers } from '@/components/top-drivers';
 import { formatSentiment, getSentimentLabel } from '@/lib/utils';
 
-// Force dynamic rendering
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
-
-async function DashboardContent() {
+function DashboardContent() {
   const granularity = 'daily';
   const days = 30;
   
-  // Fetch data with error handling
-  let sentimentData: { data: any[] } = { data: [] };
-  let driversData: { positives: any[], negatives: any[] } = { positives: [], negatives: [] };
+  const [sentimentData, setSentimentData] = useState<{ data: any[] }>({ data: [] });
+  const [driversData, setDriversData] = useState<{ positives: any[], negatives: any[] }>({ 
+    positives: [], 
+    negatives: [] 
+  });
+  const [selectedDate, setSelectedDate] = useState(format(new Date(), 'yyyy-MM-dd'));
+  const [loading, setLoading] = useState(true);
   
-  try {
-    const [sentiment, drivers] = await Promise.all([
-      fetchSentimentIndex(granularity, days),
-      fetchTopDrivers(format(new Date(), 'yyyy-MM-dd'))
-    ]);
-    sentimentData = sentiment;
-    driversData = drivers;
-  } catch (error) {
-    console.error('Failed to fetch data from backend:', error);
-    // Continue with empty data rather than crashing
-  }
+  // Fetch sentiment data on mount
+  useEffect(() => {
+    async function loadSentimentData() {
+      try {
+        const sentiment = await fetchSentimentIndex(granularity, days);
+        setSentimentData(sentiment);
+      } catch (error) {
+        console.error('Failed to fetch sentiment data:', error);
+      }
+    }
+    loadSentimentData();
+  }, []);
+  
+  // Fetch drivers data when date changes
+  useEffect(() => {
+    async function loadDriversData() {
+      setLoading(true);
+      try {
+        const drivers = await fetchTopDrivers(selectedDate);
+        setDriversData(drivers);
+      } catch (error) {
+        console.error('Failed to fetch drivers data:', error);
+        setDriversData({ positives: [], negatives: [] });
+      } finally {
+        setLoading(false);
+      }
+    }
+    loadDriversData();
+  }, [selectedDate]);
   
   // Calculate metrics with proper null checks
   const data = sentimentData.data || [];
@@ -109,15 +129,13 @@ async function DashboardContent() {
 
         {/* Top Drivers */}
         <div className="mb-8">
-          <h2 className="text-xl font-semibold mb-4">
-            Top Sentiment Drivers
-            <span className="ml-2 text-sm font-normal text-muted-foreground">
-              {format(new Date(), 'MMMM d, yyyy')}
-            </span>
-          </h2>
           <TopDrivers 
             positives={driversData.positives} 
-            negatives={driversData.negatives} 
+            negatives={driversData.negatives}
+            selectedDate={selectedDate}
+            onDateChange={setSelectedDate}
+            loading={loading}
+            availableDates={data.map(d => d.ts)}
           />
         </div>
 
@@ -136,16 +154,5 @@ async function DashboardContent() {
 }
 
 export default function Home() {
-  return (
-    <Suspense fallback={
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-current border-r-transparent motion-reduce:animate-[spin_1.5s_linear_infinite]" />
-          <p className="mt-4 text-muted-foreground">Loading dashboard...</p>
-        </div>
-      </div>
-    }>
-      <DashboardContent />
-    </Suspense>
-  );
+  return <DashboardContent />;
 }
