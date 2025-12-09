@@ -1,9 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Activity, TrendingUp, Calendar, BarChart3 } from 'lucide-react';
+import { Activity, TrendingUp, Calendar, BarChart3, DollarSign } from 'lucide-react';
 import { format } from 'date-fns';
-import { fetchSentimentIndex, fetchTopDrivers } from '@/lib/api';
+import { fetchSentimentIndex, fetchTopDrivers, fetchCurrentPrice } from '@/lib/api';
 import { KPICard } from '@/components/kpi-card';
 import { SentimentChart } from '@/components/sentiment-chart';
 import { TopDrivers } from '@/components/top-drivers';
@@ -14,6 +14,7 @@ function DashboardContent() {
   const days = 30;
   
   const [sentimentData, setSentimentData] = useState<{ data: any[] }>({ data: [] });
+  const [priceData, setPriceData] = useState<{ price: number; price_change_24h: number } | null>(null);
   const [driversData, setDriversData] = useState<{ positives: any[], negatives: any[] }>({ 
     positives: [], 
     negatives: [] 
@@ -21,7 +22,7 @@ function DashboardContent() {
   const [selectedDate, setSelectedDate] = useState(format(new Date(), 'yyyy-MM-dd'));
   const [loading, setLoading] = useState(true);
   
-  // Fetch sentiment data on mount
+  // Fetch sentiment data and price on mount
   useEffect(() => {
     async function loadSentimentData() {
       try {
@@ -31,7 +32,18 @@ function DashboardContent() {
         console.error('Failed to fetch sentiment data:', error);
       }
     }
+    
+    async function loadPriceData() {
+      try {
+        const price = await fetchCurrentPrice();
+        setPriceData(price);
+      } catch (error) {
+        console.error('Failed to fetch price data:', error);
+      }
+    }
+    
     loadSentimentData();
+    loadPriceData();
   }, []);
   
   // Fetch drivers data when date changes
@@ -90,6 +102,13 @@ function DashboardContent() {
       <main className="container mx-auto px-4 py-8">
         {/* KPI Cards */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+          <KPICard
+            title="BTC Price"
+            value={priceData ? `$${priceData.price.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}` : '...'}
+            description={priceData ? `${priceData.price_change_24h >= 0 ? '+' : ''}${priceData.price_change_24h.toFixed(2)}% (24h)` : 'Loading...'}
+            delta={priceData?.price_change_24h}
+            icon={<DollarSign className="w-4 h-4" />}
+          />
           <KPICard
             title="Current Sentiment"
             value={formatSentiment(currentSentiment)}

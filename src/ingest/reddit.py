@@ -10,12 +10,35 @@ from datetime import datetime
 from typing import Any, Dict, List
 from urllib.parse import urlparse
 import time
+import requests
+from io import BytesIO
 
 import feedparser
 
 from src.core import get_logger
 
 logger = get_logger(__name__)
+
+# Bitcoin-related keywords for filtering posts
+BITCOIN_KEYWORDS = [
+    'bitcoin', 'btc', 'sats', 'satoshi', 'satoshis',
+    'lightning network', 'taproot', 'segwit',
+    'halving', 'mining', 'hash rate', 'difficulty'
+]
+
+def _is_bitcoin_related(title: str, text: str) -> bool:
+    """
+    Check if a post is Bitcoin-related based on keywords.
+    
+    Args:
+        title: Post title
+        text: Post content
+        
+    Returns:
+        True if post mentions Bitcoin-related keywords
+    """
+    combined_text = f"{title} {text}".lower()
+    return any(keyword in combined_text for keyword in BITCOIN_KEYWORDS)
 
 
 def fetch_reddit_feeds(feeds: List[str]) -> List[Dict[str, Any]]:
@@ -55,8 +78,15 @@ def fetch_reddit_feeds(feeds: List[str]) -> List[Dict[str, Any]]:
             
             logger.info(f"Fetching feed", extra={'feed_url': feed_url})
             
-            # Parse the RSS feed
-            parsed_feed = feedparser.parse(feed_url)
+            # Reddit requires a User-Agent header, fetch with requests first
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (compatible; BTCSentimentBot/1.0; +https://github.com/JTRON780/BTC)'
+            }
+            response = requests.get(feed_url, headers=headers, timeout=15)
+            response.raise_for_status()
+            
+            # Parse the RSS feed from response content
+            parsed_feed = feedparser.parse(BytesIO(response.content))
             
             # Check for errors
             if hasattr(parsed_feed, 'bozo') and parsed_feed.bozo:
@@ -70,11 +100,16 @@ def fetch_reddit_feeds(feeds: List[str]) -> List[Dict[str, Any]]:
             
             # Process each entry
             feed_items = []
+            filtered_count = 0
             for entry in parsed_feed.entries:
                 try:
                     item = _normalize_entry(entry, feed_url)
                     if item:
-                        feed_items.append(item)
+                        # Filter for Bitcoin-related content only
+                        if _is_bitcoin_related(item['title'], item['text']):
+                            feed_items.append(item)
+                        else:
+                            filtered_count += 1
                 except Exception as e:
                     logger.error(
                         f"Error normalizing entry",
@@ -90,7 +125,8 @@ def fetch_reddit_feeds(feeds: List[str]) -> List[Dict[str, Any]]:
                 f"Fetched items from feed",
                 extra={
                     'feed_url': feed_url,
-                    'count': len(feed_items)
+                    'bitcoin_posts': len(feed_items),
+                    'filtered_out': filtered_count
                 }
             )
             

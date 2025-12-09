@@ -13,6 +13,7 @@ import json
 from src.core import get_logger, get_settings
 from src.data import get_index, init_db
 from src.api.schemas.sentiment import SentimentIndexPoint, SentimentResponse
+from src.ingest.price import fetch_current_price
 
 logger = get_logger(__name__)
 router = APIRouter()
@@ -189,3 +190,45 @@ async def get_latest_sentiment() -> SentimentResponse:
     except Exception as e:
         logger.error(f"Error retrieving latest sentiment", extra={'error': str(e)})
         raise HTTPException(status_code=500, detail="Internal server error")
+
+
+@router.get("/price")
+async def get_current_price(response: Response):
+    """
+    Get current Bitcoin price with 24h change percentage.
+    
+    Returns real-time price data from CoinGecko including:
+    - Current price in USD
+    - 24-hour price change percentage
+    - 24-hour trading volume
+    
+    Example:
+        GET /api/v1/sentiment/price
+        
+    Returns:
+        {
+            "price": 43250.00,
+            "price_change_24h": 4.25,
+            "volume_24h": 28500000000,
+            "last_updated": "2025-12-09T14:30:00Z"
+        }
+    """
+    try:
+        # Set cache headers (cache for 1 minute since price changes frequently)
+        response.headers["Cache-Control"] = "public, max-age=60"
+        
+        data = fetch_current_price()
+        
+        return {
+            "price": data['price'],
+            "price_change_24h": data['price_change_24h'],
+            "volume_24h": data['volume_24h'],
+            "last_updated": data['last_updated'].isoformat()
+        }
+        
+    except Exception as e:
+        logger.error(f"Error fetching current price: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail="Failed to fetch price data"
+        )

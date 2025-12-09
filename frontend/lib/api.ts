@@ -16,6 +16,13 @@ export interface SentimentResponse {
   data: SentimentDataPoint[];
 }
 
+export interface PriceData {
+  price: number;
+  price_change_24h: number;
+  volume_24h: number;
+  last_updated: string;
+}
+
 export interface TopDriver {
   title: string;
   polarity: number;
@@ -65,6 +72,22 @@ export async function fetchTopDrivers(day: string): Promise<TopDriversResponse> 
   }
   
   return res.json();
+}
+
+/**
+ * Fetch current Bitcoin price with 24h change
+ */
+export async function fetchCurrentPrice(): Promise<PriceData> {
+  const response = await fetch(`${API_BASE_URL}/api/v1/sentiment/price`, {
+    cache: 'no-store', // Always get fresh price data
+  });
+  
+  if (!response.ok) {
+    throw new Error(`Failed to fetch price: ${response.statusText}`);
+  }
+  
+  const data: PriceData = await response.json();
+  return data;
 }
 
 /**

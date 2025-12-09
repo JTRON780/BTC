@@ -15,6 +15,109 @@ from src.core import get_logger, get_settings
 logger = get_logger(__name__)
 
 
+def fetch_current_price() -> Dict[str, Any]:
+    """
+    Fetch current Bitcoin price with 24h change percentage.
+    
+    Makes a request to CoinGecko to get current price and 24h price change.
+    This is optimized for displaying current stats on the dashboard.
+    
+    Returns:
+        Dictionary with keys:
+        - price: Current Bitcoin price in USD (float)
+        - price_change_24h: 24-hour price change percentage (float)
+        - volume_24h: 24-hour trading volume in USD (float)
+        - last_updated: Timestamp of the data (datetime)
+        
+    Example:
+        >>> data = fetch_current_price()
+        >>> print(f"BTC: ${data['price']:,.2f} ({data['price_change_24h']:+.2f}%)")
+        BTC: $43,250.00 (+4.25%)
+    """
+    config = get_settings()
+    base_url = str(config.COINGECKO_BASE)
+    
+    # Construct API endpoint with 24h change
+    endpoint = f"{base_url}/simple/price"
+    params = {
+        'ids': 'bitcoin',
+        'vs_currencies': 'usd',
+        'include_24hr_vol': 'true',
+        'include_24hr_change': 'true',
+        'include_last_updated_at': 'true'
+    }
+    
+    max_retries = 3
+    backoff_factor = 2
+    
+    for attempt in range(max_retries):
+        try:
+            logger.info(
+                f"Fetching current price data",
+                extra={'attempt': attempt + 1, 'endpoint': endpoint}
+            )
+            
+            response = requests.get(
+                endpoint,
+                params=params,
+                timeout=10
+            )
+            response.raise_for_status()
+            
+            data = response.json()
+            btc_data = data.get('bitcoin', {})
+            
+            price = btc_data.get('usd')
+            price_change_24h = btc_data.get('usd_24h_change')
+            volume_24h = btc_data.get('usd_24h_vol')
+            last_updated = btc_data.get('last_updated_at')
+            
+            if price is None:
+                raise ValueError("Missing price data in API response")
+            
+            result = {
+                'price': float(price),
+                'price_change_24h': float(price_change_24h) if price_change_24h is not None else 0.0,
+                'volume_24h': float(volume_24h) if volume_24h is not None else 0.0,
+                'last_updated': datetime.fromtimestamp(last_updated) if last_updated else datetime.utcnow()
+            }
+            
+            logger.info(
+                f"Current price fetched",
+                extra={
+                    'price': result['price'],
+                    'change_24h': result['price_change_24h']
+                }
+            )
+            
+            return result
+            
+        except requests.exceptions.Timeout as e:
+            logger.warning(
+                f"Request timeout",
+                extra={'attempt': attempt + 1, 'error': str(e)}
+            )
+        except requests.exceptions.RequestException as e:
+            logger.warning(
+                f"Request failed",
+                extra={'attempt': attempt + 1, 'error': str(e)}
+            )
+        except (ValueError, KeyError) as e:
+            logger.error(
+                f"Error parsing API response",
+                extra={'attempt': attempt + 1, 'error': str(e)}
+            )
+        
+        if attempt < max_retries - 1:
+            sleep_time = backoff_factor ** attempt
+            logger.info(f"Retrying in {sleep_time}s...")
+            time.sleep(sleep_time)
+    
+    raise requests.exceptions.RequestException(
+        f"Failed to fetch current price after {max_retries} attempts"
+    )
+
+
 def fetch_price_snapshot() -> Dict[str, Any]:
     """
     Fetch current Bitcoin price and 24h volume from CoinGecko API.

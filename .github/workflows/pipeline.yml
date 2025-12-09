@@ -170,6 +170,7 @@ jobs:
           echo "✅ Release created successfully"
           
           # Keep only the 3 most recent releases (cleanup old ones)
+      
       - name: Summary
         run: |
           echo "✅ Pipeline completed successfully"
@@ -183,15 +184,6 @@ jobs:
             echo "Next run will download this database and append new data"
           else
             echo "⚠️ No database file found"
-          fi
-        run: |
-          echo "✅ Pipeline completed successfully"
-          if [ -f "btc_sentiment.db" ]; then
-            echo "📦 Database saved as artifact for next run"
-            echo "🌐 Database uploaded to GitHub Releases (accessible to Render)"
-            ls -lh btc_sentiment.db
-          else
-            echo "⚠️ No database file found to upload"
           fi
 
 
