@@ -15,7 +15,7 @@ from src.data import get_engine, init_db
 from src.ingest.price import fetch_current_price
 from sqlalchemy import select, and_, desc
 from sqlalchemy.orm import Session
-from src.data.schemas import SentimentIndex, ScoredItem
+from src.data.schemas import SentimentIndex, ScoredItem, RawItem
 
 logger = get_logger(__name__)
 
@@ -89,36 +89,38 @@ def export_top_drivers(output_dir: str | Path, days: int = 7) -> None:
     cutoff_time = datetime.utcnow() - timedelta(days=days)
     
     with Session(engine) as session:
-        # Get all scored items from the last N days
+        # Get all scored items from the last N days, joined with raw items
         stmt = (
-            select(ScoredItem)
+            select(ScoredItem, RawItem)
+            .join(RawItem, ScoredItem.id == RawItem.id)
             .where(ScoredItem.ts >= cutoff_time)
             .order_by(desc(ScoredItem.polarity))
         )
         
-        results = session.execute(stmt).scalars().all()
+        results = session.execute(stmt).all()
         
         # Group by day
         drivers_by_day: Dict[str, Dict[str, List[Dict]]] = {}
         
-        for item in results:
-            day = item.ts.strftime('%Y-%m-%d')
+        for scored_item, raw_item in results:
+            day = scored_item.ts.strftime('%Y-%m-%d')
             
             if day not in drivers_by_day:
                 drivers_by_day[day] = {"positives": [], "negatives": []}
             
             item_data = {
-                "title": item.id,  # Using ID as title for now
-                "polarity": item.polarity,
-                "ts": item.ts.isoformat(),
-                "source": item.source
+                "title": raw_item.title or scored_item.id,  # Use actual title
+                "polarity": scored_item.polarity,
+                "ts": scored_item.ts.isoformat(),
+                "source": scored_item.source,
+                "url": raw_item.url or ""  # Add URL
             }
             
             # Add to appropriate list
             # Type ignore: polarity is a float on the Python object, not SQLAlchemy column
-            if item.polarity > 0 and len(drivers_by_day[day]["positives"]) < 10:  # type: ignore
+            if scored_item.polarity > 0 and len(drivers_by_day[day]["positives"]) < 10:  # type: ignore
                 drivers_by_day[day]["positives"].append(item_data)
-            elif item.polarity < 0 and len(drivers_by_day[day]["negatives"]) < 10:  # type: ignore
+            elif scored_item.polarity < 0 and len(drivers_by_day[day]["negatives"]) < 10:  # type: ignore
                 drivers_by_day[day]["negatives"].append(item_data)
     
     # Sort negatives by most negative first
