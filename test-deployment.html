@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTC API Test</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .test-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background: #0070f3;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background: #0051cc;
+        }
+        pre {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 4px;
+            overflow-x: auto;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .success { color: #10b981; }
+        .error { color: #ef4444; }
+        .info { color: #3b82f6; }
+    </style>
+</head>
+<body>
+    <h1>🧪 BTC Sentiment API Test</h1>
+    
+    <div class="test-box">
+        <h2>Backend URL</h2>
+        <input 
+            type="text" 
+            id="apiUrl" 
+            placeholder="https://your-backend.onrender.com"
+            value="http://localhost:8000"
+        >
+        <button onclick="saveUrl()">Save URL</button>
+    </div>
+
+    <div class="test-box">
+        <h2>Tests</h2>
+        <button onclick="testHealth()">Test Health Endpoint</button>
+        <button onclick="testSentiment()">Test Sentiment Data</button>
+        <button onclick="testDrivers()">Test Top Drivers</button>
+        <button onclick="testCORS()">Test CORS</button>
+    </div>
+
+    <div class="test-box">
+        <h2>Results</h2>
+        <div id="results"></div>
+    </div>
+
+    <script>
+        function getApiUrl() {
+            return document.getElementById('apiUrl').value.replace(/\/$/, '');
+        }
+
+        function saveUrl() {
+            localStorage.setItem('btc-api-url', getApiUrl());
+            log('✅ URL saved', 'success');
+        }
+
+        function log(message, type = 'info') {
+            const results = document.getElementById('results');
+            const div = document.createElement('div');
+            div.className = type;
+            div.textContent = message;
+            results.appendChild(div);
+        }
+
+        function logJson(data) {
+            const results = document.getElementById('results');
+            const pre = document.createElement('pre');
+            pre.textContent = JSON.stringify(data, null, 2);
+            results.appendChild(pre);
+        }
+
+        function clearResults() {
+            document.getElementById('results').innerHTML = '';
+        }
+
+        async function testHealth() {
+            clearResults();
+            log('Testing health endpoint...', 'info');
+            
+            try {
+                const url = `${getApiUrl()}/api/v1/health`;
+                log(`Calling: ${url}`, 'info');
+                
+                const response = await fetch(url);
+                log(`Status: ${response.status}`, response.ok ? 'success' : 'error');
+                
+                const data = await response.json();
+                logJson(data);
+            } catch (error) {
+                log(`❌ Error: ${error.message}`, 'error');
+            }
+        }
+
+        async function testSentiment() {
+            clearResults();
+            log('Testing sentiment endpoint...', 'info');
+            
+            try {
+                const url = `${getApiUrl()}/api/v1/sentiment/?granularity=daily&days=7`;
+                log(`Calling: ${url}`, 'info');
+                
+                const response = await fetch(url);
+                log(`Status: ${response.status}`, response.ok ? 'success' : 'error');
+                
+                const data = await response.json();
+                log(`Data points returned: ${data.data?.length || 0}`, 'info');
+                logJson(data);
+            } catch (error) {
+                log(`❌ Error: ${error.message}`, 'error');
+            }
+        }
+
+        async function testDrivers() {
+            clearResults();
+            log('Testing top drivers endpoint...', 'info');
+            
+            try {
+                const today = new Date().toISOString().split('T')[0];
+                const url = `${getApiUrl()}/api/v1/top-drivers/?day=${today}`;
+                log(`Calling: ${url}`, 'info');
+                
+                const response = await fetch(url);
+                log(`Status: ${response.status}`, response.ok ? 'success' : 'error');
+                
+                const data = await response.json();
+                log(`Positives: ${data.positives?.length || 0}, Negatives: ${data.negatives?.length || 0}`, 'info');
+                logJson(data);
+            } catch (error) {
+                log(`❌ Error: ${error.message}`, 'error');
+            }
+        }
+
+        async function testCORS() {
+            clearResults();
+            log('Testing CORS configuration...', 'info');
+            log('This test will fail if CORS is not properly configured', 'info');
+            
+            try {
+                const url = `${getApiUrl()}/api/v1/health`;
+                log(`Calling: ${url}`, 'info');
+                
+                const response = await fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'Origin': window.location.origin
+                    }
+                });
+                
+                const corsHeaders = {
+                    'access-control-allow-origin': response.headers.get('access-control-allow-origin'),
+                    'access-control-allow-credentials': response.headers.get('access-control-allow-credentials'),
+                };
+                
+                log(`Status: ${response.status}`, 'success');
+                log('CORS Headers:', 'info');
+                logJson(corsHeaders);
+                
+                if (corsHeaders['access-control-allow-origin']) {
+                    log('✅ CORS is configured', 'success');
+                } else {
+                    log('⚠️  CORS headers not found - might be blocked', 'error');
+                }
+            } catch (error) {
+                log(`❌ CORS Error: ${error.message}`, 'error');
+                log('This usually means CORS is blocking the request', 'error');
+            }
+        }
+
+        // Load saved URL on page load
+        window.onload = () => {
+            const saved = localStorage.getItem('btc-api-url');
+            if (saved) {
+                document.getElementById('apiUrl').value = saved;
+            }
+        };
+    </script>
+</body>
+</html>
