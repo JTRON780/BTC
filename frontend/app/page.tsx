@@ -31,20 +31,24 @@ async function DashboardContent() {
     // Continue with empty data rather than crashing
   }
   
-  // Calculate metrics
-  const data = sentimentData.data || [];
-  const currentSentiment = data.length > 0 ? data[data.length - 1].smoothed : 0;
-  const rawSentiment = data.length > 0 ? data[data.length - 1].raw : 0;
+  // Calculate metrics with safe null checks
+  const data = sentimentData?.data || [];
+  const lastItem = data.length > 0 ? data[data.length - 1] : null;
+  const secondLastItem = data.length >= 2 ? data[data.length - 2] : null;
+  
+  const currentSentiment = lastItem?.smoothed ?? 0;
+  const rawSentiment = lastItem?.raw ?? 0;
   
   // Calculate 24h change
-  const delta24h = data.length >= 2 
-    ? data[data.length - 1].smoothed - data[data.length - 2].smoothed 
+  const delta24h = (lastItem && secondLastItem) 
+    ? (lastItem.smoothed ?? 0) - (secondLastItem.smoothed ?? 0)
     : 0;
   
   // Calculate 7d change
   const lookback7d = Math.min(7, data.length - 1);
-  const delta7d = data.length > lookback7d
-    ? data[data.length - 1].smoothed - data[data.length - 1 - lookback7d].smoothed
+  const olderItem = data.length > lookback7d ? data[data.length - 1 - lookback7d] : null;
+  const delta7d = (lastItem && olderItem)
+    ? (lastItem.smoothed ?? 0) - (olderItem.smoothed ?? 0)
     : 0;
 
   return (
