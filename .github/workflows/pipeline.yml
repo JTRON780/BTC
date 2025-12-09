@@ -172,6 +172,19 @@ jobs:
           echo "✅ Release created successfully"
           
           # Keep only the 3 most recent releases (cleanup old ones)
+          echo "🧹 Cleaning up old database releases..."
+          
+          # Get all database releases sorted by date (oldest first)
+          gh release list --limit 100 --json tagName,createdAt \
+            | jq -r '[.[] | select(.tagName | startswith("db-"))] | sort_by(.createdAt) | .[:-3] | .[] | .tagName' \
+            | while read TAG; do
+              if [ ! -z "$TAG" ]; then
+                echo "  Deleting old release: $TAG"
+                gh release delete "$TAG" --yes --cleanup-tag
+              fi
+            done
+          
+          echo "✅ Cleanup complete - kept last 3 releases"
       
       - name: Export data to JSON for GitHub Pages
         run: |
