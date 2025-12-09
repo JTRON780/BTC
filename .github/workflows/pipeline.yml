@@ -173,12 +173,29 @@ jobs:
           
           # Keep only the 3 most recent releases (cleanup old ones)
       
+      - name: Export data to JSON for GitHub Pages
+        run: |
+          echo "📄 Exporting database to JSON files..."
+          python -m src.pipelines.export_json api-output
+          
+          echo "✅ JSON files generated:"
+          ls -lh api-output/
+      
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./api-output
+          publish_branch: gh-pages
+          cname: false
+      
       - name: Summary
         run: |
           echo "✅ Pipeline completed successfully"
           if [ -f "btc_sentiment.db" ]; then
             echo "📦 Database uploaded to GitHub Release"
-            echo "🌐 Render will download latest release on next deployment"
+            echo "📄 JSON API deployed to GitHub Pages"
+            echo "🌐 API available at: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/api"
             echo ""
             echo "Database info:"
             ls -lh btc_sentiment.db

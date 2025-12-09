@@ -1,8 +1,10 @@
 /**
  * API client for BTC Sentiment Analysis backend
+ * 
+ * Now uses GitHub Pages static JSON API instead of Render backend
  */
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://jtron780.github.io/BTC';
 
 export interface SentimentDataPoint {
   ts: string;
@@ -40,11 +42,10 @@ export interface TopDriversResponse {
  * Fetch sentiment index data
  */
 export async function fetchSentimentIndex(
-  granularity: 'hourly' | 'daily' = 'daily',
-  days: number = 30
+  granularity: 'hourly' | 'daily' = 'daily'
 ): Promise<SentimentResponse> {
   const res = await fetch(
-    `${API_BASE_URL}/api/v1/sentiment/?granularity=${granularity}&days=${days}`,
+    `${API_BASE_URL}/sentiment_${granularity}.json`,
     { cache: 'no-store' }
   );
   
@@ -60,7 +61,7 @@ export async function fetchSentimentIndex(
  */
 export async function fetchTopDrivers(day: string): Promise<TopDriversResponse> {
   const res = await fetch(
-    `${API_BASE_URL}/api/v1/drivers/?day=${day}`,
+    `${API_BASE_URL}/drivers/${day}.json`,
     { cache: 'no-store' }
   );
   
@@ -78,7 +79,7 @@ export async function fetchTopDrivers(day: string): Promise<TopDriversResponse> 
  * Fetch current Bitcoin price with 24h change
  */
 export async function fetchCurrentPrice(): Promise<PriceData> {
-  const response = await fetch(`${API_BASE_URL}/api/v1/sentiment/price`, {
+  const response = await fetch(`${API_BASE_URL}/price.json`, {
     cache: 'no-store', // Always get fresh price data
   });
   
@@ -91,14 +92,15 @@ export async function fetchCurrentPrice(): Promise<PriceData> {
 }
 
 /**
- * Health check
+ * Health check (index.json for GitHub Pages)
  */
 export async function checkHealth(): Promise<{ status: string; time: string }> {
-  const res = await fetch(`${API_BASE_URL}/api/v1/health/`, { cache: 'no-store' });
+  const res = await fetch(`${API_BASE_URL}/index.json`, { cache: 'no-store' });
   
   if (!res.ok) {
     throw new Error('API health check failed');
   }
   
-  return res.json();
+  const data = await res.json();
+  return { status: 'ok', time: data.updated };
 }

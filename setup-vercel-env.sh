@@ -1,22 +1,15 @@
 #!/bin/bash
-# Setup Vercel environment variables
-# Usage: ./setup-vercel-env.sh https://your-backend.onrender.com
+# Setup Vercel environment variables for GitHub Pages API
+# Usage: ./setup-vercel-env.sh
 
 set -e
 
-if [ -z "$1" ]; then
-    echo "❌ Error: Render backend URL required"
-    echo ""
-    echo "Usage: ./setup-vercel-env.sh https://your-backend.onrender.com"
-    echo ""
-    exit 1
-fi
-
-BACKEND_URL="$1"
+# GitHub Pages URL (update with your actual GitHub username/repo)
+BACKEND_URL="https://jtron780.github.io/BTC"
 
 echo "🚀 Setting up Vercel environment variables"
 echo ""
-echo "Backend URL: $BACKEND_URL"
+echo "GitHub Pages API URL: $BACKEND_URL"
 echo ""
 
 # Check if Vercel CLI is installed

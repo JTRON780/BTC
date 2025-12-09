@@ -11,7 +11,6 @@ import { formatSentiment, getSentimentLabel } from '@/lib/utils';
 
 function DashboardContent() {
   const granularity = 'daily';
-  const days = 30;
   
   const [sentimentData, setSentimentData] = useState<{ data: any[] }>({ data: [] });
   const [priceData, setPriceData] = useState<{ price: number; price_change_24h: number } | null>(null);
@@ -21,29 +20,57 @@ function DashboardContent() {
   });
   const [selectedDate, setSelectedDate] = useState(format(new Date(), 'yyyy-MM-dd'));
   const [loading, setLoading] = useState(true);
+  const [initialLoading, setInitialLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   
   // Fetch sentiment data and price on mount
   useEffect(() => {
-    async function loadSentimentData() {
+    let mounted = true;
+    
+    async function loadInitialData() {
       try {
-        const sentiment = await fetchSentimentIndex(granularity, days);
-        setSentimentData(sentiment);
-      } catch (error) {
-        console.error('Failed to fetch sentiment data:', error);
+        setInitialLoading(true);
+        setError(null);
+        
+        // Load sentiment and price in parallel with timeout
+        const timeoutPromise = new Promise((_, reject) => 
+          setTimeout(() => reject(new Error('Request timeout - API may be starting up')), 60000)
+        );
+        
+        const dataPromises = Promise.all([
+          fetchSentimentIndex(granularity).catch(err => {
+            console.error('Failed to fetch sentiment data:', err);
+            return { data: [] };
+          }),
+          fetchCurrentPrice().catch(err => {
+            console.error('Failed to fetch price data:', err);
+            return null;
+          })
+        ]);
+        
+        const [sentiment, price] = await Promise.race([dataPromises, timeoutPromise]) as any;
+        
+        if (mounted) {
+          setSentimentData(sentiment);
+          setPriceData(price);
+        }
+      } catch (error: any) {
+        console.error('Failed to load initial data:', error);
+        if (mounted) {
+          setError(error.message || 'Failed to load data. The API may be starting up (cold start can take 30-60s).');
+        }
+      } finally {
+        if (mounted) {
+          setInitialLoading(false);
+        }
       }
     }
     
-    async function loadPriceData() {
-      try {
-        const price = await fetchCurrentPrice();
-        setPriceData(price);
-      } catch (error) {
-        console.error('Failed to fetch price data:', error);
-      }
-    }
+    loadInitialData();
     
-    loadSentimentData();
-    loadPriceData();
+    return () => {
+      mounted = false;
+    };
   }, []);
   
   // Fetch drivers data when date changes
@@ -100,8 +127,34 @@ function DashboardContent() {
       </header>
 
       <main className="container mx-auto px-4 py-8">
-        {/* KPI Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+        {/* Loading State */}
+        {initialLoading && (
+          <div className="flex flex-col items-center justify-center py-20">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mb-4"></div>
+            <p className="text-muted-foreground">Loading dashboard...</p>
+            <p className="text-sm text-muted-foreground mt-2">First load may take 30-60s (API cold start)</p>
+          </div>
+        )}
+
+        {/* Error State */}
+        {error && !initialLoading && (
+          <div className="bg-destructive/10 border border-destructive/20 rounded-lg p-4 mb-8">
+            <h3 className="font-semibold text-destructive mb-2">Failed to load data</h3>
+            <p className="text-sm text-muted-foreground">{error}</p>
+            <button 
+              onClick={() => window.location.reload()} 
+              className="mt-3 px-4 py-2 bg-primary text-primary-foreground rounded-md text-sm"
+            >
+              Retry
+            </button>
+          </div>
+        )}
+
+        {/* Dashboard Content */}
+        {!initialLoading && (
+          <>
+            {/* KPI Cards */}
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
           <KPICard
             title="BTC Price"
             value={priceData ? `$${priceData.price.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}` : '...'}
@@ -167,6 +220,8 @@ function DashboardContent() {
             Data updated hourly via automated pipeline
           </p>
         </div>
+        </>
+        )}
       </main>
     </div>
   );
