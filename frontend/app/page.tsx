@@ -31,24 +31,23 @@ async function DashboardContent() {
     // Continue with empty data rather than crashing
   }
   
-  // Calculate metrics with safe null checks
-  const data = sentimentData?.data || [];
-  const lastItem = data.length > 0 ? data[data.length - 1] : null;
-  const secondLastItem = data.length >= 2 ? data[data.length - 2] : null;
-  
-  const currentSentiment = lastItem?.smoothed ?? 0;
-  const rawSentiment = lastItem?.raw ?? 0;
+  // Calculate metrics with proper null checks
+  const data = sentimentData.data || [];
+  const lastPoint = data.length > 0 ? data[data.length - 1] : null;
+  const currentSentiment = lastPoint?.smoothed ?? 0;
+  const rawSentiment = lastPoint?.raw ?? 0;
   
   // Calculate 24h change
-  const delta24h = (lastItem && secondLastItem) 
-    ? (lastItem.smoothed ?? 0) - (secondLastItem.smoothed ?? 0)
+  const secondLastPoint = data.length >= 2 ? data[data.length - 2] : null;
+  const delta24h = (lastPoint?.smoothed != null && secondLastPoint?.smoothed != null)
+    ? lastPoint.smoothed - secondLastPoint.smoothed 
     : 0;
   
   // Calculate 7d change
   const lookback7d = Math.min(7, data.length - 1);
-  const olderItem = data.length > lookback7d ? data[data.length - 1 - lookback7d] : null;
-  const delta7d = (lastItem && olderItem)
-    ? (lastItem.smoothed ?? 0) - (olderItem.smoothed ?? 0)
+  const weekAgoPoint = data.length > lookback7d ? data[data.length - 1 - lookback7d] : null;
+  const delta7d = (lastPoint?.smoothed != null && weekAgoPoint?.smoothed != null)
+    ? lastPoint.smoothed - weekAgoPoint.smoothed
     : 0;
 
   return (

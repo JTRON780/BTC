@@ -45,6 +45,8 @@ export function SentimentChart({ data, granularity }: SentimentChartProps) {
             content={({ active, payload }) => {
               if (!active || !payload || !payload.length) return null;
               const data = payload[0].payload;
+              if (!data) return null;
+              
               return (
                 <div className="rounded-lg border bg-background p-3 shadow-lg">
                   <p className="text-sm font-medium">
@@ -53,15 +55,15 @@ export function SentimentChart({ data, granularity }: SentimentChartProps) {
                   <div className="mt-2 space-y-1 text-sm">
                     <div className="flex items-center justify-between gap-4">
                       <span className="text-muted-foreground">Raw:</span>
-                      <span className="font-medium">{data.raw.toFixed(3)}</span>
+                      <span className="font-medium">{(data.raw ?? 0).toFixed(3)}</span>
                     </div>
                     <div className="flex items-center justify-between gap-4">
                       <span className="text-muted-foreground">Smoothed:</span>
-                      <span className="font-medium">{data.smoothed.toFixed(3)}</span>
+                      <span className="font-medium">{(data.smoothed ?? 0).toFixed(3)}</span>
                     </div>
                     <div className="flex items-center justify-between gap-4">
                       <span className="text-muted-foreground">Posts:</span>
-                      <span className="font-medium">{data.n_posts}</span>
+                      <span className="font-medium">{data.n_posts ?? 0}</span>
                     </div>
                   </div>
                 </div>
