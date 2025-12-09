@@ -1,4 +1,4 @@
-# BTC Sentiment Analysis 📊
+# BTC Market Outlook
 
 A real-time Bitcoin sentiment analysis dashboard that collects data from news and social media, analyzes it with FinBERT, and displays insights through an interactive web interface.
 
