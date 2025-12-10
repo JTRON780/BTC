@@ -19,7 +19,11 @@ function DashboardContent() {
     positives: [], 
     negatives: [] 
   });
-  const [selectedDate, setSelectedDate] = useState(format(new Date(), 'yyyy-MM-dd'));
+  // Use UTC date for consistency with backend
+  const [selectedDate, setSelectedDate] = useState(() => {
+    const now = new Date();
+    return format(new Date(now.getTime() - now.getTimezoneOffset() * 60000), 'yyyy-MM-dd');
+  });
   const [loading, setLoading] = useState(true);
   const [initialLoading, setInitialLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);

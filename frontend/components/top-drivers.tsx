@@ -1,7 +1,8 @@
 'use client';
 
-import { ExternalLink, TrendingUp, TrendingDown, Calendar as CalendarIcon } from 'lucide-react';
+import { ExternalLink, TrendingUp, TrendingDown, Calendar as CalendarIcon, Filter } from 'lucide-react';
 import { format, parseISO, subDays } from 'date-fns';
+import { useState, useMemo } from 'react';
 import { TopDriver } from '@/lib/api';
 import { formatSentiment, getSentimentColor } from '@/lib/utils';
 
@@ -22,11 +23,34 @@ export function TopDrivers({
   loading = false,
   availableDates 
 }: TopDriversProps) {
-  // Generate date options from the last 30 days
+  const [selectedSource, setSelectedSource] = useState<string>('all');
+
+  // Generate date options from the last 30 days (using UTC for consistency with backend)
   const dateOptions = Array.from({ length: 30 }, (_, i) => {
-    const date = subDays(new Date(), i);
+    const now = new Date();
+    const utcDate = new Date(now.getTime() - now.getTimezoneOffset() * 60000);
+    const date = subDays(utcDate, i);
     return format(date, 'yyyy-MM-dd');
   });
+
+  // Get unique sources from both positive and negative drivers
+  const allSources = useMemo(() => {
+    const sources = new Set<string>();
+    positives.forEach(d => sources.add(d.source));
+    negatives.forEach(d => sources.add(d.source));
+    return Array.from(sources).sort();
+  }, [positives, negatives]);
+
+  // Filter drivers by selected source
+  const filteredPositives = useMemo(() => {
+    if (selectedSource === 'all') return positives;
+    return positives.filter(d => d.source === selectedSource);
+  }, [positives, selectedSource]);
+
+  const filteredNegatives = useMemo(() => {
+    if (selectedSource === 'all') return negatives;
+    return negatives.filter(d => d.source === selectedSource);
+  }, [negatives, selectedSource]);
 
   const DriverItem = ({ driver, index }: { driver: TopDriver; index: number }) => (
     <div className="flex items-start gap-3 py-3 border-b last:border-0">
@@ -56,22 +80,42 @@ export function TopDrivers({
 
   return (
     <div>
-      {/* Header with Date Picker */}
-      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
+      {/* Header with Date and Source Filter */}
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
         <h2 className="text-xl font-semibold">Top Sentiment Drivers</h2>
-        <div className="flex items-center gap-2">
-          <CalendarIcon className="w-4 h-4 text-muted-foreground" />
-          <select
-            value={selectedDate}
-            onChange={(e) => onDateChange(e.target.value)}
-            className="px-3 py-2 border rounded-md text-sm bg-background focus:outline-none focus:ring-2 focus:ring-ring"
-          >
-            {dateOptions.map((date) => (
-              <option key={date} value={date}>
-                {format(parseISO(date), 'MMMM d, yyyy')}
-              </option>
-            ))}
-          </select>
+        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
+          {/* Date Picker */}
+          <div className="flex items-center gap-2">
+            <CalendarIcon className="w-4 h-4 text-muted-foreground" />
+            <select
+              value={selectedDate}
+              onChange={(e) => onDateChange(e.target.value)}
+              className="px-3 py-2 border rounded-md text-sm bg-background focus:outline-none focus:ring-2 focus:ring-ring"
+            >
+              {dateOptions.map((date) => (
+                <option key={date} value={date}>
+                  {format(parseISO(date), 'MMMM d, yyyy')}
+                </option>
+              ))}
+            </select>
+          </div>
+          
+          {/* Source Filter */}
+          <div className="flex items-center gap-2">
+            <Filter className="w-4 h-4 text-muted-foreground" />
+            <select
+              value={selectedSource}
+              onChange={(e) => setSelectedSource(e.target.value)}
+              className="px-3 py-2 border rounded-md text-sm bg-background focus:outline-none focus:ring-2 focus:ring-ring"
+            >
+              <option value="all">All Sources</option>
+              {allSources.map((source) => (
+                <option key={source} value={source}>
+                  {source}
+                </option>
+              ))}
+            </select>
+          </div>
         </div>
       </div>
 
@@ -87,12 +131,13 @@ export function TopDrivers({
             <div className="flex items-center gap-2 mb-4">
               <TrendingUp className="w-5 h-5 text-green-600 dark:text-green-400" />
               <h3 className="text-lg font-semibold">Most Positive</h3>
+              <span className="text-xs text-muted-foreground ml-auto">({filteredPositives.length})</span>
             </div>
-            {positives.length === 0 ? (
+            {filteredPositives.length === 0 ? (
               <p className="text-sm text-muted-foreground">No positive sentiment drivers found</p>
             ) : (
               <div className="space-y-0 overflow-y-auto max-h-[500px] pr-2 scrollbar-thin scrollbar-thumb-muted scrollbar-track-transparent">
-                {positives.map((driver, idx) => (
+                {filteredPositives.map((driver, idx) => (
                   <DriverItem key={idx} driver={driver} index={idx} />
                 ))}
               </div>
@@ -104,12 +149,13 @@ export function TopDrivers({
             <div className="flex items-center gap-2 mb-4">
               <TrendingDown className="w-5 h-5 text-red-600 dark:text-red-400" />
               <h3 className="text-lg font-semibold">Most Negative</h3>
+              <span className="text-xs text-muted-foreground ml-auto">({filteredNegatives.length})</span>
             </div>
-            {negatives.length === 0 ? (
+            {filteredNegatives.length === 0 ? (
               <p className="text-sm text-muted-foreground">No negative sentiment drivers found</p>
             ) : (
               <div className="space-y-0 overflow-y-auto max-h-[500px] pr-2 scrollbar-thin scrollbar-thumb-muted scrollbar-track-transparent">
-                {negatives.map((driver, idx) => (
+                {filteredNegatives.map((driver, idx) => (
                   <DriverItem key={idx} driver={driver} index={idx} />
                 ))}
               </div>
