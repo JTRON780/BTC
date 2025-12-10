@@ -56,42 +56,11 @@ jobs:
           df -h
           echo "Available disk space after installation"
       
-      - name: Create .env file
+      - name: Load .env file
         run: |
-          # Create .env from GitHub Secrets
-          # Use secrets if available, otherwise use defaults
-          cat > .env << EOF
-          DB_URL=sqlite:///btc_sentiment.db
-          NEWS_FEEDS=${{ secrets.NEWS_FEEDS }}
-          REDDIT_FEEDS=${{ secrets.REDDIT_FEEDS }}
-          COINGECKO_BASE=${{ secrets.COINGECKO_BASE }}
-          ALLOWED_ORIGINS=${{ secrets.ALLOWED_ORIGINS }}
-          EOF
-          # Replace empty values with defaults
-          python3 << 'PYTHON'
-          import os
-          with open('.env', 'r') as f:
-              content = f.read()
-          # Set defaults for empty values
-          lines = content.split('\n')
-          result = []
-          for line in lines:
-              if line.startswith('NEWS_FEEDS=') and line == 'NEWS_FEEDS=':
-                  result.append('NEWS_FEEDS=https://cointelegraph.com/rss')
-              elif line.startswith('REDDIT_FEEDS=') and line == 'REDDIT_FEEDS=':
-                  result.append('REDDIT_FEEDS=bitcoin')
-              elif line.startswith('COINGECKO_BASE=') and line == 'COINGECKO_BASE=':
-                  result.append('COINGECKO_BASE=https://api.coingecko.com/api/v3')
-              elif line.startswith('ALLOWED_ORIGINS=') and line == 'ALLOWED_ORIGINS=':
-                  result.append('ALLOWED_ORIGINS=http://localhost:8501,http://localhost:8000')
-              else:
-                  result.append(line)
-          with open('.env', 'w') as f:
-              f.write('\n'.join(result))
-          print("Created .env file:")
-          with open('.env', 'r') as f:
-              print(f.read())
-          PYTHON
+          # Use the committed .env file from the repository
+          echo "Using .env file from repository:"
+          cat .env
       
       - name: Download database from latest release
         run: |

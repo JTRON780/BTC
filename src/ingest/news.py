@@ -208,8 +208,23 @@ def _extract_source_from_url(url: str) -> str:
         url: Article URL
         
     Returns:
-        Source name (e.g., 'cointelegraph', 'decrypt', 'coindesk')
+        Source name (e.g., 'Cointelegraph', 'Decrypt', 'CoinDesk')
     """
+    # Mapping of domains to nice display names
+    source_names = {
+        'cointelegraph': 'Cointelegraph',
+        'decrypt': 'Decrypt',
+        'coindesk': 'CoinDesk',
+        'bitcoinmagazine': 'Bitcoin Magazine',
+        'cryptobriefing': 'Crypto Briefing',
+        'reuters': 'Reuters',
+        'bloomberg': 'Bloomberg',
+        'ft': 'Financial Times',
+        'theblock': 'The Block',
+        'cryptoslate': 'CryptoSlate',
+        'news': 'Google News',
+    }
+    
     try:
         parsed = urlparse(url)
         domain = parsed.netloc.lower()
@@ -226,12 +241,13 @@ def _extract_source_from_url(url: str) -> str:
             source = parts[0]
         else:
             source = domain
-            
-        return source
+        
+        # Return nice display name if available, otherwise capitalize the source
+        return source_names.get(source, source.capitalize())
         
     except Exception as e:
         logger.warning(f"Failed to extract source from URL: {url}", extra={'error': str(e)})
-        return 'news'
+        return 'News'
 
 
 def _strip_html(text: str) -> str:

@@ -173,9 +173,15 @@ def _normalize_entry(entry: Any, feed_url: str) -> Dict[str, Any] | None:
     # Generate unique ID from URL hash
     item_id = hashlib.sha256(url.encode('utf-8')).hexdigest()[:16]
     
-    # Extract source from URL
+    # Extract source from URL - try to get subreddit name
     parsed_url = urlparse(url)
-    source = parsed_url.hostname or 'reddit'
+    # URL format: https://www.reddit.com/r/subreddit/comments/...
+    path_parts = parsed_url.path.split('/')
+    subreddit = None
+    if len(path_parts) >= 3 and path_parts[1] == 'r':
+        subreddit = path_parts[2]
+    
+    source = f"r/{subreddit}" if subreddit else 'reddit'
     
     # Get title
     title = entry.get('title', '').strip()
