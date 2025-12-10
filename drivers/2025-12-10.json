@@ -3,14 +3,14 @@
   "positives": [
     {
       "title": "Crypto market adds $150 billion in 24 hours: Why is Bitcoin up today?",
-      "polarity": 0.9046947211027145,
+      "polarity": 0.9046948589384556,
       "ts": "2025-12-10T09:57:32",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/crypto-market-adds-150-billion-in-24-hours-what-happened-today/"
     },
     {
       "title": "Fidelity\u2019s Bitcoin ETF sees $199M net inflow, leading Bitcoin spot ETFs",
-      "polarity": 0.8902449458837509,
+      "polarity": 0.8902449551969767,
       "ts": "2025-12-10T06:58:17",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/fidelity-bitcoin-etf-inflows/"
@@ -30,13 +30,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQekEtbElCS3RoWE9yeWx4TFFaUm0tWWgydVRkemtjOWw2cVdjbmRPV0VCdk9uV3JxREpuUk5zWUwwUXJVYzJXZEVDdUZNdDcxbGJoQnFLLXY2WEpfN3dLdXBlejNTQkh1Tk03bGk2VmV3cGo3RGU0cXFBSzlQTktLbGxtbUQzQW9xeldzX0dLWmRJS2wwdk90VXN0cXhfQ3REc2tJRTRGUU51c3ppbFdHNVp4RV9QR3RFN3p1VEtJWlFGcnc?oc=5"
     },
     {
-      "title": "Asset Manager Strive Launches $500M Stock Sales to Purchase More Bitcoin - Yahoo Finance",
-      "polarity": 0.7123553398996592,
-      "ts": "2025-12-10T05:48:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQa1F4ODlVLTlsMHBnc3VVRmltMUp4cENzNXA5NmxWaWV5ZWt3akt3czZscS1qTjU5Z3BWaElWejdzMnNzSF9uZ3BPYVU0aVd6Y19ZU2FGd2NUdjNIOWVyQlZpT2ZzTTNwX2M0ZTd2c2publlpTVNpODRnem1CN2JHa1I5MDRPa1E?oc=5"
-    },
-    {
       "title": "Vivek Ramaswamy\u2019s Strive to raise $500M to buy Bitcoin",
       "polarity": 0.6758075496181846,
       "ts": "2025-12-10T01:44:16",
@@ -52,24 +45,31 @@
     },
     {
       "title": "Bitcoin price today: rises to $92.6k ahead of potential Fed rate cut - Investing.com",
-      "polarity": 0.5179289691150188,
+      "polarity": 0.5179303959012032,
       "ts": "2025-12-10T07:05:54",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX2dDMW9kdVVoZ1BjMXB3T3dpS083YUx6bzZIUjd1SF9WRGpYMktnVEoyMjFKZUJ4Q2NNOXpOR0dfcUNlSUNlRmdvWjM0cDlmRkhITWRjbTkwWTlCdzNyOXQyX1VySENiY2RKV0loc29Ud1UxeEVIYkp5Mk82c0JNQm9RVVM5aGdJNUdseXlBWlBrN0VYVXdnUG40UzBCckpCSkRrUUdiNUJOb3ZDbE5aMmctWmxZS3pTalFxQ0ktYThFdw?oc=5"
     },
     {
       "title": "Ethereum just smashed through resistance and rallied over 8% while others are basically stuck at its current levels.",
-      "polarity": 0.40236156433820724,
+      "polarity": 0.4023638591170311,
       "ts": "2025-12-10T03:29:49",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1pis67s/ethereum_just_smashed_through_resistance_and/"
     },
     {
       "title": "Ethereum just smashed through resistance and rallied over 8% while others are basically stuck at its current levels.",
-      "polarity": 0.40236156433820724,
+      "polarity": 0.4023638591170311,
       "ts": "2025-12-10T03:30:41",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1pis6wp/ethereum_just_smashed_through_resistance_and/"
+    },
+    {
+      "title": "Strive launches $500 million at-the-market offering for further bitcoin acquisitions",
+      "polarity": 0.24083572626113892,
+      "ts": "2025-12-10T10:23:56",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1piz6qj/strive_launches_500_million_atthemarket_offering/"
     },
     {
       "title": "Vivek Ramaswamy\u2019s Strive seeks up to $500M to acquire more Bitcoin and repay debt",
@@ -80,49 +80,63 @@
     },
     {
       "title": "Silk Road-linked Bitcoin wallets move $3M to new address",
-      "polarity": 0.2136042732745409,
+      "polarity": 0.21360402088612318,
       "ts": "2025-12-10T09:23:54",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/silk-road-wallets-transfer-3m-bitcoin-new-address?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "title": "Animoca, Solv to help Japanese Bitcoin companies generate yield",
-      "polarity": 0.21285168128088117,
+      "polarity": 0.21285212319344282,
       "ts": "2025-12-10T06:19:55",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/japan-companies-bitcoin-yield-solv-animoca?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "title": "Strive Starts $500M Preferred Stock \"At-The-Money\" Program for Bitcoin Purchases",
+      "polarity": 0.11517611984163523,
+      "ts": "2025-12-10T10:16:27",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2025/12/10/strive-starts-usd500m-preferred-stock-at-the-money-program-for-bitcoin-purchases"
+    },
+    {
       "title": "Silk Road Bitcoin Wallets Move $3.1M After Decade Dormant - Bitbo",
-      "polarity": 0.1008543074131012,
+      "polarity": 0.1008545309305191,
       "ts": "2025-12-10T09:25:38",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QSG14UkxxbWpuamQ0YjFCa2RoTTFIUkJ4cnNHTGFVeC1aSksxVWRrZ0NEakFIakw0V1FKR2RfQUdxaTZ2SnZyWlZxbXdjclVPNFJpQkRCVGwxek0?oc=5"
     },
     {
       "title": "Strive launches $500 million at-the-market offering for further bitcoin acquisitions - The Block",
-      "polarity": 0.0991405788809061,
+      "polarity": 0.09914088621735573,
       "ts": "2025-12-10T04:51:05",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9RY1dsOUtFOXZod19yNEdNYlNJaFZxV3ExU0VzWU9KbWtqTkg2cXlVdXJGRllPUmpSczlJOU94Y3NVeUxJVHF1czNBbkhhMm9MSVZLdkJNaG5PM3EyLUJGOXY5c2FGb1BGM3RELUpXdVdobjFMS3VYQWJnWG1FUdIBgwFBVV95cUxON1UyVkpFV1loSzA0ZU9uOTYtejFPTnB1YTItek9SOHZtZWJneWFzMUE2V2stNVMzcURsbDBoTTh5LVJJTHRsdHV3WUlCZWdYalhQUzFyYVJYb2JBUFZUNmlkaTJ1bGY1Z1piUUoxN2Itc0R3MVJpZTJRVGozYU83eFVSMA?oc=5"
     },
     {
+      "title": "Crypto market adds $150 billion in 24 hours: Why is Bitcoin up today? - CryptoSlate",
+      "polarity": 0.09848331660032272,
+      "ts": "2025-12-10T09:57:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQW1RaW90WUV2SEptYTJuNW9LVlNmbVctR0pOQnlLYjRPdUVBODBhYktqbkdvTkx2Z1pROTdNX2VnLTNVcXN4TE9yQjYxbUQ5X3pCOXkyMEducjdtRzFadEQxR1plcGhMSDNiRENzX0FRaUlESUdQME5ERzd5Q0loMkFGY3FrWU9YaTN5dV9QUFI?oc=5"
+    },
+    {
       "title": "Strategy",
-      "polarity": 0.0946583729237318,
+      "polarity": 0.09465851448476315,
       "ts": "2025-12-10T06:04:08",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1piv3mx/strategy/"
     },
     {
       "title": "BTC is back, 2026 Bullrun Are you ready?",
-      "polarity": 0.09158460050821304,
+      "polarity": 0.09158488735556602,
       "ts": "2025-12-10T06:56:59",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1piw0ft/btc_is_back_2026_bullrun_are_you_ready/"
     },
     {
       "title": "Bitcoin, Crypto Market to Remain Range-Bound After FOMC Meeting, Matrixport Predicts - Yahoo Finance",
-      "polarity": 0.09086590632796288,
+      "polarity": 0.09086606651544571,
       "ts": "2025-12-10T08:54:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMWpETDkwQUVScTYzYmQ3TjBhQV9ubUV2OHQ0WFhSVmE0U1ZXX2xhS01lckFnVWtXNGF1THRoeVduUUJJUlNhMXBpYXRhR3J6Q1lVTHNiWmJKSkV3aHc2bThyVWlOUUR3R25Sb3lqMkhZbkN6SmQtRzhTSzlaaWFSYzAzZUlOOUk?oc=5"
@@ -136,38 +150,31 @@
     },
     {
       "title": "In January 2023, public and private companies held 197,000 BTC",
-      "polarity": 0.0717657208442688,
+      "polarity": 0.07176586985588074,
       "ts": "2025-12-10T02:52:38",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pirec0/in_january_2023_public_and_private_companies_held/"
     },
     {
       "title": "Any Aussies here? Need Non KYC way to sell BTC for $Australian Dollar?",
-      "polarity": 0.051792836748063564,
+      "polarity": 0.051793032325804234,
       "ts": "2025-12-10T06:13:33",
       "source": "r/defi",
       "url": "https://www.reddit.com/r/defi/comments/1piv9iq/any_aussies_here_need_non_kyc_way_to_sell_btc_for/"
     },
     {
-      "title": "How High Can Bitcoin Price Go After FOMC Meeting Today? - TradingView",
-      "polarity": 0.04932684823870659,
-      "ts": "2025-12-10T06:27:43",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSGwxQ0R4ZlhCMG1FRnFFWE41TldEMEQ1LUlJakhZaGl6ZDhBOE5aalpIeUVLSGI3T1F0aHo3ZngzNnY1NDFrcXZzY085WmFWNjNQQU84VGxGWTFpZmRLaVBHT0FrRUZXczFkNklUTXJmRWY5SnNoSnZtM0ZtZnlSSUZYckdiYUh0amdhNEh1RUJXX0lmSW1PRkVXbHI4VHlwSnpUVmhEaV9DMUhIYkZOLWt6bFQ?oc=5"
-    },
-    {
-      "title": "Why do you buy Bitcoin? What\u2019s the point for you personally? What do you hope to gain?",
-      "polarity": 0.04612531140446663,
-      "ts": "2025-12-10T00:42:35",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1pioj0l/why_do_you_buy_bitcoin_whats_the_point_for_you/"
-    },
-    {
       "title": "SpaceX\u2019s Bitcoin Moves: A Model for Crypto Firms in Global Crypto Business Banking - OneSafe",
-      "polarity": 0.042193854227662086,
+      "polarity": 0.042193930596113205,
       "ts": "2025-12-10T08:36:33",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9raTJmbGRkZ1FsVTItbmR3RUFfamlPVTh1RDc3WFZ1XzB3UEtkanB4c2FCRkQtN0IxSUJmcmYwVUJQYTV1a3ZQb3dyaEpwUUtwNGwzU0JwVnBaV29DT2hOeGRPSy1FSVRCWm1uMkpBQk9td1lGR0hZ?oc=5"
+    },
+    {
+      "title": "Buying Opportunities!",
+      "polarity": 0.03773748129606247,
+      "ts": "2025-12-10T10:08:20",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1piyxsd/buying_opportunities/"
     },
     {
       "title": "US Regulator Allows Banks to Act as Bitcoin Intermediaries - Bitbo",
@@ -185,70 +192,70 @@
     },
     {
       "title": "Bitcoin miners are betting on AI over crypto : The Indicator from Planet Money - NPR",
-      "polarity": 0.03273353725671768,
+      "polarity": 0.03273349441587925,
       "ts": "2025-12-10T08:05:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcHhaYUh2WkVvczB6dUtibExTSHZZQVNfbmNMOG5KMHBfZG1VNnlfT1BPQzcxWUpBY1pza2lqcTBPVUllV3VLV09zQmx5cFJ5dDhhMmZuejVQZDNaSk5LZkJYSTdneVV4WGh6dVcwQlhDTVdYV1htMGRHM3o4M3VYNG9mcnRuTHV2MXpsOTI0aWtVOE0?oc=5"
     },
     {
       "title": "How Fed meeting sets up Bitcoin to hit $220,000 price. \u2018More decisively bullish\u2019 - dlnews.com",
-      "polarity": 0.03171470947563648,
+      "polarity": 0.03171471692621708,
       "ts": "2025-12-10T09:41:53",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVHhXNDBCMkxYM0Y4dGpWYndlTVhpNXY4LUhhME9BbHlGZE9ScnBrTkFEY18yQ2RibUNYVjk2R1VBNTh0V1dVQVctNnVqSmlNU3pJeUhBVGJYUS1uRDZnVWpEMFVnZFltcEc0NUt1T2VKWVM3MmlHa1JHR2tmcTVmeFRzcHp1OUlPelB4eDVYX0hyYVl4RGo4?oc=5"
     },
     {
       "title": "Silk Road wallets move bitcoin to unknown address after decade of dormancy",
-      "polarity": 0.031361520290374756,
+      "polarity": 0.031361497938632965,
       "ts": "2025-12-10T05:11:28",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1piu5mo/silk_road_wallets_move_bitcoin_to_unknown_address/"
     },
     {
       "title": "Roth/MKM initiates American Bitcoin stock with Buy rating on Bitcoin focus - Investing.com",
-      "polarity": 0.029311364516615868,
+      "polarity": 0.02931146789342165,
       "ts": "2025-12-10T08:20:08",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa1dEWFA1RVFycTc4M0RqZWRZOVdrSk9zVUQzQ21UN0JUOVo5VGdBbHRYOFl2d2E3NTFRRnlsY2NrUEpYV0lkUThPNDR4VmhMdHhsUUpSVzdZWXVfMG85VG01WFJDWnhTeHAwMnFmYVpMZVhSMWVsYUJaVjdxVGpib21GNDJzV0c0V21hSkp5RUZsWjFrZWxVdXU0aDhIekRzT2tPdXVYaWFnOHVYQVlyQno2XzRHR29ySWxObVJkVEhFLTNreGpxRjJySlNkZw?oc=5"
     },
     {
-      "title": "Binance Takes the Bitcoin Trading Driver\u2019s Seat Among Exchanges as BTC Eyes $105K Comeback - Coinpaper",
-      "polarity": 0.022381126880645752,
-      "ts": "2025-12-10T08:29:51",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdjBEMGNCTTRqTGl5Nl9Idl9qVDZLbGgwc3J0OXU3NWZfODUwdXk4ZEJ5RFBxOGx3TmEyMGF6WXBsZFVrREpNamRCOUVuNTlxdUg3TWdUSno1N1JTMVJzRDhpTWpIWW5pQ3JPUk9yaUhEV3RCZkxyU09JdGhNQlNPWjNobWZLZFFRY3JJME5IMWMxWDBLWFdodXIzSFZTOFFreEx2V1JhS0JPUEVKZERuVTRHUUZCbXNiOWc?oc=5"
-    },
-    {
       "title": "Bitcoin Market Dynamics as FOMC Meeting Approaches - OneSafe",
-      "polarity": 0.01733344793319702,
+      "polarity": 0.017333554103970528,
       "ts": "2025-12-10T09:21:01",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE83aXVCd1NvNHhnb1Q4Mm5EdTZzNlNZTVNRcEYyQ19rQ1RFX3BxS25EOFdIeDUyTlNzc3lnT1VNM3VDLW9vMkEwMkhjXzhjTnJQRkdTZi0taHY3NVlMakJscDhYVHNPemNDLTNXeFNUcEZVQQ?oc=5"
     },
     {
       "title": "Navigating the Crypto Payment Platforms: The Impact of Bitcoin Futures Volume on Market Stability - OneSafe",
-      "polarity": 0.015928063541650772,
+      "polarity": 0.015928147360682487,
       "ts": "2025-12-10T09:06:01",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uclVNQ2NYMjAwYlBxSGxNZWxYRGtLb2t3d3dQODlUMDB4TGNJNmthbzYzM2IyT2NNcDhxUW1hN2pGaldFZ080T21qY1BxMndBUG84Qmd3eGFwdEFBZUp2TS1YVlFZWlRfbWQ5cHBGVjRfQjl1SE91SFBLbFdCWnc?oc=5"
     },
     {
       "title": "[Daily Discussion] - Wednesday, December 10, 2025",
-      "polarity": 0.013145551085472107,
+      "polarity": 0.013145633041858673,
       "ts": "2025-12-10T05:00:44",
       "source": "r/BitcoinMarkets",
       "url": "https://www.reddit.com/r/BitcoinMarkets/comments/1pitycv/daily_discussion_wednesday_december_10_2025/"
     },
     {
+      "title": "Dollar Debasement Fears Rising, Crypto Leaders Vow End To 4-Year Cycle \u2014 What Does It Mean for Bitcoin Now? - CCN.com",
+      "polarity": 0.0049494728446006775,
+      "ts": "2025-12-10T10:34:18",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdmFKVVhxTW9wdEltVVkyV1ZmZEZOdmE1RzFvNVVQV0loNFpJenBicENJRFktZ2ZfNnh1UmgzalZ3NjNSd0NSREhNb1p4SXc2czBSV2s1RmdnQThTeUhGV21QcDl2WHVBNHhsWHZSbnc5UEgyRWktaEJNSm10VWNkRFZtYmlnWm9WeE14Sm5feTdtZ0dZUFYyQWdnS0Njdw?oc=5"
+    },
+    {
       "title": "What makes bitcoin different from traditional money? - The Jerusalem Post",
-      "polarity": 0.00342554971575737,
+      "polarity": 0.0034255608916282654,
       "ts": "2025-12-10T09:08:53",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15Q1FpYUs3TUttMy0zOUxaOXpFenBZdzJjeUlXd0ktNFZiMmp3V01WWWpKSWtIYlFoX2RlSlZFWDQzQmNZSC10eWRjTnFMWklLNEpxaHdZSWxINlNS?oc=5"
     },
     {
       "title": "Daily Discussion, December 10, 2025",
-      "polarity": 0.0006728619337081909,
+      "polarity": 0.0006729625165462494,
       "ts": "2025-12-10T06:00:57",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1piv1k4/daily_discussion_december_10_2025/"
@@ -264,10 +271,17 @@
     },
     {
       "title": "Key Bitcoin price levels to watch ahead of 2025\u2019s last FOMC meeting",
-      "polarity": -0.9227360803633928,
+      "polarity": -0.9227359462529421,
       "ts": "2025-12-10T09:03:50",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bitcoin-price-levels-to-watch-2025-last-fomc-meeting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "One of bitcoin's biggest bulls just slashed their forecast in half - Business Insider",
+      "polarity": -0.9017961043864489,
+      "ts": "2025-12-10T10:15:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOLUxIaFBabk1qUHMwR2lNZzhCelhxTkFMSkhIV19UU01pRjctcmp0blFWa2NxMjFER3o5cXBaQnR0MWtZTHdwU2c1VmpSM2J1cnoyMU5aQXNVbnNxWTBDM2xTeDMxZ2ZzUlZRZVAwQ291STJQT1p5Rlc4dGI0NTUwTmx1OEtfa21uQmR1LS0wbzRBc1RHTVRrLTBtS0xGLUtkeVJidzZ0cERXZw?oc=5"
     },
     {
       "title": "Bitcoin Holds Near $92K as Selling Cools, but Demand Still Lags - CoinDesk",
@@ -278,7 +292,7 @@
     },
     {
       "title": "Tragedy Strikes the Bitcoin Market Today",
-      "polarity": -0.7679315451532602,
+      "polarity": -0.767931591719389,
       "ts": "2025-12-10T04:41:26",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pitli0/tragedy_strikes_the_bitcoin_market_today/"
@@ -292,28 +306,28 @@
     },
     {
       "title": "BTC, ETH, SOL, ADA Pull Back Ahead of Fed Meeting Where Rate-Cuts Expected",
-      "polarity": -0.7103825397789478,
+      "polarity": -0.7103833705186844,
       "ts": "2025-12-10T05:18:03",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2025/12/10/btc-eth-sol-ada-pull-back-ahead-of-fed-meeting-where-rate-cuts-expected"
     },
     {
       "title": "Trump Thinks Peter Schiff Is a \u2018Loser\u2019 and a \u2018Jerk\u2019 - Bitcoin.com News",
-      "polarity": -0.2584916353225708,
+      "polarity": -0.25849221274256706,
       "ts": "2025-12-10T06:36:43",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE90T1lxa3hiZUlLME91SXRCREFlcEtRXzctYS0xcFdfdloyZXRNVG8zUDZwdzFLTTBMNGtYckJJMEZ6YmR4VEdsX3k5dlpqSURIUXhiaEFIdzBvYlVMaF9ETXdpQVlnTU9wSlZkUndMakNHeEppeS1tNG5qZGdCQQ?oc=5"
     },
     {
       "title": "Bitcoin FOMO trickles back at $94K, but Fed could spoil the party",
-      "polarity": -0.1635940968990326,
+      "polarity": -0.16359248757362366,
       "ts": "2025-12-10T03:46:52",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bitcoin-much-needed-rebound-94k-ahead-fed-meeting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "title": "$94,000 vanished before I could wake up.",
-      "polarity": -0.14310852624475956,
+      "polarity": -0.14310790970921516,
       "ts": "2025-12-10T04:02:15",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pisu13/94000_vanished_before_i_could_wake_up/"
@@ -326,22 +340,36 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeW1OYnBqXzFBeEFyT1dZMVZnQmFFcm9vdDJsbjhmQjZ6UE95TTBFMFBNUjRsTkRiTHZGUjZtTDZXdDlxa0FWalNZZGx2WlFnSVNRVHk5LWJlRUJkMUtyWlduQU1obWoxYnV4NDIzVHZ3Y0FHam9HdnVnaHV1MXEtSA?oc=5"
     },
     {
-      "title": "The Window Why Bitcoin\u2019s Quiet Accumulation Phase Begins When Conviction Falls Silent",
-      "polarity": -0.03214804083108902,
-      "ts": "2025-12-10T06:39:56",
+      "title": "Bitcoin Rises. Why the Crypto May Fall Below $90,000 Even after Fed Rate Cut. - Barron's",
+      "polarity": -0.0992022454738617,
+      "ts": "2025-12-10T08:57:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxNQ3k4U0ItOFJwTkYyeFR0bUwtM1pnbUJKOTY0VDE0a3J5MGg4aVprbHBwZFU3RUtSYlQ3Q29lQUo0S0lIYzhCWXZPLXZWNVpRMV9vWS1tZkJVOHpkbkFYdG01QWZJOUdTT1NBdXY1ZGtkOEQyTU54NGtpbUoxUWlyeVNpRFVZX3VGMzRpUFJVOWZWeUNUQklYblE0RW9tcTUteU1ORVlIM3EzUzd3YnBoTE5GVFo0X1VRQ2t3NVEtamt0d3ROZ0pHZExqNy1sZzVlY20xTkdFY2lyUmU0N3R6d2w3R2NweWNDc2Q5LW9YZmJpX0J6MGkwWFMwNXkzRFF4U1N5V1NQR1d2aG1NZ2NDQTJVRHk4b2lfbDl4aHhfZWFtdXBWNGtPV25ZbkthMVVPNmNMb1VNV2NoQjNPRUw2VXptWXByak5vNVp2cHN2WDZnSy1icEdZNTl0eTNSdjRPWldBVkdaT2NxUktIalU5LTNSMFpmc2VqN1d6anpCRHR6OEdhbEE?oc=5"
+    },
+    {
+      "title": "Lyn Alden says the 4-year Bitcoin cycle is dead. What do you think?",
+      "polarity": -0.059481922537088394,
+      "ts": "2025-12-10T10:35:51",
       "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1pivq09/the_window_why_bitcoins_quiet_accumulation_phase/"
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1pizdk3/lyn_alden_says_the_4year_bitcoin_cycle_is_dead/"
+    },
+    {
+      "title": "Top analyst eyes Bitcoin price of $100K after Fed\u2019s Dec. 10 decision - TheStreet",
+      "polarity": -0.035114532336592674,
+      "ts": "2025-12-10T10:35:31",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTlk1NkhtSVEtSjRtVFp3RElfYTdyV2daWlRTUlp6aU5PTnMxVEFPOVFQS2dQaE5SQWk5NU80RFBEaVY5bTJ4RENUbzFBZS1RY1ltWFVnVTlnNnpXNktmVktEdmgydzhuLU1RSzdaMXVGdWxSWkQtcGtVWkt0aXkzQ21kZGtfNzFkY1RON3pQUVhiYjVXSTJnOGNveFlKbW9ZbUs3cA?oc=5"
     },
     {
       "title": "Is Bitcoin\u2019s $94.6K Latest Rebound Triggering Unsustainable Retail FOMO? - CryptoPotato",
-      "polarity": -0.026939891278743744,
+      "polarity": -0.026939287781715393,
       "ts": "2025-12-10T08:40:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRTF0WEhsczNET0hTQ1lJQkxCX01hSmlEMzkxenlFN1J4am5qdlZWUmhCY0Z1cWxyM1RpZE9jSE10OGtwbXUxejJwb2w4RklnbFlNRlhfNG9HMEVlbGoyalhZSTFEOW51dUltQUFnTTExY2VjN0ZKNVNyZGVCNkRfV2plckJoVkVPYUw2d3Zodjh0dmhaRThWS1kyWQ?oc=5"
     },
     {
       "title": "Silk Road wallets move bitcoin to unknown address after decade of dormancy - The Block",
-      "polarity": -0.02666551247239113,
+      "polarity": -0.026665523648262024,
       "ts": "2025-12-10T04:58:44",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3YVNNVHB4TElGY0ZIQmNBNWctdG5jdEZhNVl1dFdvTndqMDVkb21hckNfQ2kzV3FsbjdSWi1jMUluWVhrZ1dzYTUwLUQzRmNWUGZFdEVGbDBaT3poTm9pdWdyendRQnBhVTRlVEF1ekNiMnd6MWfSAXtBVV95cUxPR0JOcHgxVk1KeUNqMEd6bGJlLXZkbU9fT3F2UUFCTkpOSVl0M1Y5SFo1UXVRTk5nSjdWMmtfRHE0bzF3UnNJNXlvTzA5U0pBZ3Q1cW1BbmtHbmdxT0lDbm5kelQ2amxkQXcyYTlHd2hXeHdVSl90NndON00?oc=5"
@@ -362,14 +390,14 @@
     },
     {
       "title": "Adam Back Tells Yahoo Finance: All Companies Become Bitcoin Treasury Companies",
-      "polarity": -0.016528697684407234,
+      "polarity": -0.016528621315956116,
       "ts": "2025-12-10T04:32:54",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pitfmt/adam_back_tells_yahoo_finance_all_companies/"
     },
     {
       "title": "Make art, Buy Bitcoin, Confuse people",
-      "polarity": -0.013440832495689392,
+      "polarity": -0.013440923765301704,
       "ts": "2025-12-10T08:41:17",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pixmw4/make_art_buy_bitcoin_confuse_people/"
