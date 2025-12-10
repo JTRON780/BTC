@@ -2,12 +2,27 @@
   "day": "2025-12-10",
   "positives": [
     {
+      "title": "U.S. Banks Can Now Execute Bitcoin Transactions Risklessly",
+      "polarity": 0.07970137521624565,
+      "ts": "2025-12-10T00:30:29",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1pio8yh/us_banks_can_now_execute_bitcoin_transactions/"
+    },
+    {
       "title": "Giant Bitcoin ad spotted in Times Square - \"No man should work for what another man can print\"",
-      "polarity": 0.03309970907866955,
+      "polarity": 0.0330997034907341,
       "ts": "2025-12-10T00:01:00",
-      "source": "www.reddit.com",
+      "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pinkh6/giant_bitcoin_ad_spotted_in_times_square_no_man/"
     }
   ],
-  "negatives": []
+  "negatives": [
+    {
+      "title": "Why Does Bitcoin Keep Dumping As Soon As The US Trading Session Starts? - Yahoo Finance",
+      "polarity": -0.10186704061925411,
+      "ts": "2025-12-10T00:30:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeW1OYnBqXzFBeEFyT1dZMVZnQmFFcm9vdDJsbjhmQjZ6UE95TTBFMFBNUjRsTkRiTHZGUjZtTDZXdDlxa0FWalNZZGx2WlFnSVNRVHk5LWJlRUJkMUtyWlduQU1obWoxYnV4NDIzVHZ3Y0FHam9HdnVnaHV1MXEtSA?oc=5"
+    }
+  ]
 }
