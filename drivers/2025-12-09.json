@@ -485,13 +485,6 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVExpa1d1Z2l0YWFVRHlwWXNUMWxVWnJXOTFMdVRsM0dKZlZ1VnpMV3ZOX29BOElEajZqdjZ4bEEwOVFaNVZDMHFISHlBRkVRdlNZelEtWVlnZ1NiYXhJYzVIcWZaVklhZ2RRZFFRRkRpNElMMkZfaFh4blFKUXlhWl9FM05QMUpkZVZhUV9ad2R1Wnp4TVZwd0M3TU4yRDF4eGc?oc=5"
     },
     {
-      "title": "\u2018We are going to buy all of it\u2019: Michael Saylor talks Bitcoin Strategy at Bitcoin MENA Conference - Bitcoin Magazine",
-      "polarity": 0.05273640900850296,
-      "ts": "2025-12-09T16:44:34",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE93QjlMZldpcW1ndFJQa3ZCTGV0ZjktbGZGRkdPclNNMFE0UjVkVDdBc2JOOER3ZzREdUI3SlcwRjNuSjZTcVVPaGFDREZHU2FJdGlRbjZaQ2p4TXd1STNVcXpPbVhuc2VKdVgzX0VQNVhWY21Md3U0YURB?oc=5"
-    },
-    {
       "title": "OCC authorizes U.S. banks to execute riskless-principal Bitcoin transactions unlocking regulated execution without balance-sheet exposure",
       "polarity": 0.05022660829126835,
       "ts": "2025-12-09T19:26:32",
@@ -768,7 +761,7 @@
     },
     {
       "title": "Stocks Stuck in Wait-and-See Mode Ahead of Fed: Markets Wrap",
-      "polarity": -0.9512889049947262,
+      "polarity": -0.9512889115139842,
       "ts": "2025-12-09T22:21:43",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2025-12-09/asian-stocks-look-muted-as-traders-await-fed-clues-markets-wrap"
@@ -873,13 +866,6 @@
     },
     {
       "title": "This bank just halved its bitcoin price target down from $200,000. Here\u2019s why. - MarketWatch",
-      "polarity": -0.9059880068525672,
-      "ts": "2025-12-09T23:14:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMivwNBVV95cUxQUlhOclJNeU5UVGd2YnZZVnp6REQ5Q0tUcFAtR1FXUlR6ajNHTTdlbzlqOG4tYzBzbmpvWmNkeGxXVmZJS0lOWTJzU3otdHpnOFpMcGVjRV9DSmVzN1NkaEZ1enFYTXF5Y21UMGgwWmNKajhMcG5fSDEwbWZUdkZIWXBWYlBDMW1XaTdIU0lSaVQ5aWtfdkt4OU00Sjh2aUl2dVNrX2ZDMUdqVUw2a0cyb2F2aVh6ZTdMQ3dJOU44V1F5WHdiZldsd0ZGRE1ETlhHTERYUVYxOVB1a2Rja00wR2wtRm9HMU1HNlNSc3hpQTVVZzI3N2s1ak1jbHpEN0FqR29kZ2p6QU5mZzhvNU5XVjRPSWFaQ3lCZ2szelM4eFF6MXJtVUM4dFFuRWxaSWE0d09VUkJ2M2FieTBQV2stM0tDS09tQm5oeFBzV3NScC1WN19OUTdrc0NtNk5Tc3E0eUZNc1lQcHh3bTR2SGV0c0U1NUJyTU51UzZITGpfaVFSTjFPOE1XU1ZvSjJSOFRQR2J6dVdPSGdKelI0TzRMekx4N0JtY3dWLWFlSkhSelE1RFQ0dlFsUEJYdFlUOTA?oc=5"
-    },
-    {
-      "title": "This bank just halved its bitcoin price target down from $200,000. Here\u2019s why. - MarketWatch",
       "polarity": -0.9059877516701818,
       "ts": "2025-12-09T23:14:00",
       "source": "Google News",
@@ -891,6 +877,13 @@
       "ts": "2025-12-09T23:14:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMivwNBVV95cUxOTUdfd3N6eUwyZVcxd1hJTkhZQk1xYU5ycVU5YWZaNjJkby1uSGRZdWRqdEpkUGxPeERvbXF1Rm5Ib3otdVcyM0JPc0RTVEhNdmQ4X0RObS1ra3dlQldTZzUtazhBSFJ0WkNTVXp0WExTRGxudFpxejFqNDFQZjJJNFBlRUVvRjdKSGxtS1VwS0ozR09WVFJ6NUZuZ2k0OFBaQ01vVVlsNnJwU0dBVlkxZDFJV0VQRk5oVHh1Y2s2cU9TUEZRb0NUb3pBaHpQTlpFRHVDNzQ5d255dkk0dDdPZmF4OFBMcm5GMnBnWFNXODRXSFhVRVVGaGtXVW9HZmJ6cUhzQk1MNXEtTjdtcW44U0RPeHhTa1NlaEFIcDN5NUhibFNDMVZHclBleE9jbGZ2LWN1VTdDNUwxX05UWUZkQjZIU0RISEw2TXZQZVZmOFFVcGtxVlpNVjRJU0RZTWNTVDNfcUR1R2dwa1BOZmE2ZHRjeUo5d0owUmRrOWt2WkR6OFFtVjduclJXOFc5ejRvOFdObk8zXzhGWXJUbG43LTJhRlJtM1dSSndBUXlpaVgzQ3kwWVhkaEwtR1JOSTg?oc=5"
+    },
+    {
+      "title": "This bank just halved its bitcoin price target down from $200,000. Here\u2019s why. - MarketWatch",
+      "polarity": -0.9059877516701818,
+      "ts": "2025-12-09T23:14:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivwNBVV95cUxNREVvX0JyazNWNVBTamdCM3lQS0xfb1VPNm1nT1ZULVB5Vm5jdjlOakhhNXlfSTFwTTNfZEFYVU5PbmlUbGNQamkxXzFQblFONTJFeUZDU3hOMU1wMGpVR0VpUXJhcXpKTWk3YjYxbENtejRoNHFaakJFMDA3dTlsZ1JUMkZJX05RTDhFbE1LdFN4RmpVMFhHVnhnaDFkR3JqNnNaU2ZfSjAzdjItTFB4amxQQUxXVjdRY2R5NnV1SGVZU2ZNZll1RWxuMW41cTBUVUJRdEtkNUlXNDRFVFFaRms5Q3cwdnF1NjB2YU1WS3FvNHdKN20yWkxKS1FkUENEcXpWWXliTHFyQlBKMXkzYzBoNzUteXEzSlRhOTZPcDJrLVF1cWY3bGdFU3BOTHlWajNSY0RZX3QxeXRtR2tZZk52TVhtM3FYOHJWNUFmMHd2Mm5rYlhwVjFWekROMzVYX3gxRERQejRrQV80TDRNLWtDMUh6dGZqdF9EMjZzekUxZUhHTHRuWDRBNEFpbkhkTUxReHRZUC1yWnVzVF9waURsNWZEOVowTlNrc1lQX2xRZ204d0h1bVc1QXlWY2M?oc=5"
     },
     {
       "title": "GameStop\u2019s bitcoin holdings \u2014 and sales \u2014 slide - MarketWatch",
@@ -908,10 +901,10 @@
     },
     {
       "title": "GameStop\u2019s bitcoin holdings \u2014 and sales \u2014 slide - MarketWatch",
-      "polarity": -0.8964167153462768,
+      "polarity": -0.8964171009138227,
       "ts": "2025-12-09T21:47:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxQYnNMdzB2bHMwOExVaU5EX3p6Xy1ZNTNhbmlMVURTWlY4TGU0d1ZUeGNLTjBSWGV1ZTYwWUNlQ1RYR0xma1BXdC1PX1RsVTctUnBUQVhpVWJmRnFVNmhHZ2tieU1JMExTRjBjNS1OU0dYTGhBVjJtSmVGU0NWWGs2aE5QTHpCb19kLThiMFlaYUJaZTZJV0YzVTh5clJZMURwamQ5U3Vtb0dNeU9IaUxsWmxwZC1BN0ZUd2JZRWRKeFpVVkJId2VGY1N2MVFCMW42YUpRa2tTUm02QW50ektSWVFUcmp3SVVFWWFIWXZ0UE9XaFViNGdZcFlvVFktVXBKbV9KOWszc0h1VUM3bVRyMjNWaktkSkdQc2JfOTVNWDMwMWRDSXdOMkVhSzhiUlNtY1B6NWJxdVFFZTZnb1poNXU4UlNQMVVILU1INXNzVW5ncHpGVGdSNjJLQ0F4YUl3cEVBZkVYNExLWHAtdFNoM1hqZzVIN2EtU1ZMQkYxVk1IVkFJdThlNkFleThJdk10cDNF?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxNYVNnSFNmZnV6UzZTREFwM0VpVjFjN216WUNzZ241VU5vT0hfNHl6bnZFanItV2xDNFgyVE5zUU5QZVN3bW9Pb2xCaWswdVBLbzJDZW9xM3czR19EeDdnNkhLT3JtUHJyYklLZ0wxVjM4d3BmaU5kOXJTYVhVVldPdHdmdW5DRXN2Tjc4cEhua2U0TnJ1WTNoWmRHUG5ZcXFmUzdTekd3eHFxUGxxMk5JaG9IUWNTdmwxWmRHUFR5SmZ3am5JZU5oR3hyOWdpZFJvaVVHVmN4bGpNVjZ3R1ZWX0NVZTdPQktVQU9leGxLMVpnQzA3Y3pvcWNZbEREQjRoalcyS1VudFRaWTlYY2NrV2d1eElTRXZZMUFyMGVKQVZ6NzViNGVEZ3Y3cDM2VVJCTC10QWk2UGQyQVBOX3VLODYzYy0xbzIxOWxjVktQcmpQXzdBeEtHRE4xOFFEZm1zY1RMSkNVbXpHSDM4V1c1WTJYWmlYUTUxbS1WY1FiVktJN01HVFg4bXBUVDVwazktbDQ4?oc=5"
     },
     {
       "title": "Bitcoin Looks Strong, but Interest Is Dropping.",
