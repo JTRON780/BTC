@@ -2,6 +2,13 @@
   "day": "2025-12-10",
   "positives": [
     {
+      "title": "Crypto market adds $150 billion in 24 hours: Why is Bitcoin up today?",
+      "polarity": 0.9046947211027145,
+      "ts": "2025-12-10T09:57:32",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/crypto-market-adds-150-billion-in-24-hours-what-happened-today/"
+    },
+    {
       "title": "Fidelity\u2019s Bitcoin ETF sees $199M net inflow, leading Bitcoin spot ETFs",
       "polarity": 0.8902449458837509,
       "ts": "2025-12-10T06:58:17",
@@ -72,11 +79,25 @@
       "url": "https://cryptobriefing.com/bitcoin-accumulation-strategy-strive-500-m/"
     },
     {
+      "title": "Silk Road-linked Bitcoin wallets move $3M to new address",
+      "polarity": 0.2136042732745409,
+      "ts": "2025-12-10T09:23:54",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/silk-road-wallets-transfer-3m-bitcoin-new-address?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "title": "Animoca, Solv to help Japanese Bitcoin companies generate yield",
       "polarity": 0.21285168128088117,
       "ts": "2025-12-10T06:19:55",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/japan-companies-bitcoin-yield-solv-animoca?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Silk Road Bitcoin Wallets Move $3.1M After Decade Dormant - Bitbo",
+      "polarity": 0.1008543074131012,
+      "ts": "2025-12-10T09:25:38",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QSG14UkxxbWpuamQ0YjFCa2RoTTFIUkJ4cnNHTGFVeC1aSksxVWRrZ0NEakFIakw0V1FKR2RfQUdxaTZ2SnZyWlZxbXdjclVPNFJpQkRCVGwxek0?oc=5"
     },
     {
       "title": "Strive launches $500 million at-the-market offering for further bitcoin acquisitions - The Block",
@@ -98,6 +119,13 @@
       "ts": "2025-12-10T06:56:59",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1piw0ft/btc_is_back_2026_bullrun_are_you_ready/"
+    },
+    {
+      "title": "Bitcoin, Crypto Market to Remain Range-Bound After FOMC Meeting, Matrixport Predicts - Yahoo Finance",
+      "polarity": 0.09086590632796288,
+      "ts": "2025-12-10T08:54:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMWpETDkwQUVScTYzYmQ3TjBhQV9ubUV2OHQ0WFhSVmE0U1ZXX2xhS01lckFnVWtXNGF1THRoeVduUUJJUlNhMXBpYXRhR3J6Q1lVTHNiWmJKSkV3aHc2bThyVWlOUUR3R25Sb3lqMkhZbkN6SmQtRzhTSzlaaWFSYzAzZUlOOUk?oc=5"
     },
     {
       "title": "U.S. Banks Can Now Execute Bitcoin Transactions Risklessly",
@@ -163,6 +191,13 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcHhaYUh2WkVvczB6dUtibExTSHZZQVNfbmNMOG5KMHBfZG1VNnlfT1BPQzcxWUpBY1pza2lqcTBPVUllV3VLV09zQmx5cFJ5dDhhMmZuejVQZDNaSk5LZkJYSTdneVV4WGh6dVcwQlhDTVdYV1htMGRHM3o4M3VYNG9mcnRuTHV2MXpsOTI0aWtVOE0?oc=5"
     },
     {
+      "title": "How Fed meeting sets up Bitcoin to hit $220,000 price. \u2018More decisively bullish\u2019 - dlnews.com",
+      "polarity": 0.03171470947563648,
+      "ts": "2025-12-10T09:41:53",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVHhXNDBCMkxYM0Y4dGpWYndlTVhpNXY4LUhhME9BbHlGZE9ScnBrTkFEY18yQ2RibUNYVjk2R1VBNTh0V1dVQVctNnVqSmlNU3pJeUhBVGJYUS1uRDZnVWpEMFVnZFltcEc0NUt1T2VKWVM3MmlHa1JHR2tmcTVmeFRzcHp1OUlPelB4eDVYX0hyYVl4RGo4?oc=5"
+    },
+    {
       "title": "Silk Road wallets move bitcoin to unknown address after decade of dormancy",
       "polarity": 0.031361520290374756,
       "ts": "2025-12-10T05:11:28",
@@ -177,18 +212,18 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa1dEWFA1RVFycTc4M0RqZWRZOVdrSk9zVUQzQ21UN0JUOVo5VGdBbHRYOFl2d2E3NTFRRnlsY2NrUEpYV0lkUThPNDR4VmhMdHhsUUpSVzdZWXVfMG85VG01WFJDWnhTeHAwMnFmYVpMZVhSMWVsYUJaVjdxVGpib21GNDJzV0c0V21hSkp5RUZsWjFrZWxVdXU0aDhIekRzT2tPdXVYaWFnOHVYQVlyQno2XzRHR29ySWxObVJkVEhFLTNreGpxRjJySlNkZw?oc=5"
     },
     {
-      "title": "Jack Mallers' Twenty One Capital Goes Public With $3.9B Bitcoin Treasury - CoinMarketCap",
-      "polarity": 0.0259828120470047,
-      "ts": "2025-12-10T05:59:52",
+      "title": "Binance Takes the Bitcoin Trading Driver\u2019s Seat Among Exchanges as BTC Eyes $105K Comeback - Coinpaper",
+      "polarity": 0.022381126880645752,
+      "ts": "2025-12-10T08:29:51",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMThyLWxZZEdrZFdxeWxqYjZXakRYQjVtSjFhc21YS3VCeFl4LUdwc2RyV28xSmxtY0dpMjdkZ2p6bXU3Q2loR0t4MmprSnFtZWdldGczVDlFNzhWZ1NmbXcxUTZWS3N0cHU3cEpWcU5CSWRZLWFlb2FoNzRzNkFJSXZWZmZsZnhkVkhDOHVZOUJYRzVmaDhNVmhiWHJFVUphRm10UDhKYXk2emVrNlFYM0Z2aUJLaGhz?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdjBEMGNCTTRqTGl5Nl9Idl9qVDZLbGgwc3J0OXU3NWZfODUwdXk4ZEJ5RFBxOGx3TmEyMGF6WXBsZFVrREpNamRCOUVuNTlxdUg3TWdUSno1N1JTMVJzRDhpTWpIWW5pQ3JPUk9yaUhEV3RCZkxyU09JdGhNQlNPWjNobWZLZFFRY3JJME5IMWMxWDBLWFdodXIzSFZTOFFreEx2V1JhS0JPUEVKZERuVTRHUUZCbXNiOWc?oc=5"
     },
     {
-      "title": "Bitcoin's Wild Ride and the Central Bank Crossroads - OneSafe",
-      "polarity": 0.023575209081172943,
-      "ts": "2025-12-10T04:10:58",
+      "title": "Bitcoin Market Dynamics as FOMC Meeting Approaches - OneSafe",
+      "polarity": 0.01733344793319702,
+      "ts": "2025-12-10T09:21:01",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fSlFqeDQybXFCMWE0VnVSYlpQamo1aFdyMEVjR0RzNUxFLTBaOTNGYkktRWJEdmtzNTZFdVdSd09KWVpkNG9UdGlWUTNUMjVQd0hyZDRiYV9JMWdLVmJIRzgtNFQxSTZINnNHNA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE83aXVCd1NvNHhnb1Q4Mm5EdTZzNlNZTVNRcEYyQ19rQ1RFX3BxS25EOFdIeDUyTlNzc3lnT1VNM3VDLW9vMkEwMkhjXzhjTnJQRkdTZi0taHY3NVlMakJscDhYVHNPemNDLTNXeFNUcEZVQQ?oc=5"
     },
     {
       "title": "Navigating the Crypto Payment Platforms: The Impact of Bitcoin Futures Volume on Market Stability - OneSafe",
@@ -203,6 +238,13 @@
       "ts": "2025-12-10T05:00:44",
       "source": "r/BitcoinMarkets",
       "url": "https://www.reddit.com/r/BitcoinMarkets/comments/1pitycv/daily_discussion_wednesday_december_10_2025/"
+    },
+    {
+      "title": "What makes bitcoin different from traditional money? - The Jerusalem Post",
+      "polarity": 0.00342554971575737,
+      "ts": "2025-12-10T09:08:53",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15Q1FpYUs3TUttMy0zOUxaOXpFenBZdzJjeUlXd0ktNFZiMmp3V01WWWpKSWtIYlFoX2RlSlZFWDQzQmNZSC10eWRjTnFMWklLNEpxaHdZSWxINlNS?oc=5"
     },
     {
       "title": "Daily Discussion, December 10, 2025",
@@ -226,13 +268,6 @@
       "ts": "2025-12-10T09:03:50",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bitcoin-price-levels-to-watch-2025-last-fomc-meeting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "Bitcoin FOMO trickles back at $94K, but Fed could spoil the party - MSN",
-      "polarity": -0.8487746529281139,
-      "ts": "2025-12-10T04:35:59",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNV0hycVc2TXJaTWt2c1pOUVZ6TGM5d3hVeVliemZ3dm1nM29KbGRxSlNDSjZFSlhLVFZ3eGNZUDJVaXU2UGJVRzR1eUtPbktiZzlrRWlzMDdTWG05aGlnc0R5dHJ2VWxLbkloR2M0cUdYOW9TWFlCUjBrN1d4SUFsMDBEdEUzeXlNcXR1T1phdDZZbUtuYlptbFNnNzhMRHdPZlUwTDRLZmlIWHBqdFBNLTN5RXU5RlBkMHFjRm45Q2NzNkdKQjNvLXAyem9ZWHZsSEd6bzZUQm0?oc=5"
     },
     {
       "title": "Bitcoin Holds Near $92K as Selling Cools, but Demand Still Lags - CoinDesk",
@@ -263,20 +298,6 @@
       "url": "https://www.coindesk.com/markets/2025/12/10/btc-eth-sol-ada-pull-back-ahead-of-fed-meeting-where-rate-cuts-expected"
     },
     {
-      "title": "Bitcoin Holds Near $92K as Selling Cools, but Demand Still Lags - Yahoo Finance Singapore",
-      "polarity": -0.5510770231485367,
-      "ts": "2025-12-10T02:12:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcmZjRGQxbmNxTXg1TG1Xc0JLZ25zWG11YzRSLUJhZ0ZlMjZadHBIU3VNR1dyZm1iblB4WnBFS0k5VDJIZ2NiT251bXhaMVJ5MGFuZGpSajBheWZOSFBPeVV1S25Qc2tLOEZsSUNQcUhEVk8yLWdLWUVwZWk3LUptd2s5Yi1EQQ?oc=5"
-    },
-    {
-      "title": "BTC, ETH, SOL, ADA Price News: Bitcoin Pull Back as Fed Expected to Cut Rates 25 bps - CoinDesk",
-      "polarity": -0.45335063338279724,
-      "ts": "2025-12-10T05:19:10",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcVVfUTRYa0JPbG1sWDNibVZHNnp0Wm56UW9udG96dFFrRlZCOHk1dEQyUWpRdVhTXzhhSzFKWTZVVVNvQ1BoUkJxSW01clBDOUVFenp2UW5MbGJDeThyaGJOaVBYRG9Jd2ZnRGtmazh3SW5teHJBc1l6a0ZKaklTQUJ2dEFSY2VnS25MVzk0N0pnR0daMi1jelFWRkljeC1kX1BvbXJwWUpsUDF2d2ZoWVdLZjhfQQ?oc=5"
-    },
-    {
       "title": "Trump Thinks Peter Schiff Is a \u2018Loser\u2019 and a \u2018Jerk\u2019 - Bitcoin.com News",
       "polarity": -0.2584916353225708,
       "ts": "2025-12-10T06:36:43",
@@ -305,18 +326,18 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeW1OYnBqXzFBeEFyT1dZMVZnQmFFcm9vdDJsbjhmQjZ6UE95TTBFMFBNUjRsTkRiTHZGUjZtTDZXdDlxa0FWalNZZGx2WlFnSVNRVHk5LWJlRUJkMUtyWlduQU1obWoxYnV4NDIzVHZ3Y0FHam9HdnVnaHV1MXEtSA?oc=5"
     },
     {
-      "title": "Bitcoin Rises. Why the Crypto May Fall Below $90,000 Even after Fed Rate Cut. - Barron's",
-      "polarity": -0.09920255094766617,
-      "ts": "2025-12-10T08:57:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxPNXdwVWVUMVJNcVJZRjdQeWhTLUVuUWlOdmhMSzNpTEFHRjE2amVOTTlDSEFqQWlSbWtyV3dlM19URHM2akRnRVRFMkJFdHZkM1d1eEFtWFdDQUhJamNjdTZQdTZVVVlSZVFrNGJhOU1DMTFpM1ZSYjNWQjNNWURHeHhRaWJuMm9vckRaNV9UQkhHeGJmazV4a3BrVXctNkp0Yl9YSDVhZ0J6YzlQNFZKbFRJR0hmMGpZSTFFQk9HLVhRV2NSX25ORmpPXzRZV2dyN0pWVGRjX3g3Q1JpZmhqWjEzUDU3MEpzZ1B2V3Z3ZDFNQUQ1WVRTY0U5TElHQndhaVlLalpPbU5fT05NYzFLbTB6N0x0ZmZIU1RzUUlMWjNRUWRrSVpPMEtQcndVYlFldGduU3k2VGNuRXZIbExLYlFibHhqR1daN1lLZ2IxQjNqQzE5RXl0NnNRYUx1U2NPOW9rRDFNdXNCdDdobXlseWRWS1FrWUwyOVlDeVhKZTZELUktVmc?oc=5"
-    },
-    {
       "title": "The Window Why Bitcoin\u2019s Quiet Accumulation Phase Begins When Conviction Falls Silent",
       "polarity": -0.03214804083108902,
       "ts": "2025-12-10T06:39:56",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pivq09/the_window_why_bitcoins_quiet_accumulation_phase/"
+    },
+    {
+      "title": "Is Bitcoin\u2019s $94.6K Latest Rebound Triggering Unsustainable Retail FOMO? - CryptoPotato",
+      "polarity": -0.026939891278743744,
+      "ts": "2025-12-10T08:40:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRTF0WEhsczNET0hTQ1lJQkxCX01hSmlEMzkxenlFN1J4am5qdlZWUmhCY0Z1cWxyM1RpZE9jSE10OGtwbXUxejJwb2w4RklnbFlNRlhfNG9HMEVlbGoyalhZSTFEOW51dUltQUFnTTExY2VjN0ZKNVNyZGVCNkRfV2plckJoVkVPYUw2d3Zodjh0dmhaRThWS1kyWQ?oc=5"
     },
     {
       "title": "Silk Road wallets move bitcoin to unknown address after decade of dormancy - The Block",
