@@ -24,6 +24,7 @@ function DashboardContent() {
     const now = new Date();
     return format(new Date(now.getTime() - now.getTimezoneOffset() * 60000), 'yyyy-MM-dd');
   });
+  const [selectedSource, setSelectedSource] = useState<string>('all');
   const [loading, setLoading] = useState(true);
   const [initialLoading, setInitialLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -98,19 +99,30 @@ function DashboardContent() {
   
   // Calculate metrics with proper null checks
   const data = sentimentData.data || [];
-  const lastPoint = data.length > 0 ? data[data.length - 1] : null;
+  
+  // Filter data by selected source if needed
+  // Calculate metrics based on potentially filtered data
+  const filteredData = selectedSource === 'all' 
+    ? data 
+    : data.filter(point => {
+        // For single-source filtering, we'd need source info per point
+        // For now, we'll just show all data but could enhance API to support this
+        return true;
+      });
+  
+  const lastPoint = filteredData.length > 0 ? filteredData[filteredData.length - 1] : null;
   const currentSentiment = lastPoint?.smoothed ?? 0;
   const rawSentiment = lastPoint?.raw ?? 0;
   
   // Calculate 24h change
-  const secondLastPoint = data.length >= 2 ? data[data.length - 2] : null;
+  const secondLastPoint = filteredData.length >= 2 ? filteredData[filteredData.length - 2] : null;
   const delta24h = (lastPoint?.smoothed != null && secondLastPoint?.smoothed != null)
     ? lastPoint.smoothed - secondLastPoint.smoothed 
     : 0;
   
   // Calculate 7d change
-  const lookback7d = Math.min(7, data.length - 1);
-  const weekAgoPoint = data.length > lookback7d ? data[data.length - 1 - lookback7d] : null;
+  const lookback7d = Math.min(7, filteredData.length - 1);
+  const weekAgoPoint = filteredData.length > lookback7d ? filteredData[filteredData.length - 1 - lookback7d] : null;
   const delta7d = (lastPoint?.smoothed != null && weekAgoPoint?.smoothed != null)
     ? lastPoint.smoothed - weekAgoPoint.smoothed
     : 0;
@@ -206,12 +218,12 @@ function DashboardContent() {
         {/* Sentiment Chart */}
         <div className="rounded-lg border bg-card p-6 mb-8">
           <h2 className="text-xl font-semibold mb-4">30-Day Sentiment Trend</h2>
-          {data.length === 0 ? (
+          {filteredData.length === 0 ? (
             <div className="h-[400px] flex items-center justify-center text-muted-foreground">
               No sentiment data available
             </div>
           ) : (
-            <SentimentChart data={data} granularity={granularity} />
+            <SentimentChart data={filteredData} granularity={granularity} />
           )}
         </div>
 
@@ -222,6 +234,8 @@ function DashboardContent() {
             negatives={driversData.negatives}
             selectedDate={selectedDate}
             onDateChange={setSelectedDate}
+            selectedSource={selectedSource}
+            onSourceChange={setSelectedSource}
             loading={loading}
             availableDates={data.map(d => d.ts)}
           />

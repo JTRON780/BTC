@@ -11,6 +11,8 @@ interface TopDriversProps {
   negatives: TopDriver[];
   selectedDate: string;
   onDateChange: (date: string) => void;
+  selectedSource: string;
+  onSourceChange: (source: string) => void;
   loading?: boolean;
   availableDates: string[];
 }
@@ -19,12 +21,12 @@ export function TopDrivers({
   positives, 
   negatives, 
   selectedDate, 
-  onDateChange, 
+  onDateChange,
+  selectedSource,
+  onSourceChange,
   loading = false,
   availableDates 
 }: TopDriversProps) {
-  const [selectedSource, setSelectedSource] = useState<string>('all');
-
   // Generate date options from the last 30 days (using UTC for consistency with backend)
   const dateOptions = Array.from({ length: 30 }, (_, i) => {
     const now = new Date();
@@ -85,12 +87,12 @@ export function TopDrivers({
         <h2 className="text-xl font-semibold">Top Sentiment Drivers</h2>
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
           {/* Date Picker */}
-          <div className="flex items-center gap-2">
-            <CalendarIcon className="w-4 h-4 text-muted-foreground" />
+          <div className="flex items-center gap-2 px-3 py-2 rounded-lg border border-primary/30 bg-primary/5 hover:bg-primary/10 transition-colors">
+            <CalendarIcon className="w-4 h-4 text-primary" />
             <select
               value={selectedDate}
               onChange={(e) => onDateChange(e.target.value)}
-              className="px-3 py-2 border rounded-md text-sm bg-background focus:outline-none focus:ring-2 focus:ring-ring"
+              className="text-sm bg-transparent focus:outline-none font-medium"
             >
               {dateOptions.map((date) => (
                 <option key={date} value={date}>
@@ -101,12 +103,12 @@ export function TopDrivers({
           </div>
           
           {/* Source Filter */}
-          <div className="flex items-center gap-2">
-            <Filter className="w-4 h-4 text-muted-foreground" />
+          <div className="flex items-center gap-2 px-3 py-2 rounded-lg border border-blue-500/30 bg-blue-500/5 hover:bg-blue-500/10 transition-colors">
+            <Filter className="w-4 h-4 text-blue-500" />
             <select
               value={selectedSource}
-              onChange={(e) => setSelectedSource(e.target.value)}
-              className="px-3 py-2 border rounded-md text-sm bg-background focus:outline-none focus:ring-2 focus:ring-ring"
+              onChange={(e) => onSourceChange(e.target.value)}
+              className="text-sm bg-transparent focus:outline-none font-medium"
             >
               <option value="all">All Sources</option>
               {allSources.map((source) => (
