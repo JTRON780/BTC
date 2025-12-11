@@ -2,13 +2,6 @@
   "day": "2025-12-10",
   "positives": [
     {
-      "title": "Bitcoin Will Clinch New Highs In 2026, 4-Year Cycle Over, Grayscale Says - Yahoo Finance",
-      "polarity": 0.8926759269088507,
-      "ts": "2025-12-10T17:01:04",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9jLTJ0aWxMOFJoV01mdFBwTXZfRk5HUXRONDF6OTFnY2QzQ0FlWGsyWDRQY1FUVlNiaWw2Y2pLSWhSX3FxNjJkZjNRa3pPU1BXVHJiaTJYWndwRnJBY1gtZzEtbl9kLUdjTGdxdnJEMjk0eG91X09kaWd6TkZPZw?oc=5"
-    },
-    {
       "title": "PNC Bank Becomes First Major US Bank to Offer Direct Bitcoin Trading Through Coinbase Partnership",
       "polarity": 0.8450190061703324,
       "ts": "2025-12-10T02:01:58",
@@ -93,13 +86,6 @@
       "url": "https://bitcoinmagazine.com/politics/the-samourai-wallet-trial-a-test-of-financial-privacy-and-developer-freedoms"
     },
     {
-      "title": "Satoshi's endgame",
-      "polarity": 0.043242473155260086,
-      "ts": "2025-12-10T16:38:14",
-      "source": "r/CryptoCurrencyTrading",
-      "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1pj7a4k/satoshis_endgame/"
-    },
-    {
       "title": "Bitcoin (BTC), Ether (ETH) News: Crypto Prices Swing on Fed's Powell, Treasury Purchase - CoinDesk",
       "polarity": 0.03778630122542381,
       "ts": "2025-12-10T20:39:24",
@@ -163,13 +149,6 @@
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pjen83/all_in_at_92k/"
     },
     {
-      "title": "Reliable Non-KYC Exchange?",
-      "polarity": 0.012254493311047554,
-      "ts": "2025-12-10T20:18:20",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1pjdbeg/reliable_nonkyc_exchange/"
-    },
-    {
       "title": "Top analyst reveals new Bitcoin target after Fed\u2019s December rate decision - TheStreet",
       "polarity": 0.010458219796419144,
       "ts": "2025-12-10T19:15:02",
@@ -178,13 +157,6 @@
     }
   ],
   "negatives": [
-    {
-      "title": "GameStop Q3 earnings miss estimates, pressured by soft sales and lower BTC gains",
-      "polarity": -0.9600493432953954,
-      "ts": "2025-12-10T21:23:18",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/gamestop-misses-q3-estimates-519m-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
     {
       "title": "GameStop Stock Falls After Bitcoin Holdings Lose Value, Firm Says It Could Sell BTC",
       "polarity": -0.9575237203389406,
@@ -204,7 +176,7 @@
       "polarity": -0.9422084270045161,
       "ts": "2025-12-10T22:01:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijgNBVV95cUxQVDkxX1JETC1XcEFmaGVCQl9pdzk4MjdscVhqQWp1YlZBM3dIeVlGTlZ2aFZfYzkwU3pvRFdkVXRkYnJ3WEVUdmtUX2dEbWtEWUZoLTlvU2J4WEk0VTNsa3RJWnp2bFFyT0tzMkRWTkNYYWpVbjBDODQtX25idi1MUzhLdE1ZSXl5ZEhGcFhxdUtsSk04eEpfeDAyU2pZa2ZaYTRJUFlrVjAxN1VIS19DMFkwMmQ0SVBIM0g0X2c0ZjctcS05YnRIdlVZVlRfdFZEWDlvTGFXbXNseTBBSFJvQkpNT1g3YTVKeUdVc1lFRG05WTdiajNFS0V6R2RYbjRqX3V2aWxpV2d0UlU1YnVZV0c2aTdrblh2aVIzeXJ1SGhaZ3VnSnh4alQ0cTMzcnJTMDVBY19BTFFkdXpvUUhZbTM4VTE1eDhSOGVybmdCOUxsUGNTcXBPTVB2Z0hzQkRBWnNXeUZuSFFlQnFteWZ3aG5DcXltSjdvaFN2bXV0dEZsY0NjajZteWd2eVljUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijgNBVV95cUxPNlhvUlgxYzhQQ2FpMmIyZUVsZkkwTUthRW1ZQW1UbTc0TnF6V1ZpRG5ucDdlTGt6Zm1wSERRUHJIa3RkRXNZZ215d0l1bjBpRmVrQU1kQzl2b1Zwa1p5ckJabXcwTE5RVVBuaVdFOW9kVWdEbWI1dzdfR0JrOEFacHl3Tm5vLXFMb3ZlVmEwOF9wQlJxMmNwMDZiSVUwMG5tWHl6YXFYN1NVcER6ZlpoUzFnV0owMnJyTlpPREUwZldxOFduZ1ZrdWJFRFhGTVdiR09RbUNqdF9OZWtkZWQtUWtmd2xxaEpjWng4WkxyV2lIVkdPYWY5LTMtWjFHVkRKODhaejVySEZUcHh3MWI1Vk9BN0xaQklsVzRSUGhEckpzelhvY0Vib2ZXOUFrRkFraWNvenJBNTU5U0l1eUtSVlptYS1lSHRFbDJDd284U1V1RFR4dnFvZjlWZUpLVHE0Z3Rrbi1sTnJfU2lDNFRBQzRsaGNvVmcyM3Nzb3dxbXlXZFNHT0tLTXFmY1g2Zw?oc=5"
     },
     {
       "title": "Fed slashes interest rates, but issues mixed forward guidance",
@@ -247,13 +219,6 @@
       "ts": "2025-12-10T19:18:12",
       "source": "Decrypt",
       "url": "https://decrypt.co/351847/bitcoin-ethereum-federal-reserve-cuts-rates"
-    },
-    {
-      "title": "GameStop Stock Falls After Bitcoin Holdings Lose Value, Firm Says It Could Sell BTC - Decrypt",
-      "polarity": -0.4391185902059078,
-      "ts": "2025-12-10T20:19:51",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa0FRMjVSRHlvSGhwRTRJcWlKeC1JaE4xX2U3MmxZMzhiQS1sSHpzcE1tR3lmM1ZjNWREMzdvQVZqQ0RvZXFRNXZSNS12VDBkajVVd1Blak5IUHZGNEpDVGw0TERLemx6cnRqUl96bWJHT0djWTIxdERyY0NHNTJEX1ZjTkNWSWdNN0g3dm9jVmgtQWYtSENINlJn0gGiAUFVX3lxTE9uMFBOeHJQakR2TWdTQll3SnotVjhNem5Wc2dRa08tWlJGVjM3U0dNUi1HOTZjb05uUGR6MzNjNzQ1emtkMndDVmVBUnRQVkh5WXVqZ0wzcGpLel9lSnZPVzBIQWdzdmI4TkVmaFZhNFlnWTlpZlJnVVZOVlZld3N2ZVIzOGdOM1hzb2JielhXNDQ4UHFZTDdEQVJvSTVjc3JjZw?oc=5"
     },
     {
       "title": "Data Dump Day",
@@ -324,13 +289,6 @@
       "ts": "2025-12-10T01:49:12",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1piq094/why_did_satoshi_select_21_million_as_the_bitcoin/"
-    },
-    {
-      "title": "Elon Musk's SpaceX Moves Bitcoin Ahead of Potential Record IPO - Decrypt",
-      "polarity": -0.016263354569673538,
-      "ts": "2025-12-10T22:20:09",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUmREZGxBdzVjeXptdFplLUYzYmJNX1drZVIwWlRPbnRuLUl3d21ZdlpSdFNpUHJVTlhqcEx3QkF4elBFR05Ic01ybC12cDNPMjFJYXdlS1BMc2lYWjViNnUwT0FYOTJyODRObC1wbG1lZ2RHVGNYRUszY1o3d0czaTRvMGRBaTJfN0VV0gGTAUFVX3lxTE11ZEhSVHBPYXdXWHBHblhjZzVrckszN09HdjUxeTJfSG96enpTM0VRbE40aTh0enJqb2ROemlCMlVZY0NFeVJBVzkyTW1zRG9kSVktSXdzOGprUjZkaXRLV2h6dkZLQXhTMkY1ZXE3elBuV3Z0elBNMW1RZ3g0UFZlMXh1NHRaellHY2hjS0F3MzB6dw?oc=5"
     },
     {
       "title": "Bitcoin Price Briefly Pumps Above $94,000 As Fed Cuts Rates",
