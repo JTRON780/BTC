@@ -2,25 +2,11 @@
   "day": "2025-12-12",
   "positives": [
     {
-      "title": "From Lockstep to Lag, Bitcoin Poised to Catch Up With Small Cap Highs",
-      "polarity": 0.9009005725383759,
-      "ts": "2025-12-12T10:50:56",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2025/12/12/from-lockstep-to-lag-bitcoin-poised-to-catch-up-with-small-cap-highs"
-    },
-    {
       "title": "Solo Bitcoin Miner Beats the Odds, Winning $282K Reward",
       "polarity": 0.8998266374692321,
       "ts": "2025-12-12T18:13:47",
       "source": "Decrypt",
       "url": "https://decrypt.co/352193/solo-bitcoin-miner-beats-odds-winning-282k-reward"
-    },
-    {
-      "title": "Bitcoin bounces on Fed rate cut with bigger rally ahead predicted",
-      "polarity": 0.8955729268491268,
-      "ts": "2025-12-12T04:05:08",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/crypto-markets-bounce-fed-rate-cut-analysts-predict-bigger-rally-ahead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "title": "Billionaire predicts Bitcoin could hit $1M after it \u2018surpasses gold\u2019 - TheStreet",
@@ -42,6 +28,13 @@
       "ts": "2025-12-12T15:23:57",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeFJKQWZMb2xKalV2M2c0YWFFX1lUcDdtZGRVS0dqSFJNbVl2d2VNaEdIQVpZekZQV254Z0tyaVVtOThNa3NoN1lJbTN6QXpQZ0loeFRZUGloWHEyN1BkVy1EdXdCcGdtcENVLUNIWThIMGNFWi0zZmR6TDhzeGw3YldEOVZQOUk?oc=5"
+    },
+    {
+      "title": "Short-term Bitcoin traders were profitable for 66% of 2025: Will profits rise in 2026?",
+      "polarity": 0.7038840353488922,
+      "ts": "2025-12-12T20:38:38",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-holders-were-in-profit-for-66percent-of-2025-what-will-next-year-bring?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "title": "Bitcoin Giant Strategy's Cash Reserve Was a 'Smart' Move, Says BitMine's Tom Lee - Decrypt",
@@ -86,6 +79,13 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObnljSXBaU0l6dW1CYVcxaXY0LUxGdVh2bWVTZHdsSEcyV2EzUi02YVlXQXUzOGFMQU5UTEE0b1Z6d2QzZWlYZ3YwUHhuMUNldEg3MGkzTGhjNEp2VC1RQzhmRlhscWNLblp2N3NOWkV0TDNUUmdfNlMyOF8xN3l0SnRPcDlNeUpWM0xVRVZQYXp1V3AyOU1YeVRYY2PSAaIBQVVfeXFMT1NRTjdNX196aDZadHZRZ205dkZ4by1qWFc4c3FjOGlycTFyVGE3NU1QSXdYSW4tVVJ3RW9hZWFKV05sT1pWVlViRk9hRjdkSGp5bzlSN0ZfaEFBWk11S25FQ21scVA0Vk1tX3RkUnREOGROVVZYQUs2RDlhMzdBR1JQbjd1eko5S2JwSlhDdnQ3aDdVa2w5UGpJeHFfZ0lCakVB?oc=5"
     },
     {
+      "title": "Solo bitcoin miner wins \u2018lottery,\u2019 hauls in $288k with 0.00002% of network hashrate - Yahoo Finance",
+      "polarity": 0.20592846348881721,
+      "ts": "2025-12-12T19:49:07",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FaS1VcDJmVFAzS29kME84VlE3NDQzZGhJcmpTWkRFdEpZOTJ4ZmhETDFFT1pMdHBzLXdLdGdSWGxOWDQtQkprckdBN2pLNEE1WHZVZXhTdFRveGYwOE1odmFpaV9YRWlQa0xNZmFFM25CTkxoTU13YzVMemJkZDg?oc=5"
+    },
+    {
       "title": "New Hampshire Approves World's First Bitcoin-Backed Municipal Bond. 'It's the Opening of a New Debt Market' - Yahoo Finance",
       "polarity": 0.20564840268343687,
       "ts": "2025-12-12T16:46:17",
@@ -121,13 +121,6 @@
       "url": "https://bitcoinmagazine.com/news/five-crypto-firms-win-occ-approvals"
     },
     {
-      "title": "Lucky solo bitcoin miner beats 1-in-82-year odds to win $285,000 block reward - The Block",
-      "polarity": 0.1390612442046404,
-      "ts": "2025-12-12T13:26:51",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMzlRNGhWZ3cwSUUzRGxzMDRlNW5PQTRpd1JNTUtnMXBDNUt4YjZzRFBzY0ZGWHJfeUVpSU15R3c2OU5aVkFRUUJLLU1WcElicmJhV01MTXpyMm1pekVvQUE3Y2pZR2RZZldUNjZ4M0xYbV8wQkdlTWpFOHhGWVo5NzdORnlBZjVKWXY1ckk3Y3k4Z1XSAZgBQVVfeXFMTzhGRU8tbHJuMHFwRXZPWDlWZlBLLWphX0xQZzl3LXBtaDdOOU5pcHhnZUNKaGlaeXJUY1o5b3hDaDFMS2VQUWRRR2xJUEl5ZXZqRWNkcDVteTU2X3pqNGpqbFdpeXJRLU16d2V4am9Vd3VST2tIa2t3RE1nWTZnLXdiRHdmVTQtMHdvYmRnd2xRbWJMZUZFdEk?oc=5"
-    },
-    {
       "title": "Ethereum vs. Bitcoin \u2013 Why 2026 could mark ETH\u2019s comeback - AMBCrypto",
       "polarity": 0.137713267467916,
       "ts": "2025-12-12T19:02:14",
@@ -149,6 +142,13 @@
       "url": "https://bitcoinmagazine.com/news/sangha-energizes-20-bitcoin-mining"
     },
     {
+      "title": "Save the Children Launches First Bitcoin Humanitarian Fund - Altcoin Buzz",
+      "polarity": 0.1325603574514389,
+      "ts": "2025-12-12T14:26:37",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeGxIc1hrZlFuMzIwTFFYRmNTNnl1MENmMDkzUmVac04tR2c3R00zZktjWHppclBNNy0wanI1VHJpczZWWG1yM2F2YlpsQkY2UHNaMERsT014WFRLVWFGSVNxUU1vZ1ZXNzlIclJmLWUzRFRsQUJSbXYtajgxUGNuallJb25MTDZWbWtPR3FvZnZ4ejFDajlfelEzblFKd3ZJeHNxc284UHZFUQ?oc=5"
+    },
+    {
       "title": "US Fed Cuts Rates, Bitcoin Price Stabilizes Above $90K, ZEC Reignates Rally: Your Weekly Crypto Recap - CryptoPotato",
       "polarity": 0.1308625340461731,
       "ts": "2025-12-12T14:23:00",
@@ -161,13 +161,6 @@
       "ts": "2025-12-12T16:51:48",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2025-12-12/vanguard-equity-quant-says-bitcoin-still-a-digital-labubu-toy-for-now"
-    },
-    {
-      "title": "Bitcoin DCA & Market Cap",
-      "polarity": 0.11858578864485025,
-      "ts": "2025-12-12T10:47:38",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1pkoxdf/bitcoin_dca_market_cap/"
     },
     {
       "title": "Pakistan Begins Crypto Overhaul With Preliminary Exchange Approvals",
@@ -219,20 +212,6 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdlF0ZGc4LThJZ1h3WFR2Skw4M1JidnZoT1VTRlY1Rm1ad0c3cnVqeklhQi10allpSC10NGV3aUZTcVVWQ0hHUEl0bkFzTUpyRXUtaU9CTnFtcU8wamJERkgyTDNMUG9qZWNBbnhISDhrNzdXdkF3S3JCaXdnWTk1b3dsbzNsOXhmVGNSQlM1aEljVVFTbjJoeXl5bTU4X3lnVFZyS3RsT3hWMDlLQUYxNVFDM21EbjdjLUpVdWtDSDdpNWZpczh3bDdCWU9Ga0Nyemc?oc=5"
     },
     {
-      "title": "Athena Bitcoin Highlights the Power of Decentralization as the World Reflects on Satoshi Nakamoto's Departure - Lexington Herald Leader",
-      "polarity": 0.05826722830533981,
-      "ts": "2025-12-12T14:03:48",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yZGZMLTY2bkdzNnM3ZXBRaTRyQWtITTNwcWZHUEFLSDdIOXRaRUUzNWRjOFVzemxpU0VDUkRma1hQVFcyMmItbW1hUEZjaEZGa0pUSUFxUG8xc3NyaUhnRFFvWHQwb2NFSTZSTmNn?oc=5"
-    },
-    {
-      "title": "Bitcoin whale opens $491 million Ether long position - TradingView",
-      "polarity": 0.0578097365796566,
-      "ts": "2025-12-12T12:53:25",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRDVBMjRsb2Q1aXB3andRRnI1MW1YbVUzaWxGNXlqMEdfWExQSE52UHdQY3VObUtBek1rLXNWS0diWFdud2t0MHRQWVhCUWowRjhCZ1pzWWcxT2x5Z20zQ3dZX3hteGZJOTVlaS1VSUx3M1MtcllOV3llX0JwTzZQdy1mWXpsNlJ3Y1h3REtyTGhGSlpoTk8yWk5MZ0t5N3lURWxRdUJZNGV3aExXdjg5bDFNSXpnTUE?oc=5"
-    },
-    {
       "title": "Crypto Forecast: Bitcoin Recovery Hits a Wall \u2013 Range Breakout to Decide Year-End Trend - FOREX.com",
       "polarity": 0.05630515515804291,
       "ts": "2025-12-12T17:28:16",
@@ -247,6 +226,13 @@
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1pkqal2/insider_who_shorted_oct_10_went_long_500_million/"
     },
     {
+      "title": "Learn about Bitcoin and AI at USC summer program",
+      "polarity": 0.04822424240410328,
+      "ts": "2025-12-12T19:57:52",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1pl1iuh/learn_about_bitcoin_and_ai_at_usc_summer_program/"
+    },
+    {
       "title": "Bitcoin in bullish consolidation: Crypto market and macro insights - KITCO",
       "polarity": 0.04724997188895941,
       "ts": "2025-12-12T17:06:28",
@@ -259,13 +245,6 @@
       "ts": "2025-12-12T18:00:06",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BR19sZVMtMEtFWG1oOERySS1ubnRyYzAweGk0b2pSSWhpSUZYVEVxQ0ZjdHQ2UmNVT0NIY1BqOVJJZFhNYTFhVWNQRDU1NGdWOEtjZG8xRHhuRG1lNk9LWVNDSGZ2TWpaUWZ2YUIwWW4?oc=5"
-    },
-    {
-      "title": "Bitcoin Stock: Set For The 2026 Macro Reset (Cryptocurrency:BTC-USD) - Seeking Alpha",
-      "polarity": 0.04592977650463581,
-      "ts": "2025-12-12T13:30:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQODZpal82WnJyU0plZUZnaWg2OXRkcnlRaC1CRGtNUktQR0NEX2FOMjNlTF9XN1ZQNE1rUTlnQ0Nxd2JsZnZWWXVqV3BKMHM1V1I2OFNGcklSRlNCcFdqQXl3LThrODhfUkZuLUo4Y2wySFJheVVLN3hjY1hWZjhwcmRVYw?oc=5"
     },
     {
       "title": "Thoughts on Bitcoin Hyper ($HYPER)",
@@ -315,6 +294,13 @@
       "ts": "2025-12-12T09:35:59",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/glossary/what-is-a-bitcoin-treasury-company"
+    },
+    {
+      "title": "A Discreet Penn Quarter Bitcoin Bar Will Serve Tallow-Fried Bar Fare - Eater DC",
+      "polarity": 0.030384697020053864,
+      "ts": "2025-12-12T20:25:30",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMDROTnNObU5SNmd2bnl3SUgwczYyazNtbmVkZmh0VVhDekF4SkY4TzFBRkpsbG9NZEhDNWh2eHdvc3Yyb1dfNmQ1RnpWNVduLWw0ZHd5XzJqS2x5Wjg2WjdpQktKaUdDSGVXVjBwcUpHLTgyb2ZKcUxEOW5ySHJQRmhPbDBRUTVKanlvaQ?oc=5"
     },
     {
       "title": "what's the defi scene till end jan?",
@@ -469,13 +455,6 @@
       "ts": "2025-12-12T06:08:20",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pkkmd9/daily_discussion_december_12_2025/"
-    },
-    {
-      "title": "ETH/BTC \u2014 Quantum Low Noise Theory",
-      "polarity": 0.000500757247209549,
-      "ts": "2025-12-12T14:41:08",
-      "source": "r/ethtrader",
-      "url": "https://www.reddit.com/r/ethtrader/comments/1pktjse/ethbtc_quantum_low_noise_theory/"
     }
   ],
   "negatives": [
@@ -793,13 +772,6 @@
       "ts": "2025-12-12T18:59:15",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaE03RGlGYnRqQkhOVGN2dDBrRW5ObUZQNVdLaG93OFBsODNzTXFXQ3k1X1VNb1VXWXRrRDBwTzducDdLbHQyNVBPbWdrVFhkS2pvX0tpODc5N3hpTUFWSlJRS2dUeWIzWU84UjRwb2RESld0VFAycDJHbG5qR01wV0RzSQ?oc=5"
-    },
-    {
-      "title": "Athena Bitcoin Global (ABIT) outlines safety, fraud controls for decentralized BTC - Stock Titan",
-      "polarity": -0.00649019330739975,
-      "ts": "2025-12-12T14:00:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWnEzY0twQ3VHMFpTRjhHaTBCSW9VelNQZnhhRHVxZ3RtaDN3dTRObWQySnRHYVVLSzB4RVVDT1dIU25KMk9hZFVVWlM1TEFGVXVBVE43UjdpVHhLVUVScmpFanMtZy1IOUZjYlpYRGVhTnFJZzc1SE95b2xKUlNqa09lQVNyMGJ2UUxkZG0xb3hCYWVKV2VVcFFwYmo4U0N5dXcyV3pjNkpIYWczczV4OHl5SFpKXzFZSXhBZGdEUjA?oc=5"
     },
     {
       "title": "Your Daily Bitcoin Breakdown newsletter is now live. Check out today\u2019s Top Stories and a sneak peek at the latest Quick Bits snippets. Full issue link is in the comments.",
