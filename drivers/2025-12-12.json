@@ -1,0 +1,21 @@
+{
+  "day": "2025-12-12",
+  "positives": [
+    {
+      "title": "Michael Saylor teases potential bank meeting on Bitcoin",
+      "polarity": 0.1690452890470624,
+      "ts": "2025-12-12T00:39:32",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/bank-meeting-bitcoin-saylor/"
+    }
+  ],
+  "negatives": [
+    {
+      "title": "Is the 4-year Bitcoin cycle already breaking down?",
+      "polarity": -0.5094905607402325,
+      "ts": "2025-12-12T00:29:52",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1pkdqnx/is_the_4year_bitcoin_cycle_already_breaking_down/"
+    }
+  ]
+}
