@@ -16,11 +16,18 @@
       "url": "https://cryptobriefing.com/bitcoin-portfolio-diversification-brazil/"
     },
     {
-      "title": "Bitcoin\u2019s First Full-Year Split From Stocks in Over a Decade - Yahoo Finance",
-      "polarity": 0.07058138772845268,
-      "ts": "2025-12-13T01:20:00",
+      "title": "Brazil's largest private bank recommends up to 3% investment in Bitcoin - Crypto Briefing",
+      "polarity": 0.2273946302011609,
+      "ts": "2025-12-13T02:18:44",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOY2ZTcXhCZjcyVmVjS0VDY2xBUzFPd3VhUEM4SHVzbHU4NkVqd0FYMFRnendfLTZDVi1pV2RXMFlVQ2hHZ3VrekR5OGg5LVBZZm5SZ0ZQUXZIaE9VbnRwd2kwYmhYcHZrVlhqQzM3aGh1QzBWMVR4dnNPb2N0aDMtU2MwVQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5wem10TmtSVGpmMEtpQ2VEQi1MNldTQTl0d2ZySVIzWHRzT3g4YWJDVTBRMmJxTmN3bFVtcHp4bWFsUUdtSUs2TFUyU2RHenRkd3dab3U5eVQ1eUk4WXNSN3dma1lxNGJCSXNacmNGX1RlUlg5TDJr?oc=5"
+    },
+    {
+      "title": "Bitcoin\u2019s First Full-Year Split From Stocks in Over a Decade - TradingView",
+      "polarity": 0.19628553465008736,
+      "ts": "2025-12-13T01:20:35",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPY0IwZFktUERfdjZCbmxXWXpuRXFjNXVQNUlmQnFNRlpweEFzaUhfcHFfaVJFeWhkY3ViMVhIUEhWbG1iVGlYTEtHZ1puYXNQMXNReDBpMkVzVEVSajdpX25haG5HS1BtcUgzdlRHM002aTZGWkszTHVnU3J2NmdHTlBpNmlzWkR5QnpZcE9ocDk0aVRrRTI0ekJZbEdrTnR3TnBOMmh4bTBOMWoxQnZsREl6V296ZkZWYTRRZ3V3?oc=5"
     },
     {
       "title": "Where to swap Bitcoin for USDT?",
@@ -28,6 +35,13 @@
       "ts": "2025-12-13T00:00:06",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1pl76ft/where_to_swap_bitcoin_for_usdt/"
+    },
+    {
+      "title": "Embracing Bitcoin in Institutional Portfolios - OneSafe",
+      "polarity": 0.05750887095928192,
+      "ts": "2025-12-13T02:47:40",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQkhhVHRkcXhhekFmY2w2Y3p5OURGdjdPVUlkOWNrcC1PVURXek1saXNpemM4SUNEdXdtUE1TMXdQam1mTnR3VGdVYlhpdFpNMDJMekNiSU9Udk1ZcEdLZ2xJQk5nV1RXaEdVd1ZBYzhJZzlFYVljVTByRlk3R3h1a250SjA0bkU?oc=5"
     },
     {
       "title": "Strategy Keeps Nasdaq 100 Listing; What It Means For Bitcoin - Investor's Business Daily",
@@ -60,11 +74,25 @@
   ],
   "negatives": [
     {
+      "title": "Bitcoin and Stock Market Split for the First Time in a Decade - BeInCrypto",
+      "polarity": -0.362139955163002,
+      "ts": "2025-12-13T01:20:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YenpSWjJyZ19WM3pmWkFiOVB5cVluMXNLUHpuZHNNSV8tejdtRDY3d2plZWdSS2JGekF3QlFKanNaa1VWRVViSndNVWQya1dicm9wWUY5RWg0N3hhQ1VBSkFndzJ2SDFXQlE?oc=5"
+    },
+    {
       "title": "Bitcoin hoarder company Strategy remains in Nasdaq 100 - Yahoo Finance",
       "polarity": -0.014116194099187851,
       "ts": "2025-12-13T01:21:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOX0YydFpwYW9kVE40aGl4U0hWZUxhOWJ3bUpuSWVkdEkwamh3VmtWNk10Q1I2RGI5cVhWczV4SUpGTlN6MEFvQ0VVbGR0S1dlMkZTdVBwcjN6ZUpONGp4TXBHZmg2aFIwRHRKNVltTmJsanZ6X1V6bDg4UGt4bkxzVV9jNkREYklhamk3cENvaw?oc=5"
+    },
+    {
+      "title": "Bitcoin hoarding company Strategy remains in Nasdaq 100 - TradingView",
+      "polarity": -0.010956965386867523,
+      "ts": "2025-12-13T01:55:29",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUHBtOGc5cU1VZUFPY1N4LThFOWZZbURhR2RoS2YydWFvVXhQYXQ3eGRwQ2VyME8tQnNKMlJWSVJVMk85NjdMSzBTVVBnaEdWNXYwSTZBLUEwTHZpMzdmeWZKQVNicml5SUhLXzA0QTVva2lBRmpnU0YyeXNlZVVRVGNlOGw3cllidUF2emQyYW10X28ycGs5VHF3NmN1cjJGQ3FVbXNUUlY3ZU5BQWtzd2p5dG95SmRpVVJBUUg3bTJTTmM?oc=5"
     },
     {
       "title": "Bitcoin hoarder company Strategy remains in Nasdaq 100 - TradingView",
@@ -74,11 +102,18 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWEwxNVJSWWNXS2hoVXR0MXFkUmFlU21TYnh4eE5hbWI5QjhwVFJ0WHFSS0tYUXBaNkl3Xy1mUlBoTHA2U1ZPdmVrUUlPcDNSekxiMUxIdmRfaUh6c2d0OEYzYjRSNlVZUW50aDVnb1RSNzNTOVNaNmZ3X2xoMU9BVmJOQ2dUMnNnT1FwR0RVTUg0bUJpa1BTUElwSGpudDBkaXYtdlhvRGo5bTc1MEprVzNnUTRqOGhoblBHQnloamRXQQ?oc=5"
     },
     {
-      "title": "Bitcoin hoarder company Strategy remains in Nasdaq 100 - Reuters",
-      "polarity": -0.003522217273712158,
-      "ts": "2025-12-13T01:21:00",
+      "title": "Bitcoin hoarding company Strategy remains in Nasdaq 100 - Reuters",
+      "polarity": -0.005114555358886719,
+      "ts": "2025-12-13T02:00:25",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQVRURW9TYTNSbHRFWm5TMU01V2xLV09BSzBQbWZTZm9BSXhBR2V3dFg2ZzRZRXJQWml3cFktODRVSWlJU21SSzRmUXRpaHlsSngtd0RicThVeUNMQmJveHVEbEl1LVNKM0JtS0Vqa1ctRUlpdWxoa2FZdlB3Wm56VFlKcnhmdEQ2cDZOLUpLSDhVRHJIYlFiU1h3VGRMSUZ5YjQ4VzRWOGViLU1LMXVKTmZFMThBd19Y?oc=5"
+    },
+    {
+      "title": "Stack sats and stack knowledges",
+      "polarity": -0.0017922837287187576,
+      "ts": "2025-12-13T03:22:59",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1plbc7j/stack_sats_and_stack_knowledges/"
     }
   ]
 }
