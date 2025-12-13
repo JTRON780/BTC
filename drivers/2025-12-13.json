@@ -2,6 +2,13 @@
   "day": "2025-12-13",
   "positives": [
     {
+      "title": "Solo Bitcoin Miner Beats the Odds, Winning $282K Reward",
+      "polarity": 0.8534315135329962,
+      "ts": "2025-12-13T04:49:16",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1plcyko/solo_bitcoin_miner_beats_the_odds_winning_282k/"
+    },
+    {
       "title": "And Bitcoin is going strong",
       "polarity": 0.5756267216056585,
       "ts": "2025-12-13T00:10:21",
@@ -58,6 +65,13 @@
       "url": "https://www.reddit.com/r/Bitcoin/comments/1plc5hh/buy_mine_bitcoin/"
     },
     {
+      "title": "[Daily Discussion] - Saturday, December 13, 2025",
+      "polarity": 0.013148834928870201,
+      "ts": "2025-12-13T05:01:55",
+      "source": "r/BitcoinMarkets",
+      "url": "https://www.reddit.com/r/BitcoinMarkets/comments/1pld72y/daily_discussion_saturday_december_13_2025/"
+    },
+    {
       "title": "Bitcoin Weekly Price Prediction: Will BTC Reclaim $100,000? - BeInCrypto",
       "polarity": 0.012040648609399796,
       "ts": "2025-12-13T01:50:00",
@@ -72,14 +86,35 @@
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pl8tko/how_did_people_buy_bitcoin_before_exchanges/"
     },
     {
-      "title": "Bitcoin hoarder company Strategy remains in Nasdaq 100 By Reuters - Investing.com",
-      "polarity": 0.005073336884379387,
-      "ts": "2025-12-13T01:27:05",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb1RITU9KZWpWUXZVUVBjbnl4blJnUTZNOGFheGdIM083OXR3dTJPTjU5emtVNUw3WUE2eWZLNnZrTzNCbkFyM2R3cHUzQ0twZzlJY3V5X0NqZ3NQdXRsbVJoQXBfc1pEcUlaVWZ0WEdRVDRQalBYZDRtS3dfRWw3Nm56bUVpcW5xVTlJTHJIVG9JR01IYzZ1THlvQTRVT01sUjZnMEV4eDBDR2FINDZsUA?oc=5"
+      "title": "When did it click for you?",
+      "polarity": 0.005592988803982735,
+      "ts": "2025-12-13T03:33:16",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1plbjat/when_did_it_click_for_you/"
+    },
+    {
+      "title": "I watched $1M shrink to $100k. Twice. Here's why \"just HODL\" is terrible advice",
+      "polarity": 0.004836544394493103,
+      "ts": "2025-12-13T05:05:17",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1pld9af/i_watched_1m_shrink_to_100k_twice_heres_why_just/"
     }
   ],
   "negatives": [
+    {
+      "title": "Bitcoin miners\u2019 revenue down by 11% \u2013 Is capitulation next? - AMBCrypto",
+      "polarity": -0.9486344121396542,
+      "ts": "2025-12-13T04:05:34",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNUhUcXRsZzRHMUQzeG9oUnVPRThHZGpsa0JLYWhHWGNSbW52ZjhzcEdoNDdzQ3V2cVlkcmd0WTZQTWpkOUJTb2Y4RGVJQ2RDcEctb1M0R0VjRnJzcC1HVERsb3c3bUZPUkJwQ2tENVJVcTFBdjFhZUV4SUlTemFHUUU0WdIBiAFBVV95cUxPR2R2OE1VdDRBUnJpdHJGbDYwNV9FUzUyYk9hdjNSeTQzYTl6MjR6OXpWNUZySTVVbmJJazFydUpzemh5dWVscHdxMEgtVWQySUtCdFZBNl96a0doNVBSOTJUeVEtSTBQZjdVZDltQ1I5cjJ2a2pNX1NQNzhqMFRJZWV2Nkk5b0F3?oc=5"
+    },
+    {
+      "title": "Bitcoin Weekly Forecast: Fed Delivers, Yet Fails to Impress BTC Traders - TradingView",
+      "polarity": -0.4095921814441681,
+      "ts": "2025-12-13T01:50:27",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQkdKUGJLQU1rVzRxTHBUU25PYWJ0aGVnYmdUV3RjVnhoNDI1V1ZiSjA3T1BXem96YkM1NFd4UFJvaE1VM2RDOHdVVnBLaVByXzJ6SU42Q1AwdURvd0JZdlMtZVBsODdKeTFNaWcxQ0F1bHF5UlNkblI0bms1aUZJZ3JPYmJ5ZTVwcjJkQXJjaURyNnFZYm9WVE00aDdtcjFWX1hCODF3aEtmbldYWHM3RjU3SEZnOHRNWHlkMy04aU9GbjExbUtiY3lB?oc=5"
+    },
     {
       "title": "Bitcoin and Stock Market Split for the First Time in a Decade - BeInCrypto",
       "polarity": -0.362139955163002,
