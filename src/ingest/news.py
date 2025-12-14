@@ -6,10 +6,11 @@ compatible with the RawItem schema.
 """
 
 import hashlib
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from typing import Any, Dict, List
 from urllib.parse import urlparse
 import re
+from time import struct_time
 
 import feedparser
 
@@ -170,12 +171,14 @@ def _normalize_entry(entry: Any, feed_url: str) -> Dict[str, Any] | None:
         # Extract and parse timestamp
         ts = None
         if hasattr(entry, 'published_parsed') and entry.published_parsed:
-            ts = datetime(*entry.published_parsed[:6])
+            # Convert struct_time to datetime in UTC
+            ts = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
         elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
-            ts = datetime(*entry.updated_parsed[:6])
+            # Convert struct_time to datetime in UTC
+            ts = datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc)
         else:
-            # Fallback to current time if no timestamp
-            ts = datetime.utcnow()
+            # Fallback to current time in UTC if no timestamp
+            ts = datetime.now(timezone.utc)
         
         # Extract source from URL domain
         source = _extract_source_from_url(url)

@@ -6,7 +6,7 @@ compatible with the RawItem schema.
 """
 
 import hashlib
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from typing import Any, Dict, List
 from urllib.parse import urlparse
 import time
@@ -206,13 +206,14 @@ def _normalize_entry(entry: Any, feed_url: str) -> Dict[str, Any] | None:
     ts = None
     if hasattr(entry, 'published_parsed') and entry.published_parsed:
         try:
-            ts = datetime(*entry.published_parsed[:6])
+            # Convert struct_time to datetime in UTC
+            ts = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
         except (TypeError, ValueError) as e:
             logger.warning(f"Error parsing published time: {e}")
     
     if not ts:
-        # Fallback to current time if no published time
-        ts = datetime.utcnow()
+        # Fallback to current time in UTC if no published time
+        ts = datetime.now(timezone.utc)
     
     return {
         'id': f"reddit_{item_id}",
