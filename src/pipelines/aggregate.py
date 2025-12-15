@@ -125,10 +125,12 @@ def compute_rollups(granularity: str = 'hourly', days: int = 7) -> List[Dict[str
     """
     Compute sentiment rollups for the past `days` days at the given granularity.
     
-    Now includes EWMA smoothing (α=0.2) for each time series by source.
+    Now includes EWMA smoothing (α=0.2) for each time series by source,
+    and directional bias calculation.
 
     Returns list of dicts suitable for `save_sentiment_indices`:
-      { 'ts': datetime, 'granularity': str, 'raw_value': float, 'smoothed_value': float, 'n_posts': int }
+      { 'ts': datetime, 'granularity': str, 'raw_value': float, 'smoothed_value': float, 
+        'n_posts': int, 'n_positive': int, 'n_negative': int, 'directional_bias': float }
     """
     if granularity not in ('hourly', 'daily'):
         raise ValueError("granularity must be 'hourly' or 'daily'")
@@ -145,8 +147,9 @@ def compute_rollups(granularity: str = 'hourly', days: int = 7) -> List[Dict[str
     logger.info("Fetched scored items for aggregation", extra={'count': len(rows)})
 
     # Group across all sources per time window
+    # Store list of (polarity, weight) and track positive/negative counts
     groups: Dict[datetime, List[Tuple[float, float]]] = defaultdict(list)
-    # store list of (polarity, weight)
+    polarity_signs: Dict[datetime, List[int]] = defaultdict(list)  # Track sign of each polarity
 
     for r in rows:
         try:
@@ -158,10 +161,14 @@ def compute_rollups(granularity: str = 'hourly', days: int = 7) -> List[Dict[str
         weight = _weight_for_source(source_val)
         polarity_val = float(cast(float, r.polarity))
         groups[window].append((polarity_val, weight))
+        
+        # Track positive/negative: 1 if polarity > 0, -1 if < 0, 0 if == 0
+        sign = 1 if polarity_val > 0 else (-1 if polarity_val < 0 else 0)
+        polarity_signs[window].append(sign)
 
     logger.info("Computed groups for aggregation", extra={'groups': len(groups)})
 
-    # Compute weighted average per window
+    # Compute weighted average per window and directional bias
     raw_series = []
     for window, values in groups.items():
         total_weight = sum(w for (_, w) in values)
@@ -172,6 +179,12 @@ def compute_rollups(granularity: str = 'hourly', days: int = 7) -> List[Dict[str
             raw_value = weighted_sum / total_weight
 
         n_posts = len(values)
+        
+        # Calculate directional bias
+        signs = polarity_signs[window]
+        n_positive = sum(1 for s in signs if s > 0)
+        n_negative = sum(1 for s in signs if s < 0)
+        directional_bias = (n_positive - n_negative) / n_posts if n_posts > 0 else 0.0
 
         raw_series.append({
             'ts': window,
@@ -179,6 +192,9 @@ def compute_rollups(granularity: str = 'hourly', days: int = 7) -> List[Dict[str
             'granularity': granularity,
             'raw_value': float(raw_value),
             'n_posts': n_posts,
+            'n_positive': n_positive,
+            'n_negative': n_negative,
+            'directional_bias': float(directional_bias),
         })
 
     # Sort by timestamp
@@ -196,6 +212,9 @@ def compute_rollups(granularity: str = 'hourly', days: int = 7) -> List[Dict[str
             'raw_value': item['raw_value'],
             'smoothed_value': item['smoothed_value'],
             'n_posts': item['n_posts'],
+            'n_positive': item['n_positive'],
+            'n_negative': item['n_negative'],
+            'directional_bias': item['directional_bias'],
         })
 
     # Sort results by ts

@@ -113,6 +113,9 @@ function DashboardContent() {
   const lastPoint = filteredData.length > 0 ? filteredData[filteredData.length - 1] : null;
   const currentSentiment = lastPoint?.smoothed ?? 0;
   const rawSentiment = lastPoint?.raw ?? 0;
+  const currentDirectionalBias = lastPoint?.directional_bias ?? 0;
+  const currentPositiveCount = lastPoint?.n_positive ?? 0;
+  const currentNegativeCount = lastPoint?.n_negative ?? 0;
   
   // Calculate 24h change
   const secondLastPoint = filteredData.length >= 2 ? filteredData[filteredData.length - 2] : null;
@@ -182,7 +185,7 @@ function DashboardContent() {
         {!initialLoading && (
           <>
             {/* KPI Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mb-8">
           <KPICard
             title="BTC Price"
             value={priceData ? `$${priceData.price.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}` : '...'}
@@ -197,9 +200,11 @@ function DashboardContent() {
             icon={<BarChart3 className="w-4 h-4" />}
           />
           <KPICard
-            title="Raw Sentiment"
-            value={formatSentiment(rawSentiment)}
-            icon={<Activity className="w-4 h-4" />}
+            title="Directional Bias"
+            value={`${(currentDirectionalBias * 100).toFixed(0)}%`}
+            description={currentDirectionalBias > 0.1 ? '🟢 Bullish' : currentDirectionalBias < -0.1 ? '🔴 Bearish' : '⚪ Neutral'}
+            delta={currentDirectionalBias}
+            icon={<TrendingUp className="w-4 h-4" />}
           />
           <KPICard
             title="24h Change"

@@ -122,6 +122,10 @@ class SentimentIndex(Base):
         raw_value: Raw aggregated sentiment value
         smoothed_value: Smoothed sentiment value (e.g., moving average)
         n_posts: Number of posts included in this aggregation
+        n_positive: Number of positive posts in this aggregation
+        n_negative: Number of negative posts in this aggregation
+        directional_bias: Directional bias score: (n_positive - n_negative) / n_posts
+                         Ranges from -1 (all negative) to +1 (all positive)
     """
     
     __tablename__ = "sentiment_indices"
@@ -131,14 +135,18 @@ class SentimentIndex(Base):
     raw_value = Column(Float, nullable=False)
     smoothed_value = Column(Float, nullable=True)
     n_posts = Column(Integer, nullable=False, default=0)
+    n_positive = Column(Integer, nullable=False, default=0)
+    n_negative = Column(Integer, nullable=False, default=0)
+    directional_bias = Column(Float, nullable=True)
     
     def __repr__(self) -> str:
         """Return a string representation of the SentimentIndex for debugging."""
         smoothed_str = f"{self.smoothed_value:.3f}" if self.smoothed_value is not None else "N/A"
+        bias_str = f"{self.directional_bias:.3f}" if self.directional_bias is not None else "N/A"
         return (
             f"<SentimentIndex(ts={self.ts}, granularity='{self.granularity}', "
             f"raw={self.raw_value:.3f}, smoothed={smoothed_str}, "
-            f"n_posts={self.n_posts})>"
+            f"n_posts={self.n_posts}, bias={bias_str})>"
         )
 
 

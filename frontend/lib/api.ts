@@ -11,6 +11,9 @@ export interface SentimentDataPoint {
   raw: number;
   smoothed: number;
   n_posts: number;
+  n_positive: number;
+  n_negative: number;
+  directional_bias: number;
 }
 
 export interface SentimentResponse {

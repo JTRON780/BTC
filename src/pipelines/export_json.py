@@ -60,7 +60,10 @@ def export_sentiment_indices(
                     "ts": item.ts.isoformat(),
                     "raw": item.raw_value,
                     "smoothed": item.smoothed_value if item.smoothed_value is not None else item.raw_value,
-                    "n_posts": item.n_posts
+                    "n_posts": item.n_posts,
+                    "n_positive": item.n_positive,
+                    "n_negative": item.n_negative,
+                    "directional_bias": item.directional_bias if item.directional_bias is not None else 0.0
                 }
                 for item in results
             ]
