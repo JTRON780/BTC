@@ -2,6 +2,13 @@
   "day": "2025-12-15",
   "positives": [
     {
+      "title": "Key facts: Twenty One Capital holds $4B in Bitcoin; Abu Dhabi boosts BlackRock stake; Rochard predicts bank adoption - TradingView \u2014 Track All Markets",
+      "polarity": 0.27014266699552536,
+      "ts": "2025-12-15T00:03:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPdllBNnpPS2FZYUJuUGloQTd5STZoM3dPbVVEenVlUGJ0MmdaQXhIZTlQaUpNX0RGN2RUWW44SkVTcjFQRHVtZHoySDY0VGt1dUZpR2pHaXN6RVdkV0pMTnZHSlNGTmYxMVVOclBSNURObEt3czNCZ1c0cnFSWk1TdlpGZTQzZTZYTzRoMEVhQ2Q5NHVEdHR5U29IWGg0N09WSWV4OGxXUWFRY0tVbW1nd2diODFWMEdpa3lYZW91QjJRNWxqQ0J3a0NKaE9CMXdaTG5XcTZweFAtcTBEQU9kVWprWVQ1UVJmcWo1WVVTQVZoazRicEdYT3lBLS1jNXRnOTZLSg?oc=5"
+    },
+    {
       "title": "Bitcoin-to-Ethereum swaps rise amid surging risk appetite \u2013 What now? - AMBCrypto",
       "polarity": 0.1884998381137848,
       "ts": "2025-12-15T00:00:55",
@@ -14,7 +21,50 @@
       "ts": "2025-12-15T00:47:25",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/uk-crypto-regulation-2027/"
+    },
+    {
+      "title": "Tapping Into CME Bitcoin Futures Gaps for Web3 Innovation - OneSafe",
+      "polarity": 0.03028484806418419,
+      "ts": "2025-12-15T00:53:09",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE83QWFHODNvY2tFRUt3LUxmZXNSQWRWOG9kRThKaGlva2t2R0l1aTF0VG1aZ3lJcUkyTGpSeUd5ZS1pcUY0QjlPX3hxM2ZUWWdfY2tvQXpMVFVuNmpHQ2cwbmNuZnlSbER0bjFuX2xVdm1XZXpoQzZr?oc=5"
+    },
+    {
+      "title": "Bitcoin hoarding company Strategy remains in Nasdaq 100 By Reuters - Investing.com",
+      "polarity": 0.0007480792701244354,
+      "ts": "2025-12-15T01:16:04",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSUlEMGpFV0RTVzVadDd6dnJ6U0Q5OGlKX2pJZWo4aHFJcktVQnEyUERUYk1RUmJMMmtBMTlBVVY5SUozT3NFSmtMM3BkX3drR0VGNnNGTjcxbm5jMWltellWclJ3Q0Y0eWhNeE9tX0xYREFfeURJeHNDY2JJeTlEZUZsMEl0UFl1aFV2VGhBUHZSNktFMWt5ZEkxLUkyYU5yWHVBY1dmYnlVZ3VrV3pDaDNR?oc=5"
     }
   ],
-  "negatives": []
+  "negatives": [
+    {
+      "title": "Asia Morning Briefing: Bitcoin Drifts Near $89K as Traders Step Back and Balance Sheets Step In",
+      "polarity": -0.4465198367834091,
+      "ts": "2025-12-15T02:28:26",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2025/12/15/asia-morning-briefing-bitcoin-drifts-near-usd89k-as-traders-step-back-and-balance-sheets-step-in"
+    },
+    {
+      "title": "We are going down a bit, get ready for the Peter Schiff tweets \ud83d\ude02",
+      "polarity": -0.05627122521400452,
+      "ts": "2025-12-15T00:43:09",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1pmtxa0/we_are_going_down_a_bit_get_ready_for_the_peter/"
+    },
+    {
+      "title": "Bitcoin veterans would scoop Satoshi\u2019s coins if quantum hack hits - MSN",
+      "polarity": -0.025333022698760033,
+      "ts": "2025-12-15T01:55:48",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeVgzM2Vuc3VxMk9WeDQxa2wyOE1ZcDl1bnFBMVY4RnROY0pHeVIyZjdkUDZ0WUE1NHdvVWZUa0RkVklTR25GMV9zTC03LU1EcjllajJEV2lQdTlqbHp6YTBmWFJ0bTdEZi1Ua28tNzRtV0NkSVRwemRFSm9WcnNFNlFFTjB6NnFMWnRnRWRPS1ZjSlBXZHJXRzRtbHRkckpnNGV3aWlEQV9RLUhxcW1FWFNsbEFoWV9MYXhrTjRVR3phazl4a09yN2FacE1mWElDWkpjQV92a24?oc=5"
+    },
+    {
+      "title": "Bitcoin hoarding company Strategy remains in Nasdaq 100 - MSN",
+      "polarity": -0.00039737485349178314,
+      "ts": "2025-12-15T01:23:58",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOLTFJeWFfenpsUEFTOEdpWXR4bW90c0lCRXliM2xjSERUNHRjelM4Qmw1S0ZRT2RZcUR1ckFHR3ZPLWNzaGJFemtSc3gxX0ZPWmxZNnVCQnphTV8yRWJSR3VhOGhLd2tPbmRnWUZTcjBlT1FvbWI2THo4TG1BNTdIMTBvU0Nya05VNzBGb05DSXNjX2tXYllCdmFGQU1CWkx3ZHpYMWNYc3NXQ0hXQ1E?oc=5"
+    }
+  ]
 }
