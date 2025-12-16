@@ -57,6 +57,9 @@ def _apply_ewma_smoothing(data: List[Dict[str, Any]], alpha: float = 0.2) -> Lis
     """
     Apply exponential weighted moving average smoothing to raw_value by source.
     
+    For daily granularity, each day is smoothed independently (no carryover from previous days).
+    For hourly granularity, smoothing carries across hours within the same day, but resets at midnight.
+    
     Args:
         data: List of dicts with keys: ts, source, granularity, raw_value, n_posts
               Must be sorted by (source, ts)
@@ -74,48 +77,46 @@ def _apply_ewma_smoothing(data: List[Dict[str, Any]], alpha: float = 0.2) -> Lis
         by_source[item['source']].append(item)
     
     result = []
+    granularity = data[0].get('granularity', 'daily') if data else 'daily'
     
     for source, items in by_source.items():
         # Sort by timestamp within source (should already be sorted)
         items.sort(key=lambda x: x['ts'])
         
-        # Get existing smoothed values from database to maintain continuity
-        existing_indices = []
-        if items:
-            try:
-                # Look back further to get previous smoothed values for continuity
-                lookback_days = 30  # Look back 30 days for existing data
-                existing_indices = get_index(items[0]['granularity'], days=lookback_days)
-                existing_indices = [idx for idx in existing_indices if idx['ts'] < items[0]['ts']]
-                existing_indices.sort(key=lambda x: x['ts'])
-            except Exception as e:
-                logger.warning(f"Could not fetch existing indices for continuity", extra={'error': str(e)})
-                existing_indices = []
-        
-        # Initialize EWMA
-        smoothed_value = None
-        if existing_indices:
-            # Use the most recent existing smoothed value as seed
-            last_existing = existing_indices[-1]
-            smoothed_value = last_existing.get('smoothed_value')
-            if smoothed_value is None:
-                smoothed_value = last_existing.get('raw_value', 0.0)
-        
-        # Compute EWMA for current batch
-        for item in items:
-            raw_value = item['raw_value']
+        # For daily granularity: each day is independent (no smoothing carryover from previous days)
+        # For hourly granularity: smoothing carries within each day but resets at midnight
+        if granularity == 'daily':
+            # Daily mode: each day's smoothed value = raw value (no temporal smoothing)
+            for item in items:
+                item_copy = item.copy()
+                item_copy['smoothed_value'] = item['raw_value']  # Daily sentiment is unsmoothed
+                result.append(item_copy)
+        else:
+            # Hourly mode: apply EWMA within each day, reset at midnight
+            current_day = None
+            smoothed_value = None
             
-            if smoothed_value is None:
-                # First value: initialize EWMA with raw value
-                smoothed_value = raw_value
-            else:
-                # EWMA formula: S_t = α * X_t + (1 - α) * S_{t-1}
-                smoothed_value = alpha * raw_value + (1 - alpha) * smoothed_value
-            
-            # Add smoothed value to item
-            item_copy = item.copy()
-            item_copy['smoothed_value'] = float(smoothed_value)
-            result.append(item_copy)
+            for item in items:
+                item_ts = item['ts']
+                item_day = item_ts.date()
+                
+                # Reset smoothed value at day boundary
+                if current_day is not None and item_day != current_day:
+                    smoothed_value = None
+                
+                current_day = item_day
+                raw_value = item['raw_value']
+                
+                if smoothed_value is None:
+                    # First value of the day: initialize with raw value
+                    smoothed_value = raw_value
+                else:
+                    # EWMA formula: S_t = α * X_t + (1 - α) * S_{t-1}
+                    smoothed_value = alpha * raw_value + (1 - alpha) * smoothed_value
+                
+                item_copy = item.copy()
+                item_copy['smoothed_value'] = float(smoothed_value)
+                result.append(item_copy)
     
     # Sort final result by timestamp
     result.sort(key=lambda x: x['ts'])
