@@ -44,7 +44,61 @@ def init_db(db_url: str) -> Engine:
     # Create all tables defined in Base metadata
     Base.metadata.create_all(_engine)
     
+    # Run migrations
+    _run_migrations(_engine)
+    
     return _engine
+
+
+def _run_migrations(engine: Engine) -> None:
+    """
+    Run database migrations to handle schema updates.
+    
+    This function handles adding new columns to existing tables
+    when they don't exist yet.
+    
+    Args:
+        engine: SQLAlchemy engine instance
+    """
+    with engine.connect() as conn:
+        # Check if sentiment_indices table exists and add missing columns
+        inspector_result = conn.execute(
+            "SELECT name FROM sqlite_master WHERE type='table' AND name='sentiment_indices'"
+        ).fetchone()
+        
+        if inspector_result:
+            # Table exists, check for missing columns
+            columns_result = conn.execute(
+                "PRAGMA table_info(sentiment_indices)"
+            ).fetchall()
+            column_names = [row[1] for row in columns_result]
+            
+            # Add n_positive if missing
+            if "n_positive" not in column_names:
+                try:
+                    conn.execute("ALTER TABLE sentiment_indices ADD COLUMN n_positive INTEGER DEFAULT 0")
+                    conn.commit()
+                except Exception:
+                    # Column might already exist or other issue
+                    pass
+            
+            # Add n_negative if missing
+            if "n_negative" not in column_names:
+                try:
+                    conn.execute("ALTER TABLE sentiment_indices ADD COLUMN n_negative INTEGER DEFAULT 0")
+                    conn.commit()
+                except Exception:
+                    # Column might already exist or other issue
+                    pass
+            
+            # Add directional_bias if missing
+            if "directional_bias" not in column_names:
+                try:
+                    conn.execute("ALTER TABLE sentiment_indices ADD COLUMN directional_bias FLOAT")
+                    conn.commit()
+                except Exception:
+                    # Column might already exist or other issue
+                    pass
 
 
 def get_engine() -> Engine:
