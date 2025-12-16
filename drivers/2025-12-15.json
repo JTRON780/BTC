@@ -1,49 +1,13 @@
 {
   "day": "2025-12-15",
-  "positives": [
-    {
-      "title": "Strategy Buys $980M In Bitcoin But One Crucial MSTR Metric Turned Red - Yahoo Finance",
-      "polarity": 0.08373530209064484,
-      "ts": "2025-12-15T22:31:11",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSDJ0TUVtY281cHRUU0kzRUdzWk5GTnJCbFltVW5QNlJKZEM5T2h1NW9iY3d1a1RlQ1A0QXNaUE1qcDA0TV96OVRzcV94TGtsZ013N0cwUTlhanAzanlQUUZvZThDb3dNSHpQajZaVlZ5TUp6THNEanpVYmo4YjNJSVRR?oc=5"
-    },
-    {
-      "title": "Trump Says He Will Consider A Pardon for Samourai Bitcoin Wallet Co-Founder",
-      "polarity": 0.016372665762901306,
-      "ts": "2025-12-15T22:20:11",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/news/trump-to-consider-pardon-samourai-wallet"
-    }
-  ],
+  "positives": [],
   "negatives": [
-    {
-      "title": "Bitcoin drops toward $86,000 as 'lack of conviction' keeps a lid on crypto prices - Yahoo Finance",
-      "polarity": -0.9411293147131801,
-      "ts": "2025-12-15T23:15:53",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNzNNZkV5ZERtX3lqU0M5M3dsSURxalRBX3dGU2NvaGtjc1VBbkd6Z1YwTnlmZGh5ZGRITWhCQ2o3LUVzdndxelU2YXlUNmR5X21tUy1wa3c2bVVHR2x2LTdNZmxweTJ5YWhZX2lJZG9EandwR2VCOHdZZDBXanBRa2dsYTNFUGszMUkxZVZUbEw3RDZHMjIzeVg4ZndGY1VIajNsTU5mWFNGNUs0SmZaNW14SkFlR29EUjZZcXZHLS0?oc=5"
-    },
     {
       "title": "Quantum Computing Unlikely to Impact Bitcoin, Crypto Prices in 2026: Grayscale",
       "polarity": -0.1858416311442852,
       "ts": "2025-12-15T23:39:51",
       "source": "Decrypt",
       "url": "https://decrypt.co/352459/quantum-computing-bitcoin-crypto-prices-2026-grayscale"
-    },
-    {
-      "title": "Trump Says He Will 'Look At' Pardon for Samourai Bitcoin App Dev",
-      "polarity": -0.17997927218675613,
-      "ts": "2025-12-15T22:20:26",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/352452/trump-will-look-at-pardon-samourai-bitcoin-app-dev"
-    },
-    {
-      "title": "Why Did Bitcoin Cash Sink 5% Today? - The Motley Fool",
-      "polarity": -0.10582535341382027,
-      "ts": "2025-12-15T23:25:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTGxTMEFwa0RiYlU1VDNQdmE4R2IyNDVabExPT2o5MnV3Z0hlMUlNZWhPeUJ6MElPaDh2enVQOTZ4Tkx2bGhUS3NtbmZ1LWlmV3JkU0ZJWDVrTVpRT1BZbU8tMGNDNGU5S0pfV09Ic1ZtU3czWUpPVDNENno5Zzg0VUhn?oc=5"
     }
   ]
 }
