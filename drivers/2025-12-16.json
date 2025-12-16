@@ -2,11 +2,32 @@
   "day": "2025-12-16",
   "positives": [
     {
+      "title": "Bitcoin to hit new all-time high within 6 months: Grayscale - MSN",
+      "polarity": 0.9026407105848193,
+      "ts": "2025-12-16T03:24:19",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMTB4TkZDUE9RNmVPbEU5UjZGMU5fRlZPcERJTmxGc0VieFFkMlc5Q0ZqejVNV2NfZFBKaXV6UGptOWw1UG5wXzFSUkVXcEVZdWEwUUhhQWdIc2xfS1dkZWFOcnk4aFp4cEZNZ1BDWnUtbWNiZlFHNTJlR2drV2sxcVNRMWN0amhiQkNpWk5wNW85eDR4NDZZbzlDOWJsSmFnNWdIN3R1cEk5SHZnaDc4WFlUOC10UWdxc19RZmN4ekRTOXdJNGl0X2ZvTzlLVjc5bEE?oc=5"
+    },
+    {
+      "title": "Bitcoin to hit new all-time high within 6 months: Grayscale",
+      "polarity": 0.8895511124283075,
+      "ts": "2025-12-16T02:57:49",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-hit-new-ath-h1-2026-grayscale?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "title": "A question awaiting insights from experienced investors.",
       "polarity": 0.08186374790966511,
       "ts": "2025-12-16T00:03:43",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1pnnaln/a_question_awaiting_insights_from_experienced/"
+    },
+    {
+      "title": "Strategy Buys Almost $1 Billion in Bitcoin Again in Past Week - Bloomberg.com",
+      "polarity": 0.06920570321381092,
+      "ts": "2025-12-16T02:37:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYmdyT2RVSkItUkZ1SFdSODRaN250b0pkSjhIMXR0S2NNX0RuYlVBTmEtclUwclotM0ZDZGdHaS1vd1pkVC05NnFXdWxielYyX0ctQkZZU0J5N0duaVU3YS1iMEcyVzh2enlZSkExSHVYNlAxdmJEZUpYRjhiWjNlQ0dnZUdRZDU5RkQ4dUJzcE1EcU9WN050N2diT3p1bm1EVDZUSHptWFZ0THhTZHZ3Uw?oc=5"
     },
     {
       "title": "Wise words of Satoshi.",
@@ -24,6 +45,13 @@
     }
   ],
   "negatives": [
+    {
+      "title": "Bitcoin Could Drop To $70K As Bank Of Japan Rate Move Approaches\u2014Analysts - TradingView \u2014 Track All Markets",
+      "polarity": -0.9369993377476931,
+      "ts": "2025-12-16T01:00:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbEpGNTQ4THd2dzdRcWdjVkFQaTluZGxwS1VNVF8taHd4Z0tkQWNsT3RrQ084aVplcjZKcDNlUDAzS0ttY1JpTGFoWFRKQlZfaUpUV29mMi13NWV2TjJhQ0xDTFFZT0dnMkJNSlpMTnZubDRGcEMwVzVUTUIyd3ZOVWZJaXQyYW5YUHNfN0s1VUtmTUFTYlN2dlFnbkZVVVFSS2hlZTd1UDBxM0ZpWWJDdFNTaXlIWTc1MmhPR2lKX2hSbnMtV1cxZlFB?oc=5"
+    },
     {
       "title": "Bitcoin, altcoins sell-off as Fed chair switch-up, AI bubble fears spook markets",
       "polarity": -0.9255825020372868,
@@ -46,6 +74,41 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWUhjNXhkdG9ZSTNWTEVmSWlsc0F3R2ZzX0FFX2s5UHVKSy1mVW10MHNIWFlnN05vYmpBRkkzaFRoQmRtenlXS2IyVzlSdU5ENGttN0kyNkVIazhTcU5VZmx6R0xYSW5YcGNodHpxODZqRWNHTkxVVTdnV2tGUkZYejV4MkdVZy1sV1JrLWNzM05Kc2JEZ3c?oc=5"
     },
     {
+      "title": "Bitcoin, AI stock slide sees over $500 million in bullish bets wiped out",
+      "polarity": -0.821132056415081,
+      "ts": "2025-12-16T03:23:30",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2025/12/16/bitcoin-ai-stock-slide-sees-over-usd500-million-in-bullish-bets-wiped-out"
+    },
+    {
+      "title": "Bitcoin Slides 5% as Sellers Lean In \u2014 Can BTC Reclaim $88,000? - Mitrade",
+      "polarity": -0.8009067848324776,
+      "ts": "2025-12-16T03:16:02",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZFRKVnBhU2s5SUg1WTVyUGp6U3ZOSTg4MWtRcHhWMDdPOGNja0RIYkthbE9jREk5RlBUYUVNN3pjXzdrNFdPSTBENzhTczZkM29Md3JzRWgta2otbjFkV0ppVF9Ya2xudnd5Wjh2MDNRNGxwa25KUHBPaUk3U0FpSURFQU1IemZWX3ZaMFFn?oc=5"
+    },
+    {
+      "title": "Bitcoin (BTC), Crypto News: $500 million lost to liquidations in latest plunge - CoinDesk",
+      "polarity": -0.5358802974224091,
+      "ts": "2025-12-16T03:26:46",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYWVSTHBGM0VMbWZGSVk2Y0d6a2t3SzJMSUdTcDd4cW1heVdFeWtJTGR0Tk9NV0NpZ2twdTlFRzRCVjc0UWNneF9RNktxbnlYS2dFME5BRXR0aTNGRThhbzh4dkxDUFlHWEM2NEZDQmNwYmJ3R3BBWWdaNXh3OWpiS1g2TFVzb2tBaUpWS1hhRW02N2FTVUE3OHZMc1JiZzdfdkd4LUk5a0hsREljQVlrLV93azN2ekZO?oc=5"
+    },
+    {
+      "title": "Gold Nears ATH Again as Bitcoin Hits Historic Low\u2014Rotation Ahead? - Yahoo Finance",
+      "polarity": -0.44107572361826897,
+      "ts": "2025-12-16T02:36:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLWHdaX3lraWkxemp2ZWFpLUJEQXllRXNfVFQ0amdxQ2FRR2ZDeUpoZVNNSXJKREZzLW1IZ0VEVzBpNDYySVQ5X0tUX1l2ZjdrZXhxNGFuVXUwQ2V0ZjRuclFlcldKYlFIc1A1WHFXRGRMa1VfSjBTcjN4XzJmNnc?oc=5"
+    },
+    {
+      "title": "Bitcoin price could crash to $40K: Luke Gromen explains why gold may outperform BTC USD in 2026 - The Economic Times",
+      "polarity": -0.4148009680211544,
+      "ts": "2025-12-16T02:00:29",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQWEpVYUpkSFlUQktlWHFtcmRLcUhSYkRzamF6ZUFKYXAtRndyRUdwZG44dTB6Q21CYTRhNUIwZ3Z5X0t4RFVJSU1jTWF1a01Zc0R3VHo3Uy1vM0FzM3ZOUnFNcml2U0VaU2hPRDRJajM1c3lKb2FPSnpuNUw4VUJ6cnhOVkt5Nm1EblM2MWtNSm8teGRYMDM1bUhkb2RiRE5BcTU4WnM2SEF1d2tFY0lqajFBaDlPYnBCVmRYYTVsZ2I4Mm5BRGc2ZlB2cUdicXF2T3d1akYxUWRkNmdncFF1Sl9uMXFwSVBldnZoWlEyblNCdGNtTDdYYTlmaXJXd9IBgwJBVV95cUxQQndaY1REMWtibmUyV2dXX040ZkFscEc3NS12NlhqM1VhM1RJTFlOWHpNTi04MkRZcUdxblJZZXZzc0VnRDNYWEhpb3J1WXZvR01JR0VVeXVqS2lLMUVReTlvemtVSXNXOWY0cGhIVlFjZlkwdTRSalBEbTMtSTAwdDdXVFQzUjJ5UXJBQkRoR0ZXSHhaaXFlTEdzUHM1OHpwUFpZRm9iNXVhbnA2Ym82N2lHZEt2T1FUTW0ydTlfRUJEZDlzcV9LT0R6VkFRTWstYkMwOFpXbjhHdDEyU0lBNHA0TXhnN2RPYkxkVmNkRGlRMlpJX3FZZ2ZYeFVtaVBzdXZj?oc=5"
+    },
+    {
       "title": "Bitcoin Bleeding Continues As Cryptocurrency Nears $85,000 - Forbes",
       "polarity": -0.250837542116642,
       "ts": "2025-12-16T01:12:30",
@@ -65,6 +128,13 @@
       "ts": "2025-12-16T02:41:46",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZmZaaWhKbUNrM3VVNGptMU5MLXViVDQ2WGVmOU01OEFXVU5vNmo4SExBWkF3Yzd4LXNjSTViTm9lMXlUN3MzMlVGM1A4UldCUW5tXzhjWkdkdXNzQWoxT3cyOGZjcVc5bk44ZjBWLVN6T3FhWUxtZGlneU5OOVR1N0syN0hLTWdDLUl6TWw4UE15N0g2U2xCcnR1ZkF6QXp5ejVPYWhNM2hWT0dFUkxVbDMxRGxYYlNNSk5mcHh5ejMwLXNnWkJIbjZUbXNfY0t6ZGZQNkZn?oc=5"
+    },
+    {
+      "title": "The federal government views Bitcoin as a strategic reserve asset, but California regulators blocked staking, calling it an unregistered securities offering.",
+      "polarity": -0.10316751152276993,
+      "ts": "2025-12-16T03:10:36",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1pnrbaz/the_federal_government_views_bitcoin_as_a/"
     },
     {
       "title": "Why did Bitcoin Cash sink 5% today? - MSN",
