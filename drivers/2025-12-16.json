@@ -7,6 +7,20 @@
       "ts": "2025-12-16T00:03:43",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1pnnaln/a_question_awaiting_insights_from_experienced/"
+    },
+    {
+      "title": "Wise words of Satoshi.",
+      "polarity": 0.040633674710989,
+      "ts": "2025-12-16T00:40:19",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1pno3xn/wise_words_of_satoshi/"
+    },
+    {
+      "title": "99.1% of Volume in BTC Today Was Movement of Coins Held Less than 180 Days",
+      "polarity": 0.028399880975484848,
+      "ts": "2025-12-16T00:36:13",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1pno0m5/991_of_volume_in_btc_today_was_movement_of_coins/"
     }
   ],
   "negatives": [
@@ -18,11 +32,60 @@
       "url": "https://cointelegraph.com/news/bitcoin-altcoins-sell-off-as-fed-chair-switch-up-ai-bubble-fears-spook-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "title": "Bitcoin Breaches $86,000 While Sinking Toward Year\u2019s Lows - Bloomberg.com",
+      "polarity": -0.9081267211586237,
+      "ts": "2025-12-16T00:43:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMnFQVFlZQ2V0N0MxOFZ1YTlSdzVTWnB2RXdhbm5sQmJJRjJ6b3I1S2lpbUZyZVRZM2NqRnZZaU5FelhSZUdMcGJsQUFQOTA2TmxWWGR3MTkwbW9DTTlaYmpoR3VBYzdzR0tERk5kRjNfXzJ1SEttNTYxRldCZzJCMFp0Uml2R1Vydy11TEFISVhUM0k2eUlnemdYdHFrUzJPYnh5WTdabXFYbzg?oc=5"
+    },
+    {
       "title": "Why iShares Bitcoin Trust ETF Stumbled on Monday - The Motley Fool",
       "polarity": -0.8281663525849581,
       "ts": "2025-12-16T00:27:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWUhjNXhkdG9ZSTNWTEVmSWlsc0F3R2ZzX0FFX2s5UHVKSy1mVW10MHNIWFlnN05vYmpBRkkzaFRoQmRtenlXS2IyVzlSdU5ENGttN0kyNkVIazhTcU5VZmx6R0xYSW5YcGNodHpxODZqRWNHTkxVVTdnV2tGUkZYejV4MkdVZy1sV1JrLWNzM05Kc2JEZ3c?oc=5"
+    },
+    {
+      "title": "Bitcoin Bleeding Continues As Cryptocurrency Nears $85,000 - Forbes",
+      "polarity": -0.250837542116642,
+      "ts": "2025-12-16T01:12:30",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWVBRN2tHaWNjdnkxUjNmTmZlUHZhbGhYY0k3dUVhNzJYT0ZaN2hNQzUyMXhCQXh5OWNndkhsWmVaVTFYcWQ4N2o0OGwyWnhsd1JJQkkxWWY0LWVqOFZidzB5RHY5MXlPdy1UMFNNcE5oMkhuQUNoa0tSWkFGYXItTWJwWlZ1cEdzdVB2MHM3ODNUOTM4ZjVTaWFncmhrNzBJVjcxc0QzWW8xU2VNZUl1U2F3?oc=5"
+    },
+    {
+      "title": "Why bitcoin ETFs look like they\u2019re falling short, even as their role grows: Asia Morning Briefing",
+      "polarity": -0.13743917644023895,
+      "ts": "2025-12-16T02:39:51",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2025/12/16/why-bitcoin-etfs-look-like-they-re-falling-short-even-as-their-role-grows-asia-morning-briefing"
+    },
+    {
+      "title": "Why bitcoin ETFs look like they\u2019re falling short, even as their role grows: Asia Morning Briefing - CoinDesk",
+      "polarity": -0.11886273324489594,
+      "ts": "2025-12-16T02:41:46",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZmZaaWhKbUNrM3VVNGptMU5MLXViVDQ2WGVmOU01OEFXVU5vNmo4SExBWkF3Yzd4LXNjSTViTm9lMXlUN3MzMlVGM1A4UldCUW5tXzhjWkdkdXNzQWoxT3cyOGZjcVc5bk44ZjBWLVN6T3FhWUxtZGlneU5OOVR1N0syN0hLTWdDLUl6TWw4UE15N0g2U2xCcnR1ZkF6QXp5ejVPYWhNM2hWT0dFUkxVbDMxRGxYYlNNSk5mcHh5ejMwLXNnWkJIbjZUbXNfY0t6ZGZQNkZn?oc=5"
+    },
+    {
+      "title": "Why did Bitcoin Cash sink 5% today? - MSN",
+      "polarity": -0.07330647483468056,
+      "ts": "2025-12-16T00:44:19",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaVJENUhQdVNRT0hqY3k4YW15Q3pjOVlDX09uUzhjdWVHeG5WZ25JSG9nd2FRSEU0RXV1OE5LUm1CUVNmQy1vaWpDRW5NdkwyNW5yb0NXNllKY1BhMmNXVWdJenFlX3QzNXFVdDVNTWJhNzBjX0JLeUxUVFFuZjAtZ1gtUWh6WXo2cUNkTHNURTBxdUxIWGNrRy0tY05wNUFuTHdnMDRnS084OUhxQjRfTlhMNkhrWUFqOHBqS0tHTQ?oc=5"
+    },
+    {
+      "title": "Where does tech stocks\u2019 recent performance leave Bitcoin\u2019s price? - AMBCrypto",
+      "polarity": -0.05234021879732609,
+      "ts": "2025-12-16T02:00:44",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZVN1d0tGQ1UxR2lZNTN4TnBCRnVXcTUxb2VJdWd5dXdBRUJIX2kzU1pITWd1djZGZkpZX0lYLWRTMm5RV2tnTXEtWG1POW52dXhJMEJjOUJXUE44SXhpTHJIMTlGWlJReEZtV3NQVjRGeGxLX0ZLcjFXV2l5UjI2NzVPZDdJWlBIZVdmdzZR0gGTAUFVX3lxTE5BRGJtc2R4Tk1SSlZBTGtpVEhROXNIX0RYM25xWUNHV0NiQUZXWjRSNDQ5SUw0ak9wSFZYc1ZVNU5MX0dteU04VGRoOE1BMlVDbE0zOFc5b3ZONG9GSXA4a1VjY09YYzBhU28zajlMUG9vSGQxUDFvXzBLd3lEdlVaMnpXSmFqQ1lJWjk5eFZZTzNxcw?oc=5"
+    },
+    {
+      "title": "0.1 btc = 10M sats",
+      "polarity": -0.020484499633312225,
+      "ts": "2025-12-16T01:18:13",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1pnoxsp/01_btc_10m_sats/"
     },
     {
       "title": "Trump open to reviewing pardon for Samourai Bitcoin app developer",
