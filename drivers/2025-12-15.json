@@ -2,13 +2,6 @@
   "day": "2025-12-15",
   "positives": [
     {
-      "title": "Strategy adds nearly $1B in Bitcoin as market slump pressures MSTR stock",
-      "polarity": 0.9352413807064295,
-      "ts": "2025-12-15T16:10:06",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/strategy-bitcoin-purchase-dollar-reserve-market-volatility?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "title": "Strategy Adds Nearly a Billion Dollars in Bitcoin for Second Straight Week",
       "polarity": 0.9204014800488949,
       "ts": "2025-12-15T14:30:12",
@@ -156,25 +149,11 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLTdQSXlHT3YzQURDeHJ1SUF1cW8zYlJHTGRvaVFheWQydWtaOUR5VjB1U1luZWZWb0kwUmZEY2loQWxVZnVCaWt1d0hKblM3OGxzUERpQVgtUHlzSGxqUmt2ekxuSjJsS1JGcHdyRXVBRVBMUzZCTHVMSGdvN2hzRy1EbnJvdmJpQVJxNW91cjNYbHhCSDZpbnk1MXRHbG1JYlFxSDdB0gGrAUFVX3lxTE5FeC1vWUZCQl9OcDVSVk9iX1VyVThsUUo0SFotVDZ0Wks1VUtmMTV4SmpLTjBvcW9nMHlwX24yVnpYZ3k1SVdHOXVmNWtSaTlrOTRJME1KRjRZZzhvcVN3YnBENXI1a0FSQzUyQzg5dElHUTIxLTd6X1dLMXE5MDI5djI0ZUhPUlc0c0R6N2tVX0ZJeERqX0hEU05SYk1jdEk0VTVlQ0JiOUJ1VQ?oc=5"
     },
     {
-      "title": "Prediction: Bitcoin Will Be Worth $270,000 in 5 Years - Yahoo Finance",
-      "polarity": 0.052384969778358936,
-      "ts": "2025-12-15T12:50:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQS1pzV05DakpreXZKZU44TFlXand2UnpZMUtDUWMwdk5lMzhvOVpFaDEycEVmbDZGcTc3YTNzX2xyYnk4Ny1Ec3dvS2taNnh2Um9vaEtTb0xpcFdNNzlTeHllenpHNXlNT0lHdWNxQ2Y1Tm1mVmh1UFNNcmxZRlhlcjlweEo?oc=5"
-    },
-    {
       "title": "Fidelity Flags Short-Term Crypto Risks, Discusses Bitcoin\u2019s Historic 4-Year Cycle",
       "polarity": 0.04718293808400631,
       "ts": "2025-12-15T21:35:05",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/news/fidelity-discusses-bitcoins-4-year-cycle"
-    },
-    {
-      "title": "Bitcoin Doesn\u2019t Need Another Bull Run. It Needs An Economy - CoinDesk",
-      "polarity": 0.044742487370967865,
-      "ts": "2025-12-15T14:01:36",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLTJMMFlPaHBzaUhRM0ZEYXoyeGxfUHRrVEhWaEw1RjNCNGVldzdqcmxiOTQ1ZUg5MzZqczdJS19qM1QzYmtDRUdHdE5HY3FJcGZic2NjQ01Tc1EwQnN2RzgxT0dDaU1xRmNzR0k5cDJWUVFhTkJ6QmtOVnAtUmxKMGlIUVpwSC1XVHl6dTJpMGJuaUI1RVE2NUw2UXZrNjJ0WHBN?oc=5"
     },
     {
       "title": "FUN FACT: #Bitcoin now has as many users as the internet did in 1997.",
@@ -219,6 +198,13 @@
       "url": "https://bitcoinmagazine.com/markets/strategy-mstr-buys-1-billion-bitcoin"
     },
     {
+      "title": "BTC vs ETH \u2014 if you don\u2019t price risk, stop calling it trading.",
+      "polarity": 0.019920099526643753,
+      "ts": "2025-12-15T19:53:59",
+      "source": "r/ethtrader",
+      "url": "https://www.reddit.com/r/ethtrader/comments/1pnh7oc/btc_vs_eth_if_you_dont_price_risk_stop_calling_it/"
+    },
+    {
       "title": "Trump Says He Will Consider A Pardon for Samourai Bitcoin Wallet Co-Founder",
       "polarity": 0.016372665762901306,
       "ts": "2025-12-15T22:20:11",
@@ -248,13 +234,6 @@
     }
   ],
   "negatives": [
-    {
-      "title": "Bitcoin Hashrate Sees Sharpest Post Halving Drop Since 2024 Amid China Machine Shutdowns",
-      "polarity": -0.9625506242737174,
-      "ts": "2025-12-15T17:17:57",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2025/12/15/bitcoin-hashrate-sees-sharpest-post-halving-drop-since-2024-amid-china-mining-machine-shutdowns"
-    },
     {
       "title": "Bitcoin, Ethereum and XRP Fall to Lowest Prices in a Week as Liquidations Top $500 Million",
       "polarity": -0.9624737468548119,
@@ -298,20 +277,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNzNNZkV5ZERtX3lqU0M5M3dsSURxalRBX3dGU2NvaGtjc1VBbkd6Z1YwTnlmZGh5ZGRITWhCQ2o3LUVzdndxelU2YXlUNmR5X21tUy1wa3c2bVVHR2x2LTdNZmxweTJ5YWhZX2lJZG9EandwR2VCOHdZZDBXanBRa2dsYTNFUGszMUkxZVZUbEw3RDZHMjIzeVg4ZndGY1VIajNsTU5mWFNGNUs0SmZaNW14SkFlR29EUjZZcXZHLS0?oc=5"
     },
     {
-      "title": "Bitcoin, XRP slide as traders brace for key U.S. data - thestreet.com",
-      "polarity": -0.9371777903288603,
-      "ts": "2025-12-15T16:55:19",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOblZpT1dDV1VuTnFsX1lKYm5HQTAxa3dPVWJXUFducjUtX1lFWHMwV016WUl1SlJCbkNRQ3FXOUFZZkZQb2ctOVpTNWhsck9hR25rOGJIbktEajJqODRKV2ZneHpaVTFHNVhqMWZNRUVsSzlKTWVnVjZOSXp0QTB6bnVZeXhqaVYxVTRaSFdHTm1ja2lyM0pNcw?oc=5"
-    },
-    {
-      "title": "Bitcoin sees one-year low in active addresses, raising fresh concerns over blockspace demand - The Block",
-      "polarity": -0.9364263713359833,
-      "ts": "2025-12-15T19:35:24",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZTRSYm16d0s4bGl6em1QbHVCbWpyZW9xMFhuemdYNTNjcE5sTlN6UWhQTWplNGhGOXFiMkJTbmlmaW1VUldDWU0xcG5ueUhmV1RhdW1Uc2w1SkZUTmVVemd1RjBvbW5zLWRCaWJwU3Jlc29hRjVZSmhpZEZBOFdKNUV0a1doWHYyVzBWM2RBc0NwdzdtMFItZ1NIaETSAaIBQVVfeXFMUFJ3WENrcnJWT0JvMU8wb0hDYzlBTkZEMnRyTTJja25oWmVBeE5XN2Q1cFo5X1RNTThWaGFDY0VDME1TSjZzSnk3eVprb2VJUnRva0Vwazd5VlUybk9wcjdJdE9aSTBjS0U1elVaR3B1SzhGVVI3NE95bmxuQmlRUFEwdnhERmhyN1EtYzM1LUpxT09CQ3lDcURKZnNZWkhaWU13?oc=5"
-    },
-    {
       "title": "Bitcoin price tumbles below $87K, triggering $200M in longs liquidated in one hour",
       "polarity": -0.9272480318322778,
       "ts": "2025-12-15T16:52:56",
@@ -347,6 +312,13 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9WNFdhNzVOcnQtWFdfOHJYaHdncVR4S2stWXU1cnVLNlVIUlgxeE5ZS1V2UVd1ejhtWXZDTGo5SGUxaXNRc3Njbkk0UlYtWmdlckkyRGF0a0oxUkpNb0RSLUR5WW5WN2hFdTdUT19FTDBMRnY0OEhV?oc=5"
     },
     {
+      "title": "Bitcoin Price Slips Below $86,000 and XRP Falls. What Can Spark a Crypto Rebound. - Barron's",
+      "polarity": -0.897562637925148,
+      "ts": "2025-12-15T18:15:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxQT0RGTDFmdkprUTA1dHlRU3Z5Y0M3S2FmTG4zTVpZWjc5M1QzX28teHdwelhCRElZUEl6V09RNVRDcFR5dnJpaERYWjdJbzk4T1dISnFFc0dsa3lydHM0ZzVGSzhEeERCWnZ1a2NKRnRJd0JYaV9IalNlZDVKQUMzYThnTmVVSkF1ak9NYTEyTWNJb0tDc3VaaElsZXBMZlR2WWVCUDN0UkdHWUx0ejJKWEJwanZSMFg2bXp0UFJ3Zk04OUdOUXF0dTI3OEtkNDNiSl9EQ1ZKcGRJcVNXbVZwRER5em5zTGVYck9JTU9XVGlpSVZpejVCS3JKUFEwVHBtSWZGYi1XX3pYSFFtUl80bE13Z24wYTFaelNYd2RERi04VW5BbG8tVUktVEltMEV4OHF6NDlKVWYwQ2Y3eFl0TmxBUVc1NE1PN2RmWDV1UzR4X0FYelNDdTRYY0V4SU1VOVNhNjhJMlBtR3c4RHZ2ZWtocVFVdlczN2tmOC1zZFREZDNIYnpGMjFIUzk1QzBKWnc?oc=5"
+    },
+    {
       "title": "5 Reasons Bitcoin Fell to $85,000 and Why More Downside Is Possible - Yahoo Finance",
       "polarity": -0.8680833596736193,
       "ts": "2025-12-15T19:15:30",
@@ -359,27 +331,6 @@
       "ts": "2025-12-15T15:57:07",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA4blFZVUZlczN3NF8xOXo5MlRwZmJXY0wzYWJkbU9iLTNKZUV3MmxyczQ3STBPcVNWWmRHNFZyMGVvSWx5YnIwbnk2NGRIVG4zOEVmQk54VEM0U3hLRV8xeXZjVF9UbHdfN2Jid2oybGYzR1p1bWRUakU1UUNCdw?oc=5"
-    },
-    {
-      "title": "Why Are Bitcoin, Ethereum and XRP Prices Falling Today? - Coinpedia Fintech News",
-      "polarity": -0.8619243549183011,
-      "ts": "2025-12-15T15:29:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeENBVW9jRmRtM0lRSEhERy13M2VteUJSZ2Z5bmx3OVpwQmRHcXlUSXpTQXEydEQxYlZhLUZyY1EzN0ZGUk1Kc3ZPNzJGMWptbEhhSHBsMTFIcGpadlNBX1V3R2lYYmVaWEZ5bVZSTmRabmlHWF95TkxReHRFUlg5TnpNNE8ydlBR0gGOAUFVX3lxTE9CbzNxcVB1OTFuUkVMcW9haEhEYVZWbGREOUtGNTZEU0tENzdJWjh2ejR5cXU2cmV3b21wNnNMdFNUcmEyZE5xcFgxMFhPUmdzNHJEQWdLSlJ4YUJiQ2ZfZkowTk5vUl92YXh0NTluUnEwLTh6bXlRanFFZkVqbmg4ZHAxRmUycnVaRV9TNGc?oc=5"
-    },
-    {
-      "title": "Look Out Below: Another 3% Drop In Bitcoin Brings This Token Toward a Key Level - Nasdaq",
-      "polarity": -0.847222737967968,
-      "ts": "2025-12-15T21:23:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ2xONVo2LTU3R2FOTnBoTnJHQzFKdmpVWWlvNlhyd2luVzZKZjFleDA5aEJlUUNtUWMwWnZPU1lTTnppbmdtTUV0MFFNZGdEcWlEc04xYUR2OXJzYlY2T3BxNW9jZkVpSjdqYWM5ejVmelc5ODluM0tLb1NVTGd3STNsajJSWjF6MEF0bG1qbEg3SHhWRHNYbk9KNVVFYTBa?oc=5"
-    },
-    {
-      "title": "Bitcoin (BTC) Could Crash to $25K as Parabolic Arc Has Snapped, Veteran Trader Says - CoinDesk",
-      "polarity": -0.8080099821090698,
-      "ts": "2025-12-15T12:12:54",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQLTZMTUt4UG8wamVBRUR0QnpNY0puYVNpeWhBODl3ZmFZbl9SVTA3dXRObTlXS2JxNFFVdjZTUUdXVFVObEJ1VjQ5YldGeVl0ODQ1ajgwSHVFY2ZEUDViQllMWTBEbkY1M2FCVE9TU2RUYVI0QWNqd21MLTdEMHZUNjJNYUNBODYtM2hYZnE4SHZ3OGVXU0MxSTRqZVhGZGN6VHFHUzlzeUJLRkVVZGduQ3JNSGNwb0FT?oc=5"
     },
     {
       "title": "Bitcoin drops under $86K as $2.78B in BTC whale selling overwhelms active dip buyers",
@@ -417,13 +368,6 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeHJQNldZM0tKOFcwaHdLSnVTM00wRXRXLV9KWVRHWEw2VWUycHlraktKelhkMVlGSGY5MDhsUloxRmg1RHlETWJmLXdxcFZEcDhFejJ3SUJ2WlFuSmZDS19xWElUUDhrRnBabjJpX0xUSGlQam5janZVWDJmdW03c3lIa2kwX2l4ai1SWHRIemx2RDFkU1ROSg?oc=5"
     },
     {
-      "title": "Strategy\u2019s STRD credit spread has tightened over past month even as bitcoin struggles",
-      "polarity": -0.7114399522542953,
-      "ts": "2025-12-15T18:03:53",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2025/12/14/strategy-s-strd-draws-scrutiny-after-advocate-questions-whether-its-yield-is-mispriced"
-    },
-    {
       "title": "Bitcoin Price Bleeds Below $89,000 After Grim Weekend",
       "polarity": -0.6881084088236094,
       "ts": "2025-12-15T14:33:22",
@@ -445,13 +389,6 @@
       "url": "https://cryptobriefing.com/bitcoin-price-tumble-long-liquidations/"
     },
     {
-      "title": "Bitcoin Price Slips Below $86,000 and XRP Falls. What Can Spark a Crypto Rebound. - Barron's",
-      "polarity": -0.6262323185801506,
-      "ts": "2025-12-15T18:15:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxQQXM1Q3dmalk2ZFFBelRsRlhJSDlFVzFldGZGNlg2MEpsbk1DeUdNanAydXZHWTV5RXJUMkFXdEJkVEcwZzVxck5yci1aMnZpUjdTQzAwZmpBNTBtbXdGaDU1TWZ2bklsa1c0R1dBWmF1dXpPZDRqYzI2YzZKMWpWYjdMTnA1MThGN1NzTm9wRUtxTXBBNl9VSHVnOUVjZ0ptc1ZyZnBrbllsRmFXVkR0NUprX2tPVGVhLTBWSGFIZE1ONmFTZGZlVnRsWUt4eEZ5eGppTzNCWHdsR1dtZFkwcVlva0VRZ0s2V050VnlOby16ZlAzOGNMWkNsXzNFQmoxR3RNLTB1MWowaXI1R3MtR21JMTRuUkoxTkxZZG05WnltNEFDZE9CUWhBTmI2NzIxMVhDT3dDNzFwUk8yQU9LeTlqSjg0TXV4ajcyZkg0MUFTZXhQOXNJZWp5N1c4RFJteldObzBxMzdrcS0zZmhEYm8zZjNsVURaOUdxcGs0alIwRVFOdmIwX18wbXdOQ2tUSnc?oc=5"
-    },
-    {
       "title": "Legendary analyst warns of 80% Bitcoin \u2018decay\u2019 - thestreet.com",
       "polarity": -0.5347192734479904,
       "ts": "2025-12-15T17:17:38",
@@ -464,13 +401,6 @@
       "ts": "2025-12-15T15:25:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUmIzV2xPX2o4M2VobVF2dUVIMUtDLVU3aXNTQ0ZjNVBBeXNjSTlzZjJKdGZyaDd4MWJ6WlBGc0ZrczVzZE81elEwbnlRTWZzQ3diLWZQVkk4clVFVUV1Nl80NHdkd3BvamtnT0hSNTBrOWhuRUJtOUdsV0FIQmdfVkhpSWJ3RXZ1bzVvMWdOWFBMME5VcHVz?oc=5"
-    },
-    {
-      "title": "Bitcoin May Be Repeating 1929 Great Depression, Top Bloomberg Strategist Warns - TradingView \u2014 Track All Markets",
-      "polarity": -0.27078389190137386,
-      "ts": "2025-12-15T15:48:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUkFsYmpveWxWNHE3TC1mTHBhekp2Y3VxWUkxNEhIS3BBajd2QVU5UGVOb2o2UFNaZl9hS2dtVWRGT2Vqc1k1QnhtSC1kamg5eWVhX3dVT0VqaHc3aUZyU2dodTRmWnVxWGJPOFpZWmV0VDJnbHUwRE9BV2Q1YXpITUJiUHc5UFRQSjl4TmRuVXQ4dU9LdERCREltLWdkNklrSEhZZWppeUtmcVQ5TS1PcHFBTUFaUkxTYUNqbHFvWmVxZHRfQzF3VjhCMDFsOUlt?oc=5"
     },
     {
       "title": "Quantum Computing Unlikely to Impact Bitcoin, Crypto Prices in 2026: Grayscale",
@@ -526,14 +456,7 @@
       "polarity": -0.06294791027903557,
       "ts": "2025-12-15T18:41:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxQVG5DQXhUX3BJV292b2tWTXVROWN6a2F6OE1sVV9iT01TM0E0aXhkYXkwQVpfMTA5b2hKN0NqYThHR1VoVjRvRS1NY1hjalZ3Yk1rRDZrMDBRcEJkNjM2bHVkOEJBWDRjMmVQdTZjY3pKcFFvSGlSUy1ZbWhPRjZPd1pVOHBWUlBKdDBhUHllMlIxdFdCSk50a3VTT2lRanBWM0VKbVJrU2pHY0VwT29ZRHhjbXhLNUlVNHZmbmVBTGpoTjdIMEh6ZWpGZGRHZ1RwWnBhT2VwVDVrTGJUanJScXI5NEZvamJ2YWxkY2pVUW1PSmVmRXl6RkdXNmJEd2J2OVRqNUtBN25LWDVzM1p3UlAtOE5zUTNBNnYxM1I1N21ENlU1eGI0X3lSUnZmb1ZkV3IzLWJzMi1jYUtreTNtQ0hPX1NXMlZ2cWNTRTlrNFh1bFg2YUw4VFdiVHZFdlNYZkNwbE1vZzZzOG1nZHZlZjZYeHlydUk2MnJfN18zYV8?oc=5"
-    },
-    {
-      "title": "Why Bitcoin is dropping - China?",
-      "polarity": -0.04635610431432724,
-      "ts": "2025-12-15T20:18:02",
-      "source": "r/CryptoCurrency",
-      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1pnhtvz/why_bitcoin_is_dropping_china/"
+      "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxPWm83UTVQaU81S05kWC1TdzFMZ05aRnpTemxkZTA1X2dvRE8xX1RDSTVvVVdCd09nLVRCclZNR0VPUXVkaXNqMnhBWGZzZjJ5NnY2RnQtQ1dITy03WlRZSWQxanhBYXdIcDVRNFpkeWliaFhmdi11U1ZtLXQxak1YRnlPV3J2d2o3Z0ItazdNRHgzU0hzeDdYeW1lUVVvZlp1R0k0VWpzZ0gyb1hESTE4aGNuMnFOQTlUZldqa0JLZVFPMkxJVk5IZGtTVVd2SHVCSEowbkVDTFVfeW9IczBJRUdoYjU4Q3lrVG53WkEyUVYwcEpPY1QzaENNcGJHQ0hYTHpTaFVnUllHWmR6QnNRVEtrRlF5LW1ZWmxST2FYSUtWNTEtVVZBOWZlT21uTWV6MFlhMGo0S2Fybk1qR0k3Z2VjanRNZjJiTUVKemxsRWRKX2F6aXVyQndBdkdVNWlFYXZWREkxbF9qdW5KSUpjMllpajUwRUJNdDllaTlGeDY?oc=5"
     },
     {
       "title": "Why Did Bitcoin Cash Sink 5% Today? - Nasdaq",
@@ -541,13 +464,6 @@
       "ts": "2025-12-15T23:45:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8zYWIyQXpoWExMaE9PSWJNVzhac21PUGF3dVBrSGRnd1NCUlJvb1d4cXZYVFczRUJhSFhUZGswQW1pdnB1QXA4TWxSRWw0NGNnQVJWVFF5WkhBVUttWkZITkk2SUxvMWpxM01Rck9iZGZySHM?oc=5"
-    },
-    {
-      "title": "Bitcoin Price Prediction: What\u2019s Next After Crash Below $86k - Coinpedia Fintech News",
-      "polarity": -0.028191927820444107,
-      "ts": "2025-12-15T17:39:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOUNQOGhYRFpjeUVtaFhzZ3FsREFzNUc0bnppbE8wUEZyUXAweHV6SEpfS01KdGtqRmx3UWR0bFhnbWxWR29qMkhhY09UVUl1aDV2TUZydnVXQi1tVkJHMW9sOWVaVl9nN2s4UERQR05kejhIS1VDTHlkMkdKMEQtUkY0SUZubmJnTWd6WmR30gGTAUFVX3lxTE1SV3hBU0ZCYVNCekJGSmJOd1JES2EweEhXMWkyVFk2dXdZb2FuYmxxQkxSXzZnRFNKTmJZLUhPVXk4NnU0ZEVSWk5kb1FLdkhwb0N0SmVxSDRWbzBGSXIxbkhoNkdSRG53ZXR3TkhEZ0luelhwOUNvOENLZHZkQnpGbEFSVlBkVlBtS1k0THEwclU3VQ?oc=5"
     },
     {
       "title": "Atkins, Peirce Stress Balancing Crypto Transparency and Privacy at SEC Roundtable",
@@ -592,13 +508,6 @@
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pnkhub/getting_a_divorce_after_8_years_of_marriage/"
     },
     {
-      "title": "Bitcoin price coils into a triangle pattern as a breakout draws closer - crypto.news",
-      "polarity": -0.0016800984740257263,
-      "ts": "2025-12-15T16:27:43",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBHNTQ1S2gxamFaeVRYTmZlU2ZZRnNtaUN5NklkSnBWeks5LUJUQjRBTW82OWxGamhIS2htUnR2bkZXZW4zYmtST3JiRW1WamFzOEJpWFdaSDRlX0lpcmtGaGRRNk1QWUhwU3lTQkhzVE95UQ?oc=5"
-    },
-    {
       "title": "What is worth to Hold in my wallet ?",
       "polarity": -0.0012384597212076187,
       "ts": "2025-12-15T22:39:41",
@@ -610,7 +519,7 @@
       "polarity": -0.0004009958356618881,
       "ts": "2025-12-15T13:06:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxPTWxUWTdBWDZKX3pLQTd6Nmp2TEVqS1BvblZtcmNoTlpXblJGVTVmTjkzNnhDdjVTYUlLWkI0eHZPeEt1d3dKOFJyZ1FTZVUxamVCdURJcmNiWFhaZWFBVWlNWVNlZTdMX0k0djJLVkE5OWlyZ3ZWcTFDQ2ZZb0ZYV1FFX3hNNFB1aGhha2JaRS1mWEozb2E4MWpTZzkxSXFyXzJ4ODBvT2hTdVFSWDZQNkMxeUZZVnZSYzJsckxnMnBZdUtEcnJuVG5XNERrX25BcC1RblBrdmpNMDA4WWFiWnZ2b1RlTWJBVzVaZzg4SEhxSG00bmlaWXA5WENlSlFiZ1FqVDlXeFM1X3QxLXhDOTc2b0xDd1hDWGhDM256cEhrTU4za0I3ZmFsdG14YURpUm83djRYUUJfUjVwdmN2X3YtRm9xOVBLNElROGw1UVZBNGI0WlZVM1BNN0JMYU1KSUVYTlJTZzVla0RRSERSYWNBUHdKc0NWeVJQNGVkNE5UUFBZS01OX2pBQjZhS3VjaFZ2T2EyMVBVVHhieHY2emctRDl4VVVzeVRxZTRwWnE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxNdEFRZktpSkFyODJNODZZQ0JlWF9jTF9ZczFqLUlUdDg1REd0b2ZrRHBYUEZaYWlJcjRaYXJKZ0JDa3Zzc1h0ODcwRjl1ZG9LRVVKUXM1VnV5eVI1SnZMTW1zZHZmNmNMalk3dEFmOHN6NS15V24yZGJZQkU1RU05MXZENTlGU21YQ1U5NkFkRGhSX210Ny1Db3hyU281TWY0MXRzajBFcVJMNmpJS2dmcFFFWkVhd1FWU2Fjc0cyMjhzdUhsdmZ0QUNnNEhXdHpMT0Q5SUVMX0VwWUtkZDNHNmtucEY1cENHeWxuRnB0ZzdtclZSUURVaklZWVl1d0otWXZZY3R0Q3ZZYnNueWVsZW1lSHVORGFYczgtVDF1ZG9WSkRwMlZsTUIzM1Fkc3hCdHNaWGZ1bm1odmlaNzJNQjRuYlVoSUU0YW9SRl9tbU0zNGY5V2xXRjY1NklPSUFrV0NJVUVUSXo3cUk4WjYxbGNfMHBEWDRnNXhkWG5jUVYta0hzNVp1bVZlckxKMm9STVZPRGE2eHJPeHlMbGMyZGhERUxIbnJBMlVWWDBra3o?oc=5"
     }
   ]
 }
