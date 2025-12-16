@@ -1,0 +1,35 @@
+{
+  "day": "2025-12-16",
+  "positives": [
+    {
+      "title": "A question awaiting insights from experienced investors.",
+      "polarity": 0.08186374790966511,
+      "ts": "2025-12-16T00:03:43",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1pnnaln/a_question_awaiting_insights_from_experienced/"
+    }
+  ],
+  "negatives": [
+    {
+      "title": "Bitcoin, altcoins sell-off as Fed chair switch-up, AI bubble fears spook markets",
+      "polarity": -0.9255825020372868,
+      "ts": "2025-12-16T00:17:35",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-altcoins-sell-off-as-fed-chair-switch-up-ai-bubble-fears-spook-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Why iShares Bitcoin Trust ETF Stumbled on Monday - The Motley Fool",
+      "polarity": -0.8281663525849581,
+      "ts": "2025-12-16T00:27:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWUhjNXhkdG9ZSTNWTEVmSWlsc0F3R2ZzX0FFX2s5UHVKSy1mVW10MHNIWFlnN05vYmpBRkkzaFRoQmRtenlXS2IyVzlSdU5ENGttN0kyNkVIazhTcU5VZmx6R0xYSW5YcGNodHpxODZqRWNHTkxVVTdnV2tGUkZYejV4MkdVZy1sV1JrLWNzM05Kc2JEZ3c?oc=5"
+    },
+    {
+      "title": "Trump open to reviewing pardon for Samourai Bitcoin app developer",
+      "polarity": -0.0017000585794448853,
+      "ts": "2025-12-16T00:23:11",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/trump-bitcoin-pardon-review/"
+    }
+  ]
+}
