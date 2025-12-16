@@ -2,13 +2,6 @@
   "day": "2025-12-15",
   "positives": [
     {
-      "title": "Crypto Wallet MetaMask Expands From Ethereum and Solana to Bitcoin",
-      "polarity": 0.9076516078785062,
-      "ts": "2025-12-15T18:51:28",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/352415/crypto-wallet-metamask-expands-ethereum-solana-bitcoin"
-    },
-    {
       "title": "Square just sent me 29,164 sats for being the first Bitcoin-paying customer at a local coffee shop.",
       "polarity": 0.37839107029139996,
       "ts": "2025-12-15T20:19:16",
@@ -16,32 +9,11 @@
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pnhv00/square_just_sent_me_29164_sats_for_being_the/"
     },
     {
-      "title": "It's been a big week for DeFi ; Here are 10 massive releases you might've missed from Breakpoint:",
-      "polarity": 0.14509541261941195,
-      "ts": "2025-12-15T18:43:14",
-      "source": "r/defi",
-      "url": "https://www.reddit.com/r/defi/comments/1pnfcvg/its_been_a_big_week_for_defi_here_are_10_massive/"
-    },
-    {
-      "title": "MetaMask adds Bitcoin support, enabling BTC buying, swapping, and transferring",
-      "polarity": 0.13067673984915018,
-      "ts": "2025-12-15T18:25:34",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/metamask-bitcoin-support-launch/"
-    },
-    {
       "title": "Strategy Buys $980M In Bitcoin But One Crucial MSTR Metric Turned Red - Yahoo Finance",
       "polarity": 0.08373530209064484,
       "ts": "2025-12-15T22:31:11",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSDJ0TUVtY281cHRUU0kzRUdzWk5GTnJCbFltVW5QNlJKZEM5T2h1NW9iY3d1a1RlQ1A0QXNaUE1qcDA0TV96OVRzcV94TGtsZ013N0cwUTlhanAzanlQUUZvZThDb3dNSHpQajZaVlZ5TUp6THNEanpVYmo4YjNJSVRR?oc=5"
-    },
-    {
-      "title": "14 of the top 25 U.S. Banks are building bitcoin products for customers",
-      "polarity": 0.06149766035377979,
-      "ts": "2025-12-15T20:20:15",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1pnhvtj/14_of_the_top_25_us_banks_are_building_bitcoin/"
     },
     {
       "title": "MetaMask rolls out Bitcoin support, continuing multi-chain expansion - The Block",
@@ -151,32 +123,11 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ1J1bTJPUGdaaGFHNDNmbHFtWU43bHhPRFN5SWh5UXVoLVlWYUU3NUhLUHdfNWgtQXgyVUlMYTNSU3BlNlZ3RFlEUXpka2NQS3VZLTJqN2Y1VW0xRlFlTjd4RW1URzBvOU9RTUZ6LWYycWJvYkFQSE5WRGkwVnAyVGZmNkZiZVpYZlhhdHp5V3RPcEVOYTQyZFp4OEZJelRDUURzcXlHLXZ1QzljWXB6ZXNmbWJRTEp1c0hmTU5fNWlPR21ZT0g0?oc=5"
     },
     {
-      "title": "Bitcoin is Dead",
-      "polarity": -0.12021004594862461,
-      "ts": "2025-12-15T20:14:57",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1pnhr4c/bitcoin_is_dead/"
-    },
-    {
       "title": "Why Did Bitcoin Cash Sink 5% Today? - The Motley Fool",
       "polarity": -0.10582535341382027,
       "ts": "2025-12-15T23:25:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTGxTMEFwa0RiYlU1VDNQdmE4R2IyNDVabExPT2o5MnV3Z0hlMUlNZWhPeUJ6MElPaDh2enVQOTZ4Tkx2bGhUS3NtbmZ1LWlmV3JkU0ZJWDVrTVpRT1BZbU8tMGNDNGU5S0pfV09Ic1ZtU3czWUpPVDNENno5Zzg0VUhn?oc=5"
-    },
-    {
-      "title": "Strategy Keeps Buying Bitcoin. It Isn\u2019t Helping the Stock. - Barron's",
-      "polarity": -0.06294791027903557,
-      "ts": "2025-12-15T18:41:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxNZWZmLUZVUXZUTzhjanVEZEJjNnVZUHZ0ZjV3VjNTMlNTb2R0ckxYVXZSallDNXQ1Zi0xM3c4TEhBaHhSWk9oZGJJRVR6Mk1JZjRfbF9rWTFpYjljYmtKZS1fb3hYQ0hNdjZtX01sYkFsOGZjTkQ0TkVsczhtMkZmazJhbDRXX01RN2ItS3NzOEhhb01yNER0cHMwVHFGdHl3QmxPMVZEeVQwTzN4bVI3bGx5ekViVVdjLV9tV0lhci03SWpaVkFKUnRrWml3bWdjT3JoRVVsalJqaElvS2trS0s2NW1qR0otSTFJazBRTlVUYVUzazJsQVNqTVREVmNqSkJmd1kyWFltM283ckwwUHhfMFI0Z3lpaFAtN3JTNndaN0Z1SHdocU1ZVHhpcWFUNGUxODZ0UnBUcXVsMjBzcFRvRHMwa1FSNzlKdEVFVUtZMzVvdlpDMjBUUmdzRTNPZ2pPbGdOc3ZQZ1hBS3MwYXJZU0R6ZUpkLWQzZFB0Zlg?oc=5"
-    },
-    {
-      "title": "Atkins, Peirce Stress Balancing Crypto Transparency and Privacy at SEC Roundtable",
-      "polarity": -0.022698000073432922,
-      "ts": "2025-12-15T19:04:22",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/news/sec-stresses-balancing-crypto-privacy"
     },
     {
       "title": "What is worth to Hold in my wallet ?",
