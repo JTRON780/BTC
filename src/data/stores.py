@@ -9,7 +9,7 @@ for easier serialization and decoupling from the database layer.
 from datetime import datetime, timedelta
 from typing import Any, Dict, List, Optional
 
-from sqlalchemy import create_engine, insert, select, Engine
+from sqlalchemy import create_engine, insert, select, Engine, text
 from sqlalchemy.orm import Session
 from sqlalchemy.dialects.sqlite import insert as sqlite_insert
 
@@ -63,20 +63,20 @@ def _run_migrations(engine: Engine) -> None:
     with engine.connect() as conn:
         # Check if sentiment_indices table exists and add missing columns
         inspector_result = conn.execute(
-            "SELECT name FROM sqlite_master WHERE type='table' AND name='sentiment_indices'"
+            text("SELECT name FROM sqlite_master WHERE type='table' AND name='sentiment_indices'")
         ).fetchone()
         
         if inspector_result:
             # Table exists, check for missing columns
             columns_result = conn.execute(
-                "PRAGMA table_info(sentiment_indices)"
+                text("PRAGMA table_info(sentiment_indices)")
             ).fetchall()
             column_names = [row[1] for row in columns_result]
             
             # Add n_positive if missing
             if "n_positive" not in column_names:
                 try:
-                    conn.execute("ALTER TABLE sentiment_indices ADD COLUMN n_positive INTEGER DEFAULT 0")
+                    conn.execute(text("ALTER TABLE sentiment_indices ADD COLUMN n_positive INTEGER DEFAULT 0"))
                     conn.commit()
                 except Exception:
                     # Column might already exist or other issue
@@ -85,7 +85,7 @@ def _run_migrations(engine: Engine) -> None:
             # Add n_negative if missing
             if "n_negative" not in column_names:
                 try:
-                    conn.execute("ALTER TABLE sentiment_indices ADD COLUMN n_negative INTEGER DEFAULT 0")
+                    conn.execute(text("ALTER TABLE sentiment_indices ADD COLUMN n_negative INTEGER DEFAULT 0"))
                     conn.commit()
                 except Exception:
                     # Column might already exist or other issue
@@ -94,7 +94,7 @@ def _run_migrations(engine: Engine) -> None:
             # Add directional_bias if missing
             if "directional_bias" not in column_names:
                 try:
-                    conn.execute("ALTER TABLE sentiment_indices ADD COLUMN directional_bias FLOAT")
+                    conn.execute(text("ALTER TABLE sentiment_indices ADD COLUMN directional_bias FLOAT"))
                     conn.commit()
                 except Exception:
                     # Column might already exist or other issue
