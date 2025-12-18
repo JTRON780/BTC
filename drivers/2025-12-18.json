@@ -1,7 +1,36 @@
 {
   "day": "2025-12-18",
-  "positives": [],
+  "positives": [
+    {
+      "title": "Bitcoin\u2019s volatility below Nvidia in 2025 as investor base grew: Bitwise",
+      "polarity": 0.743835560977459,
+      "ts": "2025-12-18T03:40:52",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-less-volatile-nvidia-in-2025-as-its-investor-base-diversified-bitwise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Borrowing USD with BTC",
+      "polarity": 0.04065232165157795,
+      "ts": "2025-12-18T02:38:58",
+      "source": "r/defi",
+      "url": "https://www.reddit.com/r/defi/comments/1ppfncx/borrowing_usd_with_btc/"
+    },
+    {
+      "title": "Bitcoin\u2019s Silent Exodus Hits Crypto as Long-Time Buyers Cash Out - Bloomberg.com",
+      "polarity": 0.009745396673679352,
+      "ts": "2025-12-18T02:00:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSm1jaUlLTHh5dVZnaVQtQTJ6M2NmUHo5cTRDVmhUN3NDRGprNmk4aUFWZU5pbmJ5YmNTOTRwTzlJUGdwUUJfdk1aVjNuSnFDMllKZ282ZHBHaWtWUjhrQ1VYNHZ2bXhwbTJhWnpBX25uWTlEejQ5RDRFMjJKNkFxbzFKcGE0ZVVOcm5wZEpxWE52TmpFZUZHdDViZUIyenRzS292Zm1ESXRad29LUXExNXZpdDhJUQ?oc=5"
+    }
+  ],
   "negatives": [
+    {
+      "title": "Bitcoin drifts lower as $81.3k emerges as the market\u2019s key fault line: Asia Morning Briefing",
+      "polarity": -0.9459188478067517,
+      "ts": "2025-12-18T02:41:26",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2025/12/18/bitcoin-drifts-lower-as-usd81-3k-emerges-as-the-market-s-key-fault-line-asia-morning-briefing"
+    },
     {
       "title": "Key facts: Bhutan to invest $1B in Bitcoin for Mindfulness City; Bitcoin drops to $86,517 - TradingView \u2014 Track All Markets",
       "polarity": -0.8678043326362967,
@@ -10,11 +39,25 @@
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQN0NjdEFGLUVYQXd6NXNqSGtmemRrRm9samcwalJyYkxIVlJPRHNac3JGaWwtR3JhcW5sZkN0Tkxpdi1hWWhXVzJ6MzdEdEJhS2U0R2l6Qkg1VUtLclphWVJEeDhTcVJFQW1KcXJKelNTZ0gxWG1ya2pDRU9OaTA4YlJkbDBIQWhNb29TRjZIQmxCdHN0TXBma1BUYy1RSFhFZ3l6dkdMTl8xbWFBaWJYVHl5V2w4eFBDX3lLNXRSZlVQQUpSQXIzeG9GZ2RkeUZXQXpsd0p2ZDRCejRQUlZ0dw?oc=5"
     },
     {
+      "title": "Bitcoin Plunge: MARA Stock Reacts - StocksToTrade",
+      "polarity": -0.37742960825562477,
+      "ts": "2025-12-18T02:03:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5vTWtKNmF3NjlvSGdQMHV0azRiZTZ1aW5oajJ1Q0JIN1ZKSUY0Z2s3WFJ4M1lHMXlaSHBfSk5iSm83RzZMaU5fMklMS0g4RkhpbnBOTXJSRlhRRzBoN3BGSURfaWgySHVUaFB4UVFWNUFZX19VNVlWRm5n?oc=5"
+    },
+    {
       "title": "Today ~99.5% of BTC movement came from coins held less than 1 year",
       "polarity": -0.3015940971672535,
       "ts": "2025-12-18T00:28:23",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1ppcxg0/today_995_of_btc_movement_came_from_coins_held/"
+    },
+    {
+      "title": "Secretary of State warns of bitcoin ATM scam - WXXV News 25",
+      "polarity": -0.2581387124955654,
+      "ts": "2025-12-18T03:04:12",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hcVQ1T2tYZXBkRG5pZkxra2dldm5Hb2FpX2FHd3MyMUxTanlPYXB0TUVLd0hUMTJZcVczNHJrdVFTTFBlZGhtRkZzQ3N5T3FLaXNDV2J6bUxVeV9TYmZFclRETTAtVHFKYlZydTJzSW5kLTJMS0J3?oc=5"
     },
     {
       "title": "Michael Saylor says quantum will \u201charden\u201d Bitcoin, but he\u2019s ignoring the 1.7 million coins already at risk",
@@ -43,6 +86,13 @@
       "ts": "2025-12-18T00:58:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ1NUcGVXaXVXTjh2bkxVX3lzRjlzQjRGY1F4OEp6N1dLXzZKRE1uLTQ1TWMza2VHRXpQdVYzVUQ0UnBKLXBTQzdoeklZVV9DU0JkTFduMUc3clYtWGM5c0I1d1N6bFcyalBQRGx6MXFiMDFTR0NHUllZUG5tbkpOV2tPbVI?oc=5"
+    },
+    {
+      "title": "Bitcoin, Ethereum, and XRP Prices Today: Trump Goes Live, Crypto Goes Down - Coinpedia Fintech News",
+      "polarity": -0.006692506372928619,
+      "ts": "2025-12-18T00:57:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVl9NcVRKM2xfaFByb2JCUjBEbmZXcVE4a0o0Sk1qV0tLdFp4eVBFSmlSaDg2YU1sbFc2OTFIZ0JoSmd4Y0prcE5HanV4U2hac0hRWE1RcHNfYThsZ3RSNENYbGZ3c3BYekI3XzkwQ2l1MjFxdEZCV1o3bWNwZ1c0WDJwRHhjVzI0UlhZeFEycU15UElRcTU1YdIBngFBVV95cUxQeWRVd0xhcGFtTnRKVkh0NDVpYkZMaDFwSjhXS0NVWTVnM2VaUDhCSFh0NDQ2Y0l2VThTekFnX3RyTHNXNUE2dzVTZDNXaDhZTnBVR1JZYkRFcV9xdXZZdmZwMWZReFM4ejZIdGhfQWFnaWJadHRqeTBFVEt3OVhFRjQ0Y21KRF90VTZaS3lrekJzWEVvX2pab0d5LV9mZw?oc=5"
     }
   ]
 }
