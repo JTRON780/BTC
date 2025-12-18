@@ -23,11 +23,25 @@
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pphcju/bitcoin_rewards_conviction/"
     },
     {
+      "title": "Would you sell your Bitcoin to be mortgage free?",
+      "polarity": 0.04194951429963112,
+      "ts": "2025-12-18T03:40:53",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1ppguxx/would_you_sell_your_bitcoin_to_be_mortgage_free/"
+    },
+    {
       "title": "Borrowing USD with BTC",
       "polarity": 0.04065232165157795,
       "ts": "2025-12-18T02:38:58",
       "source": "r/defi",
       "url": "https://www.reddit.com/r/defi/comments/1ppfncx/borrowing_usd_with_btc/"
+    },
+    {
+      "title": "[Daily Discussion] - Thursday, December 18, 2025",
+      "polarity": 0.013010827824473381,
+      "ts": "2025-12-18T05:01:06",
+      "source": "r/BitcoinMarkets",
+      "url": "https://www.reddit.com/r/BitcoinMarkets/comments/1ppid6e/daily_discussion_thursday_december_18_2025/"
     },
     {
       "title": "Bitcoin\u2019s Silent Exodus Hits Crypto as Long-Time Buyers Cash Out - Bloomberg.com",
@@ -39,11 +53,46 @@
   ],
   "negatives": [
     {
+      "title": "Bitcoin could drop to $10,000, one analyst says, spelling doom for ETH, ADA, XRP",
+      "polarity": -0.9540381617844105,
+      "ts": "2025-12-18T05:06:11",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2025/12/18/bitcoin-could-drop-to-usd10-000-one-analyst-says-spelling-doom-for-eth-ada-xrp"
+    },
+    {
+      "title": "Bitcoin drifts lower as $81.3k emerges as the market\u2019s key fault line: Asia Morning Briefing - Yahoo Finance",
+      "polarity": -0.9533199574798346,
+      "ts": "2025-12-18T02:41:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE52dzBrOS1JYTIzcE1EYTF4YWd4eVd6ODlZeDZ1LU8wdEJkbDZObXpZVDNjdVEtbE1sZXcxZ1NLeGhHWHdnTGhUclp3dkRtU3EwNXZzZmZHQnN2Y2dMMGdJTU96a0lYYkVEaEFyUV9IM1JsemFwREMydG15cWQ?oc=5"
+    },
+    {
+      "title": "Bitcoin drifts lower as $81.3k emerges as the market\u2019s key fault line: Asia Morning Briefing - CoinDesk",
+      "polarity": -0.9518537735566497,
+      "ts": "2025-12-18T02:42:52",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNmRWdVlmUWN5d0VnV2s4djNQU0lMTUhXUzlLdWYtRC02TWFQNWlSZHQ0NFVaTTI2Z2VIWE5xUUxqUl9jMkF6QjZkTHFrNFIxS3ZkQk16dmFvMUtSamVYaEpoRVR5bjhxLXhobXc0UTBRWklKaWlPT213cF8xQlJpS0tFdlMzVFVyVVpTTnBVaTVEN25MSW5kSklTUkJMSkRlVlYySDdsNXNGSHhOUE9CS0lCQjJGdzBUc05QWUtyR01KQWxiX0ZyTEpGLVZmV0FIT0hr?oc=5"
+    },
+    {
       "title": "Bitcoin drifts lower as $81.3k emerges as the market\u2019s key fault line: Asia Morning Briefing",
       "polarity": -0.9459188478067517,
       "ts": "2025-12-18T02:41:26",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2025/12/18/bitcoin-drifts-lower-as-usd81-3k-emerges-as-the-market-s-key-fault-line-asia-morning-briefing"
+    },
+    {
+      "title": "Bitcoin Outperforms Amid Heavy Liquidations Weighing On Ethereum, Solana, And Cardano - Stocktwits",
+      "polarity": -0.9189877286553383,
+      "ts": "2025-12-18T04:36:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOaHZEc3BrTTVMRmd3Z0dfTktMRGZsUVhPT0FEQVNEXzZXZ2NYaTJCQnRibWdEWXVndklnOGNMa1VJenlCRjl5YWh4MW9OWS1tYnhFOTZlaFZid3RqWW4xZ19paWdBX0I0T0x1amMzWW9JSWt0aVZDVHl4VVFqSVlLRVJjekkzMGVXUlBWU2pXT0NNVnJMQjBHcDFGbDlodl9Hd094cjFLMnZSQXh1djZCV0Z4UGZ5Z0pxVngzSm9KSUZXNldkcDNTRXd2ODVQeXZQOUpQQUxfZndhenZTTU5EUndLeWdXaVF0eVRZ?oc=5"
+    },
+    {
+      "title": "Bitcoin outperforms amid heavy liquidations weighing on Ethereum, Solana, and Cardano - MSN",
+      "polarity": -0.89734997600317,
+      "ts": "2025-12-18T05:01:59",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWk8tM2VSTEpYdFVnLXFPZThfMjdIcllkZU13bTVLTkVlYmMtcWpSNWpVMV8zS3FBOC1sM010dnZsWTZRTW9TVUFuS3I1d2pIZXo0QkNRRTJQX21uSjNYY00ySUJ1aV8tdnRNb19UWjNRbFkwMGlqZWZxYk1OM2k1ZWhMRzUyMTRhcWRFVW9Ncm85YWNlV1VhaXJBVk5UVHktd1dUZnE0eGVydVg3MFgwQ3JRTUYwQU1TOHN6ZEw0N1BnSmRzNzI2UFg4VDBtbEpseVRNY2NxM1RFSTYxaDNVUUt2YUNnRXN3M04zWG1rUlZ3T3c?oc=5"
     },
     {
       "title": "Key facts: Bhutan to invest $1B in Bitcoin for Mindfulness City; Bitcoin drops to $86,517 - TradingView \u2014 Track All Markets",
@@ -74,6 +123,20 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hcVQ1T2tYZXBkRG5pZkxra2dldm5Hb2FpX2FHd3MyMUxTanlPYXB0TUVLd0hUMTJZcVczNHJrdVFTTFBlZGhtRkZzQ3N5T3FLaXNDV2J6bUxVeV9TYmZFclRETTAtVHFKYlZydTJzSW5kLTJMS0J3?oc=5"
     },
     {
+      "title": "Japan Rate Hike Could Crash Bitcoin And Altcoins in the Next 48 Hours - Coinpedia Fintech News",
+      "polarity": -0.19297252595424652,
+      "ts": "2025-12-18T03:20:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZEJ4SF92ZnFmSzdLNk9oWURlOG40cWhDc18zQ3NRLU1rUWlVazVkanBITGRkMjQ1cnotdWhsVVNaNEcxaTljbUlNdmh0NnkwMkJrcGJfc0h3RS0tRzBmRnVjUHVvZGNLT1JCb1NyV3p2WnhOSVVBaW91WWsyT1J4TEdWV0I0MUVUeGZqMTc5M3JoRHV1X1ZMaW1EQ1FMZ9IBowFBVV95cUxOdWt0dmJVY3B0MHRBSUoyVmpGeTBkdjlWNzVEV3BpSmR5cU5fSEM1MTI5VnNzM2UtRnpMY2tORkJpcUdaYVFEYVd5SEpoT2ZuZmI5dEtKSVhSYUJ3TmwycGEwT2ltNXBxY1FoWFlHZEFKRE1jRUxXYjd4UjM0ZE1iRVBjWGpkZFZKQkVJRFVQMnhqWlphU01JQ2MyUEVmYm9md29j?oc=5"
+    },
+    {
+      "title": "The root cause of the death of bitcoin's volatility",
+      "polarity": -0.13115926459431648,
+      "ts": "2025-12-18T04:46:01",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ppi34j/the_root_cause_of_the_death_of_bitcoins_volatility/"
+    },
+    {
       "title": "Michael Saylor says quantum will \u201charden\u201d Bitcoin, but he\u2019s ignoring the 1.7 million coins already at risk",
       "polarity": -0.060975778847932816,
       "ts": "2025-12-18T02:00:43",
@@ -100,6 +163,20 @@
       "ts": "2025-12-18T00:58:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ1NUcGVXaXVXTjh2bkxVX3lzRjlzQjRGY1F4OEp6N1dLXzZKRE1uLTQ1TWMza2VHRXpQdVYzVUQ0UnBKLXBTQzdoeklZVV9DU0JkTFduMUc3clYtWGM5c0I1d1N6bFcyalBQRGx6MXFiMDFTR0NHUllZUG5tbkpOV2tPbVI?oc=5"
+    },
+    {
+      "title": "What Are Bitcoin ETFs and Why Do They Matter? - OneSafe",
+      "polarity": -0.02033858932554722,
+      "ts": "2025-12-18T04:51:40",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9xbGxnNVVQVlR6TGdKdzNyNEplNXBvclc0dHpRSmxnU0dzUDhsZHRMZVRTVjlWLXRuWGtQRl8wWjIydXA1a0hSSlVINzZVLUxTS000b0s3aFhfWndwN1lzS3ZuUFZ1OUNTTTkyeUxucDloNXdUaVdFaDQyWXI?oc=5"
+    },
+    {
+      "title": "Bitcoin, Ethereum, and XRP Prices Today: Trump Goes Live, Crypto Goes Down - Coinpedia Fintech News",
+      "polarity": -0.006692506372928619,
+      "ts": "2025-12-18T00:57:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVl9NcVRKM2xfaFByb2JCUjBEbmZXcVE4a0o0Sk1qV0tLdFp4eVBFSmlSaDg2YU1sbFc2OTFIZ0JoSmd4Y0prcE5HanV4U2hac0hRWE1RcHNfYThsZ3RSNENYbGZ3c3BYekI3XzkwQ2l1MjFxdEZCV1o3bWNwZ1c0WDJwRHhjVzI0UlhZeFEycU15UElRcTU1YdIBngFBVV95cUxQeWRVd0xhcGFtTnRKVkh0NDVpYkZMaDFwSjhXS0NVWTVnM2VaUDhCSFh0NDQ2Y0l2VThTekFnX3RyTHNXNUE2dzVTZDNXaDhZTnBVR1JZYkRFcV9xdXZZdmZwMWZReFM4ejZIdGhfQWFnaWJadHRqeTBFVEt3OVhFRjQ0Y21KRF90VTZaS3lrekJzWEVvX2pab0d5LV9mZw?oc=5"
     }
   ]
 }
