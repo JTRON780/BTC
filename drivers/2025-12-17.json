@@ -2,129 +2,80 @@
   "day": "2025-12-17",
   "positives": [
     {
-      "title": "Stocks Storm Back as CPI Surprise Fuels Bond Gains: Markets Wrap",
-      "polarity": 0.6488152593374252,
-      "ts": "2025-12-17T22:25:16",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2025-12-17/stock-market-today-dow-s-p-live-updates"
-    },
-    {
-      "title": "Bitcoin mining stock surges after $7B Google-backed deal - thestreet.com",
-      "polarity": 0.3348153680562973,
-      "ts": "2025-12-17T18:25:17",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdnAwT25PXzFpbmJ2dEhDR2hsZlFoREFuWVRLTl9XQU1kdGdjZGhoSS1LOVRPS1ZuUUExM3NvQUs4QnQ3VWgtejFqaFZtLWFHUVBZeUE0RHM4NUdZVkxhUHlBd0RVWUlGV0p6VUhDWi1YOXZzbmlpU1Z6S1Y1Z1lkTGw0YWNCRWhYMXVxNWg3VFlMVGM?oc=5"
-    },
-    {
-      "title": "Bitcoin\u2019s Lightning Network Capacity Hits New-All Time High",
-      "polarity": 0.22103509958833456,
-      "ts": "2025-12-17T17:54:24",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/markets/bitcoins-lightning-network-capacity-hits-new-all-time-high"
-    },
-    {
       "title": "BitGo Enables Lightning Network Payments Directly from Custody",
-      "polarity": 0.11260906513780355,
+      "polarity": 0.11260910797864199,
       "ts": "2025-12-17T19:06:30",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/news/bitgo-enables-lightning-network-payments"
     },
     {
       "title": "Bitcoin, gold, AI were key drivers of 2025's record ETF inflows - Yahoo Finance",
-      "polarity": 0.08731517381966114,
+      "polarity": 0.08731533214449883,
       "ts": "2025-12-17T20:00:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9RdUhnVUdTR19XVk5RbGZjcTR6bG1wTWJaUDZHRzBnVjFjZFhwWTZwUXF5bE9sNGxXX2RhaW5HV2w4X1NPZnRVRnpSWFEtS1d5dEhxc2QtckRmbFBqbFREQWFiUXBWNlFhM1YtMDdxdGItWk1pTHgxMFhHaw?oc=5"
     },
     {
-      "title": "The Daily: US senators introduce crypto fraud bill, K33 flags easing bitcoin sell pressure, BitMine adds $140M in ETH, and more - The Block",
-      "polarity": 0.0775609239935875,
-      "ts": "2025-12-17T19:04:29",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQYlBoNG9UVmdNSEwzRE9ydjZxMktWNXI1SEJ4RFYyWnF0SlI4a2JoU0VXeUtfaGVVUTBGdUhNWkltUmVmZU55OV9NZ1Y4VTVvUnVpa2pWWUR5RlhGcXEySmV6TmJveS10QVZlS0EzaUkyTHBIeWY5RXhTNEpJeTJlOVJLRWdia1lYZlA5RUI4UDBmck9ySWNNeE9ncFBJUkpzcm9rNkVQWHB5ZVY4ZV8tTnhybEl4QWlsQm5MVGlaZzVZT3loU3o5djA3czltMUN2ckNFNkM2WnVzczlPSGlScDFpSHNVTUxwN0JDTXliSdIB9AFBVV95cUxOcGFXMDNQYW5JMXByWGhjb2RMNF9xRndXc2FBNmo0dExYMFBfUnBoNFZHa3ZuU3g5cEFRUzIwWmFVakRJTG9SRWlxN3BQcF8wZE8zSmFWM0hJSHZyS0JOQ0tpYjlLUjg0aDRHWlRYZ2RaR1pGMVJYbGVvSVAzR2x4QXlJc19BdWpRVWdtZXd5RXotUkpSbVViZTh5VjBodVdidE5VVGIycUVkSWZnaW82VWhOSGhZeUlnZHpjNmRGLTlZWW5PY3BobGhGSGM2dU84MTU0dHM0Vk9jWk14emZkbGxzeU9XZE5vV2ZyYkxoUGVCSm5r?oc=5"
-    },
-    {
-      "title": "Jeff Booth, Oliver Velez, and Bitcoin Beach Founder Mike Peterson to Speak at Bitcoin Medell\u00edn 2026",
-      "polarity": 0.049905325286090374,
-      "ts": "2025-12-17T17:20:47",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/conference/jeff-booth-oliver-velez-and-bitcoin-beach-founder-mike-peterson-to-speak-at-bitcoin-medellin-2026"
-    },
-    {
       "title": "Will Bitcoin Hit $200,000 in 2026? - Yahoo Finance",
-      "polarity": 0.04031237028539181,
+      "polarity": 0.04031241126358509,
       "ts": "2025-12-17T18:50:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DSW1qQnlaSWptVkdCSTFzMnZ6SHo2LVVyMUVuMDVPYWFwQkpzd2xfeFpRTGlKM1VheXdmaDdKaGhYVURTdFJQeVZ3WHBnOGFCUFQwc2FwRWdxRmlmaWhrcjZSVTBiS01YQlozdWJvS3AxeUloak1abGJR?oc=5"
     },
     {
       "title": "What is your mindset in the markets?",
-      "polarity": 0.01611323282122612,
+      "polarity": 0.016113223508000374,
       "ts": "2025-12-17T21:24:44",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1pp8kiw/what_is_your_mindset_in_the_markets/"
-    },
-    {
-      "title": "Anthropic Taps Bitcoin Miner With Trump Family Ties For Data Centers - The Information",
-      "polarity": 0.003882061690092087,
-      "ts": "2025-12-17T20:31:07",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWHdqLXg3T3VwSmdTSEtxQkRQaGw2c0EtekZWUmh4bzdDMEJJdEI4U1Z2VVRRZjVSZlVEbnRqeWM5VGxJZEdQWW1XLU5iTzNJTEtXTm9WcllVYzM3ZjhqVDBocE5SaVFXZnhBa3hXWnphUk9HX01LMVV2c29yYUhWQlVrcXBfUU1IaHlJUmJjRmdrU3g2WjE4UkIxaW96V3JXNEE?oc=5"
     }
   ],
   "negatives": [
     {
       "title": "Santa Rally Hopes Fade as Bitcoin Jumps to $90K, Then Falls Even Harder",
-      "polarity": -0.9662465644069016,
+      "polarity": -0.9662465676665306,
       "ts": "2025-12-17T21:26:27",
       "source": "Decrypt",
       "url": "https://decrypt.co/352794/santa-rally-bitcoin-jumps-90k-falls-even-harder"
     },
     {
       "title": "Bitcoin just flashed a rare capitulation signal that historically triggers a violent rally",
-      "polarity": -0.5199461728334427,
+      "polarity": -0.5199447870254517,
       "ts": "2025-12-17T21:25:05",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/bitcoin-just-flashed-a-rare-capitulation-signal-that-historically-triggers-a-violent-rally-to-180000-in-90-days/"
     },
     {
-      "title": "The Bitcoin Price Just Dumped Over 5.5% In 4 Hours - Bitcoin Magazine",
-      "polarity": -0.15371722728013992,
-      "ts": "2025-12-17T18:52:32",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE12S3JLWmpxSGNIMkpPbjFOLVhCMVgxQW9scVdBTGJFWlY4aUFreGpWcXhzNWNZM0stLVd0RG9JVHpaVjVLMFdLYTRidFJpRzVXdGVUVmNXb09Qcl9lRElNUG9PTzd6T192amotZDgyNWgxOW5FUVpRSWlMMmE?oc=5"
-    },
-    {
       "title": "Peter Schiff Tells Michael Saylor That Buying Bitcoin While MSTR Trades Below NAV Makes No Sense",
-      "polarity": -0.1067231073975563,
+      "polarity": -0.1067228876054287,
       "ts": "2025-12-17T21:13:10",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1pp89yf/peter_schiff_tells_michael_saylor_that_buying/"
     },
     {
       "title": "Bitcoin $70K flush would reset cycle, not confirm new bear market: Analyst",
-      "polarity": -0.1020374596118927,
+      "polarity": -0.10203680396080017,
       "ts": "2025-12-17T21:30:00",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bitcoin-dollar70k-flush-would-reset-cycle-not-confirm-new-bear-market-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "title": "Bitcoin Price Pumps Above $90,000 Then Dumps to $85,000 in 4 Hours",
-      "polarity": -0.0361579991877079,
+      "polarity": -0.036158107221126556,
       "ts": "2025-12-17T18:52:32",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/news/bitcoin-price-dumps-to-85000-in-4-hours"
     },
     {
       "title": "Bitcoin price (BTC) analysis: Don't read too much into current action - CoinDesk",
-      "polarity": -0.0051850080490112305,
+      "polarity": -0.005184980109333992,
       "ts": "2025-12-17T19:32:42",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWUJaNkR3YlVIbkVnMFJSQkRDeWljUDNqcG1mMWpFdExaTjdaOG9MN3hEaGNvcllUbk1HT0p4d0M1a2hza1ZfNVl0eG5aSnhqT0VaR3YwWUFrUVdEa1JHVzBndklIU0ZOUDZaRzhTYjJOWlFkVUFST3FNV2hZbUFWaDVBUjZBVnJKNHQxZmhXQXlhdGJyb2dsX082NmFOVGlZcVdmamJvZEVjRXFCd2tVQXdnNFhVQnJm?oc=5"
     },
     {
       "title": "Will Bitcoin Hit $200,000 in 2026? - The Motley Fool",
-      "polarity": -0.0033696815371513367,
+      "polarity": -0.003369763493537903,
       "ts": "2025-12-17T18:30:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xSXJmNVpLRXRUYm1od2swSGprNUVaMVcwV2UxdXlDZ1FWcmJ5aXIzaFhwMFdEYTN4QmlSUDJTZlZoLWpYX1JBNFhuVmYzODd1OXR3dmJQMWJ5cThHd2gwdXk1QmUxRXFTLTFzT0I1YUsycVB3TU9senBQS2FZLVU?oc=5"
