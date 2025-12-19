@@ -9,7 +9,6 @@ import argparse
 import time
 from datetime import datetime, timedelta
 from typing import List, Dict, Any
-import json
 
 from sqlalchemy import select
 from sqlalchemy.orm import Session
@@ -125,7 +124,7 @@ def score_items(items: List[Dict[str, Any]], model: SentimentModel) -> List[Dict
         scored_item = {
             'id': item['id'],
             'polarity': polarity,
-            'probs_json': json.dumps(probs),  # Store as JSON string
+            'probs_json': probs,
             'ts': item['ts'],
             'source': item['source']
         }

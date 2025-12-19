@@ -5,6 +5,7 @@ Provides endpoints for sentiment trend analysis and driver identification.
 """
 
 from datetime import datetime, timedelta, date
+import json
 from typing import List, Optional, cast
 from fastapi import APIRouter, Query, HTTPException
 from sqlalchemy import select, desc, func
@@ -204,12 +205,18 @@ async def get_top_sentiment_drivers(
         # Convert to response format
         drivers = []
         for item in results:
+            probs = item.probs_json
+            if isinstance(probs, str):
+                try:
+                    probs = json.loads(probs)
+                except Exception:
+                    probs = None
             drivers.append({
                 "id": cast(str, item.id),
                 "polarity": float(cast(float, item.polarity)),
                 "source": cast(str, item.source),
                 "timestamp": cast(datetime, item.ts).isoformat(),
-                "probs": item.probs_json
+                "probs": probs
             })
         
         logger.info(

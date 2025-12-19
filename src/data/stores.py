@@ -317,8 +317,7 @@ def get_recent_prices(hours: int = 24) -> List[Dict[str, Any]]:
             {
                 'ts': price.ts,
                 'price': price.price,
-                'volume': price.volume,
-                'created_at': price.created_at
+                'volume': price.volume
             }
             for price in results
         ]
@@ -405,7 +404,10 @@ def save_sentiment_indices(indices: List[Dict[str, Any]]) -> int:
             set_={
                 'raw_value': stmt.excluded.raw_value,
                 'smoothed_value': stmt.excluded.smoothed_value,
-                'n_posts': stmt.excluded.n_posts
+                'n_posts': stmt.excluded.n_posts,
+                'n_positive': stmt.excluded.n_positive,
+                'n_negative': stmt.excluded.n_negative,
+                'directional_bias': stmt.excluded.directional_bias
             }
         )
         

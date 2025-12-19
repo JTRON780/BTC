@@ -44,10 +44,10 @@ class TestSourceWeights:
         weight = _weight_for_source('reddit')
         assert weight == 1.0
     
-    def test_unknown_source_defaults_to_1_0(self):
-        """Test that unknown sources default to weight 1.0."""
+    def test_unknown_source_defaults_to_news_weight(self):
+        """Test that unknown sources default to news weight."""
         weight = _weight_for_source('unknown_source')
-        assert weight == 1.0
+        assert weight == 1.2
     
     def test_empty_source_defaults_to_1_0(self):
         """Test that empty source defaults to weight 1.0."""

@@ -45,12 +45,14 @@ def _weight_for_source(source: str) -> float:
     if not source:
         return 1.0
     s = source.lower()
+    if s.startswith('r/'):
+        return WEIGHTS['reddit']
     if 'news' in s:
         return WEIGHTS['news']
     if 'reddit' in s:
         return WEIGHTS['reddit']
-    # default
-    return 1.0
+    # Pipeline only ingests news and reddit; treat unknown as news.
+    return WEIGHTS['news']
 
 
 def _apply_ewma_smoothing(data: List[Dict[str, Any]], alpha: float = 0.2) -> List[Dict[str, Any]]:

@@ -61,7 +61,6 @@ async def get_sentiment_indices(
         init_db(config.DB_URL)
         
         logger.info(f"Querying database with granularity={granularity}, days={days}")
-        logger.info(f"Database URL: {config.DB_URL}")
         
         # Get indices from database
         indices = get_index(granularity=granularity, days=days)
@@ -92,10 +91,11 @@ async def get_sentiment_indices(
         # Convert to Pydantic models
         data_points = []
         for idx in indices:
+            smoothed_value = idx.get('smoothed_value')
             point = SentimentIndexPoint(
                 ts=idx['ts'],
                 raw=idx['raw_value'],
-                smoothed=idx.get('smoothed_value', idx['raw_value']),  # Fallback to raw if no smoothed
+                smoothed=smoothed_value if smoothed_value is not None else idx['raw_value'],
                 n_posts=idx['n_posts']
             )
             data_points.append(point)
@@ -175,10 +175,11 @@ async def get_latest_sentiment() -> SentimentResponse:
         latest = max(indices, key=lambda x: x['ts'])
         
         # Convert to Pydantic model
+        latest_smoothed = latest.get('smoothed_value')
         latest_point = SentimentIndexPoint(
             ts=latest['ts'],
             raw=latest['raw_value'],
-            smoothed=latest.get('smoothed_value', latest['raw_value']),
+            smoothed=latest_smoothed if latest_smoothed is not None else latest['raw_value'],
             n_posts=latest['n_posts']
         )
         
