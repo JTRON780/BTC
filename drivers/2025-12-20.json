@@ -1,20 +1,35 @@
 {
   "day": "2025-12-20",
-  "positives": [],
+  "positives": [
+    {
+      "title": "Bitcoin vs. Ethereum vs. XRP \u2013 Which crypto will be 2026\u2019s winner? - AMBCrypto",
+      "polarity": 0.07524443790316582,
+      "ts": "2025-12-20T01:01:37",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQLXJuOGNUSE94VlNJRFJrckxndGsyT25jYy0yTTRuWWxJN0xtYndoVUhKV0xCb0pKcm5NeG9rYnRGbDZfR3ZwWU5SejYyV1hfT2NwTmN5aFJ2a1BhNVdrcktPTVdXVDh2V2VMazFwMG1pNVdfSEIyUi1RMEhlNmpFYXczM29wS1BkN3dF0gGQAUFVX3lxTE5KdXRybHZLSWgzbHJDVFFMY2ZXUkVXbHV2RjBaNTV2dHJ2TGRRVzlybGdnMjY0TVY0WGtiYVN6WGhyWmN0TjlqT1VVelNYbVYxbk56ZFBta1JoekI1dTVQZ3lOMUkxWElPTTUwM1h0Rnp6enJLSVVVT0VqVU9TTWl4WndXV0p6dGZSR0R2NTZlYg?oc=5"
+    },
+    {
+      "title": "Bitcoin Price Sentiments Examined Through Peter Brandt\u2019s Lens on US Crypto Laws - OneSafe",
+      "polarity": 0.017172714695334435,
+      "ts": "2025-12-20T00:44:27",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRUdvZFk1WHFQampuM0pUcHlxMVhiVl93c3NaSzNYZFhhcXNkUE9qcGF6ZDZzdnVhLUR5d0lsQV9HRlpKNFNhdHVFdmd5ckVKZUJBYUNpWVV5OTEtNFlTMUZ4YlhZcHlNcUR0MUQ0d2lkeUZMSU5Oa1pjYUI5c09EcGZDSjRJYVV0b3c?oc=5"
+    }
+  ],
   "negatives": [
+    {
+      "title": "SEC Charges Bitcoin Miner for Duping Investors Out of $48.5 Million",
+      "polarity": -0.8005129601806402,
+      "ts": "2025-12-20T01:06:04",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1pr1j08/sec_charges_bitcoin_miner_for_duping_investors/"
+    },
     {
       "title": "Most people haven\u2019t woken up yet.",
       "polarity": -0.5104675106704235,
       "ts": "2025-12-20T00:34:07",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pr0v0y/most_people_havent_woken_up_yet/"
-    },
-    {
-      "title": "Steak\u2019n Shake offers bitcoin salary option on its employees",
-      "polarity": -0.4062063731253147,
-      "ts": "2025-12-20T00:09:04",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1pr0b5g/steakn_shake_offers_bitcoin_salary_option_on_its/"
     }
   ]
 }
