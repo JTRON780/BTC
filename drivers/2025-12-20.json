@@ -2,43 +2,71 @@
   "day": "2025-12-20",
   "positives": [
     {
+      "title": "Fidelity\u2019s director predicts Bitcoin will enter bear market in 2026, bottoming near $65K",
+      "polarity": 0.7805757746100426,
+      "ts": "2025-12-20T03:45:50",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/bitcoin-bear-market-2026-prediction/"
+    },
+    {
       "title": "Bitcoin rallies thwarted by fading Fed rate cut odds, softening US macro - MSN",
-      "polarity": 0.5003874748945236,
+      "polarity": 0.500379741191864,
       "ts": "2025-12-20T03:00:40",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQXzJfZy1NbkJBNmpvZm9qdExENk9qMjVFZGJNaDN2N09hdllfLWFmOHdUSmpISkVGaUloOVhwZkxWZ1gzSnFUaUZuRE5zRXpHTFBzbHdSOG55TVhWY2ZKTktWX1JzLTEybXVxeDJGR0pEa3luN3czVzZyV0xJM3hrTTQ0Sjg3bnc0ejB0TW1xSjJZWktURV9EWE01X2tnZEY1Qnc0S0hacDlkZlZ5RDhNeVhOVUJ1blhZNEVHSS0xa0pkcFFOZUxra1ktVjBFdjNGWkdIcTNldFNEWk8wamZONFY1cw?oc=5"
     },
     {
       "title": "Bitcoin rallies thwarted by fading Fed rate cut odds, softening US macro",
-      "polarity": 0.32608872652053833,
+      "polarity": 0.3260863721370697,
       "ts": "2025-12-20T02:42:00",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bitcoin-rallies-thwarted-by-fading-fed-rate-cut-odds-softening-us-macro?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "title": "US Clarity Act unlikely to be \u2018world-shaking\u2019 for Bitcoin\u2019s price: Brandt",
+      "polarity": 0.09314203634858131,
+      "ts": "2025-12-20T04:10:31",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1pr55zc/us_clarity_act_unlikely_to_be_worldshaking_for/"
+    },
+    {
       "title": "Bitcoin vs. Ethereum vs. XRP \u2013 Which crypto will be 2026\u2019s winner? - AMBCrypto",
-      "polarity": 0.07524455804377794,
+      "polarity": 0.07524443790316582,
       "ts": "2025-12-20T01:01:37",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQLXJuOGNUSE94VlNJRFJrckxndGsyT25jYy0yTTRuWWxJN0xtYndoVUhKV0xCb0pKcm5NeG9rYnRGbDZfR3ZwWU5SejYyV1hfT2NwTmN5aFJ2a1BhNVdrcktPTVdXVDh2V2VMazFwMG1pNVdfSEIyUi1RMEhlNmpFYXczM29wS1BkN3dF0gGQAUFVX3lxTE5KdXRybHZLSWgzbHJDVFFMY2ZXUkVXbHV2RjBaNTV2dHJ2TGRRVzlybGdnMjY0TVY0WGtiYVN6WGhyWmN0TjlqT1VVelNYbVYxbk56ZFBta1JoekI1dTVQZ3lOMUkxWElPTTUwM1h0Rnp6enJLSVVVT0VqVU9TTWl4WndXV0p6dGZSR0R2NTZlYg?oc=5"
     },
     {
+      "title": "Bitcoin price target: Why analysts predict BTC USD will hit $1.42 million with a bull case of $2.95 millio - The Economic Times",
+      "polarity": 0.062397316098213196,
+      "ts": "2025-12-20T01:41:56",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOTVZreGppWlV2R2RHRW1KTXJFaWpuTFZNQWxBcnpXWjJYUFU2MjZfaXBuZHM1dG96S3NvYVlwQVFoWTZWVGtVNG9EVVAxRU1jMGNQc3dJaEVIN0ZJN19wd0xVLWthUHpqMzFfNGdtbDlVSFVTb1ZTMS1qMUdJcXBUTDBSN29MUHpkX3llN19nNXlIWk5aeHIyZjJwNUhIempxSkFOTzdDa3M1dGx5Q0J2OWNLcnBUalMzRlBpaGFxeW5IeTJtcTBlS2otZjJKZ04xdmNrVGJ6VTdCOEdEaVBrSVJ1alFDR05vSE91cnl0Q2RSakRkajBMTnhhX1g5ZTRTcXdzNWRWYXMxSV8td2JvTFJMNVBmTVHSAZwCQVVfeXFMTi1NQzNhWDAwZkFaVllMcFBJV3l5aDhKSUhMLV8zUHlrakJzQnRtbEpkOVhZYmNmUjNqU2xndHRlWEJ1Q3o0czk5azBfYzJnWWEyTG13NEFqSjFoXzFMbFZxMUZjalBjOTFjTjljdVNtZXhuTmVKUWpaZ0ppb21iWUx4WVlEdVFERGtjbktKb1lUSWN0SEpQWkxwSUpJRk04V0ptRTJ5eTdxLWlSU1ItalFkYnhOWFBBZ3RhZDk4cXhvTlVUMXZBeE45Zk9Wc0pjeDJBX3ZheHdyRE8weGpPcEh5RGloTGlHWTNUOGFZb0lUNUppNEZXWTBwTmZSeG1xWVJJd0ZlaWo3c1BxeDVQSUtVZzA2encwLTZsRkg?oc=5"
+    },
+    {
       "title": "CZ at Bitcoin Asia Hong Kong - Full Transcript: Institutional Adoption and the Risks & Opportunities of DATs - Wu Blockchain",
-      "polarity": 0.04110246058553457,
+      "polarity": 0.041102390736341476,
       "ts": "2025-12-20T02:42:06",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBCakxNeVhLZWxMdUoxeXdhWmVWcF9HdHU4WXZVT3AzWURGOWdERmpZUUkzTnpBN1FhU3hLSENsSjVza2pvWGNJNlh6UlAwVFJmSjc4M1RGamh6VTQ4SGQ1Xy10YjB3RUZrUnV5SExXSV9PQQ?oc=5"
     },
     {
       "title": "Bitcoin Price Sentiments Examined Through Peter Brandt\u2019s Lens on US Crypto Laws - OneSafe",
-      "polarity": 0.01717275381088257,
+      "polarity": 0.017172714695334435,
       "ts": "2025-12-20T00:44:27",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRUdvZFk1WHFQampuM0pUcHlxMVhiVl93c3NaSzNYZFhhcXNkUE9qcGF6ZDZzdnVhLUR5d0lsQV9HRlpKNFNhdHVFdmd5ckVKZUJBYUNpWVV5OTEtNFlTMUZ4YlhZcHlNcUR0MUQ0d2lkeUZMSU5Oa1pjYUI5c09EcGZDSjRJYVV0b3c?oc=5"
     },
     {
+      "title": "Japan\u2019s rate hike ends the \u2018free money\u2019 era and puts Bitcoin on notice",
+      "polarity": 0.016110636293888092,
+      "ts": "2025-12-20T04:11:05",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1pr56da/japans_rate_hike_ends_the_free_money_era_and_puts/"
+    },
+    {
       "title": "How Sovereign-Backed Bitcoin Capital Moves At Metaplanet (TSE:3350) Has Changed Its Investment Story - Yahoo Finance",
-      "polarity": 0.015277381986379623,
+      "polarity": 0.015277456492185593,
       "ts": "2025-12-20T03:10:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOUY0d1hSVEVWaTNmek5VSGhTWGRUcXlxUHN0NXl6MkkzZUg4X09rUTVpVGJmMTFCd3VlM21qZTRaZFRQd2pHaWsxR05SYjEwWDlzMkY4eTM3a05zaDBCSzY0TzdseTJSc1ZwejhQWUZqSDRWYm9tX3Y4RUx4MGlVdVlnZEpzX0UxNTdGWQ?oc=5"
@@ -47,28 +75,28 @@
   "negatives": [
     {
       "title": "SEC Charges Bitcoin Miner for Duping Investors Out of $48.5 Million",
-      "polarity": -0.8005139566957951,
+      "polarity": -0.8005129601806402,
       "ts": "2025-12-20T01:06:04",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1pr1j08/sec_charges_bitcoin_miner_for_duping_investors/"
     },
     {
       "title": "Most people haven\u2019t woken up yet.",
-      "polarity": -0.5104696303606033,
+      "polarity": -0.5104675106704235,
       "ts": "2025-12-20T00:34:07",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pr0v0y/most_people_havent_woken_up_yet/"
     },
     {
       "title": "Peter Brandt says Clarity Act wont move Bitcoin's price much - already priced in according to analysts",
-      "polarity": -0.4569944366812706,
+      "polarity": -0.4569925218820572,
       "ts": "2025-12-20T03:32:06",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1pr4fh7/peter_brandt_says_clarity_act_wont_move_bitcoins/"
     },
     {
       "title": "Strategy Inc (MSTR) Stock After Hours Dec. 19, 2025: MSCI Index Risk, Bitcoin Rebound, and What to Watch Before the Next Market Open - ts2.tech",
-      "polarity": -0.004474921151995659,
+      "polarity": -0.004475036635994911,
       "ts": "2025-12-20T01:45:47",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSGIxUlhFbElvSmMxTTFvZUJhU1NiY21LelJpdFQ1ZGtJOXppSlZwOGJLUWVPNkVUUHZpT3N0azdMWFpkYnktT3lJSGJUSHRtNEticktGTnVrcmVFTG5qcFNTTnJUN09FbjRzVWhYSzIzeElDODFjY1lYTWxNSGxJYmRfeC1yUVl1c2lTQmtUZnVjQklWM1ZQUnVtbGM1d1kwQzNFeTY0RWpOUVp5MFAwZlc5NXo2Zjl1NWxibWZRVzFRLTdYWThUUVJaYU9uSHpwZnZPa1hTQlJuRE83ODBJ?oc=5"
