@@ -1,21 +1,6 @@
 {
   "day": "2025-12-20",
-  "positives": [
-    {
-      "title": "Sell Bitcoin for gold? Not so fast, one analyst says",
-      "polarity": 0.8237657435238361,
-      "ts": "2025-12-20T20:14:52",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/sell-btc-gold-not-so-fast?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "Bitcoin\u2019s inability to reclaim $90,000 exposes a deep structural fracture that could trap investors during the next unwind",
-      "polarity": 0.06332222372293472,
-      "ts": "2025-12-20T20:15:23",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/bitcoin-struggles-to-reclaim-90000-amid-plummeting-liquidity-and-waning-market-depth/"
-    }
-  ],
+  "positives": [],
   "negatives": [
     {
       "title": "Bitcoin's apparent demand shrinks, signals new bear market: Analysts",
@@ -39,18 +24,18 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb2xLcEZXZlU3c01xejdMMkxLUXc3VjJqUUhsTkRKZzZ4N1dtLS1ubDc1clJwQ1k0ak0xSzNydDYtaFNOZTktWm5VLUxjM1cwbWhiU0xKTmVfRXBsNjBFVnpvcGdyT2o1MUV1bXhsMVp3NUlwUEFqLWJWb0ViWHZsQV9pOVdxVFZKY0FCa1c1UlBBSDlNbFhz?oc=5"
     },
     {
+      "title": "3 Reasons Why I'm Not Worried About Bitcoin Slipping Below $90,000 - Yahoo Finance",
+      "polarity": -0.2599209174513817,
+      "ts": "2025-12-20T22:47:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBuamNXODJxVG0yVFBTXzktSEpGcEVaSEpjUGpqN3poOWhPeFZsanZmRVVLYWlud0pNX25vd283Y1UwVndJUklWNGZSZktTZDJRM3JZRnRHMWJJd0RBWndYbGppd1dSVncycnRGR0dJaXptX25R?oc=5"
+    },
+    {
       "title": "Criptointercambio (CIC) Stole me $160,000",
       "polarity": -0.15243109315633774,
       "ts": "2025-12-20T21:23:09",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1prp465/criptointercambio_cic_stole_me_160000/"
-    },
-    {
-      "title": "What if Bitcoin doesn\u2019t need mass adoption to succeed?",
-      "polarity": -0.006315939128398895,
-      "ts": "2025-12-20T22:22:00",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1prqeen/what_if_bitcoin_doesnt_need_mass_adoption_to/"
     }
   ]
 }
