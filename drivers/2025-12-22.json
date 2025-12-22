@@ -79,6 +79,13 @@
       "url": "https://www.coindesk.com/markets/2025/12/22/strategy-boosted-cash-reserve-by-usd748-million-last-week"
     },
     {
+      "title": "Bitcoin cost-basis heatmap shows $85K as strong support zone",
+      "polarity": 0.8649560948833823,
+      "ts": "2025-12-22T18:36:32",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/bitcoin-support-zone-85000/"
+    },
+    {
       "title": "Strategy pauses bitcoin buys, boosting cash reserve by $748 million last week - Yahoo! Finance Canada",
       "polarity": 0.858856925740838,
       "ts": "2025-12-22T13:16:29",
@@ -170,18 +177,18 @@
       "url": "https://cryptobriefing.com/ghana-legalizes-crypto-trading-regulation-framework/"
     },
     {
-      "title": "The most bitcoin Christmas video of the year.",
-      "polarity": 0.5797528550028801,
-      "ts": "2025-12-22T15:08:45",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1pt1vmp/the_most_bitcoin_christmas_video_of_the_year/"
-    },
-    {
       "title": "Gold soars 70% while bitcoin faces challenging months - Rolling Out",
       "polarity": 0.5738198161125183,
       "ts": "2025-12-22T15:30:25",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9NOG92NmgwQ28xWmc5ODE5QWV0eDBNcEkta0dPQ1l2elh2cW8zRVdxN2x2ZmpYeXR3NDhsN29iV0RHNXptVnY4YXljZEJYdFdzb1RZbmUwc2dkSVVLOFFvakprTU1FdkZ6aEhUTDNMZEtfaGNfQkFEelM3MTg?oc=5"
+    },
+    {
+      "title": "Saylor\u2019s strategy raises cash reserve, pauses Bitcoin purchases - MSN",
+      "polarity": 0.5288969352841377,
+      "ts": "2025-12-22T19:01:45",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNV3VLbXNXU3lSNDUxTVc5RGZFbWJCSTV1MzVEYzZGNjlPZDlrWVZlTm4xcGpXNE0wcGIyUC1TTXo5RXhJbFFDWW91cU9xcGxSS2dMbm5VNlZPdC0wYXEzTlZVaGR0MXRNWEd1VmV5a3BJMVl4YXdKeHF2UVp1QWt1eUZHT2trcGNIV0xjZEVNeURyMWl0QW9ndUdkRFh6REowTHdhNlBxbU5TTDgxNUZFdUJaY1JwNk1kNk82Y1ZFQnhSYmhVYTNubFp4UG5xTVpoUTM1ZA?oc=5"
     },
     {
       "title": "Bitcoin \u2018Santa rally\u2019 targets $120K as key BTC metric flips bullish",
@@ -196,13 +203,6 @@
       "ts": "2025-12-22T16:01:13",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2025/12/22/blackrock-names-bitcoin-etf-a-top-2025-theme-despite-price-slump"
-    },
-    {
-      "title": "Silent Bitcoin Bets Rise; Can It Climb the $90k Wall? - blockhead.co",
-      "polarity": 0.38278908282518387,
-      "ts": "2025-12-22T12:16:25",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPejFCSmljQnRDeGJIaWlmc1BWdWt2Y3lhclBXX3pmWlh6MllQM1FDb2U4cy0tVVpPVW5WSzcxT205T1Z0VjBkRFJrSl9DN3gxSE02OWsyRmlIM2lhREE5M3ljZ0tWSXQxU1k1REt5bTJSUXZLOHo0Q3pNekxBdmNuNjJnTWhhejduajRVVDJwTHk?oc=5"
     },
     {
       "title": "Stock market's Santa tradition offers hope to battered Bitcoin bulls",
@@ -282,11 +282,25 @@
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1pt0iv5/hong_kongs_crypto_revolution_how_new_insurance/"
     },
     {
+      "title": "BlackRock names bitcoin ETF a top 2025 theme despite price slump - CoinDesk",
+      "polarity": 0.20159115176647902,
+      "ts": "2025-12-22T16:02:59",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMXVSanlYV3lpZktNYzRiUDBqbUlxYVF6eFhtR2VSdDBDVVdJQ0toRzk3Rnk3d2V1RWRFRTRodE16UWZPQkhCbDFUZEctWjN1TmxsV1pSYVlpTGdtYkFaUGFjWERyU1RHUUROSGlhdW5xQlVlalY0cTUyb2RHYzJfNWkyOHZYTGJPMHNMLWVTMGVTN01JUlJrRVJJSnZ5TU11Nll6UHRrOUx6WG1O?oc=5"
+    },
+    {
       "title": "Experts Warn of \"Endgame\" for Bitcoin as Gold Hits New ATH - BeInCrypto",
       "polarity": 0.12646527588367462,
       "ts": "2025-12-22T07:37:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TNmUxWnI0bi1KSEdWTURiRVpGc0IzVV9UT0RlVzhPN2VZU3hnTG5jdElHN3dsNUhqOUMwVzd1SzFnb19Eak16ak1pa05iTXBsTU5URTJ3SmJ0OVpiVS1TX0N2X21hdGpRUDA5TGpKUzlkMFk2?oc=5"
+    },
+    {
+      "title": "Trump Media\u2019s Bitcoin stash hits 11,542 BTC after $40M purchase - Crypto Briefing",
+      "polarity": 0.12439735233783722,
+      "ts": "2025-12-22T17:05:38",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tejduTlZPam96TTkyYzNLR18xZ0VoUTZ5OUhyT1kwcVhyLTB3eU16T3B1eV9Ha2F0TEhrcm0yQUlVNFUyR2JCZklTdEpKak5RMFprRWx6SEhaWi11ZkljQW80c3FiMXJQOTJj?oc=5"
     },
     {
       "title": "Michael Saylor's Strategy expands dollar reserve instead of Bitcoin - Yahoo Finance",
@@ -310,6 +324,13 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOElUb2NBaDBYaER6Q0RmVWJRZllzektTSi1LTVdKRS0xSG51SjVNS1RoSGNvWklGR2plQXpWMXlVZGR0QU0zUkF2azFrT041OExCc1puVlRmZ1FWeWFGSk9CQXdOMlE3TWxwZERFaGFsU3RBWVJ0ZDhQcGZtcGdFUmxsUTJoNGprSmdKMUE4bHczNTk3YmRRVjljR2FfUQ?oc=5"
     },
     {
+      "title": "Trump Media Adds 451 Bitcoin, Total  BTC Holdings Surpass $1 Billion",
+      "polarity": 0.11140871793031693,
+      "ts": "2025-12-22T18:23:48",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/news/trump-media-adds-451-bitcoin"
+    },
+    {
       "title": "Investors weigh bitcoin against gold in a shifting market - Rolling Out",
       "polarity": 0.10430927947163582,
       "ts": "2025-12-22T15:56:29",
@@ -324,11 +345,25 @@
       "url": "https://cryptobriefing.com/blackrock-crypto-deposits-bitcoin-ethereum-coinbase/"
     },
     {
+      "title": "Bitcoin News: BTC upgrade against quantum computing threat might take years - CoinDesk",
+      "polarity": 0.0933687835931778,
+      "ts": "2025-12-22T19:01:57",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeURva3F0ZlRpMXNranBwcVZrSXRjc0Vhcjl4NHd2N2ZnVTNmUTRpR1pxcWNWTENDZl9JQVhkT3RaUlFmbFZUaGlsZHN5a3dLNGJuNEVBUl9WeEV2NWphZURpVGhjbXVzeHA0SVFvdnpMcks5d2Y0TTd1UklDR3pyWjM4U3dwa09ZNDFDa05YVjlwOHdhRUplVVkzT2NoMk5QTkNpNTNmc2JsZ3NuTXZzVFNJWUJNelJkSFE?oc=5"
+    },
+    {
       "title": "Bitcoin Is My Shortcut",
       "polarity": 0.09265041910111904,
       "ts": "2025-12-22T13:20:51",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pszelo/bitcoin_is_my_shortcut/"
+    },
+    {
+      "title": "Interhash Acquires Controlling Stake in Neopool",
+      "polarity": 0.08869069535285234,
+      "ts": "2025-12-22T18:45:32",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/news/interhash-acquires-controlling-stake-in-neopool"
     },
     {
       "title": "BlackRock calls Bitcoin one of the biggest investment themes of the year - Crypto Briefing",
@@ -343,6 +378,20 @@
       "ts": "2025-12-22T12:36:37",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1psyj87/tether_executives_buy_bitcoin_mining_unit_from/"
+    },
+    {
+      "title": "Trump Media Adds 451 Bitcoin, Total BTC Holdings Surpass $1 Billion - Bitcoin Magazine",
+      "polarity": 0.07579421810805798,
+      "ts": "2025-12-22T18:23:48",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1QVnhnVUdtYU5XS01JbkluYTY4RzloTjhoRHF3d2dMZzZjU05GWEFPUDR2YUdLMzI0UWUtNXE4bUxjWDJ4SkRVNEM0dnN0Uk9ENERhVTQ4Q00ydjh2Rl85eFA1WXlaT3N5OTEwZnpR?oc=5"
+    },
+    {
+      "title": "Bitcoin isn\u2019t under quantum threat yet, but upgrade could take 5-10 years",
+      "polarity": 0.06933319754898548,
+      "ts": "2025-12-22T12:18:12",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2025/12/22/bitcoin-isn-t-under-quantum-threat-yet-but-upgrading-it-could-take-5-10-years"
     },
     {
       "title": "Critical Week For Bitcoin? Options Pressure and ETF Incentives Converge | US Crypto News - Yahoo Finance",
@@ -401,11 +450,11 @@
       "url": "https://bitcoinmagazine.com/news/jpmorgan-considers-bitcoin-for-clients"
     },
     {
-      "title": "Bitcoin Price Prediction: Why BTC Price Is Rallying and Forecasts for 2025-2030 - Finance Magnates",
-      "polarity": 0.04828507639467716,
-      "ts": "2025-12-22T11:57:35",
+      "title": "Weekly Market Update: Week of December 19 | Bitcoin and Macro Data, A Diverging Picture into Year-End - ETF Trends",
+      "polarity": 0.050556521862745285,
+      "ts": "2025-12-22T15:59:44",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSnFieVZpZmZZVHdkREExZ19qSmVIbTNJQW9tb2hBRTZpemdWUFlzdWVMUmUxQkQ2NXBjNmhKWGVjT2gxNWpzemxKcHdBblkyMnM4TElXdkJ5cGc5V0l1R2puX2Vwd2NZX3BqTFFYVWd6OHFxOFFZUXhiRG14TktwZE44WGJkOFU3Q09uQUlTRDhHTHlBajgwOFc0a09yZmU2ZEtyTUR6a2FHRnd3N3VSZl9USVljdFJRZGZMStIBwgFBVV95cUxPZl9qSXcyaDFNVk0wbEM5X2VnT1ZUTWcwVFVvRGg3Rm95a005eEROUmRONk5TRnFja21yOUpROFdIMVo3YmhucVc1cVFCLS1qa1JrbGh1cVUyNVJIbVlxSUNBRWZtYjJxNVJ2OTd4cF9Tbk5OVlUzSmtySGY1SE5talZvdUNFSDJTcGJBRW9COTBjbS1xbnNhT3YwaFJqbk1MdGZ1dS16cjZyeXYzaklaRzVGdVlxRE1NUDJNaWNKMjRLQQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVmk3YVBaYlByT3RyQWgwU2hMNjlaSVFJWXRDenM4S1JGeTdaVzUxM3EySC1MLVNjRkxaVDlmaEdpVE1sa0JUYnNjRGFKTEZvOTZydXVua3hjMkRGd2RZOWdReWplUXJteVRlTThWTUhqTi1ja1pORjE5VzEzUnFxN3c0b2M5bTN4SFlhV3NqT1NZcVF3ejZrRy1ya3NHQ1lyQkQ2a09Ob1RnZDN0TVhOM0x3S2RMemNJSHc?oc=5"
     },
     {
       "title": "Should beginners just stick with BTC?",
@@ -420,13 +469,6 @@
       "ts": "2025-12-22T16:01:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVEFHYkNOYVIwRGpuU1p0ZmJZQXVQYnJUY0JES05mbm5kRUlqYWJvcTVtWWZMeEFzVWVBQ2NQazRKUDh4SEZDV3lta1JMRnRNQWl5OUlvRWkyQm9QUkdXbzQ1ME9RdnlBakhGLXh1aTFaTVd0WTVZbnBUVDRQS05QaQ?oc=5"
-    },
-    {
-      "title": "You can now buy guns online with Bitcoin as this retailer goes crypto - Stock Titan",
-      "polarity": 0.04211894981563091,
-      "ts": "2025-12-22T14:00:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUzV2MENLUURRdm1YOExCSzZkZkttckYyTFpmZHpiUFZnMVozXzI2UC1tRGYtblF3dGp5SzdHRFJ1U18xTnhFWWVmeGxiam9TQ3g0RldmbExQNkhVUkZNYjkxRlZpREcyM1NEOXFEMDgxcnRqYTVxTFluOEU4M1NsaGlMZHpOVDZSdlhUelBpSk9LUV9IRktVZkJEU3lXN21UMGNyQVNMM25fWE5kUjFORThBMkZzYmNncnkxWA?oc=5"
     },
     {
       "title": "Boxing Day bonanza: $27 billion in bitcoin, ether options set for year-end reset - CoinDesk",
@@ -499,6 +541,13 @@
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1pt0n24/the_2026_bitcoin_node_guide_running_your_own_bank/"
     },
     {
+      "title": "Strategy Paused Bitcoin Buys Last Week. It Bought the Crypto Aggressively Earlier This December. - Barron's",
+      "polarity": 0.017390813678503036,
+      "ts": "2025-12-22T16:04:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxOc0VzaE9ocHVneWpyUFZlZjhpSnBYWjY2cmp0b1FjY0h2UHFvbzZ5dkhEeWhwWFdTbmV6M1UyUEN1MElaRi0tWnZ4X3ZtTHd0WktxdjhmMk4xSW9zWFVITFA5cmVFNEtlVFpDb0w1Q1FTdVlnamxKUzZrUXRWX0NqTGZpeHRHTVlLZWVHSWhkNHZiRVZObmhPbUxzMDdQUUFDM3ltYUNRMFMyalN1R0FrWXdOeXFHVmxzTHl3UEFCOGJ1b0hxeVlUbk1jczRiU3dVYkYtSkEtQmp1dGpaLUlrTVhoZ1RXdDBMRjlGS0ZPQV9ta3JBSUlreUtRWEswdnA3N0ptX2VVVGZlVlpBZHpXN3dTZW1Da1RaRjBVa1BmT2dQcG5aaWxJd3FDRVA5bURfc2JCMlM3REU3MzVSY3V6LUVDeUxSQkwzS1NFR1Jxa1I4TTI3RTd1aE9EcWdDcUExQ2FSUnVDd3RaM2o4bnM0bnpTcXNZWnQ0TXRuQlNDd2U?oc=5"
+    },
+    {
       "title": "Bitcoin beginner",
       "polarity": 0.016945142298936844,
       "ts": "2025-12-22T14:18:46",
@@ -548,13 +597,6 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPam9TeEZQN3UtcW5FZlprQ215aW5Hd1VHTkkzN1ZrRFJ6aVYyNVA3SHVZY2taalBOc05yMG5rY2JsZHg0ZHJhU0JlS0JMR084UFZPUDRVV1M3Yll6eUg4YVc4M2d3cl9DcTZlbW1lNFZKMmdBd24tQkdLZjhsWGx1QXItVWVIcGdKWWJjQkJwLU1jbnNDR1FWdkowV1o4NExhUDB2TdIBqgFBVV95cUxQb3RYWnNubDJKSjc4ZGlUeFZYVEx1eHVKMFU5Qkx2UXBJLUthZlREc2dfaDdLa3lNYmY3MlhrRjhvTV9QX0g3RVJONS1sODNaYlM0RG1oVEZ3S2ZkNHVMU01rNzg2ZXBvQVc2VGZ6c0R3TWpGYW1IblhnVzhUVTJfWEZwUThKWC1jaDZPbzA5MC00bm1RV19jSmN3S3l3MEIwR2p4cHhnOFdWQQ?oc=5"
     },
     {
-      "title": "Weekly Market Update: Week of December 19 | Bitcoin and Macro Data, A Diverging Picture into Year-End - ETF Database",
-      "polarity": 0.010267272591590881,
-      "ts": "2025-12-22T16:40:07",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMzNXcDVmZ04zdlRVVjY2TkY5SU9lRkZUZmptQmNvSzc1NjU0Z2JSMWo1UEJsVXF1WF9nUXg2Yno4MFViYThWSjlGREdGaXp1MDNaTGp0dnpXYmctNktERjlSUU1wNjFDbWt3N1JlbURKTWd0ZGNDaF9tZ0dMM2JoYndTLWhiYjhCbXp3WHZiUmRyLTczT1FDQzFIRG1vMEdnNzlkZWZ4UjNxZw?oc=5"
-    },
-    {
       "title": "Bitcoin December 22 daily chart alert - Bulls steady the market - KITCO",
       "polarity": 0.007488809525966644,
       "ts": "2025-12-22T13:48:49",
@@ -562,11 +604,18 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQR0YzWDZwT2s3RGhQS2o3a2JWelE3eFlkRkZHYTkzNXEyY0ZqdXg5X1JrVTJOQlZxdnloNXZrR2hXbFh3b3RkSFNvYW5GQlowdVlSTWJlT3NiSzhPSzJwQmtyRVhGSUZHREN6dC1QbWhVUU04czR0MFJublN5dE9ZX0NNSlU5eElYb3E4dDVvNVFaOTdFdXE2RzN2NkJZd2NQeUxYZmhB?oc=5"
     },
     {
+      "title": "Former Mt. Gox CEO Mark Karpel\u00e8s Reveals Details of 2014 Collapse and Japanese Detention",
+      "polarity": 0.006042880937457085,
+      "ts": "2025-12-22T19:07:25",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/business/former-mt-gox-ceo-mark-karpeles-reveals-details-of-2014-collapse-and-japanese-detention"
+    },
+    {
       "title": "Gold, Bitcoin, DXY, USD/CAD, USD/JPY, Oil Weekly Technical Outlook - FOREX.com",
       "polarity": 0.005704015493392944,
-      "ts": "2025-12-22T17:46:54",
+      "ts": "2025-12-22T17:54:56",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPM3JhRTJidnppYW5td0JTSC03bldoRFpieWxEbGl1eTdIUGxwQTkwWURjTEwwNWRocVVQQURpOVhNODJ1b1ZMUlBIY1ZReXJicWl4ZF9uck54UmR4NTlza1Rxc3h1UFNNMXpDaERjU0VsejlWSjhKMFhZY2VpZU5vVElQTXBkVjFjZUZ6bkRLbmpPQ0tFVmFrVXRsMGE3TF9McV80M1M4LUJ4dFVPaDR3ckNidTFveUVWcHk4?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNFFNLXBXaFVtdFd5OV9SREZoRllSV2F3dVZwMDlXM1VncXVxb2RpQ01MRUFSY3VhajB6d29FV1ZFUmhaNlpldi1OS244T09lSjhXY2FINEhVNlEyRHlBd3hCcGNwMmwwYWIzcVRzMUIwMFJnQ1pGX29lbW5lTTkzWWxmS2p6TTJmWVdkMUpENUZHQmFOTHA4cW1YS1JGTXNzR0ROSEoza3dZbm5peE9ZU0hwa0Vwc1BVamNV?oc=5"
     },
     {
       "title": "Watch Assia: Bitcoin is Digital Gold - Bloomberg.com",
@@ -581,6 +630,20 @@
       "ts": "2025-12-22T16:37:47",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVlZmdW02RDRSOHNFUDlqVVlwVGI1NzZkVUlPeFRzajRYcURrYVBILU1CYU1PMlZrdXg0XzlQRDV5ZWExeUs0UzJaUi1oeW5nZlBHbFhiZUVGNDZCUVUxa241N0FnbUhaR2lhQXlGZm9jVGNRNWp6Q1JUamlDbWdFa1JRUThFNlp2aEpyWG4zS3RRMkFXcHdRTmlFMy0yUnF6M2N0SU1tRlZxazJGQk8w?oc=5"
+    },
+    {
+      "title": "This is the most Bitcoin I have ever owned/held. Totally refuse to sell.",
+      "polarity": 0.0032215937972068787,
+      "ts": "2025-12-22T18:52:19",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1pt7mbc/this_is_the_most_bitcoin_i_have_ever_ownedheld/"
+    },
+    {
+      "title": "Bitcoin Hits $90,000\u2014But Rally May Not Last Through Holidays - Yahoo Finance",
+      "polarity": 0.0018587857484817505,
+      "ts": "2025-12-22T14:55:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02aG9nT3JhanBpbGlKVmxnR1VXSjgtUXdJR1U0RzZncmxxMnYxQ3VOZkhvdGFQU0tfNzFGc3Uwc2lCRnZWUVRwWXRTNkxRN1JzRE1HNF9sT0ZjVFEtNDZ0VXNrbDhCV0RPYTNvZUJZb1YyNmktUDNHQlAyWQ?oc=5"
     },
     {
       "title": "Daily Bitcoin memes until Bitcoin hits $200k",
@@ -605,6 +668,13 @@
     }
   ],
   "negatives": [
+    {
+      "title": "Bitcoin Price news: BTC slips from day's highs during U.S. trading session - CoinDesk",
+      "polarity": -0.9604635545983911,
+      "ts": "2025-12-22T17:46:21",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPT1I2cU9Qcm5vV09KbGc4SmxpY0lXSWFtWEdwaXpSYnpVWXpUbTZPeHNlbGdmcHlrSGdoVXF0bnNsU2F1MjBjam1wOXlKUnhKa2VQVmVKWDNLdlluSmxiVlQweWU4cGp1eTdPdW9oeFVHNGdZQ2FQdEM2MnBoTDFCSmd0T3Z2d3BjYUIyY2FCWG84OWo3Wkhuamp1TTBXVElDajRmajVpamZudUcyWFM1VmJTLTAzVDlz?oc=5"
+    },
     {
       "title": "CME loses top spot to Binance in bitcoin futures open interest as institutional demand wanes - Yahoo! Finance Canada",
       "polarity": -0.9569967202842236,
@@ -635,7 +705,7 @@
     },
     {
       "title": "Bitcoin Price Analysis: Traders brace for U.S. session as BTC climbs above $90,000 - CoinDesk",
-      "polarity": -0.8793372772634029,
+      "polarity": -0.8644307535141706,
       "ts": "2025-12-22T13:28:22",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdXdtb0NOaFVIYkZHQ3FxM2JocnN0Y1JnNUdLVmlxM21SbmxxN0hXYXFKRVEtaF9saThVQlYtc004T196cU5KUjdjTUNveU1SOFAzUEtQR2poYzZIbzMweTFCWWM3R2dPWEh2RElOLWJGVE9pNVFOT0FieVdWU3NsRHV0NTJic25rZlBNMEZXNFFlWFhUeWt1WlNzbGhyX3M?oc=5"
@@ -677,7 +747,7 @@
     },
     {
       "title": "Whale Garrett Jin is now within 2% of break even, currently still 21 Million $ Down on his 700+ Million Long",
-      "polarity": -0.45445312932133675,
+      "polarity": -0.4544532559812069,
       "ts": "2025-12-22T13:13:23",
       "source": "r/ethtrader",
       "url": "https://www.reddit.com/r/ethtrader/comments/1psz94x/whale_garrett_jin_is_now_within_2_of_break_even/"
@@ -697,6 +767,13 @@
       "url": "https://cointelegraph.com/news/90k-btc-vs-record-gold-price-5-things-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "title": "Expert Reveals Bitcoin Likely to Tumble $50,000 Before Market Fully Bottoms - ZyCrypto",
+      "polarity": -0.3072201609611511,
+      "ts": "2025-12-22T18:37:07",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWHljWUxzSkZaZDVZeGkwb0VleE5iaUxiNFFCR2JoaFRJUDBIYkhhaGtObUk0UXBKQzRwNTFXTzVxenRHWVRGR0c3RkhZaTUwQTZMazVCOFhXR2pRQjR1aVRrMVJWOFdFUFJreklDcUtLaDBCdnpnT3VCRkt2bUk4cG1GTTg5cmdnWXUtd19rek4wR3pGTjVFMHlvWdIBoAFBVV95cUxOYUJjZ3p6dDgwajNwTTZYSGNobmdoYzFRNk80cUJrT05zQW9xVG40QUFNZXFvQXhTQTdfbTNrSkt6c01QdkwzWW94dTNTRV91WUcyUTlsa2otaHRwYS1IQkM4MzRyckhUOHF0eENqb0dTTDVFTGt3WkU0bUF0U0tDR3VxRFk0TDNiVmhCMjZDZVY0V203XzFrM0c1RWpLaVQw?oc=5"
+    },
+    {
       "title": "Strategy and bitcoin-buying firms face wider exclusion from stock indexes - Reuters",
       "polarity": -0.28607899881899357,
       "ts": "2025-12-22T06:00:00",
@@ -709,13 +786,6 @@
       "ts": "2025-12-22T14:18:26",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1pt0oau/charles_hoskinson_argues_president_djts_token/"
-    },
-    {
-      "title": "Strategy Paused Its Bitcoin Purchases Last Week - Barron's",
-      "polarity": -0.13621784932911396,
-      "ts": "2025-12-22T16:04:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxNN3JNbUZmNGlkQ2E0UUpVUXp4VkM1VjkyN1h0RXgzMExmMTBPYUY2NUd4enB6eFdmVk9rM1l6U2M5N2ttTmFZaFJaTVZwQWM3cjlMbF9BVkJYb1BtbUpFZlBUd2xLcFdfbVNzbmlWcWtvS29UWTJRZG5QamNkTHhQNE84STV3ZFJ6ZGRIcTJGUVZDNUlBMUQ2WDhlR0R5U19Id0xYQTA2UnhXRERFQ28wanZINlRCalI5Zm1QRnZhRHJMWHNzSnEySnlFSkcyaDZrZmVzRk5YX3pRbmlvaDFCTVBJOW5yM1VVYzNOeVNCSDI2dWtpd0VxZzNSZEoya2VNbk05ZFdLYkVWWlBjREE3ams2elJFaXdudmgtRGVCNjNTby1zamMtY0dUYlFDR0tWLWFPZ3VLTnRFb242N3pZZWVvNjZ1Z2oyUGxMaUx0RjBHVFZRazVUYmJ0VG4yOE9Ed1Rsek1PcUY0U2RoeTdDVF9rMnViRjIxT1JnbDRrU1o?oc=5"
     },
     {
       "title": "Charles Hoskinson argues the TRUMP token cost crypto a 70-vote Senate win and sparked the Bitcoin-only crisis",
@@ -732,32 +802,11 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbUJ1cE5hRFlCcjdSMWtQb3ByaElXVF85XzhTTlRZQW1ZeEVCc0gtQndvNEtiOE9rZlg5cXNJdjRHUDN4d25Rc3R6YkxGX3NOSDJnT3YzbnI2YWNCa2ZFcVJadUlTQi04ZzJsbzF1TUdrdmtRelRaLUtlaFg1clQzdE4xSzZZOUZmMEpQSlRIQ3ZSQTQzeVNtTmticVNERWFYbW5fNU54Zk96c25Ma1hpVUR4MXJZRDJUb0hYT2VFSWlxelpyMUN5dHZHazRjQQ?oc=5"
     },
     {
-      "title": "S&P growth and dollar inflation equivalency is flawed.",
-      "polarity": -0.06502171233296394,
-      "ts": "2025-12-22T13:22:48",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1pszg49/sp_growth_and_dollar_inflation_equivalency_is/"
-    },
-    {
       "title": "Bitcoin Hits $90,000\u2014But Rally May Not Last Through Holidays - Decrypt",
       "polarity": -0.06111731380224228,
       "ts": "2025-12-22T14:55:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMFFybkRVal9DeE5ZZHQ0bXdVUTdNN2wwdjVhMlVFd2J5ZWtIdzRnMURwRXJURHVOMERCRExzMk9qOGVQSzVHNFFfNnlndnhBVmpJaER0c3NMbHpNM2FMWDgwb21ULUZkNEJXRHAxTVhJUnJRdzJqR3F0VTdDdV8yekh1Q3ZJVnhkV2JlNdIBlAFBVV95cUxOU0VNaEhhSGpOOEJoRVJzNjdWS0RuckFXamJ2VExtVm5ybGY4d3doRHpUaXBXd1drV1N3SklLdUJNbEhGb3cxZ0pPaW9kWk9kU0ZiVXRkaW80WEZfVUpldWtHaGhLeDVaUDF3NXVrTTBlMlRhcTg3SWswR1VGamhYdWpQTHJhWWg1SGtJM3A5ZVBKanlW?oc=5"
-    },
-    {
-      "title": "Bitcoin Price Reclaims $90,000, Is This Dead Cat Bounce? - Coinspeaker",
-      "polarity": -0.032396964728832245,
-      "ts": "2025-12-22T15:07:11",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYjVfOG9TXzRsZTV4OUl0WUJLRTEtWGo0OTQtRHE2UXdEVnFqVHpZQ084bzdxbVh1RjlPWTV1emlVQVZlWTk4YkxPTGtqUFpBYl80WVdralNySC1vcWtELXBDMm9PenNuNk5FOVRZdGdrN2FsWG42VTlFaTdOdDFTeUZKYjdTcG1T0gGOAUFVX3lxTE1LT01mRUs4T0RHRS1UMHMzekF5d19QUVdFNGZXYmNJRWZ2XzhQcmx0Sm1uV19KVkZGeHBadVFQb2tET2VBbHlQMGZnb2xhTV9WNnloSXNqc0owU0pRcl9qbVJHak9IYWRPOUhGdk1VSlhaZElmQjlIV081WEs1YXduYkh4bnVtMGdhQ1U2eEE?oc=5"
-    },
-    {
-      "title": "Legendary Trader Peter Brandt Spots 'Very Reliable' Bitcoin Pattern as $90,000 Break Fails to Hold - TradingView \u2014 Track All Markets",
-      "polarity": -0.026889599859714508,
-      "ts": "2025-12-22T15:05:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNXzBkNk9rTXphcUJpTEpORVR3UHF2c05vYXRwenRNLUc4S29NSTYzQ2ZjeS00NWp4WDBJZmIybHplVWdCU1B5TDZpSjNMODZWOGduRUJ0SkJGXzNuRFhjNjRNZE9tVW16YnBGU0FjYUlHeERabDFXT1VUR3J5WlF1VGpabTJLRUI4Z2h1a2RvT29falZ0dmx6ejJHc045VGRBNVFvYllTYmtrSGh0NkVhR0RWYW1uRHktd0U4QngyeFZ4N0xiY2p0YmpGVUNkWjVJT3lpTTFGMXVLWHBWdkFjYnhVMThFS2FE?oc=5"
     },
     {
       "title": "AI Predicts Bitcoin Price if 1 Million BTC Gets Locked in ETFs: The $250K Scenario - 24/7 Wall St.",
@@ -768,17 +817,10 @@
     },
     {
       "title": "Bitcoin-backed loans for \"living without selling\" - am I the only one who thinks this is way riskier than it's being sold?",
-      "polarity": -0.020229551941156387,
+      "polarity": -0.020229581743478775,
       "ts": "2025-12-22T14:16:50",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pt0n2i/bitcoinbacked_loans_for_living_without_selling_am/"
-    },
-    {
-      "title": "Bitcoin\u2019s $50K Trap? Why Charles Edwards Fears a \"Quantum Crash\" Without an Immediate Upgrade - CCN.com",
-      "polarity": -0.018955543637275696,
-      "ts": "2025-12-22T14:37:15",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWWNyODB4VEstdWVITVdIOE1od2ZlaGI4eHh3enBSTE41cnc1LUtxaFFLWk9RY0UzcDFlVDVMREJhWllMN1R5QlpwazZUNklndTJfNUJnZTFFX2pmVjdhdFg1WTVsWlY5ZVN5cG9hVHV3RkR5WDRSTy10RHVQS1Y3NXJlY2ZzVklQSVpqeGdkbFpmWWEtZi10M3l6c2NqNEU?oc=5"
     },
     {
       "title": "Bitcoin reclaims $90,000, but risk of U.S. trading day awaits",
@@ -800,6 +842,13 @@
       "ts": "2025-12-22T11:15:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVGRSYklSSmJFOXZrV2MzSUFkX0ZPWmx3XzZHbkZKODB1WnZOV1BLWm5ZbmVyaXVkNjUtTXQtb3phY2R0eFJheGdETG1Jd1p0U0FHUjBlYWFGNXVxbXBXdmRpaHhWNUl6OWctNUpTQzVaZ2sxRHVQSXBUanZhdGlhVzNHLXoxTExMV2Zxd1BIRVhRcHlDbTQybQ?oc=5"
+    },
+    {
+      "title": "Bitcoin Whales Unload 36.5K BTC, $3.37B Offloaded in December - Yahoo Finance",
+      "polarity": -0.005609374493360519,
+      "ts": "2025-12-22T16:48:09",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9uQzE4NDJTOTRRTmJGYzBOTC1nYWlOXzF3ZDNrbXBfQVY1UTRDamkweWNITEtabEstd1lmQU9BRW9UUDlLc1lLYWh1UjNVOTlmSmlTaFJwUWlpTGFnVGVVZmhjZDlvQWU4WXZaWXNENkFoWGxHVVotREVFa2tsUQ?oc=5"
     },
     {
       "title": "Bitcoin",
