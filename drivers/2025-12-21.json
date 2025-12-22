@@ -3,77 +3,56 @@
   "positives": [
     {
       "title": "best aggregator for BTC ->ETH",
-      "polarity": 0.7053393432870507,
+      "polarity": 0.7053385060280561,
       "ts": "2025-12-21T18:13:38",
       "source": "r/defi",
       "url": "https://www.reddit.com/r/defi/comments/1psd0af/best_aggregator_for_btc_eth/"
     },
     {
-      "title": "Central Bank of Russia Acknowledges Bitcoin Mining as a Ruble Strengthening Activity",
-      "polarity": 0.4813791997730732,
-      "ts": "2025-12-21T15:04:08",
-      "source": "r/CryptoCurrency",
-      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1ps8imu/central_bank_of_russia_acknowledges_bitcoin/"
-    },
-    {
       "title": "Has the American Bitcoin Share Price Slump in 2025 Created an Opportunity? - Yahoo Finance",
-      "polarity": 0.3397288005799055,
+      "polarity": 0.33972667157649994,
       "ts": "2025-12-21T23:09:12",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYV9Wd2VTZk13VG01ZmJjeHlCakxMU055eUx1UFEyNEI2LWV3SExRMTB3UDRCY3d1dmU2Yzl3YkNVZThpNHFzQjQ1ZXVIQW5KdjNtVmNqYmdGNzA3UnkyT1YwVlFqMVVSS0VxRFV3TC1Hajd4dW9pdFE5MjU4cDRtUENGRjR3SWs?oc=5"
     },
     {
       "title": "Shiba Inu vs. Bitcoin: The Better Long-Term Play? - Yahoo Finance",
-      "polarity": 0.16238468512892723,
+      "polarity": 0.1623845174908638,
       "ts": "2025-12-21T23:43:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1hYS1oT2VKb0xiUVFVSjQyWkVHT3NPQmoyYWhOMzk0ckRqYi15NUZwaVY4V0JRb1hXQXB4ZWZBa0pudXVmUEtIWEJhVzhFZWxtT1FKdGQ2czJfeGlOZDR3ZVg5Z2dDSnVCUm82eTVVbi12elJBdlNPMzQ3NG5GQQ?oc=5"
     },
     {
       "title": "Why Bitcoin Billionaire Arthur Hayes Expects BTC to Hit $200K by March",
-      "polarity": 0.07832036167383194,
+      "polarity": 0.07832038030028343,
       "ts": "2025-12-21T16:50:50",
       "source": "Decrypt",
       "url": "https://decrypt.co/353189/why-bitcoin-billionaire-arthur-hayes-expects-btc-hit-200k-march"
     },
     {
       "title": "The Sovereign's Handbook: A Bitcoin Self-Custody Survival Guide.",
-      "polarity": 0.06225963495671749,
+      "polarity": 0.062259506434202194,
       "ts": "2025-12-21T16:24:48",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1psadwg/the_sovereigns_handbook_a_bitcoin_selfcustody/"
     },
     {
       "title": "Fed Injects $6.8B Liquidity Tomorrow \u2014 Is Bitcoin About to React?",
-      "polarity": 0.031744470819830894,
+      "polarity": 0.031744334846735,
       "ts": "2025-12-21T21:51:44",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1psi4ns/fed_injects_68b_liquidity_tomorrow_is_bitcoin/"
     },
     {
-      "title": "Can we ask dumb beginner questions here?",
-      "polarity": 0.01953204907476902,
-      "ts": "2025-12-21T21:52:22",
-      "source": "r/CryptoCurrency",
-      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1psi55q/can_we_ask_dumb_beginner_questions_here/"
-    },
-    {
-      "title": "Looking back on the last 5 years",
-      "polarity": 0.010947909206151962,
-      "ts": "2025-12-21T19:55:49",
-      "source": "r/CryptoCurrency",
-      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1psfgmr/looking_back_on_the_last_5_years/"
-    },
-    {
       "title": "Whales stacking BTC! Momentum incoming \ud83d\ude80",
-      "polarity": 0.005708098411560059,
+      "polarity": 0.005708083510398865,
       "ts": "2025-12-21T21:19:10",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pshdkh/whales_stacking_btc_momentum_incoming/"
     },
     {
       "title": "Migrating Bitcoin to post-quantum may \u2018easily\u2019 take 5-10 years: Crypto exec",
-      "polarity": 0.0003743171691894531,
+      "polarity": 0.00037420541048049927,
       "ts": "2025-12-21T21:00:36",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/migrating-btc-post-quantum-easily-5-10-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -82,112 +61,105 @@
   "negatives": [
     {
       "title": "Bitcoin traders split between $70K crash and BTC price rebound within days",
-      "polarity": -0.9565402306616306,
+      "polarity": -0.9565401952713728,
       "ts": "2025-12-21T16:11:37",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bitcoin-traders-split-between-70k-crash-btc-price-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "title": "MicroStrategy Eyes More Bitcoin Buy Amid Stock Decline",
-      "polarity": -0.79184440523386,
+      "polarity": -0.7918462045490742,
       "ts": "2025-12-21T21:14:05",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1psh9dd/microstrategy_eyes_more_bitcoin_buy_amid_stock/"
     },
     {
       "title": "MicroStrategy\u2019s Saylor Signals Imminent Bitcoin Buy Amid MSTR Stock YTD Decline - Yahoo Finance",
-      "polarity": -0.7186480350792408,
+      "polarity": -0.7186508290469646,
       "ts": "2025-12-21T17:38:09",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX1RlUXJKcUhTVVdqTHRrLVhvYjVlend4a3lKT2RZTG5tM1l1QTk0U3JJVlBhYWxRV3VOUVh1a2tJME8yMHZOR19EVkhheWo4ZldpLWloWXZzelJRLVIyWlpWV2RSa0Q2TTMwWDg2eDFGeURLZm9FWklwc0R2OFo0Z1BMWDFwbENtNVJIRWVoSk4xSnpZWWc?oc=5"
     },
     {
       "title": "Recent price actions and looking forward to next week",
-      "polarity": -0.6966774500906467,
+      "polarity": -0.6966768018901348,
       "ts": "2025-12-21T18:17:00",
       "source": "r/defi",
       "url": "https://www.reddit.com/r/defi/comments/1psd36v/recent_price_actions_and_looking_forward_to_next/"
     },
     {
       "title": "Bitcoin miners are bleeding at $90,000, but the \"death spiral\" math hits a hard ceiling - CryptoSlate",
-      "polarity": -0.2802886590361595,
+      "polarity": -0.2802879810333252,
       "ts": "2025-12-21T22:35:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS0dvOGl3dHV0eXJaVmtUWjJYTkppWjMyREtDLXFWWXNteXJoRTdlUG9WZGxLUlRZaUhZWUEwRkNPNUs4ZlN6SHM1WjEyQnF6M1NwVi1ZdUluM0ljUy1Yd0liRkE5Nkt6TUFub24xM1kyaVFGeEFRaDkzVHRzTU5sSHNnanYyclVQTnNydEZrMndSMDg5OU5ZbG5MdXdnZXJmTXRGa1c0U3FCLW8?oc=5"
     },
     {
       "title": "Bitcoin miners are bleeding at $90,000, but the \u201cdeath spiral\u201d math hits a hard ceiling",
-      "polarity": -0.23241167329251766,
+      "polarity": -0.2324118074029684,
       "ts": "2025-12-21T22:35:59",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/bitcoin-miners-are-bleeding-at-90000-but-the-death-spiral-math-hits-a-hard-ceiling/"
     },
     {
       "title": "Bitcoin underperforms SPX, yet Saylor doubles down \u2013 Here\u2019s why - AMBCrypto",
-      "polarity": -0.22458162903785706,
+      "polarity": -0.22458455711603165,
       "ts": "2025-12-21T23:01:40",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdXhIOEpUZ2FETDVpbHY1dTd6clhjYVJCN1lpQWpSaURaOHZaVUtLT0dwMm1LUHpicHF4REtjUXpoUVR1ZFRHYm10MkdMc08xNEdHdWZ4Q0FEWVFUR0V1SnZmTUdEWFhveDM3X19kUXN5c3phTjBfUXpPYkZDZUp0c3E3Wmh5WGJsWXfSAY8BQVVfeXFMT1A1T2ZCS01HSEdXamR6WmlwSnJGM0U4dkE0MmFLU0VOcnRvMWZ6UnlzTFg1SnVSZkMwMEdfT2VrTUU1bjdPRW1TeDYtdUNxMkFfVzFfWmdWQUtjLTFKLXhDWVgwSWZwemU1NGFxZktXY0JWMzMxVDdtX0lrSFEzQmwzQUNzWW1tZ1ROTkJQMGc?oc=5"
     },
     {
-      "title": "Crypto Bills Shouldn't Be Bitcoin or Bust, Says Indiana Lawmaker",
-      "polarity": -0.10281456634402275,
-      "ts": "2025-12-21T15:01:03",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/352795/crypto-bills-shouldnt-bitcoin-bust-says-indiana-lawmaker"
-    },
-    {
       "title": "$23.6B in Bitcoin Options Set to Expire Next Friday",
-      "polarity": -0.04701423458755016,
+      "polarity": -0.047014277428388596,
       "ts": "2025-12-21T23:37:54",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1pskidv/236b_in_bitcoin_options_set_to_expire_next_friday/"
     },
     {
       "title": "There are only 1,035,659.4 BTC left to mine",
-      "polarity": -0.03581438027322292,
+      "polarity": -0.03581433929502964,
       "ts": "2025-12-21T16:36:18",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1psanor/there_are_only_10356594_btc_left_to_mine/"
     },
     {
       "title": "15-year-old HDD, 80% bitcoin mining.",
-      "polarity": -0.028061363846063614,
+      "polarity": -0.028061402961611748,
       "ts": "2025-12-21T20:52:42",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1psgruk/15yearold_hdd_80_bitcoin_mining/"
     },
     {
       "title": "Bitcoin faces uncertain 2026 outlook, $250,000 by end of 2027: Galaxy Digital's Alex Thorn - CoinDesk",
-      "polarity": -0.026596058160066605,
+      "polarity": -0.02659628540277481,
       "ts": "2025-12-21T21:26:51",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS3F4a1J0SEdhRUhCWDdLVXZxOXNqOGg3RHNFMkNBLVptZjJNQ1loZmxnUTNURXpYVFMzeFB2b2NLSXFOVnd6RGdIeGxKTmozZjZsaWt5a2F1b19tNHE4YTAyX2xPQkxKbFpNbHp0UGdNYXR6bDJ5by1hYUdaVTg4bWRJbHU4WlAyM05qMDdjU0hjLTlUM1RKS2JFX1ZPaEROd0VMaXNSSmNOd2R2dWdfOV91SzNXYzE0dVhHM0hFNWJHc0MtNFM5U0V3YXQ?oc=5"
     },
     {
       "title": "The institutional money everyone was hyped about? It's quietly bleeding out.",
-      "polarity": -0.02531212568283081,
+      "polarity": -0.025312207639217377,
       "ts": "2025-12-21T16:23:26",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1psacqu/the_institutional_money_everyone_was_hyped_about/"
     },
     {
       "title": "$23.6B Bitcoin Options Expire Next Friday - Calls Stack at $100K-$120K, Puts at $85K, Max Pain $96K",
-      "polarity": -0.01598273403942585,
+      "polarity": -0.01598281040787697,
       "ts": "2025-12-21T21:26:08",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1pshja9/236b_bitcoin_options_expire_next_friday_calls/"
     },
     {
       "title": "Tether-backed Northern Data sold bitcoin mining arm to companies run by Tether's own executives: FT - The Block",
-      "polarity": -0.010447528213262558,
+      "polarity": -0.010447539389133453,
       "ts": "2025-12-21T17:59:16",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPM1hqUzExMjVGaThiMGVtcWlvOVRvNEM2SmZUNWxvVnVXMjQyMHdFd1Z2N1BCWEhYRExUYjVHRlBmeWZvWGFiSGlqRWxCSWUwcWtfYkl0Z1c4VnQzbGtaOFZISFFXQUd4d09Dc3lVQ3h6cUxucmRkTEw0OHBYMmpZT29zODNSMkFydGFHa0UtMjdXMV9zd0JhNkxmNnh2SFo4N1ZjTVdqVzFWd0FVTFNnTWZ4SVdoMlg1UU9rRWFGaU42TUx1S18wRm5FSktKQdIB0wFBVV95cUxOLWFfUnBRQTN6S3dRbEplODFVUW1ubzVibzE1ZUtLcTRBWEZlbGdZTUdEdnpzUkdncmptRmpOQTg2b3dTUnNDYnFGU1ExOXZYTVUyZE1GNFdRamVIeGFRUlN3c0NtbGpYOXNSU1hqSThYMGNpaFBKZzNBbUlTYkVHOV9iZmd0WXNvTTg3YVJiSGlXMnR0VVZfX0s5SW5WRVZ4X1pPVFhGQkdOUFIzZVVpdWJjdDdnX09vUmhjQUFqMlBmVE0wMXdSU0d5MHJ6a2dGekRR?oc=5"
     },
     {
       "title": "Galaxy Digital\u2019s head of research explains why bitcoin\u2019s outlook is so uncertain in 2026",
-      "polarity": -0.007287956774234772,
+      "polarity": -0.007287889719009399,
       "ts": "2025-12-21T21:25:43",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2025/12/21/galaxy-digital-s-head-of-research-explains-why-bitcoin-s-outlook-is-so-uncertain-in-2026"
