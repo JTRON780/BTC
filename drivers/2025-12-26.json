@@ -2,13 +2,6 @@
   "day": "2025-12-26",
   "positives": [
     {
-      "title": "Asia Market Open: Bitcoin Steady At $89k As Thin Trading Lifts Stocks, Silver Shines - Yahoo Finance",
-      "polarity": 0.7053755670785904,
-      "ts": "2025-12-26T03:16:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTkdNQVRBNXRXLXNDcmtjVnh1ZXpNdGdoZjZBQ1FoTG1nT2hmZF95Ui1vR0dBMHpZaXhtZVUwS0Y4eHUwdzgtSFREWW85SUpfZVNWVEhCOGprTGxpdnR0bTF5YmVuOW92WHdDTS1OSVZSYzNsbEJ4YTJPNHk5XzZVS3Flbw?oc=5"
-    },
-    {
       "title": "Just won this baby on the forum! Aww",
       "polarity": 0.48480100370943546,
       "ts": "2025-12-26T02:33:13",
@@ -70,9 +63,30 @@
       "ts": "2025-12-26T01:54:54",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pvskrc/what_it_must_feel_like_holding_1_btc/"
+    },
+    {
+      "title": "[Daily Discussion] - Friday, December 26, 2025",
+      "polarity": 0.013187423348426819,
+      "ts": "2025-12-26T05:01:51",
+      "source": "r/BitcoinMarkets",
+      "url": "https://www.reddit.com/r/BitcoinMarkets/comments/1pvw2i4/daily_discussion_friday_december_26_2025/"
+    },
+    {
+      "title": "For those who are fully bought in on Bitcoin and work in banking, financial services, etc. is it hard to sell traditional financial products?",
+      "polarity": 0.00927508994936943,
+      "ts": "2025-12-26T04:47:32",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1pvvt0y/for_those_who_are_fully_bought_in_on_bitcoin_and/"
     }
   ],
   "negatives": [
+    {
+      "title": "Crypto sentiment holds \u2018extreme fear\u2019 for 14th straight day",
+      "polarity": -0.9392282478511333,
+      "ts": "2025-12-26T04:25:10",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-sentiment-holds-extreme-fear-14th-straight-day?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
     {
       "title": "Bitcoin Slips Below $87,000 As Record Stablecoin Supply Signals Sidelined Capital - Yellow.com",
       "polarity": -0.8190692365169525,
