@@ -2,6 +2,27 @@
   "day": "2025-12-28",
   "positives": [
     {
+      "title": "Robinhood offers $750K in Bitcoin on day 2 of its holiday countdown event",
+      "polarity": 0.9184888415038586,
+      "ts": "2025-12-28T02:59:50",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/robinhood-750k-bitcoin-giveaway-holiday-countdown/"
+    },
+    {
+      "title": "Bitcoin returns will be strong but 'not spectacular' over next decade: Exec - MSN",
+      "polarity": 0.7896505016833544,
+      "ts": "2025-12-28T02:29:37",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdExwN3lUY3Nha1c0MExOTDZsa2J5eF8tejJEZDlnRzdTWF9SX1VhY0hOT25pOVVIbVZISGUzMVYwUkYzT0RLR1FmVDRtUlY3cExkZkFoYmwwUjk2TEZjald6Y3ZyZ3dGcWpnbTFqTk1jYnl5eGJ4RVQwam1qdG1OS1B2Rm5FOWZKRktBLWZrTW1aOVRjZldrZWlSVk9SUkt1MzFxWnp5QWlkSkR4UnM2WF8wS3lNZkpRQl91NV90Z1ZvYjRFdUZ0WFdxRzdVS3VsU3ByZTI3SUF3OHpjaVVLNTZoRHM?oc=5"
+    },
+    {
+      "title": "Bitcoin returns will be strong but 'not spectacular' over next decade: Exec - TradingView \u2014 Track All Markets",
+      "polarity": 0.172248974442482,
+      "ts": "2025-12-28T02:03:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUjAzN0UzVS1UUnAzMkpub2c4TFh4T05vZUxzYjlZa3p5WWl3SV9hVlItSmdVNG4zeDdlcWV0SHhUS01hRXN2SVZ0by1uY29xZFZYTW00azZWTUlzWG5BSlRKSm5TUEFMUXJDYnZzOHlsaTlRbVJrQllhYmIta3FyY3FSYVVZQy1KLXNUUTZpemxDWHJhUndXbTVIUDk2ZVZHRmNsc1BzSEJUbl9iVHJ1TjZ0RDR3UGJmVmdwOF9pLURMaEFRVUxqeUUzUWIxRllNMlE?oc=5"
+    },
+    {
       "title": "Key facts: Bitcoin reaches $125,800; ETF inflows surpass $50B; EU DAC8 rules affect crypto - TradingView \u2014 Track All Markets",
       "polarity": 0.08608356863260269,
       "ts": "2025-12-28T00:03:00",
@@ -9,12 +30,41 @@
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQXdHU1pudmNxa05DaWs0Z3g5dDIwbTdpVEt5aGVTbkh0Ri1XSkNxMmdZMzBnUmNuZjNNRG51TXVYSFZaREtrZjl4WHU1ZVdtVDR5ajAxYlV3RGNKVXJZQkRzWEJOOWxDdjBYcDZQXzYxcEdTNDdWbUR0YnBvRXR2MGZORjhCREpjaEZUamlwRWpzNEF1NGk1SC1LenM0ZkpmeERGR1lpYWJrRTdhRE01YjdxbUpROFlsVGpPUnpuaXRlN0hMUWtES2UwQTY2eXJPdFFrQW9iQ3FKVlBwZzV5bQ?oc=5"
     },
     {
-      "title": "AI Price Forecasts for Bitcoin, Ethereum, Solana, and XRP in 2025\u2014Which Models Hold Up? - AOL.com",
-      "polarity": 0.06816022470593452,
-      "ts": "2025-12-28T00:47:08",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNUcwM2VwUnl3cjNtTGxNRDlEZWk1TTB0Y29xcXZkZlg0czI4VnZ1RkllZTYtRG9oWFF1Rmk4Z0ZfcFZnZUZBLWxESHdCMlVsdjBkaUNnZkNHalEzRFRhUDBKOFRVaHQ1akZtSWc5S0JKMm9VRnRNcmxQTEV6a3BwWG4zQjlqZw?oc=5"
+      "title": "What are your odds for BTC this new year ?",
+      "polarity": 0.027287308126688004,
+      "ts": "2025-12-28T02:58:00",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1pxgbz2/what_are_your_odds_for_btc_this_new_year/"
     }
   ],
-  "negatives": []
+  "negatives": [
+    {
+      "title": "Bitcoin returns will be strong but 'not spectacular' over next decade: Exec",
+      "polarity": -0.950308165512979,
+      "ts": "2025-12-28T02:03:41",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-returns-strong-decade-analysts-2026-bitwise-matt-hougan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Peter Schiff warns Bitcoin could reverse as silver\u2019s historic rally accelerates - Cryptopolitan",
+      "polarity": -0.7872634455561638,
+      "ts": "2025-12-28T02:08:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xNU0xWFlyZmFJRlYzOE1DdUZNZHdzLVBvS2wtWnRZdWpTaHNpX1RfMHlPVHR4Tm1tVTE3bHJsQnNLeGZKa3N0bGlzN3E5dTNHblc5UDZMTFh1M3E2THAzNHRKMU5BTlhoeEc2MlBrMmZBMjVxSnpSaDRDOA?oc=5"
+    },
+    {
+      "title": "Bitcoin Hovering In A Descending Range, But Alts Are Quietly Gaining Momentum - TradingView \u2014 Track All Markets",
+      "polarity": -0.07377971336245537,
+      "ts": "2025-12-28T00:30:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQekNzUXBxZTk1cmNwdUoxWFZtOFliLTVveVFRV0h3U1l3SzA3QlVSSnlsV0swLUxYbEtjQ0lZZkF2V3h4aXdPTnlyVjhIYlJOcUtpcUxxT3BOUjBtRE9uOE1Ga1dCVGxYR0hCYlhQZ0xjNkFZclBaVjY5ajFHMnFQU1V4cmJFb1NhMk02MklVcUk0cUJxTTBfRXMtZXpYYjEyZWhYUGJDaUpxMHJUSWZ5a09VeVgtMVVrUFFnX09GVXBIT3I2ekJZTzhPNHU2Vlk?oc=5"
+    },
+    {
+      "title": "New to Crypto in Payments",
+      "polarity": -0.045339565724134445,
+      "ts": "2025-12-28T01:51:25",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1pxexsg/new_to_crypto_in_payments/"
+    }
+  ]
 }
