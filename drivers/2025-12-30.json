@@ -18,7 +18,7 @@
     {
       "title": "ETF Recap: Holiday Week Weighs on Bitcoin and Ether as XRP and Solana Hold Firm - news.bitcoin.com",
       "polarity": 0.3122684806585312,
-      "ts": "2025-12-30T02:45:12",
+      "ts": "2025-12-30T02:35:21",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNV2JMeXc5TlVFWThwS0xHTTBpYldyRUF0cjNhOHVYa0FoeDNHRy1tX0s1RWNJTUppcVFzUHVyRi1KTDVEVVZOdVJoU2J3VWFCTnlIUmdJcFFMNTgwZE8xTE9wZ2hhZDlhcXJuT3hyMVZKUDN2X0VDQW1VUWFoRlF3RW10NVkyaEdXYVFhb2tYWFE3cHppYkJwel91dC1TX2xxdlh3ZTQ0SQ?oc=5"
     },
@@ -44,11 +44,25 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcVVJaHY5UUNhZnY5ck0zTlhxMVBvYjQ0WnZYeExZWUJEV0xUd1pSRmFhZXh1RHdWQ1R0TzdiZC0za2hCcUVnVGJib2JMSHhyWVJ5WlNUUmlrNDZCUFhwZi16UlVRU0ZCcFl6SUgxTC1vQUNmMjRPMDc3cHF2OC11TGRGZDBiQVNNQ25YZmNXd9IBlAFBVV95cUxQNEY4UGZES1Y2aDEteFNlc3NBSDhKTHlkeTZRODB0RU43dldZT1d4dWFWS1VMbW5uaWhHeThGM3hNdHZPa1puWDhXamM3YnBEOV9QQ0ZEQ2FSb1lIUlV0ODJuT1ZsbHBkcUlVVnh3NHdiTUVrUTI5SlBGdzFKSi1xaFhLNnh3a1g0LVNyS195T2RMM0Rn?oc=5"
     },
     {
+      "title": "Buying BTC with bisq",
+      "polarity": 0.08527353033423424,
+      "ts": "2025-12-30T06:05:39",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1pzacsm/buying_btc_with_bisq/"
+    },
+    {
       "title": "How many sats have you earned this year in rewards?",
       "polarity": 0.060556854121387005,
       "ts": "2025-12-30T03:02:38",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pz6ngh/how_many_sats_have_you_earned_this_year_in_rewards/"
+    },
+    {
+      "title": "Bitcoin, Ethereum lead $242M crypto liquidation flush as altcoins slide - MSN",
+      "polarity": 0.026599518954753876,
+      "ts": "2025-12-30T05:31:17",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQbWVMOC1JajhOWjdoVWZNUEdZMnFlTERhcWNGZVNVUC13NGxvMXBxQkljQkZReV9Ea3FsXzY1ZzdnempKdWg4R0tfbENkMGxSc1BVTFZUS1ZPejBvRGROYjFwR0h5eHB6UHdydExGSElYQ2xnV25MRWwySzBFbFhnenNwVkRLNko1UmR4VTVFN1dvbUhyUFRTRjhieklLOEcyR2ZRNG9KT1Z6SmJtYXFJZkZRajh3M1I5aTRCMmlhajFLbU45aEJ6MDNySzc0S0FhWFd5TU16S29DWDQ5SEVxaA?oc=5"
     },
     {
       "title": "BTC, XRP, ETH News: Bitcoin price reverses early gains as Nasdaq futures wilt - Blockmanity",
@@ -70,9 +84,23 @@
       "ts": "2025-12-30T05:01:10",
       "source": "r/BitcoinMarkets",
       "url": "https://www.reddit.com/r/BitcoinMarkets/comments/1pz94ct/daily_discussion_tuesday_december_30_2025/"
+    },
+    {
+      "title": "Daily Discussion, December 30, 2025",
+      "polarity": 0.0005770456045866013,
+      "ts": "2025-12-30T06:06:36",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1pzader/daily_discussion_december_30_2025/"
     }
   ],
   "negatives": [
+    {
+      "title": "ETH, ADA SOL slip as year-end selling lingers as bitcoin traders eye $80,000 to $100,000 range",
+      "polarity": -0.9562067100778222,
+      "ts": "2025-12-30T05:05:39",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2025/12/30/eth-ada-sol-slip-as-year-end-selling-lingers-with-bitcoin-traders-eyeing-bets-above-usd70-000"
+    },
     {
       "title": "Whale increases leveraged shorts to $169M across BTC, ETH, and SOL",
       "polarity": -0.9513405272737145,
@@ -102,11 +130,46 @@
       "url": "https://cointelegraph.com/news/iranians-protest-against-currency-collapse?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "title": "ZCash Emerges As Q4 Outperformer While Bitcoin, Ethereum Lost Ground Amid Crypto Market Pullback - MSN",
+      "polarity": -0.576665848493576,
+      "ts": "2025-12-30T05:57:47",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOT0xVTHlYZHZ1YThxUEJzX3lpTGhyUEdtVFU0UnVGam1MdWhidkZEWlBjS1c1UkctUldoZk1Lc3FtRlJscW12VHBlUlp0YXBnNHUtUU5IOFc1SUU4cUhNRkc2cjFNaElGVVI1bVVmTk8wVy1mSXZXelAwYlVnZmJMRkN5LUJ0UkI2T21iblVDQlQtTV9qZHN3dU14TnBVWU44ZnZOa3daRWVvc3FScVpYV21RbDJ5azJ0c1BiVmExX0h0eENuU09ZOUVPMmRUX0tSYmpsN25BZWZ1NWFRMFZUQ0duNl9ZX2Z3Qk5hbmZMc255eThxUHc5aW1WNEVxZEJ1a2c4?oc=5"
+    },
+    {
+      "title": "Bitcoin long-term hodlers finally halt selloff as ETH whales accumulate",
+      "polarity": -0.5204719603061676,
+      "ts": "2025-12-30T05:46:36",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-long-term-holders-halt-selloff-ether-whales-accumula?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Bitcoin Long-Term Holders Stop Sell Off as ETH Whales Accumulate",
+      "polarity": -0.36347052454948425,
+      "ts": "2025-12-30T05:56:13",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1pza67j/bitcoin_longterm_holders_stop_sell_off_as_eth/"
+    },
+    {
       "title": "Is Bitcoin\u2019s 4-year cycle broken \u2014 and if so, where to next? - MSN",
       "polarity": -0.18723932653665543,
       "ts": "2025-12-30T04:22:52",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdjFLeGhBM2swLW9XVGtPNEM1eVpoNC15SFljSXJkUjdpMDNCQTJRdUJPUHhYWFNyaXhjT1ROTW9LZHNLaUFZOXhvYUF5dW9zcm5sbTRxZzd4NDR2XzNFdkZheUw5QUJpeHNPZ1NRWTNjNzF1a2U4TDUyY2EtYVdWWU9ncGdhVnZscU4yRk42NF9WRG9KQ1NYdjEyamdKSW1jRzVmc1UwUVNhb0Iyd1BUcWhnUlZEcUFUZHpkR1RfbDE4alZQdXdHaWVFODZMbzA?oc=5"
+    },
+    {
+      "title": "The Inevitable Sunset: Why Every Fiat Currency in History Has Failed and Why Bitcoin Is Different. The question is not if today's fiat currencies will collapse; history guarantees they will. The only question is when.",
+      "polarity": -0.1839192844927311,
+      "ts": "2025-12-30T05:52:31",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1pza3q9/the_inevitable_sunset_why_every_fiat_currency_in/"
+    },
+    {
+      "title": "The Inevitable Sunset: Why Every Fiat Currency in History Has Failed and Why Bitcoin Is Different. The question is not if today's fiat currencies will collapse; history guarantees they will. The only question is when.",
+      "polarity": -0.1839192844927311,
+      "ts": "2025-12-30T06:04:59",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1pzacbq/the_inevitable_sunset_why_every_fiat_currency_in/"
     },
     {
       "title": "Ingham County warns of law enforcement Bitcoin scam - WLNS 6 News",
@@ -135,6 +198,13 @@
       "ts": "2025-12-30T01:45:52",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pz4x4p/i_built_a_stateless_clientside_encrypted_room_for/"
+    },
+    {
+      "title": "The Inevitable Sunset: Why Every Fiat Currency in History Has Failed and Why Bitcoin Is Different.",
+      "polarity": -0.07268644124269485,
+      "ts": "2025-12-30T05:50:14",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1pza262/the_inevitable_sunset_why_every_fiat_currency_in/"
     },
     {
       "title": "No breakout yet \u2013 Why Bitcoin traders are on the defensive before the New Year - AMBCrypto",
