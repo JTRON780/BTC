@@ -2,13 +2,6 @@
   "day": "2025-12-30",
   "positives": [
     {
-      "title": "Bitcoin price news: Short-covering boosts BTC above $89,000 - CoinDesk",
-      "polarity": 0.899426307529211,
-      "ts": "2025-12-30T16:12:52",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQnY1aHRQQ29aSEp1RVBUcEdBa1Yxc0lPTTVvWnNkNW9wLVlhM2pzM3VOdGUtT2taYUJrQkpDOTNRdTVPZ0ZpaDJrOFVNdDRwalMweVBDdmxqM0ZodUhEYTRtSWdiclpCRXVMdDBoWTNsQy1CZWJ1YndWTHB4UGlMM0dCdlA3ZTRRUzJ5TnBTQTRBWDF0Q3hBdnJQTGFNMzYyZjg0NnV3bTNodw?oc=5"
-    },
-    {
       "title": "Bitcoin rises above $89,000, showing rare gain in U.S. trading",
       "polarity": 0.8765891455113888,
       "ts": "2025-12-30T16:10:07",
@@ -35,13 +28,6 @@
       "ts": "2025-12-30T17:13:12",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1pznoy1/bitcoin_this_month/"
-    },
-    {
-      "title": "How Strategy used half its stock price to buy 225,000 Bitcoin in 2025",
-      "polarity": 0.4426372330635786,
-      "ts": "2025-12-30T12:54:35",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/how-strategy-used-half-its-stock-price-to-buy-225000-bitcoin-in-2025/"
     },
     {
       "title": "2026 Crypto Predictions! Tom Lee still buying ETH! Rekt tease WorldStar collab!",
@@ -186,13 +172,6 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOE9ZaW4xaWZoR2VldzdzWnR6Y1VWbzhLRDFGZklKdHo3Zkw5RnZFaTU5ZmVLZmZqQ3JwMXE1eXUyRGFRR2hjZkY3TkJXM0V6WkxhRXpKbzNqSnE0SUFmVGNVRlExV1gxX3Q4MWVHZmNkNXNCSVlaNkZJaDBjQzVZYUstTGx4TlJRQkJhejhsTjhFRzFKTmt4UjZnV1dpdlcwQkE?oc=5"
     },
     {
-      "title": "Bitcoin December 30 daily chart alert\u2014Volatility collapses - KITCO",
-      "polarity": -0.8702194867655635,
-      "ts": "2025-12-30T13:43:45",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQVZjY3V4RXBINzJxY2lEV2x6VFJwcm90NVRuY05uNHZzYVJKTVhVVUNIUWdfbE42Rlk4RnFGUHRha1o5aG9naC13SHozZkFuRUhCdGZQMWNEWkx1U2FXZWdtMWMtMm05Y0FEUmVBZnUwQ3dqeXY5ZGdJM05idy1VQ193bE9SNkl3a0dCN1diOUt6SVhHQ3IxTkxIQW4wUnVJMEhVUjFYQQ?oc=5"
-    },
-    {
       "title": "Bitcoin Push to Erase Year-End Losses Stalls Again at $90,000 - Bloomberg.com",
       "polarity": -0.7748821657150984,
       "ts": "2025-12-30T18:11:46",
@@ -235,6 +214,13 @@
       "url": "https://decrypt.co/351201/year-bitcoin-crypto-atms-2025-power-tools-scams-calls-action"
     },
     {
+      "title": "ETF flow trend and macro expectations continue to shape crypto sentiment",
+      "polarity": -0.23857387900352478,
+      "ts": "2025-12-30T17:15:22",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1pznr0l/etf_flow_trend_and_macro_expectations_continue_to/"
+    },
+    {
       "title": "Bitcoin order books just exposed the \u201cwild\u201d mechanics secretly crushing every rally before it starts",
       "polarity": -0.22105928137898445,
       "ts": "2025-12-30T19:45:59",
@@ -274,7 +260,7 @@
       "polarity": -0.07377634383738041,
       "ts": "2025-12-30T20:06:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMixgNBVV95cUxNZVkwdkRmV054ZV9XVzNaMnBQRzQ4cGg4aVZUdzZ2dXBKV0Y5d3ZrakJ4VFZ6QU90bmRRQ2FNUlk1OFc5M09LRU5BTzN4Z0lYNm9QUTh3NUdvbEtfcjVNYkZFTFVZSkFVNmZXM0tQeTNBQXozM2MyNjIzMFNmZFNxVzIyLTBScDh5U0hTdHlERkZTU004OF94ZmlFdDhUR0RUa1NrSzNESkRmUDlyUmNMZnRwYU90WExqcUNPSDAtQWR4QnBfOGpGWk1lNk5EQWI4ZEdMcmI0SFR3Q0FnSjhSdkZBR2s4NFJOMTdITHlkakYwQjVkZUJTaXlzNXF5Ylc3cmp0clhiQW5hT3pqOTVIdkxoX1pJMnRBU1VTOTZ5eWpPTi0tYWtQZGw4OExoRENuR09VbzctdUxHNVhubTBuRHptdWFJcDVRbjRneUNyNkljWmZPcW0yd3VmWVlDUHFBSzZZa3BVVlVWT0tyc215TkpNd090bk5HMm43QkhDV19NdDVKd2R0WUlUQXBLNkI2MjlDR1I0b0UzNnQ4ODBaaURtUmdjRDRjN0JJcXhxR3BjQV9LRFpGeFJOSVkxdC00S1VKWmdR?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixgNBVV95cUxPLThCSTFxcE1zcF9NMThLRWFRSzVVQ0NkUmZoc1JSTlRfS082dUJGRUpGVUR5QTRHY3Nla0RnYjJtX0xoODBpdmMzaXlkc19RTk1jS3ZlOHRaV0JJVkQ4NUNvek5DWlVxeERnM2V3MW9XUGJXVXpzcGNSd0trTEN4R2xFVXplcUQtZVhLN3VWZlJNTjR0MncwU05fVE1IMWphOWpST0xLVUZreXFhSEoxZGdjWG0xM2ViNjFwUHA1WUNDVWxSUDRybE51MFZYb1lLSzBNaVhkbUlodWdFSXR3UU5TWUU0d05ValFuVWlZNTgxMVh1blBLdVJVenN6c0pmLTh6dHh2MkNUNFJ2a1ZjNkdMeXRkVDhLU0psY2h4ZlVEVHkwR0tPdlVpVzVtajAyQ3VHRFNsOVhYb056RlB1N3VjUDh5QU5UQ3NFVGVVUWRxVG1ndkFfTlI5blpEbjNET2kxWExWUDd5aFlOY1V6ck1ydDFGUjhOSXRjMHZmNktxcEx4LXJGYmM0b0JZTVNwVmNWMktMRzBqUFd5S1kxNlhCOWl6czF5b1poQTBMSFJNN2k4U0c1a3I0ZHNOWGZUcmpxVkVB?oc=5"
     },
     {
       "title": "Legendary $197M short seller just flipped long altcoins with high leverage, but funding rates signal a dangerous trap",
@@ -296,6 +282,13 @@
       "ts": "2025-12-30T14:55:05",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMWRXd244alZqTHAzS2ZlRExELWkwV29IaHBFN243VGtyeXd4WEM5dl9sSy1uUl96WW0wQ0R3alNBLVljV1FzU1FoTWxORkplbFJUblBRUkhsRi1QVXp3dXEya1lCd0xCLUZJNlRCSG82VU1MUlEzbHVrdEtxYXlsWjJYSmJfNUdJb3o5WW50R3BBaUg4RFJqR09oZ1lvSVBxTVJkZFBRdFBkeldyeEYxa3ZXbw?oc=5"
+    },
+    {
+      "title": "BlackRock Moves $214M in BTC & ETH to Coinbase as ETF Outflows Intensify \u2014 Risk Management or Something Bigger?",
+      "polarity": -0.003887169063091278,
+      "ts": "2025-12-30T17:55:25",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1pzot71/blackrock_moves_214m_in_btc_eth_to_coinbase_as/"
     },
     {
       "title": "Should You Forget Bitcoin and Buy Gold Instead? - Nasdaq",
