@@ -2,27 +2,76 @@
   "day": "2026-01-01",
   "positives": [
     {
+      "title": "CFTC director who made Bitcoin futures possible returns as chief of staff",
+      "polarity": 0.9190677609294653,
+      "ts": "2026-01-01T01:49:03",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/cftc-division-director-who-made-bitcoin-futures-possible-returns-as-chief-of-staff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Tether Acquired Nearly 10,000 BTC in Q4, Deepening Bitcoin Bet - Yahoo Finance",
+      "polarity": 0.5455423491075635,
+      "ts": "2026-01-01T02:00:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZVc0SVUwY2xJcGV3ZVZjb1FVdW1fY21LRXBEN0NqQ0VtdG9UYkxpcDVJd0VaSmRiV04wZzBwM0tBb282bXFjejJwMzdiSGZtNTJ5THZ6b2NwQUh5cDZVT0lzcTNWSHhpVDdCN1pWRHVpWVlOVzhwRThpNFNCVXN5aA?oc=5"
+    },
+    {
+      "title": "Coinbase's Brian Armstrong Says Bitcoin Is 'Helping The Dollar'\u2014Here's How - Yahoo Finance",
+      "polarity": 0.22916035074740648,
+      "ts": "2026-01-01T02:00:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS2VONFg2NWxFdThDR1BuZkdaMWZoY3Nxb3NfR0x4eEtQbGd6STctMVZ3bUwzekRJb3dFeXE5RHhkelFvT2pHeFd0Q191N1NsQk51VFF6T2tfb3NoT2pLU0ltOTN2ZnFvVVFLSGlwZ05PVUVqRFNKQ294endCZW1McEtMNnlkSlZIZWN1Yw?oc=5"
+    },
+    {
+      "title": "Crypto Billionaire Justin Sun-Backed Coin Outshines Bitcoin, Ethereum With A 12% Rally In 2025 \u2014 Here's What Worked For TRON - Yahoo Finance",
+      "polarity": 0.1760323904454708,
+      "ts": "2026-01-01T01:32:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOX0RCLW1LSUxBcEdEczVqN0ZDNXowMGhLczgwbVJMSjRtTGhUeU5iNXBhQTFnOHNTaU10U0J4Vl9YcFRGTTRBOGxOSlktak80VXdPZjladGlad1dqUC1ZRWYyWndrM2l5UTFzZkM2VU1RX0ZfWFVuZXpJU3NvMVJTQTRKN20xc2U1Rnc?oc=5"
+    },
+    {
+      "title": "Gold And Stocks Ran Ahead, But Bitcoin May Close The Gap In 2026 - TradingView \u2014 Track All Markets",
+      "polarity": 0.13260873034596443,
+      "ts": "2026-01-01T01:00:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWXNiVkRPaFNZeVNUYy13MjNQb1NEQVVUQllUMkZHaTBkMzB2clRWY1BHbXNQX3huVEdpNDd1ckNzRW9yaTJfeG1xYWw2SVV6N2habG5RY3ZyeVB5OU1TOUJkOXVoMFkybnVhVGNEWFFiRXpxb0xuMjFIb0RJSjVVc3VJRnp6UG9Vb0lVN09JZ2ZtTXZ0UWx6YWdnMGkyUlBHYlFXZGNGb1pmRnRLdU1kY1NVazNTOUx6aV9MMkx3?oc=5"
+    },
+    {
+      "title": "Tether Buys 8,888 Bitcoin Worth $779M In Q4 2025 Following Quarterly Reserve Strategy",
+      "polarity": 0.0928624402731657,
+      "ts": "2026-01-01T01:41:57",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1q0srda/tether_buys_8888_bitcoin_worth_779m_in_q4_2025/"
+    },
+    {
       "title": "When will /r Bitcoin reach 21M members? Tell me your forecast.",
       "polarity": 0.08656711876392365,
       "ts": "2026-01-01T00:39:45",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1q0rmau/when_will_r_bitcoin_reach_21m_members_tell_me/"
+    },
+    {
+      "title": "CFTC director who made Bitcoin futures possible returns as chief of staff - MSN",
+      "polarity": 0.019643578678369522,
+      "ts": "2026-01-01T02:28:55",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNaHhHUWUxcVNZU2xXWGtyaHNXaDluM1d1dzFCV0FtMU5xYjQ2NWt3aUI1c3ltOUNyVXUwMVB5WWVzcjg3YnpZSUdZWE81aDU0QjRPQ1F2Y1p5MWlVTTM0azlnMFoyTy1SODBnSHFSazZkZ2RXRG4yZDJqMzBxVGFVdUN3ZG5ZcXIzQWxMR3UyTjc5OGFiT01WcC0yS01xZmJjUHIwLXlqNmJxVm5yWGJYaXdUMFNVNVRqTkhZMjduR1NSdmx4cGVHdW96UUV4czVENXptX25FQ1F1QS1OUURhVUgzWVV4UQ?oc=5"
     }
   ],
   "negatives": [
     {
-      "title": "Bitcoin stalls below $90K - MSN",
-      "polarity": -0.9350660424679518,
-      "ts": "2026-01-01T00:20:23",
+      "title": "Bitcoin\u2019s Plunge Bites into MARA Stocks - StocksToTrade",
+      "polarity": -0.44143733009696007,
+      "ts": "2026-01-01T00:56:23",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORlZ0LV9FVXVKN1phRDdOVnFmTDB2SWlQZGJjZWp5ZmVtOUQzck1WTlJORGUtSDZrR1lBLVdOODBCSnBVQ0ZKcF9ESGt1LUhOY25tdzliY2hqWlVGWVp4d3QxWmg5eG9HVk00ZjFST0Q2TWQ4YXg0ZkJjTUdHN0hqd0xRVmF4X2xzMG45Z1ZvS2VxdzRDck83eHd2VFZzaGJi?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4teFFIOHplVTZoWm9TQmJhd0ZDR1dpTWlMWVRULUprZXZkQjZVaEZXdW0xTjRJQjg2LUFHdU15X1JvUnNsQnprNUwySGVrX0RXSUpvWG93YTZiSmhqVGE1cDBWYzlOYjVmVkQwT3Z4R3RuNGFHTF81Mnpn?oc=5"
     },
     {
-      "title": "Key facts: Bitcoin Faces Pressure; Record High Followed by Liquidation - TradingView \u2014 Track All Markets",
-      "polarity": -0.7417354974895716,
-      "ts": "2026-01-01T00:03:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVW1CNEItc2NrbGt4dGpyUkhwMjlscUFaOXdiS2ZoSkgybXNpSEJsbUJGZ20zRzM3LUIyTkFTWlF4ZDFWT0ZTNVFOcEV4bEpwbTF6bnlrU1o2WDlxVmRPUnlQRHBaSVZUNXRrOVRRVFBGODZDLWxFV2Y5RWZJY3l4RFpKQTR0cE1xakZHbUh4allQRGd3WHhWMS1sdWJFSTgzOGxHa1cyVG5teFJ5ZExqczRFTWtOZzFQaFhIZm15TGtqMkcxMUkxUmN3?oc=5"
+      "title": "I made a table. (CYCLE OF BITCOIN SO SIMPLE)",
+      "polarity": -0.011526864022016525,
+      "ts": "2026-01-01T01:31:52",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1q0skqb/i_made_a_table_cycle_of_bitcoin_so_simple/"
     }
   ]
 }
