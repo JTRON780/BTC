@@ -129,21 +129,21 @@
     },
     {
       "ts": "2025-12-31T00:00:00",
-      "raw": -0.4505545129270658,
-      "smoothed": -0.4505545129270658,
-      "n_posts": 4,
+      "raw": -0.4659738483076745,
+      "smoothed": -0.4659738483076745,
+      "n_posts": 2,
       "n_positive": 1,
-      "n_negative": 3,
-      "directional_bias": -0.5
+      "n_negative": 1,
+      "directional_bias": 0.0
     },
     {
       "ts": "2026-01-01T00:00:00",
-      "raw": -0.04591012519503112,
-      "smoothed": -0.04591012519503112,
-      "n_posts": 92,
+      "raw": -0.04936687531242553,
+      "smoothed": -0.04936687531242553,
+      "n_posts": 95,
       "n_positive": 50,
-      "n_negative": 42,
-      "directional_bias": 0.08695652173913043
+      "n_negative": 45,
+      "directional_bias": 0.05263157894736842
     }
   ]
 }
