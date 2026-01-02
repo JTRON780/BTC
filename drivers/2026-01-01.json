@@ -3,26 +3,11 @@
   "positives": [
     {
       "title": "Worth adding SOL to my portfolio?",
-      "polarity": 0.1118267010897398,
+      "polarity": 0.11182658933103085,
       "ts": "2026-01-01T23:36:59",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1q1irbl/worth_adding_sol_to_my_portfolio/"
-    },
-    {
-      "title": "Which predictions landed this year? One ignored model actually nailed the 2025 market cycle",
-      "polarity": 0.01163475215435028,
-      "ts": "2026-01-01T19:25:57",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/which-predictions-landed-this-year-one-ignored-model-actually-nailed-the-2025-market-cycle/"
     }
   ],
-  "negatives": [
-    {
-      "title": "Bitcoin options boom raises fears of capped BTC upside",
-      "polarity": -0.8149798903614283,
-      "ts": "2026-01-01T20:00:00",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-options-under-fire-as-covered-calls-take-center-stage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-  ]
+  "negatives": []
 }
