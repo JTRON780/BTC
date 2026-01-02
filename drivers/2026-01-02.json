@@ -3,210 +3,259 @@
   "positives": [
     {
       "title": "Cardano's ADA pops 7%, bitcoin, ether show steady gains as traders enter 2026 - Yahoo Finance",
-      "polarity": 0.9054195713251829,
+      "polarity": 0.905419560149312,
       "ts": "2026-01-02T03:49:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qQzNKcE9WNHY5elEwZ0x3aXpxdE5nVUxBYWkwMUppS0R1a0pJekRkdjVZR0p3OWZwM0FEdFoxNGRheFdrSlhHdTdvNTZnNXdTa3JfQWpwWlE2MVVxeWVDVzl3SV9fcUU1X3J5ZmlCY0MzcXEzNHZhcXY3cmhHZw?oc=5"
     },
     {
       "title": "Tether Increases Bitcoin Reserves With Significant Q4 2025 BTC Purchases - Crowdfund Insider",
-      "polarity": 0.9016598407179117,
+      "polarity": 0.9016597233712673,
       "ts": "2026-01-02T04:20:27",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZDlIdjVsTUpDa3hzNlpydFZaMEJwS3p4MzRGT3ZnY1BUdlJIbHFpXzR2c09NX3RRS0N4TGd5QnpmTUNnbUsxVklqOWhNbFUzbUdqaWVmWVV3YnkxY053eG41YXZoLVlpdWFXWmJfRE4xUDlzNTk0blNFX0tYYlUtUUVxZXVIcF9FZ3FhNU1ZRWxuMTVKUkZvdmx5QlJMQUFkQXBtSHotOFhsQ2o2VU1RYjE3NzIyeDNhOFZubENB?oc=5"
     },
     {
       "title": "Cardano's ADA pops 7%, bitcoin, ether show steady gains as traders enter 2026",
-      "polarity": 0.8918761424720287,
+      "polarity": 0.8918763175606728,
       "ts": "2026-01-02T03:49:20",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/01/02/cardano-s-ada-pops-7-bitcoin-ether-show-steady-gains-as-traders-enter-2026"
     },
     {
       "title": "Tether adds nearly $800 million in bitcoin, bringing holdings above 96,000 BTC",
-      "polarity": 0.7389306146651506,
+      "polarity": 0.7389310281723738,
       "ts": "2026-01-02T03:36:16",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/01/02/tether-adds-nearly-usd800-million-in-bitcoin-bringing-holdings-above-96-000-btc"
     },
     {
+      "title": "Crypto Market News Today, January 2: Bitcoin Price Closing $90K, Ethereum Blasts $3K as On-Chain Activity Hits Highs - 99Bitcoins",
+      "polarity": 0.715450968593359,
+      "ts": "2026-01-02T08:19:08",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeklqUEZBNDRyUkpuM1JrYVpMRHM1QXoxQkY3UTd5dGpBM1NwaFFBTnd1WnlmejRocXJRX1h2Z3NSQWFoRjdMdjRBMS15VlJCczZPdFpNSXRhRWt1R1BYWmtzUmF4Wlp0dE4tQTVEWWtTempETVBTRlFiN0RNNFBMNGlLbkljVlR2MmhHbjIwS2pBdkZQdVVER0NIWHk4MWx6M3I4aXpEaE1PSTF3R1ZPLWQwTE1jdy1va3R2Q2k0VEpmQ09yanZocHVfMFJiT0hrRXRvMzY3S0N6Qmt5a2tlZkJTYw?oc=5"
+    },
+    {
+      "title": "Crypto Market News Today, January 2: Bitcoin Price Closing $90K, Ethereum Blasts $3K as On-Chain Activity Hits Highs - Yahoo Finance",
+      "polarity": 0.7066452838480473,
+      "ts": "2026-01-02T08:14:40",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbVVNb0RfYUstM2xTQWsxQkVwYWE1UzNXTy05QmpNQ2dlTU1YMVdiWTBxekNjVGRsbGlxTjczRU5RVnlnT2dCY0QzYUtFS25jUXMzTzE2NXVyMEQwaTJlZG9ubjdXM045WVB5akRlNGtpNm5tUlRSSzdxaHRuaXVWbW5Xb1o?oc=5"
+    },
+    {
+      "title": "Bitcoin ETF momentum builds in South Korea as regulation lags behind",
+      "polarity": 0.6671617031097412,
+      "ts": "2026-01-02T09:04:00",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/krx-signals-readiness-crypto-etfs-regulatory-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "title": "Crypto sentiment shifts off extreme fear, but \u2018mixed emotions\u2019 persist",
-      "polarity": 0.5886671543121338,
+      "polarity": 0.5886661410331726,
       "ts": "2026-01-02T04:54:56",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/crypto-sentiment-index-fear-market-emotions-bitcoin-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "title": "BTC, ETH, ADA, SOL Price: Cardano pops 7%, bitcoin, ether climb as 2026 begins - CoinDesk",
-      "polarity": 0.4746642140671611,
-      "ts": "2026-01-02T05:05:18",
+      "polarity": 0.47466325480490923,
+      "ts": "2026-01-02T05:07:07",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZFpyT2l6VVZ5dEFSUVB6WVBlRGpTSklmajRwOFlaczAteTgxell5blV1dWF0UDZQYk5fUS14aU04UVFSY2lrWDRRWGN3blZ6eFVHUkVuSmxDYkpxSldrWjUyaDRia1Fmdk50UTdKVFIwMzk1ZzE0V0ZIcW1ZTEJPM00zMU53akFCYmJiRHgtU2hZYzBlQlFLVlF1bGswN0tqWTJNRXNLVVc2c2lXNEZNdFJMcktsNWFZQmc?oc=5"
     },
     {
       "title": "Bitcoin price today: rises to $89k but trapped in narrow range amid ETF outflows - Investing.com",
-      "polarity": 0.4404282420873642,
+      "polarity": 0.4404274597764015,
       "ts": "2026-01-02T07:40:47",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb2steGdkSzh2R3hkcTNST0hGZ2lKQ1dFRlhuODAycndGYXZuQmV0OTRmTEdZSXQ5TGZxVnFzdHUxNG9lRWhGdGRVUGhGVEVZWkRlLTQydVNObFhqQmRzdGxZOVo2RTREcGhwdHhDQUtxZ3g4aTRhMEFRTmR0eE9WUkxLc1RrSUZBdzNpczhhSXdxbm9iTWF0RGZNaG51ajVySUVzVzZhMFUwQXRqbjJsbElZSDFtaUt1aXBqcVhSaHkyNDkySFlERERDNUlJSW5Xdi1B?oc=5"
     },
     {
       "title": "Chips Soar, Bitcoin Snores: Asia's 2026 Kicks Off - BeInCrypto",
-      "polarity": 0.3750997669994831,
+      "polarity": 0.3750985711812973,
       "ts": "2026-01-02T04:23:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kTXdWWEFRUlRicDVoazNhRldsR0l5MzNHU1haTFRTM3BOVDlLbDhYTFFTOHJlbjZ0RmdfNEdLZkZlaFgtS0pnLWVYS19xRDJiN1JJQ1RxNWl1THNCR2VTa25renQtLTJ5ZjlmS2t3?oc=5"
     },
     {
       "title": "Bitcoin ATM Scams \u2018Not Slowing Down,\u2019 FBI Warns As Crypto Adoption Grows Alongside Fraud - Stocktwits",
-      "polarity": 0.29811396449804306,
+      "polarity": 0.29811105877161026,
       "ts": "2026-01-02T00:21:20",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYS1STVJtYkxfUUtodExBMWkxUjNJaGF6aFQxR0JDVmt0aGpkR1RaMmJ2ZUh1U3N4b3RzaG9CYmMxQTJXZUpaWjVsTHpzRm1YLWMtdkJYa3BYOWppWXVwaTlUVmxiUkNHdkhNTllqNExVQ250NTlTNWUzX0FmbVZCdEZ1WmdhQnRtWkZHeWhJQlRxajNBYWI2RERVTmZRVHJGMmVmb1VyQko4OEdUZ0JNbkV0VDVUNG13SEVMOEVSQjJoc1BxdWV6UlVobGt1WU50UktOVk5zdUg?oc=5"
     },
     {
       "title": "Tether just pulled $779 mln in Bitcoin \u2013 And the supply shock is growing - AMBCrypto",
-      "polarity": 0.17675920575857162,
+      "polarity": 0.17675918154418468,
       "ts": "2026-01-02T01:02:03",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNY0JRRXZBb0NNX3NNNnlPQUZJZXhaWTNYOGNSbGxJcHUxVmhFVVVsYjA4Z1NhSmNSOW0zZlYydjJNNTlGT3ZiWjd3RDdiZV9IX0RIQ1dTeDl0RThYVkdrSG5Oc3Y5NWNobWtub25DeDRadEFEOFVyaWZaVGhGZnBIUTNvLVZScTRLYjhCWVZKNllKSHBwMHZ30gGcAUFVX3lxTE9uSDhweUdneE9kSmZGSWpWOVhSWlZZaGZCQjFLOE0zcElZMlNNVVY4ay1aVmIySlAtWUpLbk9rSjBFVmFXYWk1U2NRbERvTFYtRXpzN2ppRTROX1pkQUxYMm94LWlXcFVCdEdWdWstX21RLVJJVHVMcTVQa3o2Z3VsZXB3RXpRS0w0YTd4Sk9LekV0a3l0bnQ5S05CeA?oc=5"
     },
     {
+      "title": "Crypto adoption grows, so do the scams \u2013 and Bitcoin ATMs are ground zero, says FBI - MSN",
+      "polarity": 0.15550576243549585,
+      "ts": "2026-01-02T08:59:49",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOQU1ZZ3dmdW42cU1kaW1wTDBzVG1NaE5rcUZTeDdrSjlST1RtcTBkTzh4RUExV3o1VFp4RnlCdW5DUzVVbFE5YjdkaklKZmYzcXZvQWxzNDh5TVR4Y1FETFNZYm9lQUVhNDkyQU50b3hrNHBENVRwVlRyS3VNSlBtRGV4c052eFZtLVBmd0s1Skd1dmFwRnlnN0tPaS1iR1JKTjJiUkFUNkxpN3I1S2l6UExYTUh2R05rdGF6OEc4VUhjOEpTblBHVGRkTy1QS19jOWV1eEhUSV9hWFN0Ums1dFJSZDBHaDFVR0pBMkpR?oc=5"
+    },
+    {
       "title": "Now all coins want to talk about offering Quantum Resistant solutions. Easier said than done",
-      "polarity": 0.14073419198393822,
+      "polarity": 0.14073413237929344,
       "ts": "2026-01-02T02:21:19",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1q1mer1/now_all_coins_want_to_talk_about_offering_quantum/"
     },
     {
       "title": "Galaxy 2026 Outlook: Bitcoin Follows Gold Toward Monetary Hedge Status With $250K in View - Bitcoin.com News",
-      "polarity": 0.1062710452824831,
+      "polarity": 0.10627052001655102,
       "ts": "2026-01-02T07:40:44",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVTQ0UWNKcWJhQmlZdzV4UDBKTkdBeWZtSTRXMFliQjAzLW56UTdkTkpPczM0TzlqczZlSDZsbVZaMHpaZnRFY3ZYRnZ3QXNxQ1lrVVB4UVJlQjFJVHRYd2Q2WFNGSVhNUHFPRjNQdi1GYzFYX2FiYVhBTnR0dXFOaU5GQVo4YzN4cWZQajRHbVNkMFF0MGxqSURXWkFzYWREV3luMENoSXlOQ0I2Zlh1aF9zMA?oc=5"
     },
     {
       "title": "MSTR Options Exposure Dwarfs Tesla, Nvidia, Meta \u2013 Michael Saylor Says Bitcoin Makes The Stock \u2018Interesting\u2019 - Stocktwits",
-      "polarity": 0.09276356734335423,
+      "polarity": 0.09276364836841822,
       "ts": "2026-01-02T06:17:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTElybF9uTVhvM3NxQmloVWhfYnk0S2haazNpaXhkclRnWktQZ2UtaVpqVmhlQ01oa3pKaU55cm81OGVOZmpHaVpGQjBoNURqckcxT3c5SkxIWTlvQlFPZS1ueU1fTnlLRkIyaEpJZ21mSU5LQUFXVVRRYldEWGhwampuMkZPNHd5Q0tpYzh1LUVRZUZwRDFDdXA3OHpYaGsxTzYtb3UyOHo1X0FrX1hwN2lyem93bWpCUnNaTjNpOXNSaWJEek55X0E3MVI2UEFQT0RVajdwWWVzcmRCMmNqWjJB?oc=5"
     },
     {
       "title": "Polymarket Puts 21% Odds on $150K Bitcoin in 2026 - Bitbo",
-      "polarity": 0.08979672752320766,
+      "polarity": 0.08979666419327259,
       "ts": "2026-01-02T07:45:04",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tSm5HcXJraDJ4WV8zeDh1NW11N040RVFXWENnbVZVZlZGNkdGWHhCWkVUNEdVUmh0TDRKTW1qeVltcGtJci00c19NeDU5cmRCTEFjQWwyNW11UE9HRkc0Rg?oc=5"
     },
     {
       "title": "MSTR options exposure dwarfs Tesla, Nvidia, Meta \u2013 Michael Saylor says Bitcoin makes the stock 'interesting' - MSN",
-      "polarity": 0.07499454915523529,
+      "polarity": 0.07499471679329872,
       "ts": "2026-01-02T06:31:15",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPcEhEWDBFaGthR010TkM2bVlGTUxTb2tfV3Fhakt4RWNnQkxwSzdXamJTSFVIN20xTWxPSm5aV3ZUZU1CZnp1OEFmWDdDQXNmWWh5dVQ4ZHZkWFFuNnJyYmxvT2wyMU55X3UyOXNfUjBCbkxCQ2RjLTlUdndBNGY1bjhQeVFQQ2QtQTAzX182SFU5azYwYkNCNmFDYVp3b0J5R2FmZ3VtcTRKUjhnUGFhOUZTVmMwUVE5NW9DdUhsVGtsTVIyV0hmcUYzLTVVUjFncEc3TzVFNGtPTWlHdmtKQ0RaWUF2V1BmaW9Zam9ZTWhyTEpJRlcwWmZwMjlXTEtLM0NqSDhkZV9lZVN2aXdJ?oc=5"
     },
     {
       "title": "How high will Bitcoin\u2019s price go after the next halving cycle? - AMBCrypto",
-      "polarity": 0.07226895168423653,
+      "polarity": 0.07226897031068802,
       "ts": "2026-01-02T06:01:44",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRGtuNDhRVWd2LUZFQjRUQWdGRjEtSHEycW0td1VfVEw3TEJlWnBnSGFpOHFZOFB5RmpsMFVTTENNVFVEVEJncFF6LVlpZDZreEVIdHRwdElrWEJMMVp6c1FUOUhhOFU0ek94U25KTVlvRDJ5WS1EWXdaTk1KR3d3SlFlak0yY2ZfZDUtakNKWlDSAZYBQVVfeXFMTUIzZ3FncENZUV9CRHVxZ0xmaFFSOFhkSUdvbzd6dWg0bG5JeTZOZTFuZUtRSFotOVEzTWh3bDF4LUpLR0lSbWZrZkNCVjVxYUtRUFp3MGk0X0VLampSNERuRVh2YUlKVmtXMVh2RWNTLWx1UHNvNndNWTBRQlNSOEdTMXpjRC1UQ2VOcVFpMDJxaUdkTEtB?oc=5"
     },
     {
+      "title": "Top 15 Freedom Tech Projects of 2025",
+      "polarity": 0.07132382690906525,
+      "ts": "2026-01-02T08:03:32",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1q1sy0n/top_15_freedom_tech_projects_of_2025/"
+    },
+    {
       "title": "Tether Adds 8,888 BTC to Treasury In Q4 2025",
-      "polarity": 0.06591218058019876,
+      "polarity": 0.06591196358203888,
       "ts": "2026-01-02T05:55:15",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1q1qqp4/tether_adds_8888_btc_to_treasury_in_q4_2025/"
     },
     {
       "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH and XRP enter the New Year with breakout hopes - FXStreet",
-      "polarity": 0.056799737736582756,
+      "polarity": 0.05679977685213089,
       "ts": "2026-01-02T03:30:37",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWE9GbFEtYkJzZko4TmZLc3Q0d3dKQWdSMVgtcGdZUVQ1Snl3ekIxWEVqQmVGUVhrVVlySUowYXlja3B3TzdFZHhVdzlzb1JvRU9HR1Q3R1BJdmFaZ0VaUU04RXRXYUNKUGVBV2dSOE5IQ1lYM01lTTFfQ2otV2ktdUxxcUtJVEg1SHFxb2lRVHJfbE1NeWRCZVhTTzNWRWJwbGlXSHdHUGxMb25uaUdJeWdveUE1X0ZkczJnLUViY203cE5rbVgxM3pKSGs1WHk1V3BLQjZ1cjNiSU1TY2x1Ny1QSDVCbG1JQ0tUbTdfcG9LTzjSAfgBQVVfeXFMT2xFdlFSb0F2NVhfei1SamNPYVV6RURLeEMyeWw3VVdaTlRQN2oyUlEwVjVnbkVOTGlPWUlRWUx2eFVmZ0lwV2JQcmNUb3pNZ2JNMlRRWVhfYXVad0xBNmZoWmx4dUsxcFBvbFR5WHFjcGhJbTR4RGxQaXBRaTVoVFZUQnhoN2xEX0FaWkZlQlVybmw2Z3NUN3c0Q0JYRUJNYTY2VlNSZTJCdXNBUWtNSXMwUFlneWJaejlPY2lJcmJzNW9nRkt1UmhvYnNkaHRUN2dhSHJiZWp4ZHdBbXNsRjNick5aQzNweVE3S1RZeW0taVpzU2RENXE?oc=5"
     },
     {
       "title": "Bitcoin's squeeze sets stage for major price swing",
-      "polarity": 0.055756136775016785,
+      "polarity": 0.05575590580701828,
       "ts": "2026-01-02T05:10:44",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/01/02/bitcoin-s-squeeze-sets-stage-for-major-price-swing"
     },
     {
       "title": "Bitcoin news: Tether adds nearly $800 million BTC in fresh buys - CoinDesk",
-      "polarity": 0.054940253496170044,
+      "polarity": 0.05494009889662266,
       "ts": "2026-01-02T03:47:37",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVW9QamNqUDRhNUtWMFY5TXFlbXhEcXpiRG4wNE1qcDdLTFZyQkFKbXVtYlRlREhGT0RsUE1DcTQ0RHFZak5GVzYwb1NVOEdna2ZjdlQwWjNXVHNHMnJQQmFJWU5LdTlzU0RGZUJnUjN4US1iZzF1WUo0M2JqellJN25UZk9GUXFXaU9UM1YwcEtacm5xbklJTF8zV2d0Qkd6VVFQejh5UDh5X2VmUGdLYnlYM2RQUTB2TWhqd3M1Sko?oc=5"
     },
     {
+      "title": "The Silent Revolution: Why Math, Not Morality, Will Drive Bitcoin Adoption. Escaping the 3% Tax: How merchants will dismantle the credit card monopoly.",
+      "polarity": 0.05018840171396732,
+      "ts": "2026-01-02T08:46:06",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1q1tm46/the_silent_revolution_why_math_not_morality_will/"
+    },
+    {
       "title": "Bitcoin\u2019s Hidden Ceiling: How Covered Call Strategies May Be Capping the Crypto\u2019s Astonishing Potential - CryptoRank",
-      "polarity": 0.04842166416347027,
+      "polarity": 0.048421550542116165,
       "ts": "2026-01-02T01:32:39",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUklIS0ZBbko3OThlMWpWOXJZb1Z6eUpEenpvd2dad0tudzNVSWVpeHExWkV4Sjk5bHBsUEZZYzZKVjUwNVplekotOGU2d0h2T1JRVjRqMUdKdFhjR2l1RE1OUE5JMm0zUURscG1KUy1GYmJsZWk1d2ZHUWtzRVktQQ?oc=5"
     },
     {
       "title": "Bitcoin makes $MSTR interesting. - x.com",
-      "polarity": 0.03219619207084179,
+      "polarity": 0.0321961659938097,
       "ts": "2026-01-02T00:58:59",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JYlo5VW5TT01VdnBnTVVxRExpRjZPSUFZeHYycGMwMFFwal9lVjBNdEw1N3BkcEVkZm5mbzlydHRVWXpMTkxpdTdrQ29valhOZW93ZFFyTjlQeG8?oc=5"
     },
     {
       "title": "Bitcoin Hashrate Expected to Follow Moore's Law by Top Industry Analyst - TradingView \u2014 Track All Markets",
-      "polarity": 0.029776430688798428,
+      "polarity": 0.029776410199701786,
       "ts": "2026-01-02T06:56:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdDdpVHAxUWc0Y3VOTENBR0ZtNnc2NDR1SXd1VjZKVkFONFdrZnJjR0dYeUtSSXdsYW04c3VLWlNQRHEzMG5aWWpkeVFpUzNuUVpQN2xiYkxlRF9WazJhZnAtVGlBWlV1TENSVG9xYW96YVlpZEdkckRaMnFub2JDOHk0N0ZKdkd5Tk55TFpMSXk1Y2JyZDE5alJuQy1BQzNzUjVfdDFKZFFjbDBtNWRMWnZmN2Nxd0xyYWxURGJzVFJ6SU1FSE5kMQ?oc=5"
     },
     {
       "title": "Key facts: Bitcoin price peaks at $126K; Tether holds 96,185 BTC - TradingView \u2014 Track All Markets",
-      "polarity": 0.021609000861644745,
+      "polarity": 0.021608714014291763,
       "ts": "2026-01-02T00:03:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONF9iNFNPZkt0N29XbXZ1NkJremQ4Q290dHZlX0E2OVhiX3dfNmwtYzdYa1lmOHhtUVdrR3g0NDJpckptSEg1RU9hUy1WYWp6YmdfRUk1SXFFN1Y3R0VaZjNOa04yRW9vcUhMTk9Nd282ckZCYUFBWGduMmZUODdiUkJNOXI2Z3RoRVJ5dWJhVXE3OUFoaGxHZk1YRmZTZ05tU1pMSEJGckNXZ2pIQVpqWVF0bV82Sm4zM1lsN1NFYmc?oc=5"
     },
     {
+      "title": "Sweeping funds from OpenDime v4",
+      "polarity": 0.018699288368225098,
+      "ts": "2026-01-02T08:36:18",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1q1tgoo/sweeping_funds_from_opendime_v4/"
+    },
+    {
       "title": "the switch up is crazy",
-      "polarity": 0.013379454612731934,
+      "polarity": 0.013379447162151337,
       "ts": "2026-01-02T07:35:21",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1q1shl1/the_switch_up_is_crazy/"
     },
     {
       "title": "Script to help Bitcoin Lightning accounting in Koinly",
-      "polarity": 0.013179216533899307,
+      "polarity": 0.013179101049900055,
       "ts": "2026-01-02T03:08:48",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1q1nfou/script_to_help_bitcoin_lightning_accounting_in/"
     },
     {
       "title": "[Daily Discussion] - Friday, January 02, 2026",
-      "polarity": 0.01313718594610691,
+      "polarity": 0.013137102127075195,
       "ts": "2026-01-02T05:01:29",
       "source": "r/BitcoinMarkets",
       "url": "https://www.reddit.com/r/BitcoinMarkets/comments/1q1ppgs/daily_discussion_friday_january_02_2026/"
     },
     {
       "title": "$2.2 Billion BTC & ETH Options Expiry Kicks Off 2026 Volatility Test - BeInCrypto",
-      "polarity": 0.0076985228806734085,
+      "polarity": 0.007698319852352142,
       "ts": "2026-01-02T05:30:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54VnlEbUk2aTFfcndBR2wyRG5MWExwUHYzUmNXWlA5d0VWSTlVQmhDbF9vMi16NVlxdl8xaWRoQTlrS1ZwempJNEJaZl9VSlplN3V0b2FGRDdIT2RERUU1cmJQdjR0LTVHTjBKTk55U2QzWlRlYWxRZUF5U0hORWs?oc=5"
     },
     {
       "title": "Banksy is Satoshi Nakamoto",
-      "polarity": 0.0036911368370056152,
+      "polarity": 0.0036911051720380783,
       "ts": "2026-01-02T03:09:01",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1q1nfv7/banksy_is_satoshi_nakamoto/"
     },
     {
       "title": "Daily Discussion, January 02, 2026",
-      "polarity": 0.0007073339074850082,
+      "polarity": 0.0007072370499372482,
       "ts": "2026-01-02T06:06:05",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1q1qy6s/daily_discussion_january_02_2026/"
@@ -215,168 +264,189 @@
   "negatives": [
     {
       "title": "Bitcoin ETFs lose record $4.57 billion in two months - CoinDesk",
-      "polarity": -0.9564786236733198,
-      "ts": "2026-01-02T04:51:52",
+      "polarity": -0.9564786339178681,
+      "ts": "2026-01-02T06:51:33",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaFpQdzJTbklkd3BHYnMyZm5zWVRFc3l4bnpiTTRLeGdsUDdUaVpyLVVLaEVxaG5oTWtFNVZpcTJZYWNaYk1USFN5MExaN2F2eUhwdV85eUUxTlBsOXM5NlA4THliRlF5bG5sdENDa09FZnp6U2tFbFlVeUdjQy1ta0NKVlViSlNfYldsUzdVX25iWi1xZllMYzhMbHBZcms?oc=5"
     },
     {
       "title": "Metric suggests Bitcoin has been in a bear market for 2 months",
-      "polarity": -0.9526833714917302,
+      "polarity": -0.9526833835989237,
       "ts": "2026-01-02T03:38:47",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/crypto-bear-market-began-november-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "title": "Bitcoin ETFs lose record $4.57 billion in two months",
-      "polarity": -0.9521707613021135,
+      "polarity": -0.9521707743406296,
       "ts": "2026-01-02T07:45:37",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/01/02/bitcoin-etfs-lose-record-usd4-57-billion-in-two-months"
     },
     {
       "title": "Polymarket traders see just 21% chance of Bitcoin hitting $150K this year",
-      "polarity": -0.8836800344288349,
+      "polarity": -0.8836802989244461,
       "ts": "2026-01-02T02:07:20",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/polymarket-traders-21-chance-bitcoin-hitting-150k-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "title": "My thoughts on current market conditions and where I think we are heading.",
-      "polarity": -0.7905684653669596,
-      "ts": "2026-01-02T05:08:32",
-      "source": "r/CryptoCurrency",
-      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1q1pujn/my_thoughts_on_current_market_conditions_and/"
-    },
-    {
       "title": "Bitcoin starts the year flat while Cardano, Dogecoin rally hard - MSN",
-      "polarity": -0.782718688249588,
+      "polarity": -0.7827193439006805,
       "ts": "2026-01-02T05:01:05",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPU2UwUWsyeXowSFk0Sm5XelRnYVFMR1hBZDMwNkFqRXR4anphSlhhMFM2emNLdmtMRnZwUjY1MDFyakhFSF9UdUhyNVBhYkZVNkRPWm1Ba3h2Y1YxMVNsS1J5V1ktLWdpTTBMVkVtdmwwVC1qQTBQelNkYmhXSFIwMlY5Q1F1WnJIQmtkWXV2VjVIMGF5dDBCWFoxc2pGRXFkVVRhSGllUlpPdVlBSjY2WDRGSWQ1cDdvNXhNQjZMNTgzTmVlNjhlOWYxSXl2VzhMb3YxLUtRQQ?oc=5"
     },
     {
       "title": "Bitcoin price trades sideways ahead of $1.85B options expiry - crypto.news",
-      "polarity": -0.3713168539106846,
+      "polarity": -0.3713166043162346,
       "ts": "2026-01-02T06:01:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Zal9aU1k1SHJuOWhQTXpfZlZwVFVTTFB0M0FBZkdqcG94b0RITjAtSHczdkhpMVU1dEVWTHhfUWRBbk5tT2RUeHJfZXhJSEttNVVEQlBuVlFqZklQd0NoUUpFZUtENkVHQm14ZEctY3ZUYWFi?oc=5"
     },
     {
       "title": "New to Bitcoin",
-      "polarity": -0.28553126752376556,
+      "polarity": -0.28553079441189766,
       "ts": "2026-01-02T05:34:16",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1q1qckg/new_to_bitcoin/"
     },
     {
       "title": "After Bitcoin\u2019s (BTC) first yearly loss since 2022, what should investors expect in 2026? - MSN",
-      "polarity": -0.2634432464838028,
+      "polarity": -0.2634448818862438,
       "ts": "2026-01-02T00:48:39",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNN1RJT3lxSEZNdk5OTmFvU1p0d2FVZkVGSWtndUVKNEtqMERWc3RWSEtkUlp3dXVpQlNsbnhlQlNFaHBtU0RYbk1uQmFEZGNfT2VLTnk2SFFsd2Z3QjYtT2hkX08tdG1DRm9BLU1vMldzdGFhTjIxeDUyczc2alJDNUs2SVQ4UGQ4cDhwX2xKb2xhd1lySWtmRjM3YldlaV9PckJiSjI4bUxwbzlUb0Z5dkk3aW5qYnU0eEE5WTJrZThMeEQ4WDc0V3NYQm5YRDNoNFRjZE5hTFd6eWV0S3FySGxlMGhuWHVSclp4TkFfWVcwemMyd3c?oc=5"
     },
     {
       "title": "Beckham-Linked Health Company Stops Bitcoin Acquisitions Following Late-2025 Market Correction - Yellow.com",
-      "polarity": -0.24486221186816692,
+      "polarity": -0.2448613978922367,
       "ts": "2026-01-02T05:08:09",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMzlOYWNwR3NmaU1XZExCVnM5dV9oSktJRmpRRkpwa3QwQVhzTzZpQ0p6VHNoeFBSbjhkWHJCZnd3bFo5WUVzN3pRVmRSWGszalhkSHJ1QzVIRFRzX3lSYlRLNWlnbXQ5TnVsMzk2UklBWkxaLUIwUU5LR3p4SnpjM2xZNzJ1Wi1qQ1NBMUU2amZURjNIRmVHazZxQmhRLXpyX1dGNEk0ekMxREVQQU1lMXRidWJ6T3dUbEE?oc=5"
     },
     {
       "title": "Analysts: Bitcoin RSI Signals Volatility as 4-Year Cycle Fades - Bitbo",
-      "polarity": -0.22285617142915726,
+      "polarity": -0.22285756468772888,
       "ts": "2026-01-02T07:50:58",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rWmVwSndaREZjUHlsejhZU1JtcDQ0WWowTFJYanJJaTdKQm1KYnZtNDYzMHNZb2JiTFZIWjJzRzZWSk5UMHY1aVFzcExNcVJXZkpqVk5nSnJveUlWQTg0MUhGcFhjMlAtY2l0MFln?oc=5"
     },
     {
       "title": "Is the Bitcoin Four-Year Cycle Broken After 2025\u2019s Unexpected Finish? - Bitcoin.com News",
-      "polarity": -0.21509897150099277,
+      "polarity": -0.21509831957519054,
       "ts": "2026-01-02T00:46:28",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd1lScmpRdXpfLTRvZWdaME9SY1RaS2oyaDRTZURmSFBYdTdWUFl0SjZGOURCeC1UNVk3LXZYeE1ncDE0OGJlZm1yZFAzaXVxcjJrS2JzaFVoN0ZoTWs5YjJPbHlnajdjdzdaSDM3WHY1bDY3QVRaMmNtX1QyUjAzQ3B4cDA2TDZycTdrMmtFeFlWak91MHhVRA?oc=5"
     },
     {
       "title": "Bitcoin Sentiment Exits Extreme Fear as BTC Holds $89K - Bitbo",
-      "polarity": -0.19936682283878326,
+      "polarity": -0.19936703145503998,
       "ts": "2026-01-02T08:00:47",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KWWFzZGtoamJ2S0dmT1hmM1JYbjFsbndfbGI4TXBEMThUbTZ1X2JkbmRDWmE5ZEVSVDNrX1dZUlVESm1FcHRnNE9Cb004LVdlRUoyMHJldTVJR3JBY0w4R1I3TVhqSmpiYWxJ?oc=5"
     },
     {
       "title": "Bitcoin ETFs End 2025 Under Pressure as Outflows Deepen - Bitcoin.com News",
-      "polarity": -0.14721320569515228,
-      "ts": "2026-01-02T04:01:05",
+      "polarity": -0.14721408486366272,
+      "ts": "2026-01-02T04:19:23",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdGgxWUhJSVlHTHZJZmdIX25wTTJIa2lnT3VhLUcxUEwwbjM1bUpLQ21WYU5DNEdkUk80THIyM0RySVFiN0dnN1JPUHMtS2k3WUszdWRkRndrOFB1WFlMZnRDZDZkOFVZV3Z6REJlN1RSUS1OU1dYU21sT3Q1YmJlT2RXaFllOXhK?oc=5"
     },
     {
       "title": "Missouri takes aim at video lottery machines, illegal hemp sales, Bitcoin companies - Missourinet",
-      "polarity": -0.1414115633815527,
+      "polarity": -0.141412066295743,
       "ts": "2026-01-02T04:01:49",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRjgxV1V4WTZnTklnR1o4RDlnQmY1MDZGMzQ1ZThzTi1qV3RHSGZ0Z3RpVnZBcW9RUFd3YS1CVnVZUmNpUmI2REVSa2poenJzWmEzUXRCQ0tpUmlyUHpvVVJQWEFEUXc3QWlnNWtIRmJ2YWFjeHQyeTRzT3U4d0h1WVdyTE1iWFYtdVo5OWNCSDgzTWtzWk9BUS1EbXRYd3dfaE9BTUdBa1BmekhqM0ZGRk44ckdwXzBjYnY3d2ZR?oc=5"
     },
     {
       "title": "MARA stock slides into 2026 after share-plan filing as bitcoin steadies near $88,000 - ts2.tech",
-      "polarity": -0.06517720222473145,
+      "polarity": -0.06517764925956726,
       "ts": "2026-01-02T01:47:10",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcl9yYUJkWFRMZHByT0FOQXh2bUFySVg5ckVhQ0p4X1RxaHlndEdtWDlqc01EUzAxSm1mUGxVWnB0N3Q4TElJNEVaT0k5aVhrSl9UM214Nm8wb2RJT1dxWnptYk1uM1JyQjVDOXNuZ0EwNzA1WHpnZlFVU05TeU5VWWRybEtMNlpIbVFOOEtZWXZfVTR2VDNoWXdLeGtWRURQNnJsdjVn?oc=5"
     },
     {
       "title": "Metric suggests Bitcoin has been in a bear market for 2 months - MSN",
-      "polarity": -0.05626308172941208,
+      "polarity": -0.05626322329044342,
       "ts": "2026-01-02T04:00:32",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNeF8ta181WHJQMmllOWJLUXA1LXA1bHFRdjNVN0VEN2plSFFvZDN4RnZHMkFZRFFXeTNoY0tmbGZCQjVDa2ZwdjhjNjhQejRRYmFsQWd6eFBsWlhybjZxUkNFX3FUMGpQSG9faXhLNWlQRkdxMGVhYUN6NHF5OGFQTmtmT0ctWGFWTS1jZ3BKTlhjMC1IbzRDMUxWalhGR3k5RHdkWnR3NTZ6dlVEd1dhWkt2aGVYbkUzR0pUTndqQmlyVFN3a1Y0Wkc1U1hMd3hIYmxEUGVTdXRnX2tjbGRyMXlrVDJXUQ?oc=5"
     },
     {
+      "title": "Bitcoin Could Already Be Two Months Into a Bear Market - Coinpaper",
+      "polarity": -0.03404278680682182,
+      "ts": "2026-01-02T09:01:53",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbWtEdThzbGdZTzJYLUdXdlkzbTlod2dWckRxb3pXUmt1YXplMENnSm9fdDJTOVp1U2VJNkhSQTBJc1ZRX1NxYm90UG9yeVBqSjRXTjhXeXFmcEUyallhWDZ0Y01hOEFPOFRFWkg2aDJvc0szS2QzNENZaG45NTBWWlZ6dU9BM3dmYXc?oc=5"
+    },
+    {
       "title": "Polymarket Traders Assign Just 21% Chance Of Bitcoin Hitting 150K - CoinCentral",
-      "polarity": -0.0331786647439003,
+      "polarity": -0.033178675919771194,
       "ts": "2026-01-02T07:34:53",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdVJ3LVp6R2ZqU3dJOURzNEUzbTltT2dROVNWMEppRlEtYjZlYVdYYUJkdkpkNXNVV3p5TXdhWk1LeFZoWTR0N0J1WXlOZHVPeTVFWkhIbkk5ZVRLZkREVVlVb0FCY05fTHNJNUtRZkdTMnZZS1FVU0xwUlZ5QUFXWFd5NUJEQk9HRkVIcXp0aE5oZkk?oc=5"
     },
     {
       "title": "Why CryptoQuant believes Bitcoin has been in a bear market for 2 months - TradingView \u2014 Track All Markets",
-      "polarity": -0.030260350555181503,
+      "polarity": -0.030260421335697174,
       "ts": "2026-01-02T04:36:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOVNvUHBCaHRLajZsdF9XUEpGSDRKbFJvYjllTUZ6d29iNnpSWDE4eDF0UEIwcF9OVDdIMFA4SXJvWHhnTE9mdXVYWnV4Wm9HWGtjY0JsYWlSWnA3VVRISGFhaGIwQzR5XzhQVjIxLVU0U0h4Qk1SY2ZaSGZrSmxaYUdJQ3pGakFMRExFYjlpYzZUdWtmMFBzMEhTZTlNczktU2lDVl9yZ2JQSm5SRktPaEpuU0JublFUTzFjVHRXOGxJUGRPMWRz?oc=5"
     },
     {
       "title": "Polymarket traders see just 21% chance of Bitcoin hitting $150K this year - MSN",
-      "polarity": -0.026569288223981857,
+      "polarity": -0.026569537818431854,
       "ts": "2026-01-02T02:30:29",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSkE4WUZYWm91OUtFUFc4NDN4b2JwUkRLekwzbzk0QXZpQWdjYW14WUZ1WklmZmI2bERBRG11SWxKRXJndGFfTkxWTEgxSXd6VHpZNW5MQWJSLXp4YjFZeXhvdk5oWTYyaWt4Wkw5ZjNzSkV2cWFuNFdrTGt1bFZZamoyS0M5S1l1eUd6MmUyZE05Mm1BMVROdEFVRnh2TWpuRk1KRWhKT0NramlzMWRwNkhYbzBub1hVd1hXTXB0cUpRYlIweTNDVHRSbFZSYUZ3M0h1RzRWU3BlSTBJd1FBMjZ5cw?oc=5"
     },
     {
+      "title": "Will bitcoin price sink to $50k or soar to $125k in 2026? - Yahoo Finance UK",
+      "polarity": -0.025110311806201935,
+      "ts": "2026-01-02T06:00:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcFY4UU1RcWRHZXFyaHctTXk5S19jVWxvTURuVWxVTjNOVFJxZXlhdG03WHFqeXh6WnQ5TEo3bDZaejNWb3dWRUU1c2FubnVwME4xaDVxMzcxV3RwNllpS1hUR0pQVE5sdDJ0bDhaSjRKX0JvNHdXNHc1QlQtU1lRTWhkdjhkVi1MS0oxRkY3bVE1M0VJckFYZFNsZ2JRQWpSNVhv?oc=5"
+    },
+    {
       "title": "Bitcoin (BTC) Price Forecast: squeeze sets stage for volatility explosion - CoinDesk",
-      "polarity": -0.024865128099918365,
-      "ts": "2026-01-02T04:15:33",
+      "polarity": -0.02486511319875717,
+      "ts": "2026-01-02T05:12:38",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVnRLM2lPWjFPOG5mWWJXTFNHZjRqVDVOY3dxVnJzV2paTXRQbUxhZE5EdlE0ZTByTjdlUzZMWXRRTl9ELVdaR3JCdThjZ2lyb192QmVGV1NZYWtvV1dxTnd2S2hKcGl4cHNKUldPOEhlMHpvRTZYS0o4N2dsdng1M0lCalVyME50TDJHRFpCaXRTLUlRYnVNRHZB?oc=5"
     },
     {
+      "title": "If quantum actually breaks encryption in 5\u201310 years, what happens to crypto?",
+      "polarity": -0.01468394324183464,
+      "ts": "2026-01-02T08:39:12",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1q1tia2/if_quantum_actually_breaks_encryption_in_510/"
+    },
+    {
+      "title": "Here\u2019s What Bitcoin, ETH, XRP, SOL Max Pain Price Reveals About Upcoming Direction - CoinGape",
+      "polarity": -0.01173708587884903,
+      "ts": "2026-01-02T08:56:42",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUVhiUzFlQ2VJNGdpQzczOUVIY3F1eWs0MjdscS1PdG5VY2xlU1VtS1FrUXV4MXZvOXdJNk9XTDVhZVVYQXpyM1laTkR3cXlWclhoSGNxc0pObDBndlhZa3FFeVEwbHdkQUV4OG9nR3BzQzJOWk1KWWYzbGFzWks5cjNNcEQ2WHE4LUlfcF9FYUdZR2lMOHlERUJvbjlYTVBHZ1E?oc=5"
+    },
+    {
       "title": "Bitcoin investors",
-      "polarity": -0.008707121014595032,
+      "polarity": -0.008707191795110703,
       "ts": "2026-01-02T00:13:24",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1q1jlat/bitcoin_investors/"
     },
     {
       "title": "At some point, the weak hands won\u2019t have any BTC left to sell",
-      "polarity": -0.00670185312628746,
+      "polarity": -0.006701940670609474,
       "ts": "2026-01-02T00:20:55",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1q1jrg2/at_some_point_the_weak_hands_wont_have_any_btc/"
     },
     {
       "title": "CryptoQuant: Bitcoin Bear Market Began In November - Bitbo",
-      "polarity": -0.003477003425359726,
+      "polarity": -0.003477044403553009,
       "ts": "2026-01-02T07:55:54",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlZHlxaHZwaTlVbEFUN1NPaGVOVFJIZ1laalAwMGxwdDFITlZGZGtQNlFPRXV6MzFidnNNZGpyeU1qaGZJODRxMU42WFRRT1UtODV5czBVSWFLQ0ppNUhXczVzZ1NYeWZkWkE?oc=5"
