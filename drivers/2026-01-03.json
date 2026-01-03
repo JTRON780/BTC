@@ -2,11 +2,25 @@
   "day": "2026-01-03",
   "positives": [
     {
-      "title": "XRP price news: Ripple jumps 8% above $2, beating bitcoin (BTC), amid SEC shuffle - CoinDesk",
-      "polarity": 0.8986710105091333,
-      "ts": "2026-01-03T06:22:07",
+      "title": "Bitcoin ETFs attract $471 million to kick off the new year",
+      "polarity": 0.9016539454460144,
+      "ts": "2026-01-03T07:24:07",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/blackrock-clients-buy-bitcoin-etfs-471-m-new-year/"
+    },
+    {
+      "title": "Odds of Bitcoin outperforming gold in 2026 surge to 59% on Polymarket - TradingView \u2014 Track All Markets",
+      "polarity": 0.875654824078083,
+      "ts": "2026-01-03T06:33:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYUxxN1V4RHBEYzZIaUpJNWpkQU5la2RuelZmWlcydkZEU00teEdjMkw3UHB2bTJSdGQ5aVZEMkRTQktSaWwxS1BFdk1KNUJBZGlRMnBEQTdPcHctM2RLUVFwajQ1eG5GZVRJTFFJa0NSSnJEUE1TM1A2UDdqenZCbjFjdmNDeEV1Tjl0SDR0S3Jhak5heXJndnNrYkJLaFI4blE4?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM2F0d3JOQmZnYTd3RmJ6Qmg0bnZDb3l2WWE5SzdxbkFhTk1vUzA5TmxlaldSemFVMmNpQlRsVDdoLTNNZDZ1NGQzNVNlOFcxRmM5U1MxYlZ3bnVFZzQyZ0JjM3o3RnphLURUaXdZMjNmQUtFa2lhbEpTLWVqem1FV2FGMWxSOUMyMEhIR1I4MTA2bktGck1DQV92Q0paOXJWcGJORnFia0dCSVVhWXV4c290RVQ2M1EtTGZGZVJuQTZ1Ym14UHc4RnZLbHZWUQ?oc=5"
+    },
+    {
+      "title": "Odds of Bitcoin outperforming gold in 2026 surge to 59% on Polymarket - Crypto Briefing",
+      "polarity": 0.8666204065084457,
+      "ts": "2026-01-03T06:33:59",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZDM5Z3ZkUG52ZVVNcUtHT2tlb2tKTjRRcTEtUkluY2p0THJ3Y2o1d2dHYzV2R05Qb04xeGlnS0FHWU1QVjRlT0J2d0hOZDBYNE5SYWVXSy1zNU1fR3JkMXFoTkt5bHlFX2paamtETGNLUHNrX0FPZWxWQlBrZVp1dkln?oc=5"
     },
     {
       "title": "Crypto Market Starts 2026 Strong: Bitcoin and Ethereum Above $90K and $3K; XRP Flips BNB - Coinpedia Fintech News",
@@ -30,13 +44,6 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQU1l2aHVzV0E4NmRZZHdKNGVYeVV6bEtZNzdCSjA2cTd2TlU3SDNDTWpRcS1ESklMQUM3aGVGY29ueC10YW5KMW05MG1hWXZpWnlfNUZVY0tVMGtfNHh1dFlGbFNtN3FKWU9ZajFMVlc4MmVMWmttdl92YWZCeHF6Y0N2c2NtM3JuTnAwZExLUE5sOFZGU2phUV9XTWFrTnNfZFg3U2YwR0IzRHpOREtNMGhVRklFOXhyMF9RRk91YXZ3b3Ztbmdj?oc=5"
     },
     {
-      "title": "Bitcoin Topped $89,000 As Crypto Led Friday\u2019s Risk Trade - Finimize",
-      "polarity": 0.6821655482053757,
-      "ts": "2026-01-03T00:12:56",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZmhGSHc1WGRSTnBDcWhXMVVpcWNtQzRkRUM0WEZSRzBjUHVqM0M1OFRTQU1vLVZGVHNub2pkX1Z6TjFtNGo2Q0R4N2ZTTlAtSndrMXV6NzczSHZfcDFITzlUM3g1Q0VkeUdoSmlaMXZNNUh4bFVKQk53eHFSLWtfMXZYRDN0MFMtT0E?oc=5"
-    },
-    {
       "title": "Odds of Bitcoin outperforming gold in 2026 surge to 59% on Polymarket",
       "polarity": 0.659061498939991,
       "ts": "2026-01-03T06:33:59",
@@ -58,6 +65,13 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNnd2dkJpdEw1LWgxQkFwX0t0NlBpVUE3RG51TEdSTTVTT0tQaFZrTWNWMkN0dnZTblN2TnBmb2xxWkZ4V2xOeVRzOXFFVk1NaWFfSXd3V25RS3dKc0Z3QnI0NXNvMTdDTFFTNVUtUlNvbUF1OUFJRkFjQTJQaWVuNXQtS09lNXdyZTVNXzJ1ZW0wVGdsSXR4V1hHQlk1LXdjRUHSAacBQVVfeXFMTk5wdkwycG1xQW1SUEpFTG85SmJ2S25kUndQSko5VGZnbGM4dVFtcGE5cXFoYUtwRlJlMXRQX0FQaFB6Um9CWl9CV3BtZlI0U3NGSnp2cXVHX25DekFvYXRya05IOUNwRTJlWlJvMWlibFAzQ2ZPZjVlajJDYUtRMFptSlB6TE9KQW9MamVndC1sNmNzQnpWUWZxcEJqM3U3OV9wZzBkYU0?oc=5"
     },
     {
+      "title": "Bitcoin ETFs attract $471 million to kick off the new year - Crypto Briefing",
+      "polarity": 0.3785961512476206,
+      "ts": "2026-01-03T07:24:07",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGxwM2ZKWGowVTJRZmh2M1RLVFd3bldBcThORDZxb3JWaGhSdGpGS0otSTVoRWk5XzNndE9URFFCZy1SNEc2WEN6SjJLX3V6bml0RVlkUV9LcXJxdUx1TmlROHhjZlVrRWw3MDR5RE1wQlRkVHBUeTFyT0ZOdFlTMTVzWQ?oc=5"
+    },
+    {
       "title": "Crypto social chatter has 'very positive' start to 2026: Santiment",
       "polarity": 0.3153396546840668,
       "ts": "2026-01-03T06:03:43",
@@ -72,11 +86,11 @@
       "url": "https://www.reddit.com/r/Bitcoin/comments/1q2mgho/really_loving_this_ytd_btc_chart_looks_great/"
     },
     {
-      "title": "Free Finite by Design piece I won from the btctalkforum",
-      "polarity": 0.16201260685920715,
-      "ts": "2026-01-03T06:12:50",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1q2n1ss/free_finite_by_design_piece_i_won_from_the/"
+      "title": "Why Is the Crypto Market Up Today? Bitcoin Price Above $90K Sparks Altcoin Rally - Coinpedia Fintech News",
+      "polarity": 0.1530957669019699,
+      "ts": "2026-01-03T07:10:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZndmdnFWR2J1UFlhdWJBMHdlU1hEUDZHbHlRcHM4bUZKVnpzSXQxd3FMRWRDWVZfeHJLUF9ZanVwdVYxSXRtMFpwSFRPY3ItZ1lmV0o1SjNFeFRpb0R5azBKNldHU2UtREY4cjlNdmxadWg4amNGQ2VqZjBfWTZLaTFEem9PSFJ6c2hNNFQ0SkhJWG1xR3gyeW8xTmZXUXlWSzlYdTIya2lPd9IBrwFBVV95cUxPTERYQkUtamxWcGlCUnZFVmVwYVEwVVg5V3BPWUtsVlA2aDhtMHhnVDRVekl2cnliLVpDNEN2bEVfUGxUdDl4aE04cFR1cUF2TWZsWU55NnlEZFEzSWVBRmw3c0xyRUIwSUd5c0s2bkpSV1lDR2tMYkcwcmFzV2JwRTFTaDB1aElnaThUbnpMNWdnVmZWMEdqWjkzSndrM1FPYWFjVTJwN0pEVVF6Tm5z?oc=5"
     },
     {
       "title": "Bitcoin enters historic low-risk zone \u2013 Is a BTC rebound in sight? - AMBCrypto",
@@ -84,6 +98,13 @@
       "ts": "2026-01-03T06:02:06",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZXlBNGM2cU8wU1ZFak9VeVYyT3lmcU4ydlhWbWJlMFo5VEw1NHdaMWhOYVFvdGdoTVpxUDh0YWRUQWZIMlBvalBtNWkyQVJMQVVvbjhzNUlObWd2Mk54Q0RWNTcyRjh6eVBwdmJEeVlYZVRTOXF5cWdiVkdQeldoUm5SMDdFZEk1SzZxdlZ1TdIBlAFBVV95cUxPbVJzU1d1UGRzS1h1VWhaUVVBbmZjTjVvRWtvSTZWVnZCY0EzNVA2MWlfcm0zZGVvOUE1NWtFeV80S0RRS000QXhSTmtwcmVPbXBtcWNkazhIZWtMOTV6dFhNcHJGRVR5R1VQTzNENi1QUHBtbTZ2TS1qUVJibWI5WEx3eGNZbS1Cemg3T1NKTkU1cmRQ?oc=5"
+    },
+    {
+      "title": "BTC wallet or Robinhood?",
+      "polarity": 0.10225640702992678,
+      "ts": "2026-01-03T04:07:12",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1q2kjtc/btc_wallet_or_robinhood/"
     },
     {
       "title": "Bitcoin scarcity",
@@ -114,11 +135,53 @@
       "url": "https://www.reddit.com/r/Bitcoin/comments/1q2nzoq/17_years_ago_today/"
     },
     {
+      "title": "The Architecture of Absolute Liberty: How Bitcoin Perfects the Three Ps of Civilization.",
+      "polarity": 0.06515480391681194,
+      "ts": "2026-01-03T08:04:17",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1q2p1bt/the_architecture_of_absolute_liberty_how_bitcoin/"
+    },
+    {
       "title": "Everyone rocking up to buy bitcoin when it reaches 110k",
       "polarity": 0.06152397207915783,
       "ts": "2026-01-03T04:38:15",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1q2l6t6/everyone_rocking_up_to_buy_bitcoin_when_it/"
+    },
+    {
+      "title": "Never too late to start your savings in Bitcoin this year",
+      "polarity": 0.06026642210781574,
+      "ts": "2026-01-03T07:21:28",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1q2oas1/never_too_late_to_start_your_savings_in_bitcoin/"
+    },
+    {
+      "title": "Bitcoin Price To Hit $100K in Coming Weeks \u2013 Here\u2019s Why - Coinpedia Fintech News",
+      "polarity": 0.05439917929470539,
+      "ts": "2026-01-03T07:36:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRnh2NXBBb0s3OTkzVnpqVGRkUkI0OEo5WWhrbkFsSkN6bE9UNEg3ZVl5SWlMaDd5RWN1VXZIZG1tYVRPTE54dEJaZm1GejltbGM1dXJKUmVQdktGYTJjMFF6TzRXTGZHcF9CRHBNUzZhQk5lQWhuMjFMdklncmZ2ZGZzMHU5NEhaQVoxQ0V2UVVwVDTSAZgBQVVfeXFMTXVlNDlUaWcwbm8zbXRXakR3eEhYcVZlN1NPNWwwNGxrS1kxdmxDdnlEZ1hod0tRR0N6bmhpTXJvWkpDYlJfazFDMkh3ZVlxazQ3SUc3OEFkVEwwRlRPNnNVMVJwM2daVGMtbFl2QUFYeElJQWVxUTk5eTNSczd5Y3NYbkdRU0dlSERxSG1OcDA5SlZ5NGl5VVY?oc=5"
+    },
+    {
+      "title": "Billion-dollar Bitcoin hacker Ilya Lichtenstein released early, thanks Trump - TradingView \u2014 Track All Markets",
+      "polarity": 0.04992080386728048,
+      "ts": "2026-01-03T07:13:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPd1hSWkIwa3R6RTZTM2RyNVlzLVlyam5OdlU5V3ZmdVhzZ3RhRnpWc0hIcVF2MzlnQzRpR2NtLWRLaVhXemxUZ19KZjFJTWgtMkJnNlR1QUNXcENmb2dMSndWdlQyckhmTkw2NW1mckdmd19LNE5TdmtaYnQ2MGxEU2Z4aHBhbDQ5aEtEMTJHazJ0NDcydndXcjUxeUxDXzlrOXpCM2paU1RvbS1ySms2dXY2Z2RUUXg2U1RHZ2lHR1d5V3Z3anhBWjNOekQ5b1ZoQ25QRnV3?oc=5"
+    },
+    {
+      "title": "Bitcoin\u2019s autumn ATH, a DeFi boom and the end of hype: forecasts for 2026 - ForkLog",
+      "polarity": 0.0363738052546978,
+      "ts": "2026-01-03T07:13:11",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd25yUUJuYzBKSWJFNnFJVGE0UG1pRkZ3UUJjZWV1TS1DZGRVdzd6SWRPNUk1OE5GMTFuQXZNNGFZV3NSWjBneldyVE1jTERvWWlDUnNWOUFZTWNyY1RlbUs5MFN0NlNCN0oySFBPTmUxNGw0eDlTaHFqekN6V0x3ZGZzeUNUdUNaT0FKd3hETmFNaC1nU2w1YXl30gGfAUFVX3lxTFBsTGp3ODF6TDRIWnktOG5sTElFdnZOWUtsdlE4Ml9sbHRXblBxNHd4ZUFSU1llM2ZPaTZ4QmNMRUZPSXBWTlBSRkVSRHN3dG4yeE9XTTZkY3hWV1ZqZklnU0F5cDdVRVdnUXlRMldrQm9jYkpqMXp1S2dlZ01SSzA4cTI5WS0wTnhlbGVHbUx5WGY2RWY3TDFDQVBVa0wtSQ?oc=5"
+    },
+    {
+      "title": "An autumn ATH for bitcoin, a DeFi boom and the end of hype: forecasts for 2026 - ForkLog",
+      "polarity": 0.03631971962749958,
+      "ts": "2026-01-03T07:31:19",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMHd4Qm1lc2ZiWG5sZURReGYzNHFTNVcwb0xUd1ZsWGFxWVRkaTd2WDZSVk84d005cTJlV1QxdFRyaGhvVjBuMlROclUwYU01UEtVNVh6UTVScl91Y3RwR2lFNzFvdWtuTWRVbHpsWFFmaVZrdzY2RDE2OHVudVF4ZDJqcjFDc0hCX1FZV0tXNHVYRU9VWmZOSXhGTWw1VlFnU3fSAacBQVVfeXFMTXRxdFhlM2E0cHpNWnA0ZlFWNkVDaXFvcEx0MU5BY1dRck5IQ21Uclk5M08tLWF4SHp6VG9oUzRzVFl3aXpmYmd4SEtYYWtlc3psZFdrTF8zZ1BaMWd0aDJKbWx3Y0VYcW1JVUc3YWhkSnNoMWNCTU5fQXhJeEdzSFR3c2VVMjFHZ3RzT0Rnc2lELXpaQ3RuVjU5aG9kS19KZ25Dc1FrSmM?oc=5"
     },
     {
       "title": "Bitcoin \u2013 A look at whether BTC holders are positioning for something bigger - AMBCrypto",
@@ -128,18 +191,18 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPa0MtM0RjRHlyaDZhOHZNTGlHbl81NDFuLUIzX1p3cDR2UXNVOVZzZmV2ZTQ0b1p3TXJnd1hKWFpjcjVjYkxwWVprS3RfU3dBMXlWNno0aWtFb2lvS09HZG9xSlFhRHNOMXMySHBMeFM1ZG45UjVqTnZaOVRJREdwY0xwWjF1eGgzSmx4R096V0s2dE1XdGNvM0JJd0Y0QdIBowFBVV95cUxPaXlXQUlkUTcwQzhYTS13ZjNpOGJFeGJNckJTazB5WDgzeWZ2SzB2MXY0eE5aMDVVQmxrQzRlS2ZiQnpMVzViMG1oZk9hWnFJaHh0U3I0S0FjWXBuQW5JcWdYSHdTZHRjS3ZaNGxYWlFkTnB1YmxzcFE4YVVPWTB0eUk3SlZvOU5sR1FZY2E1WVlYemw4Qks5SnNwQjVDa3p1aExv?oc=5"
     },
     {
-      "title": "The Bitfinex Hacker Is Free and the Bitcoin He Stole Is Now Worth $10.8 Billion - Coinpaper",
-      "polarity": 0.027323471382260323,
-      "ts": "2026-01-03T05:04:30",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdGVyOWUzaDB4QThwM1haQWczdWxkMm5ZaGpBaF9Bc2Rra21vSG5BT3VVZmpqZHJ3VWxqOTNpR0hIQW1ZcGZoQ1ZnOEZCZU01TEp0QWJIUmRFQ2RjTk5uc2dkdWZ6SHUycERjbmc2RlZjcWdpQTIwelhxTy1fR0NPOWRYcXFvR3FPTFd3?oc=5"
-    },
-    {
       "title": "4 years of Bitcoin winning \u2013 Here\u2019s why 2021 was the last alt season! - AMBCrypto",
       "polarity": 0.01862909272313118,
       "ts": "2026-01-03T03:01:22",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRU0ycDRCX3o2S2VQeGdBTVl1U0pJS2VqLUYweDJ2Z1NadTAtclJ2VWRlRkNwVE1ZWmhheGgwQzdSNEJtZkdnSF9mS2E3bHFJWmY0b2VfQk9xa2JGS0FFMXNWa0pJMzVObFc4RU40Q1ZhRFJnX0wzXzhjcWc3eUhLZC1CdUFQaUJESlBHc2g3UmZOZ9IBlwFBVV95cUxNbm16SVFPM2xvZ2JWY01LaGUybVFxenFxMlNNZWVZNWhIUmt0N3h4MkloWDlNZGE2eURuYVg4dHFnZXhOSUMzcGR0OV90OGVrWk5CbmpYZ2dPYlhFTThsb2pQYXB3SlV0SGhSNHFJWjItNjN3VU9vNXFPN09tSnhRaHBxanBib0Z5VEtFOFN1aHExQ1VfbmxF?oc=5"
+    },
+    {
+      "title": "Autumn ATH for bitcoin, a DeFi boom and the end of hype: predictions for 2026 - ForkLog",
+      "polarity": 0.013353899121284485,
+      "ts": "2026-01-03T07:31:19",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRGhEX25DYmJzcEtTcmlzeUdvemRtdmozeFZHaHRZQjZkZV9FYjUweEJrRlBCWXpHRlJDM3poaFhDREN5NFZMZi1wdmJFd1lnX0k1c2c4RGJ5bnhocDJZdWRDRFFyTGF4Vk43eWpjWU4wUEw5UlRWV2FDeEpXS3l2Zmx0WGpWTFhWdUVHc1NZMHliN1dNN19VbjJ2ZVMzTGxo0gGmAUFVX3lxTE9YMnlJRFUzNXNYOXlDTVV4SlJxdVMxX1FwdFRxWkhaTkhWNFlXb2dBUGRBMWlZblpsYnAtMzRaMm03c04yTGxBUjdaekRSY21HX1VsY1NZNW1xR0plTk1hRTMxNDFnNm5GZ3RaQk12dDlrMlNSaGdyel94NFBjTkZfNWlIZURsVFgzdlZGaTlMbWZoVW1FUl94dVNBc2x5dF9TQW9IdXc?oc=5"
     },
     {
       "title": "[Daily Discussion] - Saturday, January 03, 2026",
@@ -168,6 +231,20 @@
       "ts": "2026-01-03T06:31:14",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1q2ndzd/curious_of_some_the_background_of_the_birth_of/"
+    },
+    {
+      "title": "California passed a bill to seize Bitcoin left idle on exchanges. After 3 years of inactivity, assets can be taken by the state under 'Unclaimed Property' laws.",
+      "polarity": 0.0016394462436437607,
+      "ts": "2026-01-03T07:39:45",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1q2om5c/california_passed_a_bill_to_seize_bitcoin_left/"
+    },
+    {
+      "title": "The \u2018reality anchor\u2019 we need: Bitcoin\u2019s Genesis Block turns 17 - CoinGeek",
+      "polarity": 0.001112964004278183,
+      "ts": "2026-01-03T08:02:27",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQX003eGt4MG5ZLXJhbGVGSU9UdTRSbW9YTl9NWVd5Vm5McTZNNmx4VzltbmRURTI5M0wyLTRqOEtFY3FyeDV4RVJxZmdvSHFQcE90aEhhbU50ckxRV05tOVlkbjFXLXh1Wk9mMGlhdmFoX2Npd0VFVlpMWjFXVmlaUUxvSEpNUQ?oc=5"
     },
     {
       "title": "Daily Discussion, January 03, 2026",
@@ -214,11 +291,25 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQXdlVDdsN3YzdTZCMHBMTnJDd3FWaDdlbTVZQldtejFIY1luVER6b2tnNS1BVkZoR1lGRHlUQnBzMWNGTWNkVXFJLTA1UFdSLUpHSm1ZeHRtakdCUkhUUmwxQWlHdVpabWYzdDdGOWNaa2ZpRGNTY200czhGV3ljMFNlalh5cHFQcmZELU1CSXhtYlc1Tm5qdzFzS1JCTWUxT1EzcWhieXZvVXJONEo2aFZNSlRtSHE4TGFkSFhkSQ?oc=5"
     },
     {
+      "title": "Bitcoin\u2019s Sudden Price Plunge Alarms Crypto Experts: Citing Global Trade Friction - Blockmanity",
+      "polarity": -0.5265809707343578,
+      "ts": "2026-01-03T07:36:30",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSFlOWEpENjhpdlJmbktBOFduZUZyZlotNzltQVFaZGgwTjZlbDRXcDh4TlhRN0hDcFpNaFFNdWFlczhzVjlsT0I0UVBseWVSZGJUZEsyeUNEbTR5UjVUM25iZXAwMXFqUS0tMTdCM043TVpJRW1BSHd3S0tQSWdERGtlNk5aS1ZLWnU2RFJhZEVNVWhfbmNKTmZxOGs3NjBQb0g3VloydGFtQnE1UWfSAbMBQVVfeXFMTnBTNmE5NEZlbHJoWUZQMkNHcUtHTkdfRmp0NEt2UmxYMkU2NDM1QnRaSjRnNzd2MHoySHFqVGQ5WThidGhiUklFRUVGanAwYmpTbF9aYlV0bWplUmNmLUp6cGQ4UUJ5R0FqODZtMndxOU1DSDYxamJ6Q2FUaG10RnNqeWdBaHVKbXNpcmpqWFBZX1hfZ2p4WUN5dF9lRFoybWtNX1FzWHJMX2hRUk5iWEFVQ2M?oc=5"
+    },
+    {
       "title": "Peter Schiff Predicts $50,000 Bitcoin Price As ETF Demand Turns Negative - Yellow.com",
       "polarity": -0.2379148006439209,
       "ts": "2026-01-03T05:47:38",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcUR6NTYteEhIWXFvWDltYVNEM3Z5ZHJJREpWcmJ0T1VncVJsLWNhNURwZUN5bU1sTlNldjlpbWNzV0RXR0RzVlFuRGt6Si1GZDMtZTg2QVRldWtRbnppMmlhMUtJQVR0ekJNSlRmMlF5NG85VHJVMVQ5NFpLcEw1NS14bHU3VW5YRjdBcWNsS2hZLUVaRDJDYVZLY21BVmlteFE?oc=5"
+    },
+    {
+      "title": "Billion-dollar Bitcoin hacker Ilya Lichtenstein released early, thanks Trump",
+      "polarity": -0.09216625988483429,
+      "ts": "2026-01-03T07:13:30",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-hacker-ilya-lichtenstein-released-early-first-step-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "title": "Seventeen Years Since Bitcoin\u2019s Genesis Block Was Mined - ForkLog",
