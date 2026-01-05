@@ -2,13 +2,6 @@
   "day": "2026-01-04",
   "positives": [
     {
-      "title": "Metaplanet has key advantage over US-based Bitcoin treasuries: Analyst",
-      "polarity": 0.6469021867960691,
-      "ts": "2026-01-04T18:33:03",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/metaplanet-edge-us-dats-jpy-weakness?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "title": "Chainlink introduces secure stablecoin framework with Proof of Reserve, cross-chain support and oracle automation",
       "polarity": 0.19328651297837496,
       "ts": "2026-01-04T23:33:09",
@@ -23,28 +16,21 @@
       "url": "https://www.reddit.com/r/Bitcoin/comments/1q3zwnl/thank_you_satoshi/"
     },
     {
-      "title": "Just hit 1 Million satoshies",
-      "polarity": 0.03608587197959423,
-      "ts": "2026-01-04T18:40:12",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1q3xrcl/just_hit_1_million_satoshies/"
-    },
-    {
       "title": "Received 0.05 BTC in July 2016 for $34 ($4,556 today)",
       "polarity": 0.019917422905564308,
       "ts": "2026-01-04T19:26:33",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1q3z06b/received_005_btc_in_july_2016_for_34_4556_today/"
+    },
+    {
+      "title": "MicroStrategy Solves Private Equity\u2019s 2 Biggest Problems With Bitcoin - Yahoo Finance",
+      "polarity": 0.018908165395259857,
+      "ts": "2026-01-04T21:50:38",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSXNYZXB6X3VNXzdBbXA2eU8tSGVCTE5iRlZwQTFPNXA3YXB1VndablNwcGxMYmx0UTBYMWNpaFhlZ3hoMTF0Q3pDZmdoMTItWHdFalZtWEpLNGRPcmdENlpZSDcyOThPRFUtLTBOblBFYUQtQmEyaE8xcG5DWjJWM0lzVHUwMjBNUVlj?oc=5"
     }
   ],
   "negatives": [
-    {
-      "title": "Venezuela Aftermath: Bitcoin and Crypto Markets Soar Amid $17.3 Trillion Oil Price Shock - Yahoo Finance",
-      "polarity": -0.7626130469143391,
-      "ts": "2026-01-04T19:30:47",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbmxiYjQwMnlVSmt1bVM2NHFSMm5tbXV1TXEwQkpKZldkX3JRRE12MFBob0lMdUVEd2k3XzdEMnNwN0c3cjE0QTdiaG5ETGlfQUxTd2VZUDJ3QTFIRy1Jc2ZMcFV1M0pKREN4OEVwamM4SWxYdU1ROEhpampSMEYxWHhsTWtETVlZaU52QkdGX3hSdw?oc=5"
-    },
     {
       "title": "Any chain that has a Block Leader is centralized. Any chain that has MEV and Frontrunning is inherently unfair and exploits the userbase. Any company who builds on chains with these properties is asking for lawsuits later.",
       "polarity": -0.14880401827394962,
