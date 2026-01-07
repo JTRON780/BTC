@@ -2,13 +2,6 @@
   "day": "2026-01-06",
   "positives": [
     {
-      "title": "Bitcoin ETFs Just Had Their Best Day in Months as Crypto Market Rebounds",
-      "polarity": 0.8627488613128662,
-      "ts": "2026-01-06T19:51:27",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/353748/bitcoin-etfs-best-day-months-october-market-rebounds"
-    },
-    {
       "title": "Bitcoin set for big move as whales add 56,227 BTC while tiny wallets sell \u2013 this pattern usually ends one way",
       "polarity": 0.7186243161559105,
       "ts": "2026-01-06T20:15:05",
@@ -16,39 +9,11 @@
       "url": "https://cryptoslate.com/bitcoin-whales-added-56227-btc-while-tiny-wallets-sold-and-this-pattern-usually-ends-one-way/"
     },
     {
-      "title": "'If Bitcoin Gets To $1 Million, That Will Value Ethereum At $250,000': Tom Lee Resurrects Ambitious ETH Call",
-      "polarity": 0.35328288841992617,
-      "ts": "2026-01-06T19:44:54",
-      "source": "r/CryptoCurrency",
-      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1q5sroz/if_bitcoin_gets_to_1_million_that_will_value/"
-    },
-    {
-      "title": "'Shocker': Morgan Stanley's Bitcoin and Solana ETF filings signal deep institutional commitment to crypto - The Block",
-      "polarity": 0.3296479806303978,
-      "ts": "2026-01-06T19:21:01",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNa1I2enlPYmotRnh6THRFRnNhdW9IaFN6QWVvUk1LalZNNTVvbnM4b01xeXJ5eU0tWWNXRDdyLVYzaHN0Yjd6VG5EUDJad2x2cUhidzd0RWUyVXgzcHFnTU9CUVZWOUpQOEZUOGRfRlI3aVhhMVJHZ2VUR0dEdXdXMDZZU2dreGlNc0lBZ1RuMGRTYmZKclBaaUhEWVNHSU5nb0pGdjRLY0Vrc1BsVjdlanQ1a19qazZVMkY1enJVa3l1N1ZkTXBta21OMVNjUG95MGc?oc=5"
-    },
-    {
       "title": "Bitcoin Depot, a top crypto ATM vendor, to pay nearly $2M to compensate fraud victims - ABC News",
       "polarity": 0.22332712076604366,
       "ts": "2026-01-06T21:08:10",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdDAzSnVScU9BVmV4T2pKcElKT21zN2o1NVJJMXB5cUFWeUZoS0ZGa0ZkdXkzTUNhODE4N1lSZ2laTHZLVVctSkIxaFNMZDg2R2JidGR2Ym9wY3BoZEc3c3FxeGhJNDV0Mk1ZSW1RX3E2akloU0JQMmVpSzVjY1RnRVdVbVNXWi1YczBQb28zRWNpcWPSAZgBQVVfeXFMT3dfb3hsVW83LWVKX2pRZXVqQ2Foc2FfWERpVWd5ZjhZSHZKd1dtMXZUQWxSVmlrNjl5UDVvZXI4dndkamtTNFAwSHZlX1hFNlg0dmt3bmNJN2VnY2lTRzdWWHJaV3pxU2VNZkN3eWNFN1A2TmJkUG1jeWhZN1dIYmt0Sy1ZRkJCWjkzc1dVQnBrMVJmeXVGc28?oc=5"
-    },
-    {
-      "title": "A famous Bitcoin quote that keeps resurfacing over time",
-      "polarity": 0.0510003250092268,
-      "ts": "2026-01-06T19:16:24",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1q5rz0c/a_famous_bitcoin_quote_that_keeps_resurfacing/"
-    },
-    {
-      "title": "Question: Do Bitcoin-style PoW chains still meaningfully support small-scale miners, or is hashrate centralization inevitable?",
-      "polarity": 0.04094480536878109,
-      "ts": "2026-01-06T19:29:36",
-      "source": "r/CryptoTechnology",
-      "url": "https://www.reddit.com/r/CryptoTechnology/comments/1q5scf2/question_do_bitcoinstyle_pow_chains_still/"
     },
     {
       "title": "Morgan Stanley Files For Bitcoin ETF, Goldman Names Top 2026 Crypto Picks - Investor's Business Daily",
@@ -93,6 +58,13 @@
       "ts": "2026-01-06T22:25:42",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/bitcoin-faces-a-40-trillion-test-as-us-debt-races-higher-but-one-hidden-buyer-is-changing-everything/"
+    },
+    {
+      "title": "Venezuela could be sitting on a big Bitcoin stash, experts say. Here's what could happen next - CNBC",
+      "polarity": -0.022124899551272392,
+      "ts": "2026-01-06T20:44:21",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbW42RHh2UklwUWVNaFZ3eV9SeW9ZYjZHNnl4QUM5U1lsNmtvbGZmdzVaRXVUemJvRzlsVkNKR0NrTVhQb0YteUV3M2JjU3BPTUVCTFowLUJHX1hMZ0pRTGNLejk2MERMM2VmLWxWZlhvNFRlbEVJWkJHTjIxcDZJQ001Q0xZd3oxMjdFeEU2MmpGVzhaMWV0N0lZQWcwdnpHaTFiN2VrUjZaQmZMMHRScXRxdGdJTFo4dVBsYllQQndGdGdJMmhF0gHMAUFVX3lxTE1zWlVSMVc2ZDBleUFFX3ZOMF9tMHFLV3NsSHZNWjRVakc5cFV3YUtxQ2QtR0NaNEFENURaN3BfclRmVWVrYklQeWZjbTVQZmZHLUQ0M1c5dGdCdUlsZzV3c1l1THM2dkF3NlFwQlJDSDZRZU9FeVhPSnZSb2d4bnpNZnhoN0dCcEVIWW8tZkVsNHh4VnBPTG16Z19uZEtLVHU5UWtjNlJ2SWkwV0pQMnpIdWt1X3lTdFhYV1FYY2RmenJoNHFQaHNGenRNUQ?oc=5"
     },
     {
       "title": "Morgan Stanley files for spot bitcoin and solana ETFs: CNBC Crypto World - CNBC",
