@@ -9,6 +9,13 @@
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPYzZrVkVKWGkxUlAwTHl1cnBHUHZZSEJfTk4tMUtSWGw4YnlPdGRWM3AwRzV1RXpOZ2pNdzRlU0VXcEFhMXVNUHBqVEY4bXdNZjVra1JvXzVzZGpyVUw5N1F4aVkyOUluSDVZc082a3UxWWtJdTJnYWw0bmhfNmVPMlVMejFNcW9PYUU1dlU0eVM5d0VQNWhTNWs4ejA4TGVocGxxWWJ3U1YyaG9ZZHhQejRsSE9PcE5xSnBSVTd4UEtOUmtTWHQ4U0lJeDhpbVVBdm9GQUM3OEJ3V3dvQmcyS08xNzVuS1djVEl3YV85ZUc?oc=5"
     },
     {
+      "title": "BTC Accumulation Zone",
+      "polarity": 0.02071710303425789,
+      "ts": "2026-01-11T01:04:27",
+      "source": "r/CryptoCurrencyTrading",
+      "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1q9lfkg/btc_accumulation_zone/"
+    },
+    {
       "title": "Trump rules out SBF pardon, Bitcoin in 'boring sideways': Hodler's Digest, Jan. 4\u201310 - MSN",
       "polarity": 0.014161864295601845,
       "ts": "2026-01-11T00:03:45",
@@ -21,7 +28,43 @@
       "ts": "2026-01-11T00:36:22",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1q9ks0p/book_recommendation/"
+    },
+    {
+      "title": "We've all wondered what it would be like to experience crypto history from the beginning...Finally built a simulator to be Satoshi himself",
+      "polarity": 0.008089549839496613,
+      "ts": "2026-01-11T02:13:26",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1q9mztp/weve_all_wondered_what_it_would_be_like_to/"
     }
   ],
-  "negatives": []
+  "negatives": [
+    {
+      "title": "Bitcoin \u2013 Spot inflows hit 6-week low, but is there good news next? - AMBCrypto",
+      "polarity": -0.6027116850018501,
+      "ts": "2026-01-11T02:03:45",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQX3h3V1ZBSVE0eERPWnZpVEJFT0NKYWlpNzNjY1FFdXVrUXJtV3ZkUklYNFF6dGZWcnlReVlERnE2V3FubXVubW9adXZBUHpocFNRWUhaUl80OWM4WV9iNGF3dFJOeEE2am93MW5hMEI3MXRWclY0ampuSVluZUE5bnQ2d2pjMU1kWDh5aU52NNIBlAFBVV95cUxOdWp0OXhNbllBYUN5NEhkdk9RWW1xbzlza2Z1Zi14VjhxOV9nbUZ1MERTcVg5WW13WWlFNGRmMFNwT3Q1OGl2NVhUOFZhMVJNOE85c2NTSHBhU0ZkbnlCdEpCNE1Ia2pBT1MtRGZSemVqQnRJejBQbXNuS01FaG9mRWNWMkpLdjhiMVRMVXdvd0FTb0Nr?oc=5"
+    },
+    {
+      "title": "BTC Macro Analysis & Discussion",
+      "polarity": -0.007307298481464386,
+      "ts": "2026-01-11T01:49:30",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1q9mgaz/btc_macro_analysis_discussion/"
+    },
+    {
+      "title": "Bitcoin",
+      "polarity": -0.003964882344007492,
+      "ts": "2026-01-11T02:53:38",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1q9nuz8/bitcoin/"
+    },
+    {
+      "title": "Macro BTC Analysis & Discussion",
+      "polarity": -0.00043419376015663147,
+      "ts": "2026-01-11T01:40:45",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1q9m94u/macro_btc_analysis_discussion/"
+    }
+  ]
 }
