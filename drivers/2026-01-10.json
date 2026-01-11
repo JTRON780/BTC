@@ -30,20 +30,6 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQek1RTHN0RDF1WDM4NGYwT1BLSTVBWll5dERwaUNkZ0k5UW42VnhhMHdXVEFIZVB1MHk2OTdYcTEwWW02NDZYd29wSHptR3Y0ZjIyVG4yaHdtcy0wV0JUaGJ4WVNyYk9IeWxuMzVoRjJYbEZwZ3E4c3VwRjE0RFBLSlo3VHVDdnA5d2tCQ2RYUmJiTHdQTzhVaUNFSDcwZWNRQ25hbUxQZm0yVUppSk1IYWw1WWxHR0I2clZQZFgyanhtUEg1Zld6TUR3?oc=5"
     },
     {
-      "title": "Bitcoin may be gearing up for a rally that sent price to $126,000 last year",
-      "polarity": 0.7692263014614582,
-      "ts": "2026-01-10T08:49:29",
-      "source": "r/CryptoCurrency",
-      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1q8z7xt/bitcoin_may_be_gearing_up_for_a_rally_that_sent/"
-    },
-    {
-      "title": "Bitcoin mining difficulty falls in first adjustment of 2026",
-      "polarity": 0.5164250433444977,
-      "ts": "2026-01-10T21:22:20",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-difficulty-falls-first-adjustment-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "title": "2010 Bitcoin Mega Whale Wakes up, Moves $181M in Dormant BTC After Yearlong Silence",
       "polarity": 0.4474842809140682,
       "ts": "2026-01-10T16:08:09",
@@ -77,13 +63,6 @@
       "ts": "2026-01-10T11:04:07",
       "source": "r/CryptoCurrencyTrading",
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1q91eka/trading_got_clearer_once_i_understood_the_system/"
-    },
-    {
-      "title": "Looking to invest into crypto.",
-      "polarity": 0.09266253374516964,
-      "ts": "2026-01-10T10:09:31",
-      "source": "r/CryptoMarkets",
-      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1q90i8l/looking_to_invest_into_crypto/"
     },
     {
       "title": "Seventeen years ago, Hal Finney announced the launch of Bitcoin to the world",
@@ -156,13 +135,6 @@
       "url": "https://www.coindesk.com/business/2026/01/10/brazilian-exchange-mercado-bitcoin-outlines-6-crypto-trends-shaping-markets-in-2026"
     },
     {
-      "title": "17 Years Ago Today, The First-Ever Tweet Mentioning Bitcoin Was Posted By Hal Finney",
-      "polarity": 0.008994800969958305,
-      "ts": "2026-01-10T08:33:50",
-      "source": "r/CryptoCurrency",
-      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1q8yyvd/17_years_ago_today_the_firstever_tweet_mentioning/"
-    },
-    {
       "title": "Bitcoin price prediction: BTC eyes $89K \u2013 $92K range, while this $0.04 crypto is set to explode - MSN",
       "polarity": 0.007168225944042206,
       "ts": "2026-01-10T22:00:00",
@@ -192,6 +164,13 @@
     }
   ],
   "negatives": [
+    {
+      "title": "Bitcoin mining difficulty falls in first adjustment of 2026",
+      "polarity": -0.9472981039434671,
+      "ts": "2026-01-10T21:22:20",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-difficulty-falls-first-adjustment-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
     {
       "title": "Spot Bitcoin ETFs lose $681M in first week of 2026 as risk appetite fades",
       "polarity": -0.9081486277282238,
@@ -240,6 +219,13 @@
       "ts": "2026-01-10T12:30:52",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1q92wmc/to_those_still_holding_alts_after_8090_losses/"
+    },
+    {
+      "title": "BlackRock warns crypto's love affair with AI is over as an energy war with Bitcoin miners begins - CryptoSlate",
+      "polarity": -0.1542157307267189,
+      "ts": "2026-01-10T18:10:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORjZNRERGWGtiWHdpOTdsTnFMNUZiTE1lVG41YVU2RHZiMmYzLWJISExWcW1laG93NXpEVXJjY0xUMy1YRjlRcjBlMDhINzBjSDVpTFpVVzAwQ0ZiVlpxcDBtTG9KdE5RN3l2U2dTZlpzT1RaUkdxdEpGaWVDamFQOUNzak9laGM?oc=5"
     },
     {
       "title": "South Korea Supreme Court Rules Crypto on Exchanges Can Be Seized",
