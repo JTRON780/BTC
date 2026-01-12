@@ -2,13 +2,6 @@
   "day": "2026-01-12",
   "positives": [
     {
-      "title": "Tom Lee's BitMine Buys $76 Million in Ethereum as Analysts Predict ETH Outperforming Bitcoin",
-      "polarity": 0.9268792644143105,
-      "ts": "2026-01-12T16:43:00",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/354244/tom-lee-bitmine-buys-76-million-ethereum-analysts-predict-outperforming-bitcoin"
-    },
-    {
       "title": "Ether (ETH) to outpace bitcoin (BTC) as Standard Chartered lifts 2030 price target to $40,000 - CoinDesk",
       "polarity": 0.9207414854317904,
       "ts": "2026-01-12T15:13:20",
@@ -37,18 +30,11 @@
       "url": "https://decrypt.co/354224/bitcoin-powell-probe-doj-fed-chair"
     },
     {
-      "title": "Strategy boosts BTC holdings using digital credit STRC - CoinDesk",
-      "polarity": 0.8983702939003706,
-      "ts": "2026-01-12T13:14:00",
+      "title": "Bitcoin price edges higher near $91,000 as Strategy buys $1.25B of BTC; Coinbase stock climbs - TechStock\u00b2",
+      "polarity": 0.9111690744757652,
+      "ts": "2026-01-12T18:22:08",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQkRSMzVDQjJISTNvSEpPNTlKUE5qZk5qeTB4bWlRRXdBT0wxd24zRWFnNmlUdzNwd0tHTVBTZmlxNE00Y2ppNl8tSktvRmMyT21CeGRPQXdTYk05SlhMbG84YXJDWXNtUVFXR3MwTUx0ekNremZ4aVZDM3JPOEdRWWZ4cHh1QjE5SUFJYlZ3ZUJfVTRmM19BWmpiTjlFcURpRWpETHJSS2tOaHZOMVZF?oc=5"
-    },
-    {
-      "title": "Adam Back-backed Bitcoin treasury Future Holdings set for takeover by H100",
-      "polarity": 0.895482818596065,
-      "ts": "2026-01-12T09:26:35",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/adam-back-future-holdings-h100-acquisition-switzerland?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdzBEeDlrSGd2Q2RXSkllRmhLY2t0YzQ1OHYyS3ppaWdkMmFEY2xiNF9WRGlaVTBaNHEyRGpDZXBhdEgtOVZmUEZpSEFvNm1qaTM2ZjVOVTNmMnk0VmNOOGtLX2ZnbVZmRllWZktZemdyY3dHSkx5WWpVc1poS05zdGwtcVlfVVh4OEZxQ0dqdHJWczRPdU5LREF1VnJpazNrV002bFZaeWdCaFBYTTRv?oc=5"
     },
     {
       "title": "Bitcoin pares Powell-fueled spike as privacy coins outperform: Crypto Markets Today",
@@ -56,13 +42,6 @@
       "ts": "2026-01-12T11:40:19",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/01/12/bitcoin-pares-powell-fueled-spike-as-privacy-coins-outperform-crypto-markets-today"
-    },
-    {
-      "title": "Ether to hit $40,000 by 2030 beating bitcoin, Standard Chartered says",
-      "polarity": 0.8762461617588997,
-      "ts": "2026-01-12T15:12:00",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/01/12/standard-chartered-predicts-ether-will-outperform-bitcoin-hit-usd40-000-by-2030"
     },
     {
       "title": "Price predictions 1/12: SPX, DXY, BTC, ETH, XRP, BNB, SOL, DOGE, ADA, BCH",
@@ -107,13 +86,6 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOS0ozTDlTcnVRVmwzUEk3bUtSUjUyWExGMFBJTkJMdktqZVNUMGY5dC0xV2V2c0xiU2ZaRjFNQXRXcHNrNzNoM3Z6Z2otRXpISkJpZ2VpempSLWtYVUN4V3M2TGc4SmJHQk9RNjBjSm04TmJJc09VRHVWVnVaaGpkLQ?oc=5"
     },
     {
-      "title": "Crypto funds bleed $454M in outflows as Fed rate-cut hopes fade",
-      "polarity": 0.7700019627809525,
-      "ts": "2026-01-12T10:59:30",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/crypto-etp-454-million-outflows-fed-rate-cut-hopes-fade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "title": "Gold, Silver Hit New Highs as Bitcoin Trades Flat Ahead of Key Macroeconomic Events",
       "polarity": 0.7584423273801804,
       "ts": "2026-01-12T14:44:10",
@@ -133,6 +105,13 @@
       "ts": "2026-01-12T13:58:55",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUkZPMGtIVnhWZm9ZQTVKd3FKRUd1UkFJNHE4aUxKNHRTckhrOTdoTXBTS2JIM1E4aUZNM0hXaXd5NG03T1AzbXFwUnFxTmViTTJ1RDFEdXFweHlMSTVMTm1BUkNsVHp2Y2hOemdRcEVwVVZVZGxyUjQwOW5peG53YUN4SlFPbElHdjM0?oc=5"
+    },
+    {
+      "title": "'Big orange': Michael Saylor's Strategy buys another 13,627 bitcoin for $1.25 billion following MSCI indexing decision - The Block",
+      "polarity": 0.6860704924911261,
+      "ts": "2026-01-12T13:06:08",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMFZNTlR5S1Q5TlNtVmxVVHJpOUJSbEJhaDY0TGE1LTZnTHl3Zm43WFREaFNoWFlvdHJBMVJuNWZiQmJBRnVoYmxrUGEtdTZFOFF2X0JKNzdxWnhIcnpDcGRvVW5PUmtRbW1heFZPVTZ1Mjh5cUFOaExPeUNoTWpiLVMzNlhfal9hbU5TMU8yUi1rV0ZYdDMyMFJ5T1lUcTJkZ0lub1o1NlFudw?oc=5"
     },
     {
       "title": "Strategy makes biggest Bitcoin purchase since July 2025, adds $1.25B in BTC - MSN",
@@ -156,25 +135,11 @@
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQ2lUZ09xQkM5MG12TVRtUzBLcGFFS1g4dVd6X0kwaVp1NXNjZEx1TFZDRENWNTZ0b0p0SUdZZm9zNFg4bVY3MXU1clZMcXZSUHBqMmVIQV9WOUhZZGxGbUhYaTUtTHNKTzNiZTZnMmoyalpqWHhFTWttWHJITzBsdDN3?oc=5"
     },
     {
-      "title": "The Daily: Bitcoin and privacy coins gain as Trump-Powell conflict escalates, Tether freezes $182M in USDT, Strategy makes biggest buy in six months, and more - The Block",
-      "polarity": 0.40491317212581635,
-      "ts": "2026-01-12T18:31:19",
+      "title": "Strategy adds $1.25B worth of bitcoin last week - MSN",
+      "polarity": 0.34568305499851704,
+      "ts": "2026-01-12T13:58:55",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNU2dmNWwtU01ub2VoVHg3dUtBakQ2RHJXVTRuV25PdUMzdXNsdGVIWloyUWhDbjRzVGtLMGRNa3RFTWZHYUd3bTZqV3dSdkhxM1Z0ajBaeFlpbkVmZ2QwcDdMcjlpZC1jalMtSUg4SFU4ZkVvT2ZyellKMFJka3dsSjZxbU04VFpybDZaVHhlZFdjTXJ5dHp1c0JfcjV2UVMtbVVfRThYTW45Y0VsVnV3UkM0czJVUENlOUlLUmN1eTJDOHFESUQwdjN1ZDh1ZUxaOTNKZ3pHd3lURk1lZzJxYzE0ZEZkOWdQb1JSdTU0bzhidThjTWZpYWIxVl9EazY4LUE?oc=5"
-    },
-    {
-      "title": "Bitcoin treasury firms linked to Adam Back sign preliminary agreement to combine",
-      "polarity": 0.3800849113613367,
-      "ts": "2026-01-12T09:22:03",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/01/12/bitcoin-treasury-firms-linked-to-adam-back-sign-preliminary-agreement-to-combine"
-    },
-    {
-      "title": "Mezo Opens Pre-Deposit Vaults to Migrate Bitcoin Liquidity From Ethereum Back to Bitcoin-Native Infrastructure - Yahoo Finance",
-      "polarity": 0.35761036165058613,
-      "ts": "2026-01-12T18:31:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQU2ZYZnNzZ1dua185czdMcFRfOHpYMmF4SjVUWjNPNXM4UzF6dmlqLVAzUUYxeWFDSFBGSl9DT2tzZHZNVGh0UEpvOWRCaWlXY2NvbWN2bFJBQjYtWERpdk5TSkJWdlVGV2NtR0kwZE11WHpOMDhGV1BpY05PY1Mxbw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeWJNVVJvZ1doRHRjTFpRblhvaFNkRmFmbjltMEZoVC1BR0F2aFBGOFctSm5lLUNScmM4MFVtNHExYjNFR0c1bnlDXzFKSWRQdFdoX2c1bkJaTkpiV2hZNndKR1h2dGgtUkN0R0RCd0ZnTVhQSjF0aHZxcGgwSTF4eTRGVjdkU1lISUk3bERlLWEwUGlWVFlfUWdoeHZEcEZ1RG9PNFVpTDd1bEQwcHUxLVlwdlhKWkVDWEdFUDJJVmtGQQ?oc=5"
     },
     {
       "title": "Strategy acquires $1.2B in Bitcoin at $91,500",
@@ -185,7 +150,7 @@
     },
     {
       "title": "A16z raise $15B! Jerome Powell vs Trump! Crypto remains flat! Special Guest: Dudas!",
-      "polarity": 0.2705785408616066,
+      "polarity": 0.2705785185098648,
       "ts": "2026-01-12T17:15:46",
       "source": "Decrypt",
       "url": "https://decrypt.co/videos/interviews/0y90noNs/a16z-raise-15b-jerome-powell-vs-trump-crypto-remains-flat-special-guest-dudas"
@@ -212,34 +177,6 @@
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qav07l/btc_reclaimed_912k_support_flip_or_fakeout/"
     },
     {
-      "title": "Ethereum to $40,000? Why one analyst expects the second-biggest crypto to outperform Bitcoin - dlnews.com",
-      "polarity": 0.14548403024673462,
-      "ts": "2026-01-12T16:37:12",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQajkzRGxOdG00TVJYUWItQ2JqR0xUeFBhR2dwcDNQYzVsRUFEdjU1ZFpGeFVyWTVvWVRWaWdfYm1SZXRhWWtSVWI0eWZZV0ltWmZpVDJlenVFMkJjMjlzc3BSWXNtY1YzVUNrV0RzeXc5d1UzVUN1WWNSN0xvN0UxOTdxQzAtbGZTa190eUUtLU54Mm5jdUs4RzU3MEY0dU1yalU1bGZLajBtc3FPcTdOaGcxN1h4bEJO?oc=5"
-    },
-    {
-      "title": "Tom Lee's BitMine Buys $76 Million in Ethereum as Analysts Predict ETH Outperforming Bitcoin - Decrypt",
-      "polarity": 0.1405638735741377,
-      "ts": "2026-01-12T16:43:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWnF3WHlaNWROR1ViSEVhcWlwclAzSWdsUThtR3E1eFgxbkd0ZG9xUEhjcHc3WTM0ZWJGOW1BZ2k3WkxpSDdkbm9DYWVKcWYyN1RfdjNfTFJnRDMzeDU0TjJ5TXlqWE1vUGR6THVBMHRsV1VvNU43dW5LRlRrTmMtWFV2RWUxMlJrYW1oSDRQem9wdzhMYU9NZ0lBRDBvMG9WQkFINFdaVlHSAbABQVVfeXFMUFpBTWpvSjdZZVk1TGI0dkRWWDZBaVNYMWVzRjBPNVdydXl3TUtPa1NnQ0J4djdtT2s3Vkp6SjFYZTdRLTF4UHczNjNMVUhQVzBvckFDakxrRzhjTnBscldNR0MtYlhDRl9EV2FzaUtzTE9JeVQ5X3BjOGxjSU1ZM0tEOEFxZ2lLYVN3V3ZOU1l5emdBbXd6V1pCeGlRNW10RlVYMUNWSmE4MDhRNE5SdEY?oc=5"
-    },
-    {
-      "title": "A quick roundup of recent DeFi updates",
-      "polarity": 0.13603112660348415,
-      "ts": "2026-01-12T11:34:52",
-      "source": "r/defi",
-      "url": "https://www.reddit.com/r/defi/comments/1qasl5l/a_quick_roundup_of_recent_defi_updates/"
-    },
-    {
-      "title": "Could Ethereum Soon Overpower Bitcoin? A 95% Surge Might Be Next - TipRanks",
-      "polarity": 0.1337906625121832,
-      "ts": "2026-01-12T16:44:19",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYzBNeVUzM1BaVGF0bU84aHFFcGxXUDk2MF9DOFYxallpN0t4dWpKNmM1X2Z2alBrZDJSRkpwM0xHb0dnWmswdVJQQzc4bU9pNDFxYjctdmZVWjBzWk5NV1ozWjVQVE1qdWRIZTd5dTNIOUx1Y1N1SVFBMExVbmgyV1hJVmN3VUwtQXZnZWRrakVXMm5tX2w0?oc=5"
-    },
-    {
       "title": "While most assets chop sideways, Monero is quietly setting new highs \u2014 what does it signal?",
       "polarity": 0.12819623574614525,
       "ts": "2026-01-12T14:19:21",
@@ -261,32 +198,11 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc2FULWp6bTJxR014ZExKQV9KRmdfdW1aYnBqOXBJdzJVaGJrNElPaFYxRG9PNUkwNXdVZUNYanZhdDJrOVR1azJwLTNMaW0wbThyem5idks5OU45Y3JrUWY1MVVFb2tmNzZqM0RSTWNFeXRrM2lkT0N2dlNBdlVJaEdkd0xjM0lNWmZtMGpKN2FaUFRtUlUxb0hDZVdqTk15V0ZyWmxUeFMwdVI3WUhOZXdJTHhiRUtQ?oc=5"
     },
     {
-      "title": "How 2025 Reshaped Crypto Trading Strategies: From Robots to Grid Orders and AI",
-      "polarity": 0.12187331542372704,
-      "ts": "2026-01-12T06:49:59",
-      "source": "r/CryptoCurrencyTrading",
-      "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1qanyv6/how_2025_reshaped_crypto_trading_strategies_from/"
-    },
-    {
-      "title": "MSTR stock at a make-or-break price as Strategy buys 13,627 Bitcoins",
-      "polarity": 0.10302535444498062,
-      "ts": "2026-01-12T16:35:19",
-      "source": "r/CryptoCurrency",
-      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1qazp6p/mstr_stock_at_a_makeorbreak_price_as_strategy/"
-    },
-    {
       "title": "Bitcoin traders are bracing for a Fed \u201ccredibility shock\u201d that hinges on one critical date this month",
       "polarity": 0.1012960895895958,
       "ts": "2026-01-12T11:35:44",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/bitcoin-traders-are-bracing-for-a-fed-credibility-shock-that-hinges-on-one-critical-date-this-month/"
-    },
-    {
-      "title": "Strategy Acquires $1.25 Billion in Bitcoin, BitMine Adds 24,266 ETH - ForkLog",
-      "polarity": 0.10097318980842829,
-      "ts": "2026-01-12T18:35:53",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcFNraE9OcHNINGhTVURRTFl4NkxoMFBNbmt5Wnd0bkh6dVVzRzI0NjVVeG5mUWlQR1hjc24tMXR6Vjc0SmN5SkVkejN3RGRvNS0xUEtXTXJRZ0FmMVRWeDA2bW16NnlubHNwU1pFRVdDcXR4VERyckdybW1FUzRRQjJQM3dkbVFsZVlaa082ampXUdIBlwFBVV95cUxPMEVCTEZEdUhLcmNGX0NoeWppU0NYOUpocG81a0hpdF9HMURiVVF0cEduYXJsbkVfRE5XV3pUbURjTVEwN294WWhuWHFyRzBQVnVQUnFydEszNm9uTTFYM0Z4NnhLLTI3TlRJV25LVzEyYVFoWlR5UEdqUFVQTHU5amZGVm9PLXA0dG84SkJYRUdMdWhTQVNR?oc=5"
     },
     {
       "title": "Strategy ($MSTR) Just Spent $1.25 Billion on 13,627 Bitcoin, Pushing BTC Holdings to 687,410",
@@ -296,25 +212,11 @@
       "url": "https://bitcoinmagazine.com/featured/strategy-mstr-buys-13627-bitcoin"
     },
     {
-      "title": "Rise and shine, Hodlers! Don\u2019t forget your cold storage wallets \u2018cause institutions want your bitcoin!",
-      "polarity": 0.09039114974439144,
-      "ts": "2026-01-12T13:22:15",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1qauq8n/rise_and_shine_hodlers_dont_forget_your_cold/"
-    },
-    {
       "title": "Can Bitcoin Price Follow Gold? Fed Chair Investigation Behind Gold's Rise, Peter Schiff Claims - Yahoo Finance",
       "polarity": 0.08556480705738068,
       "ts": "2026-01-12T10:29:53",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHUk12ZFp6bUQxUGd2VXNTb0QyUWIyUlhybnZMNDBTVzh1eFpPQTVTMGFBWDIzSmprZmNiaWJVTUZWWGhCR2c1YjluTUF5U3d6aWFfSHo5ZDhrTzlhTHZNaDRYTUdBczVCV2JZQ0FMb2hSTnphYkZOZ0tycW9sMlE?oc=5"
-    },
-    {
-      "title": "In the last 5 years, the global money supply increased by over 16 trillion Dollars. Buy Bitcoin.",
-      "polarity": 0.08423412777483463,
-      "ts": "2026-01-12T12:59:52",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1qau84f/in_the_last_5_years_the_global_money_supply/"
     },
     {
       "title": "Strategy Spends $1.2 Billion on Bitcoin, Its Biggest BTC Buy Since July - Decrypt",
@@ -324,25 +226,11 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOLVM4enNJUjBEWkc4STJOcEZseXJqaDhxLXNXQk56WlhybkRrT1JGZ2o2cnQ1cFVvOGxJRUtMNndxeGx4NHpOMlVkOGF6ZWVKOVA0Qm4xanN3VWUwV0xqaE9PTHpBMFItNDVkNGtNS3p0b0lZWnVsS3pSVlB3RWhCSlpqVGdHZDdta3fSAZIBQVVfeXFMT3JEQzJiUXIxOHQyU1dfQkFydDJLczhjVTN5MUVvOVZuU1M4TWg1R3FoaEswajhFZ3NuTXBHR2J2THJzbHhhQmpzWWJ3TEZuWjJ5WlJ3SEktYWhyZG5NNWtfUzZFMTJpZ1FMSFgyMFcxVTB0Q3BvOTdKdGZCRjBYM2tJMDVGSFhaRU9KU2FxM2RmV0E?oc=5"
     },
     {
-      "title": "The Bitcoin Builder's Manifesto: A Checklist for Sovereignty. From Passive Observer to Sovereign Architect: The Practical Roadmap.",
-      "polarity": 0.07157941907644272,
-      "ts": "2026-01-12T10:07:11",
-      "source": "r/CryptoMarkets",
-      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qar3i1/the_bitcoin_builders_manifesto_a_checklist_for/"
-    },
-    {
       "title": "Strategy makes largest bitcoin purchase since July, adds 13,627 BTC",
       "polarity": 0.07049805857241154,
       "ts": "2026-01-12T13:12:07",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/01/12/strategy-makes-largest-bitcoin-purchase-since-july-adds-13-627-btc"
-    },
-    {
-      "title": "Saylor\u2019s Strategy shells out $1.25 billion for 13,627 more Bitcoins ahead of crypto policy vote",
-      "polarity": 0.07008853182196617,
-      "ts": "2026-01-12T16:34:25",
-      "source": "r/CryptoCurrency",
-      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1qazobf/saylors_strategy_shells_out_125_billion_for_13627/"
     },
     {
       "title": "Beyond Bitcoin: 3 Crypto Niches That Could Make You Money in 2026 - Yahoo Finance",
@@ -394,32 +282,11 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTVdhNzV2NWItaTBlRzZQYloxZnhxaHUxYkx5ODhMdElmMGI1SEhpZ2FtbTd0UkluRUpKVWVzdkhxM05GX2RSTlBjZWRnR3YzYW02UlFsMDJxUkIxRWF0UUdwUl95dVRwUHJES3VmZ1Q0TldoX094ejFqaUp0SDNFWkVFdw?oc=5"
     },
     {
-      "title": "Strategy Buys $1.25 Billion in Bitcoin in Largest Purchase Since July - Bloomberg.com",
-      "polarity": 0.062169359996914864,
-      "ts": "2026-01-12T15:20:28",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPT2tTM3dPRnlLdlZGb24wTy1NVTA3MVBCekg0VzJkTkpFMFlVcG9uUjhsM1pQV1M4TndwQTRJRlU1dWd5MS1oNEx6aHJ1cGtEUV83eDQwZlVrOEtMTTdIdkZSbjE2UmdMdHcxSXhZbHBkbWtPWGw5RWY0Zjk5TlpjdEI1b1lTT3FYNUQwOTJuLVk0RmVQSklhTFFWbktldHpMcjhQbjJ3eFJUVE9TSTg3MWRacEtMMTFuMTRz?oc=5"
-    },
-    {
       "title": "BTQ launches Bitcoin Quantum testnet with first quantum-safe fork of Bitcoin",
       "polarity": 0.05753493309020996,
       "ts": "2026-01-12T17:27:58",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/btq-technologies-unveils-bitcoin-quantum-testnet-for-enhanced-security/"
-    },
-    {
-      "title": "When will Bitcoin reach the top ranks?",
-      "polarity": 0.05720662511885166,
-      "ts": "2026-01-12T11:40:30",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1qasoq7/when_will_bitcoin_reach_the_top_ranks/"
-    },
-    {
-      "title": "Adam Back-Linked H100 Moves to Buy Bitcoin Treasury Future Holdings",
-      "polarity": 0.05496521480381489,
-      "ts": "2026-01-12T17:33:17",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/news/h100-moves-to-buy-future-holdings"
     },
     {
       "title": "Swedish heath-tech company H100 moves to acquire Swiss bitcoin treasury firm Future Holdings - CoinDesk",
@@ -429,25 +296,18 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOT2FJeFhQS3hzVV9CdlBFNlZTWkdSeXhWbmV0T2FIZkVuVmFQajVta0JETUxaXzVsenRWVWR3UHhkZWNHcjBSRDdXcmRvV09meVlQUVZ1aUgySUpxemRScmlaZ01fblVWMXZsRmVPLVVxTGcyMDcxU2R0N1FSMlktb0dSOU1RMUNWeHVBaU5WSFB2bFJTT2JmOGEtSXdKa0tIVWZtb2ZuRmRrLXpfallZaDJPV2JiN3oxbWpoODktZ0R6dw?oc=5"
     },
     {
-      "title": "Crypto News: Bitcoin builds momentum \ud83d\udcc8 Is a triangle pattern forming on Ethereum? - XTB.com",
-      "polarity": 0.042808929458260536,
-      "ts": "2026-01-12T16:27:49",
+      "title": "Bitcoin, privacy coins rally as Trump-Powell conflict escalates - The Block",
+      "polarity": 0.04308842495083809,
+      "ts": "2026-01-12T05:51:55",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWUw5OGRIdXA3OC1xejltWGppb25sS0V4LXE4d0NxRXB0ZTVJVVZjaHF6d3JkOGJPM3NzdkJhNGMwRGpzdFZvQ19LOWhkUnpJdGUyV1lUbGZFLTk5WGU0RWpTV2RHY2ZlVHFwY2VJeW5XTFdrb3hnTGdManNZcURDNHloRTVBMTNyRzR1WmxXUnNaOHAxSHg5WDhjQVRMRkpnYVptZ0VjQmN0Z0NqeUd4YWZyNmttQ1E1VngxRy1YTVpKTE1rRTcycVNaZi0tczJx?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ULTNGMWdGTWxPLXp1bW1TVVo0UXE1V1Bmak5XOXZYVy1xMVo2aE5VcU5iZHZtRGZ0ZWFMdXJhT0l1b2wzMHRJdDRpOU9ZU2lrcHNXQkpTVVIwWTVRVXJIOTI0UlJPa2gzUHdxMEZuMDNEdw?oc=5"
     },
     {
-      "title": "Adam Back-Linked H100 Moves to Buy Bitcoin Treasury Future Holdings - Bitcoin Magazine",
-      "polarity": 0.04201941750943661,
-      "ts": "2026-01-12T17:33:17",
+      "title": "Bitcoin Shrugs Off Powell Probe as DOJ Targets Fed Chair - Yahoo Finance",
+      "polarity": 0.04075676202774048,
+      "ts": "2026-01-12T03:39:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90VDd6UFdlM3htVkxBV0RKVGgyX0NUbEZwLXdOd1o4a0F6dzZRb29CQzBVZkFrYWJHUy1GcmRYNWYxbDBFYUpaRjZtTVktaWJNd3NKT3JLSlpGdUo3RlhmcXhKemY0SndUb0pGZmJiUUxfY2Q2?oc=5"
-    },
-    {
-      "title": "'Big orange': Michael Saylor's Strategy buys another 13,627 bitcoin for $1.25 billion following MSCI indexing decision - The Block",
-      "polarity": 0.036376550793647766,
-      "ts": "2026-01-12T13:06:08",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMFZNTlR5S1Q5TlNtVmxVVHJpOUJSbEJhaDY0TGE1LTZnTHl3Zm43WFREaFNoWFlvdHJBMVJuNWZiQmJBRnVoYmxrUGEtdTZFOFF2X0JKNzdxWnhIcnpDcGRvVW5PUmtRbW1heFZPVTZ1Mjh5cUFOaExPeUNoTWpiLVMzNlhfal9hbU5TMU8yUi1rV0ZYdDMyMFJ5T1lUcTJkZ0lub1o1NlFudw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOU1lHSDFXWGRvNnZFalJlMFpaaU9yajFRSFFfendpX1FGNjVTNlpqTTI4WWN3VUh5bVNqWjNrdVd5VmwtMWYxNl8wemdvRUZzZUNobk5IdlRTOTY4SWw1MzkxN1dTSDdDNzBQT2tpNXYyMzVCMExUdTBfbWV0WUR1RnlTVQ?oc=5"
     },
     {
       "title": "BTQ Technologies Launches Bitcoin Quantum Testnet - The Quantum Insider",
@@ -455,6 +315,20 @@
       "ts": "2026-01-12T15:11:20",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSmdldFRZeXNGQ1VrVmpQQ3JlcmNsMzMyOGRIYk5YQS1ldzhDeFVuVzhHMWVsOTN0WVJsTk45R3JOS1BuZFBONjRmWTRBdTVHQU01VVJvRDIzY294UDFWRXNqMlloRmRHQXVhaTVrTUl2ZDFacUFhMGZxbFlHaWxsWDNQTERUWG9SNEx6bU5icm9Pb1A4LXc?oc=5"
+    },
+    {
+      "title": "Strategy Buys 13,627 Bitcoin for $1.25B, Total Holdings Now Top 687,000 BTC - Yahoo Finance",
+      "polarity": 0.03235376253724098,
+      "ts": "2026-01-12T15:53:18",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KZGxYZGxWMVpIV3RpMHo0cl9QcEE1VmxhMXlxNXg3MjlUODRHclVJQ1RHSTc1YUY1ODloOURLbVFfWl9TVVNXTE1OLVpPTXpnalJ4VGNTOEpRSW1hR2ktcWxtanRXTTh5M0FydWhZM21hQzFWSDJjTHNaNGx0ZlU?oc=5"
+    },
+    {
+      "title": "On this day 17 years ago",
+      "polarity": 0.031189128756523132,
+      "ts": "2026-01-12T16:32:32",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1qazmi6/on_this_day_17_years_ago/"
     },
     {
       "title": "BREAKING: Strategy Announces Biggest Bitcoin Purchase Since July - TradingView \u2014 Track All Markets",
@@ -469,13 +343,6 @@
       "ts": "2026-01-12T09:56:54",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1qaqxf6/i_choose_btc/"
-    },
-    {
-      "title": "Bitcoin Cycle",
-      "polarity": 0.02712644636631012,
-      "ts": "2026-01-12T11:19:49",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1qasblm/bitcoin_cycle/"
     },
     {
       "title": "Satoshi-Era Bitcoin Whale Moves $180M in BTC to Coinbase - Decrypt",
@@ -499,13 +366,6 @@
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaVFsRzdtVjNfOHRSSEUtVDBsbUxOZFZ2M0ZDM3BTa3hUSWVyWklhS2ZXX2pNRXU2akJ4c0c1eWt5cU13MlVldmgzVjczSXZKcEtkNXgxRTRyWlJDcTBIVHFub05GMTZsU2t4Uk8yUFZCUldibzhueFNYQ2MtamFVNlVDZ1hfZ3BGUC1CaEl0a08xdG5uVzVIUm5HYnV3SHJjQXpoQXhMZTN5aXYxTlMxOVZwLXRFYko4M3NhZV9XLVhYeXgtdGZMRzRwWWJtYUFm?oc=5"
     },
     {
-      "title": "US Stole a Chinese Scam King\u2019s $15B Bitcoin? Here\u2019s \u201cHow\u201d",
-      "polarity": 0.01936710625886917,
-      "ts": "2026-01-12T06:49:12",
-      "source": "r/CryptoCurrency",
-      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1qanyec/us_stole_a_chinese_scam_kings_15b_bitcoin_heres/"
-    },
-    {
       "title": "US Stole a Chinese Scam King\u2019s $15B Bitcoin? Here\u2019s \u201cHow\u201d - Yahoo Finance",
       "polarity": 0.018616704270243645,
       "ts": "2026-01-12T03:03:00",
@@ -520,13 +380,6 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZTdISzRFTmtnZGxzdS1qX0dqalFRWlVYQzN4Wkd2VVBPWUowa01HWF90WDVYeXNBQkpMQ1lCcHhkX2Y1dkV2SXRsU0JlVGNuc2szRXNjdUNPWm84Y3ktck9LQ2RBc1N5YWw4cENSRXBMcXF1X3pWTHJUczVHSXoxbjdlYw?oc=5"
     },
     {
-      "title": "[Daily Discussion] - Monday, January 12, 2026",
-      "polarity": 0.013025714084506035,
-      "ts": "2026-01-12T05:02:02",
-      "source": "r/BitcoinMarkets",
-      "url": "https://www.reddit.com/r/BitcoinMarkets/comments/1qalzv6/daily_discussion_monday_january_12_2026/"
-    },
-    {
       "title": "Standard Chartered still sees bitcoin hitting $150,000 in 2026 - Sherwood News",
       "polarity": 0.010507460683584213,
       "ts": "2026-01-12T14:45:42",
@@ -539,27 +392,6 @@
       "ts": "2026-01-12T12:33:14",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMUJ6M1MyNzNIV3NEYUc1Vk90TUIzdEx5ejhZLUVpaGd0eUh2SmxwTTdBYUp5VVpZRk02cUFqYURhVnZiMEhHTElmRWJyS2lqTnlNS0tOcUJPa19RYVVrV21oLVpIQV9xUjZTYW5KekRkdWM0TmxxTWZ3bl9tUUUzcHRnRVhpMHM2NlhTbWcwSDZrZEtCZ1hFMnVScUszdTIzdWRUVGptbWJIZ05OVmdxU1VGRFZibFM4ZmtHb2xiVVBVSnlVOEpKdWRUbFQ0a3VNa2dnTjFaQ0o?oc=5"
-    },
-    {
-      "title": "Bitcoin vape I found at antique smoke shop",
-      "polarity": 0.0048420242965221405,
-      "ts": "2026-01-12T00:04:27",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1qafhv5/bitcoin_vape_i_found_at_antique_smoke_shop/"
-    },
-    {
-      "title": "Scalping Bitcoin?",
-      "polarity": 0.0012901723384857178,
-      "ts": "2026-01-12T17:07:16",
-      "source": "r/CryptoMarkets",
-      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qb0l8s/scalping_bitcoin/"
-    },
-    {
-      "title": "Daily Discussion, January 12, 2026",
-      "polarity": 0.0009098704904317856,
-      "ts": "2026-01-12T06:03:47",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1qan5ra/daily_discussion_january_12_2026/"
     }
   ],
   "negatives": [
@@ -569,20 +401,6 @@
       "ts": "2026-01-12T15:32:01",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYm1HeThjc2I2X29oYWdVc3BkNm52MlFoZkhqejRXMElkZVNYOXJKeURiS292OVRuaWRKTjlUZndUaW5RYTJ1VUxoOHEwTDd2b012VTk3cnNnV2ZhTTNGT0RJRzhLWDRVMnVDWmlLd2FqU3pXbmN6ZUxacF9weXZMV0VZd0swRTJMcFk0eDFLZmFBZ1FzTGZWY3ZHMlNtd1phUmZfYU9hX0paQW_SAbABQVVfeXFMTWcteHJJVGVGbWhrSnpSUXUwMVlLYWhPUng5NGRlNUhmWW4xNTZmd2RyZTRCSHV0YzdqNllZSHdUcGozVWplVHdzXzBjcXBJU25oZHM4bFNyckNFdW5PbzgyRkpfWWRURXFCTEhlU1pYQVljT0tWZ1NkbUgxdGVIaWxXVHVTNUp2dGkwdi1BdmxucGU0blduRy1TZ2J6c3gyMWtOSU1xdEdRM09KLWpGOXM?oc=5"
-    },
-    {
-      "title": "Bitcoin, Ethereum ETFs Shed Nearly All 2026 Gains as Rate Cut Hopes Fade",
-      "polarity": -0.9387335609644651,
-      "ts": "2026-01-12T18:25:49",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/354246/bitcoin-ethereum-etfs-shed-nearly-all-2026-gains-rate-cut-hopes-fade"
-    },
-    {
-      "title": "Bitcoin rises 1%, Nasdaq futures and dollar index drop as Trump-Powell feud escalates",
-      "polarity": -0.9258083757013083,
-      "ts": "2026-01-12T05:54:21",
-      "source": "r/CryptoMarkets",
-      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qamzd4/bitcoin_rises_1_nasdaq_futures_and_dollar_index/"
     },
     {
       "title": "Bitcoin loses to gold as debasement trade with BTC at 2-year lows: Analysis",
@@ -627,11 +445,11 @@
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaE12ell4NVZVRkRTY1Zqa0thM2txYmk5dl9oWnU3WUMzWE1HU3psV3RPd3pVeVUzdk5ocXZHbklDbVYwd3Rjc0Z6cUFzS0NFdHNmYlpVMTZmQkhuUkYybklVV1BHMGVEeWZWTVhfM3RZRjRpSkNVMzdlRDQ1ODZJOGNERUxmNlY1dWUya1FKaHYwWU41aHphQmt2bzg4TGNaZ0lpd2szWWN6MjJlbHlKelAyTHhzSXF0Z3JMVTNkVlhBTjlwNVcwb290a0J5NUswaVZBSQ?oc=5"
     },
     {
-      "title": "Bitcoin, Ethereum ETFs Shed Nearly All 2026 Gains as Rate Cut Hopes Fade - Yahoo Finance",
-      "polarity": -0.6949185580015182,
-      "ts": "2026-01-12T18:25:49",
+      "title": "Bitcoin price slips below $91,000 as privacy coins steal the spotlight: Crypto Markets Today - CoinDesk",
+      "polarity": -0.7022332046180964,
+      "ts": "2026-01-12T11:43:07",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORkZ4OU4yOThUejctbFQ3WmkxOFRwTGxZckFoekNwNGRObjZKQTUtUDBLU1BaR1ZjYXNTS09VSTM2bmVERHp2VnZEV3hRS01taDFkeElWWWJGamw2OG9ua2IxRWNHZ0x2YmozVGhnTm8zMGFmanpMd1hyWDZBRXRacW9mXzBuUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxON2lEeFlxYWpOYzg4U2xtR3RhQWRUTG81cGNwN05wc1NIQnpRc3IzbnNDUlFxZTRfQ1BhSE9TNFdjM051RVc0QmpaajJiSUpoeGNpWV9JbHNDUkQzRHZJTDNVd2Q2REk5OVZiZzJlckZjeVJZRW9vNUlaY2E2YjJmMHA0XzRLUGJ5ZXptdUljQ0RLei10Y2JFQmJ6VGZKUWpqWUQwQXlFS2Rfb2lFX1NyOWtLNEN2QWVfcXhnSnlpekx1MmRi?oc=5"
     },
     {
       "title": "Why Jerome Powell Investigation Could Be Disastrous for Bitcoin - Yahoo Finance",
@@ -639,6 +457,13 @@
       "ts": "2026-01-12T14:18:22",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOejVuQmhUUE9LbWRGR3RCUmlGbGxXbUM5SEN0WEFKc3kxbUxaY2FEbjU4UXhrUHl2em1FT2FQbW8tTWJ6Qk5xX09ObnZjZVNzMmRjYTJqd09Kd0JzZWtaOHdLSmVIRTRuVHU1TDlvWUZMeHpPVEM2SExsMlN4SEFaUm5fZ3NRSzFNdUNB?oc=5"
+    },
+    {
+      "title": "Bitcoin \u2018OG whales\u2019 sell $286M, but odds of $100K BTC remain high",
+      "polarity": -0.5110118985176086,
+      "ts": "2026-01-12T19:15:00",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-whales-sell-dollar286m-but-odds-of-dollar100k-btc-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "title": "BTC turns red on the day, sliding back toward $90,000 - CoinDesk",
@@ -660,13 +485,6 @@
       "ts": "2026-01-12T12:36:31",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qatrbp/btc_vs_eth_at_these_levels_what_are_you_buying/"
-    },
-    {
-      "title": "Most People When Bitcoin Drops, Meanwhile Bitcoin",
-      "polarity": -0.4589176643639803,
-      "ts": "2026-01-12T06:27:19",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1qanks6/most_people_when_bitcoin_drops_meanwhile_bitcoin/"
     },
     {
       "title": "Bitcoin's price hasn't peaked yet and its just a 'mid-cycle' correction, historical data shows - Yahoo Finance",
@@ -711,25 +529,11 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNamNtSmZFZkhPVm9FamxnODBURXlSdm9wUldQU1NSMjRKaGxKWW5NanJQVW1TdGREeHFkTm81b0NwQXh1QUh4dFYwNEllSVVFVGgzSnNLTl9UVWJvd0dHazdkOFNrbTZhc0V6SzRYREdPM2NhVUFISWtWWkJyR1dZUjRlY0pCMHh0ZFhtMmlKM1Q4TDM3TFhId2J6M1V0MHg2MFlUQ2taN29vQQ?oc=5"
     },
     {
-      "title": "Bitcoin, Ethereum ETFs Shed Nearly All 2026 Gains as Rate Cut Hopes Fade - Decrypt",
-      "polarity": -0.3086407631635666,
-      "ts": "2026-01-12T18:25:49",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMzZJZTRlV0hyWEM4bXpLQXdNZUxQRjVWSFNhQmlvZmJMdzFyeFluWGpkVHg5MkQxNjVhdEJadEpQeGxBeVJhZVZ1ZnFNTnc4N01oeUdEc0tLSF82eVRHSDdYbUZjZWVmZEpuVDd4Qm5wZ1l3aFk1R0xpd3dTQ0E5aTZMcDlHSGZQRHZBSXE3SjlpLVBzX01IbVd30gGiAUFVX3lxTE5IQXA3YUZuWUotTFB0bVctWEUzM0didzk5ekZPQmFUcVNkb3JFYncxYlUwODVjYkVmUHNaSUVNUUpRX1Jxc3RkbDRkQzRTdTRjaXo4Tmc1endjQ3dYOHVEaDlHcHBibTFXS2NzRjAwdHlhcVltN1hsRGRMVVQyekZKTlUyRjFoT2tFZFgwNXE1bnNLbmNVcDRkWmZCZF8zNFVUdw?oc=5"
-    },
-    {
       "title": "Bitcoin fails haven test as Justice Dept. subpoenas Powell: Crypto Daybook Americas",
       "polarity": -0.2868248000741005,
       "ts": "2026-01-12T12:15:16",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/daybook-us/2026/01/12/bitcoin-fails-haven-test-as-justice-dept-subpoenas-powell-crypto-daybook-americas"
-    },
-    {
-      "title": "Bitcoin, privacy coins rally as Trump-Powell conflict escalates - The Block",
-      "polarity": -0.27317050099372864,
-      "ts": "2026-01-12T05:51:55",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ULTNGMWdGTWxPLXp1bW1TVVo0UXE1V1Bmak5XOXZYVy1xMVo2aE5VcU5iZHZtRGZ0ZWFMdXJhT0l1b2wzMHRJdDRpOU9ZU2lrcHNXQkpTVVIwWTVRVXJIOTI0UlJPa2gzUHdxMEZuMDNEdw?oc=5"
     },
     {
       "title": "Prediction: Bitcoin will not be worth $1 million in 5 years - MSN",
@@ -744,13 +548,6 @@
       "ts": "2026-01-12T16:41:54",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYS1CZ2ZEeXZiT3VEZHlrQ203Nm5sWlo3M0VQekdNRnJZY19UU3pWWENxOEpCSk1BNkJZbEFDcFRSWnlWLWxEQ2hiUXlFVzU4YndZa0pkMFVabWcxN0kyWFdJRFBNQ3otT0N3WUR1RkVPQ2pKRU9IQ2FxSGI4SmI3YkFqTHJNQdIBiwFBVV95cUxNOS1uUnhCNTJSYzNNOGlVSFJPelRWcXVCcEVCajEtYTZFY1BYWG1mWVg2b3ltZkxjQ1RNTHZsM0F3bTNQc0p2S2piTmhUWmY0Y05uR2lIZXVGTktzbk9Jbm0xNWxXMlUwZ1VGQmg4MDE0VTFtRDhDanpLQzhBdXpTbVQtek9lMGR4WGc4?oc=5"
-    },
-    {
-      "title": "Bitcoin is being hijacked by three \u201cboring\u201d institutional dials that are overpowering the halving\u2019s supply shock",
-      "polarity": -0.2259407415986061,
-      "ts": "2026-01-12T13:03:19",
-      "source": "r/CryptoCurrency",
-      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1qaub4b/bitcoin_is_being_hijacked_by_three_boring/"
     },
     {
       "title": "Prediction: Bitcoin Will Not Be Worth $1 Million in 5 Years - The Motley Fool",
@@ -781,13 +578,6 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPR2J3UkhraUVjRGlEZW5RLVd0anZ4Wkk3WldpZDZveUdGMUdPNTMtUjR3d1pWQW1fRmItLWZqeEJQS1hnRFEzSWkxYWlDd052QktkcDJSN3lCOTBBMEFqSlh6eXhGYWx2akNEMzJ1MkJjR19kMUFVVXctZF9veUxMMGtPM1BCYUtkSkFVcTl4bw?oc=5"
     },
     {
-      "title": "Altcoin Season Finally? Capital Begins to Rotate Out of Bitcoin - ZyCrypto",
-      "polarity": -0.12358836829662323,
-      "ts": "2026-01-12T18:05:47",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY3RfdU91VWljUW5XOFREa25VcW41NDJ4eVAtaEVNM1RWRXo4Ti10VHhqSnpHa29XVVZYNUJ0MDFtYnE1blZWRTR6OUxDNFlsclEtRDEyUHZ3MVM4U2tjTmEzallvVWZLVzg3Yzg1ZVJwdHdjN0FZdDViMFN0ZnFZQWVRR2dDVGlDQnJkcNIBkgFBVV95cUxNdDVscEFKbWExZTFWZFNYOVd4Um1EeTdZNXFUN3oxWm9PLThialpXV1doZXFLN0NDQWVPM0RVeHNhWTJ2OHZLeVBRUzRpWjgxeGpORUxxX2dvQ3ljYlZPUl9VMkFPcS1YeFQ2cjV0RFZtWEpqZ0gxelFBSDZIVm10RGtaY1MwNXM3aDNZWDh1cFAzdw?oc=5"
-    },
-    {
       "title": "I need some quick advice. How do I trade on Robinhood to get the best prices?",
       "polarity": -0.11770826950669289,
       "ts": "2026-01-12T16:38:39",
@@ -809,32 +599,11 @@
       "url": "https://cryptoslate.com/bitcoin-liquidity-is-about-to-get-crunched-by-a-new-korean-law-that-legally-excludes-99-of-buyers/"
     },
     {
-      "title": "Ethereum Steals Bitcoin\u2019s Crown in Digital Treasuries - ZyCrypto",
-      "polarity": -0.05259842053055763,
-      "ts": "2026-01-12T17:39:25",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94TEY4Q3ZKNXRIY01GUWpmZXF3RVN4SEtCWUp1bHQ2WnMwaEtmcFN0Tk9PLVRpT080enQzQkUzV292dkNuaHBESzVsMENrUUprcnlSTkNJODJnN3R2X0lRXzQ1ZVIwa2ctLUJzejdEYjZSTW11ZFBOTWNLU3lXLUnSAYQBQVVfeXFMTVdVLWlyN2puTjdwUGFCajVRSnlCQ3d6M1hySW81MHhhMUM4ajI3dkV5UmppcHFJVDhNaWNfWm0ySDhuUTVCemxXQ1RwTlhHZUdELURsMVMwblhsc0FsVmFJOHZwQlFUZDVjRDRxX0lHU2dhQzc4aE5CQzk4V18yV0JvSjB3?oc=5"
-    },
-    {
       "title": "Bitcoin is being hijacked by three \u201cboring\u201d institutional dials that are overpowering the halving\u2019s supply shock",
       "polarity": -0.0493028499186039,
       "ts": "2026-01-12T09:18:43",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/bitcoin-is-being-hijacked-by-three-boring-institutional-dials-that-are-overpowering-the-halvings-supply-shock/"
-    },
-    {
-      "title": "Jerome Down Bad - Got Bitcoin ?",
-      "polarity": -0.04561283998191357,
-      "ts": "2026-01-12T03:30:32",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1qak4f0/jerome_down_bad_got_bitcoin/"
-    },
-    {
-      "title": "Breaking the Blackout: Iranian Protestors Use Freedom Tech to Bypass Regime Crackdown",
-      "polarity": -0.04215204529464245,
-      "ts": "2026-01-12T19:09:27",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/news/iranian-protestors-turn-to-censorship-resistant-freedom-tech-during-internet-blackout"
     },
     {
       "title": "Bitcoin faces fresh test as Fed feud with Trump escalates - dlnews.com",
@@ -851,13 +620,6 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR0pUV2hzSEdFUnAybXhSbE9wcUl5YXM4a3d0bjdZUkUtVWZDU0cySGdsc2F1X0dpcV9uTGJJZ25DUGVtMFROSkZyaWotbGdUcXdDMGVYdzhlWWZ2VUt6a0U4X3NZZTU5ZDJIX1JTMGR4dWxTclZoVFprYmNteU5LM1BqR0w?oc=5"
     },
     {
-      "title": "BlackRock warns crypto\u2019s love affair with AI is over as an energy war with Bitcoin miners begins",
-      "polarity": -0.027991369366645813,
-      "ts": "2026-01-12T01:46:36",
-      "source": "r/CryptoCurrency",
-      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1qahulh/blackrock_warns_cryptos_love_affair_with_ai_is/"
-    },
-    {
       "title": "Bitcoin Shrugs Off Powell Probe as DOJ Targets Fed Chair - Decrypt",
       "polarity": -0.024708077311515808,
       "ts": "2026-01-12T03:40:39",
@@ -870,13 +632,6 @@
       "ts": "2026-01-12T16:40:24",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/culture/samourai-letter-1-notes-from-the-inside"
-    },
-    {
-      "title": "Altcoin Season Finally? Capital Begins to Rotate Out of Bitcoin - TradingView \u2014 Track All Markets",
-      "polarity": -0.015911370515823364,
-      "ts": "2026-01-12T18:05:47",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMFhSdDlWbklrMUpkVUplNmd4NlBacHUySHV5T2J2enJkTVBGaW1tTFdmVHVUbks5RUlhRzF4Skh2N1RsVTA0M3drczFteGM0NGZzdXhCTWNxYUI1RndYQjhUVTFPdktNa3F5SXpEN0Fza2pISlBoUzFROVh3eXVPdTcyc1BSeHZaMU9FbG9Ed2l6b2xDSG5vQ2M0a2dQTWszSGhBQTdna1NKWlZzNWh5akFzQWh6US1Ga3dJV2dn?oc=5"
     },
     {
       "title": "i rotate based on btc dominance. nothing fancy, but it works for me.",
@@ -893,13 +648,6 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLUY5R2t1SFo0RmMxS1ZkSE0xY0d1bEtjbUNNRXpUMnltaDB1SkU0M2Q3VFF0ZXk0OXUxelliaWdGRVF1cF9rQUljSUowQllMT2h2S3psUkFkaEFtSnhWS0lUcjNKRDg0dm51OWh2RnlQbllkZmRyc1M0b2ljTFU3clExQ1RuWnlnNHZwb2pSRXRlM3Zhem9FZ25iYTZKdXB1TEZiTk5wdXBOa3NEUnBMYXlzY3N6enJKbEE?oc=5"
     },
     {
-      "title": "Bitcoin Rap - Kreep",
-      "polarity": -0.005684426054358482,
-      "ts": "2026-01-12T15:46:20",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1qayc0f/bitcoin_rap_kreep/"
-    },
-    {
       "title": "Is it too late to profitably invest in bitcoin? - Yahoo Finance",
       "polarity": -0.005343969911336899,
       "ts": "2026-01-12T17:30:07",
@@ -912,20 +660,6 @@
       "ts": "2026-01-12T09:01:37",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY3R5eU9vRHdJd3JHM01pbEJjVC1TY1BlZS1hXzNLT3N2RElRMWMxZDJqWHROQ3ZCazBMaXFrSWZqbjBac0ItWXhtSDQwTHhKb0R4c0ZwRkpTdmZNemdTSEt4YXRmanJCNFk1MWx1OVpJX3Rtc1hFcmNMazJlNmFKdzRKMmw1VU96eXM1V0NVWXdGY3M1T3NBWllLZVo1dFBtSzEzVVpDeFpPYVpGV1VMRGxPRGp4ZWZPdjlEZk1LWkoyLWhv?oc=5"
-    },
-    {
-      "title": "To anyone who thinks they're smarter than Bitcoin this message is for you",
-      "polarity": -0.002325974404811859,
-      "ts": "2026-01-12T11:00:57",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1qarzlo/to_anyone_who_thinks_theyre_smarter_than_bitcoin/"
-    },
-    {
-      "title": "Interactive SHA-256 visualizer",
-      "polarity": -0.001163281500339508,
-      "ts": "2026-01-12T15:45:26",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1qayb4r/interactive_sha256_visualizer/"
     }
   ]
 }
