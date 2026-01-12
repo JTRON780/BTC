@@ -2,6 +2,13 @@
   "day": "2026-01-12",
   "positives": [
     {
+      "title": "Michael Saylor Signals Strategy May Buy More Bitcoin - MEXC",
+      "polarity": 0.43867156375199556,
+      "ts": "2026-01-12T01:00:15",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1feWk3TWxkd1Q3UGFXMm96RHNWQzc5Tl9Oc1pneWt5Z0p0aHF1RzBZWGZ6TEgteHVjWFVtdGVNUG02TWIzZ3JR?oc=5"
+    },
+    {
       "title": "Key facts: Bitcoin tests $94,000 resistance; US banks accumulate BTC; 2,000 BTC moved to Coinbase - TradingView \u2014 Track All Markets",
       "polarity": 0.08408917486667633,
       "ts": "2026-01-12T00:03:00",
@@ -9,11 +16,18 @@
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOeUpyTkw1ektjMy0ybTBnbEcxY0NBSU5jVXdxT1puZjFQb2trT3FfR0pTaF9Qcm9Fb2IwZi1RaUYtZXBTZG1KcmNmbDcyTjRUWGhoM1QzT1BSN2NNRUE4QVhvMVVDcjI2X2NvcTJyRWFEVGZMUWd4a3l6UFhUTEx2SnBpQ1Nqa2NSaVZtb0t1ZXpXU19fSnlscFJZZ3JOUm5namxLdDhnRV9fUUx4VTJzcFdiR19JQlF4REgxOFdkWWJHOGZ6NGtOUWtlOXZKdVYwbTBMRFRGTndqclJXVHZwRkxaRThfOU1RSm84?oc=5"
     },
     {
-      "title": "Tax exempt to buy btc",
-      "polarity": 0.007752789184451103,
-      "ts": "2026-01-12T00:38:12",
+      "title": "BTC Structure: Anyone else getting April 2025 vibes?",
+      "polarity": 0.02530166320502758,
+      "ts": "2026-01-12T01:28:45",
       "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1qaga0m/tax_exempt_to_buy_btc/"
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1qahg87/btc_structure_anyone_else_getting_april_2025_vibes/"
+    },
+    {
+      "title": "Hard money vs traditional assets\u2026",
+      "polarity": 0.014962907880544662,
+      "ts": "2026-01-12T02:05:42",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1qaiaag/hard_money_vs_traditional_assets/"
     },
     {
       "title": "Bitcoin vape I found at antique smoke shop",
@@ -23,5 +37,20 @@
       "url": "https://www.reddit.com/r/Bitcoin/comments/1qafhv5/bitcoin_vape_i_found_at_antique_smoke_shop/"
     }
   ],
-  "negatives": []
+  "negatives": [
+    {
+      "title": "Willy Woo Flags Bitcoin Bear Risk as Liquidity Fades Behind Price - Bitcoin.com News",
+      "polarity": -0.053697872906923294,
+      "ts": "2026-01-12T01:36:35",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdDFsSGVNbkF1SFpqZDNqM2k2Wl81aUE0NWhxOXdhSy1faml2bmg0NVRJOGlZSG13N0s1Q3VJeUxyc2Q3STBCckN5a3BCV3dwSGxVd2NDZU1YdUQ3aC1fNTROcHJQdlcwTWpIdUdaZXc4djZCaWN1M2xyNUZWLTd2VEJfY0llY2Rzd0d5UUlhQWxoQ2ZNRVE?oc=5"
+    },
+    {
+      "title": "BlackRock warns crypto\u2019s love affair with AI is over as an energy war with Bitcoin miners begins",
+      "polarity": -0.027991369366645813,
+      "ts": "2026-01-12T01:46:36",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1qahulh/blackrock_warns_cryptos_love_affair_with_ai_is/"
+    }
+  ]
 }
