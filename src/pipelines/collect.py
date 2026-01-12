@@ -17,6 +17,7 @@ Environment:
 """
 
 import argparse
+import re
 from typing import Dict, Any, List
 
 from src.core import get_logger, get_settings
@@ -30,18 +31,64 @@ logger = get_logger(__name__)
 
 # Bitcoin-related keywords for filtering
 BTC_KEYWORDS = [
-    'bitcoin', 'btc', 'satoshi', 'sats', 'nakamoto',
+    'btc',  # BTC specifically refers to Bitcoin (not Bitcoin Cash)
+    'satoshi', 'sats', 'nakamoto',
     'lightning network', 'taproot', 'ordinals'
+]
+
+# Negative patterns: exclude articles primarily about other cryptocurrencies
+# These are only excluded if they DON'T also mention BTC specifically
+NON_BTC_PATTERNS = [
+    'bitcoin cash', 'bch', 'bitcoin sv', 'bsv',
+    'ethereum', 'eth ', ' eth ', 'ether ', ' ether ',
+    'cardano', 'ada',
+    'solana', 'sol ',
+    'polkadot', 'dot',
+    'chainlink', 'link',
+    'litecoin', 'ltc',
+    'ripple', 'xrp',
+    'stellar', 'xlm',
+    'tether', 'usdt',
+    'binance coin', 'bnb',
+    'avalanche', 'avax',
+    'fantom', 'ftm',
+    'cosmos', 'atom',
+    'algorand', 'algo',
 ]
 
 
 def is_bitcoin_related(item: Dict[str, Any]) -> bool:
-    """Check if an item is Bitcoin-related based on title and text."""
+    """
+    Check if an item is Bitcoin (BTC)-related, excluding other cryptocurrencies.
+    
+    This function uses a stricter filter that:
+    1. Requires Bitcoin-specific keywords (BTC, satoshi, etc.) OR "bitcoin" (but not "bitcoin cash")
+    2. Excludes articles primarily about other cryptocurrencies unless they also discuss Bitcoin (BTC)
+    """
     title = item.get('title', '').lower()
     text = item.get('text', '').lower()
     combined = f"{title} {text}"
     
-    return any(keyword in combined for keyword in BTC_KEYWORDS)
+    # First check: must mention BTC or Bitcoin-specific terms
+    has_btc_keyword = any(keyword in combined for keyword in BTC_KEYWORDS)
+    
+    # Also accept "bitcoin" but NOT as part of "bitcoin cash" or "bitcoin sv"
+    # Check for "bitcoin" that's not followed by "cash" or "sv"
+    bitcoin_pattern = r'\bbitcoin\b(?!\s+(?:cash|sv))'
+    has_bitcoin = bool(re.search(bitcoin_pattern, combined))
+    
+    if not (has_btc_keyword or has_bitcoin):
+        return False
+    
+    # Second check: exclude articles primarily about other cryptocurrencies
+    # UNLESS they also mention BTC specifically
+    mentions_other_crypto = any(pattern in combined for pattern in NON_BTC_PATTERNS)
+    if mentions_other_crypto:
+        # Only allow if BTC is also mentioned (BTC is a strong indicator it's about Bitcoin)
+        if 'btc' not in combined:
+            return False
+    
+    return True
 
 
 def collect_news(feeds: List[str]) -> int:

@@ -6,6 +6,7 @@ compatible with the RawItem schema.
 """
 
 import hashlib
+import re
 from datetime import datetime, timezone, timedelta
 from typing import Any, Dict, List
 from urllib.parse import urlparse
@@ -21,24 +22,64 @@ logger = get_logger(__name__)
 
 # Bitcoin-related keywords for filtering posts
 BITCOIN_KEYWORDS = [
-    'bitcoin', 'btc', 'sats', 'satoshi', 'satoshis',
+    'btc',  # BTC specifically refers to Bitcoin (not Bitcoin Cash)
+    'sats', 'satoshi', 'satoshis',
     'lightning network', 'taproot', 'segwit',
     'halving', 'mining', 'hash rate', 'difficulty'
 ]
 
+# Negative patterns: exclude posts primarily about other cryptocurrencies
+NON_BTC_PATTERNS = [
+    'bitcoin cash', 'bch', 'bitcoin sv', 'bsv',
+    'ethereum', 'eth ', ' eth ', 'ether ', ' ether ',
+    'cardano', 'ada',
+    'solana', 'sol ',
+    'polkadot', 'dot',
+    'chainlink', 'link',
+    'litecoin', 'ltc',
+    'ripple', 'xrp',
+    'stellar', 'xlm',
+    'tether', 'usdt',
+    'binance coin', 'bnb',
+    'avalanche', 'avax',
+    'fantom', 'ftm',
+    'cosmos', 'atom',
+    'algorand', 'algo',
+]
+
+
 def _is_bitcoin_related(title: str, text: str) -> bool:
     """
-    Check if a post is Bitcoin-related based on keywords.
+    Check if a post is Bitcoin (BTC)-related, excluding other cryptocurrencies.
     
     Args:
         title: Post title
         text: Post content
         
     Returns:
-        True if post mentions Bitcoin-related keywords
+        True if post mentions Bitcoin (BTC)-related keywords and is not primarily about other cryptocurrencies
     """
     combined_text = f"{title} {text}".lower()
-    return any(keyword in combined_text for keyword in BITCOIN_KEYWORDS)
+    
+    # First check: must mention BTC or Bitcoin-specific terms
+    has_btc_keyword = any(keyword in combined_text for keyword in BITCOIN_KEYWORDS)
+    
+    # Also accept "bitcoin" but NOT as part of "bitcoin cash" or "bitcoin sv"
+    bitcoin_pattern = r'\bbitcoin\b(?!\s+(?:cash|sv))'
+    has_bitcoin = bool(re.search(bitcoin_pattern, combined_text))
+    
+    if not (has_btc_keyword or has_bitcoin):
+        return False
+    
+    # Second check: exclude posts primarily about other cryptocurrencies
+    # UNLESS they also mention BTC specifically
+    mentions_other_crypto = any(pattern in combined_text for pattern in NON_BTC_PATTERNS)
+    if mentions_other_crypto:
+        # Only allow if BTC is also mentioned (BTC is a strong indicator it's about Bitcoin)
+        if 'btc' not in combined_text:
+            return False
+    
+    return True
 
 
 def fetch_reddit_feeds(feeds: List[str]) -> List[Dict[str, Any]]:

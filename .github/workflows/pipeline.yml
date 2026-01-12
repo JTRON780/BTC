@@ -63,6 +63,9 @@ jobs:
           cat .env
       
       - name: Download database from latest release
+        id: download_db
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           echo "🔍 Checking for existing database releases..."
           
@@ -76,22 +79,27 @@ jobs:
             echo "   Downloading database..."
             
             # Download the database file from the release
-            gh release download "$LATEST_TAG" --pattern "btc_sentiment.db" --clobber || {
-              echo "⚠️  Download failed, will start with fresh database"
-              exit 0
-            }
-            
-            if [ -f "btc_sentiment.db" ]; then
-              echo "✅ Database downloaded successfully"
-              ls -lh btc_sentiment.db
-              sqlite3 btc_sentiment.db "SELECT COUNT(*) as total_records FROM sentiment_indices;" || echo "   (Database stats unavailable)"
+            if gh release download "$LATEST_TAG" --pattern "btc_sentiment.db" --clobber; then
+              if [ -f "btc_sentiment.db" ]; then
+                echo "✅ Database downloaded successfully"
+                echo "db_source=release" >> $GITHUB_OUTPUT
+                ls -lh btc_sentiment.db
+                sqlite3 btc_sentiment.db "SELECT granularity, COUNT(*) as count FROM sentiment_indices GROUP BY granularity;" 2>/dev/null || echo "   (Database stats unavailable)"
+              else
+                echo "⚠️ Expected btc_sentiment.db after download, but file is missing."
+                echo "   Will start with fresh database"
+                echo "db_source=fresh" >> $GITHUB_OUTPUT
+              fi
+            else
+              echo "⚠️ Download failed for existing database release: $LATEST_TAG"
+              echo "   Will start with fresh database"
+              echo "db_source=fresh" >> $GITHUB_OUTPUT
             fi
           else
             echo "ℹ️  No previous database releases found"
             echo "   This is normal on first run - will create new database"
+            echo "db_source=fresh" >> $GITHUB_OUTPUT
           fi
-        env:
-          GH_TOKEN: ${{ github.token }}
       
       - name: Run collection pipeline
         run: |
@@ -99,7 +107,8 @@ jobs:
       
       - name: Run scoring pipeline
         run: |
-          python -m src.pipelines.score
+          # Use a longer lookback so missed items can be backfilled after outages.
+          python -m src.pipelines.score --since-hours 720
       
       - name: Run aggregation pipeline (hourly)
         run: |
@@ -113,19 +122,31 @@ jobs:
         run: |
           python -m src.pipelines.cleanup --retention-days 60
       
-      - name: Upload to GitHub Release (for Render to download)
+      - name: Upload database as artifact (backup)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: database
+          path: btc_sentiment.db
+          retention-days: 7
+          if-no-files-found: warn
+      
+      - name: Upload to GitHub Release
         if: success()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           echo "📦 Preparing database release..."
           
-          # Show database stats before upload
-          if [ -f "btc_sentiment.db" ]; then
-            echo "Database size: $(du -h btc_sentiment.db | cut -f1)"
-            echo "Records by granularity:"
-            sqlite3 btc_sentiment.db "SELECT granularity, COUNT(*) as count FROM sentiment_indices GROUP BY granularity;" || echo "  (Stats unavailable)"
+          if [ ! -f "btc_sentiment.db" ]; then
+            echo "❌ Database file not found!"
+            exit 1
           fi
+          
+          # Show database stats before upload
+          echo "Database size: $(du -h btc_sentiment.db | cut -f1)"
+          echo "Records by granularity:"
+          sqlite3 btc_sentiment.db "SELECT granularity, COUNT(*) as count FROM sentiment_indices GROUP BY granularity;" || echo "  (Stats unavailable)"
           
           # Create a release tag with timestamp
           TAG_NAME="db-$(date +%Y%m%d-%H%M%S)"
@@ -133,27 +154,36 @@ jobs:
           echo "🚀 Creating release: $TAG_NAME"
           
           # Create release and upload database
-          gh release create "$TAG_NAME" btc_sentiment.db \
+          if ! gh release create "$TAG_NAME" btc_sentiment.db \
             --title "Database Update $(date '+%Y-%m-%d %H:%M UTC')" \
             --notes "Automated database update from pipeline. Contains accumulated sentiment data." \
-            --repo ${{ github.repository }}
+            --repo ${{ github.repository }} 2>&1; then
+            echo "❌ Failed to create release. Error details above."
+            echo "⚠️ Database has been saved as artifact for recovery"
+            exit 1
+          fi
           
-          echo "✅ Release created successfully"
+          echo "✅ Release created successfully: $TAG_NAME"
           
           # Keep only the 3 most recent releases (cleanup old ones)
           echo "🧹 Cleaning up old database releases..."
           
-          # Get all database releases sorted by date (oldest first)
-          gh release list --limit 100 --json tagName,createdAt \
-            | jq -r '[.[] | select(.tagName | startswith("db-"))] | sort_by(.createdAt) | .[:-3] | .[] | .tagName' \
-            | while read TAG; do
+          # Get all database releases, sort by creation date (newest first)
+          # Skip the first 3 (newest) and delete the rest (.[3:])
+          OLD_RELEASES=$(gh release list --limit 100 --json tagName,createdAt \
+            | jq -r '[.[] | select(.tagName | startswith("db-"))] | sort_by(.createdAt) | reverse | .[3:] | .[] | .tagName')
+          
+          if [ ! -z "$OLD_RELEASES" ]; then
+            echo "$OLD_RELEASES" | while IFS= read -r TAG; do
               if [ ! -z "$TAG" ]; then
                 echo "  Deleting old release: $TAG"
-                gh release delete "$TAG" --yes --cleanup-tag
+                gh release delete "$TAG" --yes --cleanup-tag || echo "    (Failed to delete $TAG, continuing...)"
               fi
             done
-          
-          echo "✅ Cleanup complete - kept last 3 releases"
+            echo "✅ Cleanup complete - kept last 3 releases"
+          else
+            echo "✅ No old releases to delete (keeping all releases)"
+          fi
       
       - name: Export data to JSON for GitHub Pages
         run: |
