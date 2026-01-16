@@ -120,48 +120,48 @@
     },
     {
       "ts": "2026-01-12T00:00:00",
-      "raw": 0.046913417842726124,
-      "smoothed": 0.046913417842726124,
+      "raw": 0.05054258415969114,
+      "smoothed": 0.05054258415969114,
       "n_posts": 96,
-      "n_positive": 56,
-      "n_negative": 40,
-      "directional_bias": 0.16666666666666666
+      "n_positive": 57,
+      "n_negative": 39,
+      "directional_bias": 0.1875
     },
     {
       "ts": "2026-01-13T00:00:00",
-      "raw": 0.1211751586624554,
-      "smoothed": 0.1211751586624554,
+      "raw": 0.10563206199024402,
+      "smoothed": 0.10563206199024402,
       "n_posts": 6,
-      "n_positive": 4,
-      "n_negative": 2,
-      "directional_bias": 0.3333333333333333
+      "n_positive": 3,
+      "n_negative": 3,
+      "directional_bias": 0.0
     },
     {
       "ts": "2026-01-14T00:00:00",
-      "raw": 0.01872807923097944,
-      "smoothed": 0.01872807923097944,
-      "n_posts": 29,
-      "n_positive": 17,
+      "raw": -0.023475633806878757,
+      "smoothed": -0.023475633806878757,
+      "n_posts": 27,
+      "n_positive": 15,
       "n_negative": 12,
-      "directional_bias": 0.1724137931034483
+      "directional_bias": 0.1111111111111111
     },
     {
       "ts": "2026-01-15T00:00:00",
-      "raw": 0.16577072759096179,
-      "smoothed": 0.16577072759096179,
-      "n_posts": 33,
+      "raw": 0.1567002603689493,
+      "smoothed": 0.1567002603689493,
+      "n_posts": 30,
       "n_positive": 24,
-      "n_negative": 9,
-      "directional_bias": 0.45454545454545453
+      "n_negative": 6,
+      "directional_bias": 0.6
     },
     {
       "ts": "2026-01-16T00:00:00",
-      "raw": -0.02918173212087204,
-      "smoothed": -0.02918173212087204,
-      "n_posts": 76,
-      "n_positive": 45,
+      "raw": -0.0026322828214654275,
+      "smoothed": -0.0026322828214654275,
+      "n_posts": 81,
+      "n_positive": 50,
       "n_negative": 31,
-      "directional_bias": 0.18421052631578946
+      "directional_bias": 0.2345679012345679
     }
   ]
 }
