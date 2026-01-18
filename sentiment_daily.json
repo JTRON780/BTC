@@ -120,48 +120,48 @@
     },
     {
       "ts": "2026-01-14T00:00:00",
-      "raw": 0.009162013721349936,
-      "smoothed": 0.009162013721349936,
+      "raw": -0.031101559349275273,
+      "smoothed": -0.031101559349275273,
       "n_posts": 13,
-      "n_positive": 7,
-      "n_negative": 6,
-      "directional_bias": 0.07692307692307693
+      "n_positive": 8,
+      "n_negative": 5,
+      "directional_bias": 0.23076923076923078
     },
     {
       "ts": "2026-01-15T00:00:00",
-      "raw": 0.2819630851348241,
-      "smoothed": 0.2819630851348241,
+      "raw": 0.26176523764928183,
+      "smoothed": 0.26176523764928183,
       "n_posts": 15,
-      "n_positive": 13,
-      "n_negative": 2,
-      "directional_bias": 0.7333333333333333
+      "n_positive": 12,
+      "n_negative": 3,
+      "directional_bias": 0.6
     },
     {
       "ts": "2026-01-16T00:00:00",
-      "raw": -0.15501586804440337,
-      "smoothed": -0.15501586804440337,
-      "n_posts": 57,
-      "n_positive": 26,
+      "raw": -0.11360782421649084,
+      "smoothed": -0.11360782421649084,
+      "n_posts": 59,
+      "n_positive": 28,
       "n_negative": 31,
-      "directional_bias": -0.08771929824561403
+      "directional_bias": -0.05084745762711865
     },
     {
       "ts": "2026-01-17T00:00:00",
-      "raw": 0.0841679614519767,
-      "smoothed": 0.0841679614519767,
-      "n_posts": 57,
-      "n_positive": 40,
+      "raw": 0.09056483061304159,
+      "smoothed": 0.09056483061304159,
+      "n_posts": 54,
+      "n_positive": 37,
       "n_negative": 17,
-      "directional_bias": 0.40350877192982454
+      "directional_bias": 0.37037037037037035
     },
     {
       "ts": "2026-01-18T00:00:00",
-      "raw": -0.17824941045338558,
-      "smoothed": -0.17824941045338558,
-      "n_posts": 10,
-      "n_positive": 5,
+      "raw": -0.07748794432400781,
+      "smoothed": -0.07748794432400781,
+      "n_posts": 12,
+      "n_positive": 7,
       "n_negative": 5,
-      "directional_bias": 0.0
+      "directional_bias": 0.16666666666666666
     }
   ]
 }
