@@ -2,13 +2,6 @@
   "day": "2026-01-16",
   "positives": [
     {
-      "title": "Bitcoin is now most undervalued versus gold: Will BTC price rebound?",
-      "polarity": 0.8888544216752052,
-      "ts": "2026-01-16T17:07:48",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-most-undervalued-versus-gold-will-btc-price-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "title": "Here\u2019s Why Bitcoin is a Better Scarce Asset Than Gold: Ark Invest's Cathie Wood",
       "polarity": 0.8223770121112466,
       "ts": "2026-01-16T12:54:13",
@@ -104,7 +97,7 @@
       "polarity": 0.05768293887376785,
       "ts": "2026-01-16T17:13:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxOXzFVSnNlbF9PczBHZWlBX0g3OGV5ODVrYUZyMDc3NGxjSk0zWVgtRGJiTEQ0bFdGTEdITTFXSnV1cks3aGdpT3Z2UVFQRU5hNmlndENleVVoNUFXbVJDeHRzdkQ0NG1DTkdnYURqX2tUbEZlUjFXUmFKamo0LUgxZ2RlQ0tuejNhV2dha3hUV0FtZFdKUGJmeGZOTndXY3diVEtaNWlFeXkzeVRHMFZqcTY5NE9XYXlMRk41emRabktXcXZlc1RwOWcxQUY0RmhVbFB1dmRXTFFWdlpJbnJyeXdjVFRrak1sa0dpVGZIMjhRUnF6YkJWWjhSQ1ZyT280cEpiU3BmeWRZM1ZNZllWTUpqSWNfMnlPTTVBdlZTTnZfc1pRT1BKSmhoY3V4ZV9hZXh2TklydmwtNFA2eHpTY3pWN2ozLS1EaUtLRE9JUGpVQ1VVNmlqbmpIRmxWVl9jd2JmRkVzN3I1Wm5NUHFockh1ZmJvOUdaZWZmSDk2SUxjNlRnSy1HVElpWF8yRzY2WW01aXRydVUzWVI1MTVmVUJ1QXVLaGVWVmV1cnFFX1hxWU5EMVhDUUxUQXF3T3VpblduVzlpbXF1MTctVXRMSTJINWF4Q3RwR3dpNElVVmhBUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxQN1JpU05sWVhXVGpKWVVfV2dXVlFkTDhKcXVDQk12dTNoY2V2MmstR1F5OF9kVk16Uk96RXd2ZFZQd1lKY0NMWGJJZVpOckFrN2pnTGlIc2RYLUY5andHOHpUbWI1UW5fLUpZdDl0QjlzNWpyTlgta2xaMXpFdW5LdTE4Z2R3WXVzbms0Qm04TXpGdVNRbFJQdVY0M0lJYWRQRzY5dVVZTExidzh2STFzZTV1NVRmSWF5MWowM3duWlJ2c2ZiRlB0aEVDU1ZYaWZZY1V6d3hYWGVwYllfODlTUkh6X3U2SWdsZ1ItQlhDNERINS1ZbHdfMEFyRlpLaHhNYndGZXVLbWphUEdXMlNNYzh3VzZhbFdVaEstQ1dmZkZmMkZoa2FXVnR5ejBSLUxsYzNVZGhoa0NyS0JSMjE1ejBQeDVJUTJxSlJIZGZzdE82X2twV2VsM1lNNFB6Vmd3TmZmejc3SUFaeTFLZ0VNbGt1YnhPYngtNmxoMWo4cmJKQk5fVlJKZF9HR3hORkNyNk1BX0xPM2FwQk5STDNTOXA4cFJ3NUprYUdrV2NHMWlQWkNuSGExcDZjUjRNUTItQ3JwQ2VhTzllSmNKZV9VUHd5MnJibVVaVE8tbTM4YVJOQQ?oc=5"
     },
     {
       "title": "This 1 Big Reason to Buy Bitcoin Just Got Reaffirmed by President Trump - The Motley Fool",
@@ -179,13 +172,6 @@
   ],
   "negatives": [
     {
-      "title": "Bitcoin\u2019s hashrate continues to fall as the price spike doesn\u2019t convince miners to turn machines back on",
-      "polarity": -0.9589770492166281,
-      "ts": "2026-01-16T21:25:53",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/bitcoins-hashrate-continues-to-fall-as-this-price-spike-doesnt-convince-miners-to-turn-machines-back-on/"
-    },
-    {
       "title": "Nasdaq Warns Bitcoin Hardware Maker Canaan About Delisting",
       "polarity": -0.9555176915600896,
       "ts": "2026-01-16T17:31:20",
@@ -200,6 +186,13 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa1JZWlpKaS1XbDYyNFEyaHhzSFVpa05UMUxjZkUxSjc0XzdzWE1zYmY0RWl1Y2JwUWU5ZnN1ZUZ6WTFwU2xkVTJ4TlQ2R2c3SFU1Ujctd3B0MzdpT0YzYXpzWW50a19fVkl1S2NyVW5rMjY0bHlqcFNUSGJUbG5IdkJtT3ZsMTFGSVlYbWZFcnFkcUpWTmVtTGlYWWFyWjgtaDNETjJNZzVrZHV5eHRxa0RmLWV6T3lPR1RocE5OeDlkS2hvNUVV?oc=5"
     },
     {
+      "title": "Crypto Stocks Coinbase and Robinhood Drop Sharply Despite Bitcoin\u2019s Rally \u2014 CLARITY Act To Blame? - Yahoo Finance",
+      "polarity": -0.9541352745145559,
+      "ts": "2026-01-16T08:08:17",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONTJZWG5iVDRWM01BREpyMW5mdUxTYmdPTUUxZjdONE5ZS3R4enlwNEpDWl9mUkpRZlh4bVpTVVlYbFdGY3ZJYkZueGR4MHdqVG1xMk9YdzZpcGVZX2hiVWFxVVcyeXZuRHpVdUI0Z21QZXlwLTEwZ184Tlc3UEY2TG1wWWN2NzVQYkR3?oc=5"
+    },
+    {
       "title": "Peter Schiff Warns Traders Taking Profits In Gold, Silver And Buying Bitcoin ETFs And MSTR Stock: 'That's A Big Mistake' - Yahoo Finance",
       "polarity": -0.9300283137708902,
       "ts": "2026-01-16T12:01:06",
@@ -212,13 +205,6 @@
       "ts": "2026-01-16T13:38:44",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcFdJRXRTT3NfLVEwbVIzMVJUVVVneENacXJ3bF9Ibi1QQzRkcEVtcUVhaTBhdlFrc1Z0Rk5rQTVHdXZSaTlKaWxEOGdTbGk2SnlHQ1FEckhuaUUzbVhYTVN3X2J6dE9YOE1XUVZBYi1nankxajhYazVaLWNEblc1WUZCeUFOel94MDBUWFcyVjRDcU9YSTZRTnlieTgxLWpaRUp5c3d4dw?oc=5"
-    },
-    {
-      "title": "Bitcoin price news: Week's gains continue to evaporate with BTC retreating to $94,000 - CoinDesk",
-      "polarity": -0.8787385448813438,
-      "ts": "2026-01-16T16:08:37",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbzRKbks5WEZQTDJ2Z0JMQWpROXRab3Q4bWpHckstai1TZlRGTjM5WWx1VHdBcFpxaXpUQXNIQm85bzE3SHVWWDlocHpNVUstM0NWQ3JMdHkyaDdiV1J3Q0pqb0lBczBJandMMjVNM2ZmNzFRT2E3U0RtZUJwanV1RE9LUXJSTkxyUXAtNlk5MGY5T3ByQWZuRzRvNDM4Y0Jnc2R4RW9EZWNPdmZZRHFhV244ci1zSzBG?oc=5"
     },
     {
       "title": "Bitcoin spot traders lose ground as BTC bears defend $98K",
@@ -331,6 +317,13 @@
       "ts": "2026-01-16T09:39:15",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaURab0lQMHNRYWcxWEtQcV8tNW4wMHlId0hWSzlacmxyb3VadUhqSGEwTTB1eEU2dlRCVGJ1U1pJQVY1cE95bTdDYzRuSTA4RjJBbEdhOVBOeW5RSk1TMl83bjl2bHE1S091cUROVWtPbHRNYUNzRHh5TUVxaWhPT1UtNHpaYUlsSDZMUnpFOXE3ODRraWc?oc=5"
+    },
+    {
+      "title": "Bitcoin Seized From Samourai Wallet Has Not Been Sold, White House Says - Yahoo Finance",
+      "polarity": -0.10793015733361244,
+      "ts": "2026-01-16T19:31:52",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdEg3YkZOQmRHTU45MWxEZ1JQRHVNY3RvU2l5bzdjT0hIYTZrZ0NPVldKS21KckctZi1jSFFTLWJKMmNDc01PMkFjalhSZnhsUzRXbTM5aWhhNHFsRk9wNG9kbFhaYWdkbTZFWE9tWmNwN0tMQ1J6Y1dzY0pNemtyNmM4amZ6ckU?oc=5"
     },
     {
       "title": "Jefferies\u2019 Analyst Dumps Bitcoin Over Quantum Computing Fears, Buys Gold - Bitcoin Magazine",
