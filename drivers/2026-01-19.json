@@ -3,100 +3,163 @@
   "positives": [
     {
       "title": "Gold makes new all-time high of $4,660 as Bitcoin crashes by $4,000 after US markets open - MSN",
-      "polarity": 0.7947328239679337,
+      "polarity": 0.7947334572672844,
       "ts": "2026-01-19T01:00:05",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQMi1fRnNCQzU3MGVTVkxDYjVpemI5anloNkctVHB3NGF4MVFDaUhsbTVJZlRPSnVFRUNCYVFTZVZkaFR0TFNnVk9DVENNMUxIN1RHZGdmdHdNNVhPMnd1VlVhcXZjejFNYWZfaUVYMm15VkpsX05CWG9oeldVN0RILTMxTTkzY2RoUEdacTBfNWFqVEtxaWREaHNGVTMwcjZSckhtNE5nX2tqQ3NEY0w5UmhTTnBuVS1LMWJWSXN1N3ZMUmVCVXhGMWNWMVJEOHlvQzJlYk9GUXFoRVhNaU92NlEyWDh2ZmhEMTRjbXZJRm12RDJWTFNiXw?oc=5"
     },
     {
       "title": "Key facts: US Bitcoin ETFs gain $1.42B; MicroStrategy buys 13,627 BTC; Steak 'n Shake invests $10M - TradingView \u2014 Track All Markets",
-      "polarity": 0.6514969598501921,
+      "polarity": 0.6514988075941801,
       "ts": "2026-01-19T00:03:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNNEF4NzFIUGJCSnllR1VxaVUwZUN6aDlZMFVmTWdLVVVISFpmVTBaRHh6eS1YcWpxQXhnWEQ3dzE3MTdDMjBjWkNGalJ6WEdLcHFDeFd1YU5WX2hDOHp0Z3RNcjJqX0ZvNVQ0clVQc19QeExBclRvbmRNbkNXNmpoQlU0bVRHQTdkV3VQWF9uQ2FKZ3N6bFVjb1hZdnhHQ1FBTmd4VjJqRGhxbWVlTGZLN3JCeXZiM2FZTUhMcnlDdjhSSy1QYnRZd3RBcnIxWmpTQVR2MHhVTDIzYXpPODZhbW5ZR3ltSklpSWc?oc=5"
     },
     {
       "title": "Bitcoin Accumulation Among Larger Investors Hits Three-Year High - PYMNTS.com",
-      "polarity": 0.25549064949154854,
+      "polarity": 0.2554925009608269,
       "ts": "2026-01-19T01:29:19",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRFFHd1poSVBBN2M0aFk0SkRJLTZucS1jR2RtRXlJbVZ0dC1SVmN1cHYyUTZrNFFmRDRMbEtmNGk4U2liYnlGVnNsekV0dE1SdWUtVEt0dWpET3o0Sm1SazdwVXYxTVRiOHcxZ1B0a3BYVEdrRjc5eEszUWNXN1RqakJSSDVsZnFkNDR1MlBacG43NDR5ZUtEeHQtUm5Nc251bGRtQ25rYVZHYVBE?oc=5"
     },
     {
-      "title": "Can someone explain?",
-      "polarity": 0.0006921850144863129,
-      "ts": "2026-01-19T02:05:16",
+      "title": "One year in of learning BTC",
+      "polarity": 0.08570544607937336,
+      "ts": "2026-01-19T00:01:51",
       "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1qgrbc6/can_someone_explain/"
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1qgokhk/one_year_in_of_learning_btc/"
     }
   ],
   "negatives": [
     {
+      "title": "Bitcoin Slips On Trade War Fears, Sparks $865M in Liquidations",
+      "polarity": -0.9580602226778865,
+      "ts": "2026-01-19T03:33:41",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/354979/bitcoin-slips-trade-war-fears-sparks-865m-liquidations"
+    },
+    {
       "title": "Bitcoin has been slammed lower, back under US$93K - investingLive",
-      "polarity": -0.9487954936921597,
+      "polarity": -0.9487954806536436,
       "ts": "2026-01-19T00:30:45",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVnBFZVUtbWNLUzdIX3JGdWxIN05lb1JHYTFIYTJIMkVaSUZjeU9lZFNIa20xOFJQTG9kQ3NEWGFlNjhIQVd2NEVadDZ5VTl2NDRDT0VFSEFvQUVuSXVMdllUamFzYkZHR1VnbFBBTEVpSjV0T1EyUUM0aXJCZ3dTYzBTdlN5QnNva0FaS2R6UTNsOU9NOS0ySGFXWHlSQ2_SAaQBQVVfeXFMTTU4S1NBcDI2bWw4NS1ZUU82NTZqZ0xiVS1oWDZJWWRua1IyaVUteXpkZ2pZQ1I1TkJSOHcwOUVMQWZITkFBcVdEem5Zd3M0UkJOUHlxVnBVajBNVFZKbWxwSmt0MWV0Q1hKM0UxckJtLXdsWEI3ME5wSmw1ZHlNQTRGUHZ0bnlreXNwYXdKTk51TjMyZDF3a0xESHI3dFZyXzVNWWk?oc=5"
     },
     {
+      "title": "Bitcoin Slips On Trade War Fears, Sparks $865M in Liquidations - Yahoo Finance",
+      "polarity": -0.9487664438784122,
+      "ts": "2026-01-19T03:52:39",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQ3NiTUw0SWg4bF8wbDFiQ0FUODAyNms0ZzlFbWtMTjNicmlWS3BmUzhyMnQ0Y2NidGdORWpyUE9kWkVKN241Z2t6ZnZfdXN0a1cxeVVnVWZVMkhiSkZVUXVuTzBURnF3VlNqVTJQdmFBYmpJWlZiQ1MzQXBZVlBBeQ?oc=5"
+    },
+    {
       "title": "Bitcoin Price Plummets: BTC Drops Below $93,000 in Sudden Market Retreat - CryptoRank",
-      "polarity": -0.9453201778233051,
+      "polarity": -0.9453201685100794,
       "ts": "2026-01-19T00:53:40",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1pTC1EVS11X2hnU0VsNldjYzBNV1JwT2xvRG9zNzBIczR1R3VGRDdXTWtnNHVNeHFILXZuQnhOaDd3cEw4djZvRzNyLS1nUDQzWVkxT3VUYWRZVFFhV0VCSnB6SGh4d1hhUnFIMDlHSk5NWGE2UnlIS1FfQQ?oc=5"
     },
     {
+      "title": "Bitcoin Drops to $92.5K as Trump Tariff Threat Triggers $525M Liquidation - blockhead.co",
+      "polarity": -0.93783148098737,
+      "ts": "2026-01-19T04:07:02",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORUIzY1NrcV9Wb3J4eDBmWC1RblVxb1dxd284bDhBU2hBUzM1ak5OWDF4UERYenJZOEdRbnBiSktaLTl6d09YdDZhbmNrUHl5UHJMSDBXSVh3Y2VoSkE3MEtXMkZ4UDFEWHZ4WjZKVFhyUDRBaEJXMGVxSDVjRUdlTXJSV1hfWk1qLUlqWHFyZ00wRVQ3cjQtcXcxYVA5aXVoQklQUW5NLXBtOW8t?oc=5"
+    },
+    {
+      "title": "Bitcoin slips 3.6% below $92,000, $600 million of bullish bets liquidated as Trump's new tariffs cause uncertainty - Mint",
+      "polarity": -0.9322053380310535,
+      "ts": "2026-01-19T02:07:12",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPTDJkRXJPYldFSzB2UGZrLWlxd3V0NU9oRDE0Nm9BTzVlTzc2QW9MVmcxenE3eVpMVXpfcW1BMldicTBIYzdicGRsbmxnYUlWS3FZTFZIUktFazdDcUZONXhTV08yNlgzajBoY1hlcGRXR09lMnlNdjB5REhVVHNJWUtVS01VOHBOX1RjVnJNQXowT1V5di1Zbi1hcXdsMkY0NU9xMUJwemFuZTVZRXV6RGptUGZqOVpZNFZMX0tsay1IQzFfRXRUTS05Nm1pRHlDZU5NMjJ2d3IwTk1BdkFNaDdvZllhNnB4ZTFoQkN3b1B5bGd0TElEYURvc1NOU2owZ2FjV2laZU01TlcwLXhSVG90Vk_SAZoCQVVfeXFMTlZPOEJMdExxMEFlZlNISGtHdW9VTU9XWEFiYU04TTMzdUVIcnZsNVZVUmpnVzRRQ3l0SWdWSld3eklkdDV6Z0swOXlPd2tmN1lwVnN1WjFiUHYxVW5EQjhNWlRHUXdvQ1VyVXRJTHNMbG15cXJ2Y0lCcENrUUZ5LW5pQkNqekpUTHl0WjdCemVUYXg2ODFTcTRjWV9KNmZBdEFoTUMwQkxseF9IcTlaeGlfQ1IyUExPUEFiTUpxbU9YcFA5Z0VtY09manU4QUZuMlNYM0dUOG04THA5S19BUkJnNXBPZ3k4TTE1UDRhR2RIVU1ST0psbjBjQzhQcG01RnYwWkVzT0hKYnBXLUwzejRrdXV5dHVWTmRn?oc=5"
+    },
+    {
+      "title": "Bitcoin Slips On Trade War Fears, Sparks $865M in Liquidations - Decrypt",
+      "polarity": -0.8822981789708138,
+      "ts": "2026-01-19T03:36:18",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTVE3VmlzRVdKTjkzWUdYVURfS0UtS3RQTmttZkhhYlhpeUtfZHZVZjM2VEZGSFdxRThURm5WQS1lTi14aGxPTjAweDNnQmtUYTdzZFA1THpEbENxMTRndmdKUFJQM2JGV0ZYd0RIMHMxVzhNb3Fud2l1SFVfRHRoYjJVTktyelXSAY8BQVVfeXFMUHU1TnZjTmdLRF9TSGpWdGlnWTVkemhUVzBFeUh0bFZsVEFDRk1LdDFTMjZtQ2R4WHNtLXFJVE1MaFJsVXd2d2dFRTV6SXRhQnpPUDRMa0dKbUpTS3Vtem15R0pFMzZmQ0wzM0VHX3VOXzhsS1lpQTk3SzBxZTg0c3dlWm9aTmo3WGwwODVfODg?oc=5"
+    },
+    {
       "title": "Bitcoin Price Crashes Nearly $4,000 in Two Hour Market Sell-Off - Bitcoin Magazine",
-      "polarity": -0.8622641935944557,
+      "polarity": -0.8622642587870359,
       "ts": "2026-01-19T01:12:46",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5qVzBuRVpKbjk4VTZZN09xYmtFSlA0WjJLVTBsTG85ZzlBblhSc0JuR0YwSndKcktzX3ZZcV9pWHZLcl9rd0pQVExvdVR2QV8tRFNGWHg3UEpiUnVaa1ZOaktVM1BkYzhDT2xEMzcxYUNLSkNiZllvWQ?oc=5"
     },
     {
       "title": "Bitcoin Falls Below $92K as Sunday Selloff Unleashes Hundreds of Millions in Liquidations - Bitcoin.com News",
-      "polarity": -0.8501998856663704,
+      "polarity": -0.8502000477164984,
       "ts": "2026-01-19T00:58:47",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWjlyc2tGR1BKY05OdFpvdzVyVndBZDlOdTNqLXRtcFRRQ0NTNGpkbUJ0c2JYWXMyZE1WYnBqa0Jfa3JFWTZ3V0g0RXZhN2dBN05kMGJwelNkck92S0xOZ0hfVFNXRlJTVWpYZGpMcG9OMXdpLUNkWi1jR1k5b09acUtrcnNqd3lWZ1lpVTlfSFFPeTd0LWZvTm1ubk5uVk1ZTVpkWWg4V2J6a0tsMVNSRzRGRWE?oc=5"
     },
     {
+      "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH and XRP dip amid escalating EU\u2013US trade war fears - FXStreet",
+      "polarity": -0.7798049449920654,
+      "ts": "2026-01-19T03:07:04",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNaWxEMEY2eTItVE9zVWt6YzJ5S3FsU0M2X01YbnB6amVYMmxxOUVIcnFDcjVScEFUZE9RYTgwaTlqMzJtcHRHSVNZMnVuS2ZVOTAtT3RfLUtoVkZvd1VPQm03bUp0TTlpeFhoVnRCc2I4djJMR0ZMS0VQOXRIcmJtQW1YWUhhN2J2ekdDa1NuY3BNNzBjemprR3hqb0JfZ0JvR2VrOVowR3h3RVBLSmlvWmxnSDlRNE8tRDRqdEJzUHo3aktQdnFBNEI3Nmx2Zmc5cXlNUmg4UnQ0dU1Ec2JzQUdGaTh3c1hsRUl4am9OR1huaXZkMWNF0gH8AUFVX3lxTE55MG1YZXhhd2ZIeE1va3NUVV9SNm0tTWdyWkYtRzNkODU4eGcteThoVzRWTDExYVl0cmNTQndYUmhoZ1BUYVh0OGxvTFBQMVp5NmZxejF4amk2YkY2cGtEc0s4cV93cE5mekpJTjVxUVE1QXgxWXkyX2FZa183WTV5X2ZjSWxwWkRIX2FDcnAwZWl0aDJ3WlFJT3Q0c09XZG5naGdpWS1NRzZfUVFTUFhZRldwMWhXOFNuQzIxTFlVTWt3Z2M3anI3emxPZ1lEaWZfS1V5cDNZUzVrMVVNXy11eG5UVktJTEQ3MEk1ODBTcFZfVTlHQTQ3V0R1ZQ?oc=5"
+    },
+    {
       "title": "Bitcoin slides below $93,000 as $680 million longs are liquidated",
-      "polarity": -0.7736369073390961,
+      "polarity": -0.7736364901065826,
       "ts": "2026-01-19T01:12:05",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/01/19/bitcoin-slides-below-usd93-000-as-usd680-million-longs-are-liquidated-asia-morning-briefing"
     },
     {
       "title": "Bitcoin Falls Below $92,000 as Tariff Fears Weigh on Risk Assets - Bloomberg.com",
-      "polarity": -0.7581843696534634,
+      "polarity": -0.7581851184368134,
       "ts": "2026-01-19T00:59:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNM3hzUzJRV3hBSC0wcUhCRTJ0MmM3eWNNU2VweXJBVGJRV2k4aFowbnRoUTRHZFhOd2oxVTlyOVBKcTJxdXlibkxXQkJrZy1RRnZkdDVrck1QWTUyTlo4M19XUUt1TUtQWW43SHVfRnRyczdsU2p1eVJwQlBuMmd6TjJfWHFIZlVrUS04OHMzS2RxYkNjLURucWFTYmFCWHQwd0FGMnZTeUE4Vlo2dmtfWEdUM3pjekF0Unc?oc=5"
     },
     {
       "title": "Why crypto down today: Bitcoin slides below $93,000 as $680 million longs are liquidated - CoinDesk",
-      "polarity": -0.7052194476127625,
+      "polarity": -0.7052187249064445,
       "ts": "2026-01-19T01:18:45",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWDhqNUg3XzlMOUhRcFFOYmt0RHpPTUV4ZnEwa2x4T2VvdHFkTkp4anFLeGpieXRSM004Nm5hYjliSGZwcG1PY040ME5FelZaa084SUNpa0FDSWRtVFpDOWs5Q2szTGlNRG83WFJuSXRHcWc4M1o1ZFBUemMtdVZ1SGx3WlpzUFY0VDNxeWl3VWxLdGZ0b1hXQzhWWklYZGU0NV9KRHM5TXgtWmJ5WE01Z2JUclp4cFl4VWNySG9ya3dZa20wb1p4ckQyUF83MTgz?oc=5"
     },
     {
+      "title": "Bitcoin Plunges As Trump Tariffs Ignite Global Market Turmoil - Evrim A\u011fac\u0131",
+      "polarity": -0.5964285135269165,
+      "ts": "2026-01-19T03:51:40",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcW5FZE5teGZqNTJuMUV5OTlERnZXRlh6NWlOWjdOZG13WVlZMmJkRWFWVmZabHJwTGlPUkdXVXN3Z0dHM1RJc3JxRFNnVEhaNWVvREVadTRQcFBTVThhUkJOTjlpdUJ2MWN1QXcxZnRncEhVLUJzTGotbUdFdXJFTm56U1pKQ3RIYlN1T2tVWUVrV1Z4NmNpRThyNA?oc=5"
+    },
+    {
       "title": "Bitcoin\u2019s Four-Year Cycle Isn\u2019t Dead \u2014 Research Reveals Bear, Gradual Decline Ahead - Bitcoin.com News",
-      "polarity": -0.3492952734231949,
+      "polarity": -0.34929392114281654,
       "ts": "2026-01-19T00:37:12",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQS2FQd1NoanA3TEtjcnFpckJjZGhGanRrNU1kaWIyaFMyOWtKdGozRXA0VXJBaEE3MTBlM2dqV0RCYnBMQWZPYXJQeHhBN0RrSTVYMTFsTkxtb0ZSOW1qcFZHZEQxbHZOMzNrMXNtQ1o3SkF5TTdjcUFNVkdBRW8xZG9NT05zdnpuNnJERmtLNUxHN285YjVMVC0wZ19oZjhHdXdmRFVhVQ?oc=5"
     },
     {
+      "title": "Ark\u2019s Cathie Wood: Bitcoin\u2019s Calm Is Misread as 'Coiled Spring' Economy Prepares to Snap - Bitcoin.com News",
+      "polarity": -0.20460344664752483,
+      "ts": "2026-01-19T03:39:17",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQY2RkSTZWMUV5TGZGLWFucnpzTFhfTE9TeWZ6OVpFeDFNcjVUY0VTMDhvUU9xeFZkS0lHLTBIT1oyV0F3OFM1VXBDNnBza1dfZEFHa0FpS1prS2JVV1BBQVVsR0dDU3dYT3J4ZTc3QVB2a0xVaGQ1TVBFMEZyM0w1MVpFbXl6X21wYTJicjNOY2tDelVFckdhbTk4aVBQRGtrU3I3ZGZDZm5rdGxaQ1E?oc=5"
+    },
+    {
+      "title": "Rutherford County Bar Targeted Sunday in Bitcoin\u2013MoneyGram Scam - WGNS Radio",
+      "polarity": -0.13756839744746685,
+      "ts": "2026-01-19T02:58:40",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZDlpS1hCdFJ3amwwNF9RZ2pNN0pxbzVNM1pqZmp4RVBMV3ZlbEFMdGlqTWpsOG5rdmRaRnVYbll2SHNCSzZnMTBoVHdod3p1VGpLc2lIVFNXT3Q1cnIxVy1vcUhFV3U5cldTdnZwWTJZOEpib3JMbnpNbUE4VUEtMW5SM0dHSjRNQlA4TG1QeWZLRzBxeHc3UURXdG1Xa0hOWVA3cw?oc=5"
+    },
+    {
       "title": "Bitcoin Price Crashes Nearly $4,000 in Two Hour Market Sell-Off",
-      "polarity": -0.128941360861063,
+      "polarity": -0.12894121184945107,
       "ts": "2026-01-19T01:12:46",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/markets/bitcoin-price-crashes-nearly-4000"
     },
     {
       "title": "Anyone else getting out for now?",
-      "polarity": -0.0601813830435276,
+      "polarity": -0.06018120050430298,
       "ts": "2026-01-19T01:07:47",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qgq2m8/anyone_else_getting_out_for_now/"
