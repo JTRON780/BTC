@@ -123,6 +123,13 @@
   ],
   "negatives": [
     {
+      "title": "Bitcoin's hashrate continues to fall as the price spike doesn't convince miners to turn machines back on - CryptoSlate",
+      "polarity": -0.9599903738126159,
+      "ts": "2026-01-16T21:25:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSXF3ZlpHb3lGYk5kNjFPSzM3NTlpU3VpMmZfVHF3Rko3VXF1OExHb3d2cHB0QzRWdGdBM0N3bHd3Q3pIZ1Q0NkJfLTM2VEZla0c0cmd4X0ZhMlo5VGxENUZaNHRwZC1XUWZ6WlI4d2doTzJhaE1aZVdHWDZnMVBfYnJGS2w5UEFRTWZkQjVqWFRNRVhpSDVBYVJwSTducjZSLVpXSndvc0l5QlRaWV9QSllnakZTT2dQNF9OOHFyNEx4Sjd4Rzgw?oc=5"
+    },
+    {
       "title": "Nasdaq Warns Bitcoin Hardware Maker Canaan About Delisting",
       "polarity": -0.9555176915600896,
       "ts": "2026-01-16T17:31:20",
@@ -179,13 +186,6 @@
       "url": "https://decrypt.co/354941/bitcoin-seized-samourai-wallet-reserve-not-sold-white-house"
     },
     {
-      "title": "Jefferies\u2019 Wood Drops Bitcoin on Threat From Quantum Computing - Bloomberg",
-      "polarity": -0.6582156643271446,
-      "ts": "2026-01-16T09:04:33",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWWlEaVhiNDRjdC1xcjhWR2l5b2djTGc3S2k2cG5sNHlVWlRLelFVNG9zN1l2ekhrUmVpRUEwdGR0c3RfSVVzQ1NHSHJZVXBEczFTOGNGbGRSRXRkNVdWYldRS3F0eVQySER6WFh2bVBidmNMZURRaW54bExmcnZpZXN5ZzhHUGc0VFJjOVBMR1I0Y09lYlJpQndHWC1kY3dDVGZJRkx4c0FTZFRvaTd1eVJ5OA?oc=5"
-    },
-    {
       "title": "Coinbase CEO Brian Armstrong Accuses Banks of Undermining Trump\u2019s Crypto Agenda",
       "polarity": -0.6314269676804543,
       "ts": "2026-01-16T21:31:57",
@@ -221,18 +221,11 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVGxSaTFnZWN3VWdGSXNQT2VJMGxzT2UzRV9vUmZXWHZIcTdDc3VUaWZmODZNZURMOU9sRHNzUEZRdTY4VDhjQnQ1MDZ4c3k1Y1p2Ri1FVWpiako0bUJTSHd1YzZQNWJnQ3BxTVpkZ3dOMEFmSXp5Y3RrbG94dE11bTB3cEQzMWM1NnFVOHpQeHZQX254OVdEaWhwQTFJZ0tWQlVCTEIyOE94Q0pCOEdhbGhTUXkyX0p6Yk1yRHpaMTZXdVo3NWhn?oc=5"
     },
     {
-      "title": "What will happen to Venezuela's bitcoin stash after Maduro's capture? - Yahoo Finance UK",
-      "polarity": -0.1134179774671793,
-      "ts": "2026-01-16T09:39:15",
+      "title": "Jefferies\u2019 Wood Drops Bitcoin on Threat From Quantum Computing - Bloomberg.com",
+      "polarity": -0.17153197154402733,
+      "ts": "2026-01-16T09:04:33",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaURab0lQMHNRYWcxWEtQcV8tNW4wMHlId0hWSzlacmxyb3VadUhqSGEwTTB1eEU2dlRCVGJ1U1pJQVY1cE95bTdDYzRuSTA4RjJBbEdhOVBOeW5RSk1TMl83bjl2bHE1S091cUROVWtPbHRNYUNzRHh5TUVxaWhPT1UtNHpaYUlsSDZMUnpFOXE3ODRraWc?oc=5"
-    },
-    {
-      "title": "Bitcoin Seized From Samourai Wallet Has Not Been Sold, White House Says - Yahoo Finance",
-      "polarity": -0.10793015733361244,
-      "ts": "2026-01-16T19:31:52",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdEg3YkZOQmRHTU45MWxEZ1JQRHVNY3RvU2l5bzdjT0hIYTZrZ0NPVldKS21KckctZi1jSFFTLWJKMmNDc01PMkFjalhSZnhsUzRXbTM5aWhhNHFsRk9wNG9kbFhaYWdkbTZFWE9tWmNwN0tMQ1J6Y1dzY0pNemtyNmM4amZ6ckU?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWWlEaVhiNDRjdC1xcjhWR2l5b2djTGc3S2k2cG5sNHlVWlRLelFVNG9zN1l2ekhrUmVpRUEwdGR0c3RfSVVzQ1NHSHJZVXBEczFTOGNGbGRSRXRkNVdWYldRS3F0eVQySER6WFh2bVBidmNMZURRaW54bExmcnZpZXN5ZzhHUGc0VFJjOVBMR1I0Y09lYlJpQndHWC1kY3dDVGZJRkx4c0FTZFRvaTd1eVJ5OA?oc=5"
     },
     {
       "title": "Jefferies\u2019 Analyst Dumps Bitcoin Over Quantum Computing Fears, Buys Gold - Bitcoin Magazine",
