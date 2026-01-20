@@ -130,6 +130,13 @@ function DashboardContent() {
     ? lastPoint.smoothed - weekAgoPoint.smoothed
     : 0;
 
+  // Determine BUY/SELL/HODL signal based on sentiment
+  const getSentimentSignal = () => {
+    if (currentSentiment <= -0.1) return 'buy';
+    if (currentSentiment >= 0.1) return 'sell';
+    return 'hodl';
+  };
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -197,6 +204,7 @@ function DashboardContent() {
             title="Current Sentiment"
             value={formatSentiment(currentSentiment)}
             description={getSentimentLabel(currentSentiment)}
+            action={getSentimentSignal()}
             icon={<BarChart3 className="w-4 h-4" />}
           />
           <KPICard
