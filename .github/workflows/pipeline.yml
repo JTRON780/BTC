@@ -41,13 +41,10 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # Install CPU-only PyTorch first (much smaller, ~200MB vs ~3GB)
-          # This prevents running out of disk space on GitHub Actions
-          pip install torch --index-url https://download.pytorch.org/whl/cpu
-          # Install transformers (depends on torch)
-          pip install transformers
-          # Then install rest of requirements (excluding torch and transformers)
-          pip install fastapi uvicorn streamlit sqlalchemy pandas pydantic-settings plotly requests pytest httpx python-json-logger feedparser schedule
+          # Install CPU-only PyTorch at required version to avoid old wheels on runner
+          pip install "torch>=2.1" --index-url https://download.pytorch.org/whl/cpu
+          # Install remaining dependencies from requirements (includes transformers)
+          pip install -r requirements.txt
           # Clean up pip cache to save space
           pip cache purge
       

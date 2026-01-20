@@ -7,12 +7,25 @@ analysis models on financial text data.
 
 from typing import List, Dict, Any
 import torch
+from packaging import version
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import numpy as np
 
 from src.core import get_logger
 
 logger = get_logger(__name__)
+
+MIN_TORCH_VERSION = "2.1.0"
+
+
+def _ensure_torch_supported() -> None:
+    """Validate torch is present and meets minimum version requirements."""
+    torch_version = torch.__version__.split("+")[0]
+    if version.parse(torch_version) < version.parse(MIN_TORCH_VERSION):
+        raise RuntimeError(
+            f"PyTorch>={MIN_TORCH_VERSION} required, found {torch.__version__}."
+            " Please install an up-to-date CPU or CUDA wheel from https://pytorch.org/get-started/locally/."
+        )
 
 
 class SentimentModel:
@@ -51,6 +64,8 @@ class SentimentModel:
             f"Loading sentiment model",
             extra={'model_name': model_name, 'device': device}
         )
+
+        _ensure_torch_supported()
         
         try:
             # Load tokenizer and model
