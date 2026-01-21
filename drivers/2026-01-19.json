@@ -72,20 +72,6 @@
       "url": "https://bitcoinmagazine.com/news/blockspace-acquires-bitcoin-layers"
     },
     {
-      "title": "Swapping BTC to XMR/Monero without KYC",
-      "polarity": 0.050598205998539925,
-      "ts": "2026-01-19T19:40:07",
-      "source": "r/CryptoMarkets",
-      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qheczh/swapping_btc_to_xmrmonero_without_kyc/"
-    },
-    {
-      "title": "If you were starting crypto today with $1,000, how would you approach it safely?",
-      "polarity": 0.03304507955908775,
-      "ts": "2026-01-19T17:26:43",
-      "source": "r/CryptoMarkets",
-      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qhaj0l/if_you_were_starting_crypto_today_with_1000_how/"
-    },
-    {
       "title": "Where Will Bitcoin Be in 3 Years? - Nasdaq",
       "polarity": 0.012279080227017403,
       "ts": "2026-01-19T11:35:00",
@@ -108,6 +94,13 @@
     }
   ],
   "negatives": [
+    {
+      "title": "Bitcoin hashrate drops 15% from October high as miner capitulation drags into almost 60 days - CoinDesk",
+      "polarity": -0.9599312348291278,
+      "ts": "2026-01-19T12:50:22",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQT0Vab2lHNW1qZ1hGSERpYVNibW0zeXhnaXlIQjBHZHVNdG1GR3JPNjRYMUlVV2JIZzBmVzJIcGE1V1AzaDd5ZG40aGZmb0lxQTJ4Sy1OekZpNDJNOTVTZkpSQS1sWTJDS2t6ZUlja203bnpnLTduTFdZLWVRVkV1NUQ4YmNHNkV3d2ppSmFCZVpvNFhSQ3k5T2ZDMXBoWWwxM0NHdmhSYVE5dHA4cHBuSllvRExwR2h1LTZfZmxjVmJuV0FGQ2ZYSXpMSQ?oc=5"
+    },
     {
       "title": "Wall Street Has Worst Session Since April Meltdown: Markets Wrap",
       "polarity": -0.9587167045101523,
