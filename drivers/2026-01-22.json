@@ -1,7 +1,29 @@
 {
   "day": "2026-01-22",
-  "positives": [],
+  "positives": [
+    {
+      "title": "Steak \u2018n Shake restaurant chain announces plan to pay Bitcoin bonus to its employees - Yahoo News Malaysia",
+      "polarity": 0.5255704149603844,
+      "ts": "2026-01-22T01:35:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWno2OUJHUVpFRXE1T0lXQU42WTFjOGJ5dnNiaDZpOElSbVRsd21zMmZ1WlJsVjBUN0FfZmtfRXc2NWJBNl9QNFJkUEJUNk94c180Y0d5MXVuZS15MFZKemFDcm9zRkYtNF9xcktnTFI3dmJPUXc3cmEtcmlXeXJVSGhSTQ?oc=5"
+    },
+    {
+      "title": "X to roll out 'Starterpacks' featuring Bitcoin and crypto's top posters",
+      "polarity": 0.11621161177754402,
+      "ts": "2026-01-22T02:54:18",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/x-starterpacks-bitcoin-crypto-top-accounts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+  ],
   "negatives": [
+    {
+      "title": "Bitcoin Ends a Recent Losing Streak. Why Crypto Is in a Tailspin. - Barron's",
+      "polarity": -0.47839078307151794,
+      "ts": "2026-01-22T00:35:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxNR0pQU3B6OW5VODVTaWZNSE1EQzB4bWYtRk55VFBaUzBJaGF3a0pDSWdPTlRlcVNOV3pyQ0hXUFR0Yld0M2IzZ2dNZkxoRUVKbENjdmdIbHZEMG9BODNyVHV4NTF5QW1lSGJXeEhKYmotMnJVNjFLZ01meEFXdFJhbFAwODFZSFdWbTdTcV96M2gybmdQWWxUemk2aVF4VU41WlZsMVRvaFJZbGtxRWl2bDZLM3dOc0ZnUnd0bEFSSWpmUHRCS1EtbDA4bTFqSHBfWFQ3Ql9xT3FHLUppRkxYN0hsRTNJd2szd1d0ejhaYW84Rm5pdElYem1sVzJtRnlDUmhBbVJZbTE3UVNzZzBacEgzczVsdVR5VjJnbVdudmtQQ291RUdkZUZUVV9zYnhsMUR3YXQxYVAyajY3U0ZMaTU5ZDJOTEtLSEZtazk3dGp4S3pNbk4ycmdrY3lwa3BITUxNcFprSXYwZnAzcVVvSlNDUHU2emt2bjcyeXRGU0lua1R2b0l3?oc=5"
+    },
     {
       "title": "Bitcoin Sharks Are Buying Again\u2014But Analysts Warn of a Bull Trap - 99Bitcoins",
       "polarity": -0.35130102932453156,
@@ -15,6 +37,13 @@
       "ts": "2026-01-22T00:34:44",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQa2JySmlfSzdxOEtYSmhFUHBWNVA3STF2V0NpYzg3Um5DWVFVTXc5eDd0RWtXRG1SQ1ZwZXR5Y1drM0hqd1VzSEdCWHZoeHhoVXVjYjR0aXgtZkw4QXVCMGhmd2owcVJ1UzhsbDBQR0gybWxtY2ZKQnZOUUlwdTZIZjNIcGgyejVPYnh4YUw0OGdFdHRMU2F6NWlB0gGfAUFVX3lxTE8xbS1kQ240Sk1DMFMxRkh1VHVqZ0ZKSkcxQW5XWFpnZ25kV0JQRW5WcHV3dGxXbV9PLWgtWXRKSkNWeWxIR1NEdm9xcTUxcHU1by1tdnVQclE1SEx3a29WaE5HLVdFVHJQVjZ5LXB5Mk8wV0FLRWt5ZmNHMzlzT01vY0JTamNpQV8xM2hWR0ZMYmhtOWY3VThjYmJIMDVMdw?oc=5"
+    },
+    {
+      "title": "Beware of latest scam method in reddit: Asking question then edit the body text to shill scam few weeks later.",
+      "polarity": -0.07814963720738888,
+      "ts": "2026-01-22T01:50:58",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1qjhcae/beware_of_latest_scam_method_in_reddit_asking/"
     },
     {
       "title": "FBTC vs. BITQ: Direct Bitcoin Exposure or Crypto Through Public Markets - The Motley Fool",
