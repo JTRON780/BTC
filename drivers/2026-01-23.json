@@ -2,12 +2,55 @@
   "day": "2026-01-23",
   "positives": [
     {
+      "title": "HIVE Digital posts strong 2025 results as Bitcoin production jumps - Yahoo Finance Singapore",
+      "polarity": 0.8943053968250751,
+      "ts": "2026-01-23T00:03:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNVZycldiZmlhRnI4Q1JKNHljWkhnc1NoVjNJR3kyZllWRWFtdjZ3R0pCMnQ3TVZ6eU9fdTI2T0YyUWV4NTZtTk9wdVBNcjktME5Hc2h1dkd0RmVxaXlSX0dMRnlZVDdGNGp4aDBQcnBzaHgzdFpPM05sNm8tODJnUnFMS0RRQQ?oc=5"
+    },
+    {
+      "title": "Bitcoin options show pro traders expect more downside, but also plan to accumulate",
+      "polarity": 0.8226781189441681,
+      "ts": "2026-01-23T01:04:19",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-options-show-pro-traders-expect-more-downside-but-also-plan-to-accumulate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "title": "Bitwise and Proficio Capital Partners ETF targets gold, metals, bitcoin as alternative to currencies - Reuters",
       "polarity": 0.0696041900664568,
       "ts": "2026-01-23T00:24:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQTRfd2pCS09CZnZWU20tMzhpT21VMl9vaFBfaktYN3U3aktRSk9RT1o0ZVZvWm9OaGVtMy1IYm9NVlZNb2VEcURybnBPaUxHMVU4NV9WVUxKR094QlRpbzl3TEwyVWppZzJNd24yMy0yWVVaODN6SjFfU2RGRkxyR3pVS25TS0hCYmZ4d1o0M0ZadzRCcmNGcV9YVjhuOTJrZkhFM1RQeXJ1LUJ2YUxjLWd3MGtpZGJVbTVSRVF6VQ?oc=5"
+    },
+    {
+      "title": "Kansas Lawmakers Propose State-Run Bitcoin and Digital Assets Reserve Fund - thedefiant.io",
+      "polarity": 0.03036038763821125,
+      "ts": "2026-01-23T00:50:32",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc2xPcG9xNU9PTmhBbk15dU5hUUxTcDB2NkYwUXlEVXhoVnJIbHowZFFDNFBaRFZJX2loTThuQ1ZxbndrMXNxUWZYeXV5aFlrRHNKZ2xpRWxIbVBjbzR4aFpsQTNlVmRSWDRUS1VabHNWLTk3OFY4dU1RR1VyN3NicXh4b2xmdEtmZGFiU3VvS2tPR2pkUk91enEwdDRnNzRxdXMtU0ZwWEsxUDVSUzhVc3RR?oc=5"
     }
   ],
-  "negatives": []
+  "negatives": [
+    {
+      "title": "Bitcoiners reject quantum computing fears as cause of price slump",
+      "polarity": -0.8937664125114679,
+      "ts": "2026-01-23T01:42:37",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-quantum-computing-fears-btc-price-catalyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "South Korean Prosecutors Lose Seized Bitcoin, Decline to Disclose Details - BeInCrypto",
+      "polarity": -0.6496240291744471,
+      "ts": "2026-01-23T00:25:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15Uk9sTUdXNllLTThUZVlOVG1aak0xU3pCVVFRNHgzQW9jZDJVbVpGS0pvZ2NZUXdDWks0UjFKNXRhaXJraDBqcUxmOXJlSEp0bGJ1UUgwc2o5dzlKN3FFTnVNekl6Z0cyUC1qYjUwSDhrU0FSM2hR?oc=5"
+    },
+    {
+      "title": "South Korean prosecutors investigate disappearance of seized Bitcoin following phishing attack - crypto.news",
+      "polarity": -0.41875966638326645,
+      "ts": "2026-01-23T01:40:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fUzJJVkF0b1VQd1ZheXJ0Zm9Dd1ZqYW42aWwwRGpibE0ya19SaU9mQjJrYWQ3YkdhVDN2dHNDX2tRUDd6NWVFc2NTTG9kMDczcTNDWkVscnktZVIzbnE0a3RoQVFvRVBDRUNMQUQ1VTF4LVo0VjVr?oc=5"
+    }
+  ]
 }
