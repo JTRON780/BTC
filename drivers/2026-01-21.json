@@ -23,18 +23,18 @@
       "url": "https://cryptobriefing.com/strive-bitcoin-purchase-debt-repayment/"
     },
     {
-      "title": "Buy the Bitcoin Dip? Not Until Short-Term Holders Show Gains, Says Compass Point",
-      "polarity": 0.5964696109294891,
-      "ts": "2026-01-21T17:23:08",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/355300/buy-bitcoin-dip-not-until-short-term-holders-gains-compass-point"
-    },
-    {
       "title": "Bitcoin, stocks rally after Trump halts Greenland tariffs",
       "polarity": 0.5701881088316441,
       "ts": "2026-01-21T22:09:42",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/trump-halts-greenland-tariffs/"
+    },
+    {
+      "title": "Bitcoin Price Surges To $90,000 After Trump Delays Tariffs - Bitcoin Magazine",
+      "polarity": 0.5396817252039909,
+      "ts": "2026-01-21T21:22:57",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5GeGd1UVpWc2VPZ1hfSjJlcFM3OHpuZUFITVVZTVdMZFdWM09zM29DVTJqUmNhZlJUeXRCbXhKNnlYXzQ4cVE5LVNSWTNDdDdybElkdFVpRW9QSXJNWFQ5WFJkRG8wQXljMVA1UkltY2xOOXp2MkJkWGJvZw?oc=5"
     },
     {
       "title": "A solo Bitcoin miner has successfully mined a block, earning 3.13 BTC, worth about $289,000",
@@ -70,6 +70,13 @@
       "ts": "2026-01-21T12:07:17",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5vR0QxdklJYno4ZG94N1FnNEpIUGV3ZndnWE9ieTZYNko4WTRTOWxSVXYzam5yNUpqN29ad1JiN2xrM1M4bEhhdWlOSXJtZzB3U1FqSENudTMxX1JBQ2VvRE9VZmtTaXVyVHBPRnF0WlpjTWM3MVJ0X2FrVQ?oc=5"
+    },
+    {
+      "title": "Strive ($ASST) Plans $150 Million Follow-On Offering to Buy More Bitcoin, Retire Convertible Notes - Bitcoin Magazine",
+      "polarity": 0.11300579272210598,
+      "ts": "2026-01-21T21:50:44",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBibG56TDdIOUVDdUxHdXJNeGhqeWFvckVOZzhMaDIyaGcyRm1waFlNbno0MnpMTVp1YUZEbzdLb1lBdkh0Sm9KbXR5Sjlfd0VudEgyRmFnTGIzYlRRR0xZbU5tem5INGVnZ2lxXzFpR2M0ZlVxNVd0OUtEOVJqaVU?oc=5"
     },
     {
       "title": "Trump mentions importance of Bitcoin and crypto legislation at Davos in rambling speech - dlnews.com",
@@ -109,11 +116,32 @@
   ],
   "negatives": [
     {
+      "title": "Strategy (MSTR) Is Down 7.4% After Leveraged $2.13 Billion Bitcoin Buy - Has The Bull Case Changed? - Yahoo Finance",
+      "polarity": -0.9651919598691165,
+      "ts": "2026-01-21T08:11:28",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBHQUdnekF1QXhkVUU3UzU1OExUZ0RmMmpqLS14OXF4ZFlRYUNEa3pKdWlyZ3l0TzY5NmhUdG14bE1QV21VMWJFRFQ3amsyLTJqdmhJVklfa3g0QnBqd0xVeGluMWV4Ry1PZG1jaXRZVUpDNFduTnBB?oc=5"
+    },
+    {
       "title": "Bitcoin price news: BTC lower for 2026 after reversing earlier Wednesday gain - CoinDesk",
       "polarity": -0.9532107459381223,
       "ts": "2026-01-21T17:00:04",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSHBIakRDYk1VbjNNaC1RY1FKUXotNnZKZTJkU1YzWG9lR2szNGw1d2kzeVhSQmU4dldmOVVWNG5heVh6Ukp4NjlOREVpMkRiT1dyVFAzMGxCeGtaTFNGbXE5WjFtQXRuTzhsbXpyOXBBbllicFpCcmp4UjJESXgwMEE1UkhmUnA0a2RtT3BHNUp6VktaclVmdWJJWUJJN3c3NU53Zw?oc=5"
+    },
+    {
+      "title": "Bitcoin drop to $89,000 leads to $1 billion liquidations for bullish BTC bets - CoinDesk",
+      "polarity": -0.9498238200321794,
+      "ts": "2026-01-21T04:41:48",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZXllQlB2bnllWjJFMzBWc1VLc2Jpb0U1RWlKcGZ6NnlubUh1VHV3c3F2M0FIbkc4YWc3bFZGcDhqNXIyOUx4OTg3X3dlTG40aHR6QXNfcVducVVJQTJLWWkyYWJJUTd2eW04MlZVRFpuaXdwUGM1ZmRUUTlXRE1tY2xJRURoTkZTMXZuN0ZySTV3MGtKdDdfOGFZT1N6Vkp0aFFUTUNUaGhvMFJlaFB0ZTlWQWNBc1hLYmR3UXJVVW1aQUk?oc=5"
+    },
+    {
+      "title": "Bitcoin News: Bitcoin Slips Below $90K as Whale Selling and Long-Term Holder Distribution Intensify - Binance",
+      "polarity": -0.9425648432224989,
+      "ts": "2026-01-21T11:49:03",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeHRYbjNBV2dQVU44Qm43Q0ZWcExOS0lzRkozWlFGMDF0TWJYV1lvM09BZUdNaEk3ME1OM1dXMXlzYTFZcFUxQm9NUHlTU0ZNMnh2b0dvUlNrRTNDNTFKLUlqczgzQ0RvaExoODl4V0tmUFJKS2o3LXEtLVhXcURMMFkwZU42ZjNkX203QmtMUExKdlpSanRGYTR5MmhTcWxMVG5NOHc1enFPVWFTemk1aElXRllqQ05YODF1T3NhSVM2Ynh3c1BqbldWT3RwZW9TdWU5TmJRbnB2RGVVdk44d2F6NVpGQjJpenVsb0FVMUppdlk0?oc=5"
     },
     {
       "title": "Bitcoin Dips Back Below $90,000 as Global Selloff Deepens - Yahoo Finance",
@@ -130,13 +158,6 @@
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1qj5z31/market_pulse_0121/"
     },
     {
-      "title": "Trump\u2019s speech at Davos gives small boost to Crypto! Saylor buys $2.13B BTC! Blondish Interview!",
-      "polarity": -0.8709177747368813,
-      "ts": "2026-01-21T16:17:26",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/videos/interviews/nWmEOl4c/trumps-speech-at-davos-gives-small-boost-to-crypto-saylor-buys-213b-btc-blondish-interview"
-    },
-    {
       "title": "Cathie Wood Says Bitcoin Price Is Nearing End of Down Cycle, Predicts \u2018Shallowest Four-Year Decline\u2019 - Bitcoin Magazine",
       "polarity": -0.8243127185851336,
       "ts": "2026-01-21T19:50:14",
@@ -149,6 +170,13 @@
       "ts": "2026-01-21T19:50:14",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/markets/cathie-wood-bitcoin-nearing-end-cycle"
+    },
+    {
+      "title": "\u2018It\u2019s Now Happening\u2019\u2014Urgent $38 Trillion U.S. Dollar \u2018Collapse\u2019 Warning Issued As Markets Brace For Gold And Bitcoin Price Shocks - Forbes",
+      "polarity": -0.521844532340765,
+      "ts": "2026-01-21T13:48:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZVRUZnIzUWE4QUVzeDR1elh5QWxocXBGbjY5N1dMemRDV3JSdEpmRHd5RmJfdUJtcFJnVWt5Nk4yTVJYTzJ2eWpjbWxxOGVhT25xSlZLRVpsRDZmSkZsVWRvTUVpaG14M21hQTI5SElMUDFLeXpfdFNTU0RLbVN1cFROUXZFT1J3QW5ndU16Rm85M1JzcTRqRmxvNFZGSjAxdHNXNEVtZF9JT09YNWRPM3RmNU95VXF3X3VZb2Nuc0tXaXJlZDNrUHVpaHpZck4wQU9nZTNfNjhhRGJlUjcxc3lQYTU?oc=5"
     },
     {
       "title": "Sell or Keep?",
