@@ -3,35 +3,35 @@
   "positives": [
     {
       "title": "Bitcoin options show pro traders expect more downside, but also plan to accumulate",
-      "polarity": 0.822678729891777,
+      "polarity": 0.8226781189441681,
       "ts": "2026-01-23T01:04:19",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bitcoin-options-show-pro-traders-expect-more-downside-but-also-plan-to-accumulate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "title": "BTC vs USD",
-      "polarity": 0.47957710176706314,
+      "polarity": 0.4795767106115818,
       "ts": "2026-01-23T03:32:11",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1qkfvy5/btc_vs_usd/"
     },
     {
       "title": "Kansas introduces bill to establish Bitcoin and digital assets reserve fund",
-      "polarity": 0.07812036201357841,
+      "polarity": 0.07812020927667618,
       "ts": "2026-01-23T04:40:20",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/kansas-bill-bitcoin-digital-asset-strategic-reserve/"
     },
     {
       "title": "Bitwise and Proficio Capital Partners ETF targets gold, metals, bitcoin as alternative to currencies - Reuters",
-      "polarity": 0.06960414350032806,
+      "polarity": 0.0696041900664568,
       "ts": "2026-01-23T00:24:51",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQTRfd2pCS09CZnZWU20tMzhpT21VMl9vaFBfaktYN3U3aktRSk9RT1o0ZVZvWm9OaGVtMy1IYm9NVlZNb2VEcURybnBPaUxHMVU4NV9WVUxKR094QlRpbzl3TEwyVWppZzJNd24yMy0yWVVaODN6SjFfU2RGRkxyR3pVS25TS0hCYmZ4d1o0M0ZadzRCcmNGcV9YVjhuOTJrZkhFM1RQeXJ1LUJ2YUxjLWd3MGtpZGJVbTVSRVF6VQ?oc=5"
     },
     {
       "title": "Kansas Lawmakers Propose State-Run Bitcoin and Digital Assets Reserve Fund - thedefiant.io",
-      "polarity": 0.03036046028137207,
+      "polarity": 0.03036038763821125,
       "ts": "2026-01-23T00:50:32",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc2xPcG9xNU9PTmhBbk15dU5hUUxTcDB2NkYwUXlEVXhoVnJIbHowZFFDNFBaRFZJX2loTThuQ1ZxbndrMXNxUWZYeXV5aFlrRHNKZ2xpRWxIbVBjbzR4aFpsQTNlVmRSWDRUS1VabHNWLTk3OFY4dU1RR1VyN3NicXh4b2xmdEtmZGFiU3VvS2tPR2pkUk91enEwdDRnNzRxdXMtU0ZwWEsxUDVSUzhVc3RR?oc=5"
@@ -39,46 +39,67 @@
   ],
   "negatives": [
     {
-      "title": "Bitcoiners reject quantum computing fears as cause of price slump",
-      "polarity": -0.893766239285469,
-      "ts": "2026-01-23T01:42:37",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-quantum-computing-fears-btc-price-catalyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "title": "Bitcoin Profit Cycle Turns Negative for First Time Since 2023: CryptoQuant",
+      "polarity": -0.9667997406795621,
+      "ts": "2026-01-23T05:02:21",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/355600/bitcoin-profit-cycle-turns-negative"
     },
     {
-      "title": "South Korea loses millions of seized Bitcoin to phishing scam: Report",
-      "polarity": -0.8701174706220627,
+      "title": "South Korea loses $48 million in seized Bitcoin to phishing scam: Report",
+      "polarity": -0.9454275844618678,
       "ts": "2026-01-23T04:01:56",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/south-korea-seized-bitcoin-stolen-phishing-scam-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "title": "Bitcoiners reject quantum computing fears as cause of price slump",
+      "polarity": -0.8937664125114679,
+      "ts": "2026-01-23T01:42:37",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-quantum-computing-fears-btc-price-catalyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "South Korea probes loss of seized bitcoin in phishing attack",
+      "polarity": -0.7861993107944727,
+      "ts": "2026-01-23T05:17:41",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/01/23/south-korea-probes-significant-bitcoin-loss-in-a-phishing-attack"
+    },
+    {
       "title": "Asia Market Open: Bitcoin Dips Below $90K, Wall Street Rebound Lifts Asia Risk Mood - Yahoo Finance",
-      "polarity": -0.6590027436614037,
+      "polarity": -0.6590028256177902,
       "ts": "2026-01-23T04:09:37",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOG9FRDVCX2Z5Z0ZXcVdtbE1xc2hLaC01TUoyR3ZXRzQ4NUxNTktFUWVsblc5dFlUNnhLLTRLOFFldG9Ca1pQVXJwRWstelpVd09VV2FGb2J5dXhkekp1bWVYaHpMYjRkeWtDY3Y2RVZwMDE0SVFPamtQMF9MQ00zZA?oc=5"
     },
     {
       "title": "South Korean prosecutors investigate disappearance of seized Bitcoin following phishing attack - crypto.news",
-      "polarity": -0.41875969246029854,
+      "polarity": -0.41875966638326645,
       "ts": "2026-01-23T01:40:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fUzJJVkF0b1VQd1ZheXJ0Zm9Dd1ZqYW42aWwwRGpibE0ya19SaU9mQjJrYWQ3YkdhVDN2dHNDX2tRUDd6NWVFc2NTTG9kMDczcTNDWkVscnktZVIzbnE0a3RoQVFvRVBDRUNMQUQ1VTF4LVo0VjVr?oc=5"
     },
     {
       "title": "SEC Gets $900K Judgments In Bitcoin Miner CEO's Fraud Suit - Law360",
-      "polarity": -0.1909479796886444,
+      "polarity": -0.1909492164850235,
       "ts": "2026-01-23T03:21:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRVZXTC1uQllXZEZZZDFISjJYRWhlek0wY1N0bFhDUk11bHRGbzV5Yy1GWi1uS2dmXzdQZ0FUZEdxQi13S08zUUhVTk1uTWJGM1dPZG1pSi1TMHRRTEJDUDNmX21YMnVWVC1JcVk3WWZPMmhBU190NmdFMHVHRkFSb2FHQTJjZjZET0ZmUmdYdzBkNVpacUU1TnBoWjhWQdIBVkFVX3lxTE9GTEVyU204NmtvaHNBaU41TzJSc1BUNUdNWFpWWEdxMnZoQlNTbEpBcE0wcWlHZG13c3YwaVZCZHY0OTlfeWZFVWZNV3VaNl9VWHE0QkJB?oc=5"
     },
     {
       "title": "Maxi the scalper",
-      "polarity": -0.04036113992333412,
+      "polarity": -0.04036138951778412,
       "ts": "2026-01-23T04:14:44",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1qkgsvd/maxi_the_scalper/"
+    },
+    {
+      "title": "Gold nears $5,000, silver closes on $100 while bitcoin remains listless",
+      "polarity": -0.025278277695178986,
+      "ts": "2026-01-23T04:30:07",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/01/23/gold-nears-usd5-000-silver-closes-on-usd100-as-metals-rally-continues"
     }
   ]
 }
