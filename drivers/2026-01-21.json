@@ -16,11 +16,25 @@
       "url": "https://cryptobriefing.com/trump-halts-greenland-tariffs/"
     },
     {
+      "title": "Wall Street Pulls Back From Bitcoin\u2019s Money-Spinning Basis Trade - Bloomberg",
+      "polarity": 0.3503616005182266,
+      "ts": "2026-01-21T19:06:03",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMmhQY0NtczBxaXVpVC03TGYwYlZGOFBtSTQ1SkI1TlI4bHM3aHY0eXV6MENBQWRQdmpwcWpSSXVNMnYxZ0RGRERCS3FpMjV1VWs5OTJ5OW81OXdUNlZkS3dMQ3NvdktFMmFfNUxBOXJHM0ZSb1EyODlLUWtwSmU2U2NsaVNXMHAyNjZGRjB3V3Z5NHFWZ0pwZzFVZXFuc21tYkNLNHJsc1ZYc2JtM290NUt6bElldw?oc=5"
+    },
+    {
       "title": "Bitcoin hovers near $88,000 as Wall Street urges caution in 'chasing rallies' - Yahoo Finance",
       "polarity": 0.2351856678724289,
       "ts": "2026-01-21T18:42:24",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZS1qSGpqb3pvbk4yQXVoVV9pUDM0NzE3eGI2WlhpZXN2Z1NRWU9SbEw2X3VDS1JuQ0dlQXpqeV9HeU1mczlaTmVOQ0NnV090QVNjMUJxMU5XenhTQTBSS3Q3ZGFBcndvWWVNMjhRVDkybTZWZGFMOTVPemNsMWV2MlpTUHFYeUxORTgxSnVJUzdULU85V1J0RzQ5dW5Fc1pqN3lNMVFReWZhNWVqRHF1MTZtNkNxNUk5X3lZ?oc=5"
+    },
+    {
+      "title": "Quantum Computing Is Already Hitting Bitcoin\u2014Here\u2019s How - Yahoo Finance",
+      "polarity": 0.03356397897005081,
+      "ts": "2026-01-21T15:00:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOS2FEd1N3NEh3eHhEM0Rvc2VETVRGZTlZVlk0aEpEWm5FTFAwXzMzdldPR29yR2RKZXJzQ3kwS1AxdldpY1ZNS05EeGV0XzlOTk05ZEpyZ296WWtBRWJCTV8xang3b3RabE5IMjd1dkxUQ3pfVlBMUUdMcjFUT1FGZ0QyRTJrUGR1aTlnaF9lbXM?oc=5"
     },
     {
       "title": "Cathie Wood\u2019s ARK Invest Makes Bold Bitcoin and Nvidia Prediction - Yahoo Finance",
@@ -46,11 +60,25 @@
   ],
   "negatives": [
     {
+      "title": "Bitcoin News: Bitcoin Slips Below $90K as Whale Selling and Long-Term Holder Distribution Intensify - Binance",
+      "polarity": -0.9425648432224989,
+      "ts": "2026-01-21T11:49:03",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeHRYbjNBV2dQVU44Qm43Q0ZWcExOS0lzRkozWlFGMDF0TWJYV1lvM09BZUdNaEk3ME1OM1dXMXlzYTFZcFUxQm9NUHlTU0ZNMnh2b0dvUlNrRTNDNTFKLUlqczgzQ0RvaExoODl4V0tmUFJKS2o3LXEtLVhXcURMMFkwZU42ZjNkX203QmtMUExKdlpSanRGYTR5MmhTcWxMVG5NOHc1enFPVWFTemk1aElXRllqQ05YODF1T3NhSVM2Ynh3c1BqbldWT3RwZW9TdWU5TmJRbnB2RGVVdk44d2F6NVpGQjJpenVsb0FVMUppdlk0?oc=5"
+    },
+    {
       "title": "Market Pulse - 01/21",
       "polarity": -0.875021293759346,
       "ts": "2026-01-21T18:30:32",
       "source": "r/CryptoCurrencyTrading",
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1qj5z31/market_pulse_0121/"
+    },
+    {
+      "title": "Trump\u2019s speech at Davos gives small boost to Crypto! Saylor buys $2.13B BTC! Blondish Interview!",
+      "polarity": -0.8709177747368813,
+      "ts": "2026-01-21T16:17:26",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/videos/interviews/nWmEOl4c/trumps-speech-at-davos-gives-small-boost-to-crypto-saylor-buys-213b-btc-blondish-interview"
     },
     {
       "title": "Cathie Wood Says Bitcoin Price Is Nearing End of Down Cycle, Predicts \u2018Shallowest Four-Year Decline\u2019 - Bitcoin Magazine",
@@ -67,11 +95,25 @@
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZVRUZnIzUWE4QUVzeDR1elh5QWxocXBGbjY5N1dMemRDV3JSdEpmRHd5RmJfdUJtcFJnVWt5Nk4yTVJYTzJ2eWpjbWxxOGVhT25xSlZLRVpsRDZmSkZsVWRvTUVpaG14M21hQTI5SElMUDFLeXpfdFNTU0RLbVN1cFROUXZFT1J3QW5ndU16Rm85M1JzcTRqRmxvNFZGSjAxdHNXNEVtZF9JT09YNWRPM3RmNU95VXF3X3VZb2Nuc0tXaXJlZDNrUHVpaHpZck4wQU9nZTNfNjhhRGJlUjcxc3lQYTU?oc=5"
     },
     {
+      "title": "Fast-Food Chain Steak \u2018n Shake to Pay Hourly Workers a Bitcoin Bonus - Bitcoin Magazine",
+      "polarity": -0.0459710992872715,
+      "ts": "2026-01-21T17:03:34",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVl9xaE9PeVI2eDRuek1CLW93MVc0X0VWdGdDY0ltekYzV0N6UGVGdGlFdDJVVnZ1OWtHcXpCTFlzVmxjVU1jdlhiRmNfSEg0QUtQMVlRbVp6LTF6dkNTclc2TTFiVkJrNHR4QkJwTGQ3NjlXNnlJYUE1Y1YweXJmZQ?oc=5"
+    },
+    {
       "title": "Is Bitcoin a Buy, Hold, or Sell in 2026? - The Motley Fool",
       "polarity": -0.021264949813485146,
       "ts": "2026-01-21T15:15:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQVNyRDREYkVvZWtSV2tNRVVHbFcyZGtVTHJmalIwN0NfNFJWWGJBX3F1alFJN2JjaHhrYVJSUjBXZGNyenlLSDhhM2pqZGEtcG9Yckw5MExCal9zQUlrTkRsbWpacFRDOUZ3N1Zxd2pmNUtCRmJpaG5Lb1l5WFltd1cwWkZkVUE?oc=5"
+    },
+    {
+      "title": "There's another reason why bitcoin is trailing gold and not acting as a safe haven - CNBC",
+      "polarity": -0.014769669622182846,
+      "ts": "2026-01-21T19:49:41",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSGNCNGw3M0lIRU5kQUwxQjN3RmpORGpZbmdsZ3YzYUFBU2pGNy1oUUVXVG5obUxGb1QxSlpZT1ZscnNOY0p6R1dORlI0akR6aTV4OGJtXzZpcnBoZUNsYjgxWmwydmpnaXZXdXBwLW5FcGxZeEx4SlhFLU5Wak1Pa1pPUGY5bVhOcXdzUmlhVWVzVnEtNmc3LW15WnpMNGRDbFdOcFVDLU5hRi1MOTZwclB2OGdJdlkxWnc?oc=5"
     },
     {
       "title": "I've been in crypto since 2017. Here's why I stopped believing.",
