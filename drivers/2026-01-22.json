@@ -16,6 +16,13 @@
       "url": "https://cryptobriefing.com/gold-as-safe-haven-record/"
     },
     {
+      "title": "Crypto rebounds after Trump TACO\u2019s on Tariffs! BitGo $2.1B IPO! Solana\u2019s SKR token soars 250% FDV!",
+      "polarity": 0.6981661170721054,
+      "ts": "2026-01-22T16:14:50",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/videos/interviews/MqZOhomP/crypto-rebounds-after-trump-tacos-on-tariffs-bitgo-21b-ipo-solanas-skr-token-soars-250-fdv"
+    },
+    {
       "title": "Bitcoin Payments Startup ZBD Raises $40M to Build Gaming Payments Rails",
       "polarity": 0.5398557158187032,
       "ts": "2026-01-22T17:40:11",
@@ -37,13 +44,6 @@
       "url": "https://cryptobriefing.com/etf-currency-debasement-bitwise/"
     },
     {
-      "title": "Coinbase Creates Advisory Board to Study Quantum Computing Risks to Bitcoin",
-      "polarity": 0.14931216556578875,
-      "ts": "2026-01-22T23:12:36",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/355565/coinbase-advisory-board-quantum-computing-risks-bitcoin"
-    },
-    {
       "title": "Thailand Finalizes Rules for Bitcoin ETFs and Crypto Futures in Early-2026 Push",
       "polarity": 0.13668503984808922,
       "ts": "2026-01-22T16:33:31",
@@ -63,20 +63,6 @@
       "ts": "2026-01-22T21:44:18",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcWI3TDhQS09BbDN2cnRZN3NnY1JwWUs1bGlRUWhNQ1NEV2FMWDdvQUliXzZnOXU0NlFEZjZIN0ktM2NnM1RGWFhkd3ZldThoQ0czQ0xPbzRpOGg0NUZpeExmbTY4ek5sd2Z5N0VLX2RMcDBRbkZ3QmtNQmNIOVRqZU9lT3BYS1BXQ2dxU3FWQ1c?oc=5"
-    },
-    {
-      "title": "Bitwise's 'Debasement' ETF Pairs Bitcoin and Gold as a Hedge Against Your Depreciating Dollars",
-      "polarity": 0.11387049034237862,
-      "ts": "2026-01-22T22:57:54",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/355559/bitwise-debasement-etf-bitcoin-gold-hedge-against-depreciating-dollars"
-    },
-    {
-      "title": "Bitwise's 'Debasement' ETF Pairs Bitcoin and Gold as a Hedge Against Your Depreciating Dollars - Yahoo Finance",
-      "polarity": 0.1023490447551012,
-      "ts": "2026-01-22T22:57:54",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZHIwd3kzNmFKLW5TS0hyRTlPSjNQYmVucVdFRi02QUhOWWNPXzZkOUtjNVNsSEFmM0RBU3dVbk04UkNET3dKT0FENGxXWE9TVDZoREE3TW9tYTdWOURURW9Xdk50RHdVZmhoR3ViT3NhLWhBYWlxcFBxZGhuVFZrdFJxMVVpNW52dFZr?oc=5"
     },
     {
       "title": "Kansas Introduce Bill to Establish Strategic Bitcoin Reserve",
@@ -137,18 +123,25 @@
   ],
   "negatives": [
     {
+      "title": "Bitcoin Funds Shed $700 Million as Crypto Outlook Dims - Bloomberg",
+      "polarity": -0.9423565920442343,
+      "ts": "2026-01-22T14:35:15",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWmVLZjFEeXh6dXZqNWg2OUVld2ZqT0ttQWxGTzViMHVXMTBSM0RhYzhMNWhXVjQ3MmNDcGZEeThvNlVSTU9ObS1zcTVva0NBM3lkOW9mN09rN1Y0bE5xTlhqV0xjYmRmWEMwendOYXpjNHJ2UmZCcFA0eUJJWklnNWFjYUwxYVh5bGlMbWc3MjJodjR0V0p5WVlVQklTZ3M1dmtJeUtOLWtFTkVCSjFHZw?oc=5"
+    },
+    {
+      "title": "Bitcoin falls below $89,000 as the wait for rate cuts likely to keep bitcoin stuck until September - CoinDesk",
+      "polarity": -0.9148366004228592,
+      "ts": "2026-01-22T15:31:32",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYWd6dDExWkFtWnZHX0pqMnNmRmN5M3lOOVA4X3RCaWo4c3czZzJqd1RtanVyX2x3SVMzb1JYeE5mOGM0SFhxYjNacU9KNWN2V2I4SGE5VnQyejBSRlUtcmxhdjRPTEtKUzgwNVJRajl1a1dyLXN1NDJRYkxHalpNYWRtNFdFcUo1ZmphcmlvOGdxSTBEWEpaOWs0cm9xUU9kVk42NEVnM1I4RFpKUzFZcDRHYkYweHlmM2FRc1dn?oc=5"
+    },
+    {
       "title": "Bitcoin sinks below $90K as large investors sell their holdings and haven seekers go elsewhere - MarketWatch",
       "polarity": -0.8932752106338739,
       "ts": "2026-01-22T16:39:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxPVEdlN2pKZWJWR1ZoMVRJY0dtenZQRkR4ZF9adUMyWFV4MVlEYi1oeFlMb2JJaVl0Sl9GeC03LUlieDI5c2dDclEzRW5Fcks5UmdUV3d4eTRkQndXcjBmX2IwX0ZHZjR3RHc5d25GQTVBdld6MjRmQm02ckFTSGxqVGpWY0lETU80MTRBOG1wT2dfeTNMemxqbkNmT1FGRUpiZ2pFMkxIZ3g3X196Z2l0RU55bWU4T1duQ0RCTEpPQ18xVkpkMXJPNFFLdGlTbjdISkRwMDVvdmhlMWZ3YjdCU28yQTg5Wi10REVlUWpPWHlDWVNvd3Jad2RrMkRjR3FmaE1XT3AyVGNLcW00Z1NYeklZZHFaMHcxWXNKcDhRbTNPZkR4ZmV3bFhHaFpvYXZtNXBVMi1STWlZMmoxTmM0MjFReFNsQ2NrMGlaX2ZtMHJCTktpUWU0eGpFZjg3cWxwYkt1dXZuckJfT1p5RjB6cE01dzFFc1VsYXB0S1MxWjFtMDZSZnRXZ0s0ZGpoaEVvSm04Sk1nSlpoVmoxS25XSThtaGdmVDB2VnFyOUVpOGhTMFlmQlFGTnMzMFRWOGJzanZ1RndSREZqSklRLUcxcmlnRmFNSG8?oc=5"
-    },
-    {
-      "title": "Four Potential Fault Lines in Strategy's Bitcoin Fortress",
-      "polarity": -0.8307376578450203,
-      "ts": "2026-01-22T18:01:03",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/355431/four-potential-fault-lines-in-strategys-bitcoin-fortress"
+      "url": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxOX2FzVmNVQ3hiS09IenEtVUVCSEF2UzdPMVJiSjIxdUdSd1VXN1VtYlNEbVNaUnljRUkweTc2QTFUMUJoUEZmanFKNkE4ZEpaYlpYN0NDMXJTT3huTWVaSUljYWFCYWVmWjgwLTFycHdUbGgyZVdYTzZYZ2FxcHc0S0pTMTVPLWNtN09UaUNjajVJSUpyc2s4Rk85SG1SM3JEQ0p4NE92VzY5RllqX0VrWFpnZkVOU1RDSlJDRmdnZjVEcldZMmlhTFNQejJ0dWk4d2FQNi10UjNiYl81eWNFRnRrRGJaRTM4UnlhQlNnQWd2QWNmMzA2SkFTOW9kQUxlQW5jekg1UF9PX2gwVmlOdVBlS2cyWkFJM253QmhLMWhudHhONzBTUXhQV21nMnZEMG9zbzhmLWJOVzVybmxrY0k3S1VoVlhHV0ZLdHg2ZDZ6M2NOdGxUQmhLcVE3RUNielNEN2lyeGxmOGZVS0psdHE3cE02UGRldWFrRkhoN0U5NUlyZngwbG5PX0ltUGlyZVplN3JLakZub3VMdm5JTkR6QzdwT3RsWkRwMVVvNjJkNFZCaGRDVXEtUFYxclIwTGZRaXRVNTFBRWlIZURVZXlaQlltS28?oc=5"
     },
     {
       "title": "Bitcoin in a deep bear market against gold, history suggests downside may persist - CoinDesk",
@@ -156,6 +149,13 @@
       "ts": "2026-01-22T15:41:02",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWFh0bl9FZUtkYnpXbXphLXM3azVhSC1lZDFpT3NJUTREZ2ZGXzUyV0Q4YzZYTlBKUWxRSm5FYUFlcHZJdHF1UEhVaFM4S05STUFIQkMzOEFPaWRwTDY0MUJ1MThqby0tamJXanU1VTRxcVdIeE5sa2M1X0RCdGRSRERPMEpUUGJrRl9VUW1EYXhJVE0zYk9hbEdwc2Y1N0otZVZqLUN1djQ0ajgwRnd4N09IU3V6OU9pZnpVOWF1ZzNTdw?oc=5"
+    },
+    {
+      "title": "Bitcoin struggles to regain momentum amid persistent overhead supply: Glassnode - The Block",
+      "polarity": -0.6227122619748116,
+      "ts": "2026-01-22T12:48:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQkZHYTNIUmRBTjlKendYX1lBUXk5TE91cE83RV9OMW1waWcwVjJnODBiNVJnSmNlN21kbFpuTVU4U0xHZ04wbklldDRVVmg1X2c4UUlzN193a3ZfTEtoZFFvZlNKbDJOTlRMeS0tVnU3Rk9adHIzZElkQmptM0s2S0wwYndKZWV1VUhtMjJvOVVabTJ3TmxzdFVldmg3OVJoN1VsSk8zWWNTTHM2Q19lNW5UQlY?oc=5"
     },
     {
       "title": "Crypto Bill Delayed Several Months as Senate Pivots to Trump\u2019s Housing Initiatives",
@@ -172,13 +172,6 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbDNCQnBzSTRaZS1GeDdEbkp3clRaMTJyVWMxdXMwZE56S3dpRUdXbkFHWTRGUHg0NWIzaGpMdXEzcV9PQW11b2VKbWRrWFZQYmN1UThnSHZjcEFVVjRHQldvMzE1YU5FMGtCak5JUktpQXY5bE9vbXVsLXdDVUFfWEtjWkd0MGs?oc=5"
     },
     {
-      "title": "South Korea Probes Theft of Seized Bitcoin Worth $48M in Suspected Phishing Heist - Yahoo Finance",
-      "polarity": -0.4048788771033287,
-      "ts": "2026-01-22T23:16:56",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNlRCRUMtRk04Um80Zm9VbzZ2VHFibXFDdTJTLVBteDh3VGY5aXE0eUVCb3lPOVIxbWZ0Ni1KTWR3V211Mnd4d3VhTEU3WE1zM2w4SEJSNG1zeXZOTWNTaUpxb1l4OEV6aGJTVHBDZEdGV3JwOURyWXlFcGRNenRlZmx3MWN1QWU4?oc=5"
-    },
-    {
       "title": "-95% losses story, any advice on my situation ?",
       "polarity": -0.1558236926794052,
       "ts": "2026-01-22T20:34:09",
@@ -191,13 +184,6 @@
       "ts": "2026-01-22T17:06:21",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/takes/judicial-rackets-judge-rakoff-and-the-fear-of-monetary-exit"
-    },
-    {
-      "title": "The $6B Bitcoin Gap: Why New Institutional Whales Now Move BTC - Yahoo Finance",
-      "polarity": -0.041211921721696854,
-      "ts": "2026-01-22T22:03:19",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdkgzdFBfWm9ublJZeXAxeURTOGJvbTYtcXhxbW45UUJFbXp1bHEwX3AyWUNwWTJBY2t6MHQtWXMzR0JwVVU1ZjNBLUtMM1J1MzRNbTIzRWM4Y2w0dzJKbFBNV3hhODY3LXVNdnJQc3I3eHV1YnBxQmM0ejJNY3Y2RDBnVUE?oc=5"
     },
     {
       "title": "BlackRock moves $357M in BTC and $247M in ETH to Coinbase Prime",
