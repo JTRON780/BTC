@@ -16,6 +16,13 @@
       "url": "https://cryptobriefing.com/gold-as-safe-haven-record/"
     },
     {
+      "title": "Crypto rebounds after Trump TACO\u2019s on Tariffs! BitGo $2.1B IPO! Solana\u2019s SKR token soars 250% FDV!",
+      "polarity": 0.6981661170721054,
+      "ts": "2026-01-22T16:14:50",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/videos/interviews/MqZOhomP/crypto-rebounds-after-trump-tacos-on-tariffs-bitgo-21b-ipo-solanas-skr-token-soars-250-fdv"
+    },
+    {
       "title": "Bitcoin Payments Startup ZBD Raises $40M to Build Gaming Payments Rails",
       "polarity": 0.5398557158187032,
       "ts": "2026-01-22T17:40:11",
@@ -79,13 +86,6 @@
       "url": "https://decrypt.co/355559/bitwise-debasement-etf-bitcoin-gold-hedge-against-depreciating-dollars"
     },
     {
-      "title": "Bitwise's 'Debasement' ETF Pairs Bitcoin and Gold as a Hedge Against Your Depreciating Dollars - Yahoo Finance",
-      "polarity": 0.1023490447551012,
-      "ts": "2026-01-22T22:57:54",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZHIwd3kzNmFKLW5TS0hyRTlPSjNQYmVucVdFRi02QUhOWWNPXzZkOUtjNVNsSEFmM0RBU3dVbk04UkNET3dKT0FENGxXWE9TVDZoREE3TW9tYTdWOURURW9Xdk50RHdVZmhoR3ViT3NhLWhBYWlxcFBxZGhuVFZrdFJxMVVpNW52dFZr?oc=5"
-    },
-    {
       "title": "Kansas Introduce Bill to Establish Strategic Bitcoin Reserve",
       "polarity": 0.07317989226430655,
       "ts": "2026-01-22T20:27:14",
@@ -144,11 +144,18 @@
   ],
   "negatives": [
     {
+      "title": "Bitcoin falls below $89,000 as the wait for rate cuts likely to keep bitcoin stuck until September - CoinDesk",
+      "polarity": -0.9148366004228592,
+      "ts": "2026-01-22T15:31:32",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYWd6dDExWkFtWnZHX0pqMnNmRmN5M3lOOVA4X3RCaWo4c3czZzJqd1RtanVyX2x3SVMzb1JYeE5mOGM0SFhxYjNacU9KNWN2V2I4SGE5VnQyejBSRlUtcmxhdjRPTEtKUzgwNVJRajl1a1dyLXN1NDJRYkxHalpNYWRtNFdFcUo1ZmphcmlvOGdxSTBEWEpaOWs0cm9xUU9kVk42NEVnM1I4RFpKUzFZcDRHYkYweHlmM2FRc1dn?oc=5"
+    },
+    {
       "title": "Bitcoin sinks below $90K as large investors sell their holdings and haven seekers go elsewhere - MarketWatch",
       "polarity": -0.8932752106338739,
       "ts": "2026-01-22T16:39:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxNbGtQWWxJNWp5Y05RTFQ2T2xJX3g5MzZPeXl5QzBkcFpTLWpSOEVfYzVLS3VPVmVaOVpiWmViaWVDdlpLZXZ1S1JOY3BaMlAxSWpCNXQ0QTVsS1BrcDdHOEZZNURqMXA1X25QR3NxXzRBTnVja0JLc2ZpMVgwejFSZ0lsV2VMR0ZGTDRnRUxjTUxXRFp4TW5BVXJIUElzYU9kcTByZ3RkWDZBUWF0dkpYQmM4VHpINkY5Q3hJbnN3UTJ4WDJ0cWRyMmhiOG0xTE10ZGZ0QTdBejQzeVg5LW92WGg4SmtzNmlNUzNjZGVHVVdyNkd2S1hZYVZlc3lVQ0RnU0dLZ3U4bkZ5NFRkVE9XbE1EZzZxWWxiYWp2c1lUalFER1Q4dDBoNldBUi1yYUJiM3RFWUltLTFlZ09mODU2TXpjblZ2bFJuNVFRMDZvUG1BQ05YbGF2UEZwYWRwckZ5RkZhVG1tN21TRUJGcDhpVDhNcE5QZkItdWYyUlNoNlphT2ZTdy1LTHlrNVJSblNFYlJ0cG9hbDNuT01IYnlPLVVodFdmYXFJYnRzUHV4Vk9qTFUwLVdXSEFjSGp3MnNnVjcwNFp3T2dBOXBLVWhNTEt4bnBmRkE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxQbmtLUGQycHVjaGh6MERsTXAwRUpMR3N0ZzZuYm9MdVpxa09nNWRLcU1ZQlVaQ1JTWTNIUmRSWGJyVE5wZTY0SjktbVR1SVFFSElqSGNGaTBNbmdwZnIzUE4tUXNNTndseUQwRVFIYnd5WkxncHRmc3M4ZC1xQ1ZqaFBrMXA0OWJyallnbnhJbEt0LVJJSjJCNzgxRHlwR05ON3VqS2RuaTh2Z2lULXJiRXItd2pJdE52c3hrbG1lSjBVRHk1S3FwamtaNE9qa2ZybzRxcTNtWmVNbk5IV0FlNHRORkpueDRwWUN3UDgtN0Fkcnd5SXBzay1YdkNfTDVYSERIMjdhS3VSVnBIR0Vod0t5NTZUd3QwMGV3aU9LOU5DNThaSUltWEs5Nzd1Q0xxUUJFOTVDT0dfVjdSRlFIWEFhelQyTHhJUGF6YnFzdWhvYTUtX3Fac1UxWHpHS3dpMXROT2YtNkYtQV9qV2hZRWtEUFVxUUtKNlY5LWdkZUZpdzhvcks2MXdMMnpjaDFhUlMtTUZ2bEVlVkxqNzhsVWNPUFpNNlZBSFFWX3VQcFZ2aVN5N0FENHktR2RrVU5Nc2xoRks0NWI5Vlh5UHJqMzB5RDRzUkU?oc=5"
     },
     {
       "title": "Four Potential Fault Lines in Strategy's Bitcoin Fortress",
