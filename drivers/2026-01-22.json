@@ -16,13 +16,6 @@
       "url": "https://cryptobriefing.com/gold-as-safe-haven-record/"
     },
     {
-      "title": "Crypto rebounds after Trump TACO\u2019s on Tariffs! BitGo $2.1B IPO! Solana\u2019s SKR token soars 250% FDV!",
-      "polarity": 0.6981661170721054,
-      "ts": "2026-01-22T16:14:50",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/videos/interviews/MqZOhomP/crypto-rebounds-after-trump-tacos-on-tariffs-bitgo-21b-ipo-solanas-skr-token-soars-250-fdv"
-    },
-    {
       "title": "Bitcoin Payments Startup ZBD Raises $40M to Build Gaming Payments Rails",
       "polarity": 0.5398557158187032,
       "ts": "2026-01-22T17:40:11",
@@ -44,13 +37,6 @@
       "url": "https://cryptobriefing.com/etf-currency-debasement-bitwise/"
     },
     {
-      "title": "Coinbase Creates Advisory Board to Study Quantum Computing Risks to Bitcoin",
-      "polarity": 0.14931216556578875,
-      "ts": "2026-01-22T23:12:36",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/355565/coinbase-advisory-board-quantum-computing-risks-bitcoin"
-    },
-    {
       "title": "Thailand Finalizes Rules for Bitcoin ETFs and Crypto Futures in Early-2026 Push",
       "polarity": 0.13668503984808922,
       "ts": "2026-01-22T16:33:31",
@@ -65,13 +51,6 @@
       "url": "https://cryptobriefing.com/kingsport-bitcoin-mining-ordinance/"
     },
     {
-      "title": "\ud83d\udcca Santiment: Top DeFi Projects by Developer Activity (Last 30 Days)",
-      "polarity": 0.12001151964068413,
-      "ts": "2026-01-22T05:56:47",
-      "source": "r/defi",
-      "url": "https://www.reddit.com/r/defi/comments/1qjmjo0/santiment_top_defi_projects_by_developer_activity/"
-    },
-    {
       "title": "How \u201cBitcoin Jesus\u201d Avoided Prison, Thanks to One of the \u201cFriends of Trump\u201d - ProPublica",
       "polarity": 0.11617588717490435,
       "ts": "2026-01-22T21:44:18",
@@ -79,11 +58,11 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcWI3TDhQS09BbDN2cnRZN3NnY1JwWUs1bGlRUWhNQ1NEV2FMWDdvQUliXzZnOXU0NlFEZjZIN0ktM2NnM1RGWFhkd3ZldThoQ0czQ0xPbzRpOGg0NUZpeExmbTY4ek5sd2Z5N0VLX2RMcDBRbkZ3QmtNQmNIOVRqZU9lT3BYS1BXQ2dxU3FWQ1c?oc=5"
     },
     {
-      "title": "Bitwise's 'Debasement' ETF Pairs Bitcoin and Gold as a Hedge Against Your Depreciating Dollars",
-      "polarity": 0.11387049034237862,
+      "title": "Bitwise's 'Debasement' ETF Pairs Bitcoin and Gold as a Hedge Against Your Depreciating Dollars - Yahoo Finance",
+      "polarity": 0.1023490447551012,
       "ts": "2026-01-22T22:57:54",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/355559/bitwise-debasement-etf-bitcoin-gold-hedge-against-depreciating-dollars"
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZHIwd3kzNmFKLW5TS0hyRTlPSjNQYmVucVdFRi02QUhOWWNPXzZkOUtjNVNsSEFmM0RBU3dVbk04UkNET3dKT0FENGxXWE9TVDZoREE3TW9tYTdWOURURW9Xdk50RHdVZmhoR3ViT3NhLWhBYWlxcFBxZGhuVFZrdFJxMVVpNW52dFZr?oc=5"
     },
     {
       "title": "Kansas Introduce Bill to Establish Strategic Bitcoin Reserve",
@@ -128,6 +107,13 @@
       "url": "https://bitcoinmagazine.com/news/coinbase-forms-quantum-computing-board"
     },
     {
+      "title": "Strategy vs. TeraWulf: Which Bitcoin Stock Is Worth Betting On? - Yahoo Finance",
+      "polarity": 0.01803532987833023,
+      "ts": "2026-01-22T18:08:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMklaNm82NkZvU3J4MV9FNTdROHBqdExOSTR0SXFSdHd0ZkNrdFBoZC1DbTZ3UjIxM0dMMzlfSE9jMVVuQTJ0cFlzRjFBaTJRV0pZVVhFclB0eWpxZjZtWHRacjRNeUtxUVR4cThubUwwcmM4UmJzWHRqdXhDTExsamNqd2RmcTg?oc=5"
+    },
+    {
       "title": "How Governments Are Adopting Blockchain Without Calling It Crypto (policy & infrastructure shift)",
       "polarity": 0.013689732179045677,
       "ts": "2026-01-22T22:55:15",
@@ -144,25 +130,11 @@
   ],
   "negatives": [
     {
-      "title": "Bitcoin falls below $89,000 as the wait for rate cuts likely to keep bitcoin stuck until September - CoinDesk",
-      "polarity": -0.9148366004228592,
-      "ts": "2026-01-22T15:31:32",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYWd6dDExWkFtWnZHX0pqMnNmRmN5M3lOOVA4X3RCaWo4c3czZzJqd1RtanVyX2x3SVMzb1JYeE5mOGM0SFhxYjNacU9KNWN2V2I4SGE5VnQyejBSRlUtcmxhdjRPTEtKUzgwNVJRajl1a1dyLXN1NDJRYkxHalpNYWRtNFdFcUo1ZmphcmlvOGdxSTBEWEpaOWs0cm9xUU9kVk42NEVnM1I4RFpKUzFZcDRHYkYweHlmM2FRc1dn?oc=5"
-    },
-    {
       "title": "Bitcoin sinks below $90K as large investors sell their holdings and haven seekers go elsewhere - MarketWatch",
       "polarity": -0.8932752106338739,
       "ts": "2026-01-22T16:39:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxQbmtLUGQycHVjaGh6MERsTXAwRUpMR3N0ZzZuYm9MdVpxa09nNWRLcU1ZQlVaQ1JTWTNIUmRSWGJyVE5wZTY0SjktbVR1SVFFSElqSGNGaTBNbmdwZnIzUE4tUXNNTndseUQwRVFIYnd5WkxncHRmc3M4ZC1xQ1ZqaFBrMXA0OWJyallnbnhJbEt0LVJJSjJCNzgxRHlwR05ON3VqS2RuaTh2Z2lULXJiRXItd2pJdE52c3hrbG1lSjBVRHk1S3FwamtaNE9qa2ZybzRxcTNtWmVNbk5IV0FlNHRORkpueDRwWUN3UDgtN0Fkcnd5SXBzay1YdkNfTDVYSERIMjdhS3VSVnBIR0Vod0t5NTZUd3QwMGV3aU9LOU5DNThaSUltWEs5Nzd1Q0xxUUJFOTVDT0dfVjdSRlFIWEFhelQyTHhJUGF6YnFzdWhvYTUtX3Fac1UxWHpHS3dpMXROT2YtNkYtQV9qV2hZRWtEUFVxUUtKNlY5LWdkZUZpdzhvcks2MXdMMnpjaDFhUlMtTUZ2bEVlVkxqNzhsVWNPUFpNNlZBSFFWX3VQcFZ2aVN5N0FENHktR2RrVU5Nc2xoRks0NWI5Vlh5UHJqMzB5RDRzUkU?oc=5"
-    },
-    {
-      "title": "Four Potential Fault Lines in Strategy's Bitcoin Fortress",
-      "polarity": -0.8307376578450203,
-      "ts": "2026-01-22T18:01:03",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/355431/four-potential-fault-lines-in-strategys-bitcoin-fortress"
+      "url": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxPNXZ2RUY1RmZCSVdaS1V5d2dZTEdkU3JOSEhHN2Q4ZDd6X2lxdzhjVHE5MS15cEVZTm15Z0hpaklOdEdWb0VESzBlVlFMX0hMRTVobjkyazNYdjExX3BKaE1NZElJeWF2WVJBc21hRldQcWxKQ1BxU19QUlVaa2NyRWI1bW52Z1hodDZJcnhsQjdPYUJoN1pMSUhHLXRyelRUTzdnTmU3a21HdmRBaGYzaFZ2cUwzOEV5TmotUWhlUEo0ajRsRTl0RWdDd3FYNUpBVmsyMi1BMm42Z1VsME9uNkFidUVPb3lkRHA4TW9XODh4Q0s5TkpxRXdlb1JHdjlfQjEyV0xZX3Q1YWtKWHVrS1pwQU1NVDlvQS1GeUpiYlRIRVFnb1ROUldiWi1uQ3FycnpmaDFCR3czNTh0eWtORDNVZ1lzMkQwY3pSMGN2dGVKdzBwT3ZYUWhSV0ozUEpQS1RlRHdRSU1aNXYyeExQeDJaWGlqVVY0a2o0Tzk1WXg1OWh2V1FnaEF5TGtzX1ZaSmlFaDlLNjhLd3FqRk0zcWJqM0RhMzluWGRMR1p2ZmlxNXAxTTRoUXpzMUtfLXhkbkE1Z0VTWWsyYzRqMzJGZjJid0RrQUU?oc=5"
     },
     {
       "title": "Crypto Bill Delayed Several Months as Senate Pivots to Trump\u2019s Housing Initiatives",
