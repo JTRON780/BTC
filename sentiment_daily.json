@@ -156,57 +156,57 @@
     },
     {
       "ts": "2026-01-19T00:00:00",
-      "raw": -0.2976457472409933,
-      "smoothed": -0.2976457472409933,
-      "n_posts": 31,
+      "raw": -0.2758710370709499,
+      "smoothed": -0.2758710370709499,
+      "n_posts": 30,
       "n_positive": 12,
-      "n_negative": 19,
-      "directional_bias": -0.22580645161290322
+      "n_negative": 18,
+      "directional_bias": -0.2
     },
     {
       "ts": "2026-01-20T00:00:00",
-      "raw": -0.21261929032667148,
-      "smoothed": -0.21261929032667148,
+      "raw": -0.20516322613687615,
+      "smoothed": -0.20516322613687615,
       "n_posts": 129,
-      "n_positive": 63,
-      "n_negative": 66,
-      "directional_bias": -0.023255813953488372
+      "n_positive": 64,
+      "n_negative": 65,
+      "directional_bias": -0.007751937984496124
     },
     {
       "ts": "2026-01-21T00:00:00",
-      "raw": -0.09547088573162911,
-      "smoothed": -0.09547088573162911,
-      "n_posts": 22,
-      "n_positive": 10,
-      "n_negative": 12,
-      "directional_bias": -0.09090909090909091
+      "raw": -0.09596622367484538,
+      "smoothed": -0.09596622367484538,
+      "n_posts": 17,
+      "n_positive": 8,
+      "n_negative": 9,
+      "directional_bias": -0.058823529411764705
     },
     {
       "ts": "2026-01-22T00:00:00",
-      "raw": -0.023205245728604496,
-      "smoothed": -0.023205245728604496,
+      "raw": 0.014939215965569018,
+      "smoothed": 0.014939215965569018,
       "n_posts": 28,
-      "n_positive": 19,
-      "n_negative": 9,
-      "directional_bias": 0.35714285714285715
+      "n_positive": 20,
+      "n_negative": 8,
+      "directional_bias": 0.42857142857142855
     },
     {
       "ts": "2026-01-23T00:00:00",
-      "raw": -0.13657100982183268,
-      "smoothed": -0.13657100982183268,
-      "n_posts": 85,
-      "n_positive": 42,
-      "n_negative": 43,
-      "directional_bias": -0.011764705882352941
+      "raw": -0.12582170313272825,
+      "smoothed": -0.12582170313272825,
+      "n_posts": 91,
+      "n_positive": 46,
+      "n_negative": 45,
+      "directional_bias": 0.01098901098901099
     },
     {
       "ts": "2026-01-24T00:00:00",
-      "raw": -0.02812402881681919,
-      "smoothed": -0.02812402881681919,
-      "n_posts": 1,
-      "n_positive": 0,
+      "raw": 2.846545116467909e-05,
+      "smoothed": 2.846545116467909e-05,
+      "n_posts": 2,
+      "n_positive": 1,
       "n_negative": 1,
-      "directional_bias": -1.0
+      "directional_bias": 0.0
     }
   ]
 }
