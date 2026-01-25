@@ -3,42 +3,49 @@
   "positives": [
     {
       "title": "Vivek Ramaswamy\u2019s Strive plans to raise $150M in preferred stock sale to buy Bitcoin and repay debt",
-      "polarity": 0.8539213165640831,
+      "polarity": 0.8539211363531649,
       "ts": "2026-01-21T22:37:44",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/strive-bitcoin-purchase-debt-repayment/"
     },
     {
       "title": "Bitcoin hovers near $88,000 as Wall Street urges caution in 'chasing rallies' - Yahoo Finance",
-      "polarity": 0.2351866215467453,
+      "polarity": 0.2351856678724289,
       "ts": "2026-01-21T18:42:24",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZS1qSGpqb3pvbk4yQXVoVV9pUDM0NzE3eGI2WlhpZXN2Z1NRWU9SbEw2X3VDS1JuQ0dlQXpqeV9HeU1mczlaTmVOQ0NnV090QVNjMUJxMU5XenhTQTBSS3Q3ZGFBcndvWWVNMjhRVDkybTZWZGFMOTVPemNsMWV2MlpTUHFYeUxORTgxSnVJUzdULU85V1J0RzQ5dW5Fc1pqN3lNMVFReWZhNWVqRHF1MTZtNkNxNUk5X3lZ?oc=5"
     },
     {
+      "title": "Bitcoin Price Will Hit $250,000 This Year, Tom Lee Claims, Despite Gold Being \u2018Under-Owned\u2019 - Yahoo Finance",
+      "polarity": 0.13261589407920837,
+      "ts": "2026-01-21T12:07:17",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5vR0QxdklJYno4ZG94N1FnNEpIUGV3ZndnWE9ieTZYNko4WTRTOWxSVXYzam5yNUpqN29ad1JiN2xrM1M4bEhhdWlOSXJtZzB3U1FqSENudTMxX1JBQ2VvRE9VZmtTaXVyVHBPRnF0WlpjTWM3MVJ0X2FrVQ?oc=5"
+    },
+    {
       "title": "Quantum Computing Is Already Hitting Bitcoin\u2014Here\u2019s How - Yahoo Finance",
-      "polarity": 0.033564068377017975,
+      "polarity": 0.03356397897005081,
       "ts": "2026-01-21T15:00:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOS2FEd1N3NEh3eHhEM0Rvc2VETVRGZTlZVlk0aEpEWm5FTFAwXzMzdldPR29yR2RKZXJzQ3kwS1AxdldpY1ZNS05EeGV0XzlOTk05ZEpyZ296WWtBRWJCTV8xang3b3RabE5IMjd1dkxUQ3pfVlBMUUdMcjFUT1FGZ0QyRTJrUGR1aTlnaF9lbXM?oc=5"
     },
     {
       "title": "Cathie Wood\u2019s ARK Invest Makes Bold Bitcoin and Nvidia Prediction - Yahoo Finance",
-      "polarity": 0.03179187048226595,
+      "polarity": 0.03179169539362192,
       "ts": "2026-01-21T21:56:22",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NdlM1a0lGbC03cE1uMmgyaVNqUE1iQzNFZC11VGpzZ0x2X3d6WXRlbW14RTBqVGVLNlMzTThCVG1nRGF6TS13UDRwTlVlbThlMGRHQnVILVNWTTNmSG5mdno2TWlQeEtsNjNNM25BOGlMVWsxcTI1Nl9Gb1U2Rk0?oc=5"
     },
     {
       "title": "Is \"Link-based\" crypto the future for business payments?",
-      "polarity": 0.02598513290286064,
+      "polarity": 0.025985106825828552,
       "ts": "2026-01-21T16:11:27",
       "source": "r/CryptoTechnology",
       "url": "https://www.reddit.com/r/CryptoTechnology/comments/1qj2355/is_linkbased_crypto_the_future_for_business/"
     },
     {
       "title": "Eric Trump\u2019s American Bitcoin: Inside the newest arm of the Trump crypto empire - Fortune",
-      "polarity": 0.023488909006118774,
+      "polarity": 0.023488877341151237,
       "ts": "2026-01-21T19:40:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaUxRQ3I4c2NacV9rNl9JcFZ5S2RqcEoyaXhfbnJUaENpOUNYOUxlRnU4MU9iMld1dVNTb3hHeXZNNUhKVXdnNzRIN2NwNkxOVDF1RjJLQmZ5bmtibENBMWp1Vk1fUG9yUFFIcEd1T0tRMEFtUG1kbEpFR0JfV2xuWWdIaUVMTDJVR2I0UlRrWF90ODAzNVBmMXQteEx1ZDAyMlE?oc=5"
@@ -46,36 +53,43 @@
   ],
   "negatives": [
     {
+      "title": "Bitcoin Dips Back Below $90,000 as Global Selloff Deepens - Yahoo Finance",
+      "polarity": -0.9086157847195864,
+      "ts": "2026-01-21T01:35:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBqZDRKWXFvS3lTOFg4RTF4ZUc4NXkzS21vUm00N2VDTzFaVHJJbGtxSWtFblk1c09ZbVhwMkN6cEtSU0hjWXNGVjRBSTg3REJidFAyUlNDRi1FOFBlYl9qdDl5WTliWThUWU9KZkMxZnE3amNSV19XLVh0a2I?oc=5"
+    },
+    {
       "title": "Market Pulse - 01/21",
-      "polarity": -0.8750214166939259,
+      "polarity": -0.875021293759346,
       "ts": "2026-01-21T18:30:32",
       "source": "r/CryptoCurrencyTrading",
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1qj5z31/market_pulse_0121/"
     },
     {
       "title": "Cathie Wood Says Bitcoin Price Is Nearing End of Down Cycle, Predicts \u2018Shallowest Four-Year Decline\u2019 - Bitcoin Magazine",
-      "polarity": -0.8243130911141634,
+      "polarity": -0.8243127185851336,
       "ts": "2026-01-21T19:50:14",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9uRzloNk1qU2FjSi1OLXhkRU92NHgwM0pWR21RdER6ZTBReUtOd3dDZ3VYVmcwa2c0MzZBX0xObnc1YXVOMkZ4OWdQMUpNQlVjMXRCU3EzdGFsbkVBejd6d2JJRjZtZmZxcGlqeS04UjUxcENQVXhzS1dSWXJBUQ?oc=5"
     },
     {
       "title": "\u2018It\u2019s Now Happening\u2019\u2014Urgent $38 Trillion U.S. Dollar \u2018Collapse\u2019 Warning Issued As Markets Brace For Gold And Bitcoin Price Shocks - Forbes",
-      "polarity": -0.5218448527157307,
+      "polarity": -0.521844532340765,
       "ts": "2026-01-21T13:48:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZVRUZnIzUWE4QUVzeDR1elh5QWxocXBGbjY5N1dMemRDV3JSdEpmRHd5RmJfdUJtcFJnVWt5Nk4yTVJYTzJ2eWpjbWxxOGVhT25xSlZLRVpsRDZmSkZsVWRvTUVpaG14M21hQTI5SElMUDFLeXpfdFNTU0RLbVN1cFROUXZFT1J3QW5ndU16Rm85M1JzcTRqRmxvNFZGSjAxdHNXNEVtZF9JT09YNWRPM3RmNU95VXF3X3VZb2Nuc0tXaXJlZDNrUHVpaHpZck4wQU9nZTNfNjhhRGJlUjcxc3lQYTU?oc=5"
     },
     {
       "title": "Is Bitcoin a Buy, Hold, or Sell in 2026? - The Motley Fool",
-      "polarity": -0.021264923736453056,
+      "polarity": -0.021264949813485146,
       "ts": "2026-01-21T15:15:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQVNyRDREYkVvZWtSV2tNRVVHbFcyZGtVTHJmalIwN0NfNFJWWGJBX3F1alFJN2JjaHhrYVJSUjBXZGNyenlLSDhhM2pqZGEtcG9Yckw5MExCal9zQUlrTkRsbWpacFRDOUZ3N1Zxd2pmNUtCRmJpaG5Lb1l5WFltd1cwWkZkVUE?oc=5"
     },
     {
       "title": "VanEck Mid-January 2026 Bitcoin ChainCheck - VanEck",
-      "polarity": -0.0017641112208366394,
+      "polarity": -0.0017641354352235794,
       "ts": "2026-01-21T21:14:29",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS1pqMDJnT3lTTmZfU3lhRmFDX1gwaXlIMUxESGg5eXZmbHpuam5PeVlqa0lHSlktUlVkYk5tU3JuUU9MZTdyMmdLUjRWWDdoZGtiVWtKVnBRQUF4NkwtNHN2ZWFTd0dJV1NmeTY0TGtqN0g4eXlaZHhpZk4wbmFHNm8zTTZhSzJtOXBONllBNFo4SnBnZnJtaDRzaWlCdW10WUxTOC0yUlVZbWs?oc=5"
