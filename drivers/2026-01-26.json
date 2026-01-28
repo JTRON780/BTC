@@ -16,13 +16,6 @@
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qnk8lw/microstrategy_keeps_buying_bitcoin_what_if_they/"
     },
     {
-      "title": "Michael Saylor's Strategy buys another 2,932 bitcoin for $264 million as total holdings reach 712,647 BTC",
-      "polarity": 0.37723323702812195,
-      "ts": "2026-01-26T13:51:07",
-      "source": "r/CryptoCurrency",
-      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1qngjs9/michael_saylors_strategy_buys_another_2932/"
-    },
-    {
       "title": "Strategy buys more Bitcoin\u2014$264 million of it\u2014even as Bitcoin slumps to $87,000 - Fortune",
       "polarity": 0.23012849688529968,
       "ts": "2026-01-26T18:31:00",
@@ -65,6 +58,13 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZXczZnlpY2VIT0JYN05zcDk2NGZKSktSR2dZajVndkNWTHM2ZEpQR3RpdzJ4cE1LelhvbWJUODhfVlZfMEVhUks3MFFBZlVsRTNmZWZialo1Ti15ZFNubE1aXzlBNkdiTi01U2hwazVZdUxpQ2RHcWtFdGc3clptcEFyN0tXYjVMTDFkRm9sdw?oc=5"
     },
     {
+      "title": "BlackRock eyes new Bitcoin ETF with premium - Yahoo Finance",
+      "polarity": 0.05997261591255665,
+      "ts": "2026-01-26T21:22:06",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNjVmTzBnMUVzSk53QlFGaFJkMDVtcWdDNEF0WlU3MXNfR3dxcV9CX0hFZTZEWTRldXJnb0R1VWhnS2VxWmxpVlYtWUVvOU0xMnIyblVSSWF5ZWpPNlBBeVVramZGV2FiajNCRDhpVjB2WW80bjZGTENtc3VkZC1xbmd5akFJSUU?oc=5"
+    },
+    {
       "title": "Strategy ($MSTR) Sells $257 Million in Stock to Buy 2,932 Bitcoin - Bitcoin Magazine",
       "polarity": 0.047594061121344566,
       "ts": "2026-01-26T14:01:10",
@@ -81,25 +81,11 @@
   ],
   "negatives": [
     {
-      "title": "US Bitcoin Miners Slow as Winter Storm Hits Power Grids",
-      "polarity": -0.9579054228961468,
-      "ts": "2026-01-26T14:18:09",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/355836/us-bitcoin-miners-slow-as-winter-storm-hits-power-grids"
-    },
-    {
       "title": "Bitcoin miners Cleanspark, IREN, and TeraWulf among those lower after NVDA/CRWV deal - CoinDesk",
       "polarity": -0.9383389158174396,
       "ts": "2026-01-26T16:09:09",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUlIeUVyUFZobWRIX1U0Sy0tVkVoNmJwNE9fZnpEVnFkQTRtMWs1ZVJpTW1jVWNidzVHalZXOUx4Qkd4bHZDVFpMSVdRc01YaTQzUFY0MUxKZEYxdmxrQVpYYWVpTkxUZUF2NkhzclVCdUlCREVmeGRQdTFZYWptbU1UWUZaSDBMa3FCS2l2VUNidTF0cUpZd2lzNDFITU5hQi1PWlNPMVlOcXdXUk1uYUQ4RmdESjg?oc=5"
-    },
-    {
-      "title": "Bitcoin Miners Power Down US Operations in Wake of Winter Storm - Bloomberg",
-      "polarity": -0.9371507177129388,
-      "ts": "2026-01-26T22:22:43",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdl9ONXpkQmtxbWVMVUZzekhraDFYTngxYW5KTmowcy1mZFNZOVZyRGtDUjZxSmtLWUVrRUE3ZmNCcnk3anZLOTJhS2VFNE1sbVBONGhUcGN3R24zSUxxOFpkV01vSUNKUG9MeVlvTW50UE9nQ2hXdldoR2NqbEN6Z2xmRW0yalNqclRuaGZLdEJFOTNQMnR5NGl2NHFwUTlMeHE2TFRHcmhBd0NacnBPVzJDczU?oc=5"
     },
     {
       "title": "Bitcoin Starts Week on Shaky Ground as Uncertainty Lingers - Yahoo Finance",
@@ -123,6 +109,20 @@
       "url": "https://decrypt.co/355843/strategy-spends-267-million-bitcoin-issues-strc-third-straight-week"
     },
     {
+      "title": "Bitcoin Miners Power Down US Operations in Wake of Winter Storm - Bloomberg.com",
+      "polarity": -0.8350907173007727,
+      "ts": "2026-01-26T22:22:43",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdl9ONXpkQmtxbWVMVUZzekhraDFYTngxYW5KTmowcy1mZFNZOVZyRGtDUjZxSmtLWUVrRUE3ZmNCcnk3anZLOTJhS2VFNE1sbVBONGhUcGN3R24zSUxxOFpkV01vSUNKUG9MeVlvTW50UE9nQ2hXdldoR2NqbEN6Z2xmRW0yalNqclRuaGZLdEJFOTNQMnR5NGl2NHFwUTlMeHE2TFRHcmhBd0NacnBPVzJDczU?oc=5"
+    },
+    {
+      "title": "Fears grow that bitcoin is entering a bear market - Sherwood News",
+      "polarity": -0.5821450799703598,
+      "ts": "2026-01-26T15:36:34",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUWxBTjQ1VE41ZGs4SnNmOXB1S2xyMFhFd3htRkFSV3JfeEZzNUx0NFFOT0JMRXhEUnlsWDZZTFRFLWI2VEVMeW8ydUVEVE1HSUt2TFFsREJiaWxkTWZ5Ri1sb3dHc216U194WjBnTEJTRkt2R2VvTWdBSjlJaVFOcWJXU3NwUQ?oc=5"
+    },
+    {
       "title": "Security of the US government\u2019s $28B Bitcoin reserve threatened after weekend theft reveals flaw",
       "polarity": -0.5316575691103935,
       "ts": "2026-01-26T21:25:51",
@@ -142,13 +142,6 @@
       "ts": "2026-01-26T17:36:06",
       "source": "Decrypt",
       "url": "https://decrypt.co/355863/bitcoin-in-focus-as-yen-surges-on-ny-fed-rate-check-whats-next"
-    },
-    {
-      "title": "Bitcoin Downside: Where Does This Fall In BTC\u2019s Price End? - Forbes",
-      "polarity": -0.1392109226435423,
-      "ts": "2026-01-26T13:17:31",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZFNNWjM5ZFVXZDBlbGNURlZUZnBsQnp5QWwySjRxYXg3YWE3Vk91TEkxcjVrZkFlTEpXX1kwbWVYdUZqLWNYNGVOeUViRXVCc2liRWlJUy1wY2lvWnNIWXBIX2ZxZUlZbllOSVgwLWE5MTIwejdqeGxwLWJ1ZWlJZFkxNVRGX3VtR05KeUotTzVXVUZoaHhuT2xCRnVoWTlRSDFvOVdUdzIwTGVuWlowcE1hQQ?oc=5"
     },
     {
       "title": "Why MicroStrategy\u2019s Latest Bitcoin Purchase Is Deeply Concerning - Yahoo Finance",
