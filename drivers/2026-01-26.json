@@ -2,25 +2,11 @@
   "day": "2026-01-26",
   "positives": [
     {
-      "title": "Silver overtakes bitcoin\u2019s post-2017 gains as price blows past $115 - The Block",
-      "polarity": 0.86381402797997,
-      "ts": "2026-01-26T22:19:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYTRkbjJ2UVI2SVI5RDdtNjJBZnRVZFc2eHY1NFUzWGJ5d0JGNFBPMm9rLUxwcUdUVlFmNFcyUFJtRURzY2M4eS1ZM0FJY1VGaVBMeEpKRFp5eENuVS1xYTV1dzl5aEZKcmJGcENZNzhDc1VvOXJMNHI0ZzhDampJNzl4ZHVZcGdYUTJ2ODFKSnJVaXlHQzdaSm9DM3EzUQ?oc=5"
-    },
-    {
       "title": "MicroStrategy keeps buying Bitcoin. What if they start seeking?.",
       "polarity": 0.442898266017437,
       "ts": "2026-01-26T16:08:46",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qnk8lw/microstrategy_keeps_buying_bitcoin_what_if_they/"
-    },
-    {
-      "title": "Bitcoin Price Fights for $88,000 as Fed Looms and Bearish Technical Pressure Builds - Bitcoin Magazine",
-      "polarity": 0.31955331563949585,
-      "ts": "2026-01-26T21:32:08",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HTDJTM2N3ZDUtRFZLV05hVmdIMEZtSTBoNHlPQUhONzctT3NmQXFVdGxCZldiWExDUW1ESmMyeHlzc0JHZmM5TWh3TE1kSl9ZdDZhbnNuWHFwYzRTSmhlamlBWGZxMTdDX0tBM25vb29fQU9z?oc=5"
     },
     {
       "title": "Strategy buys more Bitcoin\u2014$264 million of it\u2014even as Bitcoin slumps to $87,000 - Fortune",
@@ -67,11 +53,11 @@
   ],
   "negatives": [
     {
-      "title": "Bitcoin miners Cleanspark, IREN, and TeraWulf among those lower after NVDA/CRWV deal - CoinDesk",
-      "polarity": -0.9383389158174396,
-      "ts": "2026-01-26T16:09:09",
+      "title": "Bitcoin Miners Power Down US Operations in Wake of Winter Storm - Bloomberg",
+      "polarity": -0.9371507177129388,
+      "ts": "2026-01-26T22:22:43",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUlIeUVyUFZobWRIX1U0Sy0tVkVoNmJwNE9fZnpEVnFkQTRtMWs1ZVJpTW1jVWNidzVHalZXOUx4Qkd4bHZDVFpMSVdRc01YaTQzUFY0MUxKZEYxdmxrQVpYYWVpTkxUZUF2NkhzclVCdUlCREVmeGRQdTFZYWptbU1UWUZaSDBMa3FCS2l2VUNidTF0cUpZd2lzNDFITU5hQi1PWlNPMVlOcXdXUk1uYUQ4RmdESjg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdl9ONXpkQmtxbWVMVUZzekhraDFYTngxYW5KTmowcy1mZFNZOVZyRGtDUjZxSmtLWUVrRUE3ZmNCcnk3anZLOTJhS2VFNE1sbVBONGhUcGN3R24zSUxxOFpkV01vSUNKUG9MeVlvTW50UE9nQ2hXdldoR2NqbEN6Z2xmRW0yalNqclRuaGZLdEJFOTNQMnR5NGl2NHFwUTlMeHE2TFRHcmhBd0NacnBPVzJDczU?oc=5"
     },
     {
       "title": "Bitcoin Starts Week on Shaky Ground as Uncertainty Lingers - Yahoo Finance",
@@ -88,18 +74,11 @@
       "url": "https://www.reddit.com/r/ethtrader/comments/1qncuvt/crypto_etp_outflows_top_173b_as_btc_and_eth_lead/"
     },
     {
-      "title": "Strategy Spends $267 Million on Bitcoin, Issues STRC for Third Straight Week",
-      "polarity": -0.8739602044224739,
-      "ts": "2026-01-26T16:03:00",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/355843/strategy-spends-267-million-bitcoin-issues-strc-third-straight-week"
-    },
-    {
-      "title": "Bitcoin Miners Power Down US Operations in Wake of Winter Storm - Bloomberg.com",
-      "polarity": -0.8350907173007727,
-      "ts": "2026-01-26T22:22:43",
+      "title": "Bitcoin slides near $87,000 as US government shutdown fears weigh on crypto - The Block",
+      "polarity": -0.8769246563315392,
+      "ts": "2026-01-26T04:21:02",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdl9ONXpkQmtxbWVMVUZzekhraDFYTngxYW5KTmowcy1mZFNZOVZyRGtDUjZxSmtLWUVrRUE3ZmNCcnk3anZLOTJhS2VFNE1sbVBONGhUcGN3R24zSUxxOFpkV01vSUNKUG9MeVlvTW50UE9nQ2hXdldoR2NqbEN6Z2xmRW0yalNqclRuaGZLdEJFOTNQMnR5NGl2NHFwUTlMeHE2TFRHcmhBd0NacnBPVzJDczU?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaUluajJ1dHpZNVZpMGx0anlaSlRITk84c21QU2wwMEFpcnoxSlNFcHdfVkdvWTdhRUNfdmh4NE5pUEpmTGxrdmlVUFdLUG9VRXZlVExNVjBYN3hGNmMwQmtpcXVPMlpvRnVSZUlSREJqMHdiX1Brc0FJTDJzcUd3UHRSQVFQZw?oc=5"
     },
     {
       "title": "Security of the US government\u2019s $28B Bitcoin reserve threatened after weekend theft reveals flaw",
@@ -128,6 +107,13 @@
       "ts": "2026-01-26T13:17:31",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZFNNWjM5ZFVXZDBlbGNURlZUZnBsQnp5QWwySjRxYXg3YWE3Vk91TEkxcjVrZkFlTEpXX1kwbWVYdUZqLWNYNGVOeUViRXVCc2liRWlJUy1wY2lvWnNIWXBIX2ZxZUlZbllOSVgwLWE5MTIwejdqeGxwLWJ1ZWlJZFkxNVRGX3VtR05KeUotTzVXVUZoaHhuT2xCRnVoWTlRSDFvOVdUdzIwTGVuWlowcE1hQQ?oc=5"
+    },
+    {
+      "title": "Bitcoin Price Fights for $88,000 as Fed Looms and Bearish Technical Pressure Builds - Bitcoin Magazine",
+      "polarity": -0.052878305315971375,
+      "ts": "2026-01-26T21:32:08",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HTDJTM2N3ZDUtRFZLV05hVmdIMEZtSTBoNHlPQUhONzctT3NmQXFVdGxCZldiWExDUW1ESmMyeHlzc0JHZmM5TWh3TE1kSl9ZdDZhbnNuWHFwYzRTSmhlamlBWGZxMTdDX0tBM25vb29fQU9z?oc=5"
     },
     {
       "title": "Why MicroStrategy\u2019s Latest Bitcoin Purchase Is Deeply Concerning - Yahoo Finance",
