@@ -2,6 +2,13 @@
   "day": "2026-01-29",
   "positives": [
     {
+      "title": "Gold nearly adds Bitcoin's entire market cap in a single day",
+      "polarity": 0.9163278751075268,
+      "ts": "2026-01-29T05:27:34",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/gold-adds-over-trillion-to-market-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "title": "HIVE Digital Expands Green Bitcoin Mining Capacity After Strong 2025 Output - Yahoo Finance",
       "polarity": 0.9012029469013214,
       "ts": "2026-01-29T01:14:00",
@@ -21,13 +28,6 @@
       "ts": "2026-01-29T04:42:50",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS3E5V0JWLUVCcERwQUNOdmZDQ2RHWUxHTkpHVC1NQVo3eXpDY2lWb21YdEZsLVJ5b1ItbXZHb2VJakVzU2dvaktFRGFKUkp1VFdfNHdNZHlGaG5VTzlGMEdIUlZQLXFaUTNtTGZBUWIyZ3ZSNDFrcld4bFk3a3RKaVJoeE8zTUNTNWV3VTkwTHpjY0lFMV83MXZLTQ?oc=5"
-    },
-    {
-      "title": "Gold Hits New Highs, While Bitcoin, Ethereum, Dogecoin Move Sideways After Fed Keeps Rates Steady: Analyst Sees BTC's Move To $95,000 If This Happens - Benzinga",
-      "polarity": 0.4638790711760521,
-      "ts": "2026-01-29T02:12:50",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPeC14X1E4cmtaajk0NGdZLUhFQWNaT09wc2hYQmk0TThrSkllSjd6dDRaZjJ1cHJxZURUQktYR0hSVjRlcDdmMzlheG9SZlZCdFRfTW9MOGJJS2NsVGNOWTFaM0M4eER3XzhIMk5fR1l2MllKOGdzX0NoZVRMakFuV2kycXRKeVBweEJHcGhoYWZyQXZzUlJfLUp6aDJWYncydEMxc3dvN2R6aGF2SF9WMDZxeVdzakduVzhsRWtoMExYZ3NVYTYxTVVFMkREV0IwZXMzV3RjeF9WcnJhdlFSWHlPSENzQ1Ytaml4SG5kTnRNVEZJdVZTZXFJNmFDRXc1STc5MmdqWF9IRmk3dXBpUTI4S29OYzhBaTZad1NORjVTbm5IMEFmQzFBRmk?oc=5"
     },
     {
       "title": "Bitcoin rallies expected to be short-lived until liquidity returns: Data",
@@ -102,11 +102,18 @@
       "url": "https://cointelegraph.com/news/crypto-options-activity-keeps-bitcoin-stuck-near-90-000-says-deribit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "title": "Strategy Inc stock price slips after hours as bitcoin drops below $90,000 and dilution returns to focus - TechStock\u00b2",
-      "polarity": -0.942252991721034,
-      "ts": "2026-01-29T01:14:53",
+      "title": "Bitcoin trader warns of downside as gold rally continues to pull focus from BTC - CoinDesk",
+      "polarity": -0.9407089436426759,
+      "ts": "2026-01-29T05:29:22",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQd0JUdTg2RHFlZlIyNUdCUVpZcjhkVmhzTzQtaUV0N2hjamxNdkRJTnd3cWhRcnZGNDFUbkhxSzhDdnlXd09pTjNUalpIczBrVHduV2lpazVwa0U5S0xKM1BhRnNwdWNkX01CSFBYeFhyaURfZHBxanRlcjVibHY4djhSVE91d3BLWEN2Vm85YkpKRXBaWlV4VERORkxRZFMwTDZucjZZV3p1anF1Mms4NFRQc2tQaGJLOGZuZFNIUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYmFmWHA0SjhFcE9zWl9SRHRBRG1VZXBtVWNYcHFrTU1QSVJ3cHMzeWh2RFgzM0MzTk1oSUtGRElEMXlXczFPRVpOWjIwSFlBQ0g2YkhEc2twOVhvc3lnd1dHT1VzQVhlV2FBQndBNVdkRS04VXI0NGF3ZlVIWTF0Y3RUeWh4dVN0U2FZYnlmazJHOXZFd0FhQ0UwbFZLUGNWeGV2SVZ1UHIxV25jR2J1UHhsRUx0d2FZWnBSTFRBaG4?oc=5"
+    },
+    {
+      "title": "Bitcoin trader warns of downside as gold rally continues to pull focus from BTC",
+      "polarity": -0.9302799385040998,
+      "ts": "2026-01-29T05:28:38",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/01/29/bitcoin-trader-warns-of-downside-as-gold-rally-continues-to-pull-focus-from-btc"
     },
     {
       "title": "Crypto options activity is keeping Bitcoin stuck near $90K, says Deribit - TradingView",
@@ -114,6 +121,20 @@
       "ts": "2026-01-29T02:50:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMG1sVll3QllDNWN1X2V3VzZ2Tmc4aU5HUTBCM1oxOThkMHUzWHM0SDFUTE9rMFhvUXE4T0ZKVEVBbDhlQ2RySFdZaVhoZzRYeTdfcHkwUEo1N1p4RDFkZTN4WjVSenFMUVI4ZF91dnROaDcwTm51eHJLcEhPNFExd3VPN3J0d2Y1bkpEQ0NiR0Z2ZFREQVVrbVNSakFhVHdDV0twODRDVG0yYzBTSEx5N25TSktfUi1tQW5mSjNRb1cwZDNKelFIM0ltQzlhYWM?oc=5"
+    },
+    {
+      "title": "First gold and silver, now oil's starting to rally and that's bad news for bitcoin - CoinDesk",
+      "polarity": -0.8050797060132027,
+      "ts": "2026-01-29T05:24:22",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORXdBaXhpcTR3dUZCa1lyWG1jLVJ1OWtqQXFSWGVTYVJEZTR1T3NhNmxRYllUV2Ywel83VmdSSzJraVozR2I3QW1nRnQyNEd6eEx6YVBVMGZmdUZjZzUwWmRZa05zUGZ5UFhuM1JRY0dOU01JdGRObGZkVWlDRzJiYUVqb0gxNmU0Z2lYSThaUFo5YlNyMFNHYnoyb2lKUUlpV3lqT3dkZHFrRHk5UFlFc0dfZTlDVi1ST2YwYm1SbGJoNWc?oc=5"
+    },
+    {
+      "title": "First gold and silver, now oil's starting to rally and that's bad news for bitcoin",
+      "polarity": -0.7866605594754219,
+      "ts": "2026-01-29T05:22:14",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/01/29/first-gold-and-silver-now-oil-s-starting-to-rally-and-that-s-bad-news-for-bitcoin"
     },
     {
       "title": "BTC stuck at $89,000 as gold surges to fresh record above $5,400 following Jerome Powell remarks",
@@ -137,13 +158,6 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE96VHduRE9NdWp3QW91dWNxRTNKdmpUNWFJLXR0Sk5jMmlacFVIYTBPU19PekhINWZTbUJld2c0eW9VTUVaZnhJclFDaEJTamx5MDBNT2JBa3ZIM1M3SUFEbVRoR242ZWcyS09hazE4S1BldlFzZzNDN04xZXZKdw?oc=5"
     },
     {
-      "title": "Asia Market Open: Bitcoin Range-Bound Near $88K As Asia Tech Loses Momentum, Gold Pushes Higher - Yahoo Finance",
-      "polarity": -0.1494412124156952,
-      "ts": "2026-01-29T02:43:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQjJzdTgtWXhBcHhaNHhOS2syaG96VElWVV95Wmc5LUtVbjk5bmNPNkhQNUFmRnNSU0lMRGdRYk9adENRc05tWXQ0M05QYTdBZ3FfRUFvVk9fUU1kbExPby1MMzhMZmJrSjAwUjVzYzNZN2NWQXNLNnY5TVBVc3hMNjZR?oc=5"
-    },
-    {
       "title": "Bitcoin rallies expected to be short-lived until liquidity returns: Data - TradingView",
       "polarity": -0.06258553639054298,
       "ts": "2026-01-29T04:21:00",
@@ -151,11 +165,11 @@
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPd19HcS1xVmt0d3FZbVhCQ1NHVDlQclNhRmtaUHdpS0ZibXRkaEt2N3BsaFRkUmY0RkZyQ3ZmN0FySUJONnNud3dLUUdWQXlsNTdoR2VRemM0b3J2VTM0VmQwTDB4V09QT1JvcjdpcktyLXBldUxaOFM5bnBCWm5aaUlnUm4tTEdzNE5zSUUzalVPd21fUjBMZUFSTjVEZHZmTkVrakRiX2V3ck0tVElHaW1kR1pndVRqQ0ZEUW9JUGxJZGwzN2htYVRES2FudDRI?oc=5"
     },
     {
-      "title": "Arthur Hayes Outlines Conditional Bitcoin Bull Case Tied to Fed Balance Sheet - Bitcoin.com News",
-      "polarity": -0.002941543236374855,
-      "ts": "2026-01-29T02:45:44",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONTBDUGR3c0pvWHUxbzA2YmtZaWdOc1VzdWtqeXR0WXRta1dqOTFTRDQ1YXNlT01DanVyVWRuWDV0bUo0V3prOVk3eVpzMmdpZVcteTNHbjJGVE4xNVNheEUyb1k3X0F6TmJ5TEI0cUw4R0lOMjYwaGZFb2RGSDQwU2F2d2VlajU5WlF1VDFjRldyUHA2QVRfbU45Nkxjay1keFZGTTFR?oc=5"
+      "title": "STARTING OVER FROM ZERO IS HARD, TIME PLAYS AGAINST YOU",
+      "polarity": -0.04197587072849274,
+      "ts": "2026-01-29T05:05:36",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1qpzerw/starting_over_from_zero_is_hard_time_plays/"
     }
   ]
 }
