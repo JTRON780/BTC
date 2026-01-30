@@ -1,13 +1,98 @@
 {
   "day": "2026-01-30",
-  "positives": [],
+  "positives": [
+    {
+      "title": "Bitcoin, Ethereum, XRP, Dogecoin Tank Amid Tech Rout; Gold Also Cools: Analyst Flags Key BTC Support, Resistance Levels - Benzinga",
+      "polarity": 0.5889799371361732,
+      "ts": "2026-01-30T02:15:45",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOaThlZ29DcVVhUGZEQVEyX3FNR3JWYWxTbkJRdWtRb3d2eWtkNWl6YXdOS0M5amJDeWVpNWo2cFRQRU5ScTZPZmVVUU0wc3RPbVctbXFaZzlMMlc0emtrQVRiYWNZa1lEaUdXZHBpWHRVOGwwZU9XUlBpV3Q2Q3VGMko0OUJqbXViMmxURFg0SDE3VHZobzhYa0VBUmtUeW84eElhNnhPcVozWXVDV09tTm1fcloyX0NNdDIza1p3cjFzYlRMYlFZaEZSeE12Rk81QTFtWjlsQW95RnFzUy1fQ09tODJJTmppZFVtd29QdDlrUk90MFNPUWRHZi1nSlpTdnp4cDFB?oc=5"
+    },
+    {
+      "title": "Anyone Else Finding Gold Easier to Trade Than Crypto Right Now?",
+      "polarity": 0.5262635387480259,
+      "ts": "2026-01-30T02:51:22",
+      "source": "r/CryptoCurrencyTrading",
+      "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1qqtgg3/anyone_else_finding_gold_easier_to_trade_than/"
+    },
+    {
+      "title": "El Salvador stockpiles gold, Bitcoin amid market jitters",
+      "polarity": 0.03421966731548309,
+      "ts": "2026-01-30T03:17:43",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/el-salvador-gold-purchase-2026/"
+    },
+    {
+      "title": "Dip buyers, this is your moment. Don\u2019t panic.",
+      "polarity": 0.023096298798918724,
+      "ts": "2026-01-30T02:37:23",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1qqt553/dip_buyers_this_is_your_moment_dont_panic/"
+    },
+    {
+      "title": "Will btc breaks 80k this time??",
+      "polarity": 0.012884452939033508,
+      "ts": "2026-01-30T01:57:38",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qqs87n/will_btc_breaks_80k_this_time/"
+    },
+    {
+      "title": "Strategy Bitcoin Buy Deepens Dilution Questions And Undervaluation Debate - Yahoo Finance",
+      "polarity": 0.0011316277086734772,
+      "ts": "2026-01-30T01:11:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNT01uU0J5Z3NoYWVsVTl6Tkt0WE5nLV9VWmttUWZnUHZDM2xLWmxhSThoT2RKQkY3MWtWVFJoSDFPR1ZOUUkwb2NiRTlpZzJKeEJxaU1xTV9zYW1xbjNNZkxFNGN5T1hJbnk4S2ZIbUtqWDcwaFNoVVFtSUNucW9TTlNTUE1jZU4tYVRr?oc=5"
+    }
+  ],
   "negatives": [
     {
-      "title": "r/bitcoin is censored",
-      "polarity": -0.35288585536181927,
-      "ts": "2026-01-30T00:03:26",
-      "source": "r/CryptoCurrency",
-      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1qqpl27/rbitcoin_is_censored/"
+      "title": "Bitcoin Slumps to Two-Month Low as US Funds Shed Billions",
+      "polarity": -0.9614339238032699,
+      "ts": "2026-01-30T02:25:46",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/bitcoin-btc-slumps-to-two-month-low-as-us-funds-shed-billions"
+    },
+    {
+      "title": "Key facts: Bitcoin Drops 6% to $83,563; $356M in Liquidations Recorded - TradingView",
+      "polarity": -0.9587900582700968,
+      "ts": "2026-01-30T00:03:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdkxCYUtTX0ZBT29Yc2d4UmRGd281U19xQTA5QnFhaU9WLUJJdmUzTzRpX1pmWXJBck1PdE1CUWpET0ZFbFd6NVZiMXJaVVBxZEF3WDVVY3VuTlNQYS02X3pnMFRuQVlKMUFYOGYwTURXeWdxN09tWk1CZG5CQjJWWVhPT2ZvUUNSVzlHVVI4VC13RE1iNDRVNjQ2RjNDZm5DZUtYVklkZHg2bEVYelhrM2U2T3kzOGpVbS0yLWdvNkFsRWpBV0E?oc=5"
+    },
+    {
+      "title": "Bitcoin price news: BTC hits fresh 2026 low as day's plunge continues - CoinDesk",
+      "polarity": -0.9522216264158487,
+      "ts": "2026-01-30T02:15:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMnZZa0c3bnB0YjNmZjlSVmwwTjBGZUN0MHdJQ1JEMEo3UlVDZFRGM0VGWEVQOGRtbEZEb2R3NlpMaUoxWUJvMEUzWm9HWW10VHU3VUNnQXB1YVEwZnlybVJ5dHh5Y1dPcmlHQmM1R3NFYlZjSFNPM1poeXRuWWQxWm9EcWlBN0dxVHRPSWJfdHRIMmMtWWpXcDZBZG82RWxmTVFZU3J3?oc=5"
+    },
+    {
+      "title": "Bitcoin pulls back to as low as $81,000 as horrendous day continues",
+      "polarity": -0.9048744328320026,
+      "ts": "2026-01-30T02:12:25",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/01/29/bitcoin-pulls-back-to-usd81-000-as-horrendous-day-continues"
+    },
+    {
+      "title": "Asia Market Open: Bitcoin Tumbles 7%, Stocks Swing as Trump Signals Fed Pick And Shutdown Deal - TradingView",
+      "polarity": -0.8088512606918812,
+      "ts": "2026-01-30T02:49:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYU9RMG5OM1dyRWR5RlRiNnBhaklXazRucURvVVdndkctY2FJdEh3c2lmUnpqV1dHeTh4anh0V0dsbENNOG4yVG01d1hKUm1VMW1hbnJGdm5faHlKWEhoZzdiMW9XckdTNWpZQWQ5RDRJaF9wTDFjZ3l2TlF2c3JZTmlmSHNPaGJYdjhyek9LQVVfRDl1elhHZC1rSzBxcXkyZ3VCdEt1VU50Wmx6RUVkcFFhVEpNYXFYY2Q4SEo3VFpVa3dZYlhjT1FCTndTOG1nbTAyN255ZGdsN1RWU0J3RHZZV3plb0E?oc=5"
+    },
+    {
+      "title": "US Finalizes Forfeiture of $400 Million Tied to Helix Darknet Mixer",
+      "polarity": -0.6837700717151165,
+      "ts": "2026-01-30T02:08:33",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/356443/us-forfeiture-400-million-helix-darknet-mixer"
+    },
+    {
+      "title": "Bought at 125k and lowered my average to 91k",
+      "polarity": -0.06503469496965408,
+      "ts": "2026-01-30T01:41:42",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1qqrvld/bought_at_125k_and_lowered_my_average_to_91k/"
     }
   ]
 }
