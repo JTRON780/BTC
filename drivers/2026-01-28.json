@@ -2,22 +2,8 @@
   "day": "2026-01-28",
   "positives": [
     {
-      "title": "Strive Enters Top 10 Publicly Traded Bitcoin Holders, Pays Off Debt After Semler Acquisition",
-      "polarity": 0.8416529484093189,
-      "ts": "2026-01-28T18:50:47",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/356192/strive-enters-top-10-publicly-traded-bitcoin-holders-debt-semler"
-    },
-    {
-      "title": "Coinbase to Join Trump Accounts Push, Eyes Bitcoin Payments for Children",
-      "polarity": 0.09144279360771179,
-      "ts": "2026-01-28T18:51:28",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/news/coinbase-to-join-trump-accounts-push"
-    },
-    {
       "title": "Is Bitcoin a Buy Right Now? - Yahoo Finance",
-      "polarity": 0.005257206037640572,
+      "polarity": 0.005257247015833855,
       "ts": "2026-01-28T12:20:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZQk1JSUUtOE9id2RQQ19LRE85Wmo3YXZlUjBVZl9SRkhzaGtoa1E2dTJGUEdyalhHeU5oTWR2UnZCQXUwTDFfTE9lWlJKYmRNQkpFX0x6SzJZNTlzQ1I2cGtSSnJVcVM3bkZnRU1n?oc=5"
@@ -26,42 +12,49 @@
   "negatives": [
     {
       "title": "Bitcoin Backers, Cypherpunks Sour on Trump Following Fatal Minneapolis Shooting",
-      "polarity": -0.9257292170077562,
+      "polarity": -0.9257292039692402,
       "ts": "2026-01-28T22:06:43",
       "source": "Decrypt",
       "url": "https://decrypt.co/356258/bitcoin-backers-cypherpunks-sour-trump-fatal-minneapolis-shooting"
     },
     {
       "title": "Federal Reserve holds rates steady as Bitcoin stalls below $90K",
-      "polarity": -0.49818162620067596,
+      "polarity": -0.49818143248558044,
       "ts": "2026-01-28T19:03:12",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/federal-reserve-rate-decision-bitcoin/"
     },
     {
       "title": "Grand Forks detective says if someone online asks for bitcoin or gift cards, 'you're being scammed' - grandforksherald.com",
-      "polarity": -0.20743601582944393,
+      "polarity": -0.2074350956827402,
       "ts": "2026-01-28T13:01:51",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcnQtVFlMZENKbU10Ql9iTjRiM1YwNFRsYk5kME9LTHVNYmpaVThxczJhbzFhZmNnczVyV3FDa19nRUJzbG10QXltWTBnU3ZfTWt3Y09KeW9vRXd0Q1JtWGNzZXp4eHRXSDJJcXBrXzg3WHl0OElFQUR5eDNIdDUzNURtd3ZiaTZ0UjdNZWVGazk2Mjk0OFNYYUZ4eGhXdzdzS2FZQ3RjLXh4WWJTX0xUMU8xdFV2ZTI2ZW9NM1FNclNsd1Axa2wxaFN0MDRjekhPWWZDLUtn?oc=5"
     },
     {
+      "title": "BlackRock\u2019s New Covered Call Bitcoin ETF Is Another Red Flag for a Dangerous Investing Trend - Yahoo Finance",
+      "polarity": -0.12329629808664322,
+      "ts": "2026-01-28T15:00:02",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPd1RUc0xCUVR1Qk9JNG8tQ0RVNFdYRUJ1QWg3UkFDZHZyVUF0NTkwTXZScVZCSEpjSUVrdWh6dE9oM0hUc0sxYmozMy1lYVF4c1BVU3Q3ZFYzTlhKV2ZzU1dCRzBTeW1TM1lsUmlzOFcxaDlYYjhIcGRlNVliV1d6dVVCaDNBcWc?oc=5"
+    },
+    {
       "title": "White House to Host Crypto and Banking Executives for Talks on Stalled U.S. Crypto Bill",
-      "polarity": -0.06286209262907505,
+      "polarity": -0.06286201253533363,
       "ts": "2026-01-28T19:30:16",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/politics/white-house-to-host-crypto-executives"
     },
     {
       "title": "Bitcoin Price Steadies Near $90,000 as Fed Pauses Rate Cuts, Powell Signals Neutral Stance",
-      "polarity": -0.038492850959300995,
+      "polarity": -0.038492776453495026,
       "ts": "2026-01-28T20:51:40",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/news/bitcoin-price-steadies-fed-stops-cuts"
     },
     {
       "title": "Is This Bitcoin Price \u201cComa\u201d A Victory Lap in Disguise? - Yahoo Finance",
-      "polarity": -0.025348957628011703,
+      "polarity": -0.025348881259560585,
       "ts": "2026-01-28T10:55:54",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZFpfTHNERWhlRmZkZm01ZUxlcXd6OVRRNVhSR19kUEpvcmpaUXpRSDh6Wml6Nkl5RmhpcWE4bHdheEc3WEUxVFNaWUZsdVpGUDF3Ni1aaFBneGNDVWFkNUw2cWdSeWdoVHlvXzZJR3Rvc3dzWGN5b0ZtRE9maEhTRlNR?oc=5"
