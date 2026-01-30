@@ -2,6 +2,15 @@
   "granularity": "daily",
   "data": [
     {
+      "ts": "2026-01-01T00:00:00",
+      "raw": -0.0027278829365968704,
+      "smoothed": -0.0027278829365968704,
+      "n_posts": 1,
+      "n_positive": 0,
+      "n_negative": 1,
+      "directional_bias": -1.0
+    },
+    {
       "ts": "2026-01-03T00:00:00",
       "raw": 0.010623600333929062,
       "smoothed": 0.010623600333929062,
@@ -129,12 +138,12 @@
     },
     {
       "ts": "2026-01-18T00:00:00",
-      "raw": -0.16447431221604344,
-      "smoothed": -0.16447431221604344,
-      "n_posts": 4,
+      "raw": -0.15765704933021746,
+      "smoothed": -0.15765704933021746,
+      "n_posts": 5,
       "n_positive": 1,
-      "n_negative": 3,
-      "directional_bias": -0.5
+      "n_negative": 4,
+      "directional_bias": -0.6
     },
     {
       "ts": "2026-01-19T00:00:00",
@@ -219,30 +228,30 @@
     },
     {
       "ts": "2026-01-28T00:00:00",
-      "raw": -0.0803377112152718,
-      "smoothed": -0.0803377112152718,
-      "n_posts": 10,
-      "n_positive": 4,
+      "raw": -0.09107753468884364,
+      "smoothed": -0.09107753468884364,
+      "n_posts": 9,
+      "n_positive": 3,
       "n_negative": 6,
-      "directional_bias": -0.2
+      "directional_bias": -0.3333333333333333
     },
     {
       "ts": "2026-01-29T00:00:00",
-      "raw": -0.37074132370879875,
-      "smoothed": -0.37074132370879875,
-      "n_posts": 61,
+      "raw": -0.32741420213468675,
+      "smoothed": -0.32741420213468675,
+      "n_posts": 57,
       "n_positive": 24,
-      "n_negative": 37,
-      "directional_bias": -0.21311475409836064
+      "n_negative": 33,
+      "directional_bias": -0.15789473684210525
     },
     {
       "ts": "2026-01-30T00:00:00",
-      "raw": -0.29709629818598776,
-      "smoothed": -0.29709629818598776,
-      "n_posts": 89,
-      "n_positive": 34,
+      "raw": -0.2993268080464246,
+      "smoothed": -0.2993268080464246,
+      "n_posts": 91,
+      "n_positive": 36,
       "n_negative": 55,
-      "directional_bias": -0.23595505617977527
+      "directional_bias": -0.2087912087912088
     }
   ]
 }
