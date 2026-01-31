@@ -1,20 +1,13 @@
 {
   "day": "2026-01-27",
-  "positives": [],
-  "negatives": [
-    {
-      "title": "Strategy buys $264m Bitcoin during price dip as investors brace for 80% government shutdown chance - Yahoo Finance",
-      "polarity": -0.9910816038027406,
-      "ts": "2026-01-27T11:42:17",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLW1HUXE3c0UzOWt1dHBBWThpNFc3QUJpWS04ZkRZZVEwMEFYU2htQmlmcDhFQkJUZV9BZlZMVjVUUUJuQ05YcC0zTVZTdE1sNjNBR2ZTdFFGaFAyUVZCUF9HT295bVBBNUluN0lDTmRDb1M1NzlpTDFzb05ZaVVfTlVWTVppdw?oc=5"
-    },
+  "positives": [
     {
       "title": "How do you keep your BTC safe these days?",
-      "polarity": -0.9895877279341221,
+      "polarity": 0.019481174647808075,
       "ts": "2026-01-27T13:10:18",
       "source": "r/BitcoinMarkets",
       "url": "https://www.reddit.com/r/BitcoinMarkets/comments/1qodesr/how_do_you_keep_your_btc_safe_these_days/"
     }
-  ]
+  ],
+  "negatives": []
 }
