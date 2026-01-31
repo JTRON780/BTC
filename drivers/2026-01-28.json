@@ -1,28 +1,13 @@
 {
   "day": "2026-01-28",
-  "positives": [
-    {
-      "title": "Is Gold The New Bitcoin? - Yardeni QuickTakes",
-      "polarity": 0.015101412311196327,
-      "ts": "2026-01-28T03:24:58",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TR0RRZ3dfV3JvVVgxZ3plZkl5UTI3V05KdGhheUhlVzl0dmlZaEswSzhlT2hYRzAyMWsxWEx1SkhBSE52MzExOFdQMGVTRGdSVEsxb0RUNlQtS0pJM2dOeHB4LU5ITFRHcFE?oc=5"
-    },
+  "positives": [],
+  "negatives": [
     {
       "title": "Is Bitcoin a Buy Right Now? - Yahoo Finance",
-      "polarity": 0.005257206037640572,
+      "polarity": -0.9931004613172263,
       "ts": "2026-01-28T12:20:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZQk1JSUUtOE9id2RQQ19LRE85Wmo3YXZlUjBVZl9SRkhzaGtoa1E2dTJGUEdyalhHeU5oTWR2UnZCQXUwTDFfTE9lWlJKYmRNQkpFX0x6SzJZNTlzQ1I2cGtSSnJVcVM3bkZnRU1n?oc=5"
-    }
-  ],
-  "negatives": [
-    {
-      "title": "Is This Bitcoin Price \u201cComa\u201d A Victory Lap in Disguise? - Yahoo Finance",
-      "polarity": -0.025348957628011703,
-      "ts": "2026-01-28T10:55:54",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZFpfTHNERWhlRmZkZm01ZUxlcXd6OVRRNVhSR19kUEpvcmpaUXpRSDh6Wml6Nkl5RmhpcWE4bHdheEc3WEUxVFNaWUZsdVpGUDF3Ni1aaFBneGNDVWFkNUw2cWdSeWdoVHlvXzZJR3Rvc3dzWGN5b0ZtRE9maEhTRlNR?oc=5"
     }
   ]
 }
