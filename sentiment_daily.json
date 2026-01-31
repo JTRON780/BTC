@@ -156,30 +156,30 @@
     },
     {
       "ts": "2026-01-21T00:00:00",
-      "raw": -0.18131237300433992,
-      "smoothed": -0.18131237300433992,
-      "n_posts": 10,
+      "raw": -0.2459628794167657,
+      "smoothed": -0.2459628794167657,
+      "n_posts": 11,
       "n_positive": 5,
-      "n_negative": 5,
-      "directional_bias": 0.0
+      "n_negative": 6,
+      "directional_bias": -0.09090909090909091
     },
     {
       "ts": "2026-01-22T00:00:00",
-      "raw": 0.02171816676855087,
-      "smoothed": 0.02171816676855087,
-      "n_posts": 27,
-      "n_positive": 19,
+      "raw": 0.04646626251136385,
+      "smoothed": 0.04646626251136385,
+      "n_posts": 28,
+      "n_positive": 20,
       "n_negative": 8,
-      "directional_bias": 0.4074074074074074
+      "directional_bias": 0.42857142857142855
     },
     {
       "ts": "2026-01-23T00:00:00",
-      "raw": -0.18661857431641574,
-      "smoothed": -0.18661857431641574,
-      "n_posts": 33,
-      "n_positive": 15,
+      "raw": -0.1654771135928218,
+      "smoothed": -0.1654771135928218,
+      "n_posts": 34,
+      "n_positive": 16,
       "n_negative": 18,
-      "directional_bias": -0.09090909090909091
+      "directional_bias": -0.058823529411764705
     },
     {
       "ts": "2026-01-24T00:00:00",
@@ -210,10 +210,10 @@
     },
     {
       "ts": "2026-01-27T00:00:00",
-      "raw": 0.040142847394401375,
-      "smoothed": 0.040142847394401375,
-      "n_posts": 2,
-      "n_positive": 2,
+      "raw": 0.019481174647808075,
+      "smoothed": 0.019481174647808075,
+      "n_posts": 1,
+      "n_positive": 1,
       "n_negative": 0,
       "directional_bias": 1.0
     },
@@ -228,30 +228,30 @@
     },
     {
       "ts": "2026-01-29T00:00:00",
-      "raw": -0.3038881943828545,
-      "smoothed": -0.3038881943828545,
-      "n_posts": 34,
+      "raw": -0.32467639331366405,
+      "smoothed": -0.32467639331366405,
+      "n_posts": 36,
       "n_positive": 15,
-      "n_negative": 19,
-      "directional_bias": -0.11764705882352941
+      "n_negative": 21,
+      "directional_bias": -0.16666666666666666
     },
     {
       "ts": "2026-01-30T00:00:00",
-      "raw": -0.2231318489930359,
-      "smoothed": -0.2231318489930359,
-      "n_posts": 92,
-      "n_positive": 38,
+      "raw": -0.21866046446806528,
+      "smoothed": -0.21866046446806528,
+      "n_posts": 93,
+      "n_positive": 39,
       "n_negative": 54,
-      "directional_bias": -0.17391304347826086
+      "directional_bias": -0.16129032258064516
     },
     {
       "ts": "2026-01-31T00:00:00",
-      "raw": -0.0905710103660822,
-      "smoothed": -0.0905710103660822,
+      "raw": -0.09018945527232945,
+      "smoothed": -0.09018945527232945,
       "n_posts": 22,
-      "n_positive": 11,
-      "n_negative": 11,
-      "directional_bias": 0.0
+      "n_positive": 10,
+      "n_negative": 12,
+      "directional_bias": -0.09090909090909091
     }
   ]
 }
