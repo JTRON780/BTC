@@ -2,244 +2,251 @@
   "day": "2026-01-29",
   "positives": [
     {
+      "title": "Japan's Biggest Bitcoin Treasury Firm Just Raised $137 Million to Buy Even More BTC - Yahoo Finance",
+      "polarity": 0.6676241019740701,
+      "ts": "2026-01-29T19:38:45",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRjZZa0pEV3VjQXhMdlRrVW1uNlRwV193ZEVTVHV4OHRfRkxqdUJuTzZuU0tHSmlyUFVYSmx3QUhkVGJjQnRwdzZJVHdJZzBWX0xQWVVod2Qtay1SUVdUMVp1TnplbXhjRFcteVFFZjlidEpuZzhETGRoS2FaSXI5a3FCZzF0bGZPZ1E?oc=5"
+    },
+    {
+      "title": "Gold, Silver Liquidations Spike on Hyperliquid Amid Trading Frenzy",
+      "polarity": 0.49604326486587524,
+      "ts": "2026-01-29T19:54:00",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/356347/gold-silver-liquidations-spike-hyperliquid-amid-trading-frenzy"
+    },
+    {
       "title": "Texas\u2019 largest pension fund boosts stake in Bitcoin treasury Strategy",
-      "polarity": 0.9685212261974812,
+      "polarity": 0.4041421413421631,
       "ts": "2026-01-29T17:28:32",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/texas-pension-bitcoin-investment/"
     },
     {
-      "title": "SEC Chair Paul Atkins to Make History as First Sitting Chair to Speak at The Bitcoin Conference in Las Vegas",
-      "polarity": 0.9599135238677263,
-      "ts": "2026-01-29T18:29:17",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/news/paul-atkins-to-speak-at-bitcoin-conference"
-    },
-    {
-      "title": "Paul Atkins becomes first SEC chair to speak at Bitcoin Conference",
-      "polarity": 0.9338813535869122,
-      "ts": "2026-01-29T18:54:00",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/sec-chair-bitcoin-conference/"
-    },
-    {
-      "title": "The yield on yield strategy",
-      "polarity": 0.8942775055766106,
-      "ts": "2026-01-29T13:02:40",
-      "source": "r/defi",
-      "url": "https://www.reddit.com/r/defi/comments/1qq7yr4/the_yield_on_yield_strategy/"
-    }
-  ],
-  "negatives": [
-    {
-      "title": "Bitcoin Plunge Could Get Much Worse as Death Cross Gains Power",
-      "polarity": -0.9995892921870109,
-      "ts": "2026-01-29T21:34:38",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/356391/bitcoin-plunge-could-get-much-worse-death-cross-gains-power"
-    },
-    {
-      "title": "Bitcoin Crash Incoming? Long-Term Holders Dump BTC in Droves as Selling Pressure Builds - Yahoo Finance",
-      "polarity": -0.9994467544893268,
-      "ts": "2026-01-29T12:17:15",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbGIteDFFeVpUXzk5ZFlHYi1GaGMzLTZBWlRoZnlMQjA1SDBGdFhvVFFkcXVkTEc0SUZXRy1MSzNqYkJYcXkxLXdQYldqNTNVaG13N04xYjdxeWhzbnlycGpJc2JpbGVEQUlEd1pOUURKZ0Y0eXVqSGxoeHFBaHRLZzctQ3I?oc=5"
-    },
-    {
-      "title": "Bitcoin Price Crashes 6% To $84,000 In Sharp Sell-Off - Bitcoin Magazine",
-      "polarity": -0.9994174886960536,
-      "ts": "2026-01-29T15:43:18",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBQ0pfZXFvR2hyYXhvRzNIS2pKaHhZN2RpWm5DeFgySE9mSDJzYjJYUDQxVE5EOE5jQmJ1bzlUX0dWajZKVWpkaEZEMmxKcE9WdktUME5MN042c1Y2amp1SGxQRXlPUC0zSEpTSzdMdTAzMk5Z?oc=5"
-    },
-    {
-      "title": "Strategy Stock ($MSTR) Hits 52-Week Low As Bitcoin Craters Below $84,000 - Bitcoin Magazine",
-      "polarity": -0.9993724129162729,
-      "ts": "2026-01-29T18:36:46",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83TXZxTWlpVmVsY3F3MXhNaUNVVW9yeWJhZFlaY28tZHJ3SjNPaklObGJxdmV5di1nZG5uSFNLTkpoQUFwLWlJaU51SjFRT1RHelk5Z1EzZWk4cDBCM0o5ZXNvVmIyUTJRVk5xVHh0aDFMUzZPOW9XVWhtMkw?oc=5"
-    },
-    {
-      "title": "Strategy Stock ($MSTR) Hits 52-Week Low As Bitcoin Craters Below $84,000",
-      "polarity": -0.9992924086109269,
-      "ts": "2026-01-29T18:36:46",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/markets/strategy-stock-mstr-hits-52-week-low"
-    },
-    {
-      "title": "Crypto Bros in Meltdown as Bitcoin Crashes - Futurism",
-      "polarity": -0.9991558426409028,
-      "ts": "2026-01-29T23:05:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfWkpOd3ZrekFGMm5fazhjMUl0U0tSZjF0dTdwVmpHTWNweFdrall6Qm5TV3l0azdyUFljUzI0ZFNvUE50SldQZ25jVHZPYWxoOFpkUWRseHowRXk1bmdhYzBiUjBRdzZJR2VNYkln?oc=5"
-    },
-    {
-      "title": "Bitcoin Hits 2-Month Low as Gold and Stocks Give Up Gains, Crypto Liquidations Top $800M",
-      "polarity": -0.9990967910853215,
-      "ts": "2026-01-29T16:31:47",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/356330/bitcoin-2-month-low-gold-stocks-give-up-gains-crypto-liquidations-800m"
-    },
-    {
-      "title": "Eric Trump Says American Bitcoin Is 'Leading The Charge' In BTC Accumulation \u2014 But Company's Stock Has Cratered 75% Since Debut - Yahoo Finance",
-      "polarity": -0.9990362619864754,
-      "ts": "2026-01-29T23:01:38",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQXpOX3pxVjNCUE1zdUtSSDZucUFYU1lPMTBXc0xOdS02NHAzYXFjV0MwMW1wQUppOWpqY0tZamwxcVNqZVpaZWNYLVpEQ3l2elJwT2hFZHEwX19MUUxuWDFaRGlubVhjZ0I5VTN5dWE5TklUQThESDlpTFAyTUM1Sk1ZN0w?oc=5"
-    },
-    {
-      "title": "Bitcoin Drops Below $86,000 as Traders Retreat From Risk Assets - Bloomberg.com",
-      "polarity": -0.9989634355879389,
-      "ts": "2026-01-29T20:15:47",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONWwyLWxRTUdxbmwxd0FDdFI5eDFOMTQ2X1FrMjI3cmxhMFR1N2NOQU9ubzFTaEtpV01IZDRmMTdrQ3VaWkFIM3Q3VEdqRzZDZ2p2MUdtX3BNVE1OX3NBa0VvZlRnRGRnUUtUMjhvNUlibGdyS2hZTHZLOTBiSEszX3NsNVlodlRkcENSWWEyMFF1VmQwd3A5N1BKcno5UEVYdVZOa1dZT0dFZU11WEQxczBkSQ?oc=5"
-    },
-    {
-      "title": "Gold Prices' Rise Could Be Far From Over. Bitcoin, Meanwhile, Is Stumbling. - Investopedia",
-      "polarity": -0.9989210811327212,
-      "ts": "2026-01-29T22:13:27",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVlIwVERDNUtpOTFvUGdndmhCdGppbWkzOU90bGtXMkJSbTNxQWc4dVByVlUxMTBvSFhXN09wU084cEEwZ0l3ek1MY1JnVkRKTThmdVVvb3FuT2dGcnd5azZ5NG9zU1ZJeTNtRGY1YzZEX2hJM2NQRUtSLUpTQUhOa2dQT2taSzhDNU52bWtYcVotdk5fSHZ0Z2Yza0gtLW9ieDdTWVlvMy14c1BJ?oc=5"
-    },
-    {
-      "title": "Bitcoin price dips fast as crypto joins Big Tech in market dive - dlnews.com",
-      "polarity": -0.9986496262135915,
-      "ts": "2026-01-29T18:52:20",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdjg3UGZVTWpVdnVDY3MtUVdId3dmZ21GTkU1aDE2bC1VZV90aHEwbUhONmVHX2ZsSUlRNjYyU181ZnpmTWEzNGgwRHllb19JdTVwOWNLbFZtb1VUVHB2dG9Rb0N4Y0V5VHdzMU51YUZJOUxYWGdlSjFqSnFmSkx1MFFfWjVCRXBrZFJ6VUNn?oc=5"
-    },
-    {
-      "title": "Where is Donald Trump\u2019s strategic Bitcoin reserve? - Fast Company",
-      "polarity": -0.9984881531563587,
-      "ts": "2026-01-29T10:02:52",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZnZiMG9WYjFQUkotR19COGhmbF9qQ0dCaG1ldlVEcTNFU2RLbWJoMkx5dlMyZE01NnFiWENEQWtOSG5hNGhCSzBQY3dTT3RuT0dfc1JnNGVsZ2pfTTRBaXdGeGw3YURrLXFXdE8wNS1wREJYMGl5TW5PYURBeFYzdUV6ZUJrZWhFQVBzVnp3?oc=5"
-    },
-    {
-      "title": "Bitcoin Plunge Could Get Much Worse as Death Cross Gains Power - Yahoo Finance",
-      "polarity": -0.997899891808629,
-      "ts": "2026-01-29T21:34:38",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPYXJ4SC00SlNwWHFlR1I4UjQ3cWU3TnRITVZzMXpIZ2t6VGlUUmZDU2dQaFI4ZXR0d3FjamhlWHpBV21SUUstc1RnSmVpN2t2RXdzZGJ5S01KTnktbXNKTHpCVlFRd0V1Q0g0NDkwdjMzR3R0dVJ6MmJESFhXNWZ0cDFwdw?oc=5"
-    },
-    {
-      "title": "Bitcoin Hits 2-Month Low as Gold and Stocks Give Up Gains, Crypto Liquidations Top $800M - Yahoo Finance",
-      "polarity": -0.9976265003206208,
-      "ts": "2026-01-29T16:31:47",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hOUxrVXgycFRmakJFWk01YzUyR1BnQW40b3I0ZTgzTTdyRnJmbmVTa1J2M0dNM1Q5emd6Y0pMTVFmOWNNRDU0N2RNaU1CVTFqVm9aOTlQWm4yNWY0M1hZX3Q4Mmx6WHhhNmcwMGRGYWNkenQ0MWZXVURR?oc=5"
-    },
-    {
-      "title": "Bitcoin price slides as gold rallies on weaker dollar - Yahoo Finance UK",
-      "polarity": -0.9973710757913068,
-      "ts": "2026-01-29T09:51:42",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZWFVa2FEcmlaN0UxcW1RRjhuWTR6UzFvaS1VT0wtMnBGNDhMOHotR29yS2k2MEs4UFpRZlVmcGh0SUVTcWhXLXQtOUhDVXlFT3BwTjNXWEY5VWRFVUtzVDVjZkhOR2tNUWxCQ1pCUmRnM202eXpvemVRZ2x4d1lEYnktY0ZXYXdVeXBXajNKRllobFlSLXBNa3hTMUQ?oc=5"
-    },
-    {
-      "title": "Why Gold is Rallying and Bitcoin Isn\u2019t - Yahoo Finance",
-      "polarity": -0.9963538976153359,
-      "ts": "2026-01-29T15:36:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPLXJRMVNyNTNuVjJRcEMzTk52ZDhsaWUtY3pNempwV2tmZzE5Rll5M3ZsWHNNX1ZzcGZBc09qRG1NbmUyek04dFFHUTBmRi1hbnNhLURlZUNOWUE5S01PX21PSlNtMjhpV2lTR0VFWk9EOEJreEhPdnBXRUtCVjFJSQ?oc=5"
-    },
-    {
-      "title": "Bitcoin price outlook: $70,000 could be in play for BTC, say analysts - CoinDesk",
-      "polarity": -0.9961997121572495,
-      "ts": "2026-01-29T22:04:15",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOM0U4dm12UFRKbUQ5XzU3QzlUa2xUalpDU1ZxNjRlU1VEOGZBU2VqS29GTkJzWlhMWGpsWWhZdlZQVXpjZUFsYTlzVmlTTGxXUHd6SGM0OU5ONmFNTUJiZlVfZWpJc3lSaGNKb0lTLU9GZndPQWd0QjJKR0x0ZDRyWjVCZHNJVlZzcWFaYklLVWpDazd3RnVydXlPbzBGUGhDWXFySzlHTXB5aVI0UDI5cFBoWkhFRkkxR1VfRmdicmw0aEV6eFpvcjRfRV8wSmV3Z0k5QUdIUEU?oc=5"
-    },
-    {
-      "title": "Bitcoin slides to $85K as global selloff sweeps stocks, tech, and gold",
-      "polarity": -0.9946855364833027,
-      "ts": "2026-01-29T15:43:43",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/bitcoin-market-volatility-selloff/"
-    },
-    {
-      "title": "Japan's Biggest Bitcoin Treasury Firm Just Raised $137 Million to Buy Even More BTC",
-      "polarity": -0.992618675576523,
-      "ts": "2026-01-29T19:38:45",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/356322/japan-biggest-bitcoin-treasury-metaplanet-137-million-buy-btc"
-    },
-    {
-      "title": "Metals catching bids while crypto ranges \u2014 tradable rotation or late-cycle noise?",
-      "polarity": -0.992409746395424,
-      "ts": "2026-01-29T02:45:16",
-      "source": "r/CryptoCurrencyTrading",
-      "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1qpwddm/metals_catching_bids_while_crypto_ranges_tradable/"
-    },
-    {
-      "title": "Why Bitcoin\u2019s Pullback May Be Setting Up A Rotation From Gold - Forbes",
-      "polarity": -0.9878974459134042,
-      "ts": "2026-01-29T20:19:01",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM2xpMEZULVFnQ0JGSzdBNDVQMVZ2enZsQnltd2N3eWd1T1hWWG5HeXBuYUx0UUxjQXkyNFNOVXozSkZjVHExeXJpb2JoUnM3RU9uaURtYktTRURmRmdXdG5rdlBueE9SanN1YkV3aHlZNW0xTFBMRms5ZUFDX3FaQmNlQnpkcEQtM1VJVjZtcHV3em4tcnRqRkhEa2QtcVlqRHNYQnRERnNBdHNkWHpr?oc=5"
-    },
-    {
-      "title": "Crypto Market Structure Bill Advances Through Senate Agriculture Committee, No Democrats Vote In Favor",
-      "polarity": -0.9878686373122036,
-      "ts": "2026-01-29T17:19:44",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/news/crypto-bill-advances-senate-committee"
-    },
-    {
       "title": "Morning Minute: Gold Soars Toward $5,600; Bitcoin Falls",
-      "polarity": -0.9868902368471026,
+      "polarity": 0.20466267317533493,
       "ts": "2026-01-29T14:11:03",
       "source": "Decrypt",
       "url": "https://decrypt.co/356284/morning-minute-gold-soars-toward-5600-bitcoin-falls"
     },
     {
+      "title": "Paul Atkins becomes first SEC chair to speak at Bitcoin Conference",
+      "polarity": 0.14772712625563145,
+      "ts": "2026-01-29T18:54:00",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/sec-chair-bitcoin-conference/"
+    },
+    {
+      "title": "Metaplanet targets $137M capital raise to expand Bitcoin holdings",
+      "polarity": 0.09768813569098711,
+      "ts": "2026-01-29T12:26:11",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/metaplanet-bitcoin-treasury-expansion-2/"
+    },
+    {
+      "title": "Japan's Biggest Bitcoin Treasury Firm Just Raised $137 Million to Buy Even More BTC",
+      "polarity": 0.0934569388628006,
+      "ts": "2026-01-29T19:38:45",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/356322/japan-biggest-bitcoin-treasury-metaplanet-137-million-buy-btc"
+    },
+    {
       "title": "Bitcoin Flat at $88K Despite Dollar\u2019s 12-Month Slump, Gold\u2019s New High",
-      "polarity": -0.9839646201580763,
+      "polarity": 0.04670649766921997,
       "ts": "2026-01-29T13:05:25",
       "source": "Decrypt",
       "url": "https://decrypt.co/356283/bitcoin-flat-at-88k-despite-dollars-12-month-slump-golds-new-high"
     },
     {
       "title": "Upgrade your Bitcoin investment strategy using these 7 critical demand drivers",
-      "polarity": -0.9800669429823756,
+      "polarity": 0.04005922004580498,
       "ts": "2026-01-29T21:05:54",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/bitcoin-investment-thesis-institutional-demand-macro-flow-guide/"
     },
     {
-      "title": "Gold, Silver Liquidations Spike on Hyperliquid Amid Trading Frenzy",
-      "polarity": -0.9799246788024902,
-      "ts": "2026-01-29T19:54:00",
+      "title": "Why Bitcoin\u2019s Pullback May Be Setting Up A Rotation From Gold - Forbes",
+      "polarity": 0.03180854022502899,
+      "ts": "2026-01-29T20:19:01",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM2xpMEZULVFnQ0JGSzdBNDVQMVZ2enZsQnltd2N3eWd1T1hWWG5HeXBuYUx0UUxjQXkyNFNOVXozSkZjVHExeXJpb2JoUnM3RU9uaURtYktTRURmRmdXdG5rdlBueE9SanN1YkV3aHlZNW0xTFBMRms5ZUFDX3FaQmNlQnpkcEQtM1VJVjZtcHV3em4tcnRqRkhEa2QtcVlqRHNYQnRERnNBdHNkWHpr?oc=5"
+    },
+    {
+      "title": "Metals catching bids while crypto ranges \u2014 tradable rotation or late-cycle noise?",
+      "polarity": 0.016244791448116302,
+      "ts": "2026-01-29T02:45:16",
+      "source": "r/CryptoCurrencyTrading",
+      "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1qpwddm/metals_catching_bids_while_crypto_ranges_tradable/"
+    },
+    {
+      "title": "Crypto Market Structure Bill Advances Through Senate Agriculture Committee, No Democrats Vote In Favor",
+      "polarity": 0.013513708487153053,
+      "ts": "2026-01-29T17:19:44",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/news/crypto-bill-advances-senate-committee"
+    },
+    {
+      "title": "Bitcoin price outlook: $70,000 could be in play for BTC, say analysts - CoinDesk",
+      "polarity": 0.012902665883302689,
+      "ts": "2026-01-29T22:04:15",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOM0U4dm12UFRKbUQ5XzU3QzlUa2xUalpDU1ZxNjRlU1VEOGZBU2VqS29GTkJzWlhMWGpsWWhZdlZQVXpjZUFsYTlzVmlTTGxXUHd6SGM0OU5ONmFNTUJiZlVfZWpJc3lSaGNKb0lTLU9GZndPQWd0QjJKR0x0ZDRyWjVCZHNJVlZzcWFaYklLVWpDazd3RnVydXlPbzBGUGhDWXFySzlHTXB5aVI0UDI5cFBoWkhFRkkxR1VfRmdicmw0aEV6eFpvcjRfRV8wSmV3Z0k5QUdIUEU?oc=5"
+    },
+    {
+      "title": "Where is Donald Trump\u2019s strategic Bitcoin reserve? - Fast Company",
+      "polarity": 0.00883452408015728,
+      "ts": "2026-01-29T10:02:52",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZnZiMG9WYjFQUkotR19COGhmbF9qQ0dCaG1ldlVEcTNFU2RLbWJoMkx5dlMyZE01NnFiWENEQWtOSG5hNGhCSzBQY3dTT3RuT0dfc1JnNGVsZ2pfTTRBaXdGeGw3YURrLXFXdE8wNS1wREJYMGl5TW5PYURBeFYzdUV6ZUJrZWhFQVBzVnp3?oc=5"
+    },
+    {
+      "title": "Why Gold is Rallying and Bitcoin Isn\u2019t - Yahoo Finance",
+      "polarity": 0.004158452153205872,
+      "ts": "2026-01-29T15:36:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPLXJRMVNyNTNuVjJRcEMzTk52ZDhsaWUtY3pNempwV2tmZzE5Rll5M3ZsWHNNX1ZzcGZBc09qRG1NbmUyek04dFFHUTBmRi1hbnNhLURlZUNOWUE5S01PX21PSlNtMjhpV2lTR0VFWk9EOEJreEhPdnBXRUtCVjFJSQ?oc=5"
+    },
+    {
+      "title": "SEC Chair Paul Atkins to Make History as First Sitting Chair to Speak at The Bitcoin Conference in Las Vegas",
+      "polarity": 0.003521885722875595,
+      "ts": "2026-01-29T18:29:17",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/news/paul-atkins-to-speak-at-bitcoin-conference"
+    }
+  ],
+  "negatives": [
+    {
+      "title": "Bitcoin Plunge Could Get Much Worse as Death Cross Gains Power",
+      "polarity": -0.9591533094644547,
+      "ts": "2026-01-29T21:34:38",
       "source": "Decrypt",
-      "url": "https://decrypt.co/356347/gold-silver-liquidations-spike-hyperliquid-amid-trading-frenzy"
+      "url": "https://decrypt.co/356391/bitcoin-plunge-could-get-much-worse-death-cross-gains-power"
+    },
+    {
+      "title": "Bitcoin Hits 2-Month Low as Gold and Stocks Give Up Gains, Crypto Liquidations Top $800M",
+      "polarity": -0.9584337305277586,
+      "ts": "2026-01-29T16:31:47",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/356330/bitcoin-2-month-low-gold-stocks-give-up-gains-crypto-liquidations-800m"
+    },
+    {
+      "title": "Strategy Stock ($MSTR) Hits 52-Week Low As Bitcoin Craters Below $84,000 - Bitcoin Magazine",
+      "polarity": -0.9504882590845227,
+      "ts": "2026-01-29T18:36:46",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83TXZxTWlpVmVsY3F3MXhNaUNVVW9yeWJhZFlaY28tZHJ3SjNPaklObGJxdmV5di1nZG5uSFNLTkpoQUFwLWlJaU51SjFRT1RHelk5Z1EzZWk4cDBCM0o5ZXNvVmIyUTJRVk5xVHh0aDFMUzZPOW9XVWhtMkw?oc=5"
+    },
+    {
+      "title": "Bitcoin Drops Below $86,000 as Traders Retreat From Risk Assets - Bloomberg",
+      "polarity": -0.948481772094965,
+      "ts": "2026-01-29T20:15:47",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONWwyLWxRTUdxbmwxd0FDdFI5eDFOMTQ2X1FrMjI3cmxhMFR1N2NOQU9ubzFTaEtpV01IZDRmMTdrQ3VaWkFIM3Q3VEdqRzZDZ2p2MUdtX3BNVE1OX3NBa0VvZlRnRGRnUUtUMjhvNUlibGdyS2hZTHZLOTBiSEszX3NsNVlodlRkcENSWWEyMFF1VmQwd3A5N1BKcno5UEVYdVZOa1dZT0dFZU11WEQxczBkSQ?oc=5"
+    },
+    {
+      "title": "Bitcoin Hits 2-Month Low as Gold and Stocks Give Up Gains, Crypto Liquidations Top $800M - Yahoo Finance",
+      "polarity": -0.9456572290509939,
+      "ts": "2026-01-29T16:31:47",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hOUxrVXgycFRmakJFWk01YzUyR1BnQW40b3I0ZTgzTTdyRnJmbmVTa1J2M0dNM1Q5emd6Y0pMTVFmOWNNRDU0N2RNaU1CVTFqVm9aOTlQWm4yNWY0M1hZX3Q4Mmx6WHhhNmcwMGRGYWNkenQ0MWZXVURR?oc=5"
+    },
+    {
+      "title": "Why is Bitcoin down today: BTC falls back to $85,200 alongside selloffs in stocks and precious metals - CoinDesk",
+      "polarity": -0.9356067487969995,
+      "ts": "2026-01-29T17:44:33",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQM3RkMlNLTFpkdmQ0NEVYdXdKSUtabVNULXJLLUFZeVdUTWFaZWQ0bnE3VTVONFJpTHlQa3QyNWIxb0V6ZEpXRUpnS3RFY20wOHZSYjNWa3FfRFdzQmZBcDVpWjQ5dy1JZktSWngyZEsxYy1hS1JGbVRNQnZIdzRUeVhYRnItcXZlLWFzUGtJWGtlYkFWcTB1SV9jNzMxVEJxWjk2ZmRSZkY5MHhpZ0hTckdnVXhyaE91VGNjUlFfX05rMl90YnB6NUc5N256aGhZSjNDSndyTQ?oc=5"
+    },
+    {
+      "title": "Bitcoin price slides as gold rallies on weaker dollar - Yahoo Finance UK",
+      "polarity": -0.9308253712952137,
+      "ts": "2026-01-29T09:51:42",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZWFVa2FEcmlaN0UxcW1RRjhuWTR6UzFvaS1VT0wtMnBGNDhMOHotR29yS2k2MEs4UFpRZlVmcGh0SUVTcWhXLXQtOUhDVXlFT3BwTjNXWEY5VWRFVUtzVDVjZkhOR2tNUWxCQ1pCUmRnM202eXpvemVRZ2x4d1lEYnktY0ZXYXdVeXBXajNKRllobFlSLXBNa3hTMUQ?oc=5"
+    },
+    {
+      "title": "Strategy Stock ($MSTR) Hits 52-Week Low As Bitcoin Craters Below $84,000",
+      "polarity": -0.911942838691175,
+      "ts": "2026-01-29T18:36:46",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/markets/strategy-stock-mstr-hits-52-week-low"
+    },
+    {
+      "title": "Bitcoin slides to $85K as global selloff sweeps stocks, tech, and gold",
+      "polarity": -0.8770235702395439,
+      "ts": "2026-01-29T15:43:43",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/bitcoin-market-volatility-selloff/"
+    },
+    {
+      "title": "Bitcoin price dips fast as crypto joins Big Tech in market dive - dlnews.com",
+      "polarity": -0.8714194111526012,
+      "ts": "2026-01-29T18:52:20",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdjg3UGZVTWpVdnVDY3MtUVdId3dmZ21GTkU1aDE2bC1VZV90aHEwbUhONmVHX2ZsSUlRNjYyU181ZnpmTWEzNGgwRHllb19JdTVwOWNLbFZtb1VUVHB2dG9Rb0N4Y0V5VHdzMU51YUZJOUxYWGdlSjFqSnFmSkx1MFFfWjVCRXBrZFJ6VUNn?oc=5"
+    },
+    {
+      "title": "Bitcoin Plunge Could Get Much Worse as Death Cross Gains Power - Yahoo Finance",
+      "polarity": -0.8467610906809568,
+      "ts": "2026-01-29T21:34:38",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPYXJ4SC00SlNwWHFlR1I4UjQ3cWU3TnRITVZzMXpIZ2t6VGlUUmZDU2dQaFI4ZXR0d3FjamhlWHpBV21SUUstc1RnSmVpN2t2RXdzZGJ5S01KTnktbXNKTHpCVlFRd0V1Q0g0NDkwdjMzR3R0dVJ6MmJESFhXNWZ0cDFwdw?oc=5"
+    },
+    {
+      "title": "Bitcoin Crash Incoming? Long-Term Holders Dump BTC in Droves as Selling Pressure Builds - Yahoo Finance",
+      "polarity": -0.8222602754831314,
+      "ts": "2026-01-29T12:17:15",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbGIteDFFeVpUXzk5ZFlHYi1GaGMzLTZBWlRoZnlMQjA1SDBGdFhvVFFkcXVkTEc0SUZXRy1MSzNqYkJYcXkxLXdQYldqNTNVaG13N04xYjdxeWhzbnlycGpJc2JpbGVEQUlEd1pOUURKZ0Y0eXVqSGxoeHFBaHRLZzctQ3I?oc=5"
+    },
+    {
+      "title": "Gold Prices' Rise Could Be Far From Over. Bitcoin, Meanwhile, Is Stumbling. - Investopedia",
+      "polarity": -0.7041812986135483,
+      "ts": "2026-01-29T22:13:27",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVlIwVERDNUtpOTFvUGdndmhCdGppbWkzOU90bGtXMkJSbTNxQWc4dVByVlUxMTBvSFhXN09wU084cEEwZ0l3ek1MY1JnVkRKTThmdVVvb3FuT2dGcnd5azZ5NG9zU1ZJeTNtRGY1YzZEX2hJM2NQRUtSLUpTQUhOa2dQT2taSzhDNU52bWtYcVotdk5fSHZ0Z2Yza0gtLW9ieDdTWVlvMy14c1BJ?oc=5"
+    },
+    {
+      "title": "Bitcoin Price Crashes 6% To $84,000 In Sharp Sell-Off - Bitcoin Magazine",
+      "polarity": -0.4832250028848648,
+      "ts": "2026-01-29T15:43:18",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBQ0pfZXFvR2hyYXhvRzNIS2pKaHhZN2RpWm5DeFgySE9mSDJzYjJYUDQxVE5EOE5jQmJ1bzlUX0dWajZKVWpkaEZEMmxKcE9WdktUME5MN042c1Y2amp1SGxQRXlPUC0zSEpTSzdMdTAzMk5Z?oc=5"
+    },
+    {
+      "title": "Eric Trump Says American Bitcoin Is 'Leading The Charge' In BTC Accumulation \u2014 But Company's Stock Has Cratered 75% Since Debut - Yahoo Finance",
+      "polarity": -0.25989434868097305,
+      "ts": "2026-01-29T23:01:38",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQXpOX3pxVjNCUE1zdUtSSDZucUFYU1lPMTBXc0xOdS02NHAzYXFjV0MwMW1wQUppOWpqY0tZamwxcVNqZVpaZWNYLVpEQ3l2elJwT2hFZHEwX19MUUxuWDFaRGlubVhjZ0I5VTN5dWE5TklUQThESDlpTFAyTUM1Sk1ZN0w?oc=5"
+    },
+    {
+      "title": "Bitcoin Hasn't Had a Bad Day Yet in 2026. Is the Leading Crypto Set to Bounce Back in 2026? - Yahoo Finance",
+      "polarity": -0.12456623837351799,
+      "ts": "2026-01-29T02:25:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAweWxfUkpnSnNTWklTcG5ZZ0syS25GcGV1d3Rab0hwOU5GbkVMc25BNjVoaG82MmJSSGFvNG5waWljX19rNUU2eFJJVFd0WW9KS0dmUEVLN0QzNUxaeDNYV3Noc1pKVVVRUENQVy1SamJWRXdXbEF5bF9ybw?oc=5"
+    },
+    {
+      "title": "Crypto Bros in Meltdown as Bitcoin Crashes - Futurism",
+      "polarity": -0.09421567618846893,
+      "ts": "2026-01-29T23:05:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfWkpOd3ZrekFGMm5fazhjMUl0U0tSZjF0dTdwVmpHTWNweFdrall6Qm5TV3l0azdyUFljUzI0ZFNvUE50SldQZ25jVHZPYWxoOFpkUWRseHowRXk1bmdhYzBiUjBRdzZJR2VNYkln?oc=5"
     },
     {
       "title": "Nayib Bukele and El Salvador buying dips in bitcoin and gold - CoinDesk",
-      "polarity": -0.9763165982440114,
+      "polarity": -0.05127793550491333,
       "ts": "2026-01-29T22:22:12",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLWFiRmZPanNlaVRzVUUxYWY5WW5QRHphZmZBQktFdmtIMVB0WUpYdU1aNnJWUjdDdVBMUlpFVC1wYlJ5T2hwR3Q3QTZWXy1SaXluMmE5VmNqVFhlckZZcHRMdDc2c25SM0FUWWFSM25JU0JnVzViWWxvX0FRNUJpRkI1dWlGUTZmLWRZLVMtdlVDYjRaN2tCNHljYmdFaDVLTWNQS1V3NUFWcXJySC0tdEFxdjZ4ZWowX0RBR3JMRGtuVEdrX1F5cnBnUQ?oc=5"
     },
     {
-      "title": "Japan's Biggest Bitcoin Treasury Firm Just Raised $137 Million to Buy Even More BTC - Yahoo Finance",
-      "polarity": -0.9720940943807364,
-      "ts": "2026-01-29T19:38:45",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRjZZa0pEV3VjQXhMdlRrVW1uNlRwV193ZEVTVHV4OHRfRkxqdUJuTzZuU0tHSmlyUFVYSmx3QUhkVGJjQnRwdzZJVHdJZzBWX0xQWVVod2Qtay1SUVdUMVp1TnplbXhjRFcteVFFZjlidEpuZzhETGRoS2FaSXI5a3FCZzF0bGZPZ1E?oc=5"
-    },
-    {
-      "title": "Metaplanet targets $137M capital raise to expand Bitcoin holdings",
-      "polarity": -0.9393374472856522,
-      "ts": "2026-01-29T12:26:11",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/metaplanet-bitcoin-treasury-expansion-2/"
-    },
-    {
-      "title": "Bitcoin Hasn't Had a Bad Day Yet in 2026. Is the Leading Crypto Set to Bounce Back in 2026? - Yahoo Finance",
-      "polarity": -0.8636540845036507,
-      "ts": "2026-01-29T02:25:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAweWxfUkpnSnNTWklTcG5ZZ0syS25GcGV1d3Rab0hwOU5GbkVMc25BNjVoaG82MmJSSGFvNG5waWljX19rNUU2eFJJVFd0WW9KS0dmUEVLN0QzNUxaeDNYV3Noc1pKVVVRUENQVy1SamJWRXdXbEF5bF9ybw?oc=5"
+      "title": "The yield on yield strategy",
+      "polarity": -0.0022845864295959473,
+      "ts": "2026-01-29T13:02:40",
+      "source": "r/defi",
+      "url": "https://www.reddit.com/r/defi/comments/1qq7yr4/the_yield_on_yield_strategy/"
     }
   ]
 }
