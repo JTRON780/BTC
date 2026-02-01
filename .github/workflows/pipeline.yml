@@ -150,7 +150,27 @@ jobs:
           
           echo "🚀 Creating release: $TAG_NAME"
           
-          # Create release and upload database
+          # Clean up old releases BEFORE creating new one to avoid race condition
+          echo "🧹 Cleaning up old database releases (keeping newest 4, plus the one we're about to create)..."
+          
+          # Get all existing database releases sorted by creation date (newest first)
+          RELEASES_TO_DELETE=$(gh release list --limit 100 --json tagName,createdAt \
+            | jq -r '[.[] | select(.tagName | startswith("db-")) | {tagName: .tagName, createdAt: .createdAt}] | sort_by(.createdAt) | reverse | .[4:] | .[].tagName')
+          
+          if [ ! -z "$RELEASES_TO_DELETE" ]; then
+            echo "$RELEASES_TO_DELETE" | while IFS= read -r TAG; do
+              if [ ! -z "$TAG" ]; then
+                echo "  Deleting old release: $TAG"
+                gh release delete "$TAG" --yes --cleanup-tag || echo "    (Failed to delete $TAG, continuing...)"
+              fi
+            done
+            DELETED_COUNT=$(echo "$RELEASES_TO_DELETE" | grep -c '^' || echo "0")
+            echo "✅ Pre-cleanup complete - deleted $DELETED_COUNT old releases"
+          else
+            echo "✅ No old releases to delete"
+          fi
+          
+          # Now create the new release
           if ! gh release create "$TAG_NAME" btc_sentiment.db \
             --title "Database Update $(date '+%Y-%m-%d %H:%M UTC')" \
             --notes "Automated database update from pipeline. Contains accumulated sentiment data." \
@@ -161,27 +181,6 @@ jobs:
           fi
           
           echo "✅ Release created successfully: $TAG_NAME"
-          
-          # Keep only the 5 most recent releases (cleanup old ones)
-          echo "🧹 Cleaning up old database releases..."
-          
-          # Get all database releases sorted by creation date (newest first)
-          # This is more explicit: we list, filter db- releases, sort DESC by date
-          RELEASES_TO_DELETE=$(gh release list --limit 100 --json tagName,createdAt \
-            | jq -r '[.[] | select(.tagName | startswith("db-")) | {tagName: .tagName, createdAt: .createdAt}] | sort_by(.createdAt) | reverse | .[5:] | .[].tagName')
-          
-          if [ ! -z "$RELEASES_TO_DELETE" ]; then
-            echo "$RELEASES_TO_DELETE" | while IFS= read -r TAG; do
-              if [ ! -z "$TAG" ]; then
-                echo "  Deleting old release: $TAG"
-                gh release delete "$TAG" --yes --cleanup-tag || echo "    (Failed to delete $TAG, continuing...)"
-              fi
-            done
-            DELETED_COUNT=$(echo "$RELEASES_TO_DELETE" | grep -c '^')
-            echo "✅ Cleanup complete - deleted $DELETED_COUNT old releases, kept last 5"
-          else
-            echo "✅ No old releases to delete"
-          fi
       
       - name: Export data to JSON for GitHub Pages
         run: |
