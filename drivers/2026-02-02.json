@@ -2,11 +2,25 @@
   "day": "2026-02-02",
   "positives": [
     {
+      "title": "How I\u2019m positioning my crypto portfolio for the next bull run (planning a ~30% exit late summer)",
+      "polarity": 0.02935905009508133,
+      "ts": "2026-02-02T02:56:32",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qtj84k/how_im_positioning_my_crypto_portfolio_for_the/"
+    },
+    {
       "title": "The Bottom is IN here at 76k BTC",
       "polarity": 0.016878245398402214,
       "ts": "2026-02-02T00:13:42",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qtfj43/the_bottom_is_in_here_at_76k_btc/"
+    },
+    {
+      "title": "Buying Bitcoin for retirement, er not right now.",
+      "polarity": 0.009782698005437851,
+      "ts": "2026-02-02T00:31:53",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1qtfyf4/buying_bitcoin_for_retirement_er_not_right_now/"
     }
   ],
   "negatives": [
@@ -18,6 +32,27 @@
       "url": "https://cointelegraph.com/news/strategy-hints-bought-bitcoin-after-weekend-crash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "title": "Crypto selloff is likely due to US liquidity drought: Analyst",
+      "polarity": -0.9459393993020058,
+      "ts": "2026-02-02T03:33:17",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/liquidity-drought-hurting-crypto-markets-raoul-pal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Bitcoin price today: slips to $77k, near 10-mth low amid liquidations, Fed caution - Investing.com",
+      "polarity": -0.9387882417067885,
+      "ts": "2026-02-02T02:32:52",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOaFRHNlZSNEJMVXNsc1lkdGl6Tmt0cG5xUDVqQXVaaEhlVWRRbWZnOHAxUXN5OEY1bEtweXJ0OUktc2NUcU1hSUdxN011UHdNZHJWSDBJcElhTTY1OXN3bWRERXZIOUEwemJvMDNHOFBPTzVsQmlxU3lYbzcwOUhZUWJjaWk0bjR4QmxDOFNXMGRHTDhMaXo5dG1nMi1CUi13NmdSMENoT0ZpLVRaWnpBcTBZV3JsRjZCbXNmc1Y2bVExOWlhNERPNXhnOUpxaW9OaWc?oc=5"
+    },
+    {
+      "title": "Bitcoin plummeted to $75,000, triggering a wave of liquidations across the entire network. What exactly happened? - \u5bcc\u9014\u725b\u725b",
+      "polarity": -0.8979541957378387,
+      "ts": "2026-02-02T02:31:12",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeF9raU5SM3o5ZlVGN252V3VCYWZ6YjNlLWh3eUFiVVBjTEpMbnNiLVJ1c3dkTjk0TVBLenpPblZhQTBmNDV5dUxGQ3F3aTdVY1lzeTdUUWJKM1BsLW1Tc0N2Z0VjaVNuLW1LcjVrTDR3aGZOenZta20tRzhpSE1iT0hLV1JzS281SFVFMkxjVk1JSlJVYzl1VUNvN3NYNWN2YUo3c3NLZGQ3NVFE?oc=5"
+    },
+    {
       "title": "Key facts: Bitcoin price drops below $80,000; $5 billion liquidated - TradingView",
       "polarity": -0.8670712783932686,
       "ts": "2026-02-02T00:02:00",
@@ -25,11 +60,67 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdjlmbmY2QUJuSjBwb0pRWVh4QVloRFVjMVVGdVZDdzJrYVM2ZmtPN1pramVtUEU5dmNkeklvRDdiUTFwb1RueF9QLUlmVnZEdzhWSWNVaUhtYXIwbXRjVnRwNTRwNHZqTGZlR3NZVzkxN094Wm1seVBMVkVBX3VaNFhKVEtuNzB1dlFzTHhGVTFueW5qZW5fSnNHOUIyb0hOWlZvTTZLS3BiYUJDZy12ZjI0OWpzU09zdFpvcU1nVk9vZEU?oc=5"
     },
     {
+      "title": "Bitcoin holds below $80,000 as January prediction contracts miss liquidation-driven slide: Asia Morning Briefing",
+      "polarity": -0.7833695486187935,
+      "ts": "2026-02-02T02:34:21",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/02/02/bitcoin-holds-below-usd80-000-as-january-prediction-contracts-miss-liquidation-driven-slide-asia-morning-briefing"
+    },
+    {
+      "title": "Bitcoin holds below $80,000 as January prediction contracts miss liquidation-driven slide: Asia Morning Briefing - CoinDesk",
+      "polarity": -0.7367113828659058,
+      "ts": "2026-02-02T02:38:58",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNd1huTldMSWJoUnVRTk5MQmJQbWtsanJWNmJQMzBIOGY5ZzF4czdva0pYT3BQUFh3TXcybHVyUnBMMmc4M0hpbjVoZmZmNVdvVnRqNzJHa0NsV2JfbUdGbFV4VjQ1SG5iZXBYSUdaMExja3VYbkxlcGhOT1FubHlSUl9vTms1ZHZMZnZhWmhKRUxZVGowa05HWktkRXQyU0pXc3JkWFM3SXR6cTFlaEFUc1VjTm51eDNZMWV0OW1YcW85X1IxM3QtMDkxUUQyWjEyNnJ4N1QtTFZqR2dxdUxLRzZOS05fVmJLZ2Y2aUhn?oc=5"
+    },
+    {
+      "title": "'This is absolutely INSANE': Bitcoin\u2019s weekend crash exposes the cracks beneath crypto\u2019s latest boom - CoinDesk",
+      "polarity": -0.6231869608163834,
+      "ts": "2026-02-02T02:32:54",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQYkpxS2VtV00zWWl5VHJBNDlyTXVFSjlNY1BQYVlmQU9UOHBNZGVic1kzSDRjTWdjbHl5dm5VRl80Wjd5NXdxbl9XTmpTOGhfWUM3T3hfVWtxdFhTeHV4T19BT3gwVWhhMEl3U21kZG5JNFlsWmVORWZDMFlXQ2o2QUs4WEpHLXFBWVBnemFlZWY3YzJaZVFHSUcydzlnQ19WUVJoVU1GanA1U2xmQ2VPQ3Z2el84WTdrWVQ0YVRDVmhocXJlRngyeTU3LWFQdVdqcFZWTjFoUDg?oc=5"
+    },
+    {
+      "title": "Bitcoin Slide Deepens as BTC/USD Squeeze Risk Builds - FOREX.com",
+      "polarity": -0.43293050676584244,
+      "ts": "2026-02-02T00:10:04",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZnFubkhpT1ctT2tNdlMxQV92dERTQjNVejEzcjZJdHItSTJ0X3V1czV2T2xNVmd2TU1OY01UREVHaGtfWUpoc2Z5X0YyMUpHTWtkcUpZcXV5T1JUck94ay1LN0FkMFowc3Rfc3Bjdl9jaXQ4RnlvVFcwOERqdHkwRWdNM3Z0a3VFU3BTUGVEMml2M1NhWE1PX3ZDYVVkVy1C0gGsAUFVX3lxTE1wdFpyWHUzVHFZNnNWSnVPZnBtZXV6V0R0VTV6eF9FbDcxU1JPdkRGMGxqXzNGenFmd3FBRVVSOG1SVDc3dmtZV2VQXzA0aVJ0S1BoV1hwOThIbFN3WmxUa1RnckllaTJ5RUd3TWpnSklfb3FjV2xWbkhfYjZQWjRqN0lXcXhCYmhtc3o3d2syVkQ3dzVTa1VpSGhkX3hKTFVhRkd1OVNLd296V1c?oc=5"
+    },
+    {
+      "title": "'This is absolutely INSANE': Bitcoin\u2019s weekend crash exposes the cracks beneath crypto\u2019s latest boom",
+      "polarity": -0.3549397885799408,
+      "ts": "2026-02-02T02:03:15",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/02/01/this-is-absolutely-insane-bitcoin-s-weekend-crash-exposes-the-cracks-beneath-crypto-s-latest-boom"
+    },
+    {
+      "title": "Strategy\u2019s Saylor signals buy after BTC briefly dips below cost basis",
+      "polarity": -0.28238391131162643,
+      "ts": "2026-02-02T02:16:15",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1qtibgr/strategys_saylor_signals_buy_after_btc_briefly/"
+    },
+    {
       "title": "Bitcoin Plunge Shakes Treasury Firms, Pro-Crypto Fed Hopes - \uc870\uc120\uc77c\ubcf4",
       "polarity": -0.24663004279136658,
       "ts": "2026-02-02T00:05:23",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUVJLZ3hjbTNKWW0xREgtSUdMZ0h0WVZPQXZoNTExbjVqYW1IeUFqTGp0VWYyeVdaSlZFRVphWnV5OXBabHJwM0xKaUN5dk56Ykt4eEY3V0JXVGFpYmhFXy1vamt2QnpGSmN4dHFlTVdzS2hxZmlSRFZxQ21RMUR2SmxuRjIwWVJDcUZmWkVB?oc=5"
+    },
+    {
+      "title": "Tech chipping away at physical scarcity makes ETH's protocol-enforced scarcity matter more",
+      "polarity": -0.16614963486790657,
+      "ts": "2026-02-02T03:28:34",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1qtjxqz/tech_chipping_away_at_physical_scarcity_makes/"
+    },
+    {
+      "title": "Bitcoin's Fall, Why Now Is The Time For A Contrarian-Long IBIT Play (NASDAQ:IBIT) - Seeking Alpha",
+      "polarity": -0.02953251451253891,
+      "ts": "2026-02-02T03:26:25",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObUZOWXJQejhrUktUTXNKX1FQcG9GSDV2aTkxMlcyYlZxMExNYWk4MUl5WkF4bWNmN2JiUGFZZ1Z6Z19qb2dYazhNUW5oS0pveVVTUWZvbWF3cVZoWkEwNVEybTROb1pLV0p5WkpSdnNXeGJhbnVhdFRfZnhoM3RCcWFtZ0ZnMWpKN3lyZmQ1bGIyNWlWVUd4YXEydTNxRDVCNVZGUzdud1p2UQ?oc=5"
     }
   ]
 }
