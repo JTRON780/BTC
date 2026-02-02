@@ -2,6 +2,13 @@
   "day": "2026-02-01",
   "positives": [
     {
+      "title": "Stock Buyers Emerge as Gold Selloff Cools Down: Markets Wrap",
+      "polarity": 0.7979898229241371,
+      "ts": "2026-02-01T22:40:41",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-01/dollar-firms-stocks-look-weaker-as-sentiment-ebbs-markets-wrap"
+    },
+    {
       "title": "Analysts divided on Bitcoin bear market calls as prices inch up from $77,000 - dlnews.com",
       "polarity": 0.6495997607707977,
       "ts": "2026-02-01T11:49:31",
@@ -169,7 +176,7 @@
       "polarity": -0.9599211774766445,
       "ts": "2026-02-01T23:23:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxQYXo4MmtfbmZEZWZjcjY5WTZKd19kWUhueGI2amVnWC1uYlRUNkhzTFJub2w1UjBLcjdKbEMtZzFpWWF0dzF4c1ZfVW5zTUluMWp4cExkQVZYbkItdFhhS1JrZDU0VGtOLTZoYzN0cjI4S1VGUnVPX2VERTBCVU9JLUJkdnc2T0Y1d0s4QWFHd1BBcnViVDVmNG16Q3dyc3hpelI3RnFSWW1USl9kWFpxUkNMUU1UMXB4VEd3VXctQzNveDhuWl9rRENsUmVVQ0pkZmQ3U084ckVxckRSQU9sa1gtQTNOTUhsMm5jSl9OQzFqakhkSWR6YnkxRWtuQ0NOMFFuZ19hZFUxZEpsa2VLMmZQY0RpN3dhUExrQ05lamlJdnpGRkRRNWMyM1BReWd5bGNIcjdLLU84cHZFLXBMMjYtUlNZRTE1SWs2NkdVcmlsNGNmVFl5TFZsdU5iaEVpN1lTZnBJTDR2UmtHSHY3a2JYYk1PbWpLUV9VZjl1RHpXcFh1SmtXTzVXbzJlYkNCaFpKb0ZQS2d5RkU3bEY1d21NZmRDdw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNWEh2VXE5ZGhIWDRicENlVWtaajg3d2VSNG5XVG5iQWtfZUJJeWUybnlJaHViS25MUlYzUXByVTlEajlkNERJeURLUzNRY3lRSDVaS3FSNkxUVi05MnRyWi0wXy03djRGTGNyaS1ydUN5MGstT1ZJMkpsQVRGSVJEaGwycW1hNGpxR1N4a0QwUDhRVzZmcnQ4ZEFSV1hVYVROb2tlQXZoQ2xaLWlnTU5yS3NDdUI4RTVrcy1tTEdDcEljY0tWRW16eV9mdURXZ0RLNVBJWkRSWXJXZlM2VW13WVMzQ1Z6UVhZQTY3WXcwWmExWnlRVzdZYUl1RklWMXljMlFTd3RsTmxCYlpZNnMxZ1Ita3M3NUdzVDIxa1V0UWs5bnhwSWRuZk9tb2RLaDFWQmdXaHFpaVprMm02TEZuXzdiYWRsZ2R5THZ6RGUxRWZBaUxuaExuZjFNUE9WbUJxOE43NDF4dkxWV21OWjFvNWRvMThRNTlYSVlWRG5FWkZZM3BHVnN4OHZKVjdqTDFKSm5wZFlNM2NaSnlxNlU2VnJGYlI4dw?oc=5"
     },
     {
       "title": "Bitcoin sell-off pushes IBIT investor returns into the red \u2014 asset manager",
@@ -191,13 +198,6 @@
       "ts": "2026-02-01T06:38:05",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/02/01/bitcoin-drops-to-usd78-000-as-microstrategy-fueled-rally-runs-out-of-buyers-traders-say"
-    },
-    {
-      "title": "Stock Futures, Gold Pare Drop as Bitcoin Steadies: Markets Wrap",
-      "polarity": -0.9478805977851152,
-      "ts": "2026-02-01T22:40:41",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-01/dollar-firms-stocks-look-weaker-as-sentiment-ebbs-markets-wrap"
     },
     {
       "title": "MicroStrategy Doubles Down on Bitcoin Despite Recent Price Struggles - Yahoo Finance",
@@ -330,7 +330,7 @@
       "polarity": -0.4559192359447479,
       "ts": "2026-02-01T21:36:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxPeGtPNGQwTVVyOUtLejZvMnM0Q1k3QmVNOUdqd3dvcUMyMTBpSDVqdlVoUG1QSmlTenhlOWFNLWpFZTFtWkplNDI0UmMwdEpGYlB6dy1VSGtPb19aeDVRVnhPa25lTHdqVE5ELS1NdkRlRjN0TlNSUzZJbG5TaThDUjdmOE5LUXJrNDcxQnF1T3IxTS0tOTk4NW5KaWlQM002VTgwZmVKZmdCQkYzWWxiQmxrU3hMV0hEMkE1OFVURW9sYm0yNkNxdFZ2bzNpOHYzX2JUNGFJQUcweWJqMFJWUkFaUXJPLWtvRThwUlh3Y3dya0tHTEh6TW1FYVQ0Q2l0aVFlRnE4Uml0VU5VY1VjYVpoRlZOOU5oTEpFSFc1cXotT2VBdWNOakpqbnd1WXhLUWtGNFhHX3M0Y3laTUFmc0l6LWc3c1A4U0NoUGhJdlY1Y3YwZy1CaUdhdjJjclhKZTZ6eGNnMGVmX2hpbDJIMHZpa2RYb1ZKbkptQWNWVnpHM2E4ZlZzUzV4WmpZRi10?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxPc2JkVFdlWjdhTnAwNjZXTHhwNWhPTEJiN1ctbEJiV3hYaElWZV9RdzFGd0YwaDJuWV9KQ3BCQmVtRVdxU3dhRTFrNGlpazdnbWg5QXNnazVIWUpMZ0tjeFlCWlBZY2FFM1VwSkNkUFpseEFHd2swb0c2d0FRYk8xSDN3TF9USGJiU3B5bE02VlI3NXhoUWxBN00zcTR0bVpoMTFndko1aGpNazZUTGRLQTlWMktlRW1kV0Vrb1V0cmdzM2NZSlMyTFRIY0N3eksyaXhqTUVTLUlIelRSUDNoRlFUZ3daNUdLT1MtNWQ5UERwckdHdzhCbHZ6clE3SjIwNnYwekdKWl9EQjJ6Qy00WWE1dHd5NHVTWS1KUlJXUkNlYi1DYmJYNXNvSEc4Tmo3MDA4VDVuTW5QQ3lRNGUzOXVtY1FvLTRyVlRfMHRCOTFJTWdGZmkteDBDOXprczQwR1g3ZmpYeEJEYWFUaEVxeVZiQUpnWVMtQWw5bWE5S185MktfWmhScnJqZU1mSnFO?oc=5"
     },
     {
       "title": "Binance is stuck in the middle of a $19 billion conspiracy theory\u2014and it's killing bitcoin's momentum - CoinDesk",
