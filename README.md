@@ -1,6 +1,6 @@
 # BTC Market Outlook
 
-A real-time Bitcoin sentiment analysis dashboard that collects data from news and social media, analyzes it with FinBERT, and displays insights through an interactive web interface.
+This is a serverless, automated Bitcoin sentiment dashboard that tracks market sentiment using NLP (FinBERT) on news and Reddit posts. It runs entirely on GitHub infrastructure (Actions for backend, Pages for API) and Vercel (Frontend).
 
 **Live Dashboard**: [btc-delta-one.vercel.app](https://btc-delta-one.vercel.app)  
 **API**: [jtron780.github.io/BTC](https://jtron780.github.io/BTC)
@@ -135,7 +135,7 @@ GET /drivers/YYYY-MM-DD.json    # Top posts for specific day
 | r/cryptocurrency, r/bitcoin, r/BitcoinBeginners | Reddit | Hourly | 8 subreddits |
 | CoinGecko | Price | Hourly | 1 API |
 
-**Bitcoin Filtering**: Posts must mention "bitcoin", "btc", "satoshi", or "sats" to be included.
+**Bitcoin Filtering**: Uses strict keyword matching (`btc`, `satoshi`, `lightning network`, `taproot`, `ordinals`) and negative lookahead patterns to exclude posts primarily about other cryptocurrencies (e.g. ETH, SOL) unless Bitcoin is explicitly discussed.
 
 ## NLP Model
 
