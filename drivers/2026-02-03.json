@@ -1,7 +1,36 @@
 {
   "day": "2026-02-03",
-  "positives": [],
+  "positives": [
+    {
+      "title": "Improving the DCA strategy, Bitcoin example.",
+      "polarity": 0.06475958973169327,
+      "ts": "2026-02-03T01:08:36",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1qudu5w/improving_the_dca_strategy_bitcoin_example/"
+    },
+    {
+      "title": "Bitcoin price news: What next as BTC, ETH, SOL rally 8% from welows - CoinDesk",
+      "polarity": 0.05460073798894882,
+      "ts": "2026-02-03T04:42:55",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVl9VdjJGS3VBa01aTWhpVXdGOGNSY1dLaVR3NXk2Uk9LWERrMkYzOWRGVFQxRUp2X3h2WmEyUVFFcWhQRlhSby1qWDJaNmlmdGhtVjZQUVQ0cm5ZNUxtX2JUeGFpcGt4aGdqWkdsSllOTk5MNkZLUXJBTjdXeUhtMFJwRG9MOFBKWTJLdnlXWmVKUW51SDlVX2VHUEtqQzRXam91aVlmMEdjbE9oa0pKMjZvdVlDVUJ4?oc=5"
+    }
+  ],
   "negatives": [
+    {
+      "title": "Bitcoin Stalls After Weak Rebound as Options Signal Caution",
+      "polarity": -0.9222936853766441,
+      "ts": "2026-02-03T04:38:34",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-03/bitcoin-stalls-after-weak-rebound-as-options-signal-caution"
+    },
+    {
+      "title": "Bitcoin supply in loss signals early bear market conditions: CryptoQuant",
+      "polarity": -0.7825544159859419,
+      "ts": "2026-02-03T03:57:17",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/bitcoin-bear-market-signals/"
+    },
     {
       "title": "ISM Manufacturing PMI at 40-month high: Analysts say BTC could benefit",
       "polarity": -0.6080041527748108,
@@ -17,13 +46,6 @@
       "url": "https://cointelegraph.com/news/bitcoin-flash-crash-recovery-to-dollar100k-may-take-6-months-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "title": "Crypto bear market is nearing end, with $60K as key bitcoin floor, Compass Point analysts say - CoinDesk",
-      "polarity": -0.3077949360013008,
-      "ts": "2026-02-03T00:50:47",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMEtLekU1Q0MtUGNidGlCM1NrZXpKdlI4Y1hiU3NRVlViNV9hWjRKSjI2Y1FTRE9EeEdlYXRSYzh6Zkt4SnRFVjBoQmVsZmVmdkQ5ZjUxTGRab004MUMxMzMzYmVPbG5WMHVtcmpLNTVHMGVfbkxWdVRUdTE2RDZWWXoyc2hVWHZwTkRjcmZoVDBIdXJCWVpDX0hlUXBZbHdkX0xtMlZOUWtVVjBxdUxvcEF4bWh1elBmQjZ5bmxpZUFGZnlEMXFBRnZMazlrZFN3cWNr?oc=5"
-    },
-    {
       "title": "Crypto bear market is nearing end, with $60K as key bitcoin floor, Compass Point analysts say",
       "polarity": -0.16182279959321022,
       "ts": "2026-02-03T00:47:21",
@@ -36,6 +58,27 @@
       "ts": "2026-02-03T03:08:45",
       "source": "r/CryptoCurrencyTrading",
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1qugl8r/market_whiplash_is_back_etfs_sell_whales_buy/"
+    },
+    {
+      "title": "Rule #1 of Bitcoin: stop treating it like a stock.",
+      "polarity": -0.04338238388299942,
+      "ts": "2026-02-03T04:42:29",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1quijmo/rule_1_of_bitcoin_stop_treating_it_like_a_stock/"
+    },
+    {
+      "title": "Musk's SpaceX\u2013xAI mega deal sharpens focus on bitcoin accounting ahead of IPO",
+      "polarity": -0.03442857787013054,
+      "ts": "2026-02-03T04:53:36",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/02/03/musk-s-spacex-xai-mega-deal-sharpens-focus-on-bitcoin-accounting-ahead-of-ipo"
+    },
+    {
+      "title": "What happens to SpaceX's $650 million bitcoin after mega deal with Elon Musk's xAI - CoinDesk",
+      "polarity": -0.02716740220785141,
+      "ts": "2026-02-03T04:57:55",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaTVKdFBUelE4dEpsZHo0Z1dINjc0R1BlNWRtZHBqY1IzREpvOEpHUzNPUjNxakxJcG9VVllSOVFfakhWOTRTby1fMVNPenBUeWl1RDQ3OGRnSkc1djFNaXNOTGJRNHU1RXppYXNiWTR4T3h0WGdRMGJ2TGdod3VUR2JvT3BzeUhIZnlEWVAtWEo5cnBJWlVqVWNGZ2JDVl9mZERDZ3c3RGh5cEUzaFlQdC1yZG1sclpXUzBUMW9R?oc=5"
     }
   ]
 }
