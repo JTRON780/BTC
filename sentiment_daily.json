@@ -228,48 +228,48 @@
     },
     {
       "ts": "2026-01-31T00:00:00",
-      "raw": -0.32883083403188074,
-      "smoothed": -0.32883083403188074,
-      "n_posts": 100,
+      "raw": -0.3223450310430241,
+      "smoothed": -0.3223450310430241,
+      "n_posts": 99,
       "n_positive": 20,
-      "n_negative": 80,
-      "directional_bias": -0.6
+      "n_negative": 79,
+      "directional_bias": -0.5959595959595959
     },
     {
       "ts": "2026-02-01T00:00:00",
-      "raw": -0.3125172453161252,
-      "smoothed": -0.3125172453161252,
-      "n_posts": 61,
+      "raw": -0.3100087556841376,
+      "smoothed": -0.3100087556841376,
+      "n_posts": 60,
       "n_positive": 22,
-      "n_negative": 39,
-      "directional_bias": -0.2786885245901639
+      "n_negative": 38,
+      "directional_bias": -0.26666666666666666
     },
     {
       "ts": "2026-02-02T00:00:00",
-      "raw": -0.3918954278097342,
-      "smoothed": -0.3918954278097342,
-      "n_posts": 29,
-      "n_positive": 5,
+      "raw": -0.3548740469468911,
+      "smoothed": -0.3548740469468911,
+      "n_posts": 31,
+      "n_positive": 7,
       "n_negative": 24,
-      "directional_bias": -0.6551724137931034
+      "directional_bias": -0.5483870967741935
     },
     {
       "ts": "2026-02-03T00:00:00",
-      "raw": -0.3744936599612751,
-      "smoothed": -0.3744936599612751,
-      "n_posts": 88,
-      "n_positive": 20,
+      "raw": -0.39533396450667996,
+      "smoothed": -0.39533396450667996,
+      "n_posts": 85,
+      "n_positive": 17,
       "n_negative": 68,
-      "directional_bias": -0.5454545454545454
+      "directional_bias": -0.6
     },
     {
       "ts": "2026-02-04T00:00:00",
-      "raw": -0.5975766752020155,
-      "smoothed": -0.5975766752020155,
-      "n_posts": 12,
-      "n_positive": 0,
-      "n_negative": 12,
-      "directional_bias": -1.0
+      "raw": -0.30956265571460667,
+      "smoothed": -0.30956265571460667,
+      "n_posts": 19,
+      "n_positive": 5,
+      "n_negative": 14,
+      "directional_bias": -0.47368421052631576
     }
   ]
 }
