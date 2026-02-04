@@ -16,13 +16,6 @@
       "url": "https://bitcoinmagazine.com/markets/manufacturing-data-positive-as-bitcoin"
     },
     {
-      "title": "Will GameStop Dump Its Bitcoin? CEO Says \u2018Way More Compelling\u2019 Move Ahead - Yahoo Finance",
-      "polarity": 0.05673816613852978,
-      "ts": "2026-02-02T23:10:04",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQY3UxRkpUd0EwOE9DY0VNRXFQRWtQY01KSklBWkZDRWkwcmtfaGtIU1dQY1NkZzdwaFFsZ0Vicjc2d2J0aEEyWG96OW5semZOMHhLdmFvMnBhRE9jb0k5QW5JelVDNTV2WnpWWnVYNVV1aXpmNnpKRmhCaEJiNjJIeGhn?oc=5"
-    },
-    {
       "title": "The Bottom is IN here at 76k BTC",
       "polarity": 0.016878245398402214,
       "ts": "2026-02-02T00:13:42",
@@ -46,13 +39,6 @@
   ],
   "negatives": [
     {
-      "title": "Bitcoin Traders Swing Bearish as BTC Price Languishes Below $80K",
-      "polarity": -0.9590688711032271,
-      "ts": "2026-02-02T19:20:44",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/356605/bitcoin-traders-swing-bearish-btc-languishes-below-80k"
-    },
-    {
       "title": "Strategy\u2019s Saylor signals buy after BTC briefly dips below cost basis",
       "polarity": -0.9522959208115935,
       "ts": "2026-02-02T00:39:41",
@@ -65,6 +51,13 @@
       "ts": "2026-02-02T21:45:44",
       "source": "Decrypt",
       "url": "https://decrypt.co/356677/bitcoin-price-extreme-fear-how-low-will-it-go"
+    },
+    {
+      "title": "Bitcoin Pullback Exposes MicroStrategy to Around $1 Billion in Paper Losses - Yahoo Finance",
+      "polarity": -0.9177848473191261,
+      "ts": "2026-02-02T06:11:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVWhvSllRT2k0bUU1UUI4aTFYa3IzeWd4dUJiblYyRmd2NGphcE5SQnhXRHJBS1d6dWpQdFJwS3ZIQWNCdVpMRmdObEt5bDFmbmdiS01zNUVYZ2I3WTg5cktHX3UxNHVYeVlZRGFhVGZOTEEwRnNLQXdtbkYwUjhBNmVKbXhtV0tVM05EZVNQaWtRNU9XQ2c?oc=5"
     },
     {
       "title": "Strategy slides after bitcoin briefly dips below crypto firm's key breakeven level - CNBC",
@@ -102,11 +95,11 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMU13a29XOFhock9EbUF0ay1HNlpRWkJweDJFSmNpU1YwNlZTWjhSTW52N0szQ1dERmxiZ3liRnBsTjBWOUhwcVIwVnd1dW5KbEVISUxmVEpoX3QtVFJITk0zN3RnUXJpVjA4bXJCR3Z6OGtocWVFbnVPZ3UwVGJtNFJjREFPU0dvbkE0d0ZyMnBmY0xXVllpX3J3cE0tcFBZZXJzY1FMZm1lODRwZ2s4Mnl0by1aQzlvOHhCYzRvVQ?oc=5"
     },
     {
-      "title": "Gold prices, bitcoin slide lower: What's driving these sell-offs - Yahoo Finance",
-      "polarity": -0.7256698086857796,
-      "ts": "2026-02-02T22:30:00",
+      "title": "Major Bitcoin miner faces bankruptcy as CEO put under house arrest - Yahoo Finance",
+      "polarity": -0.6257452555000782,
+      "ts": "2026-02-02T17:11:39",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObWxkZXk3SFU1OXJoNHBON1c2a1hkSzFfVFAtcDNkc1FKanI3RFAwY3dmdExGOGdVRTRMZldDWUc4RUw0MzNnalA5ZlAtX3JISzlOTXBRcEtJSXFYaGw0b3Q4ZjVpZmxSUGhkMUJwMUM4MzllQ2szSGhIa3p4RUpzdGZUd3k?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcVE5TUVRZVZCeUZQZWhrN19lUFcxZGt5ZWt3ZVp1azR0SlNZc0UwdFhpMDFFNmdaQ0xzTlYtLXRpZUJZZGdZU28xbGpqdkF6RnRBRF9uRHpUZVdBRlA4clprd21Ud2YzTEF5NW15MUp4dE5uTi03a3VxUW9QbU1ab2wyS0FHY01Fc2c?oc=5"
     },
     {
       "title": "OKX CEO Blames Binance USDe Yield Campaign for October 2025 Crypto Market Crash - Crypto News And Market Updates | BTCUSA",
@@ -130,6 +123,13 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSXJ3RXpXZXhDdDZ4by1UbkpMRUEzY29scUVkVUdFSUJtRGR4dUJQWU5QZmo4U2plZlgzX2F5MEIyS3MySjFCM3ZwWWlNU0N3VU1wQkhYY2QwNEFLeFRoTGMxMEFLN2pJR0lRWHpVd0xmdnJRTUpIeXNLZWZaR2F5TGVERQ?oc=5"
     },
     {
+      "title": "Bitcoin price to $10,000 as markets barrel towards crash \u2018reminiscent of 2008,\u2019 Bloomberg analyst warns - Yahoo Finance",
+      "polarity": -0.34588363766670227,
+      "ts": "2026-02-02T09:25:47",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFNXh1Rjc5Ni1SYjE3Y1Vzd3hEenpjSkUtcDRubHdUUHo5LVBJMl9PZlNLNG1XTzNoZXNjcEloNmN0X2pXZy0tRXJfSkRFS081WVZmcm12ZjZlbWlELWU0OGN6T2N2ZUJUazN2YU5XUmYwNUM1Mm10M1RNNE84Y1U?oc=5"
+    },
+    {
       "title": "Bitcoin Plunge Shakes Treasury Firms, Pro-Crypto Fed Hopes - \uc870\uc120\uc77c\ubcf4",
       "polarity": -0.24663004279136658,
       "ts": "2026-02-02T00:05:23",
@@ -137,11 +137,25 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUVJLZ3hjbTNKWW0xREgtSUdMZ0h0WVZPQXZoNTExbjVqYW1IeUFqTGp0VWYyeVdaSlZFRVphWnV5OXBabHJwM0xKaUN5dk56Ykt4eEY3V0JXVGFpYmhFXy1vamt2QnpGSmN4dHFlTVdzS2hxZmlSRFZxQ21RMUR2SmxuRjIwWVJDcUZmWkVB?oc=5"
     },
     {
+      "title": "Michael Saylor\u2019s High-Stakes Bitcoin Bet Faces Fresh Strain - Bloomberg.com",
+      "polarity": -0.17978454381227493,
+      "ts": "2026-02-02T15:04:35",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYXUtY20xb0RmUGlBTVNtWFl3RzVuMHN0NWV5d2FGcS1ZLWpfQzRGRUk2ZHhLa1FHUHZvOUtxNHh5aV9ueEY0MnZzMDU0X09CbWRZMzhjRDM0cTItNktNS2UwWFpZLV94dFQwX3d2a3pfOVJ6Z0NHb3Y0YWJxZE8xY0VvVWsyLXNJZnJwQkZGV1FCeWs2ZEtuQ1lrUldPWGVGRUlwbmVkRGFOWHRLTkJZ?oc=5"
+    },
+    {
       "title": "Why has the price of bitcoin plummeted? Experts explain - ABC News",
       "polarity": -0.13819872215390205,
       "ts": "2026-02-02T22:45:13",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObGpWeEJOQ3BOTExZTVcyUE4td2dWYm93TjY1SjV4UGlGM3RKR1JSSU5nRGFXSG55YU5zcU9IZ3AwN2RQcEwzWDVETnhsa2tpeEhPazV1cWpkbDRsNFVUOXV4MnRSTzk3dnRkSmgzSU9aV09UZkRYVU1DR2lNUXdwRUE3NmJ1bWlVMVRMZS1ob3pwZU5W0gGaAUFVX3lxTFB6WWhmMXJSaEl1Zzl6dnFna2t5SEdBNFFkNEpuSmdnWDZsb2wyOGp1dzNNMHpSRHhqLTE2SWYyUUEzTkxGa0xXTXBIOVJITVVuQ3FNUDZMdFl0cHp3Q1dnNTZFc1lpcGp6NUZsbWpxeDVBeklyRW1YMG9DTEVVZlBOcTFwNG42WFpUNm1sQ0VWNHJnMkhGTnhGOGc?oc=5"
+    },
+    {
+      "title": "Bitcoin ETF Buyers Sit on Losses as Crypto Conviction Fades - Bloomberg.com",
+      "polarity": -0.1288443375378847,
+      "ts": "2026-02-02T21:40:08",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUUJ0Q2hfRmNMTy16dGFJa1pPdTB6UWpnUlhXVXhtUE1lVUJiQlJDZFVnOU1zdlQyU3FfeEM0SWZ4YWg3R294S0YtaElPdzhHM3l4R1NUQzB5VTFVQzNXN2JfT3drd2tQSURjUWh3cjI3RnRGRnBTQUZkWTBWYUI2a25WWElmbWVlVmpSb05faUVVM1NsQnhNTzBUTGhEb3ZZRHpDYi1VTjlZaUVGWUtr?oc=5"
     },
     {
       "title": "Argentine Crypto Fugitive With $56 Million in Bitcoin Arrested in Venezuela",
@@ -184,6 +198,13 @@
       "ts": "2026-02-02T16:54:26",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/print/the-core-issue-letter-from-the-editor"
+    },
+    {
+      "title": "Bitcoin Selloff Knocks Strategy Stock - The Wall Street Journal",
+      "polarity": -0.0017286613583564758,
+      "ts": "2026-02-02T07:24:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxQT2F6eDFPRnBmWDJsRmJFdVpPVzlLX0Vkd2NHRXdhUU9PV3lPX1lPTE5mT2lXWTFtMG9SQjE4WktsMVBnTXpNTG9BZmFpYlM1RFl4aG8xUmxYZTdEVm1SUlFWNnVqYU5TY0hFWktrS3NjQTFocXBEVThWdlAycUs4NWRVU1B5MjFzUXp5aUNKM2ZWc3Z6d1RnOEtLY3hjVFFraS16MW42UDlvM0t1OE5UNjlhOHdpa3NGdEVfNHFKeU5hb0t6enFDSmtrYVBaUGV2TkVYbzFxdFYxcFRLX0JlaHBCTTFDNGpfdG0xWkNYOE84YWd3NzFXUHRDRzhGYVFiOWNORFBTRTZsdWNfOWh3UEFWeTdWbkJmS1hUYzdBTDhFaGdIR3BIbW1VLUNPek16R1JjM3NjWFNESDVIM09OZVRRTG5NeTljV3pNTVdVRlpNc1pXNG5ZY1RlbmRTZGg2czZOSFVTamhyQjg3dGRnT1dCamRFeThybmRDcG5COEo1RDBTMkJsMHRpVnNfNW5PeENnRk1mUU15RVVSMXpNVkY2NDR0QnNQNWZZYTBUczNVSTRDTFpKMHJlc1BmRjhJYTlWaTUwQ3dUOUU1c3pzeFN3dHZZVlY4ZjhXZjRqRDY5QQ?oc=5"
     }
   ]
 }
