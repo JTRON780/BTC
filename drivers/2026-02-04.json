@@ -3,47 +3,68 @@
   "positives": [
     {
       "title": "ETF that feasts on carnage in bitcoin-holder Strategy hits record high",
-      "polarity": 0.9047852139919996,
+      "polarity": 0.9047853350639343,
       "ts": "2026-02-04T06:14:08",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/02/04/etf-that-feasts-on-carnage-in-bitcoin-holder-strategy-hits-record-high"
     },
     {
       "title": "ETF that feasts on carnage in bitcoin-holder Strategy hits record high - CoinDesk",
-      "polarity": 0.8466554936021566,
+      "polarity": 0.8466558922082186,
       "ts": "2026-02-04T06:14:33",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNemdRaEZRZHl2TF81dlRsb3pydDZZd3lxbE1qV3c5TFk3X0R5WC1QbUI2T2MyaThUR3BWU1dQUi1sMzg5SDV4cjY4VVpyVmJFNm53c2h5N241b0QtYmZzc3hnUTFocVowZFBIQ3lCcUdwdTBNajljZ3dmT21VRFZLTDRfTC1mOVBVaVYxRlJZVS0tbnExX04xU3c0RUVoY0NpV0hHWm9KLXZ6UTZicE16Y01lSmo?oc=5"
     },
     {
       "title": "'Big Short' Michael Burry flags \u201cdeath spiral\u201d after silver liquidations beat bitcoin",
-      "polarity": 0.33092649281024933,
+      "polarity": 0.33092933148145676,
       "ts": "2026-02-04T05:08:01",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/02/04/big-short-michael-burry-flags-death-spiral-after-silver-liquidations-beat-bitcoin"
     },
     {
       "title": "\"Big Short\" Michael Burry flags \u201cdeath spiral\u201d after silver liquidations beat bitcoin - CoinDesk",
-      "polarity": 0.12492183223366737,
+      "polarity": 0.12492179870605469,
       "ts": "2026-02-04T05:09:43",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWEU3b0ZxX2hDcDI4NnpLcHl0aVhKTy04c3pUUjlkLUlhQkJZRXpxY0dPTzdaX3hKSnFUWFRiYUUyT1FaMXh0LUlVeUd4bzFzTEFKT2NpYmJEXzZIa1laZG9FQWxTTHA3TEg4TmJKOVFVMW5EeWUwLXVQV0JUbTl5eFY5c21neEZoR2hDQ19OTWV4SGNTSzlla1JQZ3ZoMGFMWjJvOGxZRUo0M2Y1OU1KYUhETWlVM1U4aUtUOXBjTHJJbkE?oc=5"
     },
     {
       "title": "What securities are in your watchlist other than BTC and ETH and why?",
-      "polarity": 0.04433937929570675,
+      "polarity": 0.04433947801589966,
       "ts": "2026-02-04T06:25:35",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1qvh20z/what_securities_are_in_your_watchlist_other_than/"
+    },
+    {
+      "title": "Book Review: Principles Of Bitcoin - Seeking Alpha",
+      "polarity": 0.03301215544342995,
+      "ts": "2026-02-04T07:10:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43Sl93enlSRzVrbUhTNnBNQWZOQ0dDZFlTNG40bmxGZ2Zua25obTYya296bDcyWDZXQWttVlQ4aVc0bDF6UjlJdEVKNUM5anFRczVYdnR1bjZNSjVrR0RNSEtNRVJOUG0zMkhyMmpvWnRoU1VibEVlWTBFakRUbVE?oc=5"
+    },
+    {
+      "title": "What next for bitcoin, ether, solana traders after BTC bounce to $76,000 - CoinDesk",
+      "polarity": 0.017941897734999657,
+      "ts": "2026-02-04T05:49:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTlkzcWg5cUtWRUh5cVk4RS1SbXVta1F2aUtJekNDTFpPQ2lRMVczX1g0NS1NQkF4TklsdG1sZjBmMG9EUnFhMjNEZmwzYmRJZU5pRi0tcTF2UklfUWZ2RkJMMktMemhnQXN5RXlNMThOcGtvYzhqN0ZZaWtVSHpIN1FnSTFfTnBOQlAtd292ODN1OWhvT0w0eXIwYTNpWFF5M250R2t1NkZpc0hXRTdqQ0pRT1pWcTNoTkEtRzZnU3p0em5W?oc=5"
     }
   ],
   "negatives": [
     {
       "title": "Bitcoin Risks Further Slide as Momentum Weakens Below Key Support",
-      "polarity": -0.9622535519301891,
+      "polarity": -0.9622536757960916,
       "ts": "2026-02-04T03:20:47",
       "source": "Decrypt",
       "url": "https://decrypt.co/356871/bitcoin-risks-further-slide-momentum-weakens-key-support"
+    },
+    {
+      "title": "Bitcoin price today: down at $76k after hitting 15-mth lows on heavy liquidations - Investing.com",
+      "polarity": -0.9608780103735626,
+      "ts": "2026-02-04T07:16:29",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdG01V1dUWDE3aERlamxZblRkczAxZGxvakN1QnJTTHFYVng0RjRBN0lFY0dCR1lQLWpYaV9MaWlxVFBTZFZNVmpKZVFOb2d3QVZRcVZxMmhfM1NxRGk4bG01OTdlMTBwRElWU00zZ1hObUZRWkFQNjR0dEI5MWVZZld5ZmxfbVFEWGRQNzJxdmZiRHE2TWxuZWVaSEpQOVViYjQ0T1o0bFBrUjlxZE1VQTBiSExhcV9sLUVOR3VJdklkNFdpNVItaG1GRDRRZG1nQm00?oc=5"
     },
     {
       "title": "Bitcoin Risks Further Slide as Momentum Weakens Below Key Support - Yahoo Finance",
@@ -54,87 +75,87 @@
     },
     {
       "title": "Bitcoin falls to lowest level since Trump's election win in November 2024 - thenationalnews.com",
-      "polarity": -0.9389434484764934,
+      "polarity": -0.9389435779303312,
       "ts": "2026-02-04T04:51:43",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS0VvdkxNRUhrQzhDTlhNWVlzT1RBb0VkMkZ5RVYyREJWbnptUk9DUlhpVWlaWFQyVng4cjdsaVdqNlhFRW5LTlhjQnd5MGdLN3pjZl9acnluWDd1RFpRMlhaU1BIUVBIS2dKQWRFbUJiQlp2ZUJhUXE2LVoweGhiaGNnTVBHRjV0TTk4b2c0RnlfRlJmM3JQc01SLWhXNS1zNFI1a2h1TzJ5R1ZpRGJGLVNxd3ByWm9BdjFWSzJyNHlqMjdoR281MkNLWQ?oc=5"
     },
     {
       "title": "Bitcoin Risks Further Slide as Momentum Weakens Below Key Support - Decrypt",
-      "polarity": -0.9349093921482563,
+      "polarity": -0.934909270144999,
       "ts": "2026-02-04T03:22:02",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYVN5dnVOZXJ0UnotX2FQc2NhX0JEa3pyNC1nZWhvdW5EbWhlTXlTaVRpS1RReGotbTJaWkluX0wtd1gteUVUWHhDbGNXazVtVWJfWXZxbmxrMjRkWFViRllGMlRHNWZvc0tVSXF6Z20tRGFsWXRjMnhZT3Nla3lZQk9DcHJVLVc5LUHSAZIBQVVfeXFMT3ZleC1HeEs4OGs3STI3aTByTG8tMnBaSTFpWDJwcVlrdjItN3o3QjFOaG52engxWEhvMjd0UGw4d3BtYjc4bEJsdVZJY1NEYW1XaXJQWl9WOENFenBvV3dWN3RieFdFd1pjRVNDTWtrbWZBbl9MSFJ6RS1ueHM0VzY0bXQzbXllZ1hCS2JYOWlzbVE?oc=5"
     },
     {
+      "title": "Bitcoin Plunges to 15-Month Low, Collapse Risks Loom - \uc870\uc120\uc77c\ubcf4",
+      "polarity": -0.7526574861258268,
+      "ts": "2026-02-04T07:26:10",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOU1paYlFIXzVnblMwSVpjZXM4UHc1ekpxemQtc3JwLW5UR3preEdWVzdfRzRLUXIzRU9CNDRrTnp3cU9wZ2hRVDV2MmQ2bEVMU0NuT05YZFdSamhkVTVIR0NoRlBJMkJjaWJEVkNqYmhLSm96NE04RXRTV3lENmZPaEtlSnhzQ243UEZGLWRR?oc=5"
+    },
+    {
       "title": "Strategy Bitcoin Bet Hits First Unrealized Loss As Funding Questions Grow - simplywall.st",
-      "polarity": -0.7516486775130033,
+      "polarity": -0.751648373901844,
       "ts": "2026-02-04T03:50:23",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZVMtR1h3dm5rRDM4UXZWOEt3a1ViRExnLU1fUGlZbjVTWEphVTVzX1NFOWVhOVVZOVpjcFd4cHJWR3VUVl9GYzB3VUJDQ2ZSVGtoN3RIb0d5X2x0bHhXclZoQlhpcnlVQ05BSEh3RG5XalcwQWJVVXVJVFV5UWw0anRvRDVDTURYUlZ4SDYxV0Jod2dVVUZ0eWlvTWZaZjJFS3dJZ012d3JwNUxJQ1J3bDZ4Wl8tQTlPX0tQZHc4Yzd3emo5M0E?oc=5"
     },
     {
       "title": "Mass. AG Sues Bitcoin ATM Co. For Allegedly Enabling Scams - Law360",
-      "polarity": -0.7499508000910282,
+      "polarity": -0.749950597062707,
       "ts": "2026-02-04T00:55:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTE9OQnZMZjlONFRKMzhIUkZVYWoyd3d1emhoSUJsNFVtMk16bjlvbWVubGY5SzJNZV9IVHpMUGZCWU5wVEltdmVIT3l2ZzB6UHRGdEtMNkFVaWQzSmM4TWk3dG9WUFgxSTYwZHdJVldZald3TklKOW1iNkZaaGM3dTQ5cUV6ZlVZRDZvMng4VGZEMC1NWmhUSkZPdmjSAVZBVV95cUxQMlZJajlBakpwbGRsRVUtdk50czVza3RZSl81Y21tVmNLVlZfdnUybktfb2tyV3FmVGc4VHFBTEtBSlJudlJzcjh3dko2eE91SktUdWZQUQ?oc=5"
     },
     {
+      "title": "American \u2018Big Short\u2019 Investor Michael Burry Warns of $1B Precious Metals Catastrophe if Bitcoin Keeps Slipping - Yahoo Finance",
+      "polarity": -0.6822230685502291,
+      "ts": "2026-02-04T05:34:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMElhdmxSOEtETFpFTUdkQTJrZGxDd01PR0s5YVNvakw4ZnBWakFVMHVDMUY4ZTdOWjlqb2cybDl4NmFqVC03U0g2QW1MS2NxOG4xYUJZUmswekxGdmZHMVRzTmFkSERuSmV4THpvVkhOTFlncGhTYXh6WHJsNkJmVGY1Y3FuOHRE?oc=5"
+    },
+    {
       "title": "Bitcoin\u2019s biggest risk is governance, not quantum computing, says Galaxy CEO",
-      "polarity": -0.645228797569871,
+      "polarity": -0.6452280171215534,
       "ts": "2026-02-04T01:39:39",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/quantum-resistant-bitcoin/"
     },
     {
-      "title": "Bitcoin-led crypto rout erases nearly half a trillion in a week - MSN",
-      "polarity": -0.6059003099799156,
-      "ts": "2026-02-04T02:25:09",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdWFIZjZiWks3Nzg0UThWT2tPN2xjUzh1V1A1b252LVo0ZmNaTDhaRFFoWVA2VENHdjRVX2VBWk1Mck5Db2trQTcxM01IRERCbkJRWWE0NjlLUlZmbmM1ZGl2NmwxM1BISjFMRjdzeFpYV2JjT1FhRVVrMS1UZnd5TkhOdjROREYxY2ZaaFp3ZnBESzFzYjR1TV8wSmVMX0JnR0x3WG1BOWtvZmlfSjZNbVFSbWQzbmN2aEI1S0JEMkNtanFBSm9PTnJrcmMxbnN2QXVSeWpB?oc=5"
-    },
-    {
       "title": "Alleged Bitcoin Ransom Note Sent to TMZ in Case Involving 'Today' Show Host's Missing Mother",
-      "polarity": -0.502823093906045,
+      "polarity": -0.5028221029788256,
       "ts": "2026-02-04T01:33:00",
       "source": "Decrypt",
       "url": "https://decrypt.co/356867/alleged-bitcoin-ransom-note-tmz-guthrie-missing-mother"
     },
     {
-      "title": "Bitcoin-Led Crypto Rout Erases Nearly Half a Trillion in a Week - Bloomberg.com",
-      "polarity": -0.2915749941021204,
-      "ts": "2026-02-04T02:25:00",
+      "title": "Bitcoin-Led Crypto Rout Erases Nearly $500 Billion in a Week - Bloomberg.com",
+      "polarity": -0.4923907406628132,
+      "ts": "2026-02-04T06:52:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ04yRktUc19NbGJSRkhIa0ttX1VFaTJTT2RKRmplcVZSeVc0Q1Rkc0xlbzZtX0VYVlZoc1FUdExLeUdYQ2phd1lvdDUzV1ZFU0o4Zm1wRnAzcllvZEJRMkw4NWdTa08tSUFMOGRqM2xhb3p0QlVVM01VNl9CSjhST3Zvbkx1VldHdWYwcVpTLUtmZU9GX3NIbXhicjFMZE15TzlsdnA2U1IzQWx4dmotWWNnUmU?oc=5"
     },
     {
       "title": "Alleged Bitcoin Ransom Note Sent to TMZ in Case Involving 'Today' Show Host's Missing Mother - Yahoo",
-      "polarity": -0.28702872432768345,
+      "polarity": -0.2870274130254984,
       "ts": "2026-02-04T01:33:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYjhHMThNOFFoSXEyanEyYU00OFh0ZWVrVVJwRVhTR3lQMGxmcHZwUDJUdU9iVkxmUi15aGlaQWNJczB5RHpIOTVydm5VT2VxMWFWYjE1UEZhYi1TeHQ5bFpQbHAwZFhPNEJZWnlJZkRuZTY2Zlo2X3Z6NGpzeVE5Zm5FNHFTQ3MwSGZz?oc=5"
     },
     {
       "title": "I lost $7k BTC to a hack, I am devastated, what do I do now?",
-      "polarity": -0.23446128889918327,
+      "polarity": -0.23446087539196014,
       "ts": "2026-02-04T02:03:18",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qvbl3i/i_lost_7k_btc_to_a_hack_i_am_devastated_what_do_i/"
     },
     {
       "title": "Michael Burry Warns of Cascading Effects From Bitcoin Plunge - Bloomberg.com",
-      "polarity": -0.205677792429924,
+      "polarity": -0.20567712932825089,
       "ts": "2026-02-04T00:19:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRkl6eHFMZ01WcGsxaXJzclg4MFh3SHctWHVDMVFSZ3hPcmtpWHFDSGd4a0lFcmJRX2RyVXZ1a3o3NHpZTmlScHFtTE9TVGJCZGxMN1NCRjFXb0N3RXAtc2gzbENxZUVVb05obXhxMDNkTXE0dzEzdkJHZGVVeDBjUUN3Um9mYlVwbjFLMWpKbElOXzNzY090UWZ2Zk9hRXNYUEt0SkdGR284ZllzZklMRA?oc=5"
-    },
-    {
-      "title": "Why Bitcoin\u2019s Defense of $76,000 Matters for MicroStrategy\u2019s Q4 Earnings Narrative - Yahoo Finance",
-      "polarity": -0.0019656047224998474,
-      "ts": "2026-02-04T05:39:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9wV19MWFBhNDRSaGQ1NzhtZnVKQzllNDdxT0h4UnVtVm5vQXRvdzNtRW94Zlk1WXJVUWRXMzVXZWJpQTRqcFBueHFkb2pJNFozelhJSkZHTDNpUVU0TXdhbW9ndTQ3WVB5OXJJTUd5OV9QM2Z4WW5fMVhPMXM?oc=5"
     }
   ]
 }
