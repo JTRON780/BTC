@@ -1,88 +1,87 @@
 {
   "day": "2026-02-04",
-  "positives": [
-    {
-      "title": "If Bitcoin can't beat inflation over a 5-year period, is it still an inflation hedge?",
-      "polarity": 0.02052653208374977,
-      "ts": "2026-02-04T00:07:11",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1qv8woc/if_bitcoin_cant_beat_inflation_over_a_5year/"
-    }
-  ],
+  "positives": [],
   "negatives": [
     {
       "title": "Bitcoin Risks Further Slide as Momentum Weakens Below Key Support",
-      "polarity": -0.9622536757960916,
+      "polarity": -0.9622535519301891,
       "ts": "2026-02-04T03:20:47",
       "source": "Decrypt",
       "url": "https://decrypt.co/356871/bitcoin-risks-further-slide-momentum-weakens-key-support"
     },
     {
-      "title": "Top cryptocurrencies mixed; Bitcoin drops below $77,000 level - MSN",
-      "polarity": -0.845842108130455,
-      "ts": "2026-02-04T03:00:08",
+      "title": "Bitcoin falls to lowest level since Trump's election win in November 2024 - thenationalnews.com",
+      "polarity": -0.9389434484764934,
+      "ts": "2026-02-04T04:51:43",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNGhXSmZKYXdTNjhDVm1vYzdiQ21MLTBOUnh4NmVoaUk3TWplRWE3SFNnWEV5U05lVGZjNUk4cXpsVFUyY0tGR3Z2ZGtadlVhZnlSTkVSeDlMeE1MWmZfVTRIaXlEMUNzUzF3UmFfMXp5Z2V3LXJGUkNMa25iYUhLMi1VSlJ2WGFTSzNuYXR3MVZEOUtwdlFuMkdvaWNpcWtFQmFtUy01aTB6dURDSzVfeQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS0VvdkxNRUhrQzhDTlhNWVlzT1RBb0VkMkZ5RVYyREJWbnptUk9DUlhpVWlaWFQyVng4cjdsaVdqNlhFRW5LTlhjQnd5MGdLN3pjZl9acnluWDd1RFpRMlhaU1BIUVBIS2dKQWRFbUJiQlp2ZUJhUXE2LVoweGhiaGNnTVBHRjV0TTk4b2c0RnlfRlJmM3JQc01SLWhXNS1zNFI1a2h1TzJ5R1ZpRGJGLVNxd3ByWm9BdjFWSzJyNHlqMjdoR281MkNLWQ?oc=5"
+    },
+    {
+      "title": "Bitcoin Risks Further Slide as Momentum Weakens Below Key Support - Decrypt",
+      "polarity": -0.9349093921482563,
+      "ts": "2026-02-04T03:22:02",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYVN5dnVOZXJ0UnotX2FQc2NhX0JEa3pyNC1nZWhvdW5EbWhlTXlTaVRpS1RReGotbTJaWkluX0wtd1gteUVUWHhDbGNXazVtVWJfWXZxbmxrMjRkWFViRllGMlRHNWZvc0tVSXF6Z20tRGFsWXRjMnhZT3Nla3lZQk9DcHJVLVc5LUHSAZIBQVVfeXFMT3ZleC1HeEs4OGs3STI3aTByTG8tMnBaSTFpWDJwcVlrdjItN3o3QjFOaG52engxWEhvMjd0UGw4d3BtYjc4bEJsdVZJY1NEYW1XaXJQWl9WOENFenBvV3dWN3RieFdFd1pjRVNDTWtrbWZBbl9MSFJ6RS1ueHM0VzY0bXQzbXllZ1hCS2JYOWlzbVE?oc=5"
+    },
+    {
+      "title": "Strategy Bitcoin Bet Hits First Unrealized Loss As Funding Questions Grow - simplywall.st",
+      "polarity": -0.7516486775130033,
+      "ts": "2026-02-04T03:50:23",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZVMtR1h3dm5rRDM4UXZWOEt3a1ViRExnLU1fUGlZbjVTWEphVTVzX1NFOWVhOVVZOVpjcFd4cHJWR3VUVl9GYzB3VUJDQ2ZSVGtoN3RIb0d5X2x0bHhXclZoQlhpcnlVQ05BSEh3RG5XalcwQWJVVXVJVFV5UWw0anRvRDVDTURYUlZ4SDYxV0Jod2dVVUZ0eWlvTWZaZjJFS3dJZ012d3JwNUxJQ1J3bDZ4Wl8tQTlPX0tQZHc4Yzd3emo5M0E?oc=5"
     },
     {
       "title": "Mass. AG Sues Bitcoin ATM Co. For Allegedly Enabling Scams - Law360",
-      "polarity": -0.749950597062707,
+      "polarity": -0.7499508000910282,
       "ts": "2026-02-04T00:55:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTE9OQnZMZjlONFRKMzhIUkZVYWoyd3d1emhoSUJsNFVtMk16bjlvbWVubGY5SzJNZV9IVHpMUGZCWU5wVEltdmVIT3l2ZzB6UHRGdEtMNkFVaWQzSmM4TWk3dG9WUFgxSTYwZHdJVldZald3TklKOW1iNkZaaGM3dTQ5cUV6ZlVZRDZvMng4VGZEMC1NWmhUSkZPdmjSAVZBVV95cUxQMlZJajlBakpwbGRsRVUtdk50czVza3RZSl81Y21tVmNLVlZfdnUybktfb2tyV3FmVGc4VHFBTEtBSlJudlJzcjh3dko2eE91SktUdWZQUQ?oc=5"
     },
     {
       "title": "Bitcoin\u2019s biggest risk is governance, not quantum computing, says Galaxy CEO",
-      "polarity": -0.6452280171215534,
+      "polarity": -0.645228797569871,
       "ts": "2026-02-04T01:39:39",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/quantum-resistant-bitcoin/"
     },
     {
       "title": "Bitcoin-led crypto rout erases nearly half a trillion in a week - MSN",
-      "polarity": -0.6058992557227612,
+      "polarity": -0.6059003099799156,
       "ts": "2026-02-04T02:25:09",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdWFIZjZiWks3Nzg0UThWT2tPN2xjUzh1V1A1b252LVo0ZmNaTDhaRFFoWVA2VENHdjRVX2VBWk1Mck5Db2trQTcxM01IRERCbkJRWWE0NjlLUlZmbmM1ZGl2NmwxM1BISjFMRjdzeFpYV2JjT1FhRVVrMS1UZnd5TkhOdjROREYxY2ZaaFp3ZnBESzFzYjR1TV8wSmVMX0JnR0x3WG1BOWtvZmlfSjZNbVFSbWQzbmN2aEI1S0JEMkNtanFBSm9PTnJrcmMxbnN2QXVSeWpB?oc=5"
     },
     {
-      "title": "Savannah Guthrie's Mom Vanishes, Ransom Note Demands Bitcoin; Jill Biden's Ex-Husband Charged - Fox News",
-      "polarity": -0.5553046781569719,
-      "ts": "2026-02-04T02:27:30",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHZS1ncUZkd3dFZ3lfQlVwV2JDcjE4cFRES3pkZG5oSFJwMEtDNnJmeDg4S0xQTmU3WVJvUUdkRDdQX2kzU0x3aE5GckpNTEtOU2ZPdi1R?oc=5"
-    },
-    {
       "title": "Alleged Bitcoin Ransom Note Sent to TMZ in Case Involving 'Today' Show Host's Missing Mother",
-      "polarity": -0.5028221029788256,
+      "polarity": -0.502823093906045,
       "ts": "2026-02-04T01:33:00",
       "source": "Decrypt",
       "url": "https://decrypt.co/356867/alleged-bitcoin-ransom-note-tmz-guthrie-missing-mother"
     },
     {
+      "title": "Bitcoin-Led Crypto Rout Erases Nearly Half a Trillion in a Week - Bloomberg.com",
+      "polarity": -0.2915749941021204,
+      "ts": "2026-02-04T02:25:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ04yRktUc19NbGJSRkhIa0ttX1VFaTJTT2RKRmplcVZSeVc0Q1Rkc0xlbzZtX0VYVlZoc1FUdExLeUdYQ2phd1lvdDUzV1ZFU0o4Zm1wRnAzcllvZEJRMkw4NWdTa08tSUFMOGRqM2xhb3p0QlVVM01VNl9CSjhST3Zvbkx1VldHdWYwcVpTLUtmZU9GX3NIbXhicjFMZE15TzlsdnA2U1IzQWx4dmotWWNnUmU?oc=5"
+    },
+    {
       "title": "Alleged Bitcoin Ransom Note Sent to TMZ in Case Involving 'Today' Show Host's Missing Mother - Yahoo",
-      "polarity": -0.2870274130254984,
+      "polarity": -0.28702872432768345,
       "ts": "2026-02-04T01:33:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYjhHMThNOFFoSXEyanEyYU00OFh0ZWVrVVJwRVhTR3lQMGxmcHZwUDJUdU9iVkxmUi15aGlaQWNJczB5RHpIOTVydm5VT2VxMWFWYjE1UEZhYi1TeHQ5bFpQbHAwZFhPNEJZWnlJZkRuZTY2Zlo2X3Z6NGpzeVE5Zm5FNHFTQ3MwSGZz?oc=5"
     },
     {
-      "title": "Alleged Bitcoin Ransom Note Sent to TMZ in Case Involving 'Today' Show Host's Missing Mother - Decrypt",
-      "polarity": -0.2527839206159115,
-      "ts": "2026-02-04T01:33:51",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbEc4a1h1TU9YUHVNbi1YUmlFRTkwMkhvY2tnRkxWbG5Bc3QzRnd0cGszc3hLTGItRTNoUmt4cFEzcFJaVzdkMDZmTWp1T3BmSFd5NXR4Q0IxSnN2T0FlTW1CdUVMc3V2S3YtaWVCUmRsRk12VkE5eXFyVzlVVzNOakd4c09xek3SAY8BQVVfeXFMTTYwS0hxM2pJbURVYUZjU1lkZHNXT3dzOW9YTzgyZDlGdnMzbGVOaWYwQUluLTR4VW9lR2lDX2x0WDJlVDJSQklLMVZhRmhYTVctT2k4OG5FQUw4d1lfbG9iMExNS2I1TktVVXdSd2tHZ2oxSWtSSXM2ekJaeTBfRTdQY2Jld29Kd2tBeUh0TlU?oc=5"
-    },
-    {
       "title": "I lost $7k BTC to a hack, I am devastated, what do I do now?",
-      "polarity": -0.23446087539196014,
+      "polarity": -0.23446128889918327,
       "ts": "2026-02-04T02:03:18",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qvbl3i/i_lost_7k_btc_to_a_hack_i_am_devastated_what_do_i/"
     },
     {
       "title": "Michael Burry Warns of Cascading Effects From Bitcoin Plunge - Bloomberg.com",
-      "polarity": -0.20567712932825089,
+      "polarity": -0.205677792429924,
       "ts": "2026-02-04T00:19:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRkl6eHFMZ01WcGsxaXJzclg4MFh3SHctWHVDMVFSZ3hPcmtpWHFDSGd4a0lFcmJRX2RyVXZ1a3o3NHpZTmlScHFtTE9TVGJCZGxMN1NCRjFXb0N3RXAtc2gzbENxZUVVb05obXhxMDNkTXE0dzEzdkJHZGVVeDBjUUN3Um9mYlVwbjFLMWpKbElOXzNzY090UWZ2Zk9hRXNYUEt0SkdGR284ZllzZklMRA?oc=5"
