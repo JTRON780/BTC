@@ -3,25 +3,25 @@
   "positives": [],
   "negatives": [
     {
-      "title": "Bitcoin Plummets to 15-Month Low as Crypto, Stock Prices Tumble",
-      "polarity": -0.9467422673478723,
-      "ts": "2026-02-03T19:33:43",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/356820/bitcoin-plummets-15-month-low-crypto-stock-prices-tumble"
-    },
-    {
-      "title": "Cathie Wood's Ark Invest Doubles Down on BitMine, Coinbase Stocks Amid Bitcoin Plunge",
-      "polarity": -0.9386256951838732,
-      "ts": "2026-02-03T18:19:51",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/356813/cathie-woods-ark-invest-doubles-down-bitmine-coinbase-stocks-bitcoin-plunge"
-    },
-    {
       "title": "Bitcoin briefly breaks below $73,000 to lowest since November 2024 as heavy selling resumes - CNBC",
       "polarity": -0.9316974319517612,
       "ts": "2026-02-03T19:09:56",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55d0VEamxRMkxjSDFOYWlHUE5tOUd0TXZVT2lwLXdoM08yM09Yc3hoRnNORlZiaHVqbzFweEs3cTB0c1lvcVd0VmxWbEEtMTZaYTh3UEU2b0xUMjEtQ3pVQjBEWDdaMEHSAWxBVV95cUxQby1zMlo4d2JXMllKLWMweTA1OTVJbDhoZFdjalV4cXVXR3lYaGllaHcya2JWT1VFNmtnVTNlb21TS1J5OHJZSWVCQW5kbi1yNDA5RjZ5Z2JXbGt6NUR1ZGFMX2hOZEN1QUU5dGc?oc=5"
+    },
+    {
+      "title": "'Big Short' investor Michael Burry details the 'sickening scenarios' possible if bitcoin continues to fall - Yahoo Finance",
+      "polarity": -0.4154728353023529,
+      "ts": "2026-02-03T15:47:10",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZmluTThNTmlPT3NyRUI2cjU5MFh2enFWTTAwTEVtaU5VcWtOdWVqbmpvZW83TFkyT25FNnFOTXJTNHZFcFZLckFzT1k0aDZwSDd4T3BHcWpaaWJGamdkWGZjZ1h2LUU3OTE1dlMyMXgyMkphVkphSjFqVjB2UzMwZHdBWmE?oc=5"
+    },
+    {
+      "title": "\u2018Big Short\u2019 investor Michael Burry warns bitcoin plunge could trigger $1 billion gold, silver selloff - Yahoo Finance",
+      "polarity": -0.30002260208129883,
+      "ts": "2026-02-03T23:16:54",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPai14dXhERzkzYzZFVXZnZHo3eFJ1YkpJdVhTbjdTOEt0UUhiRWF2YUlYbVltQzNjcUIyWWFsbkJfcG1yNjFGemxReHZZOVEybXMtTFZmX2ZUc2xVXzBBUkt4UFlKM3RlQWVWM1paREdCRTg0bWc3clBMZ01qenNlcF9henE?oc=5"
     },
     {
       "title": "\u2018Big Short\u2019 investor Michael Burry warns bitcoin plunge could trigger $1 billion gold, silver selloff - CoinDesk",
@@ -38,11 +38,18 @@
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1qugl8r/market_whiplash_is_back_etfs_sell_whales_buy/"
     },
     {
-      "title": "Alleged Ransom Note For Savannah Guthrie's Mom Demands Hefty Sum In Bitcoin - Yahoo",
-      "polarity": -0.04902605712413788,
-      "ts": "2026-02-03T22:08:43",
+      "title": "Jim Cramer Says Michael Saylor Should 'Jam-Up' Bitcoin To $82,000: 'That Way Some Ill-Advised Folks Will Shout Double Bottom' - Yahoo Finance",
+      "polarity": -0.016945093870162964,
+      "ts": "2026-02-03T16:31:27",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY1BkeWpBak1oUUNpdnJULTdDSUc5RDc5Z0t1YTZCQk9FTkpoUEhOYlBQSU9LMndRVTF5T1JQZHVzb19XbzFQYVJBbllFQUFuWjdJSmdNNmc2bTAwMXZXQjlVRTJ4NHlTczhfSFRsLWZEMTBlcm56LXF4SmIzNTF1STB6RUZsQnJvUThkUWo5VEFMQQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdVdFRzVJZmNsQjRGZVkwWEZyZDdUVG1TQ0phd2ZvSnhLYVpEOGRja3ZxMUVwcVBfemhadG9uRDV5YkZIbjBpSGtTdkZSR0VPbW5qajFNWXlOV01uVG5vdWdaYWlkVjhXY2R5dTZFblBucUxDR09WQldyeXJ5Z3NyUXFn?oc=5"
+    },
+    {
+      "title": "Crypto Bros Nauseated After Realizing Bitcoin Itself Was Funded by Jeffrey Epstein - Futurism",
+      "polarity": -0.00308845192193985,
+      "ts": "2026-02-03T19:08:33",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NYVlXd1V1eUI4X1RKLU1kcXJwN1BBWE80RHk4eXg4eDJ1b0pJbE5qRnV5bjNNQUJjUE0zMTZPam1naXNjOGZsTjFzX3FxQ01IcDZrNUlWS2VJN0lEOVJYY3Z1S2E2N2RkME56dFdmN2NQQThBem5XNlRfeFdxNk0?oc=5"
     }
   ]
 }

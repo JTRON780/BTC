@@ -228,48 +228,48 @@
     },
     {
       "ts": "2026-02-01T00:00:00",
-      "raw": -0.3242925488235258,
-      "smoothed": -0.3242925488235258,
-      "n_posts": 60,
+      "raw": -0.32194904697567023,
+      "smoothed": -0.32194904697567023,
+      "n_posts": 59,
       "n_positive": 21,
-      "n_negative": 39,
-      "directional_bias": -0.3
+      "n_negative": 38,
+      "directional_bias": -0.288135593220339
     },
     {
       "ts": "2026-02-02T00:00:00",
-      "raw": -0.4774420466274023,
-      "smoothed": -0.4774420466274023,
-      "n_posts": 8,
-      "n_positive": 1,
-      "n_negative": 7,
-      "directional_bias": -0.75
+      "raw": -0.39959035006662225,
+      "smoothed": -0.39959035006662225,
+      "n_posts": 11,
+      "n_positive": 2,
+      "n_negative": 9,
+      "directional_bias": -0.6363636363636364
     },
     {
       "ts": "2026-02-03T00:00:00",
-      "raw": -0.536833080915468,
-      "smoothed": -0.536833080915468,
-      "n_posts": 6,
+      "raw": -0.282828478369771,
+      "smoothed": -0.282828478369771,
+      "n_posts": 7,
       "n_positive": 0,
-      "n_negative": 6,
+      "n_negative": 7,
       "directional_bias": -1.0
     },
     {
       "ts": "2026-02-04T00:00:00",
-      "raw": -0.3919060501496251,
-      "smoothed": -0.3919060501496251,
-      "n_posts": 30,
-      "n_positive": 8,
-      "n_negative": 22,
-      "directional_bias": -0.4666666666666667
+      "raw": -0.37271047253071693,
+      "smoothed": -0.37271047253071693,
+      "n_posts": 35,
+      "n_positive": 9,
+      "n_negative": 26,
+      "directional_bias": -0.4857142857142857
     },
     {
       "ts": "2026-02-05T00:00:00",
-      "raw": -0.3969191055354664,
-      "smoothed": -0.3969191055354664,
-      "n_posts": 140,
-      "n_positive": 49,
-      "n_negative": 91,
-      "directional_bias": -0.3
+      "raw": -0.42704701019952035,
+      "smoothed": -0.42704701019952035,
+      "n_posts": 133,
+      "n_positive": 38,
+      "n_negative": 95,
+      "directional_bias": -0.42857142857142855
     }
   ]
 }
