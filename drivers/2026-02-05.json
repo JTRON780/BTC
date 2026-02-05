@@ -4,9 +4,30 @@
     {
       "title": "Bitcoin tanks to $69,101 on Bitstamp - CoinDesk",
       "polarity": 0.8686732389032841,
-      "ts": "2026-02-05T05:38:09",
+      "ts": "2026-02-05T05:51:25",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYW9lOUdsY29VdU5lTkNHb1ZzYWY5T0J0V2VrUEkwTWM2QWpKYWNtV0EzNjJRd1pGUktUVHVzQmlJaDQxOWZPVHVKaFJPN0M3aHc2M3h4Y1Z4SC0yeUdlVVBpcEF1LTZQSi0yVElJUGlFMmVoSFAtZWN2MlhqVHhrRnBMQXQ0WGR0NmptaGFmMA?oc=5"
+    },
+    {
+      "title": "Bitcoin Price Falls Further, Raising Stakes At The $70K Support - TradingView",
+      "polarity": 0.5463709235191345,
+      "ts": "2026-02-05T02:43:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMFhvM0VVZjJZNTRya0dBTzZ0SEg3VEdJc3BfdmNBV1FFb0JwUThrYnlxcW4xZXdJZ1poTXo2WWl3VzllVEoxX2pIMC1RQ29xZzYzT1RiM0d0UzBLTDJaOHh2M0E1djhBZjJIOWlwMFE5NlZFckdqTnRwRWFKU25TaTFIZnlwSVNfWnBuZEROMUN6UVZnNFBCYWVwel9KcFlTSWxGVEtkOGZ2MzdWR3llMjJtT0lhTWVrb3Bv?oc=5"
+    },
+    {
+      "title": "Bitcoin MVRV Z-Score Compresses To Levels Last Seen Near $29,000 - TradingView",
+      "polarity": 0.2893841564655304,
+      "ts": "2026-02-05T01:00:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSDIxVFhTVlFfdWtZT2dVaUVSVXBhR0ttU01KcFJ4aW9laVNicFVSMnB2WUhhZWVaT2ZDTEhqX1ZNMVY3dGhwZGZDZjFaeDNpeHdnWWtCQ0dMbXZFb1RISkZnakhNcVM2dnV2QldPWHNWRmUtaHZONE1EZDhOYUpuYmlUSUVTUmdLMTBYLXI3OXNhNHpjYWFsQS0yMHBZVTZmczFDSEFqV2dpS29Jb3VvZDZPWlo1bmNoRlJ3MEZR?oc=5"
+    },
+    {
+      "title": "Justin Sun says 'keep going' on Tron Inc's TRX buys as the token outperforms bitcoin",
+      "polarity": 0.07172251865267754,
+      "ts": "2026-02-05T07:24:11",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/02/05/justin-says-keep-going-on-tron-inc-s-trx-buys"
     },
     {
       "title": "Made my first purchase of BTC today, $20 weekly",
@@ -21,6 +42,13 @@
       "ts": "2026-02-05T04:07:45",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1qwb2mg/i_never_thought_ill_see_the_btc_at_70k_again/"
+    },
+    {
+      "title": "BTC, ETH, and SOL Sold Off Hard in the Last 24h \u2014 Leverage Flush or Trend Shift?",
+      "polarity": 0.025935158133506775,
+      "ts": "2026-02-05T01:12:55",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qw75zl/btc_eth_and_sol_sold_off_hard_in_the_last_24h/"
     },
     {
       "title": "Bitcoin\u2019s $1 Million-Dollar Path Starts In 2026, Bitwise Says - TradingView",
@@ -39,18 +67,11 @@
   ],
   "negatives": [
     {
-      "title": "Bhutan moves $22M in Bitcoin as crypto slumps, mining conditions toughen",
-      "polarity": -0.9676890326663852,
+      "title": "Bhutan makes second Bitcoin transfer in a week, worth $22M",
+      "polarity": -0.9675602577626705,
       "ts": "2026-02-05T04:38:20",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bhutan-reportedly-sells-more-bitcoin-from-its-reserve?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "Coinbase premium hits yearly low, hinting at institutional selling",
-      "polarity": -0.9640454361215234,
-      "ts": "2026-02-05T06:11:31",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/coinbase-premium-gap-falls-to-yearly-low-signalling-institutional-selling-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "title": "Strategy faces $3.8 billion loss as Bitcoin sinks under $71K on Saylor\u2019s birthday",
@@ -74,6 +95,13 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNT0E2X2hrb0Rwa1Q5eER2U2FNd1EzczVWLUVRLXBSeDZmNnlmRzNhWXY3NWVjMEdBaHRsTzZQZWZIX25FUHFscktrR2NYeFdBY1lobDZ6ejk0WlRZckVMczdDbFN6VjBxcnpFUzRrdUdMdml4dU1kRno2ZGhveUZCaFVlTHFKOXdyVjVLcTZxdHFfb0pjcWppYWZkdVc2ejROdUtJcGVkNjk2b3BjSG0wbi1aMDRrMkVvSE43R1lOQ2hCX1lLN0dzZFlsVVpWUQ?oc=5"
     },
     {
+      "title": "Bitcoin price hits lowest in over a year \u2014 bringing MSTR, COIN, and other crypto stocks with it - Yahoo Finance",
+      "polarity": -0.9440579898655415,
+      "ts": "2026-02-05T00:24:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcFh0STRlQ3U3c3cwd3c5TXkzYm9YV0dYdWlWV3JQTExPTHVTVDczOVNmZDZjeWpPWk5SSV9pMVEyTzBzdU1ZWmsxWUMwbFR1R3RSX3JWcXdXTkM2VEVhSk56b2h0c0RHMUQ3a3YxbEpCckNPdG9pQU1jT1V1R1FjU1N3?oc=5"
+    },
+    {
       "title": "Bitcoin Falls to $72,000 as Traders Navigate a \u2018Crisis of Faith\u2019 - Bloomberg.com",
       "polarity": -0.9416703023016453,
       "ts": "2026-02-05T02:41:00",
@@ -93,6 +121,13 @@
       "ts": "2026-02-05T03:50:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcnNuMGFydGlUUHlIS01FVFZiYkFiT2JBbVJJZzljRjBHVlRCVllJTWdVc2h5UmtRcTVWb3ppbjFTZHdzVzhtaFZvUUliNmkweTUwOURPMml4N0FPTlZCTHBna2d2eUg4SWlTSzJQN1pqdmU5OGY1WWppejAzOUYzNU84TkzSAZgBQVVfeXFMUGVwV3dpUUt3aUNJaHhSRWxudUVvM1NtVkZTeFdKdUo2YzZCa0RIM0Y2eHN2UUwzaGhodmNzTndNWW1QeHdTQThRSUF6VjVjbTB5Nm9jQjZ2VTdiRW9wQWlDYmlFVGpoRVpDcGhZYkQtaHlJdlhKLVhQQW9ueDdFc3l1TUVLN0RONWpEVE04cHpQa3RabWtURlQ?oc=5"
+    },
+    {
+      "title": "Bitcoin plunges up to 8% and South Korea's Kospi sinks nearly 4% in the latest tech-led sell-off - KSAT",
+      "polarity": -0.9297004323452711,
+      "ts": "2026-02-05T07:13:25",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNU3pPd2s3ZzJ1UVphdkM1X190Tll2MERreGx6X25udFA0eHZ4Z2ZVT3VOUjFlakJndzZPU09GZVk4azhyU1hydFpOWW55OUNHeFJoeU5HbWxmUWNfeXlLNkRFU1lwdzhlQ1RVTGZLMHpfTGhteVJrYW9lT05IVE03WHNHX29mbHAzYnJZVUFIV2NkSklnSXRxSVVzMlU3dnRRaFk3Y2Y2TllsSjhrdXB0UzZJMGJjRVVKV3pObVhCbHFBSVRKbUo5SGJXVmZXU3pu?oc=5"
     },
     {
       "title": "XRP traders more optimistic as BTC, ETH mood turns sour: Santiment",
@@ -116,6 +151,13 @@
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQS2xYcFQ4Wnd3aDdid2psWENZVy1RN1V4VnFFYy1PRmpuOHJqWE45c05MT2xsZWlBdTJiV1hZY3RiYTFqbDloUEg0WmVmdTFHVlZPZV9BdlJ0ZmxkSTZYTFI1X2hyb3RGamtuT1NZVWxiVG41eXRVRkwtWVl2UlZaRFFyaElGVm9wbnJzcURYR3V1QW5jSUx6VjRjejh0Y05SdHRoaFhJeEl5LXpDMm9oaHFTU2EzMUh5TEZaWG5QWUR3YS1PSFNia3AwUk1oeUVkQ1ZpUHFwM3laTmFmYXVz?oc=5"
     },
     {
+      "title": "Bhutan Sold $22.4M in Bitcoin Amid Portfolio Decline of Over 70% - Yahoo Finance",
+      "polarity": -0.9147535245865583,
+      "ts": "2026-02-05T03:23:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9CWnRBX04xMXJ2QWRkN2JRYnRBUjljOGJueERZd1ZFTFZVZjl1eG9lSVFDWlZ0bXRmRXZSeDlxcU5GLXdmV25KQlJiNTl1TzZlc3lpTXlaWkQwblg0bGZ6NDh4Z3c4ZXIwbzR3UEU4eGt1STR0MjN1X193WQ?oc=5"
+    },
+    {
       "title": "Bitcoin slips below $71,000 as AI-driven tech rout worsens",
       "polarity": -0.9104337505996227,
       "ts": "2026-02-05T04:27:03",
@@ -137,11 +179,11 @@
       "url": "https://www.coindesk.com/markets/2026/02/05/bitcoin-slides-below-usd70-000-on-bitstamp"
     },
     {
-      "title": "Bitcoin ETFs 'hanging in there' despite BTC plunge: Analyst",
-      "polarity": -0.8793059401214123,
-      "ts": "2026-02-05T06:13:30",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-etf-flows-performance-btc-downtrend-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "title": "MHC Digital Group Head of Global Markets Edward Carroll details how Bitcoin has fallen to a 14-month low. - Facebook",
+      "polarity": -0.896476331166923,
+      "ts": "2026-02-05T06:45:47",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNUV2SXQwWEEyYW56ZWtjLVoyN0NuM1ljSWpVX1dzbmlXZnkwbkpEQUFheVgtU3hDQnN6aFV5SDV2QkRCeHo1RUQtVUZlc0poYTBVbUNYUFRON3FBLWJpczFUcDdRTUxGUXExczB3aVFvRGRHYUVrbG9GYVl2Y3ZLQy1wOXJ4R3hSZWNmZjE3dE9nQXM0bHlPYjhScHVBbnIyS1BXQTFQRHdsOEFTMjkxZGJEeWdHSVNWYWNxQXBlbmYzNW9ta2ZDY05kbWJSUzEtajA4MHl4SVFCa1ZyOTNF?oc=5"
     },
     {
       "title": "Bitcoin Extends Selloff as Macro Pressures and Leverage Unwind",
@@ -151,11 +193,25 @@
       "url": "https://decrypt.co/357025/bitcoin-extends-selloff-macro-pressures-leverage-unwind"
     },
     {
+      "title": "Bitcoin crashes to $70K, millions of dollars wiped out - thestreet.com",
+      "polarity": -0.8477245774120092,
+      "ts": "2026-02-05T07:32:02",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZ2w1aEY0OVZlcFI4c2RuWE9FeXJkZno4ejBuMVFHanBhWERrTVVGTmZiclEtSl93SXJuWlEzNGFfY2cwUnhOWVlsanFmTXIyNHB1OGZlVW5CMU4tdHRYX3lFQXJJc1JYRkg2YW14MnNIRjl0UW1qUWZOV1JhSkw5X25DQTA4OUhsVEFZZG9JTDZtMUpfeGRfcg?oc=5"
+    },
+    {
       "title": "Bitcoin price today: plunges below $71k as global tech sell-off hits risk assets - Investing.com",
       "polarity": -0.8176753148436546,
       "ts": "2026-02-05T05:29:55",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMjI2TTFGOHdhTTBtMFFlYTNhSU1wbTBmekF3LXVkZTduemtoRUpKcXg5X3dFZUZZTTdXM080TWZycERCblFoVGFWVjB5R1lCczNqVmFGMHhUUFpyX3FuaUZIRUFFNjZqUmNqZldOb1NLUUlyUDBhOGtoZmxxczQ4eW9VaXd2ZTVfOWlDenFTNHk0WnlqaW1FWXM1ajc5ZVlHTnhxNXVkbHdWbk5DbDl5aWNsZ2k2b0ljWk0zZW9aZ2t6NGZJbVc2RDRieWVZTXdrYWc?oc=5"
+    },
+    {
+      "title": "Bitcoin ETFs \u2018hanging in there\u2019 despite BTC plunge: Analyst",
+      "polarity": -0.7949764057993889,
+      "ts": "2026-02-05T06:13:30",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-etf-flows-performance-btc-downtrend-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "title": "\u201cBitcoin is dropping\u201d",
@@ -191,13 +247,6 @@
       "ts": "2026-02-05T03:07:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWGlYZHh0bkhrd1k0V3dpMEt5QWZzWC1BZHBMbVJzUnNydnRIQWQ5R1R4ZnlrTzRlWnVJTVd4dHk0MFV4UURqcFB3UDlrREFXaHBZbzdhTUdTMGlhNnNoYUQxNzllZlp1X3VYdDJxWWNfWTVmYWlHZF9oY1dHbzRuVndhTGxHNllWbjRLX2R3?oc=5"
-    },
-    {
-      "title": "Bitcoin Falls Below $73,000 - The Wall Street Journal",
-      "polarity": -0.6736384108662605,
-      "ts": "2026-02-05T02:00:47",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi0wNBVV95cUxONW1kTXNGZTVVblQ0LWNpb1YtRG4xWHdySGFDY1IxUy11eUlqd05KWFE4T3o0NXNROEZLLV9nUndfUG1NYW9OeVhSQ3BULUdMRV9mbGlnSFA1ZnF5YUYxQUxpMy14TWJDWWZycTk4SUdDUURkSzFYYXdmd2JqNnNSemdYZENCbG5YYkVkY2tOMlNTZ0x3d1hMdExBVlowTnA0SEZSOUdQX0t0Mm9mdlhDZE9WQmQ5Ymoxc1VZcVpib0tMUVZpUkhHYkVGSFhjd0syV0Fic09vYjFQcGdIMHBvcUFCMlFtcHUwN2duOUZXb2dNVV8zaEZPTTl2dDZjLUZUNFZXMWg4WE5JSlkzZlNrX0MzUXkyeUQ1ay1VRkowdVpVOFdCTzMyLVNpQlNCdWUxQXI3SlpGc1Z6UU5LT2VtZ1RqMEV0eFhnWlJsME1iZmdCRWJ1bUtZbElmS3laTkhLRWlKRlZGMUlMdmJDdVF0eS1zSy12Z2NCcExxMFpUTndDVW9DZzN0NkxaeURiZXRGWFVCNkZ4QzcxOFg4dTM1SkZicUo5cGR3TUhEYzhMVkVEeFZnZVZKZjNsS19IWmFkWVNPR2gyRjFvV21tT1lLWEE0bw?oc=5"
     },
     {
       "title": "Bitcoin slides toward $70,000 as on-chain data flags bear market and traders bet Fed holds in April: Asia Morning Briefing",
@@ -265,7 +314,7 @@
     {
       "title": "Bitcoin news: Bhutan shifts holdings after months of silence as BTC moves to $70,000 - CoinDesk",
       "polarity": -0.028865687549114227,
-      "ts": "2026-02-05T06:17:00",
+      "ts": "2026-02-05T06:13:43",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSDFpRk5jcEdZNHdIRGlscXdqNkJzRDlidjFMWk13OUVuWjdRM24wbmRpVjRYVG9WelRxeTZZeWR4RTdNOGozR0JfR2E1dkZwdVY5Rm91S2h2SlBZMGFaTjItM3czZGNYbTNqOHktZ0hWLTNjSmppSGxFS2NOQmpidmg2WEpKYkhiNjc3MDA0czZzLThRTE1VZ0JtNE0ydEt4cWhpeTEtdHdGNTBJYW01NFZQY2xSYVRqUnBZSF9sbWt0ajBHOS1n?oc=5"
     }
