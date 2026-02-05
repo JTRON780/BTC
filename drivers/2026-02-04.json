@@ -2,13 +2,6 @@
   "day": "2026-02-04",
   "positives": [
     {
-      "title": "Fold launches unified app to integrate Bitcoin rewards with daily spending",
-      "polarity": 0.47811641078442335,
-      "ts": "2026-02-04T15:21:41",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/fold-bitcoin-rewards-app-launch/"
-    },
-    {
       "title": "Matt Hougan: Crypto winter may be ending, institutional flows are stabilizing Bitcoin, and the Clarity Act could spark a bull market | The Wolf Of All Streets",
       "polarity": 0.09933054633438587,
       "ts": "2026-02-04T19:52:27",
@@ -39,13 +32,6 @@
       "url": "https://decrypt.co/356871/bitcoin-risks-further-slide-momentum-weakens-key-support"
     },
     {
-      "title": "Strategist doubles down on $45,000 bitcoin price target after fresh bearish technical signal - Sherwood News",
-      "polarity": -0.961403960827738,
-      "ts": "2026-02-04T15:54:24",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ3JOZDVKNVBwY3hPX1ZjX041cHdEY3pzWlhNSl90U2h5am9nUXZaQ2ROUUExU1ZKOGFMS205YjVBZzhSWWRKa2tyZzloRGpWSV9Ub09QOWZ1U2Z0Wkh4NUVBY01rclNrUGh5MDZidzhpb2p2OTlOQWZBUlFBWkFPb0hPV0I2bjRldnhHNXRsa1Q1ZjB5N1JvS2MycGY5NTNKZHd0OGxyQk1hN1U0RjRXb1Fn?oc=5"
-    },
-    {
       "title": "Bitcoin Mining Stocks Dive as BTC Price Drops 20% in a Week",
       "polarity": -0.9600475085899234,
       "ts": "2026-02-04T17:58:50",
@@ -58,13 +44,6 @@
       "ts": "2026-02-04T22:17:57",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-02-04/asian-stocks-to-fall-as-tech-led-drop-gains-pace-markets-wrap"
-    },
-    {
-      "title": "Spot Bitcoin ETF outflows total $2.9B as BTC price drops to new 2026 low",
-      "polarity": -0.9031503610312939,
-      "ts": "2026-02-04T22:08:38",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/spot-bitcoin-etf-outflows-total-2-9b-as-btc-price-drops-to-new-2026-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "title": "Bitcoin slides to $72K, extending selloff and dragging crypto stocks lower",
@@ -85,7 +64,7 @@
       "polarity": -0.6736384108662605,
       "ts": "2026-02-04T09:46:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi0wNBVV95cUxNdlR4Um9VdDN1U0k2SHM3MEpQcGUyZTZlSXkta3MxbUxDd3hWSHA3M19jQXRmSURNcEd1a3l2c3RNS2U4RDkyaVJnR3NGZUxoak5lMUFhSUxVTy0xZFMzcnBJdTUxbHFXQTlxLW1mRFpyUFZZZkI1MGxZYS1zejc3WTJ5SXl4Y09rS0pRcXdIckNJeGhyNXdZZ0VkZjJ0YkNiUks4YzRXWlVkV3FCbVVMYTlmOU9NLU9VSmRwX2dBU2plNG91UEtRM3ZuOWZCRktxTmwwQUxIUDFZVFM1OWoxMXR6UmNoR2ZraFVVZXFXdk1Lam12bHpURDVENEFqc2pUOG9sbUpLenRoRnJkeW9GTFVROGltdExZeXAxM1FOLUkxUzF5ZE1XU2pMMjZjX0w4TUh6YmhIOWZGV3BsLUJ6VG1qZGlXUjN1YXQyLWI4TnE3cVJ4dWJkY0NyT295WTJsQmtidmxyU1FtOEZwVmk4bDcxODZyakxQcy1kSnhYOFVaUG9uX0V5RTA0RjYyRmtkMGxzZXBMR3k3T3p2eElrN0phYlZBSTd4QzA2UFZTeFBnbE4tdVktTHJocGQ3T3NEdmdMZFdZMlgyclFlclU0TG1LRQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi0wNBVV95cUxPMnpQc0lOYk1xYmRUb2pOejdjTTZaR1liTV96YUlvLUUzRDVKSi15R0haeWlwakhCalU1ZjhqX2VZajBOUTRGMFZNTHIxQ1ZEWmtybWpXUS1Nb09HUjZNWWdaV3FZckJ3RG55MWp1TFVPUjZVM05vWGhKblEzazk4cmxSS1VuLTNlNlF5ekIwdGt1cUpUYkVSOGxVeFh2bEV3SW5nODJMbnd1TGdOTjlnam9YeWtCRWRVTmpIb0NjX0hUYlJVc055NzN2UkVUanVCUHd5RmFKdG9YQTBXUWdzYkkxSHNfQ3dyaE54clg1ZGxhc2lZWjRLSmtQcWJSNC0xenU4b3ZMOVlzTWJnY05OUVJyUXBmLUN1ZEpSOExKa1c1SWlYajZDTmFyNVFKZlB4c212TzBMd0FtZzFINTEtMXB0aEg4X0Y3MUxwYXdzelVyeGhMblNKQ05oaG9UaVFSTnJnQ0NDMk9YT3lNcVY5ZV9xb3JwVklpaE1ETTQ5MWRwazlEQkdNZUdJVUpCOVR5RG5WVDgzX0UwTnJnMHBEUHhhWGtLZnpScjFyMGpoc1ZFQUNHSHI1bEgxTXRVNS1uM0Z5SXJIdjltT0R3dG8yeVdLZw?oc=5"
     },
     {
       "title": "Can the Government 'Bail Out' Bitcoin? Congressman Prompts Bizarre Exchange With Treasury Secretary",
@@ -93,13 +72,6 @@
       "ts": "2026-02-04T18:34:31",
       "source": "Decrypt",
       "url": "https://decrypt.co/356936/can-government-bitcoin-congressman-bizarre-exchange-treasury-secretary"
-    },
-    {
-      "title": "Alleged Bitcoin Ransom Note Sent to TMZ in Case Involving 'Today' Show Host's Missing Mother",
-      "polarity": -0.502823093906045,
-      "ts": "2026-02-04T01:33:00",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/356867/alleged-bitcoin-ransom-note-tmz-guthrie-missing-mother"
     },
     {
       "title": "Bitcoin bleeds for second straight day, nearly grazes $72,000 - CNBC",
