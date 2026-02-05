@@ -228,48 +228,48 @@
     },
     {
       "ts": "2026-02-01T00:00:00",
-      "raw": -0.32194904697567023,
-      "smoothed": -0.32194904697567023,
-      "n_posts": 59,
+      "raw": -0.3242925488235258,
+      "smoothed": -0.3242925488235258,
+      "n_posts": 60,
       "n_positive": 21,
-      "n_negative": 38,
-      "directional_bias": -0.288135593220339
+      "n_negative": 39,
+      "directional_bias": -0.3
     },
     {
       "ts": "2026-02-02T00:00:00",
-      "raw": -0.408895117044449,
-      "smoothed": -0.408895117044449,
-      "n_posts": 13,
-      "n_positive": 2,
-      "n_negative": 11,
-      "directional_bias": -0.6923076923076923
+      "raw": -0.4774420466274023,
+      "smoothed": -0.4774420466274023,
+      "n_posts": 8,
+      "n_positive": 1,
+      "n_negative": 7,
+      "directional_bias": -0.75
     },
     {
       "ts": "2026-02-03T00:00:00",
-      "raw": -0.6200466270400388,
-      "smoothed": -0.6200466270400388,
-      "n_posts": 9,
+      "raw": -0.536833080915468,
+      "smoothed": -0.536833080915468,
+      "n_posts": 6,
       "n_positive": 0,
-      "n_negative": 9,
+      "n_negative": 6,
       "directional_bias": -1.0
     },
     {
       "ts": "2026-02-04T00:00:00",
-      "raw": -0.40044679803566796,
-      "smoothed": -0.40044679803566796,
-      "n_posts": 38,
-      "n_positive": 10,
-      "n_negative": 28,
-      "directional_bias": -0.47368421052631576
+      "raw": -0.3919060501496251,
+      "smoothed": -0.3919060501496251,
+      "n_posts": 30,
+      "n_positive": 8,
+      "n_negative": 22,
+      "directional_bias": -0.4666666666666667
     },
     {
       "ts": "2026-02-05T00:00:00",
-      "raw": -0.3964439651271938,
-      "smoothed": -0.3964439651271938,
-      "n_posts": 131,
-      "n_positive": 41,
-      "n_negative": 90,
-      "directional_bias": -0.37404580152671757
+      "raw": -0.3969191055354664,
+      "smoothed": -0.3969191055354664,
+      "n_posts": 140,
+      "n_positive": 49,
+      "n_negative": 91,
+      "directional_bias": -0.3
     }
   ]
 }
