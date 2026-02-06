@@ -9,8 +9,8 @@
       "url": "https://www.coindesk.com/markets/2026/02/05/jpmorgan-says-bitcoin-s-lower-volatility-relative-to-gold-might-make-it-more-attractive-in-long-term"
     },
     {
-      "title": "Stocks Rebound After Tech Rout as Bitcoin Climbs: Markets Wrap",
-      "polarity": 0.8491720333695412,
+      "title": "Stock Buyers Hunt\u00a0Bargains\u00a0as Tech, Bitcoin Rally: Markets Wrap",
+      "polarity": 0.8599847331643105,
       "ts": "2026-02-05T22:24:29",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-02-05/asian-stocks-to-fall-as-us-tech-crypto-extend-dip-markets-wrap"
@@ -56,13 +56,6 @@
       "ts": "2026-02-05T14:43:20",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/news/virginia-advances-bill-for-bitcoin-fund"
-    },
-    {
-      "title": "Bitcoin gets a zero price target in wake of Burry warning (BTC-USD:Cryptocurrency) - Seeking Alpha",
-      "polarity": 0.08174357935786247,
-      "ts": "2026-02-05T16:01:01",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE04RUtpcnNKZV81NlpZTEc5clExc3N0Q0t0b2VjSXJqNWZKOGU4dHlhT1JyQkhyeXI1VW1EdDJIejlpaGNoZ3dfYjVwNmZFbG9QUjBLcnozOEI1c0hfYW8zVDd5TmVhTmxCa0w4cktoU0liQV9Cby0w?oc=5"
     },
     {
       "title": "Jim Cramer Sets Bitcoin 'Line In The Sand,' Urges Michael Saylor To Act Before Strategy's Q4 Earnings - Yahoo Finance",
@@ -235,6 +228,13 @@
       "url": "https://cointelegraph.com/news/bitcoin-price-may-drop-below-64k-veteran-campaign-selling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "title": "No, but seriously: What\u2019s going on with bitcoin? - cnn.com",
+      "polarity": -0.9408772438764572,
+      "ts": "2026-02-05T13:43:29",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9iOGxvT1hGSGUwWFEzMkFsWlJxZm1Vd3dYanlsUjFHVnFYVEo1T3JLaUVwbDZCMXJNNXU3U1hSQkFWMDdKaFNoRGoxLWZJYjZ1ZmNVVnhLZnN3b1UxMUp5SzdSMG4?oc=5"
+    },
+    {
       "title": "Bitcoin's monthslong slide continues, hitting fresh 15-month low of $67,000 - ABC News",
       "polarity": -0.9287038138136268,
       "ts": "2026-02-05T16:31:25",
@@ -298,13 +298,6 @@
       "url": "https://cointelegraph.com/news/will-bitcoin-rebound-to-dollar90k-by-march-here-s-what-btc-options-say?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "title": "Bitcoin drops 15%, briefly breaking below $61,000 as sell-off intensifies, doubts about crypto grow - CNBC",
-      "polarity": -0.9051082618534565,
-      "ts": "2026-02-05T11:43:42",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9yVFNvaVFyc2dnSW1qV2NqaFotMk1QN2JyR1pwV2tFTnN6RG9YQkNEeVlmNkxhVEkwNjlJb3R4X0FTQWZlNmlneGhwcmhEaG5BYXoyN1VyZk8xcEUxcEs5NWdnQ1c3R3NqVWV1VEg2MGhQQ2xEdzBZS18yZ9IBgAFBVV95cUxPVkRNTWJLZ3J0RzdQdHJoSW1CV3NJYmowOHVCQ19neHgyZFJBYWwxZk0tdXg0WGxuclVzNFVFUkV3SmF5WFBvTkdJNXZXQ0ZqMXlWLV9XN25mZkdUOHdlVFdTVTJpV1BqNkVyVHdUd0Z1RVBQMUhwZFMwY2JoejAybQ?oc=5"
-    },
-    {
       "title": "Bitcoin spirals toward $60,000, heading to worst one-day drawdown since FTX blowup",
       "polarity": -0.9015587233006954,
       "ts": "2026-02-05T20:00:25",
@@ -330,7 +323,7 @@
       "polarity": -0.8951378967612982,
       "ts": "2026-02-05T21:12:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxNRXF1ekJpSnc4dFBQZXN5MjV2aTRraFRyRURxOG91Qy1SX0dSNFJac0w1Sl9fb3R3M1NfNk5UTzJMejF0dDRETm9wNDZhLWdfcEdEd2xpaEhGdVFVRVhudDRURWV6cmV3enlNcFRNWTJ4allnLTZtd2xHOWgxSlNQaFhaMmduLXRQbk5mOHdJNHVieFZKM21FdW5aVTNha0cyOUZZaU1ZdHF2VWFjWVdYbTlyV2dBeE0xX2FOallPVWFQQ25jUmtRUS1uSW1Ldlh1WGt2NllxZ2xoUVhTQXNYQUwwQnhPQVBrWWdoLVJQSkhESzRsMVo2VmJVekwxYjNzVlF4TGpKTGhENFZwRjBFeHV2YXRSa0pzd2pZdWpxQWhFSUhIcndIbFR6eXJIM1RZdnpabkRidWk2bHpoNldSQkdQbXY5UWNQeElyb0FueHBsbUtlak1TbVZ5U3Y3UEdDUk1DYmpMdTF4R0IwSnFVaVFzU3ZVTUJNVmJNbGZMM2stMHFQRVhQdmx3?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxPU21Ud3JpeHFQZldlOE0yNGJUYzgyMXpNekYzMTVMQ19xTFZEOFBIemFJUW5GN3J5c09Sa0djYUVPeWxWbjc1ZlJpWTk0UkJTS093MU5UQVpQdEpkLUZCN1hQalE5bG5CamNyRjNQMjZDa2I5MXBsVTB1VndWbkFfNlVEUVdpOTcxeHVSUjFLZk1LOVd1amJUQk5uenAxM0pEZDgtN213dnExYTlnUVk4QUl5SmlleTl6Zkp3SWZycXZ1V3h3c3ZkS0hOZFF6NHJZUzRrN0FxNHo1TWxvS2l6WlVxajdEWlN5c2VMSkxLNlB4OWF4amNQeko0SDNJWS00X0JoaVQ4eEFmR25VcjFMYVEyM1lLT25Fa3JTTTd3bEZwekprUlhiT3dudkZlUVJQMXUwM0YyTEY3MVRsbzFEV0diUHFTVllCUXNmelZkYlZtVmhiM0xxMzduOVZ1S2R2U1EtV3F4ZmpwMXhkT1BfVUpITk5YZmJXZ2pDMnN6SW5rZ09PT3hfY0Fn?oc=5"
     },
     {
       "title": "Bitcoin Price Falls Below $67,000: Odds for BTC Low This Year - Federal News Network",
@@ -361,8 +354,8 @@
       "url": "https://decrypt.co/357025/bitcoin-extends-selloff-macro-pressures-leverage-unwind"
     },
     {
-      "title": "Bitcoin spirals toward $60,000, heading to worst one-day drawdown since FTX blowup - CoinDesk",
-      "polarity": -0.868058267980814,
+      "title": "BTC price news: Bitcoin spirals toward $60,000, headed for worst drawdown since FTX crash - CoinDesk",
+      "polarity": -0.8581603802740574,
       "ts": "2026-02-05T20:03:45",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNmpaZjFBTG1FSUpVTXlMbDJVdm1jT2s4bWJfTThCT3lITEVuVUJ6cnZKazJOckVSRDM4VGtWZkR6Y2pYZE12SmxMYkJLZHhmeXZFZE82SlF3eFdmU0didmZkRFdZOVVpV0VHSExXdjFxSXQ5Sk1YREpPeDRzTEJjT3BCdTByaWgxMVFZSjE2aTc1cExVOUZqYUNqbFJlU2dINXF0enNhckdWTXVhYnR6T0QxZVdQbGV2dWdVWmtMemhwUQ?oc=5"
@@ -410,13 +403,6 @@
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aam1INl9sb09HeUJObFZ5enZwejJMZ0RxQmVUeG1jTVVaSEFoMXVCZndTQzgybXZvZWREWktIdGdYX0xtOElobUZxOWJsYUJxZEdUNTVVZVdKSVc0Z3pPbVRvQ3pZbDJhNnphS3daUU0?oc=5"
     },
     {
-      "title": "Bitcoin ETFs barely flinch as BTC slides 40%, Bloomberg\u2019s Eric Balchunas says - CoinDesk",
-      "polarity": -0.7103792168200016,
-      "ts": "2026-02-05T23:42:35",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLVFKN0ozakYzV1l5cHlkTFhuVlMtWld1VjRKUHRsNlNKU1B2R0N3aVd4dG1CRWZjcHExcVhCZ1NZSlBmc2NTeHd2RUlZdlRhUGItQlZyTEFuYjhNbmtCWkJtOGpZU1JUWS1jMmwzWG9SSzAyN3RJd1J1MVVmMUpQc2dabXFlbmI1dGptRnZwTDR5NjltNmlfak05X05tSjBBWUI3dmc2R1NQRGVGbUh6VWtwX2dPT3p3aFdB?oc=5"
-    },
-    {
       "title": "Traders dump $4.3 billion BTC on Binance as exchange sells more Bitcoin than other exchanges combined",
       "polarity": -0.7062873356044292,
       "ts": "2026-02-05T21:30:41",
@@ -440,7 +426,7 @@
     {
       "title": "Bitcoin plummets, driving $2 trillion tumble in crypto market value - Reuters",
       "polarity": -0.6958707757294178,
-      "ts": "2026-02-05T06:18:28",
+      "ts": "2026-02-05T06:18:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdEJYN0YyS19DNkU0dHFOUUo1eDJmMXh0ZjlHcGlDQ3FWcW1IbVFpOUlKUkFFeGQ0eW9jQWdyaFB1a2k2b0hEZTBPOVFKZFUwcWdEbFpnQi0zWU1sN0xnM0E0QlA3UnVpNldEamdmU05NMEVROEFOQTB3M254OEpmRFpvUXR4N1FPTHJoeXYtSQ?oc=5"
     },
@@ -494,6 +480,13 @@
       "url": "https://cryptobriefing.com/bitcoin-supply-loss-risk-looms/"
     },
     {
+      "title": "Nancy Guthrie latest: Derrick Callella of California arrested for demanding Bitcoin ransom from family - 6abc Philadelphia",
+      "polarity": -0.44001581333577633,
+      "ts": "2026-02-05T23:37:48",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRGtfUFB4TUlLSkF4VXpFSE1kRmhWVGloUXRzdUJEOEstWDFXTURXTEhRVmFoUm9rZEJoMnVmaXBUYXczV3JWT25ubV8wTGQ2dVI1WTQtUG1HTkhEdDRxNXc4c00zZ214dHNmQ2FDMURKcFZWS1JQdTJSX1VaLTMyMTE5T0o5UkQwdkFjelFwWlRSMXFwb1F5LVpGXy0xVXlTM2o1SVRVMllGdUFKejF3bzhtYlRUTnBBWTF4MXZ30gHDAUFVX3lxTE1Hek5LNk1salVFaGJLZUpIZTQwVGdDOTAtbWIyblRrVTFlNVdhMDBJelpNbFFPZVZYWVZXbW9ESW1KZUd5WmsyUkdYd3dVdThKUHBaSV9RN3BKdWxreFN1anJWLXE3NG8yUTJpNUxGbGRzOVQzck90T210bDlNMl9PeEQydmNLN01kN191SGI5OHgyelhidU9uTlpPcHRxbG5BbFVseWVaRUM0TmdxdFJLVUdOZkF3RnRBUHZNQWNRX25XTQ?oc=5"
+    },
+    {
       "title": "Bitcoin Is Crashing So Hard That Miners Are Unplugging Their Equipment - Futurism",
       "polarity": -0.4335064385086298,
       "ts": "2026-02-05T20:42:08",
@@ -501,11 +494,11 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRWpjalFyYktiQzF5eEVJY0s4aDNNSTk3b0xKRGJqNTZkQVR3TTN5X1hDVUoyZ0ljNUsxNkFlOWdjU1d4UWtpMHFnd0k2Y2tKSFZXTWY2RUNNMGtZTVd0WU5jVTE0cGdtOElQenRDVlVPNE9WOFczbjUtMHNGWVozZEV0UVhFc1k?oc=5"
     },
     {
-      "title": "Nancy Guthrie latest: Derrick Callella of California arrested for demanding Bitcoin ransom from family - ABC7 Chicago",
-      "polarity": -0.36707041040062904,
-      "ts": "2026-02-05T23:36:26",
+      "title": "Nancy Guthrie latest: Derrick Callella of Torrance, California arrested for demanding Bitcoin ransom from family - ABC7 Los Angeles",
+      "polarity": -0.41350423730909824,
+      "ts": "2026-02-05T23:03:24",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNS2xhT2JuZGJSaWM4Z2g4Vmp0WUpkWjZWNWoyU1Jwcy1XOFpUaG5Bdkl3VHJzVEdkZTcyYnpQYUo1MjBCUUIzUEx2MU1IRHU5M2pkZ0pvaE1KRFZ1eFBiMWNuXzVBM0E0Ym9aa19XdmRUcVhCNDBmSUVZeXVuOG4zVm4wazlreFZGTmhMMThULTIwQm84XzFxeFA1QkJJNzVqeTc3R2N0clBYN1VhNF9PbmFrNWt1ZlY0RHJzLXgzak5oVHk3M2h30gHMAUFVX3lxTFA5VnlhY2ZmUTlyMFdMbzlaZkhVWUZNVWMtbW9vTUpDd3JwNFBpRF9UaGVVZ2lsdEo5SmJXZ0xzY0xVai1MMDRXQXZwR3hRRFRCcEhBSXZCaHY1NGNSTzNwSXVlUms1NTd5dWtDUzdCb2VULUk3eEltVXdmSVVRU3F3SlNQLXJveFBEelpnY2dPY2VlVnRXUmM2N1hwV1Q3S0JQNjlUU1JzSWQ2cGNXOFppc2NGd1NiX2dFa0FMLWxfZmlFcHM4cThYSm40aA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUzJDTWRBbEZRQy1EZ1Y3R1dWUktXTlBUSW9IUVhmOWZYX3VTZ0Z5ZHBKX3RPWERmcEJSRVJTZldVTWJCbXRCa3pVcFl2amQzMS1ySWVDMEw5a1VueDFUOGJlMTVlM01QbHlyRkU1YUhFeUk1YXNTelZvMEZVUGlBV1hTTmFFTkhoOEtJdGc4QXN5a3l1ZU1Mbk9vajNJcExremNheVpQMmZLNzhBaFJiT3ZDMEZPS05hbjRMRnB30gHDAUFVX3lxTE15M3d1bm03UTdhZ1NBSmdjS0FxcnZZekowaTFFdTNnM0Y1eENMTFN6TktxT3ExamJYUnFvS214UjM0OWQ0eFpsTENRdzFBQXROVHhNQ0FwQW40M0tjRlM3WjBDRld5QnJrRU85X016Vy14SlR4Zjc3WFlkRDNzd3BUWnpEWjRuQTRHbDFPSU80MVIyUmNWM0NOQW1SREhjMjFzWFlsSEhZcUd3R0U5Nlc3TXlLQWFoOHhpWHFON0dHVWZiQQ?oc=5"
     },
     {
       "title": "Bitcoin Price Crashes 9% to $69,000 As Markets Spiral Into Full Risk-Off Mode",
@@ -526,7 +519,7 @@
       "polarity": -0.26256218552589417,
       "ts": "2026-02-05T22:05:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitwNBVV95cUxQamxvak5yU1RodlRKeGJReXNnR0RvZVBCbVQtLWJYVjRZdVNXbXA4T2hIUXhkeTN6VkxqY2pWOUgteFlUNEdndXRpN0JpblVNcDg5R3FQOFEyU3FPM095cUhfcXRJYXRfbTZ0R2pIUlFDMzVxbkF6aTFCYjBEcEJwMW5TaUI4NE1tSUczTUpJaGJwbnhpX0lnVnNpZzNEVE02NHRFZ2x6RWRfU24zNnIxMmpTVl9HTHlzNEE5dDMzdFFGdjIya3RpbTdnTURKTGR3NmRnWTEtUFowYUotZ0VXT0pMT1o1OEpteG0wOWZ0bDJoQTRMY3FEMHlnUkRIbnZJbWt3UDgtZXZvb1NIS0JPSnFzc2xBV2kxR3FUQlNqTUtia1BQcUY1d3pDZnU1UXNpaXd3aU43SzZqTE1yYU9wQkZiQ1d3S0o4YWlMTnQ1NlBMNkZvU0NTVUgwRkpfT09pQ3huM1R0VGtwbjZaZUFtZHJ5STN2VGVHWHFWd3BjZUdYU3RWaFlYMXJsMzBqUDFIY1d5LThLVnl2dDVnWE9KdlF1cE5mMVdwRVpkV3VsU1d0ZGlwLUlj?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitwNBVV95cUxONnNUcmFweGhxd3RpZERLT20yNTBHTTNWcUhkMGx0Ni04TGlneExidG5kelVhV2tEa0lHNTVSOUdCWDlzWFdORGZLZ2J1WFRwNjRaT1dQSC0xZ0JYYklzN20xQjA2SlFGUTdKTTh2RFhlc2tqcWNZeEw5S1B0eGx4Z0JwaDRtcnVzYnd6cXo4WVd3RldoVVNDekNFS1Axa3ZoenZJT0ZtVDNfT01HN2JOcWVxLWNrZDNvT0JHU3Qzdm8xVzlmSERJOXFFOFJHcnN4Tko0LVpwTzhObXJ0akhldkxDcEoyZG02cUZHVlhSZmdLMmFnMk0zM0xJdExiazFnTFpDOFZfZFNuaG92YXQ1YlhDQi1FaXlwNTl1OWplSmRKWExVOVJ1NENScWF1Q3FMUnpBZjg2OFBEN25SMzBRTUZQQ2VYOTJXREZKQnQyQnBQdW9RdG9URkk4cmNPbTg1amFpYWZwelB1UmlnRm5RTVhtdnF6S1R5V0p2UG04SUhRWVpGLU9XUC11aTlqLTUyLUU0UFpnaFdzY21waHpYSEtKUmF3OTNMNXNQdkVOVFRfbURKTnk0?oc=5"
     },
     {
       "title": "BlackRock moves $358M in Bitcoin to Coinbase as price drops toward $69,000",
