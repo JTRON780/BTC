@@ -10,7 +10,7 @@
     },
     {
       "title": "S&amp;P 500 Heads Toward Its Biggest Advance Since May: Markets Wrap",
-      "polarity": 0.631579726934433,
+      "polarity": 0.6347256153821945,
       "ts": "2026-02-05T22:24:29",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-02-05/asian-stocks-to-fall-as-us-tech-crypto-extend-dip-markets-wrap"
@@ -158,6 +158,13 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9yVFNvaVFyc2dnSW1qV2NqaFotMk1QN2JyR1pwV2tFTnN6RG9YQkNEeVlmNkxhVEkwNjlJb3R4X0FTQWZlNmlneGhwcmhEaG5BYXoyN1VyZk8xcEUxcEs5NWdnQ1c3R3NqVWV1VEg2MGhQQ2xEdzBZS18yZ9IBgAFBVV95cUxPVkRNTWJLZ3J0RzdQdHJoSW1CV3NJYmowOHVCQ19neHgyZFJBYWwxZk0tdXg0WGxuclVzNFVFUkV3SmF5WFBvTkdJNXZXQ0ZqMXlWLV9XN25mZkdUOHdlVFdTVTJpV1BqNkVyVHdUd0Z1RVBQMUhwZFMwY2JoejAybQ?oc=5"
     },
     {
+      "title": "Bitcoin Drops to Lowest Price Since Trump Was Elected as Crypto Faces Slump - The New York Times",
+      "polarity": -0.930408164858818,
+      "ts": "2026-02-05T21:07:39",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORENaUndVNnBmcExwTDhUdmhYQks5QVVzMllKVk5kbEpCa3RFTEJELWQzVTBiUThVVnRYaHFzOGxNdUhTZmJ4RnJ0STYzcm9DeDZSYXVkbEFLYVZXcFRmVlM1U0lDWHVsTVE3NExuMTRxZkJfMEpyVU9VMzNvM092clMyaWsxY1pERlpB?oc=5"
+    },
+    {
       "title": "Bitcoin crashes to $67K erasing gains since 2021 as liquidations top $1.4B",
       "polarity": -0.9282752219587564,
       "ts": "2026-02-05T15:52:48",
@@ -186,13 +193,6 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNXdlMHZWT3FFa3pheHhncmtmQXdTNTVxZmZENVd6WXhXRjM3NlRlWGtHRmszN3ZjZE1Kb0tja2U5MkRySmhBYXNNY2VRWjZDYnAzYUJLYlE0U29EMUxPQ3NuTTRqSHhjUUlkMXR6MXM1dkwxajFhQTJhQjlkY3puZndtZW1GZw?oc=5"
     },
     {
-      "title": "No, but seriously: What\u2019s going on with bitcoin? - cnn.com",
-      "polarity": -0.9155709762126207,
-      "ts": "2026-02-05T13:43:29",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9iOGxvT1hGSGUwWFEzMkFsWlJxZm1Vd3dYanlsUjFHVnFYVEo1T3JLaUVwbDZCMXJNNXU3U1hSQkFWMDdKaFNoRGoxLWZJYjZ1ZmNVVnhLZnN3b1UxMUp5SzdSMG4?oc=5"
-    },
-    {
       "title": "BTC price: Bitcoin sinks under $64K as new investors lose faith - Axios",
       "polarity": -0.9099845811724663,
       "ts": "2026-02-05T21:46:47",
@@ -205,13 +205,6 @@
       "ts": "2026-02-05T22:17:26",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/will-bitcoin-rebound-to-dollar90k-by-march-here-s-what-btc-options-say?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "Bitcoin slips under $64K as record-high selling intensifies: Where is the bottom?",
-      "polarity": -0.899097390472889,
-      "ts": "2026-02-05T20:21:14",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-slips-under-dollar64k-as-record-high-selling-intensifies-where-is-the-price-bottom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "title": "Bitcoin Price Falls Below $67,000: Odds for BTC Low This Year - Federal News Network",
@@ -319,6 +312,20 @@
       "url": "https://cryptobriefing.com/bitcoin-supply-loss-risk-looms/"
     },
     {
+      "title": "No, but seriously: What\u2019s going on with bitcoin? - cnn.com",
+      "polarity": -0.41945403814315796,
+      "ts": "2026-02-05T13:43:29",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9iOGxvT1hGSGUwWFEzMkFsWlJxZm1Vd3dYanlsUjFHVnFYVEo1T3JLaUVwbDZCMXJNNXU3U1hSQkFWMDdKaFNoRGoxLWZJYjZ1ZmNVVnhLZnN3b1UxMUp5SzdSMG4?oc=5"
+    },
+    {
+      "title": "Nancy Guthrie latest: Derrick Callella of Torrance, California arrested for demanding Bitcoin ransom from family - ABC7 Los Angeles",
+      "polarity": -0.41350423730909824,
+      "ts": "2026-02-05T23:03:24",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUzJDTWRBbEZRQy1EZ1Y3R1dWUktXTlBUSW9IUVhmOWZYX3VTZ0Z5ZHBKX3RPWERmcEJSRVJTZldVTWJCbXRCa3pVcFl2amQzMS1ySWVDMEw5a1VueDFUOGJlMTVlM01QbHlyRkU1YUhFeUk1YXNTelZvMEZVUGlBV1hTTmFFTkhoOEtJdGc4QXN5a3l1ZU1Mbk9vajNJcExremNheVpQMmZLNzhBaFJiT3ZDMEZPS05hbjRMRnB30gHDAUFVX3lxTE15M3d1bm03UTdhZ1NBSmdjS0FxcnZZekowaTFFdTNnM0Y1eENMTFN6TktxT3ExamJYUnFvS214UjM0OWQ0eFpsTENRdzFBQXROVHhNQ0FwQW40M0tjRlM3WjBDRld5QnJrRU85X016Vy14SlR4Zjc3WFlkRDNzd3BUWnpEWjRuQTRHbDFPSU80MVIyUmNWM0NOQW1SREhjMjFzWFlsSEhZcUd3R0U5Nlc3TXlLQWFoOHhpWHFON0dHVWZiQQ?oc=5"
+    },
+    {
       "title": "California man arrested for sending texts to Guthrie family asking for bitcoin during missing mother case - Fox News",
       "polarity": -0.370992686599493,
       "ts": "2026-02-05T23:15:29",
@@ -330,14 +337,7 @@
       "polarity": -0.26256218552589417,
       "ts": "2026-02-05T22:05:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitwNBVV95cUxQTUY0a2dNek5mRFNSc2pSdFQ3cHZKdV9RMjhVdFAwRUdOZ1dHYUhQcTkwdVVGbkh5Q0FJaXBkNkR6aDI3NUVZR29qbjhSaTRwY19mMnRCMFYxSW5JZ3hOZnhGNUdaS3c5MkppWGlmMXdudHN1bDdRUzJjWmhmeGdHalFjczc3cGhzbzAwYXliLThiNUZJYjZjWkxmX3BBN185SzFEN3JlU0c2YldIWDlfMWljWXhQS0dsWTNMT1lDZm9RUW5ySDBBcEgzeTQ3X21fQzFZczRpekk1WnI2UUVNb3BGZUdyLTZ5T015Y0N2b1J1U294d0xDSWxmZUJ6SFVqdUFnRDNLYTBMek1EakxHMnE3ZE1qVmtZNTFiY2RNUmZvanVuSTBmMDhGWnJiQ2VBa2Y5WWNaa0RYaXgzak0tMWxrU1VscXk2aHUxYnRiRThheTkwZ3ZmLU9kNWU2cTVNaG5iNHdIQ1dzVDVzOXQwZGNwSDNidlJ2LUhPUEczUlFoNXVncW5OTlFiX2dXVDNiVjF0RWpWS182WllLTHN6b1VDbEI2TTZVU3kwU1BiNTdrV3hMSzZn?oc=5"
-    },
-    {
-      "title": "BlackRock moves $358M in Bitcoin to Coinbase as price drops toward $69,000",
-      "polarity": -0.25529108196496964,
-      "ts": "2026-02-05T12:48:59",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/blackrock-bitcoin-transfers-coinbase/"
+      "url": "https://news.google.com/rss/articles/CBMitwNBVV95cUxQQld3ZWhXbFl3dEhrZUxuMVNfMkJDZ0pma3RyRWxwNkN1dm95Mk00OHctSHZRTW14QUtMcC1Jb0ZLMDVwcFRCSGpBcnlPYXJiZnVNLVM2TklOYmF6RUxfb2IzTXFEZFczSnZodXAyWjZjTElYOEtDZG9FNjVRalVaMGd2NTBzMHNGNHRtYkcyM3VyZERhLXBuMlZ0WnpvYXRRcVpXMy1nS0hvMkJQdkdMN2hjaXNPUzNNVW1COTc3TnlIWUxMZ3dJalZxdFRkX05aT2t0R3p1NEtSV19kSU53b2xTd01kd1ljZjhRN2NyMnZNN2VRM1FOM0Nad05TcUg5WmIwYklDMGN5VEVOcGotZFotMFZndzFDT0xtZkR5TlUtVjFSUnZFakFwTnljOU5naDJBdUd1LWY5amJXdlRNNWhxdDhDODRZeGYtREdVTHhVX25RQk9CNzhhUzNJRUNzV0ozMG5WcjBEcmR5TzdZYzVpLXZiZy1uTGVLWUx1eHZGZkJhVjNyZ2JmeDNSbWRsaWFtVFZEdUExN1gySS1qMlpqOUNIcDM2dWl4OXp3THFoRkF3UndJ?oc=5"
     },
     {
       "title": "PSA: It's not crypto that is failing, it's the whole market. Stop the panic.",
@@ -375,13 +375,6 @@
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1qwbpa3/is_managing_cashout_risk_in_2026_the_real_edge/"
     },
     {
-      "title": "First bear market rules.",
-      "polarity": -0.05117473006248474,
-      "ts": "2026-02-05T14:28:02",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1qwmplr/first_bear_market_rules/"
-    },
-    {
       "title": "Monetisation",
       "polarity": -0.04801764525473118,
       "ts": "2026-02-05T23:08:37",
@@ -389,18 +382,18 @@
       "url": "https://www.reddit.com/r/defi/comments/1qx0tc4/monetisation/"
     },
     {
-      "title": "Why bitcoin price is trending | CNN Business - cnn.com",
-      "polarity": -0.04610700532793999,
-      "ts": "2026-02-05T23:14:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBvNTlXeG5zeU9VRmh1eEVrdk1lZjFJRjU3bHA1c0ZZUFdISTdQV2swTG1sODA5MjlnOC02cTZHcm4tZFFVTmJqb1hKQk9kOWpVWVZOY2lIMm1JZjJWNnp1ZjJFUVV0ektZNVlSV09TWWgwbVA0dVNNOWZSa196dw?oc=5"
-    },
-    {
       "title": "The v2 Transport: Bitcoin P2P Traffic Goes Dark",
       "polarity": -0.03782832436263561,
       "ts": "2026-02-05T19:16:34",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/print/the-v2-transport-bitcoin-p2p-traffic-goes-dark"
+    },
+    {
+      "title": "Why bitcoin price is trending - cnn.com",
+      "polarity": -0.025263145565986633,
+      "ts": "2026-02-05T23:14:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBvNTlXeG5zeU9VRmh1eEVrdk1lZjFJRjU3bHA1c0ZZUFdISTdQV2swTG1sODA5MjlnOC02cTZHcm4tZFFVTmJqb1hKQk9kOWpVWVZOY2lIMm1JZjJWNnp1ZjJFUVV0ektZNVlSV09TWWgwbVA0dVNNOWZSa196dw?oc=5"
     }
   ]
 }
