@@ -37,6 +37,13 @@
       "url": "https://bitcoinmagazine.com/news/senator-lummis-bitcoin-tax-guidance"
     },
     {
+      "title": "After Slump, Bitcoin Now Trails S&P 500, Nasdaq 100, Gold Over Five Years - Yahoo Finance",
+      "polarity": 0.1252241376787424,
+      "ts": "2026-02-05T15:57:50",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5VNFd1MFJfc21MNGJEUEhlRUZ0eUR4R0M5WmRsSkFpSzdDcWVOTlhoc2VZbW5JclhEa0RmSVFNNlpud0pCWS00QTcyV1VWYUhjSlRWNjdOdEpBQmxka2ZRYXV3ak41ZE5aUTdlOHc1TW9LelN5ZFpPM3pMQUdRZw?oc=5"
+    },
+    {
       "title": "BTC 69k with different energy",
       "polarity": 0.03571602888405323,
       "ts": "2026-02-05T12:40:05",
@@ -56,13 +63,6 @@
       "ts": "2026-02-05T20:49:24",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/business/paystand-the-payments-giants-quietly-supporting-bitcoin-circular-economies"
-    },
-    {
-      "title": "Strategy's Saylor Touts 'Crypto President' As Bitcoin Plunges - Investor's Business Daily",
-      "polarity": 0.00478653609752655,
-      "ts": "2026-02-05T23:01:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRVUwWlhUN1RfMFJwRVBGT3hLTkRQQWlCXzVCOGp1bm52c29KRklTWjZHeE9iVXJXMkk1SXNMMVppbl9MUkJmZHNMSzhjNGgyeFBsYTFfQVo4THVmd0RfVXFLSWRudk9uSHNheEFDeWNVSWlMWGVxQU5sdnBZUFByeGM1eWFyQlBCbVB1blAwNjJWdGlkLXRsRg?oc=5"
     },
     {
       "title": "Op-Ed: Move over Bitcoin, Kalshi and silver just ate your lunch - CNBC",
@@ -130,13 +130,6 @@
       "url": "https://bitcoinmagazine.com/news/bitcoin-price-plunges-toward-60000"
     },
     {
-      "title": "Falling tech stocks and a plunge for bitcoin hit Wall Street - apnews.com",
-      "polarity": -0.9391183685511351,
-      "ts": "2026-02-05T22:35:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbGNUYmlNdFdDb0kzdEJFV3lvMHh2N1FoS3BGNTFHdjQtRVpSMWZpU2JoS2FldEw0RUNFU2ZYVTBIdmNBenpOdFNYVHlfTExHZUVPOFhoLWFSNzhrTTJabk94UHFTbHV2NjJwa0VkTlh3NHozdlNfb0xxaEhNaV92NnV1ZnJQQWs4UllrdGtGZWlpdnliaC1XQnN0Rms?oc=5"
-    },
-    {
       "title": "Bitcoin drops 15%, briefly breaking below $61,000 as sell-off intensifies, doubts about crypto grow - CNBC",
       "polarity": -0.9390777125954628,
       "ts": "2026-02-05T11:43:42",
@@ -165,11 +158,25 @@
       "url": "https://cryptobriefing.com/bitcoin-market-crash-liquidations/"
     },
     {
+      "title": "Bitcoin price plummets further. Is crypto crashing? - Mashable",
+      "polarity": -0.9246171712875366,
+      "ts": "2026-02-05T17:32:13",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQmUxQVZWQUNhODV5SDYxQzdhbS1YZW5qS2dSRTI5LVJFY1pwdk5ydzdlZDdOOV9ldGpBZTRVazRIb2NQaFZsUWhRRTZkc3FndFFWTnp3ZHg5WGZ2UFp4ZWo3bEJERmJOb1pVeTk5SkVEeFBnMndtMVZrNHh0TGdfMXRYYkFuOU0?oc=5"
+    },
+    {
       "title": "Bhutan Transfers $22M in Bitcoin Amid Market Downturn",
       "polarity": -0.9176333006471395,
       "ts": "2026-02-05T10:07:01",
       "source": "Decrypt",
       "url": "https://decrypt.co/357036/bhutan-transfers-22m-in-bitcoin-amid-market-downturn"
+    },
+    {
+      "title": "Bitcoin plunges to lowest level since October 2024 - ABC News",
+      "polarity": -0.9123167730867863,
+      "ts": "2026-02-05T21:35:02",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPR25pUGV6RFdnRFZoWTlzMGJvWmF0SmhxbVl1SXZVWVc1VWVNWm1FbGpIOFhTTmRkeGw1bGpaS3l5VmZJMV9KR0pXSlNyQkxlbnFUZG5jRENQVGVfUklJdzloMjJFT3JJNWVSTUZKTVFvU3NjTDcxVklTRUd2T0tGX0IwUElOc002STc3b0RESkRLaEQ2YXRB0gGcAUFVX3lxTFBocFZSVTlvT01sQUlkRVY4U2ZQang2ZFBNQ3V5eHJlcmliY250TjNxRlpLcVVPeFZ4SXYycjFlclp1a19fTDhOMkpoTHR3Zkp3cGt1ejZ6UEs1VTdaZDNadExBUERON2Mxd1VQNmRhdEszT1Nzd1kyQ1ZKR0lhbEN6bzQtUDR5T19pSWZ2RjAxOGVDdXRxaHd1VWpSVg?oc=5"
     },
     {
       "title": "Bitcoin Price Falls Below $67,000: Odds for BTC Low This Year - Federal News Network",
@@ -186,13 +193,6 @@
       "url": "https://decrypt.co/357025/bitcoin-extends-selloff-macro-pressures-leverage-unwind"
     },
     {
-      "title": "No, but seriously: What\u2019s going on with bitcoin? - cnn.com",
-      "polarity": -0.8675908632576466,
-      "ts": "2026-02-05T13:43:29",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9iOGxvT1hGSGUwWFEzMkFsWlJxZm1Vd3dYanlsUjFHVnFYVEo1T3JLaUVwbDZCMXJNNXU3U1hSQkFWMDdKaFNoRGoxLWZJYjZ1ZmNVVnhLZnN3b1UxMUp5SzdSMG4?oc=5"
-    },
-    {
       "title": "Bitcoin Price Plunges 50%, Drawdown Nears FTX-Era Crash - Bitcoin Magazine",
       "polarity": -0.8328323625028133,
       "ts": "2026-02-05T21:42:10",
@@ -200,11 +200,11 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90RnhHSDlhSUNrU2R2SkpBcmtXeWZsOVZaYkw2dERGeHNfcmFMam4zUExuTlZMV2tXSFBmZXFzczdyQUJqSkNDdV9uT0pwSGpwZ1Z6cGRBMXdGdEtYQTJJMTYwUTNZMVA4ZlQ0cXFLTVEtMTJiRnc?oc=5"
     },
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq sink as sell-off builds while silver, bitcoin plunge - Yahoo Finance",
-      "polarity": -0.7925203964114189,
-      "ts": "2026-02-05T19:03:14",
+      "title": "Saylor-led Strategy's quarterly losses widen as bitcoin faces another reckoning - Reuters",
+      "polarity": -0.7328861691057682,
+      "ts": "2026-02-05T21:18:52",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbEFhOEJTV3ZZbTEtVTJQMzdrTnJOX2lGVkVlT3IyV1pOSk03c3ZjdC1vYlFJM2NDUUpHOFY3amZZYktZLVN1NlhpT0xEWU5rWmdPZk5Na0hPdzdXZjJvZlVTb05VZ1l0WkF2MWNvTFdWckdEdTBVLVVlOGJuRUlUcFVZc2Q5TWQ0THVWd2gwWWJaUEJOYlJ0LWYySWh5OWFjMThCeU9YbS1uWEN3VzM1RDU2VGFRNmg0T2llLXpKcU04ZnNSRGRFUy1WbGtNamFsR2h3TDFR?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdnhyS045bjRnSEtyLTZFVm1BUENPU1FqMEVxWVI2bVUtcjhERFZIRjVyT09FZ29qdFVOUm9ma1dZdDlVNjg5OXR4Z3lIOEpiS2VBU1J1YVZYUHhwbVE4cy1SM0ZaMDMyb21RTmhvT0lJSGd5Zm5TMzJvakNVbmNvWktnTnBoWHhXM3lqWHpxRGRDV00wdnd3Tm9tN1ljbkVUSGM5d2dTVENqZ2twRGx1clhzLWxmQ3BjRUROMw?oc=5"
     },
     {
       "title": "Bitcoin price falls below pre-Trump second term levels, now hovering below $67,000 - apnews.com",
@@ -230,7 +230,7 @@
     {
       "title": "Bitcoin plummets, driving $2 trillion tumble in crypto market value - Reuters",
       "polarity": -0.6958707757294178,
-      "ts": "2026-02-05T06:18:00",
+      "ts": "2026-02-05T06:18:28",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdEJYN0YyS19DNkU0dHFOUUo1eDJmMXh0ZjlHcGlDQ3FWcW1IbVFpOUlKUkFFeGQ0eW9jQWdyaFB1a2k2b0hEZTBPOVFKZFUwcWdEbFpnQi0zWU1sN0xnM0E0QlA3UnVpNldEamdmU05NMEVROEFOQTB3M254OEpmRFpvUXR4N1FPTHJoeXYtSQ?oc=5"
     },
@@ -264,17 +264,24 @@
     },
     {
       "title": "Nancy Guthrie latest: Derrick Callella of California arrested for demanding Bitcoin ransom from family - ABC7 Chicago",
-      "polarity": -0.273931160569191,
+      "polarity": -0.36707041040062904,
       "ts": "2026-02-05T23:36:26",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNS2xhT2JuZGJSaWM4Z2g4Vmp0WUpkWjZWNWoyU1Jwcy1XOFpUaG5Bdkl3VHJzVEdkZTcyYnpQYUo1MjBCUUIzUEx2MU1IRHU5M2pkZ0pvaE1KRFZ1eFBiMWNuXzVBM0E0Ym9aa19XdmRUcVhCNDBmSUVZeXVuOG4zVm4wazlreFZGTmhMMThULTIwQm84XzFxeFA1QkJJNzVqeTc3R2N0clBYN1VhNF9PbmFrNWt1ZlY0RHJzLXgzak5oVHk3M2h30gHMAUFVX3lxTFA5VnlhY2ZmUTlyMFdMbzlaZkhVWUZNVWMtbW9vTUpDd3JwNFBpRF9UaGVVZ2lsdEo5SmJXZ0xzY0xVai1MMDRXQXZwR3hRRFRCcEhBSXZCaHY1NGNSTzNwSXVlUms1NTd5dWtDUzdCb2VULUk3eEltVXdmSVVRU3F3SlNQLXJveFBEelpnY2dPY2VlVnRXUmM2N1hwV1Q3S0JQNjlUU1JzSWQ2cGNXOFppc2NGd1NiX2dFa0FMLWxfZmlFcHM4cThYSm40aA?oc=5"
+    },
+    {
+      "title": "Nancy Guthrie latest: Derrick Callella of Torrance, California arrested for demanding Bitcoin ransom from family - ABC7 Los Angeles",
+      "polarity": -0.3135553542524576,
+      "ts": "2026-02-05T23:03:24",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUzJDTWRBbEZRQy1EZ1Y3R1dWUktXTlBUSW9IUVhmOWZYX3VTZ0Z5ZHBKX3RPWERmcEJSRVJTZldVTWJCbXRCa3pVcFl2amQzMS1ySWVDMEw5a1VueDFUOGJlMTVlM01QbHlyRkU1YUhFeUk1YXNTelZvMEZVUGlBV1hTTmFFTkhoOEtJdGc4QXN5a3l1ZU1Mbk9vajNJcExremNheVpQMmZLNzhBaFJiT3ZDMEZPS05hbjRMRnB30gHDAUFVX3lxTE15M3d1bm03UTdhZ1NBSmdjS0FxcnZZekowaTFFdTNnM0Y1eENMTFN6TktxT3ExamJYUnFvS214UjM0OWQ0eFpsTENRdzFBQXROVHhNQ0FwQW40M0tjRlM3WjBDRld5QnJrRU85X016Vy14SlR4Zjc3WFlkRDNzd3BUWnpEWjRuQTRHbDFPSU80MVIyUmNWM0NOQW1SREhjMjFzWFlsSEhZcUd3R0U5Nlc3TXlLQWFoOHhpWHFON0dHVWZiQQ?oc=5"
     },
     {
       "title": "Bitcoin\u2019s latest selloff is shattering many of its most enduring myths - MarketWatch",
       "polarity": -0.26256218552589417,
       "ts": "2026-02-05T22:05:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitwNBVV95cUxPSjVFT1dCRk5HR05hYXJQaHh2WHFfYUJOM3FkOGx2b3cyX2JOaFJGQ3pwUHF3Qi1VYmI1QkdzU21GaTlBWklFaVNwVk40T1hOUElPMWk5UGVuNi1laEhMOHU4X00yRnp1eFp0UWxEa1pLblR1ZG9vVmVhQjlzWlp0aFJoRW9UTm5kVi1GdElPSjRDSW41NHJ6LVZ4Um93a25VT2RoR0lyM1JGekhtbmZDLTdvS0FRb1c3WENZam9reVozdFpvYmQ1MHdKSnN1THhTR3NfVnlaalRXX3V3Q1VUNUREc0MtTjZhRzZZNV9EN0dST1JtZG94QklvTmxObGFLSUVNcU9SYmZvdGZBNm1OV3VDd2Y3akFpWXRsU1NaRDJiYmVlb0ZvVEZLc1RpVXFDYzBudzhNcHg2NHhvM3ljUDc2T1V2QmU0dzJSdTZLQzliZm5vQkZGM0FGQ1dtZ184eDVkS0QwcFc4aFBEcng3Q3l5TWpfQ2lkYTJjODZwRFVnTFpFZDVtcTRrcVR2UnI4bzFXUE1nLTJuaWl0MTBkQTQ1YVVVbGFJS1ZCVHBuNXJhMzFZSmRB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitwNBVV95cUxQLV9NV0dVUzBiS0U3WUJMTEhWWEpZYVY5ZlpkYmVpNFhyUUtYWjFJUHdrN0dvbmZsVThWaTJiOVpqc25hWHNOdHR1dXQybWROZXQ5dGhZbnJ2Q0xRWjVBTnVfS3FwLXpGRElTcjFOWTFGaDcxWkNaY1dDN0NlOThpNmN3SjAxNE1lUGFITGdlQTFTdHVyR3hOVzZFbXdTazNWel9OaU13WWZUOS1HSmlEbG11UDlERk9yMXRhQU1wUFlOZUZwSE9GX3RTX2FIT0d4TFJHMXNsOWo5VjJrRTJ4WFJKNlV6cnFnMEtDemZaQVBYWFBCTExjYVJhUF8xcFlIQnNkNkFRTnZlN2xyMFNUSVJpUEtvOGd6THlWSmxybkdiVDJDZUlqengyVFhpYmQ4U0g2TjhzeVZ2SFFjLWgwVlhFc29EUWVPR0J1amRqQ0hDUmhhZWNMR1BKcXN3b0djMmFYUXNscF9IUDVTeFFSUnA5ZXd0al90QjhoYXFqcXk0bnVDQURlQzRGcWhkVGdtV1JoVHhLd25ISGVzenJPMUd6bXhUWml5aUEwM2R4X1ZCZHJhUVVJ?oc=5"
     },
     {
       "title": "PSA: It's not crypto that is failing, it's the whole market. Stop the panic.",
@@ -317,6 +324,13 @@
       "ts": "2026-02-05T20:32:15",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQV3VRcEhER1dySHp2a0cyRUJpM3dzN2hPWkpoYnZmV2ZIbmkxcTlRNGd2bWtJS3JESUotZXJzZzZWRzdsT1NuTGdCaHBiREluVmlFY1pDRTZOb1NqUTVEUnN0R1hGYS1rRDlPTmZCN2ljYURsSzZJMTc0dWY4LTlsUzgyeWJ6UjR5ckRNYUl5Q3o3MjA?oc=5"
+    },
+    {
+      "title": "No, but seriously: What\u2019s going on with bitcoin? - cnn.com",
+      "polarity": -0.06883778050541878,
+      "ts": "2026-02-05T13:43:29",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9iOGxvT1hGSGUwWFEzMkFsWlJxZm1Vd3dYanlsUjFHVnFYVEo1T3JLaUVwbDZCMXJNNXU3U1hSQkFWMDdKaFNoRGoxLWZJYjZ1ZmNVVnhLZnN3b1UxMUp5SzdSMG4?oc=5"
     },
     {
       "title": "Monetisation",
