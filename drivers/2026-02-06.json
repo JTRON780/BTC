@@ -2,14 +2,84 @@
   "day": "2026-02-06",
   "positives": [
     {
+      "title": "Bitcoin surges back above $65,000 after $700 million wipeout in Asia whipsaw",
+      "polarity": 0.6811027079820633,
+      "ts": "2026-02-06T03:17:44",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/02/06/bitcoin-surges-back-above-usd65-000-after-usd700-million-wipeout-in-asia-whipsaw"
+    },
+    {
+      "title": "Bitcoin isn\u2019t losing to gold. It is navigating a liquidity squeeze that the yellow metal never had: Asia Morning Briefing",
+      "polarity": 0.04079185426235199,
+      "ts": "2026-02-06T02:36:24",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/02/06/bitcoin-isn-t-losing-to-gold-it-is-navigating-a-liquidity-squeeze-that-the-yellow-metal-never-had-asia-morning-briefing"
+    },
+    {
       "title": "I need advice for my portfolio",
       "polarity": 0.04043097700923681,
       "ts": "2026-02-06T00:33:33",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qx2sy8/i_need_advice_for_my_portfolio/"
+    },
+    {
+      "title": "Bitcoin isn\u2019t losing to gold. It is navigating a liquidity squeeze that the yellow metal never had: Asia Morning Briefing - CoinDesk",
+      "polarity": 0.03182179480791092,
+      "ts": "2026-02-06T02:39:24",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQWkJRWFZsaTY4TG5iX1Jrdko0VHdCUUtZT0hZSUlpNS1TN1dhb3BldWd0ZW9oeXc5a3lJbXJxUGtwQ1BTUnVCWHZBUm13emhXMTduM1JQeHpxOFR4dUpwVnJZaWY0THdNSC1wQW5mQjFrRl9fMGRKOVZOTUtNRy1Zd01WZXc3dnVtZ2tiaGF0ZjNfbjE5RE1maFhqQmhvajR4N1JZMTJKU1lSUUlWVHpFeTBXYXI3Y0x4RWx1QjN4Z050ZUJzQ2p4Y3daTDA2U3p1NGFMTm5NZFphLU5VdkIzX0FwdGRIWEpBY3ZCZlpWaFpQMTdTNUE?oc=5"
     }
   ],
   "negatives": [
+    {
+      "title": "Crypto sentiment at lowest point since 2022 crash as Bitcoin tanks to $60K",
+      "polarity": -0.9632687848061323,
+      "ts": "2026-02-06T03:01:59",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-sentiment-at-lowest-point-since-luna-crash-as-btc-tanks-to-60k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Bitcoin Miners IREN and CleanSpark Slide After Earnings Misses Deepen Sector Pressure",
+      "polarity": -0.9629573775455356,
+      "ts": "2026-02-06T03:09:09",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/357154/bitcoin-miners-iren-cleanspark-slide-earnings-misses-expectations"
+    },
+    {
+      "title": "Bitcoin Crashes To Around $60,000 As Historic Free Fall Worsens\u2014Price Is Down Over 50% In 4 Months - Forbes",
+      "polarity": -0.9599453639239073,
+      "ts": "2026-02-06T00:33:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQVlItVE1DOVBIMy01WDE2ZEI5cXRYR1VaeWotTFA2akZzbEdFc1JFbVNueTlzVGFKUXlhbm9ndmF0Sng2ZlE3UHkyUEx6Ym1DM0JmbTVwa0cwNjAxVmJPcXgwdl9MMmRNQzY4RWRoaTJXY0ZISUQzQ1ZzcnhOaEZSM1gtRjdpUzFQbjBrcHFSaUZWdmh0Y3ZXOFpSTE0zMnlzZzZTVnMtZHNhc0hzd3l3TVdSRnlaMW5tcE9nbDQycHRuVmFubHVxUUdBbjZqcTZtWDdGbjRDcGp4aWVITnpyRjlyTlhDYzUy?oc=5"
+    },
+    {
+      "title": "BlackRock\u2019s IBIT hits daily volume record of $10B amid Bitcoin crash",
+      "polarity": -0.9593893401324749,
+      "ts": "2026-02-06T01:52:34",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/blackrock-ibit-daily-volume-record-10-billion-bitcoin-crash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Futures Fall, Amazon Dives After Stocks Skid, Bitcoin Crashes - Investor's Business Daily",
+      "polarity": -0.9496183544397354,
+      "ts": "2026-02-06T02:02:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaXZsaGdjMlgzb2YwUTVEYXp3TVI4QnNOUjR3UThyYWgtUlhPVjRxN21vdThNRVBmVjhlRUdGdTdHdk90MVJKWHNReEMzZjFLVTY2d3c3UlZXamdOeUM4aXVQQW1ya3FpQW1pcEM2cWtoM0FrMkR0SmE3TDIzRHBHNWNlaTJNemxWWXdRaExKLXFrdjhTTXh1cldJLVcxaHZPOVVXTnVRRTNYeUNUQXRXX29ndVpLbWx1amVVTWJaMTM?oc=5"
+    },
+    {
+      "title": "Bitcoin plunges to lowest level since October 2024 - ABC News",
+      "polarity": -0.9123167730867863,
+      "ts": "2026-02-06T00:07:07",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPR25pUGV6RFdnRFZoWTlzMGJvWmF0SmhxbVl1SXZVWVc1VWVNWm1FbGpIOFhTTmRkeGw1bGpaS3l5VmZJMV9KR0pXSlNyQkxlbnFUZG5jRENQVGVfUklJdzloMjJFT3JJNWVSTUZKTVFvU3NjTDcxVklTRUd2T0tGX0IwUElOc002STc3b0RESkRLaEQ2YXRB0gGcAUFVX3lxTFBocFZSVTlvT01sQUlkRVY4U2ZQang2ZFBNQ3V5eHJlcmliY250TjNxRlpLcVVPeFZ4SXYycjFlclp1a19fTDhOMkpoTHR3Zkp3cGt1ejZ6UEs1VTdaZDNadExBUERON2Mxd1VQNmRhdEszT1Nzd1kyQ1ZKR0lhbEN6bzQtUDR5T19pSWZ2RjAxOGVDdXRxaHd1VWpSVg?oc=5"
+    },
+    {
+      "title": "MicroStrategy Faces Catastrophic Risk as Bitcoin Falls to $60,000 - Yahoo Finance",
+      "polarity": -0.9102294705808163,
+      "ts": "2026-02-06T00:56:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTWtxU3FjQzRHdVdWODdrTElGWEFoaGdOM1BsZUdtNUlPUjg2VkQ1eUZXZG1vUGxEZTZId1A1dkozWXlXajNGLTZYTjA2enktXy0xY1piekVnUU1rTzBWMVNZbk9BSFlmUGw3c2g1MElxXzZQZThhbS10d3V6MmNuTFhYRUpESzloT2RyaWxSZ2x4YjhjWHc?oc=5"
+    },
     {
       "title": "Bitcoin treasury Strategy posts $12.4b Q4 loss but Saylor tells investors not to panic - dlnews.com",
       "polarity": -0.9093646565452218,
@@ -18,22 +88,50 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWGw4VEhTdmpUamZfSTF5X2FtMlRialFhUWhmNlZqeDloY1pWUl85QXFfaGIxQ0ZuTjBuX2JSTDYzX05jdThUc2RVcjg5QktiMXBuQnVrcmFjczlRV3Y2NTFxVkVTZzJzYk04SnBpbEdZeVM2NFh2aGhIcmlwdTZhVWNleUhwcUx6dnlybFBYbE5JejR0VFNZWVB4aw?oc=5"
     },
     {
-      "title": "Saylor-led Strategy's quarterly losses widen as bitcoin faces another reckoning - MSN",
-      "polarity": -0.837141890078783,
-      "ts": "2026-02-06T00:11:48",
+      "title": "Bitcoin Drops Below $70,000, Wiping Out Gain Since Trump\u2019s Win - Bloomberg.com",
+      "polarity": -0.9026399273425341,
+      "ts": "2026-02-06T00:38:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNVWRXNDZ4ekh1Q2dQdW5sb2FDY0hwYXBtZ2dNSmZsMmRRNEpBZmJWWWdxM0wweFlCQzRKcTdPUUYwXzdzUkhoLXBBem84VmxOSHBKQ0FaMnFkTUFWUzFKS0NJSERzSzhTdklNZDRiMmVQbGYwRlFjSjQ4UFkyaHB5allkTzhoUW8wQTdscjJZWWJ1M1c0SWl6bHdHM0VrOGIyTTQ4THVoM0cwRUtETlBUeDZRRnlzdWpNTkJaUU5ScTFqS1lzc3R6eGwzR3VLVTBSdkxNd1M2bFJUZkpYTjlCQUtKUmFZRVBnN0dWdUF3?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMFhrYXlUeWhjZG05T0ktUW1TLU5CYXcxcnkyeWxFaWFBaFlGSVNuSjRiZnpQeGdvdjNUcWF3MzJaczhSVW5FZ2h0VWMtb09Vdkg4V2ExUlhVQW1xcHVOMFNqeE1oODc4eDVQYnpSN2MyTmtSR3o2NmFGWkU4YTV6Zks5SGhQNjEwSEtZa1Flb1R0NkwxUFp2TGVpN0hmRmpPRDJUZ1Nyd1lOZ3p1M2R2ZzFn?oc=5"
+    },
+    {
+      "title": "Does Bitcoin's Retreat Signal a New Bear Market for Crypto?",
+      "polarity": -0.9006795845925808,
+      "ts": "2026-02-06T02:28:24",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/357151/bitcoins-retreat-signal-new-bear-market-crypto"
+    },
+    {
+      "title": "Bitcoin plummets in value again after week of heavy losses - Al Jazeera",
+      "polarity": -0.8955986332148314,
+      "ts": "2026-02-06T02:49:09",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTGVFTzMtbVRhanFQSE04eVZtb25kLWt4R2JRcWdxczFUdUlHWS1iS3RkNEpHeDNzQlhFU29jSEl0M0Q3ZF9WVDZtS1ZtMnZ3ZXZvSThYSlJoOTcyakdlV1JSenBSSTYxNWg0R3pJNGJDNXlBMjdxc1h1YUVzX1U4REg1S213WXdCVW45dFpSSVUzX0FQRE1rMTREX3JZVDJKck5B0gGoAUFVX3lxTE9LdlNDZkpRUllFNTVudGY1ZEJIVnpnQUxuMm5ORGk5VEtxeDZWRzJrUFRmZUtWOUdiX3Awa0pCM1EwVHRrT3U3V0N2ZFYxbUhPVFRjNDR4anM1WnlwQXk2bDczSWFLZ3BSSmFXTE9IRWxfRVhRbEl6b2VSaTJBX2FJZXBsNlRCa21tUXE3ZWQyNU91Zk9FbXliT05HUXdZSmR6R2hNWXB4Rw?oc=5"
+    },
+    {
+      "title": "Bitcoin flash crashes to $60,000, traders refuse to catch \u2018falling knives\u2019: analysts - Yahoo Finance",
+      "polarity": -0.8309560948982835,
+      "ts": "2026-02-06T02:07:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LN0JIYmpmWnBVN1RyWVNfYWpfek9qZS1IWjhoRUlsQlg4MGszdE5XdnczU0YwQmlyamg0Q0c5aGhSU19MSW5pcEplRTNPOVdIUmdGWlFRZWpQbkU2MkJOUHBXX3BZTklhSnZwQ3BHTFd5YW5PdHpMY3ZSWHhCcEU?oc=5"
     },
     {
       "title": "Bitcoin Booster\u2019s $12 Billion Loss Headlines Crypto\u2019s Worst Day Since 2022 Crash - The Wall Street Journal",
       "polarity": -0.8201688351109624,
       "ts": "2026-02-06T00:30:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiiANBVV95cUxNRS1xaVRwR1ZaX1ptMzA2eVZXWFdmM2JsWmN2aVJDMzc1bDJZeldoUTZUUFJ0SXdpOTNDZFZwMjUwR1B2VlhsdHljeUNrREVEbE1EUURKT0FtaS1LUG9vYVFWeXVkcEFqOGROMV9tLTlLZlpfcE11MFZBY2xMS2NzX0NKT0ZIT1FNNFJCb3Z0LTZfQk9DLVNLZHZ0Y19qNDlwREF3VVE3ZHJXZTF0ZXJibi1sR1V6NlN1bHIwdzRudWtkcXduak5KajBIbmVJOGxSOWkwZUwtWXczdXNaNWNrREZPRUNLOFBhdURub25LcFFZLU9zbFVuZXJWemphV21RRnV3bFAyaXF1TWFkT0xWNGVfNlJ3V2dxaFZ5WWpFUHpJcEc5MndMTGhOTkRQT0p1MmJVeHBvdzhYR3BTRGJWbjZQSmUtLVBMN2dwa0cwdHJHN3BXMHJFelRiU0pYQTlxX01wMnlGd3A0RXlQMWZ0SWdGOWFfRkJPUUlWenRfbzdYcWpjTkpabQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiiANBVV95cUxNMkNpc3Jjbi1BUHBQUGpzazNpY3JINzJJdG1YWm9rQy1PejBITnczV2I5SnF2bHgxXy1nSFJzZVBTdU42dUhvUUxpTzBCcnVsc3ZmOWFnUzBlcW1OZjV4VW1uWUJtU2dBTnV5b3RZNGtfeVUzWjItOHh5blVPUkszVzZMWEtTVkFvV1laN1hiR3Jzamh3SjN2ZVhfNGl2TnlxMnZ0VFYzaEFUV1VRM0NHeEdXNGxxTEVLZzV3WWlyR2hYUVRPbktEUk9WVHhUa2RsQmpIME5sbWNfZUJPYkRXWXhydVJXZVNzOVRSbEE0NnUwRXhKYkxiM1B4RVdKa0h0cjdFX2hXQmhFaVg1aXR4VVFNUmJBVThISG1DOVhxUk9vNDNDU18zclltMkt2QXIybmNsV3F6U1JPbTRwUS1NTFpkSjk5ck9JTDlxNEdCb2pvbTU2ZFhVTkFaVXpqUXpxZ0hQckU2Njh1S3dqUWpVOU5yN2NRVjRsaGdZNTNGZWlObnNLNkNVWQ?oc=5"
     },
     {
-      "title": "L.A. County man demanded the Guthries pay bitcoin ransom for mother's return, authorities allege - latimes.com",
-      "polarity": -0.26524326764047146,
+      "title": "Selling BTC at a loss",
+      "polarity": -0.41589977592229843,
+      "ts": "2026-02-06T00:39:05",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1qx2xg1/selling_btc_at_a_loss/"
+    },
+    {
+      "title": "L.A. County 'imposter' demanded the Guthries pay bitcoin ransom for mother's return, authorities allege - latimes.com",
+      "polarity": -0.38739357329905033,
       "ts": "2026-02-06T00:16:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSGVRcVRmc1d3NUxUX25jalVvWDhFMENKSTF0SXp1cFhsYWlteU5rT1lyUmd2V2pxMEMzdW9OUlA0WEZVY2ctNTUzSUh2OFZRazk4blpiUzZ2UWdIeVJEWHZvRFM5RlRrUzNoWkFQTVNncTFtUTd4NERlLVplbml0YlFjTE5UMFhtSXFKdjI4WHBRR1J4NFd5eGt0UQ?oc=5"
@@ -44,6 +142,20 @@
       "ts": "2026-02-06T00:17:14",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPenJvLV9aemt5YlJoMmRrcDNiN3E2Tkg2U3p5ZW5zTFFjTk5iemVDVWg0Uk1kNVUyQmpWeE13elNuS0ZldXRyZzJ2Z0VkazlTQU5IU3paaHU1V1VuYVU1SFVoLVpCU2U2UWR5ZkNZaDFac3pDclJKVllKWnEtY3dmUERWb29CWWlhZ2VvVEhMYng2ckd5Q1NxeUZ5UEN5TUFqYVE?oc=5"
+    },
+    {
+      "title": "Bitcoin price action screams liquidity stress - FOREX.com",
+      "polarity": -0.06777549348771572,
+      "ts": "2026-02-06T01:40:22",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdG55OVpRSkdpa3ZncUNIMTlVZ1hsdHVLRUlqejNEZ2d2ZzlhWkY0Y2ZRN0QzeWo4UUZLZmlmT1VsUUNsdTl4Y1dhQU11OHVyZ0gzWFBxTWZrTGk5ZWdwOTVoNmdobURoMFdoOThYeEVlVGsxTlE5NC0ycXJNZnlWNU9jbzA2allqQTQwTkFXY0NmVE3SAZ8BQVVfeXFMTXF4SGRoWFBEanZlS20zVDBfdjY1dFZ6QXFHMmVzN09BTXRLOXcwU2w2eE5hX1RIejY1d3FlQkxuNGlRbW81Q3pPaHNpM2prN3ctUERMeDVlbGtWLU5MWjNKV0tLVDJycTJTTWhSRjdnTmNXMlZTV2lTT1BoWDUtZ056azJWMmhEQ3FQZ3pUMnN0OFdud1hQcXpxenRWc29R?oc=5"
+    },
+    {
+      "title": "Bitcoin on the cusp of $60,000 as investors flee risky bets - Reuters",
+      "polarity": -0.05380451679229736,
+      "ts": "2026-02-06T02:09:45",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMlM1ekItWDZPY2k0OUJMbE5NOFVhN0dqb3hHTFc2R0MxMzd6ZHE3V2xlbTNPUTNMeHJVYVRLRW9KWVVYTzgyMzZnV2p4ZldNalk2eW9ORVRFNkFmeElfSmQ4b1RuZXZ3bnJ0eGZKWXZHTFhiSWQyd3JleXQ3UEdvT2hzT3lROWt0VkhSZmJ5NXppV1o4al9XNFhfdVlkUQ?oc=5"
     }
   ]
 }
