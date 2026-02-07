@@ -2,13 +2,6 @@
   "day": "2026-02-07",
   "positives": [
     {
-      "title": "MARA Stock Surged 22% on Bitcoin Rally: Why Analysts Expect $23 in 2026 - TIKR.com",
-      "polarity": 0.8499440215528011,
-      "ts": "2026-02-07T14:58:44",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNWxvRHpTTkQ3NjM1RXRuZnRlSTRlcDY3N0EwREhHWWZMUjJvdWtTVndOTWFTWHhHVHlrUlMxbW5fQkhSZUUycVozZ2hwQ282ZTdobEI5Zkw3Skwtdmh4cnlmZ1FraFFsbmJDT0xBcFlBbFZGTy15V0VJN3pnZ1hQYVRIWnBmOHpndzlxcmdwNV9kTGNzS0xxczVVYw?oc=5"
-    },
-    {
       "title": "Missed Bitcoin's Run To $126k? Long-Term Investors May Get A Second Chance With IBIT - Seeking Alpha",
       "polarity": 0.7712584175169468,
       "ts": "2026-02-07T13:30:00",
@@ -49,6 +42,13 @@
       "ts": "2026-02-07T05:35:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTmRJRjVsdkVqU1NBVm0yTjBMTmNTa2d1UHBtOUlIN2JXRkgwclJfaUNMMF82Ql9EV1RsVE5QLS1OemVRcmJLTWxDdHE4NzV1SlI3SUNzTUZ3R2ZjQU9mVHFfUGtQVFFKQ01ldkNSU2UzZVVQNGJjX1BjWV91TUpYdDZfT2o?oc=5"
+    },
+    {
+      "title": "Bitcoin\u2019s 50% plunge isn\u2019t a crisis, says hedge fund veteran Gary Bode",
+      "polarity": 0.05621331185102463,
+      "ts": "2026-02-07T16:46:07",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/02/07/bitcoin-s-50-drop-isn-t-a-crisis-says-hedge-fund-veteran-gary-bode"
     },
     {
       "title": "Michael Saylor on Quantum threat and how BTC should react",
@@ -137,8 +137,15 @@
       "url": "https://www.bloomberg.com/news/articles/2026-02-07/crypto-exchange-to-reimburse-some-users-after-40-billion-error"
     },
     {
-      "title": "Bitcoin falls below $70,000 after erasing post-election gains during 'sell at any price' rout",
-      "polarity": -0.8058493658900261,
+      "title": "Binance trading data reveals why Bitcoin prices are sliding even as spot buyers flood the market with bids",
+      "polarity": -0.8067002613097429,
+      "ts": "2026-02-07T17:15:55",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/binance-trading-data-reveals-why-bitcoin-prices-are-sliding-even-as-spot-buyers-flood-the-market-with-bids/"
+    },
+    {
+      "title": "Bitcoin slips below $70,000 after erasing post-election gains during 'sell at any price' rout",
+      "polarity": -0.7956441938877106,
       "ts": "2026-02-07T16:08:44",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/02/07/bitcoin-falls-below-usd70-000-after-erasing-post-election-gains-during-sell-at-any-price-rout"
@@ -149,6 +156,20 @@
       "ts": "2026-02-07T14:44:23",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/what-crashed-bitcoin-three-theories-btc-trip-below-60k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Why bitcoin is losing its luster after stratospheric rise - Tech Xplore",
+      "polarity": -0.7733999900519848,
+      "ts": "2026-02-07T16:40:01",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ubmREV2xkQkwxZmFTQUo2b2E1aHo3Ml9oYkZhOE9YMWE5OWRWbGpocDBOdmJQR1MwaDNLYmIxajVZNWhJTnc0TWZwRUFtMW40ZHI2QzF0SWZNU1B5RjlEWGVBU0pxZkxObHVOS3ZKclBlUXRwaXRHSA?oc=5"
+    },
+    {
+      "title": "Bitcoin falls below $70,000 after erasing post-election gains during 'sell at any price' rout - CoinDesk",
+      "polarity": -0.7571947649121284,
+      "ts": "2026-02-07T16:10:05",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ2g1MTVxbE5HbkY4X2YyT3MwbkxzNDdzY0dJeHNWT0hneEc0M09JNDBzVHZvMnlIWldMX096NDByYTZZenRXczZpVHByRGlwbEY4S21NeUZQa094bUN1eVRiS3hMQnQtdTllSlktU3c2NE9oOXN1TWpWeWoxZFVVN3duUmJyM0JGMEU4LTE3cVN5N0JRdWtjMXhsR3NpY2tLMGpDMEZCRU9Fc3d1ckpFaFZ0bEpfV1JpeklGRHFmcENIYTRBRlVMbEVSZHRDSW96c0FN?oc=5"
     },
     {
       "title": "Bitcoin loses Trump-era gains as crypto market volatility signals uncertainty - Reuters",
@@ -221,11 +242,11 @@
       "url": "https://www.reddit.com/r/ethtrader/comments/1qycgse/why_last_weeks_selloff_wasnt_as_bearish_as_it/"
     },
     {
-      "title": "THIS IS WHY BITCOIN DUMPED NON STOP FROM $126,000 TO $60,000. - Binance",
-      "polarity": -0.09755512699484825,
-      "ts": "2026-02-07T14:47:50",
+      "title": "MARA Holdings: Mirroring The Bitcoin Breakdown (Rating Downgrade) - Seeking Alpha",
+      "polarity": -0.14628048241138458,
+      "ts": "2026-02-07T13:00:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBzNDVQWUY4aUdvX3N3TVF0R0FvWkM5cHRTTWpyUGFyYUNRXzd5cmlLUkZhYU5XNnRUYlhqaUl6Q1g0MGhVbEtkY0VrY0pPYVoyalQySmRTa2pjaVZtVzFzSDFrTjg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUlVjanhXZE5ZREsxb1ZxemN0NkxqS1NObUdYVjAzZFhsRnhUU0tmRlhmNFRMcnptcDRrRzltNXlUVjFZMzQ2SXJrMUNjRElvUDdiQ25WTkMwR0xPNUVsdGYwTlRxM2lEdE1Oa0tYRExZbFhESnFGbEE0ZUJwZW9oMGhocEVERWJ3RHhKNWtGUQ?oc=5"
     },
     {
       "title": "BlackRock bitcoin ETF options saw record activity during crash, sparking theories of hedge fund blowup",
@@ -239,14 +260,7 @@
       "polarity": -0.05761224031448364,
       "ts": "2026-02-07T13:00:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi1ANBVV95cUxPV1Byc2xJYUV5ODd1cEJmb3JUbl9oTHN3Q2w4M2JFSEliQWZEMWFPRG43VkxiNGIyV0lXOHRtSGgwNXpEU2Q1b2ZXQ1NhQnZub2FtU0ltWWlpeVI0NVlpdFh1QWt5TG5jZzRuR3JLMjA2SXJ3cW0xWDVWdUFzbF9Td0ExQlgwMWY4YS1QQ09LU3lFWU9UM01mZWpKVjF1aml4YUVERHNPX2lyNERKc1FGOTN2YzVCT0xhcm1GYUJIeTlUSU1GeUpHTUEwUGNHa1hxVzk4V3NBeVRYY1RoSjJXRGxPcWtBYXRKbmU0ZzhyNFFhMEhaSUhtUmZMZjYtUW0tMmVoSEpjaDBWcC1BSVZGVnpkeTlJSDBjYXAzWDJwampnNjNnSVlQZndHY2FySmdSbUtIbUt3LS1jZVdGbGxGVFJzTkNMMXZFQTFMV1hNYU1GRTR0bElvcU1DcDRVQzVKQ2ZxSzlHWWhzUlZVaHF3emRvclQ4N2d2Nk52UEZ3YS1Va1lPelRnMEZYWDJ6STBvbVlteUFZM1BrcWNDTkhTMmI0QkdlblBzTGRYSGMzZTFkanduMDZtYWpZMENDSVFLbDlkNmVzUW5ZZkkxaXVuVkpBeEY?oc=5"
-    },
-    {
-      "title": "MARA Holdings Stock: Mirroring The Bitcoin Breakdown (NASDAQ:MARA) - Seeking Alpha",
-      "polarity": -0.04881688766181469,
-      "ts": "2026-02-07T13:00:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUlVjanhXZE5ZREsxb1ZxemN0NkxqS1NObUdYVjAzZFhsRnhUU0tmRlhmNFRMcnptcDRrRzltNXlUVjFZMzQ2SXJrMUNjRElvUDdiQ25WTkMwR0xPNUVsdGYwTlRxM2lEdE1Oa0tYRExZbFhESnFGbEE0ZUJwZW9oMGhocEVERWJ3RHhKNWtGUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi1ANBVV95cUxPeGh1Q1VhLVR6My1vOUhvSUVLNnFGcTZJdmJUYU15cFpYZ2pVMHhJcEVvWDBnZ3BCRFEycWtfajdlZG5iZW4wbkFqTVRncF9EUV91d21seDNzVHJlVUtORk1wLWJiMDZYb0N3NDl3aWpZQzBveVNNeTFMb1l4d1RfZnluajN6dlZBdnpOeGNfdlRKRTZPMjZVa0U4LTY3UXYxNmZzTnM2Y0Zra3JHaW5ua252U1JUcnZ0Nmdreks4b1VaVGRTY0gtaXItWmhuV1BIcnNBeHh6UXo5Q0xMQkl2bHZiN2N1SjN3dEJNNHZRMHpzaVBueVNZSkd0Q0ZjaDdCZ0NQdll4QXdTNDMzS2J1d002T0JaSlpKODRRTm9sb1FOYW51aHVWbVVtQjV6ZE1mSERXRl9MZHQzbnp6ZFVrRm5YWFc1Y3dpSTlTLW5zR2lkLVlJWkV6NXJFYTFfLV9rWU5BTWFjaWhFdDFfT096ZTl2STFwRmduOXFtZVJ1RFRETzZlRFpzdmJzZGFZZ1FtN3pwSGl4dXYtUFc3dmw5eUFvemZOZ2RZMlVHb1pZeElYaDdfbW02N0I3R05yMU11ZFhSOFljWWZ1SG9ObFM1UTd1cnc?oc=5"
     },
     {
       "title": "Headline: 2026: The Year the Mountain Shatters. Why BTC will Flash-Crash, then go Parabolic. [NOT AI - Feng Shui Audit]",
