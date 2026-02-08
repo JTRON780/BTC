@@ -3,42 +3,56 @@
   "positives": [
     {
       "title": "Borrowed against my 401k for BTC",
-      "polarity": 0.32772229984402657,
+      "polarity": 0.32771917805075645,
       "ts": "2026-02-08T00:43:53",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1qyuld4/borrowed_against_my_401k_for_btc/"
     },
     {
       "title": "Buy no kyc bitcoin in Seattle",
-      "polarity": 0.17749848030507565,
+      "polarity": 0.17749757878482342,
       "ts": "2026-02-08T02:57:17",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1qyxhcc/buy_no_kyc_bitcoin_in_seattle/"
     },
     {
       "title": "FBTC vs. NCIQ: The Big Bitcoin ETFs That Share Many Similarities - Yahoo Finance",
-      "polarity": 0.08968870528042316,
+      "polarity": 0.089688615873456,
       "ts": "2026-02-08T03:10:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE82NkJ4UUFIS0p1bGFNbGNSRmRiUm5fMjZtUE9zMS1xN3Q1a2VkYzBxNy1oZ2NvN1ZTUUVoeGRhZ25vQ0FLN3RxV000UWstb3YtNEktci1ET2VxdFFnSnc5OTc3TlBCZTdabXE1NFFRc0FtaDRQTmZ5TTZ3?oc=5"
     },
     {
       "title": "Looking for experienced crypto futures traders (funded / volume deals)",
-      "polarity": 0.07944188173860312,
+      "polarity": 0.07944161910563707,
       "ts": "2026-02-08T02:53:48",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qyxeo5/looking_for_experienced_crypto_futures_traders/"
     },
     {
+      "title": "Bitcoin to $0? This OG Has A Standing Bid to Buy It All At 2 Cents - Stocktwits",
+      "polarity": 0.07504104170948267,
+      "ts": "2026-02-08T05:02:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcWdjUkNvMk9QOUJ3Vk53dnZSdFgxY0ZHOFlFYXZPcWNhYndDV2daS0JPdjJWOEY3RlE4elBzbEdyV2xOMHlLNDFJVGhmMU5IVUZRS3NjMnVVRjJVNEJ4akxhQzdXeEpLbUtFNFdjTHV2VEpMZ2c3ZzBSdmw3Q1ZqbG5HeXJZc2V5V0pMaHFNLW9KN2N0UGlVdGh5V01CX2NYVFUyYzU5ajlxUkNDWWlCRUhuMjdwQTBJS29KdFVMZGxEdw?oc=5"
+    },
+    {
+      "title": "BTC Beginner",
+      "polarity": 0.07443502265959978,
+      "ts": "2026-02-08T00:34:15",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1qyudkp/btc_beginner/"
+    },
+    {
       "title": "FBTC vs. NCIQ: The Big Bitcoin ETFs That Share Many Similarities - The Motley Fool",
-      "polarity": 0.04237174801528454,
+      "polarity": 0.04237165115773678,
       "ts": "2026-02-08T02:50:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ0NmVXJRcHEtTnlLNWh6OWJXb0p4V0pMWDlkM1ctZWoxUU5weXNLSVVMUVpIa3dKeUxzYmNhZ0xieGgzSWNCZkZETnhyZFVOXzNYdW9qWXBTRzlMLUVFcjBmdTVXeTh6ak9aMm82ckZCZmJBdWxDWmpydWlsdU5oY0Z1eExJSUhMUU9uUUk1WmRTRTM2TGdkMzQ3cWo0anFYRDdVTG8zcmVmMHV5SlE?oc=5"
     },
     {
       "title": "Why I\u2019m Only Buying BTC This Cycle",
-      "polarity": 0.007775040343403816,
+      "polarity": 0.0077749453485012054,
       "ts": "2026-02-08T00:21:54",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qyu3dn/why_im_only_buying_btc_this_cycle/"
@@ -46,15 +60,36 @@
   ],
   "negatives": [
     {
+      "title": "Bitcoin Difficulty Drops 11% in Biggest Cut Since 2021 - Bitbo",
+      "polarity": -0.9558465760201216,
+      "ts": "2026-02-08T05:25:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5IRnh6TDF6WVM1R2c1OEVzVjVEdGZKZGxxZzRUR2U0aUVtWk9ER1E1RjdBeldOclB3M2JfRFp1ZFRuZTlIaDBYSFdvYWRMS0pFZl9kak50MXN3SkxzYVo0?oc=5"
+    },
+    {
       "title": "Short-Seller Andrew Left Blasts Michael Saylor's 'Bitcoin Reactor' As Q4 Losses Mount: 'More Jargon...More Nonsense' - Yahoo Finance",
-      "polarity": -0.7430438958108425,
+      "polarity": -0.7430447116494179,
       "ts": "2026-02-08T02:31:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZV9fZnhmWlpKVmtJaUNad0RJTGdRMDlNbEpSUDBkVXJyNkw3TkxqZlRPSUxWQTZ0b1p4Wi0zRjdtbmRqQ3l6ZTFEMTJETjZQYnh1N2QxR1ktUTAxbTYwam4yUXcxRmFKamtBZHBRMzRLdS1RX2V2VFYxUVpwd21oZTFIOA?oc=5"
     },
     {
+      "title": "Bear Market Outlook: How Low Will Bitcoin Price Drop This Cycle? - BeInCrypto",
+      "polarity": -0.37586522474884987,
+      "ts": "2026-02-08T03:45:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85MFJzMllZTVFQeW1lTXNPek83Yjk3RnhpWWVTLWFDUTFVckNaZnNidm1TbHU2SFJWZVpQY2dHQmF2dFZqaFF0VFk1enVxNzFKU1Fla2VyX0x3Sng3UzdaV3hPTXlnbW1n?oc=5"
+    },
+    {
+      "title": "Bithumb's Phantom Bitcoin Distribution Exposes Internal Control Failures - \uc870\uc120\uc77c\ubcf4",
+      "polarity": -0.20955206453800201,
+      "ts": "2026-02-08T04:36:36",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLVotQkxlNHM4cjJQeVBTTlIxYWxvaXRpRzdDSGI0ZktfcXFXcjFad0dQbUZwS0hZSFZJdEFrYmY5bUZTaGRhVVRkT1lSMEtTOTFNdUhsNEgyWTlLWUdtMDJMeDhGbGZyUGRscVlnX1VVTzZWSEFWS0ZIRVJSNm9HdkNiaFp1WERPdlJReDFR?oc=5"
+    },
+    {
       "title": "Fed Nominee Warsh Rejects Bitcoin as Currency, Cites Volatility - \uc870\uc120\uc77c\ubcf4",
-      "polarity": -0.017234914004802704,
+      "polarity": -0.01723514497280121,
       "ts": "2026-02-08T02:31:48",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQblBTZXlZM2R3aGIySUd5QkMtSGIwbW0xUGMydnlfZTJkSWExUy00NWxrVUN1ZnJ1TklVQzR0dFRUQ2xoR1Y4V2hONDF4R1Ewa21hVlc5X2gtTGRqRnIwWFZfbUJtZldzOERIX2VHRk43NV9oN0FLTkdmbGRBQk9IOVktNk82X1JmcUdMbm1R?oc=5"
