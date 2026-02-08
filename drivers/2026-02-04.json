@@ -1,7 +1,22 @@
 {
   "day": "2026-02-04",
-  "positives": [],
+  "positives": [
+    {
+      "title": "Prediction: Bitcoin Will Hit $100,000 in 2026 - Yahoo Finance",
+      "polarity": 0.24186204001307487,
+      "ts": "2026-02-04T19:55:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZndONFlCdl9HQmdncmRFRGc2cjVxUEJSbkUzWmJPcm8zeGw4RGRwc2pFOWJIVUthUjR6VVJTY1pDUDRRNmtabEJQdkIzTDFkQWVoOUFwdWFLdGFCYUJzbllmMnVudGZtZmZmelZQUDVuQTlEOWYwN1RwZW15NHZ6WV9n?oc=5"
+    }
+  ],
   "negatives": [
+    {
+      "title": "Sentiment Shifts on Strategy's Bitcoin Bid as Crypto Market Selloff Deepens - Yahoo Finance",
+      "polarity": -0.682014673948288,
+      "ts": "2026-02-04T13:09:50",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNFI1MHJqRHBHVmNqWEpKOGlkaFVjWWFEV25ZTWtoTC02Q2V2QmhpUkFwTE9kaXhUSWlJNTM3MHFycnBLaTZ3VEVudFpITU9YY3FEZnhCaWVQVUxjRGtNOFVmS1lyT1RHUE1vZkdWVk5DM25DWTZhdW84X0x0LXI4VnNSaEVXZ3JHMkplbQ?oc=5"
+    },
     {
       "title": "Bitcoin bleeds for second straight day, nearly grazes $72,000 - CNBC",
       "polarity": -0.41826431453227997,
@@ -22,6 +37,13 @@
       "ts": "2026-02-04T20:33:22",
       "source": "r/CryptoTechnology",
       "url": "https://www.reddit.com/r/CryptoTechnology/comments/1qw027s/reframing_layer_2s_spectrum_of_trust_models/"
+    },
+    {
+      "title": "Bitcoin demand in Nancy Guthrie disappearance shows how crypto is becoming a more frequent feature of physical crimes - Fortune",
+      "polarity": -0.011346664279699326,
+      "ts": "2026-02-04T19:04:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcVJfZmdzVGRwYnZHVHdWcEoxNlRpQ1o5cThLdVRMMkktWmJCVjVaeWhUVXVua3pxaEpXR3NwakFnTWpMWlhlbmRjWVpLQVdxbXdpdWp1dXhfM3hhZXdwMVdCRy1sNVBVTXU1bHlmaHQxelE2bmNTRV9MaEpERzBPQTFTdw?oc=5"
     }
   ]
 }
