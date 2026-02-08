@@ -3,18 +3,61 @@
   "positives": [
     {
       "title": "Borrowed against my 401k for BTC",
-      "polarity": 0.16339227929711342,
+      "polarity": 0.32772229984402657,
       "ts": "2026-02-08T00:43:53",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1qyuld4/borrowed_against_my_401k_for_btc/"
     },
     {
+      "title": "Buy no kyc bitcoin in Seattle",
+      "polarity": 0.17749848030507565,
+      "ts": "2026-02-08T02:57:17",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1qyxhcc/buy_no_kyc_bitcoin_in_seattle/"
+    },
+    {
+      "title": "FBTC vs. NCIQ: The Big Bitcoin ETFs That Share Many Similarities - Yahoo Finance",
+      "polarity": 0.08968870528042316,
+      "ts": "2026-02-08T03:10:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE82NkJ4UUFIS0p1bGFNbGNSRmRiUm5fMjZtUE9zMS1xN3Q1a2VkYzBxNy1oZ2NvN1ZTUUVoeGRhZ25vQ0FLN3RxV000UWstb3YtNEktci1ET2VxdFFnSnc5OTc3TlBCZTdabXE1NFFRc0FtaDRQTmZ5TTZ3?oc=5"
+    },
+    {
+      "title": "Looking for experienced crypto futures traders (funded / volume deals)",
+      "polarity": 0.07944188173860312,
+      "ts": "2026-02-08T02:53:48",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qyxeo5/looking_for_experienced_crypto_futures_traders/"
+    },
+    {
+      "title": "FBTC vs. NCIQ: The Big Bitcoin ETFs That Share Many Similarities - The Motley Fool",
+      "polarity": 0.04237174801528454,
+      "ts": "2026-02-08T02:50:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ0NmVXJRcHEtTnlLNWh6OWJXb0p4V0pMWDlkM1ctZWoxUU5weXNLSVVMUVpIa3dKeUxzYmNhZ0xieGgzSWNCZkZETnhyZFVOXzNYdW9qWXBTRzlMLUVFcjBmdTVXeTh6ak9aMm82ckZCZmJBdWxDWmpydWlsdU5oY0Z1eExJSUhMUU9uUUk1WmRTRTM2TGdkMzQ3cWo0anFYRDdVTG8zcmVmMHV5SlE?oc=5"
+    },
+    {
       "title": "Why I\u2019m Only Buying BTC This Cycle",
-      "polarity": 0.0077749453485012054,
+      "polarity": 0.007775040343403816,
       "ts": "2026-02-08T00:21:54",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1qyu3dn/why_im_only_buying_btc_this_cycle/"
     }
   ],
-  "negatives": []
+  "negatives": [
+    {
+      "title": "Short-Seller Andrew Left Blasts Michael Saylor's 'Bitcoin Reactor' As Q4 Losses Mount: 'More Jargon...More Nonsense' - Yahoo Finance",
+      "polarity": -0.7430438958108425,
+      "ts": "2026-02-08T02:31:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZV9fZnhmWlpKVmtJaUNad0RJTGdRMDlNbEpSUDBkVXJyNkw3TkxqZlRPSUxWQTZ0b1p4Wi0zRjdtbmRqQ3l6ZTFEMTJETjZQYnh1N2QxR1ktUTAxbTYwam4yUXcxRmFKamtBZHBRMzRLdS1RX2V2VFYxUVpwd21oZTFIOA?oc=5"
+    },
+    {
+      "title": "Fed Nominee Warsh Rejects Bitcoin as Currency, Cites Volatility - \uc870\uc120\uc77c\ubcf4",
+      "polarity": -0.017234914004802704,
+      "ts": "2026-02-08T02:31:48",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQblBTZXlZM2R3aGIySUd5QkMtSGIwbW0xUGMydnlfZTJkSWExUy00NWxrVUN1ZnJ1TklVQzR0dFRUQ2xoR1Y4V2hONDF4R1Ewa21hVlc5X2gtTGRqRnIwWFZfbUJtZldzOERIX2VHRk43NV9oN0FLTkdmbGRBQk9IOVktNk82X1JmcUdMbm1R?oc=5"
+    }
+  ]
 }
