@@ -2,6 +2,13 @@
   "day": "2026-02-10",
   "positives": [
     {
+      "title": "Is Bitcoin's Sell-Off Finally Running Out of Steam?",
+      "polarity": 0.8926984965801239,
+      "ts": "2026-02-10T05:02:46",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/357569/is-bitcoins-sell-off-finally-running-out-of-steam"
+    },
+    {
       "title": "Strategy Bitcoin Bet Deepens As Governance Concerns Weigh On Valuation Gap - Yahoo Finance",
       "polarity": 0.3572380542755127,
       "ts": "2026-02-10T00:22:00",
@@ -9,11 +16,32 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVEZvaHVWOXFXNHpYa2l6QVVGVVFqSUwxd2ROOFV4V1dSMU9qWk5faV8wenM0dlg4ZzdIWmdtYXZ0Rml1SENQMGFUZnk3cFlHcVJrUFpiNlplbG95aDJEbnVENXVCOTNFWGJnY1ZVdk1mTVZJeDZaMlNwQ1B1ZWNLdnoycktGeWhJdjZpYXZn?oc=5"
     },
     {
+      "title": "Bitcoin price analysis: BTC faces fresh resistance near $71,000 - CoinDesk",
+      "polarity": 0.1221497654914856,
+      "ts": "2026-02-10T03:44:36",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0VlcWVBLXZ0S1JieFY2Qk84VG1xTGFSLUdRR0VYd3RZLU8zS1JoSnNBV2tuaTZDM3ZLV0RLNE5kNE9hUnNvbnM1bUNEdGZwTVQ2Zk1WZmxzVlJjc214UFJFZzI1YnNkUWxuRFNlX1Z2UlRvems3ZEJ5R01PSWRyM2l2Q01tUjZMaTNRbDAyZzZVS2JfNjFjaFZlTzYtZVVGVVp3bnNfU0lYQzE4ak1lMkZjeXVHaHBEdlE?oc=5"
+    },
+    {
       "title": "Btc year #5 update: 1/10m club reached",
       "polarity": 0.07090683653950691,
       "ts": "2026-02-10T03:55:49",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1r0qf87/btc_year_5_update_110m_club_reached/"
+    },
+    {
+      "title": "South Korean crypto exchange races to recover $40bn of bitcoin sent to customers by mistake - The Guardian",
+      "polarity": 0.03733781725168228,
+      "ts": "2026-02-10T04:28:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeG1EZTZnbTc3SXcyR08wWjZHNV9OWjVjTUhCX0ttQzhZQmJxclhBdEUtc2VHeWFmeHpQdUEyMEVLWnFKVExxWDZEcHVmUmh0dFU5OVNFa1BpRzB1R2dNSEF1cV9PTzdGZFEyenF5X29reU9YaVZXVW9VbnpMOUp1eEpCeGo1MUJRbGtKeXFYckZSWVFDQ3JmbDJBeEJSQQ?oc=5"
+    },
+    {
+      "title": "Billionaire Grant Cardone Lists Villa For Sale At 700 BTC",
+      "polarity": 0.03408251143991947,
+      "ts": "2026-02-10T04:26:41",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1r0r2d9/billionaire_grant_cardone_lists_villa_for_sale_at/"
     },
     {
       "title": "$6M Bitcoin Ransom Claim Emerges in Nancy Guthrie Case - lamag.com",
@@ -46,11 +74,25 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU0E4Zl8wWDZyYkNBMkpRQkpodERLVTlPUnVzWC1SS2drbm10UnBuQ3N4MWpySUw2aW1vR0ZDYWFYanRYdDRBejUta0tuaURndGZPaFRqYWFfTHlSSHlIb2N4WnBNRnk4MzlKWThOdk5oTlJSOVBjTy1HSlB6VDdnRVRJWFFhaFY3?oc=5"
     },
     {
+      "title": "Bitcoin scam investigation underway after Jackson County resident loses $46,000 - WLOX",
+      "polarity": -0.8856175793334842,
+      "ts": "2026-02-10T04:21:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQXFqVWJzRXZna0FOX19KaS1UNW5ld3ZoVUU1bGdHUEttYUNaNDdnUXoxdHJMS3ZFaVFldmJTZG5HaFl4RWN6dXMtNW5PLVhYUjFzMWgxYUluZmxpYWNKUXVkODl4QUE4cjdJXzZSaTRCMzlQOUp4bloyUVBxMjdwXzZ6eG1JTnZreTFURnFPOGFtVzZWRVRCVDB1NkE2bkE1VG5ERUY2Ny0yXzVtbU9N0gHDAUFVX3lxTE9VQUZMSVhiWXZZNHJ6ejVYZ0Q2MUtjQ0tWd3dISlk0Qk5GZDhDQmluQUQ0Qk1oZmtXVzhURDU5TGRoMmZPdkxGZzhFeTdfYTFUMTd0NHZwa3R3UjhGR3NXNUVOLW5hUHprVTNXUUhjMUxUa2psS3NxM2NWcWZESU84QnRfZDRLc1NRSU1OUEJObXpsOVFBbTk5NmVFZFJTSzBjSWd4MTcxNHBqU0xFV2NuX0VzY0lHaEpEYkdKM2tuM1F1aw?oc=5"
+    },
+    {
       "title": "Bithumb accidentally distributes billions in Bitcoin due to configuration error - scworld.com",
       "polarity": -0.8231110582128167,
       "ts": "2026-02-10T00:48:13",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQ1ZGWGFnMnd0VEwyMlNNZFhxNnBzQ0c4WXY0Rk14Y0lsWWNSM2pka3hJVTVhUDJPMGJoaVFFZE5hemJiQ3JFR2tVdFJDQXVwSlI0dnpGWFdYNUt2QmRhYnhjRXJhcVM0X3R5ekx3dXNnRW9MZnlkMWI3TkEwTGhyN0xpSnRWVjlJQ3luTk1SZEF1TXY0YjJ3Zmx6QnlWUy1PV0tsMDFBdzc4ZWdPbXc?oc=5"
+    },
+    {
+      "title": "Bithumb's Bitcoin Transfer Error Triggers Forced Liquidations - \uc870\uc120\uc77c\ubcf4",
+      "polarity": -0.568938123062253,
+      "ts": "2026-02-10T01:38:26",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc3NKTXZDOVpVSTVIY0xGdVNJV2FCb3RWRlo4REFtZTJSczhKWkVCZ00xSjBfX1J5RFJEekdHQXd4OUpYQ0lhR295enBpZV9VSFJMX2RMazRLUktOS2hzM3BpaEx2OWdhdzJLYk9LQUlHSEt0OXRQbkRNLUhPQ241cFdneTRDbVNWamhoT2lB?oc=5"
     },
     {
       "title": "Bitcoin\u2019s U.S. demand signal flickers back after crash",
@@ -86,6 +128,13 @@
       "ts": "2026-02-10T03:07:51",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/02/10/bitcoin-faces-fresh-resistance-near-usd71-000-as-fear-gauge-hits-2022-lows"
+    },
+    {
+      "title": "Bitcoin ledger does not show payment for amount demanded - FOX 10 Phoenix",
+      "polarity": -0.10524334572255611,
+      "ts": "2026-02-10T04:22:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBXeE5mTlFoczk5MENHWEt6NHUzQ2NQbktNX1BXbFMwVGZOeUNOQTNJdEFjSlhVeVZnV0NxM0x3MjJ4RzZZYms2WDFIVk5Jdm9IaFJhVTlEbUY5MzF4NUJLbUdLbU1YQdIBa0FVX3lxTE9FTGRReENSYzZiWktVXzYyQXNJVmxHLTlSdEp2ajhJd2pEcEJCdzNucGptaHhMQU1CcWJIQVpTNDFYNGVLWWpWZVkwa2RxMTRXcFFhQUI4cXA1cDlhM3BZLTdSQjA0VGphVUVj?oc=5"
     },
     {
       "title": "So.. I guess we're all waiting for BTC at $50k?",
