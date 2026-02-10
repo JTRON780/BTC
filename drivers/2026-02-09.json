@@ -2,6 +2,13 @@
   "day": "2026-02-09",
   "positives": [
     {
+      "title": "Bitcoin price news: BTC climbs above $70,000 as Bernstein makes bull case - CoinDesk",
+      "polarity": 0.8984449859708548,
+      "ts": "2026-02-09T18:11:17",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWmJqZnRQdmxHaWY3Vkt0UlBKaUNYeHZjT25wRlcwX0NmcXRKZi02YjJxNm1rLTkydXYzdVFwcDcwZGlEMXJUUHA3SHgtUU9WTkg4YXhBM2NjMDY0OWxEMWVBblJHMXo2dlRrZTYzb01CTVFBRFZvTml1UGI1NVA3SVVhdGRNZGdlUDQ5SVMwRW12bkNkcElfdmlKTmJHaGdiMHNGU0FxTWtXejQ1MVJQVENWd3cwTlBIT0kwckhSSlRybW1RMXV0eUZvZEV4YlFYOWFoZjBCcw?oc=5"
+    },
+    {
       "title": "Bitcoin miner Cango completes $305 million BTC sale to support its AI pivot",
       "polarity": 0.8770174169912934,
       "ts": "2026-02-09T12:49:37",
@@ -121,13 +128,6 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xM3VTOEhYWEpYN1BNNnctUGV4UEN6cVU4d2hmTWcwNTFUQklqVXlrZXFsUTNFSmItTzM3QWQ4LW9HT0dGb0EwQ0MwQnFDWUVuQ2x5bXpfQ0Y5LXM?oc=5"
     },
     {
-      "title": "Bitcoin Settles In Near $70,000 After Wild Roller-Coaster Ride - Bloomberg.com",
-      "polarity": 0.09765313565731049,
-      "ts": "2026-02-09T17:54:08",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUFY3UDBIcjdjS0RWcGNOYXdodUhMeGgxcjlCWjlVVURxcFBuWmhXSG9CRWdCZ1Jkall4UVJaSnU3Nzg3LURVNFJNMFE1NDJJNktwRkxQTGxndlNoMkJRbEY2VHlNazQtcE9CSlRxU3Y5TFdYVWpyalZKenI0VXVqS1dJWjlva20ydzUyM3hTVDY1b19DNW44d3NULTFvMnJEeDE2Z0lJZHRNLUlvTEZBd3hVRHJVZw?oc=5"
-    },
-    {
       "title": "Morgan Stanley says these two stocks will more than double as they pivot from bitcoin to data centers - CNBC",
       "polarity": 0.08424719050526619,
       "ts": "2026-02-09T19:00:02",
@@ -195,7 +195,7 @@
       "polarity": 0.04279543459415436,
       "ts": "2026-02-09T23:30:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiggNBVV95cUxQZzhhcld2VVhkQ0JMaldMTmpZaFZCUU1mVEY4enc4elMxbDlaTTAyS0RTRGJLSnU3MGNBMkJoandrRWF6YzE0QnhONnJ5VVVJbUQ4bVNQTWozN2NXWFJlcmFmVzJCX1dPQ2hidm05czRwellxRTdYNUswUkI2a1ZTdmhCZnozaTQ4T1dudU1UaFFhRUQxcEF5Z0NwTm9KRlBuUVNpQmJRWVBxR0FtRW9VZGRRSW50elgzTGc5TmNTdHM4Zy1rTXJmNzl2VnBkdTlEajZBLW9iTDBBSTkwZ05Vc2FfbzN0SW9MdXZnNDNTY0lhV2Jia1gwTXRETHU1bW43MzdNWlhEV2d5RWNvTV9qV2VVZGJIQndCQ1IxWnBYRldnT3VTeDU3UlNrYXJxTVNTQ3lsWE1wYm5fZG43cnZvX2IxSVA4MERrZ1FDZWNXOXVoaHlRdjhIdENlNk1aVG9Kcl9hS09nWk5IZzVJY1pNZW5BZ2QtcWtFeFFVa0dMR0ExUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiggNBVV95cUxNNlRXTDVKTlhuejhRd2J5SWptRkhtWGR3Y3NhN1owTndFRldPUHcyWVdGX0VFa0hlMXNzbEpFcDVCRFF2VzRXVjJFSm8tdzNMZ0FZNl9mNm1QNE5aSmtFR3huRlozWVdWa3AxdmJGQVA2QTh0czdkcnFETUxNNzVFdFpJV0xMTkpDSkNHY3dheWI5Vmt6Z09KWDk1clIxeEtiaHYta2tmaFhkZHJDXzJQcGdJZjdFVVduc21hX1hLY1FHLVp3YUtFM2U5QVBmeGcwOExoTnc4OGp1S0tsS1dRc1FWMXJjbENWYjJ4VGlxTjZ4YkFkTGhCQzJzTk1kYy1Nb3R5Z3BqcEhwekJPQjFBdGRWQUZHTzZPSHZ2N0poVzJGUEpCTjFUYTdpcEFUYlZLX0gxXzlwc01nUExGUm8tZ1l2TlZBN0lwaU0tZDJud250Q0pxaWktZkdEME1PRHhBLUd4TlJaQUlLMGQwV1lFeXJUcDNweWlncHRmZVE2dkVXZw?oc=5"
     },
     {
       "title": "BTC & Sovereign Wealth Funds.",
@@ -291,13 +291,6 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQU5YNFdsdjhydXluYzVHMHZIQkFWTDExNHJVNUR5NVVLb19ZdmpHR1FlbjhxWjM1NjNON1FuU0QyV1A1MnRrRWxCVlR6VFI2SU05dzB2REVrU1h4LUxNcXlEdndNbnRiOW1OYUNJbGJTM1ZkbmVrSDYtbXQ1SFlRX0tsb3FUd3gxTjhaMVY3WkNYWWxwdzFEOW5IdHZuU1FBbDJOR05RWUhOeF9VLURHTXZXV1JvZw?oc=5"
     },
     {
-      "title": "Bitcoin Funds Shed $264M Last Week, Alts Reverse Negative Trend - Yahoo Finance",
-      "polarity": -0.9489110903814435,
-      "ts": "2026-02-09T18:16:57",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pQjF2LUNpZ3doTEhOaDFybS1lei1VZXc0Um45enpiZUVwN2xKemo5T1gxMmx4cm5WeXduX0FaR19KbWJqOFM1ZEFIMHcxSjlYOEtVZ1pTOW4yVktUakt3UFNEcTZKWEF3MVNlNHVEM2lGRUYtOUg2REJ2ZzIyMm8?oc=5"
-    },
-    {
       "title": "Investigators Circle as Bithumb Reveals Compensation Plan for $43 Billion Bitcoin Error",
       "polarity": -0.9108860101550817,
       "ts": "2026-02-09T17:11:18",
@@ -347,6 +340,13 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBoYjJ6ckFmRFJWQ0RBanBBdzVIX1h3QjNRa1FsMmFzdUJUQnlzbTJYMUlPZUN6eHpmelh0R0dTOVNRVG1abm5IMEx4RTFUQmZoZDNvVFYyQ0U0OExXcTVKdTNmUWFzcG1WVFRfbEpDTHBHdGlNRTQtcWln?oc=5"
     },
     {
+      "title": "'Weakest bitcoin bear case in history': Bernstein reiterates $150,000 price target for 2026 - The Block",
+      "polarity": -0.7542057372629642,
+      "ts": "2026-02-09T11:02:11",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMDktUWs3UzkyWUM0RVJZTzV6aGp2UlRZSDk4T2RWeFctVEFBQUVtSlhXOU5Vc0paS1FXdGxSTXgwVXJvLVZuVXlqQk5sNzBtWVgzTDlZdUVTSF85VjI5YUE2emlGSzA2UDdQeTNOVHNlMVU2TDE2QURiUURmVkxnbG9MUVlKVWhJUndwTkIwSGVhRVh4X1dVRld5YUFZd2NUMWtfWC1wWHdPQUJseUV5RW5CUQ?oc=5"
+    },
+    {
       "title": "Bitcoin Price Crash: VanEck Analyst Explains What Triggered the Drop - Yahoo Finance",
       "polarity": -0.6185024157166481,
       "ts": "2026-02-09T15:31:08",
@@ -354,25 +354,11 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYUlwUlFBc00zaDZ4Z1p3bHU3c0U2UnhLc3gwOFQ1VDRTT0FVd0h3WGVKTXNOLWVhS2s3ZHBqS3kyVGctcU9vZ2FvWHo2TWdEa0tQUUoyTWNMVXRIYl85NVJZQ19nNzZZSGp4UWF0dVdSdUw0ak8yajdxdVM1ZHN3MDF4SFpJTUE?oc=5"
     },
     {
-      "title": "Saylor\u2019s Strategy buys $90M in Bitcoin as price trades below cost basis",
-      "polarity": -0.5856980681419373,
-      "ts": "2026-02-09T14:03:37",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/saylor-strategy-1142-bitcoin-purchase-79k-per-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "title": "Bitcoin shakes off early decline, returns to $70,000 as Bernstein reiterates $150,000 outlook",
       "polarity": -0.5544303804636002,
       "ts": "2026-02-09T18:09:15",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/02/09/bitcoin-shakes-off-early-decline-returns-to-usd70-000-as-bernstein-reiterates-usd150-000-outlook"
-    },
-    {
-      "title": "The Daily: Bernstein reaffirms $150K price target citing 'weakest bitcoin bear case in history,' Strategy buys another 1,142 BTC, and more - The Block",
-      "polarity": -0.5233815647661686,
-      "ts": "2026-02-09T19:01:29",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQbHctQ1JFSTduSU10UTBEblV0V2Vka0VoZTI3WVJIdWk1MTBLWG5fd29iQV8yQTFPSS01aFRlRE5ScGxaT3hRVXpIa244dGJINkhaQ2N3ZWlIcDJMN3FVQVM5dGpZa0gyNmpiYjdabE5OV21YVGhnanpBVWdxczk5dWF0TjhMMFE1alNkVDRibFAxVXVhLWNxcEdDUmFGbVBPcS11N25sZnBIS0NwRWtoX3hWTmNoamVTV1NXN0JpcS1HSWJ0ekEtaEI3TjNmOGpXT1ByYnhfcm8wamdiRWY0V2pZN1JDakh1T09uTk9xSWRyLTNQY2hlSmpYYw?oc=5"
     },
     {
       "title": "Bitcoin is struggling again after a brief comeback. Here's what's keeping it down. - Business Insider",
@@ -396,13 +382,6 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYW1wZlVQdHJNZ3VpZkEybTROc0wzSjVBdnFiWlEtV1R2NTRHUnh6aGR5OFJqa29zQnlhQkxsbFk0OFZQdXQ5YWd1eW56RVUzR0JRbFRPWTFiQ25tcGxTZDFXOS1FbjJaU3AyVHN3aVA2RjdpVU1xcURRR2Y2akg1emhaOXk3TzJPR0FFa1k2LTEwTmwtbE91Tm1MQ1QxcWJoa2lfLVhR?oc=5"
     },
     {
-      "title": "Massachusetts attorney general sues bitcoin ATM operator - JD Supra",
-      "polarity": -0.37473155185580254,
-      "ts": "2026-02-09T18:53:34",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVy1zT3NaUmJtOE81NW91TkZwaThyUFNkQXh5Xy1pTTI4RGc3Si1aek0yWHdyeFB3Z2lteTVwM0g5REJyU3RkNURPV21OMmtBY082ejNhdWtfV2l3ekY5Q0N2eklQem5VZ0ZGcTljckF2a0hOeHlnanhDVkltQnRiTlU3Yno?oc=5"
-    },
-    {
       "title": "Why Quantum Computing Isn\u2019t a Serious Risk for Bitcoin Yet: CoinShares",
       "polarity": -0.3604266420006752,
       "ts": "2026-02-09T01:01:22",
@@ -417,25 +396,11 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPckZLQ0VGbVlJaTZael8yVEFXYy1GMjhhRTVENWpMa0ZBWE1BUndONmxKSHRkNmw5aXRuMFItWDkzYWlPblBBcUpvQVozR0pEWDM5cFozOWhNU1dmem1qazNYa2c0U3Z3RDlfSms4SW5oMDBNMGx1eVdKQ1JPWTJsN3BNemgwXzREeUdvZDR2UTY5RXFOOVBZZURFSFFscEVFOWxJalVjNUYtdm53NDd2cUxLUlhXblp2ZHFWaGhB?oc=5"
     },
     {
-      "title": "Bitcoin price news: BTC climbs above $70,000 as Bernstein makes bull case - CoinDesk",
-      "polarity": -0.3379093408584595,
-      "ts": "2026-02-09T18:11:17",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWmJqZnRQdmxHaWY3Vkt0UlBKaUNYeHZjT25wRlcwX0NmcXRKZi02YjJxNm1rLTkydXYzdVFwcDcwZGlEMXJUUHA3SHgtUU9WTkg4YXhBM2NjMDY0OWxEMWVBblJHMXo2dlRrZTYzb01CTVFBRFZvTml1UGI1NVA3SVVhdGRNZGdlUDQ5SVMwRW12bkNkcElfdmlKTmJHaGdiMHNGU0FxTWtXejQ1MVJQVENWd3cwTlBIT0kwckhSSlRybW1RMXV0eUZvZEV4YlFYOWFoZjBCcw?oc=5"
-    },
-    {
       "title": "Bitcoin miner Cango sold $305 million of BTC during market slump to fund AI shift",
       "polarity": -0.1979832537472248,
       "ts": "2026-02-09T15:38:12",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/02/09/bitcoin-miner-cango-sells-usd305-million-of-btc-during-market-slump-to-fund-ai-shift"
-    },
-    {
-      "title": "Bitcoin\u2019s Recovery Rings Hollow as Derivatives Stay Bearish - Bloomberg.com",
-      "polarity": -0.1918793022632599,
-      "ts": "2026-02-09T19:14:43",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQc3U4RFEwYkFBaFlTaVRqREs4V0ZwTFZrZlRLTVVyUFlSeGRtODQzUFU3aFVoc1ZDOU10RnNFYTlWQ2FrcXpPVmJfUi01TEpic0hadVpkQ0h5YTJOeTlUUE9HOWx2WWdBekV5SktIcmxiTkg3WHl2bG03VW5KbnZtUjhiOGJIdU5GVFJ6UTdnNUFGLURvcUpEUWM5eFBvak9tM2hhOFdkWWlUcXlIVUNJ?oc=5"
     },
     {
       "title": "BTC Can Rip Because Everyone Expects Nine Months of Pain",
@@ -457,13 +422,6 @@
       "ts": "2026-02-09T12:25:19",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/the-bitcoin-miner-safety-net-is-failing-as-reserves-plunge-to-levels-not-seen-in-the-modern-era/"
-    },
-    {
-      "title": "One Exchange\u2019s Failure Makes Everyone Pay, Entire Bithumb Crisis in Brief",
-      "polarity": -0.09402158856391907,
-      "ts": "2026-02-09T15:40:07",
-      "source": "r/CryptoCurrency",
-      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1r07gya/one_exchanges_failure_makes_everyone_pay_entire/"
     },
     {
       "title": "What to do immediately after falling victim to a bitcoin ATM scam - Click2Houston",
