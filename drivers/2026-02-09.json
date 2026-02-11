@@ -2,13 +2,6 @@
   "day": "2026-02-09",
   "positives": [
     {
-      "title": "Bitcoin price news: BTC climbs above $70,000 as Bernstein makes bull case - CoinDesk",
-      "polarity": 0.8984449859708548,
-      "ts": "2026-02-09T18:11:17",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWmJqZnRQdmxHaWY3Vkt0UlBKaUNYeHZjT25wRlcwX0NmcXRKZi02YjJxNm1rLTkydXYzdVFwcDcwZGlEMXJUUHA3SHgtUU9WTkg4YXhBM2NjMDY0OWxEMWVBblJHMXo2dlRrZTYzb01CTVFBRFZvTml1UGI1NVA3SVVhdGRNZGdlUDQ5SVMwRW12bkNkcElfdmlKTmJHaGdiMHNGU0FxTWtXejQ1MVJQVENWd3cwTlBIT0kwckhSSlRybW1RMXV0eUZvZEV4YlFYOWFoZjBCcw?oc=5"
-    },
-    {
       "title": "Two Bitcoin Miners Rise On Morgan Stanley Coverage, AI Potential - Investor's Business Daily",
       "polarity": 0.4825543165206909,
       "ts": "2026-02-09T21:35:00",
@@ -16,18 +9,25 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRGJ5RWd1WFJ3LW1Ta2MxNHNJY3ZQOG9Nall6SHBYZ3htd1JXLUN2VXMyYTBnV3FzcDd0dm5scWxtR0NOeWM2TVlwTUEzT2ZxSkV5QXVCYmZtbkxGU0ZCalJrX1M5VmVsamxNdkNHS1BHZjZpVkg1cmhGQ0dDMTM5Nzh1emFKMG00dEJoNlQwYmJCNllvd20yZkdSWFNtbXN1b002aGVHZGZvbUJyRE00TjhBdC1BSFdzTGc?oc=5"
     },
     {
+      "title": "GameStop Teases Acquisition 'Way More Compelling Than Bitcoin' As Questions About Its BTC Stash Linger - Yahoo Finance",
+      "polarity": 0.3922695331275463,
+      "ts": "2026-02-09T15:09:03",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMzlfd1FNZFhiaGJKRUN2UndTZ05vMnVNcThPZ29WWVVQcFNEYjZocGdiZW1LOTY0cjJCRnAwVEVJVExOWlM4d01ZWUZxOVZQMWdJa25qSzVSR1lxQmNyUTRHM0cyR25NSTh1ZkN5LXBpR3VWcmZESE5NbGt1MkZyVGQ1QkpWYVlub3c?oc=5"
+    },
+    {
+      "title": "Bitcoin Settles In Near $70,000 After Wild Roller-Coaster Ride - Yahoo Finance",
+      "polarity": 0.30941008776426315,
+      "ts": "2026-02-09T17:54:08",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5odU1NQjY1Ui1nYmJQdEd1OTU4a282aGt4QjdHa3FzQ1hsSnJ4XzZ3MDhaSFFFU2UxVWhUNkZoREF6b092b3lISnFRLUVHTlBtQXNRblJfdjBhM2hzUENmdVJvd2lWM2xSYjhrbjlvQklzWHV4UHA0aE9hSQ?oc=5"
+    },
+    {
       "title": "Bitcoin Miner Cango Dumps $305 Million in BTC to Fuel AI Pivot",
       "polarity": 0.17546255514025688,
       "ts": "2026-02-09T20:58:26",
       "source": "Decrypt",
       "url": "https://decrypt.co/357507/bitcoin-miner-cango-dumps-315-million-btc-ai-pivot"
-    },
-    {
-      "title": "Strategy buys up Bitcoin stock worth $90 million - Fox Business",
-      "polarity": 0.09908165968954563,
-      "ts": "2026-02-09T23:19:33",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xM3VTOEhYWEpYN1BNNnctUGV4UEN6cVU4d2hmTWcwNTFUQklqVXlrZXFsUTNFSmItTzM3QWQ4LW9HT0dGb0EwQ0MwQnFDWUVuQ2x5bXpfQ0Y5LXM?oc=5"
     },
     {
       "title": "Why Bitcoin faces a brutal liquidity trap because China\u2019s $298B of US Treasuries are up for sale",
@@ -49,6 +49,13 @@
       "ts": "2026-02-09T22:57:57",
       "source": "r/CryptoCurrencyTrading",
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1r0jjun/rebounds_in_first_thing_steady_your_mindset/"
+    },
+    {
+      "title": "Korea Probes Crypto Exchange Over $40 Billion in \u2018Ghost Bitcoin\u2019 - Bloomberg",
+      "polarity": 0.010215964168310165,
+      "ts": "2026-02-09T10:18:44",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOUNNMDUtOE1mUnR5T2NJNzVydFNFeVVhX05TdlBMbUxOT2gyMzRtdjg5U2dYVGw4TVRjLTJ0NjVuemZLdWNrSzR6V0x1Q2J3Qk9aV1VRSnhQellrU1NoSGVIRGxwTEdET3R2MnMtQTV6Tkg3UXVJbmJfZVNYc0Zmck8zVGJnWDd4dEpTSFYzOVdoQUxnYjh0ajlSdXBveTFnd0dmMldrZVNsU2lRZU5EZzZQQm9XbURsM1BWRXp3bVlQZEo4TFpF?oc=5"
     }
   ],
   "negatives": [
@@ -74,11 +81,11 @@
       "url": "https://decrypt.co/357467/bitcoin-funds-shed-264m-last-week-alts-reverse-negative-trend"
     },
     {
-      "title": "Bitcoin Can Crash To $40K In The Next 6 To 8 Months, Strategist Warns - Yahoo Finance",
-      "polarity": -0.8496275246143341,
-      "ts": "2026-02-09T15:32:38",
+      "title": "Crypto Firm Accidentally Sends $44 Billion in Bitcoin to Users - Yahoo Finance",
+      "polarity": -0.6964114960283041,
+      "ts": "2026-02-09T14:31:15",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBoYjJ6ckFmRFJWQ0RBanBBdzVIX1h3QjNRa1FsMmFzdUJUQnlzbTJYMUlPZUN6eHpmelh0R0dTOVNRVG1abm5IMEx4RTFUQmZoZDNvVFYyQ0U0OExXcTVKdTNmUWFzcG1WVFRfbEpDTHBHdGlNRTQtcWln?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWURZbVVobUs3dDFUNHgzMlJKQmFfUUZWRzZVNWJ1SVN1R2swTzNPX3hEUjdrd0UyaFlxWjA0bnNNc2NIWlAyc0dkVWF0elFUOWRQRXI4T1VaV1VjZG5aYUI5cE5XUUlfSGhRVE4yWXRjV3JhTEMxV1pjcW1ITTRqei1RNW1JZw?oc=5"
     },
     {
       "title": "Bitcoin Price Crash: VanEck Analyst Explains What Triggered the Drop - Yahoo Finance",
@@ -102,11 +109,11 @@
       "url": "https://bitcoinmagazine.com/markets/bitcoin-rebounds-from-60k-capitulation-low-eyes-74500-resistance-this-week"
     },
     {
-      "title": "Nancy Guthrie family faces $6 million Bitcoin ransom demand: How such a payment would take place - Fortune",
-      "polarity": -0.05756030045449734,
-      "ts": "2026-02-09T18:28:00",
+      "title": "\"There's a misperception that Bitcoin isn't traceable.\" What you should know about bitcoin amid the search for Nancy Guthrie - CNN",
+      "polarity": -0.03051058202981949,
+      "ts": "2026-02-09T14:03:23",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTmJ4a0ZVdkMtWnJYazI1RnVIY1E3V2Z4c2RwNE95QWNoVXN4SkYxLUM4Q3ZnYkhhWkp6RFA1cHNxOHVWa3E1RWRlVUpmbW85MXVHZzJOTkFVREVyQlFxMTRldG5Qdi1oQ2FYc0hXNW9hVldaWUZYaE9FYkpCMXlnQkNXa1hneXl5aUpaTWpoa3U4Mm5LaUE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTVkzbnFYRlJ2TEZ6T0dSRnViQUstT3ZMRWhScEpnVEtnMVB5X3VndG5jRmFJeUJvUG1zbjVocHVWdkE5LUVGN3phcHA3NmU3MGNZRHRaN0wwcG1PckZORFZYajJZb2RsUXZhVEotOWFWaEc0MjdDM3JWeVlfNjJxY3A3dEFYbmlZMkttMmxrY0R0YjUyT0NxdGNKVzVZOTdfczVJQU1wRzlnOGtFdGVhYUd2YWVFS0h6aHFDTjZXN1FYLW81elFhZTJ2enJXVThHQ0ZyZm5oWXlhN1dDVnJQTEw2am91ZmZ6V09QUUdTeThxOE5VcUE?oc=5"
     },
     {
       "title": "Cipher Mining (CIFR) and TeraWulf (WULF) Get Morgan Stanley Nod; Marathon (MARA) Rated Underweight",
@@ -114,13 +121,6 @@
       "ts": "2026-02-09T18:39:56",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/news/cifr-and-wulf-get-morgan-stanley-nod"
-    },
-    {
-      "title": "Bitcoin's Dominant Era Is Over (Cryptocurrency:BTC-USD) - Seeking Alpha",
-      "polarity": -0.00915868952870369,
-      "ts": "2026-02-09T16:15:31",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5PZWczZHFOUG5XaWpLLTI4TDF4ekhtZ2Uzb1pmQUxzTXk3Y2RrOGNoUXc2bmZvVVdCczJLQ3FpR0JjakdVNlJiUjVlTFV6U1ZyV3BCTDl3MWhWVnR3X2haR2Q3aUE3bkdMWTBwMElWVEZITFBMMzljd2R3?oc=5"
     },
     {
       "title": "Fed\u2019s Waller Shrugs Off Bitcoin Volatility, Says Crypto Crashes Don\u2019t Threaten Banks",
