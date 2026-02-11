@@ -2,6 +2,13 @@
   "day": "2026-02-09",
   "positives": [
     {
+      "title": "Bitcoin price news: BTC climbs above $70,000 as Bernstein makes bull case - CoinDesk",
+      "polarity": 0.8984449859708548,
+      "ts": "2026-02-09T18:11:17",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWmJqZnRQdmxHaWY3Vkt0UlBKaUNYeHZjT25wRlcwX0NmcXRKZi02YjJxNm1rLTkydXYzdVFwcDcwZGlEMXJUUHA3SHgtUU9WTkg4YXhBM2NjMDY0OWxEMWVBblJHMXo2dlRrZTYzb01CTVFBRFZvTml1UGI1NVA3SVVhdGRNZGdlUDQ5SVMwRW12bkNkcElfdmlKTmJHaGdiMHNGU0FxTWtXejQ1MVJQVENWd3cwTlBIT0kwckhSSlRybW1RMXV0eUZvZEV4YlFYOWFoZjBCcw?oc=5"
+    },
+    {
       "title": "Two Bitcoin Miners Rise On Morgan Stanley Coverage, AI Potential - Investor's Business Daily",
       "polarity": 0.4825543165206909,
       "ts": "2026-02-09T21:35:00",
@@ -30,13 +37,6 @@
       "url": "https://decrypt.co/357507/bitcoin-miner-cango-dumps-315-million-btc-ai-pivot"
     },
     {
-      "title": "Strategy (MSTR) Adds 1,142 Bitcoin for $90 Million as Bitcoin Trades Near $69,000 - Bitcoin Magazine",
-      "polarity": 0.07225005328655243,
-      "ts": "2026-02-09T13:35:55",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9EOEtuc3NBM3BhbU1fWUUwa2FVc3VTLUN3Wmd1VGd4S2hBZWhwYXI2MERPSnAxb3BLa3J6N0N6a292N29FWS1wUVN4eUNrWUlHVGoxUkFoSXA5V2FHUHh4UXhyWVhvREtBLVk3ZFM5ODZPZw?oc=5"
-    },
-    {
       "title": "Why Bitcoin faces a brutal liquidity trap because China\u2019s $298B of US Treasuries are up for sale",
       "polarity": 0.06599511206150055,
       "ts": "2026-02-09T17:05:46",
@@ -56,16 +56,23 @@
       "ts": "2026-02-09T22:57:57",
       "source": "r/CryptoCurrencyTrading",
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1r0jjun/rebounds_in_first_thing_steady_your_mindset/"
+    },
+    {
+      "title": "What is next for Bitcoin after its recent plunge? (BTC-USD:Cryptocurrency) - Seeking Alpha",
+      "polarity": 0.005531195551156998,
+      "ts": "2026-02-09T21:29:04",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQb2hrRW9ieWIzVjVPOXNJakhwOUcxMjgtbXlPSTlfX1VjRFF6ZTI4aDd2Q2ViZDBUdmF3Vml6bnZiNUdQWGNvRjdOTzJKMmluUmhVVllBNzR4TFNZVVBhYmxIM2FnQVJ3OUtWeEN6bDc1YXhrY1VYYmN0elVVY3M1NUFIOVEzTFJBM2FSOENJMA?oc=5"
+    },
+    {
+      "title": "Trusted Chicago judge takes Tuskegee Airman's cash, then flips it into bitcoin for herself - CBS News",
+      "polarity": 0.0007995069026947021,
+      "ts": "2026-02-09T05:03:25",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdno4ZGxFS3czZ2NINW5sNDVWMFdpUXZ4eXh1OWQ3V3JyQjdlMkNoYzVWbkM4c3VmM3huOVU2UkpYeExESUpWZ0stSlBSVDFYa1M4WEhwSEpjN2pST21hNXY4UEF3SDJWai11b1lNNjNZaG1pMjJtOGo5V1V5eVI3aXNhemF2elZKOGJES1g0Y1pNRlVfWlBuMldoYzNzU2JvWWFaTktNSFBBSXZXYTF4OHIxak1YUmNQV0M5SQ?oc=5"
     }
   ],
   "negatives": [
-    {
-      "title": "Bitcoin mining difficulty drops by most since 2021 as miners capitulate - CoinDesk",
-      "polarity": -0.9516430152580142,
-      "ts": "2026-02-09T11:09:34",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQU5YNFdsdjhydXluYzVHMHZIQkFWTDExNHJVNUR5NVVLb19ZdmpHR1FlbjhxWjM1NjNON1FuU0QyV1A1MnRrRWxCVlR6VFI2SU05dzB2REVrU1h4LUxNcXlEdndNbnRiOW1OYUNJbGJTM1ZkbmVrSDYtbXQ1SFlRX0tsb3FUd3gxTjhaMVY3WkNYWWxwdzFEOW5IdHZuU1FBbDJOR05RWUhOeF9VLURHTXZXV1JvZw?oc=5"
-    },
     {
       "title": "Investigators Circle as Bithumb Reveals Compensation Plan for $43 Billion Bitcoin Error",
       "polarity": -0.9108860101550817,
@@ -142,6 +149,13 @@
       "ts": "2026-02-09T10:18:44",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOUNNMDUtOE1mUnR5T2NJNzVydFNFeVVhX05TdlBMbUxOT2gyMzRtdjg5U2dYVGw4TVRjLTJ0NjVuemZLdWNrSzR6V0x1Q2J3Qk9aV1VRSnhQellrU1NoSGVIRGxwTEdET3R2MnMtQTV6Tkg3UXVJbmJfZVNYc0Zmck8zVGJnWDd4dEpTSFYzOVdoQUxnYjh0ajlSdXBveTFnd0dmMldrZVNsU2lRZU5EZzZQQm9XbURsM1BWRXp3bVlQZEo4TFpF?oc=5"
+    },
+    {
+      "title": "Bitcoin's Dominant Era Is Over (Cryptocurrency:BTC-USD) - Seeking Alpha",
+      "polarity": -0.00915868952870369,
+      "ts": "2026-02-09T16:15:31",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5PZWczZHFOUG5XaWpLLTI4TDF4ekhtZ2Uzb1pmQUxzTXk3Y2RrOGNoUXc2bmZvVVdCczJLQ3FpR0JjakdVNlJiUjVlTFV6U1ZyV3BCTDl3MWhWVnR3X2haR2Q3aUE3bkdMWTBwMElWVEZITFBMMzljd2R3?oc=5"
     },
     {
       "title": "Fed\u2019s Waller Shrugs Off Bitcoin Volatility, Says Crypto Crashes Don\u2019t Threaten Banks",
