@@ -1,7 +1,64 @@
 {
   "day": "2026-02-11",
-  "positives": [],
+  "positives": [
+    {
+      "title": "Lawmakers Grill Crypto Exchange Over $40 Billion \u2018Ghost Bitcoin\u2019 - Bloomberg",
+      "polarity": 0.11883314605802298,
+      "ts": "2026-02-11T03:47:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUEhObmRiUUJDN2pQRGc2ODZWbGRJX0NxeGZ6cWZsY1B4aGc1d3pUYkpIWXBnNG9XSHE3YnEwWFBaTFMwTDl4ZGp4QW9UWUlQZEVDc3BfU1JsNEYzZ0ZzYmxBX211ZFpCcTFndzYtT3huTHFsNFVVSDAwOFUyX3k2Rkh3WUo4RG95bU5UX0ljT2ItbUxPcXl0OHI3MHQ3VFpXTUNVUGt0bE5vNzdEazJ3Z0xR?oc=5"
+    },
+    {
+      "title": "TMZ: new details about possible kidnapper in Nancy Guthrie case; says 'there is now activity in that bitcoin account' - CNN",
+      "polarity": 0.06551408022642136,
+      "ts": "2026-02-11T00:55:15",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZ0dMcUJmTkFITkFxM3pXaHFRaV95aEkyQk1kTF85TFBXU2gyZm9Kck9YQWl6UDUzeUFtV2kta190R1lQWW5ZMTUtY0xyeHVBaEhYbXhqYVNSU2RfaVJHOUN6ckxBaVFUdkVMV3ZsXzEwbEZFMlJUeXZXZDZUREVtdGR5TV8zbV93c2l3d1NSdUw0ekpNSXJDdw?oc=5"
+    },
+    {
+      "title": "How to buy BTC with a gidtcard?",
+      "polarity": 0.05725307855755091,
+      "ts": "2026-02-11T02:26:19",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1r1kzr1/how_to_buy_btc_with_a_gidtcard/"
+    },
+    {
+      "title": "SkyBridge's Scaramucci is buying the bitcoin dip, calls Trump a crypto President - CoinDesk",
+      "polarity": 0.030289298854768276,
+      "ts": "2026-02-11T02:41:41",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd0JkMklWelpYdkpvcHk0M3N3aUtkeFVNa1RlTDlJNl9iTEhVcnNHRHhzUXhrQmtRVXRTSXNzZU5BU1hFX0QtbnpuY1RlZXNrRWRHU1hVQnNQSkNyaHVGVEVsaGhNQkZNamJ5TlVCX2pUelpyRzVTc2hBVEdIZ1VYaktOd3JoUmRBaW9OSzZxdkV0VkNVdnI3TFd0UGk5ajlrOHF4Z3FlREV0MG9sYncwQmZR?oc=5"
+    },
+    {
+      "title": "SkyBridge's Scaramucci is buying the bitcoin dip, calls Trump a crypto President",
+      "polarity": 0.02113703265786171,
+      "ts": "2026-02-11T02:39:40",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/02/11/we-are-a-buyer-of-bitcoin-in-this-market-skybridge-s-scaramucci-says"
+    },
+    {
+      "title": "New to crypto. Looking for chains focused on innovation.",
+      "polarity": 0.005605120211839676,
+      "ts": "2026-02-11T01:57:21",
+      "source": "r/CryptoTechnology",
+      "url": "https://www.reddit.com/r/CryptoTechnology/comments/1r1kc6l/new_to_crypto_looking_for_chains_focused_on/"
+    }
+  ],
   "negatives": [
+    {
+      "title": "Top cryptocurrencies fall; Bitcoin falls below $69,000 level - MSN",
+      "polarity": -0.9561588214710355,
+      "ts": "2026-02-11T03:22:30",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdmJBS1RtM0VGeWxxYmZybWpYc3NhX2pSMi1zVHN4RGJucGNTb1BHdVVHUmloMXU2NVlUSEJ5N2JRaU9qeFhhRjBzSHdHTjRkdkJsbTZwRkdiU2RzM2E3OVVoRUlBTDhiOXZ0cEstZjJPOVNJLTZaY2xNZFZiVF9qLUxkbVpYanUyWVZpeUtXTmNsWjZMSFJNcGFGeVhwZFhya2ZJUC1tOGtyQ1FOVC1v?oc=5"
+    },
+    {
+      "title": "Bitcoin Drops to $69K, Crypto Firms Keep Buying - Los Cerritos Community News",
+      "polarity": -0.9312275610864162,
+      "ts": "2026-02-11T01:51:31",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZVhNWEZ2MFB3THFRUllEQWlJTC0xSjc0WTN1WFVXaTNUVnV2NXd1UEJqUlVQUFdoak5najUxYzZjQ0NUelE3akFhX1hXN3FISkJxeEZHSmNwN2RMZ3dZNnN5TGJJWWktQTdoaEVyMW43RWN3ekJZOFNhdTJuclU1TzlzUktmcXg5Wm5Ebm5DVUhGelE?oc=5"
+    },
     {
       "title": "Bitcoin falls below $70,000 in rangebound trade ahead of key U.S. data - Investing.com",
       "polarity": -0.8388391453772783,
@@ -10,8 +67,29 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbkptaXczQ0J2OVVxd1JrSUtUbFdZcGNraHVLZVhXcXRWYkI1NkZwa2tyQnpYa1F0NWxLQmRncHZqdGhzMF9rNlgyY3h6a1FFaGtNRXNFY1pFVkN1NU9oSUJ5ZmxoSVpqNGdSd2xYOVN6TGp2SWZ6anJCYmF1NlNKUTcya2VCSk5Ja0dPX05qbGNhYTBRSERpMTJqUy1PQUUySnUyeVIzS04tT1JHSFVUN0xHZXlmVTJ1eE9NeTd0WjlsU0drRVhjWmh6cw?oc=5"
     },
     {
-      "title": "Bitcoin Fundamentals Have Grown \u201cExtremely Bearish,\u201d Says CryptoQuant - Forbes",
-      "polarity": -0.3168477416038513,
+      "title": "Goldman Sachs cuts bitcoin ETF holdings by 40% in Q4 - The Block",
+      "polarity": -0.8309262581169605,
+      "ts": "2026-02-11T03:58:59",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR0d1MUdYVXRYeVRxMmlDYzhMV3BEbElMb0ZhV3UyMlpYbEEyMV9iZ3N1dThMNWpPMS10U2tJeTM3TjhYclRwZjZqWDV2Z2c5QnIxUnRGMnFWSW1oNnN3U3ctWVA0dFVTUU40OVdsS1NrUlBWX2FBMWNBTksxWklsdHY1RUxVZDNLRTN1OVBKY1lsR2NxVW1tbG1lTldjSHZZM3I4WV85NkNPUGlSeEx0aWRQY0Y?oc=5"
+    },
+    {
+      "title": "Activity in Bitcoin account from ransom email; less than $300 in activity - KGUN 9",
+      "polarity": -0.43084216117858887,
+      "ts": "2026-02-11T03:36:12",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORFlYdUt3cWlnQUNZTm9wNnNhc2Q0ckkySGt6RHNqaGJGekc1bHlaaXZudkQyMzVFbWRDUW5QRmpSeGVOeEUxY3RzS3l0dUxpazctMnU3cjBjWFVxeHByWFNpV0NVa2I1T1ZhUjg5N0Exbm84OGlzbXdvMXl3MUQxMVg5OTRwSlN3WTlxRDhPOVdyWTB5VVhVQW5pVVE0bDM3MW1mblRQaTkzYm5RTFE?oc=5"
+    },
+    {
+      "title": "Bitcoin Whales Are Buying Again as Other Large Buyers Retreat - Bloomberg",
+      "polarity": -0.27770084887742996,
+      "ts": "2026-02-11T01:22:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONldJSjRvaVRjWTFNcXdacGtPM2w5TUhfNzdDNEFjNnczTnNRZldBN1k5RmI1NkREcFlNcHFmaXVnaEZYNmpJcTQxaWhhLVAzYzk0S3E5QlAtQzBiWGx1Q1lGeGhvSE53dVhaOXhOTGp3VGtEMVZQTjJkUkY2ek1vUkZ5TzV1VTJTNk5OeHUxQUQ3OFBxdTdkS2Y3MW9LX1lhWmVUaHBTelAxVmdUVHhXY1F3?oc=5"
+    },
+    {
+      "title": "Bitcoin Fundamentals Have Grown \u2018Extremely Bearish,\u2019 Says CryptoQuant - Forbes",
+      "polarity": -0.2718186676502228,
       "ts": "2026-02-11T00:29:38",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQS2ZiZS1XTkEyMmE2S0N5a2ZfcE8ySDRDWDdwTDgxekZueXp6OUJyaUhQMUdMT0lIWTFPWFFEOGtkWUFOQVEzSWtWMVpDM25TLTQzVF9vVFl4dmtjZ0lSQlFuRkJIRDhFQ0FZdXItRU0xWnNXLXVLUXZyWmszRkZKdFJRNUhhTTlGUHlOd1dTcjFtX0RzTklQOUNaS0FDbTJ3Mm5VWnRua3pZT2lWU1E5eWFTTUZlX0UyRWM4by1oVQ?oc=5"
@@ -24,11 +102,46 @@
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1r1hugj/market_outlook/"
     },
     {
+      "title": "BREAKING: TMZ\u2019S Harvey Levin Tells CNN There is \u2018Activity\u2019 in the Bitcoin Account from First Nancy Guthrie Ransom Note - Yahoo",
+      "polarity": -0.12467195466160774,
+      "ts": "2026-02-11T01:36:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOFNNVDdRZmNsVTJLQ1g1TlVhUGJXdkxDY2ltY3R6MEdVc29mRXlGV3dMVU5BV2FZNFJrN1V5S3BQa2xWWGVaWU5tbngtTi1xTloxSXh2Y0I3ak1pc3c0NFp5UWZMWnJoN00zQlI1bHpSSE1aTm83Z3dWY3RHS3F6Rm02Y0Jud3owMWc?oc=5"
+    },
+    {
       "title": "Savannah Guthrie's Mom: Activity in Bitcoin Account as FBI Swarms Annie Guthrie's Neighborhood: Reports - Parade",
       "polarity": -0.056122178211808205,
       "ts": "2026-02-11T00:52:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wSHExMDN1U21iNHZjeS0zRnNtZ0N6M3pORVg2MEdLeTVxclI5dmxtOXlCNVRWclkzRTNvREhkdERRN3FmYmlrMEJOLUxFbjVkMUZtSnB4TEItV3VCdlViRzdhOA?oc=5"
+    },
+    {
+      "title": "Activity in Nancy Guthrie\u2019s ransom bitcoin account: TMZ | CUOMO - wspa.com",
+      "polarity": -0.05161448009312153,
+      "ts": "2026-02-11T02:00:10",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWTlxVWtwZ3BpZ2hSaUtPUkdyMWpkelpldzR2ZmdmVUZUdUI1c2s2WHNERXZ5ZFYyYmQzQm1rV093c0Z2Wm1JQTlXb2xpSXlhT0t0TTNBOWtZWnJxQWpSN2FoWktHb1ZUWUFwTXVZLXZvaTAyc3RZMl93ZTNoVHZFLTlFUnNYUW82N3ZfTjIyWDZBTGNxYm93NDJ2M0pUSzlzQ2tGNkdqSGI?oc=5"
+    },
+    {
+      "title": "Nancy Guthrie Update: TMZ Reports Bitcoin Account in Ransom Note Just Had Activity - Just Jared",
+      "polarity": -0.04072948917746544,
+      "ts": "2026-02-11T01:15:27",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPc05TU25zWmhTSHhzMWROeHA0dG9vRkRRV3RBa1V2SUczWVZXWGhjOVpQcjctMDhVTUlKU3VYbW1PQXRjYloxMHk2c3BjT25tbTVvZV9WSHYxMVk3cEh3WFI5WXduQjB0Qkpqc2RoaS0tcWd0NFBLX3VPQzdaYnczVkpHNFBTQXBiNWhjSXlBa3pGLTZGMnQzaHh3cThENzlmX0M2a09DYTdjQnJsRHRmNlFCZHh2S2NrXzVN?oc=5"
+    },
+    {
+      "title": "Nancy Guthrie Bitcoin Twist: Activity Detected in Wallet Named in Ransom Note, Claims Harvey Levin - Times Now",
+      "polarity": -0.025556856766343117,
+      "ts": "2026-02-11T01:58:20",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOS2t4Q0JTaE4ybE55anoxM1VOOHlyYjJ5TWppdHdFbEpJeFp6R0xrVXpBYVFpcEc0d0l0VkR6Y2w3ckxPdXM1dHZoUkZYTHNYNGczU212NkNMSzVnYTd4WDZUeGczUGV6YkJJYzdQTWhTekM1Ulp2R2h2YUxpdG11aEtlR0hZdzgyZGZhNmFqNGQ5X3VpQk9vS2ZWOGZmWUNQSUpnOGFpQ09Gb3VJR3UybTBMLTFESU1yaVhwZlpDQlNLQkE2UVlfRlhSeDEtdW5VOXlJdzlITTR6Z9IB3wFBVV95cUxPeldFNnFvZkZCdDJ1RHowMmtnTTRmdnNURldSZDhEOHE0SndSdHZNT3JOajRMVGhWNWljc2VrY0JXcWZwQlRoWVRPSWxDdWNJazJaeUFOOVE4Vmd5ZGNHRkxjRk9ac2hienpMZ2hOUHY3aHZPdFU3RHB1R0U4UlFDcGprUlFva29mRkUzOUNJQ3VmWG1HYkJPWW9TdDlQUERFdlF1TlV2cjFPSElJRVdMQU1oX19mZTQxT2g4WHB4cmhKOUVDVnZSRkFiUlBhcmI3LUtGT3cxWDBtd3l4dVNB?oc=5"
+    },
+    {
+      "title": "Nancy Guthrie kidnapper moving Bitcoin? TMZ's Harvey Levin shares cryptocurrency wallet update amid manhunt | Hindustan Times - Hindustan Times",
+      "polarity": -0.01658863201737404,
+      "ts": "2026-02-11T01:09:26",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOTk10TVFpZVdJNXlLVTJXUU1wREF4V2tyaFNrOUpNaDEwXzJXdmpfTW9yQmZKMW5RVGlTQkZwLWN3MmNYNUM4UHFKQ2pxeFB3S1dQQTJINzlzOWV0NDlJeDc3WXphZkgxNUlqOUFqQVhIVFNXZ2FSRWpEbTBhSlM1a3FrTjRVRHVJN3d2NjBHbWM4djJfbkNkNi03M3h3aVAwYlNSdXk3THNEVS1SaG5MZmQ3SzNkWWFhT1V1TzRlT0J0RHVIcTBZa2c4T3diZ1RiVjVCdXE0OTlXNjhXcy1pNmdTSmd2N2MzSzVnMUtJb1BCeFl0Qmp4d1VoNTM5WE1tQjROczhHb9IBjAJBVV95cUxOLWJTMWdFT1g4UTVHbFdXV1paWjhJUnB0bTdMekhYN2VLQWpEcW5qT20zX0F2SFFCWkloUlhpdl9EazhuQlZrNWN3cVpMNnBvM05fNzdCV2xpTm9JZFdsOFhQZ1IzMnVtTEYxMG5RYXVSMHNzU2hibU81SUMzeXM5eHFnWUQ1enhSNEVlV0RpT21QWm9CYnVpN2dOUVBkeTN2RlNrS2V6YjUzUmVuWHFYblNwYjhrYWNiVlJTdTlGdlFHd09hdUZHMHBkYU81OWR0YjZUazN5dmF3VldWZ2hMSEJxTWxrZnhQWk1kRFN3SnZhZGprTkhWZURMdmJ4ZTV0UjRuWHljUEhta3Vq?oc=5"
     }
   ]
 }
