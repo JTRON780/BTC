@@ -2,6 +2,13 @@
   "day": "2026-02-09",
   "positives": [
     {
+      "title": "Bitcoin price news: BTC climbs above $70,000 as Bernstein makes bull case - CoinDesk",
+      "polarity": 0.8984449859708548,
+      "ts": "2026-02-09T18:11:17",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWmJqZnRQdmxHaWY3Vkt0UlBKaUNYeHZjT25wRlcwX0NmcXRKZi02YjJxNm1rLTkydXYzdVFwcDcwZGlEMXJUUHA3SHgtUU9WTkg4YXhBM2NjMDY0OWxEMWVBblJHMXo2dlRrZTYzb01CTVFBRFZvTml1UGI1NVA3SVVhdGRNZGdlUDQ5SVMwRW12bkNkcElfdmlKTmJHaGdiMHNGU0FxTWtXejQ1MVJQVENWd3cwTlBIT0kwckhSSlRybW1RMXV0eUZvZEV4YlFYOWFoZjBCcw?oc=5"
+    },
+    {
       "title": "Two Bitcoin Miners Rise On Morgan Stanley Coverage, AI Potential - Investor's Business Daily",
       "polarity": 0.4825543165206909,
       "ts": "2026-02-09T21:35:00",
@@ -58,18 +65,11 @@
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1r0jjun/rebounds_in_first_thing_steady_your_mindset/"
     },
     {
-      "title": "Bitcoin ETF Holders Have Diamond Hands Despite 44% BTC Crash",
-      "polarity": 0.011322930455207825,
-      "ts": "2026-02-09T21:40:12",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1r0hhxa/bitcoin_etf_holders_have_diamond_hands_despite_44/"
-    },
-    {
-      "title": "Korea Probes Crypto Exchange Over $40 Billion in \u2018Ghost Bitcoin\u2019 - Bloomberg",
-      "polarity": 0.010215964168310165,
-      "ts": "2026-02-09T10:18:44",
+      "title": "What is next for Bitcoin after its recent plunge? (BTC-USD:Cryptocurrency) - Seeking Alpha",
+      "polarity": 0.005531195551156998,
+      "ts": "2026-02-09T21:29:04",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOUNNMDUtOE1mUnR5T2NJNzVydFNFeVVhX05TdlBMbUxOT2gyMzRtdjg5U2dYVGw4TVRjLTJ0NjVuemZLdWNrSzR6V0x1Q2J3Qk9aV1VRSnhQellrU1NoSGVIRGxwTEdET3R2MnMtQTV6Tkg3UXVJbmJfZVNYc0Zmck8zVGJnWDd4dEpTSFYzOVdoQUxnYjh0ajlSdXBveTFnd0dmMldrZVNsU2lRZU5EZzZQQm9XbURsM1BWRXp3bVlQZEo4TFpF?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQb2hrRW9ieWIzVjVPOXNJakhwOUcxMjgtbXlPSTlfX1VjRFF6ZTI4aDd2Q2ViZDBUdmF3Vml6bnZiNUdQWGNvRjdOTzJKMmluUmhVVllBNzR4TFNZVVBhYmxIM2FnQVJ3OUtWeEN6bDc1YXhrY1VYYmN0elVVY3M1NUFIOVEzTFJBM2FSOENJMA?oc=5"
     },
     {
       "title": "Trusted Chicago judge takes Tuskegee Airman's cash, then flips it into bitcoin for herself - CBS News",
@@ -116,6 +116,13 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBoYjJ6ckFmRFJWQ0RBanBBdzVIX1h3QjNRa1FsMmFzdUJUQnlzbTJYMUlPZUN6eHpmelh0R0dTOVNRVG1abm5IMEx4RTFUQmZoZDNvVFYyQ0U0OExXcTVKdTNmUWFzcG1WVFRfbEpDTHBHdGlNRTQtcWln?oc=5"
     },
     {
+      "title": "Crypto Firm Accidentally Sends $44 Billion in Bitcoin to Users - Yahoo Finance",
+      "polarity": -0.6964114960283041,
+      "ts": "2026-02-09T14:31:15",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWURZbVVobUs3dDFUNHgzMlJKQmFfUUZWRzZVNWJ1SVN1R2swTzNPX3hEUjdrd0UyaFlxWjA0bnNNc2NIWlAyc0dkVWF0elFUOWRQRXI4T1VaV1VjZG5aYUI5cE5XUUlfSGhRVE4yWXRjV3JhTEMxV1pjcW1ITTRqei1RNW1JZw?oc=5"
+    },
+    {
       "title": "Bitcoin Price Crash: VanEck Analyst Explains What Triggered the Drop - Yahoo Finance",
       "polarity": -0.6185024157166481,
       "ts": "2026-02-09T15:31:08",
@@ -123,25 +130,11 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYUlwUlFBc00zaDZ4Z1p3bHU3c0U2UnhLc3gwOFQ1VDRTT0FVd0h3WGVKTXNOLWVhS2s3ZHBqS3kyVGctcU9vZ2FvWHo2TWdEa0tQUUoyTWNMVXRIYl85NVJZQ19nNzZZSGp4UWF0dVdSdUw0ak8yajdxdVM1ZHN3MDF4SFpJTUE?oc=5"
     },
     {
-      "title": "Bitcoin is struggling again after a brief comeback. Here's what's keeping it down. - Business Insider",
-      "polarity": -0.4590598978102207,
-      "ts": "2026-02-09T17:48:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQS1haFFyZlM0d214d1E0WmhWUUw5Slk3WDNkM3F0ZTQ0M0lyby0waEtzQ2tMSERCWUwxZFhPMUlQV0d6QVRWNXk0dktJU25XbzFPcjR0d3A0ekNqVEJJRzJJSkh1U0tZcEdYU1BnU0lIWXBIRFFiUEFHSndhUzZkbGZVZmwzVDZzSmtrdGtEQU5RU0VLWmo0RQ?oc=5"
-    },
-    {
       "title": "Bernstein Calls Current Bitcoin Selloff the \u2018Weakest Bear Case in History,\u2019 Reaffirms $150K Target for 2026",
       "polarity": -0.4219604432582855,
       "ts": "2026-02-09T16:48:38",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/markets/bernstein-calls-bitcoin-selloff-weak"
-    },
-    {
-      "title": "What to do immediately after falling victim to a bitcoin ATM scam - Click2Houston",
-      "polarity": -0.09183759987354279,
-      "ts": "2026-02-09T16:20:52",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTTFZaGgyT3pLdThMNTBCY2lad3g0NGJ3SFl6RmwyWGlYTHU0QTJLT3RVSzNFSmxPOVlQYUVvdWItQWF1dXh5RUtWUGpUQzlYWnlDVHdtNHRrWlhkTVFHeVdTaU9mTGZoVUFVUEl2NGVYNU04R0hfYkJXNTFqXzMwWlRFZkR4M285bFFFX2xETjkzYXBfU21NNW54UVF1dEtqR1ljd3A5eDlJUU94RlhiaVowY1Z1SXU5ZWc?oc=5"
     },
     {
       "title": "Bitcoin Rebounds from $60K Capitulation Low, Eyes $74,500 Resistance This Week",
@@ -163,6 +156,13 @@
       "ts": "2026-02-09T18:39:56",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/news/cifr-and-wulf-get-morgan-stanley-nod"
+    },
+    {
+      "title": "Korea Probes Crypto Exchange Over $40 Billion in \u2018Ghost Bitcoin\u2019 - Bloomberg.com",
+      "polarity": -0.01817338541150093,
+      "ts": "2026-02-09T10:18:44",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOUNNMDUtOE1mUnR5T2NJNzVydFNFeVVhX05TdlBMbUxOT2gyMzRtdjg5U2dYVGw4TVRjLTJ0NjVuemZLdWNrSzR6V0x1Q2J3Qk9aV1VRSnhQellrU1NoSGVIRGxwTEdET3R2MnMtQTV6Tkg3UXVJbmJfZVNYc0Zmck8zVGJnWDd4dEpTSFYzOVdoQUxnYjh0ajlSdXBveTFnd0dmMldrZVNsU2lRZU5EZzZQQm9XbURsM1BWRXp3bVlQZEo4TFpF?oc=5"
     },
     {
       "title": "Fed\u2019s Waller Shrugs Off Bitcoin Volatility, Says Crypto Crashes Don\u2019t Threaten Banks",
