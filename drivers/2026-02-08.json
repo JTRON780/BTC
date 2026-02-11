@@ -1,14 +1,15 @@
 {
   "day": "2026-02-08",
-  "positives": [],
-  "negatives": [
+  "positives": [
     {
-      "title": "Popular hedge fund manager predicts Bitcoin will crash to zero - Yahoo Finance",
-      "polarity": -0.707732267677784,
-      "ts": "2026-02-08T15:30:18",
+      "title": "'No Reasonable Scenario' Forces Strategy To Sell Bitcoin As $440 Target Stands: TD Cowen - Yahoo Finance",
+      "polarity": 0.031121375039219856,
+      "ts": "2026-02-08T23:01:11",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNTRBUmRUYmxKbkgyLXhCVEhqMnU2QWtFMVRjb3RrczR5akZfZElPRGdpQXI4d3l1ZUhyZHJrWVg4Q2NnOWxNVEEzcXB2UUVTS3c2bmJfaEpCenFKRmpsQXN3alJVaGpJTHBRejliM0ZKVWpxNVRtMUJHZHlBcUY0OWYwM3pRdzA3?oc=5"
-    },
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMkF4eHdTZEFyZkpBQlBpaUtIeDkya2dKX1BfSFM5Tzk1WWxIUk5VR2ZwYjNnNHBxNHY1aHkwck9yaGJReVJtRklhTjF5R3Jja0ZJOFJTLTZxdXdLOUFtYmZoR19EQlhOWk00YmxBbjdaVWJqbDBWR041NGdKY1R3SEVjZ2hWdDN3WjZVRA?oc=5"
+    }
+  ],
+  "negatives": [
     {
       "title": "Bitcoin is still about $70,000 too high - Financial Times",
       "polarity": -0.3354132901877165,
