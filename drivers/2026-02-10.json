@@ -2,6 +2,13 @@
   "day": "2026-02-10",
   "positives": [
     {
+      "title": "The Best Bitcoin ETFs to Buy - Kiplinger",
+      "polarity": 0.07222478371113539,
+      "ts": "2026-02-10T14:03:55",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSkI2cUxYaTMtWXZURkV4VzlHaWN0NUpaUWQ1bWRwSDdYeHFUTGhZa0xycGZmQWREbUc2bk1veGFXMEdhclBXTW9yRm5oU19BTXN4NnZ1WFpLTFNKR2s4TC15X3ljcVoyRThDMU1RYkdyRzFuMnlVSHNqX0pZd0lfNzB4ck5xd1pYSUZmbXgwWkt3dkJMbkE?oc=5"
+    },
+    {
       "title": "Jim Cramer Says He's 'Heard' Trump Is 'Gonna Fill' The Bitcoin Reserve At $60,000 \u2014 What On-Chain Data Tells Us - Yahoo Finance",
       "polarity": 0.055057771503925323,
       "ts": "2026-02-10T17:31:07",
@@ -14,13 +21,6 @@
       "ts": "2026-02-10T04:28:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeG1EZTZnbTc3SXcyR08wWjZHNV9OWjVjTUhCX0ttQzhZQmJxclhBdEUtc2VHeWFmeHpQdUEyMEVLWnFKVExxWDZEcHVmUmh0dFU5OVNFa1BpRzB1R2dNSEF1cV9PTzdGZFEyenF5X29reU9YaVZXVW9VbnpMOUp1eEpCeGo1MUJRbGtKeXFYckZSWVFDQ3JmbDJBeEJSQQ?oc=5"
-    },
-    {
-      "title": "Goldman Sachs Discloses $1.1 Billion Position in Bitcoin ETF Holdings - Bitcoin Magazine",
-      "polarity": 0.004502085968852043,
-      "ts": "2026-02-10T21:52:45",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9maS1OYXV2MFhZWlF6Uzc2N19DVk1xdVI2ank1Vm53Tl9JSEpBVlRQbkxUaWVqc0FmZUZHWjNRV1psT1NTS05NbnZlNk5JUmJ6ZGdZNElTZ1ZhNzd6TE43SGd2ci1HaEY1eGhKdHJZSXA1dHR2?oc=5"
     }
   ],
   "negatives": [
@@ -64,7 +64,7 @@
       "polarity": -0.0780558381229639,
       "ts": "2026-02-10T10:20:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiuANBVV95cUxNZEZfaTYzUC10TGZLeHdKVVB4elhiYXhoa01LZno2R0lIX3phM3hxbVRtLTF5bUNiNDVjY01mX2F0SlFfUkQxSE02UWRXeW9CNGtvY1ZNanpCd2pxOXpLc2hfNVM3N25PVFlIRWFWX0VtZkg1ZE5MbmhWR1lWVmJ6eHdVUy1pXzlhakgzMWVfRGNjS1pkWjF4bFRZclJVLTc0WGl3NWZ5amxFTHlMUjhWaEk0Z01YSGFjd0RieENDT3cwWU9ma0FObUtheUpTd3E5bFhEMGVDRUMyMlRzcmt2Z0JBMWs2akhwZ2xoVUVUV3lBUTNmekt3cU9ZdXB4TDZvVXlRR0VxMWE2NEJwNVNwWExOLUxLVnVwOHo5eVNQbVpkQUtrczZyY1MxMFg5YkNwejBGMmVsS3ZWVlJrMFFmeXpWOWhORHBBWUt5SWlXLUdubGNjNGVFWVBNdTdnTGxJX0VDUl8zOEl0a045Z2RPNGtTTFUzb3hLMGVmQWNJckdtM1h6U3FZVEp4bjFCcVQ0ZldQX1NER3pQV3lWaXZUWk1WSjdHN3AxRldCYXhsT1F2NVNxTGowWA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiuANBVV95cUxObTF1Y200dlU1bzFKdEd0TWpJLUl5NlVJdWJTeWttUjNkTUNzaU85akp3UUpqaTFGa0M0Tl9mU3k0MmhDYXRyeEE4NkE2OUtUUUFRdl93N3VQQ2lJTFFVUE82blJFNEM1U1BEdFZoRXZQMWREdzZiSXNqRHIwZTE1a2RkRGxYOHlnV0VvRUdhSkw5aUhoLVh3NnFOVFhnMkZDZ0R4blNMY0ZidTR0YzlYOEZxbW5kMlQ2Tjl2SmVTaDZ5UlNPRERjcUliUXBBdEw4VmlEb2JsYW5hVTVMNEtaT0c4SGFzM0lXR1dKazI3TDNtNW1MLWhfV3doa21hUGxoYU5MVnFENG15RHhFMzBRNjB5NmVNTDFPdy1uS0tXYmtWMDdXMER3TXpuT0p3b2g0Z3daU252RFVJQjNQWktaWTVkTlRFY2F3dnZ5QVk0cDd1ZTF5TE9HeDhicmhvUUVJSDBVRmNYTERLYWJraDBEeHpfaEtpMkZRTFptTzkzVmxqOUxZVkRncm16SVZpdGpGckM1UVA4bTNIYmh1Wm5XMkRZSzJibWFwQmh3NmZIdTRKZHM0LWdFbg?oc=5"
     },
     {
       "title": "Nancy Guthrie Kidnapper Likely From Tucson Area, First Activity in Bitcoin Account - TMZ",
