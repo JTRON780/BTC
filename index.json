@@ -1,7 +1,7 @@
 {
   "api": "BTC Sentiment Analysis Static API",
   "version": "1.0",
-  "updated": "2026-02-13T16:32:54.737138",
+  "updated": "2026-02-13T17:34:52.190482",
   "endpoints": {
     "sentiment_daily": "/sentiment_daily.json",
     "sentiment_hourly": "/sentiment_hourly.json",
