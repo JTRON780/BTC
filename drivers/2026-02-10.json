@@ -2,15 +2,22 @@
   "day": "2026-02-10",
   "positives": [
     {
+      "title": "Michael Saylor predicts Bitcoin will beat S&P 500 - thestreet.com",
+      "polarity": 0.6781545169651508,
+      "ts": "2026-02-10T18:22:52",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSnkxTDJiTVhpTFFSVllrcmtZOFZEcW9kcHA4SF9leW9iV3R1X3FxWFByRXRVNHZkUXptZGxmVlhEMzBLZ2JrUmpUaGVoUXBlbm5NZjUxMk9DdXRQUWVZb3RDck02NTFzYzZCdE1fQ3ZVSDZheUxSaTRfbFUwRW5EWFFiY1B2YmladmtGZng1cnlYd2Vk?oc=5"
+    },
+    {
       "title": "Jim Cramer Says He's 'Heard' Trump Is 'Gonna Fill' The Bitcoin Reserve At $60,000 \u2014 What On-Chain Data Tells Us - Yahoo Finance",
-      "polarity": 0.055057771503925323,
+      "polarity": 0.055057959631085396,
       "ts": "2026-02-10T17:31:07",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5tNU45QVhGQVJtM3hGcEgwaU92WExTZzZpMTJmRzgxMmRZTVJwRTJNZzdKUjZOWFNldlZtVEhHZGE3eGd4Vi1yTkhxdTU4QV9qVTFBczlYU3M1REcyNEFUaFBUbVN4TEloNEdEYWpER3Z3ZkNEWWpMRl8wVQ?oc=5"
     },
     {
       "title": "South Korean crypto exchange races to recover $40bn of bitcoin sent to customers by mistake - The Guardian",
-      "polarity": 0.03733781725168228,
+      "polarity": 0.037338219583034515,
       "ts": "2026-02-10T04:28:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeG1EZTZnbTc3SXcyR08wWjZHNV9OWjVjTUhCX0ttQzhZQmJxclhBdEUtc2VHeWFmeHpQdUEyMEVLWnFKVExxWDZEcHVmUmh0dFU5OVNFa1BpRzB1R2dNSEF1cV9PTzdGZFEyenF5X29reU9YaVZXVW9VbnpMOUp1eEpCeGo1MUJRbGtKeXFYckZSWVFDQ3JmbDJBeEJSQQ?oc=5"
@@ -19,31 +26,31 @@
   "negatives": [
     {
       "title": "Bitcoin falls to $69,000 as crypto market shows 'early stages of bottoming' - Yahoo Finance",
-      "polarity": -0.94696513004601,
+      "polarity": -0.9469651505351067,
       "ts": "2026-02-10T16:39:32",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSl93Z0VvZWU2M0M1WWlTLURxQlNlZzdnbmRPZXh6dkU2ajNrV0F0Q3Q1WkxSanN6SXE3Z0QtNkdwMkhRRHpvLS1MNlNNY0pQRWdqc0F1SjQzS1MxXzlCZzdBNWxDNm9fT3E4ZDR1Zi1OZUZVdjNuZnltR1h1MmJkMFNubklFX2lBNXdTc1U0X3dmQm5qSTFZMng1Rmd0aHFfcmZjMWM2YzFiM0JpaGJoT2thb3daVWg3?oc=5"
     },
     {
       "title": "Michael Saylor downplays Strategy credit risk as bitcoin tumbles: 'We'll refinance the debt' - CNBC",
-      "polarity": -0.7548846527934074,
+      "polarity": -0.754885520786047,
       "ts": "2026-02-10T14:36:19",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUzZfN3ZHcTM0OVR6WURwcG5VcnpMSVJLVFdDZEFpWTNJVTc3LUdmVTJKZko4OV9HajY3TklIcGMyVHluOUlzQi11RHJCLUxPZkxZZWJ4dlhodnhXeEJtQkd2R1VhcUVSY0R4MmQxYkVWcGJjdjRwbURfLVZZS3NSRlFzOEE4aVRhVHJldmE2TnNmZEhPSGJaOGtkX2hwRThtUGtVZkNQMkVXemhPQ3lPcFhqdUE0THdzcWthNTY1V2hHYUnSAcgBQVVfeXFMT3NNSmNmdU9KcXdxZ0ZIbjZVSkZpZVhCaWJLX2ZpdXVtZ25LcjJPcVRCelpYRVU5XzR5VlZUTEoxVGMxUWNTOTNpdVRyOUpHMkprVDR3MTNsUmJGTXFrOHlTTlFXSzZnWWVINHhkMHpHYTlCZjZINHROaFpDanIyS1V0Nm9rcUtwR05tUXV2N2NEV2VldTJJcy11YzFOZl9pOUM0blZIRERsc29oT0tyejJmNng1U25WdWtGZlZwbm4ySHFCMEdlc0s?oc=5"
     },
     {
       "title": "Bitcoin hovers near $70,000 as analyst calls sell-off 'a mere crisis of confidence' - Yahoo Finance",
-      "polarity": -0.670180931687355,
+      "polarity": -0.6701787523925304,
       "ts": "2026-02-10T09:19:56",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWEQzT2Q3QTlwSGhwX1Jram9vY241aFVEYXVSb1dYOUpOdm9mazdwRFJ1UHlRYzlKQ3RfOHAwZlZlTFZHenJCSW9uRUI0eTQ1elgxeHZuR0lFYk02a1lKZE1tSVlVR2ZMeGtBaU90dGRMN0U3RGlYTkVZTy02X0RUYlBnWlZCb0VKWm42RGtNY3dXLXFDTm8ycTNYU29UdEFMWTRqQmZUSDJuZHFlTWF0d0t5OXY5bVpyN2x0dlh3NkhhM2c?oc=5"
     },
     {
-      "title": "A Bitcoin Blunder for the Ages: $40 Billion Accidentally Given Away by Bithumb - The Wall Street Journal",
-      "polarity": -0.10296949185431004,
-      "ts": "2026-02-10T10:20:00",
+      "title": "Analyst predicts next big crash for Bitcoin as markets rally - thestreet.com",
+      "polarity": -0.4414269030094147,
+      "ts": "2026-02-10T14:05:03",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiuANBVV95cUxOUWpMM2RYYW9WczRGRWZWTWMyXzRNbjJTbmN3VnJsSU5zTWROVDhWa3RsblZqRHJtTmcxTDZaN2JteXNudVJ3QzZtWERabHFYWUR6X2VCZEhRc204SUZsclEtX2NxakFZYW9ObmdvM0wwdHpnZmNsQV9LVDZ4bVdQaHEzWmtXQlROU2xSNzg5ZVAyQzJBN3BXbW5vemk5RFl0czREYzZWUVZ2QVVXUkFhbjVvLWJjY0EzZVRvM254enVuREFwdnpNUFNmUThnM2VhVFVUYjZpa05NcW02aGQ0WlA0TkRqYnEyc3V3dUNNU3I0S1d2ODJUc0RqbzlkTWpmV0tXMURsVjg1a0hLM1JMMUt5LXRMU056WlVUZjk3Ny16Tm1fSy1KM0t1MnFIZTNhNkZGUnR0Umc2MEdrLVltd3FnQ3VLc2R0bFFjakR1bjV5LVh5czc2SHI1RkxMUW1zckNKVFNuRHFZdFpwUFpONkZPVjUta3hVMi1vc1NmQzhmb1Y5YXdnWk01Y05iYWNXSE5oajFDclloRUVSclBCRlkzbnpWa0FZQUhyajVEbGJNRzM4ZENPTg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOejB6c29DX0NmNFM3amJqT3NBOHBfTkhnSXVrcUg3V3NzUHVtLXQ2T2c5RzFteTRudHVuYVRPYTFWaS1kcWRmUDRFSUV6a0E5cTlzYkFpY0dkNmlYTEgzdnZHS3NSXzlVcHpldU5JUTQ4VTVmVmotYkJFT0ttQVpnM0xuVmxfV1kzLU16YVdPUy0zd0tpX2p0anRRVjZxVU8zbzkw?oc=5"
     }
   ]
 }
