@@ -2,17 +2,31 @@
   "day": "2026-02-13",
   "positives": [
     {
+      "title": "Bitcoin\u2019s security system is due for an upgrade - The Michigan Daily",
+      "polarity": 0.5766362957656384,
+      "ts": "2026-02-13T04:50:07",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYng2MmZJVElBc202cnF3aU9GenpYS056LXpmclgzLWN1dGVQQWR4RjR4X2tLdVh6ZV9xVTZkY254bHpWMFBWdnhkZFludkFSZlI0NjNNY21lS01OSGhSNzQ0R3V2RzgzVVRZMzB3bU5LTEZyTkJHVFYwQzFlbmZPOXI1czRCWjVBZld3X0Q2RjJCUVdVSXZ4bA?oc=5"
+    },
+    {
       "title": "Strategy Inc Leans On Stretch Preferreds To Deepen Bitcoin Exposure - Yahoo Finance",
-      "polarity": 0.2858232334256172,
+      "polarity": 0.28582217171788216,
       "ts": "2026-02-13T01:12:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNamVnY2VmUVlNWXdwYmJWMFIxWURWZE1veTRkaU1QOWZKaFB3SlJ2ak9aQ1NyUldrQnp0dDI2TzNWeGt4bUFhX0RFcUVCdmQxcWZodXdWWmVCV0taaWE2QkpFT19uWXVMS2Eya1JiWkh3Y1BTQjQwaXpnNjgwcW05MGRNcnVQbDh4OTV3?oc=5"
+    },
+    {
+      "title": "PayPal's Ex-President David Marcus Wants US To Rotate 'Very Tiny Slice' Of Gold Reserves Into Bitcoin: 'But Do It Very Slowly' - Yahoo Finance",
+      "polarity": 0.026558874174952507,
+      "ts": "2026-02-13T04:31:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbjB0OEliM2RCcU93SmNMb003ZE11WEVhdnhkWTlHb0tKTFNMTmtoTUFndTBldjNpbXFxbHFWNEJKZVZYNXlPTlR2Tm5jdXFZU2t3c1dWVHdBOVo3b3YweTdQcEhHLU9xb05MSkdxX2VTczIwZTVwOGpaOEpsS0dkcThFeEx1UQ?oc=5"
     }
   ],
   "negatives": [
     {
-      "title": "Bitcoin loses $2.3B in biggest crash since 2021 as capitulation continues: Analyst",
-      "polarity": -0.9571970850229263,
+      "title": "Bitcoin loses $2.3B in biggest crash since 2021 as capitulation intensifies: Analyst",
+      "polarity": -0.955560777336359,
       "ts": "2026-02-13T03:29:23",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bitcoin-suffers-losses-rivaling-2021-crash-as-capitulation-continues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -26,38 +40,59 @@
     },
     {
       "title": "Bitcoin open interest hits lows not seen since 2024: Is TradFi abandoning BTC?",
-      "polarity": -0.9410230619832873,
+      "polarity": -0.9410231728106737,
       "ts": "2026-02-13T03:47:56",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bitcoin-open-interest-hits-lows-not-seen-since-2024-is-tradfi-abandoning-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "title": "February Crash Wiped $10 Billion+ From BTC Treasury Companies. Is The \"Bitcoin On Balance Sheet\" Strategy Broken?",
-      "polarity": -0.922947253100574,
+      "polarity": -0.9229473918676376,
       "ts": "2026-02-13T02:17:08",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1r3cvqb/february_crash_wiped_10_billion_from_btc_treasury/"
     },
     {
+      "title": "Bitcoin Under Pressure in Asia After Standard Chartered Warning - Bloomberg",
+      "polarity": -0.8742712419480085,
+      "ts": "2026-02-13T04:19:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY29hM0J1S2xmSUlweUd6YU9ZZDJIOXJCX2ptb1N4MDJncmdGOVkyMnhkTEsxZ1VKSjdYbWYwTEZrR2hDOUpzTjRJajZGVFVCdDNmaUtqZkNtMXVWcy1hd3JFUFAtV0FmVGh4dmhDUnBWYVFwZ3QtZE1SM0dPbXFZQnNPUWVFQUxQN19Ua0NTN0hnWkhSQ2pXTHFtOFNSemNOMzE3dHMwLUFxNTM5S0R0YWh1bFFRUi1HUVE?oc=5"
+    },
+    {
+      "title": "Bitcoin Signals Turning Point\u2014But No Clear Bottom Yet, Experts Say",
+      "polarity": -0.8548721224069595,
+      "ts": "2026-02-13T04:24:34",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/357992/bitcoin-signals-turning-point-no-clear-bottom-yet-experts"
+    },
+    {
       "title": "Peter Lynch's Protege Calls Cramer's $60K Bitcoin Reserve Theory 'Complete Nonsense' - Yahoo Finance",
-      "polarity": -0.4798582848161459,
+      "polarity": -0.4798598103225231,
       "ts": "2026-02-13T00:36:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNGVfT2tYQXNLSnZUbDNHeXNDME5YcFFGMC12ZjBtS3BmUU1WTHI2R0psY3VVQlI2RkRza2I2WTJGTWpfSUVxUEdKWlo5dmx0M1VoN3Vzd0xqeHVOMzdSY2NULVVKUzlibHRJVWQ1Qm82NFhLUFByY2JGN2t0ak52S1ZDekc3V2M?oc=5"
     },
     {
-      "title": "Bitcoin Under Pressure in Asia After Standard Chartered Warning - Bloomberg.com",
-      "polarity": -0.33147136867046356,
-      "ts": "2026-02-13T02:08:00",
+      "title": "Bitcoin Signals Turning Point\u2014But No Clear Bottom Yet, Experts Say - Decrypt",
+      "polarity": -0.04171645641326904,
+      "ts": "2026-02-13T04:24:34",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY29hM0J1S2xmSUlweUd6YU9ZZDJIOXJCX2ptb1N4MDJncmdGOVkyMnhkTEsxZ1VKSjdYbWYwTEZrR2hDOUpzTjRJajZGVFVCdDNmaUtqZkNtMXVWcy1hd3JFUFAtV0FmVGh4dmhDUnBWYVFwZ3QtZE1SM0dPbXFZQnNPUWVFQUxQN19Ua0NTN0hnWkhSQ2pXTHFtOFNSemNOMzE3dHMwLUFxNTM5S0R0YWh1bFFRUi1HUVE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdGozcG5jNkFNYlRKcWFXbHU1LXJsYmxLMjFITTRfNHpBQjFQaGZwS2hBMkRTc1Jfc3NCdVo0M2djd3Y3SXh1T0w3Y2txcVVFRzh6cDFpZ2V2LUF3RU1DdkMyTGduZ1ctbG92OE9HZmpfelhtYVp6bFBST0RESUhlSC03c3FPbTBUd2tJ0gGTAUFVX3lxTFBYeXRRdDl0V1F1MVFUZkFLQXBvU0FXcF9HQ2ppLXF6UGNORUhTcDF1VmVta0JZNk95LTdEcmRoVmxnZFg5WmdoQ2NUaUNKS2ktWUhLcl9OU2NTTW1uYWNKNUo0elYzMlBkN29RQnlKdlZnUTVHOWhuQUhodW9lWXlEOFAwX2pkNFJNUXBpYkVhV1V1TQ?oc=5"
     },
     {
-      "title": "Large Capital Is Returning: Is Bitcoin Repeating the 2022 Recovery Script? - Binance",
-      "polarity": -0.02886742353439331,
-      "ts": "2026-02-13T01:08:47",
+      "title": "Bitcoin Signals Turning Point\u2014But No Clear Bottom Yet, Experts Say - Yahoo Finance",
+      "polarity": -0.023231979459524155,
+      "ts": "2026-02-13T04:24:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9KeVhaOXhUTmlwQzExWGRqcmRURWNjX2FqS0ZyV2dFTE9xdXhLa2NnNkFxQ042d1JyOWN4ZXE2YUdXUnd3QU5SX1JGYU12Q1EyaXVtcGRuZ3EtZkJqWFZUYzNQT0g?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVUt4ckNqczN5NHFEaGRtSW5RYUR5YXI5S3I0dUFBWFdOZm1rQ0ZDdEtMVUVBaG9sdVlXcTlRWmlxa2tYbHFCZnJfN3d0UjNMcjFFdFUwd1RuR0lQa05qM295dzFwU0ZZZW9YazhxTHJmbHA1ZzIwWHNDNVdMdEFjZTEwZ00?oc=5"
+    },
+    {
+      "title": "Nancy Guthrie case: Can investigators trace a bitcoin ransom? - FOX 10 Phoenix",
+      "polarity": -0.013385426253080368,
+      "ts": "2026-02-13T04:33:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4RVFvcHd4SzFjdG1jX3ZzWk41NW5LeHRxNktXZVlzY3pBZ1JLZ09CT0FHTGFkVkF1OTVRMkR4X2NkbEtKcTdsMUFDSlhfOTktWENxRXROU0IycjJFc1ZSRE9qZi1Kd9IBa0FVX3lxTFBFQ3QyV1RUQlZ1cndSRzlLTG96UV9Edm9MSGFfZGZjaUJSRUNqcmdqRDFHY1BfYTM2WG9KV1FkemQyX0p6eXFNTEs2emJOM080RlFlQk8tdzFER0xRS3g3RG1Ob1lOYUNFOFdF?oc=5"
     }
   ]
 }
