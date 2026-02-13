@@ -3,14 +3,14 @@
   "positives": [
     {
       "title": "Jim Cramer Says He's 'Heard' Trump Is 'Gonna Fill' The Bitcoin Reserve At $60,000 \u2014 What On-Chain Data Tells Us - Yahoo Finance",
-      "polarity": 0.055057959631085396,
+      "polarity": 0.055057771503925323,
       "ts": "2026-02-10T17:31:07",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5tNU45QVhGQVJtM3hGcEgwaU92WExTZzZpMTJmRzgxMmRZTVJwRTJNZzdKUjZOWFNldlZtVEhHZGE3eGd4Vi1yTkhxdTU4QV9qVTFBczlYU3M1REcyNEFUaFBUbVN4TEloNEdEYWpER3Z3ZkNEWWpMRl8wVQ?oc=5"
     },
     {
       "title": "South Korean crypto exchange races to recover $40bn of bitcoin sent to customers by mistake - The Guardian",
-      "polarity": 0.037338219583034515,
+      "polarity": 0.03733781725168228,
       "ts": "2026-02-10T04:28:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeG1EZTZnbTc3SXcyR08wWjZHNV9OWjVjTUhCX0ttQzhZQmJxclhBdEUtc2VHeWFmeHpQdUEyMEVLWnFKVExxWDZEcHVmUmh0dFU5OVNFa1BpRzB1R2dNSEF1cV9PTzdGZFEyenF5X29reU9YaVZXVW9VbnpMOUp1eEpCeGo1MUJRbGtKeXFYckZSWVFDQ3JmbDJBeEJSQQ?oc=5"
@@ -19,42 +19,49 @@
   "negatives": [
     {
       "title": "Bitcoin falls to $69,000 as crypto market shows 'early stages of bottoming' - Yahoo Finance",
-      "polarity": -0.9469651505351067,
+      "polarity": -0.94696513004601,
       "ts": "2026-02-10T16:39:32",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSl93Z0VvZWU2M0M1WWlTLURxQlNlZzdnbmRPZXh6dkU2ajNrV0F0Q3Q1WkxSanN6SXE3Z0QtNkdwMkhRRHpvLS1MNlNNY0pQRWdqc0F1SjQzS1MxXzlCZzdBNWxDNm9fT3E4ZDR1Zi1OZUZVdjNuZnltR1h1MmJkMFNubklFX2lBNXdTc1U0X3dmQm5qSTFZMng1Rmd0aHFfcmZjMWM2YzFiM0JpaGJoT2thb3daVWg3?oc=5"
     },
     {
       "title": "Bitcoin Just Dropped 45%: Here's What I'd Do With $500 Right Now - Yahoo Finance",
-      "polarity": -0.7861777096986771,
+      "polarity": -0.786177434027195,
       "ts": "2026-02-10T11:53:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLUJXWF9FUkxLU3BrRXRaZ0t0VmpsWG1FOWtkNzU2b0tCd1RuaFVTUXFvbmpSbHFXaEQzYndVVVpnMmxFcm9SSGJCT1JJQmZjX3ppcVZndjJHT2diT2ZDX2ItMGl0YkpWS3BKVzRKUE9mOTdoNmhLbENOaENSa3ZmQw?oc=5"
     },
     {
       "title": "Michael Saylor downplays Strategy credit risk as bitcoin tumbles: 'We'll refinance the debt' - CNBC",
-      "polarity": -0.754885520786047,
+      "polarity": -0.7548846527934074,
       "ts": "2026-02-10T14:36:19",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUzZfN3ZHcTM0OVR6WURwcG5VcnpMSVJLVFdDZEFpWTNJVTc3LUdmVTJKZko4OV9HajY3TklIcGMyVHluOUlzQi11RHJCLUxPZkxZZWJ4dlhodnhXeEJtQkd2R1VhcUVSY0R4MmQxYkVWcGJjdjRwbURfLVZZS3NSRlFzOEE4aVRhVHJldmE2TnNmZEhPSGJaOGtkX2hwRThtUGtVZkNQMkVXemhPQ3lPcFhqdUE0THdzcWthNTY1V2hHYUnSAcgBQVVfeXFMT3NNSmNmdU9KcXdxZ0ZIbjZVSkZpZVhCaWJLX2ZpdXVtZ25LcjJPcVRCelpYRVU5XzR5VlZUTEoxVGMxUWNTOTNpdVRyOUpHMkprVDR3MTNsUmJGTXFrOHlTTlFXSzZnWWVINHhkMHpHYTlCZjZINHROaFpDanIyS1V0Nm9rcUtwR05tUXV2N2NEV2VldTJJcy11YzFOZl9pOUM0blZIRERsc29oT0tyejJmNng1U25WdWtGZlZwbm4ySHFCMEdlc0s?oc=5"
     },
     {
       "title": "Bitcoin hovers near $70,000 as analyst calls sell-off 'a mere crisis of confidence' - Yahoo Finance",
-      "polarity": -0.6701787523925304,
+      "polarity": -0.670180931687355,
       "ts": "2026-02-10T09:19:56",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWEQzT2Q3QTlwSGhwX1Jram9vY241aFVEYXVSb1dYOUpOdm9mazdwRFJ1UHlRYzlKQ3RfOHAwZlZlTFZHenJCSW9uRUI0eTQ1elgxeHZuR0lFYk02a1lKZE1tSVlVR2ZMeGtBaU90dGRMN0U3RGlYTkVZTy02X0RUYlBnWlZCb0VKWm42RGtNY3dXLXFDTm8ycTNYU29UdEFMWTRqQmZUSDJuZHFlTWF0d0t5OXY5bVpyN2x0dlh3NkhhM2c?oc=5"
     },
     {
       "title": "Analyst predicts next big crash for Bitcoin as markets rally - thestreet.com",
-      "polarity": -0.4414269030094147,
+      "polarity": -0.4414278268814087,
       "ts": "2026-02-10T14:05:03",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOejB6c29DX0NmNFM3amJqT3NBOHBfTkhnSXVrcUg3V3NzUHVtLXQ2T2c5RzFteTRudHVuYVRPYTFWaS1kcWRmUDRFSUV6a0E5cTlzYkFpY0dkNmlYTEgzdnZHS3NSXzlVcHpldU5JUTQ4VTVmVmotYkJFT0ttQVpnM0xuVmxfV1kzLU16YVdPUy0zd0tpX2p0anRRVjZxVU8zbzkw?oc=5"
     },
     {
+      "title": "A Bitcoin Blunder for the Ages: $40 Billion Accidentally Given Away by Bithumb - The Wall Street Journal",
+      "polarity": -0.10296949185431004,
+      "ts": "2026-02-10T10:20:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuANBVV95cUxNSE83RUxjMDlod2FaVU5nLWduVUJPOXU4OUF1c0RwZHZBY1lLNm5DZDdablNmOVpDWWhQSGZpOW1VSzdNMmM2b2ZRYzVEY25KeDJMcEtTcnFzb0NIVGFsOXBNOUNFX1JWS3pyUTJkbGZQMGhIM3lGNWd5aUtERXhJTGFvV1N0OHY4LWNLdGw4SXJhY2dQZVFSZVRLR2d2T1liRDZQVldpNUdQczNQd0JTbXVKOTJIOWRDcUp1NXBNbXVaMG9IR09iVFBId0ExQzJfSWxUOTlQMDVFbDRZM19BRzhCNHVybjRHMUF0TVBSVzQyRlI5Y3VMWlp4c0JYRjhqX3lRSjhDYkU2RTM2enYxY1dqX3hNUXAwb2UyQmdOai0zeTUxNzBYaTlnZnJaeHlJRHB5RHlvNHRGNVM0aks4d004YnZuT2I5MEpHZER2VjRoSEY2UW5lSUp5OXBTQ0tRS3JnYkdHZTk4ckF4eFZMbmQ0RC1lVGJJbXRpRGNWbjJUVkVOdFBWVnVKLVBlVHhTNXFuaU12T3hzYkplOUpJZENPNllwV0YwWlpzWnBmV0hnN282aExsQg?oc=5"
+    },
+    {
       "title": "Nancy Guthrie Kidnapper Likely From Tucson Area, First Activity in Bitcoin Account - TMZ",
-      "polarity": -0.014225468039512634,
+      "polarity": -0.014225572347640991,
       "ts": "2026-02-10T22:58:01",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1JcnlNdG9DUzFsQjFIVExxRzgxQWZnNkxxUlZSUTZ0R2h4dkdxYnREX3hnM25wdnRBY1hCSDZiRG1LOHhaZ0tYX2JNclhlVlZyZGFXdHp6RktoODlXWlBfcGV6ZU40V2R6OGljUU1mOWNpRjBKWDlySkpB?oc=5"
