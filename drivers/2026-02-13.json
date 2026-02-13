@@ -1,13 +1,63 @@
 {
   "day": "2026-02-13",
-  "positives": [],
+  "positives": [
+    {
+      "title": "Strategy Inc Leans On Stretch Preferreds To Deepen Bitcoin Exposure - Yahoo Finance",
+      "polarity": 0.2858232334256172,
+      "ts": "2026-02-13T01:12:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNamVnY2VmUVlNWXdwYmJWMFIxWURWZE1veTRkaU1QOWZKaFB3SlJ2ak9aQ1NyUldrQnp0dDI2TzNWeGt4bUFhX0RFcUVCdmQxcWZodXdWWmVCV0taaWE2QkpFT19uWXVMS2Eya1JiWkh3Y1BTQjQwaXpnNjgwcW05MGRNcnVQbDh4OTV3?oc=5"
+    }
+  ],
   "negatives": [
     {
+      "title": "Bitcoin loses $2.3B in biggest crash since 2021 as capitulation continues: Analyst",
+      "polarity": -0.9571970850229263,
+      "ts": "2026-02-13T03:29:23",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-suffers-losses-rivaling-2021-crash-as-capitulation-continues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Bitcoin price news: BTC falls back to $65,000 as software sector slides 3% - CoinDesk",
+      "polarity": -0.9424186646938324,
+      "ts": "2026-02-13T02:00:01",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQREdqQVNFZTQwNnRqaTNnTE5hZ1VYNEo3QWRVd1N5ZkNfQlRyLW5POXNpTmFUVU5iazF5R3BFVnpYaUdrTzI5X2RfWGhidzdOQzlweFlQSlBQTVJ3WjNHSllGRlQxbEc3N2VwVHZZeWs3d2hxV2NkbGhtZWpCU0ZKS2oxZTVPM2VVeGl4dy16UElsRlFMZXhmNjZGWEpaUXJkbTNHWmhKU0trLW1PcjdLNXF2MWJqUWl5YjVneTlrajBZc3dvQk1XX2lfMUFPY0ZyRlE?oc=5"
+    },
+    {
+      "title": "Bitcoin open interest hits lows not seen since 2024: Is TradFi abandoning BTC?",
+      "polarity": -0.9410230619832873,
+      "ts": "2026-02-13T03:47:56",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-open-interest-hits-lows-not-seen-since-2024-is-tradfi-abandoning-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "February Crash Wiped $10 Billion+ From BTC Treasury Companies. Is The \"Bitcoin On Balance Sheet\" Strategy Broken?",
+      "polarity": -0.922947253100574,
+      "ts": "2026-02-13T02:17:08",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1r3cvqb/february_crash_wiped_10_billion_from_btc_treasury/"
+    },
+    {
       "title": "Peter Lynch's Protege Calls Cramer's $60K Bitcoin Reserve Theory 'Complete Nonsense' - Yahoo Finance",
-      "polarity": -0.4798598103225231,
+      "polarity": -0.4798582848161459,
       "ts": "2026-02-13T00:36:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNGVfT2tYQXNLSnZUbDNHeXNDME5YcFFGMC12ZjBtS3BmUU1WTHI2R0psY3VVQlI2RkRza2I2WTJGTWpfSUVxUEdKWlo5dmx0M1VoN3Vzd0xqeHVOMzdSY2NULVVKUzlibHRJVWQ1Qm82NFhLUFByY2JGN2t0ak52S1ZDekc3V2M?oc=5"
+    },
+    {
+      "title": "Bitcoin Under Pressure in Asia After Standard Chartered Warning - Bloomberg.com",
+      "polarity": -0.33147136867046356,
+      "ts": "2026-02-13T02:08:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY29hM0J1S2xmSUlweUd6YU9ZZDJIOXJCX2ptb1N4MDJncmdGOVkyMnhkTEsxZ1VKSjdYbWYwTEZrR2hDOUpzTjRJajZGVFVCdDNmaUtqZkNtMXVWcy1hd3JFUFAtV0FmVGh4dmhDUnBWYVFwZ3QtZE1SM0dPbXFZQnNPUWVFQUxQN19Ua0NTN0hnWkhSQ2pXTHFtOFNSemNOMzE3dHMwLUFxNTM5S0R0YWh1bFFRUi1HUVE?oc=5"
+    },
+    {
+      "title": "Large Capital Is Returning: Is Bitcoin Repeating the 2022 Recovery Script? - Binance",
+      "polarity": -0.02886742353439331,
+      "ts": "2026-02-13T01:08:47",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9KeVhaOXhUTmlwQzExWGRqcmRURWNjX2FqS0ZyV2dFTE9xdXhLa2NnNkFxQ042d1JyOWN4ZXE2YUdXUnd3QU5SX1JGYU12Q1EyaXVtcGRuZ3EtZkJqWFZUYzNQT0g?oc=5"
     }
   ]
 }
