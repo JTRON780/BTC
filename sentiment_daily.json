@@ -200,13 +200,22 @@
       "directional_bias": -1.0
     },
     {
-      "ts": "2026-02-09T00:00:00",
-      "raw": -0.015928896034465116,
-      "smoothed": -0.015928896034465116,
-      "n_posts": 3,
+      "ts": "2026-02-08T00:00:00",
+      "raw": -0.33399119693785906,
+      "smoothed": -0.33399119693785906,
+      "n_posts": 2,
       "n_positive": 1,
+      "n_negative": 1,
+      "directional_bias": 0.0
+    },
+    {
+      "ts": "2026-02-09T00:00:00",
+      "raw": 0.12116665117766547,
+      "smoothed": 0.12116665117766547,
+      "n_posts": 4,
+      "n_positive": 2,
       "n_negative": 2,
-      "directional_bias": -0.3333333333333333
+      "directional_bias": 0.0
     },
     {
       "ts": "2026-02-10T00:00:00",
@@ -219,30 +228,30 @@
     },
     {
       "ts": "2026-02-11T00:00:00",
-      "raw": -0.2479620853247231,
-      "smoothed": -0.2479620853247231,
-      "n_posts": 23,
-      "n_positive": 12,
-      "n_negative": 11,
-      "directional_bias": 0.043478260869565216
+      "raw": -0.3502806079904399,
+      "smoothed": -0.3502806079904399,
+      "n_posts": 21,
+      "n_positive": 9,
+      "n_negative": 12,
+      "directional_bias": -0.14285714285714285
     },
     {
       "ts": "2026-02-12T00:00:00",
-      "raw": -0.28085701501057014,
-      "smoothed": -0.28085701501057014,
-      "n_posts": 58,
-      "n_positive": 24,
-      "n_negative": 34,
-      "directional_bias": -0.1724137931034483
+      "raw": -0.2830775892696786,
+      "smoothed": -0.2830775892696786,
+      "n_posts": 52,
+      "n_positive": 20,
+      "n_negative": 32,
+      "directional_bias": -0.23076923076923078
     },
     {
       "ts": "2026-02-13T00:00:00",
-      "raw": -0.32015708661255265,
-      "smoothed": -0.32015708661255265,
-      "n_posts": 64,
+      "raw": -0.32089237562745554,
+      "smoothed": -0.32089237562745554,
+      "n_posts": 66,
       "n_positive": 23,
-      "n_negative": 41,
-      "directional_bias": -0.28125
+      "n_negative": 43,
+      "directional_bias": -0.30303030303030304
     }
   ]
 }
