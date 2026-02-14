@@ -100,6 +100,13 @@
       "url": "https://bitcoinmagazine.com/news/brazil-proposes-national-bitcoin-reserve"
     },
     {
+      "title": "Brazil Proposes National Bitcoin Reserve, Targets 1 Million BTC Over Five Years - Bitcoin Magazine",
+      "polarity": 0.059892669320106506,
+      "ts": "2026-02-13T16:58:53",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBuMkRlWU9oXzZWZ28xTlRMZGlFakgwZXl5RXJpQWxRX3BoRlV5M19RRWctR3p4X1FISW5tQnczaUhLVHpXSkRhOHZVRUJtU0RZOXBaNUw0eVh0S2J0MDBaTGRQQlNTNlhaX0dMN1dPMnBUQ2twbEIyUEFwQ1Fidw?oc=5"
+    },
+    {
       "title": "Lightning Labs Rolls Out AI Agent Tools to Help With Bitcoin Transactions on Lightning Network",
       "polarity": 0.05822625383734703,
       "ts": "2026-02-13T16:49:58",
@@ -163,18 +170,18 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVTRLS2o3R3hwUWlWT2dSaEFjV19UR2VLZy1FcXh2aDVmajRyVHg0S3BIU0M1VDdsSm1mTHpZOHp3X2hyeDUxRTlRR2tHbmR6X2JQaXlBWTlhR1p1Wm1sMWdYbi1CQmFUTHRUUnB4UzVCU3dIUTFRM2hxTDRuc0pTMEhaYXFxdTV3OGxBX3NTTEFWcUgzU3lMeDhIYWtueWl1UHAwag?oc=5"
     },
     {
+      "title": "Bitcoin developers merge BIP 360 in first move to address quantum computing risks - Yahoo Finance",
+      "polarity": 0.020232949405908585,
+      "ts": "2026-02-13T23:07:42",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVFRrT192dEhhbnpZUW1Mb0tJU25YSU9BODEyMVItSF90cEdiOU9qa2plV0VhZFYxVTE0a3RraW00NzNDdUxvT3VERzFvcHdjTms0SVEzSEhwZ2ZOcHd1Q1hqN2MzbURpQ2FCT1hoUUtuUnRnQmNUdW5pZEVRcGFEanR6THk?oc=5"
+    },
+    {
       "title": "When your BTC entry looks like a pro move but it\u2019s just luck.",
       "polarity": 0.02021654322743416,
       "ts": "2026-02-13T12:50:40",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1r3obmd/when_your_btc_entry_looks_like_a_pro_move_but_its/"
-    },
-    {
-      "title": "Bitcoin Price Prediction: Billion-Dollar Firm Says BTC is Acting Like a Growth Stock \u2013 Is That Good or Dangerous for You? - Cryptonews",
-      "polarity": 0.019814781844615936,
-      "ts": "2026-02-13T21:11:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZ0hfVjlXV3FDakRLNjVfV0R2Wkw0cTktMXZxQ1E1S1FPT1lWQXdPTWhSQlQybkd1WjlTLXBpOVh1dDM2dlN3ZFMtQzhnQThrTGFySl82U0VCekZ1NXRzNzdiSXowcnV2bjlLQU1DV01vcThFSjQ3REtvRXkwdF91MkYxeFlBMThUMnZBMzNzYUt5NkxmZWpYeDFvQUlSVEFHS2tVOEJ1UGZ2ZDN0MFFWSmhCeF9teWlzbTF6emdwM2F5eHQ3MEwyU1FvbmJNd0xRZmNGN1RQcDl2TVhESXBv?oc=5"
     },
     {
       "title": "White House Executive Director: Trillions Are Waiting To Enter Bitcoin And Crypto, Working Hard on Market Structure Bill",
@@ -214,6 +221,13 @@
   ],
   "negatives": [
     {
+      "title": "IREN Drops 14% as Bitcoin Mining Revenue Falls to $167 Million - Yahoo Finance",
+      "polarity": -0.9642698457464576,
+      "ts": "2026-02-13T18:52:40",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02Y0VtUXBjMjlJWDhkRWR2UXJMOFF6YzRlemRia2hzTmE0SWZ3RXJGV2dFLTUwMUNKV1N0aEM3MHFkZllsNWFkTWpxT2NXQUd0cER0RENJVzczbVlYTHdlWTdlSEtXdEl3TlBSMnd1YU93LVdqcS1aVVRmQ0NFdkk?oc=5"
+    },
+    {
       "title": "Bitcoin ETFs Shed $410M Amid BTC's Ongoing Slump",
       "polarity": -0.9621405014768243,
       "ts": "2026-02-13T13:34:34",
@@ -235,13 +249,6 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQREdqQVNFZTQwNnRqaTNnTE5hZ1VYNEo3QWRVd1N5ZkNfQlRyLW5POXNpTmFUVU5iazF5R3BFVnpYaUdrTzI5X2RfWGhidzdOQzlweFlQSlBQTVJ3WjNHSllGRlQxbEc3N2VwVHZZeWs3d2hxV2NkbGhtZWpCU0ZKS2oxZTVPM2VVeGl4dy16UElsRlFMZXhmNjZGWEpaUXJkbTNHWmhKU0trLW1PcjdLNXF2MWJqUWl5YjVneTlrajBZc3dvQk1XX2lfMUFPY0ZyRlE?oc=5"
     },
     {
-      "title": "Bitcoin Price Slides After US Admits Nearly 1 Million \u2018Phantom\u2019 Jobs in Data Revision - Yahoo Finance",
-      "polarity": -0.9421155676245689,
-      "ts": "2026-02-13T13:03:21",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQ3dlQmJIdkhOd1dKRUVCU2xvejZFWlZCRjU3enZoWlB3d19vbnRIQVRFb3U2anFYVldWeC1OakhNbEJOTVoyTWZibHVfQXNhMm5iT3BXS3hBUFRtbTRxWU9qR2lxLWI3Z21paVNpREcxOTYyWHN3UTlkNl9saExiMmxB?oc=5"
-    },
-    {
       "title": "Bitcoin open interest hits lows not seen since 2024: Is TradFi abandoning BTC?",
       "polarity": -0.9410231728106737,
       "ts": "2026-02-13T03:47:56",
@@ -261,13 +268,6 @@
       "ts": "2026-02-13T11:35:40",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/bitcoin-difficulty-just-plunged-11-but-a-projected-rebound-next-week-may-decide-miners-fate/"
-    },
-    {
-      "title": "Standard Chartered slashes 50% price target for Bitcoin - Yahoo Finance",
-      "polarity": -0.9188372204080224,
-      "ts": "2026-02-13T00:30:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVmNJM1FKNERwOW1IYjdlUE9rLTFCTVBsMFlyYk5rTTE2cXhWRFNBbXNESU80WDc4MmMyZWJkWUNRZUQ2ZTRManJxM1hqZ1NzWnljRzJVd1lROU5FdjdWSEdWVF9sRjlqdExBbmlRbDlMdnJkOXB6Wk56eFpCYkJvSlZHclc2Vk94?oc=5"
     },
     {
       "title": "Bitcoin Falling to $60,000 Could Spark Fresh Liquidation Spiral - Bloomberg.com",
@@ -309,7 +309,7 @@
       "polarity": -0.814140759408474,
       "ts": "2026-02-13T15:45:18",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxOVXRfZ3Y3NHJId3dhbG1ERFRDczZCSE90MXBkZ3VVZFNENm5sT0EwR3NUb0ZmdGEtVldKVFdMQzctajdkbHBOcWE3cFJiRkxRSUt5eVBpay1RbUVSYnEtanJfWThVWnZSMGlNeEdKa2U2RXdnaGo3a2VHSzRmQmlEVE9lTzNHZ2JYdERhaTFsQUY5RlZIWnUtWkt3a1VjeDM5a1ZWcTB2NnRqM1o1Zkt5MVBCVmlMazFVWHFlajFkeXVaTy1lQUtRYjdreDVuXzRrYm50d25GdWZwQldJVTlGUElXS0pTR3YxU0xQR1F2NjhGclQxR3JiSXpMdXhhMl9pSmdoNGc5MjVCeDMya2xqNDdoczcwcVB2aW9SdndESTdjQUhhN2VWcWNLSkYzRGI0X3ByRmpUbnhfMUlmZUdiQjMwdG9rVno0SUxBZUNFR2dHT3RzOTRGR05RTzBmSFhLXzVFRHlnZ0NYUmw5Vnctc1VYNWIwRGlHeElQTzZEZzZBeDdoTng4SnlldWs?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxOYXg1S0JBX0Rna3pKbWl6RjVEX21zMW1aVVVaUzNuSERIR0dKUlM0Vk51WUdXa01aNUJVclhkcHEtVDZTTlV1MzZmQ1NXemRISW9ZVjV1dm03UlV0WkhTdlY5TWZ1dGtwYzJiU3NlUjZxWVNYZkNhcEtCT09fYlVTODUxUTRtX2hseHY0MHRyOFd2Rk5VQnF2Q0czV3V6cW9WS3hxa2VVOTU2eXRBNlZmMG4wS3NGdk9JQVU0UmZBVXcyUzF3eXlOTktZTVFsMDVuUHlsejd3SzJvMGxoN0gwb1k3Z21KRkVMQTRWV0tJcjlrbTh3YUFoeXpYZW5zbTl3NXN4M0wyVmxOX0gxemt2NU1xeHRhZnNLc29ocEJna3NsUDJFdkE5d0RaTUxPNlFyWVRidWRXMnhZd3dJdGRObFU1RE5pNFo1cEd3UkdKY0I3UW14M2UyQ2JWdjlpQl9hemgzeGpBeHQybkNEbFRwN3RaZ3pQcjQwek1GQld6U2RlbFVvMDNCcVRibF8?oc=5"
     },
     {
       "title": "Bitcoin Bounces to $69K, But Charts Are Still Bearish: Analysis",
@@ -337,7 +337,7 @@
       "polarity": -0.6166559290140867,
       "ts": "2026-02-13T12:16:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiiANBVV95cUxOWWwzaXJIMnNDUWU0MF9UOXRGSkFCUEZGVmdyVjhkeVFXUG0zbHJTd0NGczczdHUyN0VRVXhIZ1R0cUdrQ2JKOUIweFp0QUVfNjA4SWFycVpnLTFHSnZkTDNqaUIzNEtITEwwMHZGc1FmMDlHS0JRZmFpLWFPT3lFVzFGYU03WVBCQkdIV3o2WGNTakRtWDkxZmRJVXYzVVVuZnViU3ZMVFlXYVZDaE9ncWF4Q1JHUHpUeDlNRW9MUDVHSU96SjJvTzh4UExEZ3hrb0FfZWJIaXBYVEpycllEQ1FFc0RDelgwM1BrTDFKZ2I3VTdRcWtUanIwMkMyVUlxZnpvSmJmRXJQS2RMSWJqcHBLQmlTWVN0TjQyVDBRcEQybzJROEhxZHdHaVZ3d1NVMW9aaDNMbVYzdkFnaUUzYnMtaWNjWi0tdTM2b0RGd0Y2MzJqODF2bGl4VGpPQzJwd2kyZGIxSGF5S0g4ejAzb2EzN0pZR1VSbnY0c2VSWDMzTDJxQzVMRg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiiANBVV95cUxQWlJxajlMSWduYkhyWllJd0ZlNlk5eUtSWmtyM0pZZWVFMWRXUFRBRzNVeGFWOFNISTJPYjVGdE56TUtOeFBTaHJMNjNCZ1pGcFVKcnU3OGxOZjc4aEFTWHI5Qy12SUpocVhKeE84UXVqX29ETjNXTDV0NlNoQ3BBT1BIQTFLNjZxeW5jLUVwLXRJZkdhaU5UaWFleFRVSzM5ZW9WTk1VZ3hna1FaVEx2dlBpa2hqWUVYeGhEaUxqbm9rR0VDNGVFYnVEcFdVVFB3U1hSeE5TTmFwbWRqVV9GTm1BS2o1RXRWZHdReVpWcUVqd2tKckJBUkF1dWx5YlpTbThvREJndVpGWUI0OEUwV2pWekdSZU1XQ1FXVm5oRG9KZXhQWDFSUHlrcHlOd2VTN0EwUUp2RDZ4LXZpUndpMzJlT0ZKR0JmUVpaS1dQT2plNTBHQ1JlRnlBUHVqWmpiWFhERVNZckYtSWhYUmpJRTlWeEdjZU5tUURnLTBmZWtMU3VfUmhsRQ?oc=5"
     },
     {
       "title": "Bitcoin Crashed\u2014What Does That Mean for Your Down Payment Plans? - Realtor.com",
