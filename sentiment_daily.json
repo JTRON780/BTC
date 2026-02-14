@@ -183,12 +183,12 @@
     },
     {
       "ts": "2026-02-09T00:00:00",
-      "raw": 0.006779142740097912,
-      "smoothed": 0.006779142740097912,
-      "n_posts": 2,
+      "raw": -0.02451063100905979,
+      "smoothed": -0.02451063100905979,
+      "n_posts": 3,
       "n_positive": 1,
-      "n_negative": 1,
-      "directional_bias": 0.0
+      "n_negative": 2,
+      "directional_bias": -0.3333333333333333
     },
     {
       "ts": "2026-02-10T00:00:00",
@@ -201,39 +201,39 @@
     },
     {
       "ts": "2026-02-11T00:00:00",
-      "raw": -0.38033482064493,
-      "smoothed": -0.38033482064493,
-      "n_posts": 7,
-      "n_positive": 3,
-      "n_negative": 4,
-      "directional_bias": -0.14285714285714285
+      "raw": -0.27599135442669026,
+      "smoothed": -0.27599135442669026,
+      "n_posts": 10,
+      "n_positive": 5,
+      "n_negative": 5,
+      "directional_bias": 0.0
     },
     {
       "ts": "2026-02-12T00:00:00",
-      "raw": -0.2243594688293683,
-      "smoothed": -0.2243594688293683,
-      "n_posts": 25,
+      "raw": -0.20215219844476134,
+      "smoothed": -0.20215219844476134,
+      "n_posts": 24,
       "n_positive": 12,
-      "n_negative": 13,
-      "directional_bias": -0.04
+      "n_negative": 12,
+      "directional_bias": 0.0
     },
     {
       "ts": "2026-02-13T00:00:00",
-      "raw": -0.14389860810001104,
-      "smoothed": -0.14389860810001104,
-      "n_posts": 70,
-      "n_positive": 31,
-      "n_negative": 39,
-      "directional_bias": -0.11428571428571428
+      "raw": -0.121325810127831,
+      "smoothed": -0.121325810127831,
+      "n_posts": 65,
+      "n_positive": 29,
+      "n_negative": 36,
+      "directional_bias": -0.1076923076923077
     },
     {
       "ts": "2026-02-14T00:00:00",
-      "raw": -0.09269389131202779,
-      "smoothed": -0.09269389131202779,
-      "n_posts": 35,
-      "n_positive": 16,
-      "n_negative": 19,
-      "directional_bias": -0.08571428571428572
+      "raw": -0.10967430582752931,
+      "smoothed": -0.10967430582752931,
+      "n_posts": 42,
+      "n_positive": 20,
+      "n_negative": 22,
+      "directional_bias": -0.047619047619047616
     }
   ]
 }
