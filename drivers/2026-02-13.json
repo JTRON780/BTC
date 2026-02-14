@@ -114,6 +114,13 @@
       "url": "https://bitcoinmagazine.com/news/lightning-labs-rolls-out-ai-agent-tools"
     },
     {
+      "title": "\u2018Killing Satoshi\u2019 Bitcoin Biopic Starring Pete Davidson and Casey Affleck Set to Use AI for Locations and to \u2018Adjust\u2019 Performances (EXCLUSIVE) - Variety",
+      "polarity": 0.05244180001318455,
+      "ts": "2026-02-13T16:33:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMGVOanN2VF96MERTVEY4VEttcmM1U2VxMllCY1g2SFo2WG9jbEUxSDNERTUzT0NsUEFqbUw3TUJTQ2lwOGFpVzZ1SjByakxXMFFYUXVXZkJJSnpUbVdOOTJLZl9Fb0hCVG9GandOMjN0aWpVSmdRNG9qWFI0bEVhZ1RyUlJSZ0NSS2h3WVZPcUota0pyU1FocnpSRUpfUF9RcjhPUjdNQlU?oc=5"
+    },
+    {
       "title": "Anyone automating their DCA with news sentiment analysis?",
       "polarity": 0.047205884009599686,
       "ts": "2026-02-13T21:13:50",
@@ -126,13 +133,6 @@
       "ts": "2026-02-13T07:14:07",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1r3ingv/bhutan_sells_100_btc_a_677_million_treasury/"
-    },
-    {
-      "title": "Bitcoin biopic starring Casey Affleck to use AI to generate locations and tweak performances - Engadget",
-      "polarity": 0.04406415205448866,
-      "ts": "2026-02-13T21:06:57",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNb0dCRDc2WTFBS2Zad05oV29vekR2VThwei1WU2RvOVJWZkdGdHFLMTJlN245TzRleUk4QjlORmFzQ2RtWVdPYXRueDdPNTJrUnRDbmRVenVQN1g1NmtJcE5wb1hINHZyaUp1WU9mOXZZREl2bFMxdE12RHVKTllja2JIOGpBcC0yWlhxU05yYW9LN0VNY29QdjQwd21CMFlwMURuQ3FmNVFGWmFjSXlZUWxlR1ZFOVJDVU51a0dENFVaMVpZWXB5Y3FNUmlxZWtyV2VtWjVwai1DaG1CUDNVaFhZOVdUQm5CeEdhbA?oc=5"
     },
     {
       "title": "White House Executive Director: Trillions Are Waiting To Enter Bitcoin And Crypto, Working Hard on Market Structure Bill - Bitcoin Magazine",
@@ -207,13 +207,6 @@
   ],
   "negatives": [
     {
-      "title": "IREN Drops 14% as Bitcoin Mining Revenue Falls to $167 Million - Yahoo Finance",
-      "polarity": -0.9642698457464576,
-      "ts": "2026-02-13T18:52:40",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02Y0VtUXBjMjlJWDhkRWR2UXJMOFF6YzRlemRia2hzTmE0SWZ3RXJGV2dFLTUwMUNKV1N0aEM3MHFkZllsNWFkTWpxT2NXQUd0cER0RENJVzczbVlYTHdlWTdlSEtXdEl3TlBSMnd1YU93LVdqcS1aVVRmQ0NFdkk?oc=5"
-    },
-    {
       "title": "Bitcoin ETFs Shed $410M Amid BTC's Ongoing Slump",
       "polarity": -0.9621405014768243,
       "ts": "2026-02-13T13:34:34",
@@ -235,6 +228,13 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQREdqQVNFZTQwNnRqaTNnTE5hZ1VYNEo3QWRVd1N5ZkNfQlRyLW5POXNpTmFUVU5iazF5R3BFVnpYaUdrTzI5X2RfWGhidzdOQzlweFlQSlBQTVJ3WjNHSllGRlQxbEc3N2VwVHZZeWs3d2hxV2NkbGhtZWpCU0ZKS2oxZTVPM2VVeGl4dy16UElsRlFMZXhmNjZGWEpaUXJkbTNHWmhKU0trLW1PcjdLNXF2MWJqUWl5YjVneTlrajBZc3dvQk1XX2lfMUFPY0ZyRlE?oc=5"
     },
     {
+      "title": "Bitcoin Price Slides After US Admits Nearly 1 Million \u2018Phantom\u2019 Jobs in Data Revision - Yahoo Finance",
+      "polarity": -0.9421155676245689,
+      "ts": "2026-02-13T13:03:21",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQ3dlQmJIdkhOd1dKRUVCU2xvejZFWlZCRjU3enZoWlB3d19vbnRIQVRFb3U2anFYVldWeC1OakhNbEJOTVoyTWZibHVfQXNhMm5iT3BXS3hBUFRtbTRxWU9qR2lxLWI3Z21paVNpREcxOTYyWHN3UTlkNl9saExiMmxB?oc=5"
+    },
+    {
       "title": "Bitcoin open interest hits lows not seen since 2024: Is TradFi abandoning BTC?",
       "polarity": -0.9410231728106737,
       "ts": "2026-02-13T03:47:56",
@@ -254,6 +254,13 @@
       "ts": "2026-02-13T11:35:40",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/bitcoin-difficulty-just-plunged-11-but-a-projected-rebound-next-week-may-decide-miners-fate/"
+    },
+    {
+      "title": "Bitcoin May Fall to $50,000, Crypto Bull Says. What Happens Next. - Barron's",
+      "polarity": -0.8993947114795446,
+      "ts": "2026-02-13T12:16:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiANBVV95cUxQcjZudjNsMGpzWnBRV3FzazZHUnpRV2lUbkk4eGlJRjlSdU9wdWFNQzRwRzRjaFBHSGI0RjlMVVhSMHdzYVAyM3czajB4TF9CcU0tV1F0Ym56dGM0VVlTNVNOU1k2dk5MWUJoVFlleGM0X21YRXBBWllrbndXRHZ2MnJsR2w5alBYTm1wVkU2eG5lMVk3WFBvRENWeW5mcXRfc051M09hcnFmeDBhTENXdEgxN1JWTDd1VkY0SU5jYjFxU1p4VGs2WnJwTVhxUnZLM3N5REY4YVlUNEVUT2d4UkJWNUJJblBtdFpCaThjbkJnVGdqNGQzTS1jMU5mYkh5ZmZqN09PZ2JmcGRrbUhMa3p6ZllXMFJWXzZuZWQtX2tqdHJJRW05R3l5VFRzMjVVRjBweFNEQzQ5aVEwRGhvUVNtd09QVzRzN1dFODZqUWJsblJ5T24zcUFhWDBRS1NEWko1XzdtNXZDdVVhall0NWIzb0xSM2c1U3dKVzFfVlJmV3ZJaktWZw?oc=5"
     },
     {
       "title": "Bitcoin Falling to $60,000 Could Spark Fresh Liquidation Spiral - Bloomberg.com",
@@ -284,13 +291,6 @@
       "url": "https://cryptoslate.com/are-spot-bitcoin-etfs-at-risk-after-custodian-coinbase-reports-667m-loss-the-1-5m-btc-question/"
     },
     {
-      "title": "Is Maga losing faith in Trump\u2019s bitcoin promise? - The Times",
-      "polarity": -0.814140759408474,
-      "ts": "2026-02-13T15:45:18",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxQNXpUdlF0U3pRekFtaVdJYTFwRk1hX3EwYV9LWHNvUXYyd3ZRamM5U29YS2RuZ255UXE3d1V5UzVnOG1aMzFEem5LMGoxYzBqS0RGbHdQVVJjYzFBcUxzZnNFb1c4WkxCQk02SWFyeWU3RnprbHM0R0JaZ3VmLVNVc2JBUGN4VFY0WHRUTmREQlkyVmRBdWhhaUZHenZvT0FYT012ZVJ3N2ROQ1lqdEhzZi1kOUZtMHhGRFFIcTQ2SzV6Zlc3RXUzQWJqTktTbXk0eFFna2xTa1g1Q1BkNzNoVFZFMkRaN2dual9NdGZRajcwdDJVSVRQVXJYUDM4a0Y2b2lyMWdhbzJjNEZ0Q3lTeW5FM0ZoV0NnbUx0V25WUm1Ed0VCLWVydmRDNGRVLUV4R3lXellnbVY1NFJNZVFad0YwZF9YdHVPVWdwZDNIYXVjYlpENGNiX0hGeGlqNW00OXhqRlZZcUFpdmpjQWNud2hiS05oNnFSSmdqY2FUSFdnQV8xbkk4ZVNnMGw?oc=5"
-    },
-    {
       "title": "Bitcoin Bounces to $69K, But Charts Are Still Bearish: Analysis",
       "polarity": -0.7617699801921844,
       "ts": "2026-02-13T19:00:57",
@@ -310,13 +310,6 @@
       "ts": "2026-02-13T17:09:52",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNzBNY0xIdWVBR1ZyOHdSb2ZlSlJDeHRSb005WF9yU05obXdEWldyMVNTQWc2aHNuRHh5Nm04d0dZUi1vWTJmREowdDg0SFlHNkZid1VWRzRycGNveHp4UTFyU2VPcURhZUlMREZkSlV6Zm1keGhYLXFKMGxiNjFOM2hqSndOZHdzN1pJSG9kbFkxYVI5aFFaX2JPdFhFaFBWQVFrcG1hQmxENUxPdkhVRFlPSXBpOGJGZy1qNnBNTnh4U2NDRm5oTG93?oc=5"
-    },
-    {
-      "title": "Bitcoin May Fall to $50,000, Crypto Bull Says. What Happens Next. - Barron's",
-      "polarity": -0.6166559290140867,
-      "ts": "2026-02-13T12:16:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiiANBVV95cUxNcmNsbkFqZE1QN2U3eUdkdHVtV0R6MGU0S1hVb011eEdyODlEWkh5cGdBZGxES20yd2ZqdlU5VWI2YVl0dVZqTG5GQzUwMXNLRmFCdHNnM3czc2E3c193ZzlXQlBLeVR6UUsxTXk5Z1Rham4tUjdPWGpzT19JeGtBQ2x4U0VzUzROOEdjOWdfaTJaMlRBN2tGU0YtSjhzU2c1dHlvTTlrRDBCamhiczlKYWNjMGdyaFJhMWhhalk5Wl9iSFBPbF9TaG14NW1SU0xydlRVLWMzbTV4MkQyd3Npd3RHbmIwUHlua2ZMZ1MzMklJMWkzQWdHNkFBV19rb2JVRDJCSm9oLWlFUUlzNzRFQVZJQ3ZXa1ZkeVktbXNjSG5IeE9KQ1RmaVVtMXFIeVU3WTRLa1pXbWNHSktQMXRkYjJ5UncxbnlSSkRBNWIwNG9Xbkl4Vmt6RUk2REE4RWl5RUVyWVpUWUZMVzhSYnVNZkZ4ZFpmM1ZsZDdXVGxnTVNUYVg3VDhGdg?oc=5"
     },
     {
       "title": "PGI Global CEO handed 20-year sentence for $200 million bitcoin, forex Ponzi scheme",
@@ -354,6 +347,13 @@
       "url": "https://bitcoinmagazine.com/news/binance-france-ceo-targeted-in-invasion"
     },
     {
+      "title": "Bitcoin\u2019s long-term rally is \u2018broken\u2019 until it reclaims $85,000, Deribit executive says - CoinDesk",
+      "polarity": -0.38135820254683495,
+      "ts": "2026-02-13T10:21:35",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZmVIQnJjUkVEcVpFX1p0QXN2QlZiSDZiYW9CTV9qdHlickluRVpIV1BRa0dCZjk4dWwzbGVjNm90REw0NWxZQ0tIbWxFMVZFWGg1cksxdW9BLVVaS2ljUlM0SkVTR2hEZV9kczIzNFVwR0hrUkxycTNNcVdaMG54MzYtZnBjcVJQR0d4a2N1QXhJWXMwY3NROGV6bFFvSG1LTXRXWXNJRlNrZlNRaFdSYXZLS3dNMl9rUXpzMWNxZkFNcHdVZG9rTTNB?oc=5"
+    },
+    {
       "title": "Past crypto winters show bitcoin could keep tumbling to $31,000, research firm says - Business Insider",
       "polarity": -0.3640747219324112,
       "ts": "2026-02-13T19:34:00",
@@ -366,13 +366,6 @@
       "ts": "2026-02-13T08:21:14",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNd055ZkFKcXg1a1RJSVJuTUg0Ri04V2lUSnJKTGVicXNpUWNGa1FXcXlzeUItUmdaOS0wTHhYb0FZV01ZaVF0WERzWGpIemdvNUZnS0J6b2p3anNWWHhpbGdIQ2VtVXE5b19UM3h3eUE5RmNIOWVibnRZQkFYby1NRzR3?oc=5"
-    },
-    {
-      "title": "BTC long-term rally is \u2018broken\u2019 until price reclaims $85,000, Deribit executive says - CoinDesk",
-      "polarity": -0.21967683732509613,
-      "ts": "2026-02-13T10:21:35",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZmVIQnJjUkVEcVpFX1p0QXN2QlZiSDZiYW9CTV9qdHlickluRVpIV1BRa0dCZjk4dWwzbGVjNm90REw0NWxZQ0tIbWxFMVZFWGg1cksxdW9BLVVaS2ljUlM0SkVTR2hEZV9kczIzNFVwR0hrUkxycTNNcVdaMG54MzYtZnBjcVJQR0d4a2N1QXhJWXMwY3NROGV6bFFvSG1LTXRXWXNJRlNrZlNRaFdSYXZLS3dNMl9rUXpzMWNxZkFNcHdVZG9rTTNB?oc=5"
     },
     {
       "title": "How Long Until Bitcoin Recovers from Its 50% Crash? The Last 3 Major Drops Offer Clues - 24/7 Wall St.",
@@ -436,13 +429,6 @@
       "ts": "2026-02-13T16:30:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMGt2QklLdEt4R004blRzMHpQaWdKOHNsSE9GWFJVSmlITkJ1Z2Q0Z3dUekFGSEIzOF9WbmM2UUlPejVHb1JIYVUtQzB2NlUzWUV3V3NUOF9mWFJoamlvdU1RVlNDVWdHQUpLc2dUZkU4MVNhSTRaMTVfN21kWXlSZHFUR0Q5UdIBiwFBVV95cUxON2ctNWZNbEJFMDQ1TU5Da0hJSHlHRUk0QTR6QzJTWVY5M3JYOEthMTExVVpRbW92eWVjUkw3MlcybnNQSkxtb19CNy10YWFfZDZOdUN5RjVaRG50RXVVTWNTRGRhZW0yNGplSUYwRjZndVlTZVlIbHVJdzNFamFmSFRJSFg2cng1U0gw?oc=5"
-    },
-    {
-      "title": "Bitcoin Bounces to $69K, But Charts Are Still Bearish: Analysis - Decrypt",
-      "polarity": -0.014067307114601135,
-      "ts": "2026-02-13T19:00:57",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xNE5mdGxkZU5wNXpuMTVZMmJUcUgwUnlVR3dTYWFDUjlLNmN4bjlNUnpjMWc4RXhzT2Z0cGFndnJGM05MVmR1U3Eycjd5X3BKNnNxVzM2MEFpcnZyVGFGRDRtajJWWm8zR0tMN9IBdEFVX3lxTE9YbE93NE9mZ1E3TWdZbGhoT1pJUmpwNDVmX3ZzTUVQdHV5NmdpTTFjWElsdVc2bkdxSVY1UmdBZDROYmpQVTBOOXk2aWo3OVFsZTlyZDZnYUt3bzMyb01XeDZodVhWRHljdm9RRkFva3hIS3JC?oc=5"
     },
     {
       "title": "Bitcoin Bounces to $69K, But Charts Are Still Bearish: Analysis - Yahoo Finance",
