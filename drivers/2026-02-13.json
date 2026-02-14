@@ -2,13 +2,6 @@
   "day": "2026-02-13",
   "positives": [
     {
-      "title": "3 Macro Drivers Providing Big Catalysts for Bitcoin's 5% Surge Higher Today - The Motley Fool",
-      "polarity": 0.9110542181879282,
-      "ts": "2026-02-13T21:05:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaW41aWVSUTN2cGxIckw3MGJlSVJJSWlveWZGY2pJcmdsSzR4RW94ZjFyVE1rbFdldm5wczhReTJRMGVXc2ZzajVIX2lPS3JMeHpGQlFGZUt2NDBwZ2JSaWtkNkpkVnpERElGeDEyRzExQ1pRbjE5Y3duWWJEeEZjRWpBbi0yLWd0dGcxX05IN1JTZmI4SEhR?oc=5"
-    },
-    {
       "title": "3 Macro Drivers Providing Big Catalysts for Bitcoin's 5% Surge Higher Today - Yahoo Finance",
       "polarity": 0.9105049427598715,
       "ts": "2026-02-13T21:25:27",
@@ -77,6 +70,13 @@
       "ts": "2026-02-13T21:45:46",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/bitcoin-jumps-6-as-us-inflation-cools-in-january-but-missing-2025-data-obscures-the-full-picture/"
+    },
+    {
+      "title": "Can Crypto World Break Free From Bitcoin\u2019s Undertow? - CME Group",
+      "polarity": 0.11532673612236977,
+      "ts": "2026-02-13T00:42:03",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVzM4OHFvSzhlaFNLVFo4RjVHS1JoVmVQQVFEY0xtbnlVdVNESkNBNHo2LW9ocTZmcklpS2l0b0dXQzNkSVFZakc2QjN5endlb0JMd1poZmxNajBVSDBZZ0lvZDFWanAzbFVwSTUtQTgxdHVseElXQW5pcHFMUjlqWEFsdDZHcTdFeFREVUl6cVI2bEQ4MW9Sc3hsREp5cDV5Qmx0Z2VOelBXWDhEUjFPSkhR?oc=5"
     },
     {
       "title": "Beware Dip Buyers, Bitcoin Is Entering Its 'Winter Phase', New Report Finds - Yahoo Finance",
@@ -221,25 +221,11 @@
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQ3dlQmJIdkhOd1dKRUVCU2xvejZFWlZCRjU3enZoWlB3d19vbnRIQVRFb3U2anFYVldWeC1OakhNbEJOTVoyTWZibHVfQXNhMm5iT3BXS3hBUFRtbTRxWU9qR2lxLWI3Z21paVNpREcxOTYyWHN3UTlkNl9saExiMmxB?oc=5"
     },
     {
-      "title": "Bitcoin open interest hits lows not seen since 2024: Is TradFi abandoning BTC?",
-      "polarity": -0.9410231728106737,
-      "ts": "2026-02-13T03:47:56",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-open-interest-hits-lows-not-seen-since-2024-is-tradfi-abandoning-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "title": "22 Bitcoin worth $1.5M vanish from Seoul police custody",
       "polarity": -0.9355862215161324,
       "ts": "2026-02-13T10:55:19",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/seoul-police-22-bitcoin-missing-cold-wallet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "Bitcoin difficulty just printed a historic -11.16% \u2014 if the next epoch stays red, miners are in trouble",
-      "polarity": -0.9318323954939842,
-      "ts": "2026-02-13T11:35:40",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/bitcoin-difficulty-just-plunged-11-but-a-projected-rebound-next-week-may-decide-miners-fate/"
     },
     {
       "title": "Bitcoin Falling to $60,000 Could Spark Fresh Liquidation Spiral - Bloomberg.com",
@@ -270,6 +256,13 @@
       "url": "https://cryptoslate.com/are-spot-bitcoin-etfs-at-risk-after-custodian-coinbase-reports-667m-loss-the-1-5m-btc-question/"
     },
     {
+      "title": "Is Maga losing faith in Trump\u2019s bitcoin promise? - The Times",
+      "polarity": -0.814140759408474,
+      "ts": "2026-02-13T15:45:18",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxQa20xRi1WQ1JSdnJaSGpPdXdOSEVWZWZzVi1BX3J0VGdORGFoRkFLa1IwZ0VTXzdXZVNXSHhtUEVNal94ODNpeUpTWTBuYjdKblRfTTN6cll3dlNORkQ5ZmUzbE8yNVZfY1pmMUhvLU5ITW54ZlZrWl9oUTFWMVBpX1lXb1Q1Qlp4ZTM4YVlFX1pHdGNRZlpzQ2NHQktHaG5tZnpfUEs5Sk9tVGl2ZHpSVkJVcTJtN0FPTzFXci1kMllOV01GTktFQ1AtbjE3RENuWlBoNXRvb0NMT3VHZmhJSTh4MWFuUUl4dzVPMVNMUWRwWnZHTU53LVM3V2F4RUZaVUpHOG4zaFc5NGlJc1Z4NXhDQ0lBQUlUbzZWZ1d1MExpTmk1clk3VHRTYXFwZ21pODA4UDFfOGE0b1hBMWZvSXczbjlBOE56dHZIQ0ZKN3hwRGt5Q1BiV21GLS1TUElJSVF5d0FwaEFDTWduNTgycDZmb0FfYmxQeEZLSVZBQVhTb0MxSGZNM0FFZzE?oc=5"
+    },
+    {
       "title": "Bitcoin Bounces to $69K, But Charts Are Still Bearish: Analysis",
       "polarity": -0.7617699801921844,
       "ts": "2026-02-13T19:00:57",
@@ -295,14 +288,7 @@
       "polarity": -0.6166559290140867,
       "ts": "2026-02-13T12:16:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiiANBVV95cUxOUzZpVkJIQU44RTJwaWxSR1pheW8xQmVwUTdVa3pOZWRCY0hOaU1DZTN4czFyczBLSlg1MGhDYXQ5REJQOTlrYnhmZjdLcC1lLUlxT0g5NDhZSjg1WnoxVGlaTHNEallfODVDdFI0cGUxaUpKbkVuOWg2ekFWcnNjNmJLNUd5WldwSU9vUXZKeTdMYmVacXpxSTBTX1Q1bVU2MnU5T01vV3NOaWRDRUNZNzhtdG5xNzdma2NfV0ZNVmlXWW5OUkM3OXJLc05DVWNUdXVzMkcxN1ZFdTA5UG9mZThxcUVHYTFkVktubmhUZkZRbXYxQ0JyRUxGSTl1R21LcGstOWoyODJKelRUaVZDYWZNTjVRU2NoVWROTzNUUVhTMkZBWU12aVltZi1KZWNqY0F2T0oyRWR4NzFaaDRZOGl5anI4d3h5dE5tckRpcVk0VmtpT2R6akN1T3R3a2ctSHZTS1oxRExnUmUxcHRPa3Rkb0hVOG1VQ3k0Unl0TDdhLWdNM1JOMg?oc=5"
-    },
-    {
-      "title": "The Daily: South Korean police lose seized bitcoin, Binance France head targeted in failed home invasion attempt, and more - The Block",
-      "polarity": -0.5883975774049759,
-      "ts": "2026-02-13T18:56:21",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWDdSb3J1c1RYMUJ1VHhZcG1XOC1xbDlFRE5WYzNKdlNzTkJrNlMwRjAycTF5b3dGRHMtUV9MNGd6Z20xSUpYSjdoNEhPREFQMURvZWJuLXRJYkRjQUZNTC1fWEJ2QlBVdVdDbHJXZXFadzJrWlV3azBCMnVMZ1hMZ3VSNmRNNFVmMHpjV21LQU1UVXAwYmhSbHg3TDJIaDYyMzF2S2lUWTdJTW5nUnlRQ2dCZHRqTTBVd2lRdVM0dmdwSVRqa2Q3SGF4cjhXR2pwWmhtVTVVR0pWVGpaVjB4al9qQXBCb2ZDS01j?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiiANBVV95cUxPRU5MOE5KY3U0SEg3OU9IV0VGWjhZbUF6VV9ILWdDWWw2eGM2eWZHTFhFbk1DdlI1U21POFJTWjMtb2RmRjB2SkpVQlhjMzlPQk81X0tObjZ1cXRxaTl0czZaMmtqbUNVVTRkYXE0dDVFYnNFMG5WTWN3aUhLbnh6Q3FJMDJhU0tLd0JiWW5LMi1WbmNzREZnZWs3ZzVVNTFVSVpjM1hWUUtWLV9rR2hkOVZqOGdiSVhWLTRJRF9aQTBUQXBTX1lMdnNYRlNXTDJtTVZZckhsdGM0T2F2dDNpT2hsVmNYMjZCUXBkQVNXZDYtdTFxZWJQSnI1OEQ5V1RQX1JjMV9sNWhDbnpnMW1DUm5qdzJsYmh5MlBUT2M2eU00MXgyemZlMWtQX2FMLVlJRlJNRDY1NThPaVR1WWxQamZDMWpQVmNLeUp4X3ZKUFVhX2tWYjBGSGZPckZ0dUFVVHJxWXBwVG5MSnA3c2dDNU5HalVBb3hYcnpCRUNGOWRYUGFaOF96Uw?oc=5"
     },
     {
       "title": "PGI Global CEO handed 20-year sentence for $200 million bitcoin, forex Ponzi scheme",
