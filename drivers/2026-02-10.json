@@ -1,14 +1,6 @@
 {
   "day": "2026-02-10",
-  "positives": [
-    {
-      "title": "South Korean crypto exchange races to recover $40bn of bitcoin sent to customers by mistake - The Guardian",
-      "polarity": 0.037338219583034515,
-      "ts": "2026-02-10T04:26:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeG1EZTZnbTc3SXcyR08wWjZHNV9OWjVjTUhCX0ttQzhZQmJxclhBdEUtc2VHeWFmeHpQdUEyMEVLWnFKVExxWDZEcHVmUmh0dFU5OVNFa1BpRzB1R2dNSEF1cV9PTzdGZFEyenF5X29reU9YaVZXVW9VbnpMOUp1eEpCeGo1MUJRbGtKeXFYckZSWVFDQ3JmbDJBeEJSQQ?oc=5"
-    }
-  ],
+  "positives": [],
   "negatives": [
     {
       "title": "Bitcoin falls to $69,000 as crypto market shows 'early stages of bottoming' - Yahoo Finance",
@@ -32,11 +24,18 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWEQzT2Q3QTlwSGhwX1Jram9vY241aFVEYXVSb1dYOUpOdm9mazdwRFJ1UHlRYzlKQ3RfOHAwZlZlTFZHenJCSW9uRUI0eTQ1elgxeHZuR0lFYk02a1lKZE1tSVlVR2ZMeGtBaU90dGRMN0U3RGlYTkVZTy02X0RUYlBnWlZCb0VKWm42RGtNY3dXLXFDTm8ycTNYU29UdEFMWTRqQmZUSDJuZHFlTWF0d0t5OXY5bVpyN2x0dlh3NkhhM2c?oc=5"
     },
     {
+      "title": "Analyst predicts next big crash for Bitcoin as markets rally - Yahoo Finance",
+      "polarity": -0.4336012229323387,
+      "ts": "2026-02-10T17:05:03",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVGpTT1JpMjhLMUdaSTVrMjM2TGlaSHRDRU5YTmJ4dWdNWGtWQkxlY3pKUnB2Tm8wM3lVMHlsM29LbFNxMW9fcGt2TVlvSzNoZGUzOGRsbUg1WjBPWjZ4Q1BZbUJ2UVNtRjdmb0NTdG5RZWI2MHdITmpEeWwxUDBjZzJMMA?oc=5"
+    },
+    {
       "title": "A Bitcoin Blunder for the Ages: $40 Billion Accidentally Given Away by Bithumb - The Wall Street Journal",
       "polarity": -0.1029690932482481,
       "ts": "2026-02-10T10:20:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiuANBVV95cUxPNlpHSFlnRGZBR004VDdvUUZhaW45cDZXWTQ4M29ibnBPREpUZGZ6SmV6azMxRkVOdXhKRXM3eVFVQy1XVm0zRk5EVDh3aU5XUmIyTjIxVXJTMTBzSDBxNk5icnVhWS11U0QyYW8xczQxUm4zeFYwdDhyN01GbEFTZTFPeDVPNXEwSE9tSWNTYTBRSUJFOXJEc21YMzZBQ2hlSk1zR2dBNU5JRzhKOVlaMGxWZTlXZ2d5RHNXZ0MwbkFpWEpYczBoaHVWTFlrZmVId0QydVNxc244ODNmWDM5RG5HME9kUElPZFJwOWpCU004YjNtOHYtNFVHRGlvV2c4aUNLbllIdVJqUzgtdnI5ZklPSnlwWFllOUZPNnlLRmUyRVd1N2tIbDBERTdRdHVhWVhTSUJCSXRFOEg3LWJDMkdPbGpfRm55RGktR2lpZ0dRV2dFeHZyNmJfSWhlaGdhZG9XSUgxbUxZbFJGNGphUm9UWWRFYnZjWEFrWU5PX2RybFNwem5kcWtMeEVpV1NJMFJPdkMwaWhPMmYxaXdpNU1xSUIzTkJlcTdDN0JpZ3F2Qkl2dkJUVA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiuANBVV95cUxOb1lnTG1mdnBMR2IyYXVtc202UC1vYzFGZzRSZTc0S3NjNkM3TFNWdjBUUlN0ZDhQdEN3TFpBYUpPcHROclpGbW4xSmdUbWJpUkdna1RVWTNVYjQ2Sl9VcEplM0k3T2w0WVFFUENEVWU3aGJXRW1fT0pycVhTRS1YSHIwemhWckFmZGtXSlctRVRrbVlsVWJPLWxPX1JRWkNXM2tyampJV1FMWTJyUDBMZTJadzdlYmRxQXBYMFQ4VU1PdUVtVFlmVjJraFNJQWNxcUVZNGhIS2pkUXhYaV9HYlRadXRLSmtIU0RHcGdXRmVISFo4QWRYSlI1WllsdDBpVUMzdlVxVjRtYjdPaEdSSS1sQ0t6UldmU2RpNHhqcHpIR0JBWkRSY1FqR1ZlWUZRZFZVZ01sWndCVTNFZ0U0SHFWSWxlN3lGdUs3ZDJWZHp2UEdLMkQ0a0d5WlhIa0lVZzU5UmJyQ2NCX1RtRFRaMDJGaGxaalNYd1pyY2FmckU5cjZ4ZHJCQmkyamlFZWtYS19CUmJ6NWJVeXZ6WnhCWlI2S1o1dGFjSGo5bHNXamVkNGdEZHZtRQ?oc=5"
     }
   ]
 }
