@@ -37,13 +37,6 @@
       "url": "https://cointelegraph.com/news/bitcoin-weekly-rsi-echoes-mid-2022-bear-market-as-btc-plays-liquidity-games?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "title": "Michael Saylor's Strategy says it can survive a bitcoin (BTC) price crash to $8,000 - CoinDesk",
-      "polarity": 0.6041467469185591,
-      "ts": "2026-02-16T09:09:46",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMkRQZFVYbDl3WnNwTmFuaW1SLXZJanY0aTdBZXo1WXM5ZUc3bVR0VlVyR3A0SFNVUjFfRmw2VFJ2b2ZnU3M2RWV4S0ZLaldLQU0zVzhYZm1pNXJYQ056Q0dCbTczRmVmX0RkSmNqXzlNZGhCekVodHlLWnFKb1N4bzM2Smg2Rm11ZWtJX3RlYnhxTlc2TTRPVHZjQlRjNnZRRUllVU5PWmFwc1UzNVN0cVFzZzFIVXVveVh2V0VVdUZXQ0tYTXVhOA?oc=5"
-    },
-    {
       "title": "SoFi Technologies Just Proved Bitcoin Has a Clear Use Case for Fintech - Nasdaq",
       "polarity": 0.540976645424962,
       "ts": "2026-02-16T23:05:00",
@@ -121,6 +114,13 @@
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1r67p95/friend_said_crypto_is_scam_6_months_later_he_has/"
     },
     {
+      "title": "Coinbase Stock Is No Longer at the Mercy of Bitcoin. Cathie Wood\u2019s ARK Is Buying. - Barron's",
+      "polarity": 0.022130079567432404,
+      "ts": "2026-02-16T11:41:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxNcTRHdHl2dlBUay1JUzJib1JRLThpYjZfZFpfamdPV1JFVVdxcWNIQVdRODhEUkF5Vk1jTzZObFRhMVFCbFYyNFFSTHNGVDg3VGJHTHFTMHBzN2k3RHRqdXVYVnVpdGRFN2lZeFZXU2lyb25rOER3MFpnN2RmZzNYSy1IVnczUWFURjgwQ3hLTTQ1YVBJa3Jfd1Y2aXlZRV9DN2RmcXdVOGdRT25RTVk5a0ZKWUN5VDNMNWNwcWhLMFp0N1pzWi1PZG1GZzVDQ2RCdnFORnNaZXRIUGFvUmdGNWc3NENRYWcyakdKRS1OZTVwTFdURmN1cEJmNUh3WWtCOGRONVZkTWk1Ym42TTZ2UUJsM0xIaFd2T1lTV0NoQTRCSWZnWlBtazlJX21vZkJZUkNpT2Y1Qnk3UlRXTnpRQkVLY2FRcV9qZFhQUjQ5WmRvZG5nRlNyOGJZa2o0T0k1eV9uemQxVm80aVdySWE0Y25jRjdNRjh6TUczNzNxR3lETWw5MUowRExYUGQ?oc=5"
+    },
+    {
       "title": "Everyone's asking where BTCs bottom is...",
       "polarity": 0.021783234551548958,
       "ts": "2026-02-16T22:35:24",
@@ -143,13 +143,6 @@
     }
   ],
   "negatives": [
-    {
-      "title": "Metaplanet Posts $605 Million Loss After Spending Billions on Bitcoin - Yahoo Finance",
-      "polarity": -0.9623711612075567,
-      "ts": "2026-02-16T17:27:52",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPN3JXMG9UTE9GdVc3aXZJT3BJMGstX3l2MEdCVEctSFRLM0RhaDFVQ0FFajMyeXVjMEhJWkp1Q1BOdlRWdC1IWjItSlBuSi1vZ2EyLUpkdlN2dlBHVmhZU0ZxWXRUSzhNQUlBenZ5akVRbXJjdVhwRUxSU1FfcDJLZmh5RE1vUQ?oc=5"
-    },
     {
       "title": "Metaplanet posts $621M loss after Bitcoin valuation swing",
       "polarity": -0.9603357622399926,
@@ -177,6 +170,13 @@
       "ts": "2026-02-16T14:06:25",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/02/16/bitcoin-s-slide-may-signal-broader-market-trouble-and-a-u-s-recession-mike-mcglone-says"
+    },
+    {
+      "title": "Tech Stocks Dip as AI Doubts Linger on Wall Street: Markets Wrap",
+      "polarity": -0.9511191491037607,
+      "ts": "2026-02-16T22:33:48",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-16/asian-stocks-set-for-muted-start-in-holiday-trade-markets-wrap"
     },
     {
       "title": "Bitcoin price will fall to $10,000 as crypto \u2018bubble is imploding,\u2019 warns Bloomberg analyst - dlnews.com",
@@ -242,13 +242,6 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNVVfSzRoZVlkUXBRNU9oZTNqSElNNkxVdTlhclE1NTNNX0Z2Z2prRzFOcTB0T3lZRHc3QV9qY2RKWGU4MVQzWnFUaXBVVS04N1BnM0JmTkVNTklOdFdkcFppd2pJRlZQSWdZX2hoZ2l4VUFoaEUwc3hMd0lJMThBMENhWEVhVGtBb25TdFhxN0pKTmpGajhfNk1vMA?oc=5"
     },
     {
-      "title": "Metaplanet revenue jumps 738% as Bitcoin generates 95% of revenue",
-      "polarity": -0.8244723603129387,
-      "ts": "2026-02-16T12:10:52",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/metaplanet-revenue-jumps-738-percent-bitcoin-generates-95-percent-revenue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "title": "Metaplanet posts $619 million net loss on bitcoin valuation as holdings climb to 35,102 BTC - The Block",
       "polarity": -0.8094624355435371,
       "ts": "2026-02-16T13:59:14",
@@ -263,18 +256,18 @@
       "url": "https://cointelegraph.com/news/dalio-collapse-world-order-permissionless-money?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "title": "Bitcoin Looks for Direction After Four Straight Weekly Losses - Bloomberg",
+      "polarity": -0.6635286323726177,
+      "ts": "2026-02-16T15:53:31",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVHgwN0pSZ1RQR3drTWRUbnJGLWsxamdpbUhIZHhZZEtYZ0V1SmRWa3N5M2FEcU4xZGlxVi13N0tfVTdXdnNBM3JUSlBsQzdIR0RFQ3ZrVUljcnFETHMwQmVKOU5FcHdEakV2YmpnWXUtVmg4am5nRkVUUlBoU3A0Qm93WExKM1FzaHB3dl9Na2J0RWd4SE5SUzltejdmbFVjUnMyWGlaWEVVVFpWVEtQT3pn?oc=5"
+    },
+    {
       "title": "Bitcoin Leverage Heats Up as Traders Bet on Price Rebound",
       "polarity": -0.5248666703701019,
       "ts": "2026-02-16T04:24:00",
       "source": "Decrypt",
       "url": "https://decrypt.co/358134/bitcoin-leverage-heats-up-as-traders-bet-on-price-rebound"
-    },
-    {
-      "title": "Bitcoin Looks for Direction After Four Straight Weekly Losses - Bloomberg.com",
-      "polarity": -0.24389874190092087,
-      "ts": "2026-02-16T15:53:31",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVHgwN0pSZ1RQR3drTWRUbnJGLWsxamdpbUhIZHhZZEtYZ0V1SmRWa3N5M2FEcU4xZGlxVi13N0tfVTdXdnNBM3JUSlBsQzdIR0RFQ3ZrVUljcnFETHMwQmVKOU5FcHdEakV2YmpnWXUtVmg4am5nRkVUUlBoU3A0Qm93WExKM1FzaHB3dl9Na2J0RWd4SE5SUzltejdmbFVjUnMyWGlaWEVVVFpWVEtQT3pn?oc=5"
     },
     {
       "title": "My thoughts on current market conditions and my updated plan \u2013 loading up in extreme fear",
