@@ -3,14 +3,14 @@
   "positives": [
     {
       "title": "It\u2019s \u2018Inevitable\u2019\u2014Elon Musk Suddenly Confirms Massive \u2018Game-Changer\u2019 As X Reveals Bitcoin And Crypto Price Updates - Forbes",
-      "polarity": 0.030604885891079903,
+      "polarity": 0.03060462325811386,
       "ts": "2026-02-15T11:05:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPSFBJcTR6ajFldlg3TUIwLV9LOVNudi1Ybkx3U2o1X0ZRNkU3Mk9qdm1UNHhxQ0d3SjZocWtIMTlKOU5yMHZEc1F0dHlWYmNYdEtTcEdCUl9PeEZqMENIWEZ6RDZjbG5fWkFkbHhRb3VNdFdsb0lfWjBEeHp3d1VFLVhFM0xSbnRGZmp5Qjl2cFpfenVqUDQyY0t5TlZVWUpqajhYWWZBWk5ONExpaEUzODZRdW5xUjdmcU83VXpmbGNOdkQ2T3hPUUU0NWVpQ1pBM0ZyODV1cWt2aUVYdDZqUE1TVkItaVVOdmdHeQ?oc=5"
     },
     {
       "title": "Bitcoin Price Reclaims $70,000 After Deep February Slide",
-      "polarity": 0.019776318222284317,
+      "polarity": 0.019776176661252975,
       "ts": "2026-02-15T05:00:44",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/markets/bitcoin-price-reclaims-70000-after-feb"
@@ -24,7 +24,7 @@
     },
     {
       "title": "How does the Sphinx Protocol idea sound to crypto native people?",
-      "polarity": 0.015224799513816833,
+      "polarity": 0.015224777162075043,
       "ts": "2026-02-15T18:50:54",
       "source": "r/defi",
       "url": "https://www.reddit.com/r/defi/comments/1r5mkzj/how_does_the_sphinx_protocol_idea_sound_to_crypto/"
@@ -33,49 +33,42 @@
   "negatives": [
     {
       "title": "In bitcoin price plummet, ETF flows are down but aren't signaling 'crypto winter' investor panic - CNBC",
-      "polarity": -0.8281026650220156,
+      "polarity": -0.8281027935445309,
       "ts": "2026-02-15T14:59:25",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUV92a2tBb3BIUTltdFBuc2NRdkR0dGJVSFNrNDFkYlNVbzNqcURqN3h5RFBHMVVVWWVBMW5oVEJyaWxLRDRVU2VmYmgzMU9NaVpWcm16eTktWmg3S0ozQS1LS3RseUNoZnpxbHRUZGVLMExraWt5TjJCcEpsYllWQ3JJdUhXWW9yblNrMlpIZzd3N0RO0gGaAUFVX3lxTFBOUUx4cTRncklycE92QnNUX1dFckVmVVltTjZuTl9SclVjNE55QmtkNFp5Qnc0WUVSeHJQcDNQNVlRRXVvRDFkY1E1QUtFWlpHZTFEV0dySTctX3NsQ3E0VnVnYW4ybGxFc0ltVW9nQTFvWENzOFl5UXZWdExDUjFwb2tqaVBVcFNNVlhocERiWHpXVGUtVUhLaGc?oc=5"
     },
     {
       "title": "BlackRock's digital assets head: Leverage-driven volatility threatens bitcoin\u2019s narrative",
-      "polarity": -0.7398904897272587,
+      "polarity": -0.7398904524743557,
       "ts": "2026-02-15T14:00:00",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/02/13/blackrock-s-head-of-digital-assets-warns-leverage-driven-volatility-risks-undermine-bitcoin-s-institutional-narrative"
     },
     {
       "title": "Wall Street remains bullish on bitcoin while offshore traders retreat",
-      "polarity": -0.6659059450030327,
+      "polarity": -0.6659065932035446,
       "ts": "2026-02-15T12:00:00",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/02/15/wall-street-remains-bullish-on-bitcoin-while-offshore-traders-retreat"
     },
     {
       "title": "Wall Street remains bullish on bitcoin while offshore traders retreat - CoinDesk",
-      "polarity": -0.6516637746244669,
+      "polarity": -0.651663526892662,
       "ts": "2026-02-15T14:06:40",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVXFxSmFiNHJNYVRyLTBFUXAzeURzR3lmTHdMS2duNVFCdUNPd0xsNjZpVlB1cWR4eXE4X3ZjdjBjRG50VF85TUd5cnFjQkVCVDVJaTBaanh6cklZWlJlOWdSUW9kSFZzR3ZZVU8zOXZwMm9jTFBjMTY1czJSTlB2MWFQQ2VKSGRBclN5WnByTzJmRXJNMW02NTNaVDRSNEM0Njl0UEtleW43TlB1MUtPWGp3cw?oc=5"
     },
     {
-      "title": "Bitcoin Price Reclaims $70,000 After Deep February Slide - Bitcoin Magazine",
-      "polarity": -0.5984605699777603,
-      "ts": "2026-02-15T05:00:44",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oSEtCQmljMjBTemJZTlBfLWZCQWRRM1FTR2tmQTZuU2hJNWV5dWNzU3Vob3owMl9uNnd6cHRhSnlwRHBsT0loZUREcWo4WTVieENqNTY4N2tTMmdZSk1EVjJyZHowM29BWTROVE1jc25ybnJvOS1rcFh1VWNQdzQ?oc=5"
-    },
-    {
       "title": "I\u2019m a crypto hoarder, I really need help trimming my portfolio",
-      "polarity": -0.009585293009877205,
+      "polarity": -0.009585343301296234,
       "ts": "2026-02-15T23:47:28",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1r5txz0/im_a_crypto_hoarder_i_really_need_help_trimming/"
     },
     {
       "title": "An abduction, a Bitcoin demand and a TV icon - why Nancy Guthrie's case has gripped the US - BBC",
-      "polarity": -0.003470826894044876,
+      "polarity": -0.00347093865275383,
       "ts": "2026-02-15T02:02:34",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1za3pQQ2d3SktjOGxQdjNXWjFLWmdjNHI5ekJMUWFVWERKS25TdDExdFdES0ZBWWcwOUM4a0xPbFBsdVo2SEx2SnBtQ1RaYmdfcExla2xKN2F0UQ?oc=5"
