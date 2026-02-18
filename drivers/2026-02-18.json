@@ -2,6 +2,13 @@
   "day": "2026-02-18",
   "positives": [
     {
+      "title": "Wells Fargo sees \u2018YOLO\u2019 trade driving $150B into Bitcoin and risk assets",
+      "polarity": 0.9101353473961353,
+      "ts": "2026-02-18T10:59:50",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/wells-fargo-tax-refunds-yolo-trade-bitcoin-stocks-150b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "title": "Nimbus Capital and Chimera Wallet announce $15 million strategic partnership to expand DeFi infrastructure on Bitcoin - markets.businessinsider.com",
       "polarity": 0.8944892259314656,
       "ts": "2026-02-18T10:18:49",
@@ -16,20 +23,6 @@
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRHFiUld4UTF2YmxCMDQwWXk2dU8tSDlhUkQ5eGtobEtOTmVycEtEMHhwZ3p5cFZRRHJvaTZvblpnSGp5VGk1OWstVWRrZ0lPc29BSDRaSm5nZDBLVWVJZmE5R3ZubnRMN3BDZzg1YTVqRV9ySVpMQy1RdThnczQtaldQNEhCd0hySHZRVjZOVWJUYlZGS2pjTnkwQVBZZ21HWHhpWl9CWHQyU2tiNzYxdmdxU3dORGEzZmNOWG9SWWRSZDFYX2VBWTM3Y0xnbEk?oc=5"
     },
     {
-      "title": "Bitcoin Miner Soluna Expands Behind-the-Meter Capacity in Texas via Blockware Pact - Bitcoin.com News",
-      "polarity": 0.7574483770877123,
-      "ts": "2026-02-18T04:41:49",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMjJBVHNDdDl6MThkOTd0eDVFQnVyOWZRQzJvdGpJZDdjRUR5Yjl2RV9ZdU1SdURpUkE2SmZPRGJOd2Z5Rml1YzJCc0Fxdk5tam9aUDJUdkl3ZnlJa055Q1pfWm4yLVVYU0tnNE9LLUEtMWxxUll4VG1iN2xQRm9DR0QxUHU5Y05iQW01V09IQVVSSk9HLW1uX3Nva2hfNjI1Zm5LUy1zelpwUkZB?oc=5"
-    },
-    {
-      "title": "Pi Network (PI) Surges 40% Weekly, Bitcoin (BTC) Fights for $68K: Market Watch - CryptoPotato",
-      "polarity": 0.7353242672979832,
-      "ts": "2026-02-18T08:36:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTGJ2Q2pTQjhTWnlqS0ZSalRZZW96Wk42XzNVc3NIRXYxSUVISGZzZ1g2N3gtTlpjQnBzU0dDODNVckRHeGktdG1ZS1IwbHBObk9pVlFvSVFXYWJ0MThKcW1CSm9oU3R4X3hjUkYyNGdSQWNnYjZlZ3QyQjhyNTBpOEl0NEM3N0V2bVdQX2pac3FIRDVraEc5OWdSTWU?oc=5"
-    },
-    {
       "title": "Abu Dhabi Funds Hit $1B in BlackRock Bitcoin ETF by End of 2025 - Eudaimonia and Co",
       "polarity": 0.727045688778162,
       "ts": "2026-02-18T06:13:42",
@@ -37,18 +30,25 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORElucUhhS3VtZ0dabmtsamVWRnJ4LXZ2QWlEejJxRlpicGVaTDNVVG5TOUhRYWJuVmZZaDVuQl9aV3VYVE5OUXRKTG04QTc2MHlIRUl1UHRjZ3hkS3dNMHN2Q3dGSEdpcTREYnpTSld1OEVoV1hIcWcyb3JRZHBzVDVNVko?oc=5"
     },
     {
-      "title": "Starboard Urges Bitcoin Miner Riot to Speed Up Shift to Data Centers - Bloomberg",
-      "polarity": 0.3139020502567291,
-      "ts": "2026-02-18T01:01:00",
+      "title": "Bitwise CIO says DeFi could lead market out of crypto winter as Strategy's Saylor predicts bitcoin recovery - The Block",
+      "polarity": 0.5820214934647083,
+      "ts": "2026-02-18T10:47:16",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeUhoUlZZbDdYQWZSVi00RW01X2V3VVV6dWZWRUF1bV93LUF5dlFIa0RNY3JjVmhQUENNTUI5OEdaNmNtZWN3ZmZwNzF6QUZnWDViYkI3UGQ0RFAweWJtSHEwb3c3c1R1X2dya1NiaFBMaU5rQ2IzMzk2ZmluYVJNUm03QktEQUJOYTl5S1hMQlQ2NGNycFFzWmZJQ09rbzZPbWNKaFVhcVU2WE9KbUJzcjFsTTBGUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOSmFZX2hkUE1kY3JJNXg4bElVT0JsdmZoLXU2NW1PejdhWUN6RFZ1dTlnR2RGQlBsRzlPampqd09UZnpZd0c0dW9JZE1kamxYekVkYjJiSk1vbG5GTzRRalhDWjFGVW1ZSlpLVWgwN1NuUXZNbmRNQnA0YW96SmhXUmJ3OE1DV1hpSUR6T2sxWDZmYVhrT0czRXJKQnRjOGxfd3lTVmpyTENjOGU3Sm1veEZrZ0xlTllTYzBScnJlNVdmUTFFRXJyM1FQVTZmMTVZMVRqY1BTT194eVNmYWpFbV9nbUJIWWNlZDVoRTU3aWJ6cVJOcUFSTTlCaHhUSndEb2VrcldmZVQ5Nm8?oc=5"
     },
     {
-      "title": "Ki Young Ju Says Bitcoin May Need to Hit $55K Before True Recovery Begins - BeInCrypto",
-      "polarity": 0.2408173754811287,
-      "ts": "2026-02-18T04:01:00",
+      "title": "Prediction: Bitcoin Will Hit $150,000 By the End of 2026 - Yahoo Finance",
+      "polarity": 0.13077045790851116,
+      "ts": "2026-02-18T11:05:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kZ0FXWFZxcnozUGtpd3hwTllUemJralRJaG1hR0RMUjF6Vnc0U0w0dFlUaUJwTXBlMEF6dFo1YnRhZW9xaFg4d1lHTGx6bGgwb3Z3Wl94UzNDVFE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQXzNIS2lyQVlLRDhUSlR0UTJLVDFZWGNkb1hsSXEtVTdkY205Ql8yMm0xdGtDOS15dHpJOHpyQzNFNTI2bjdKMFM5NVl1R0RHM0lIemJfU1pQVjh3SjNMaGdRNHJsaTFaUVh3Ymt3Z3g5RVlRRnppN1ZNeFc2azhjcE5R?oc=5"
+    },
+    {
+      "title": "Prediction: Bitcoin Will Hit $150,000 By the End of 2026 - The Motley Fool",
+      "polarity": 0.10773011483252048,
+      "ts": "2026-02-18T10:45:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOc3lQTFZNVnBUZWFiWVNpeVR3QzFnUHNPNDMxbXdNUFpOdGV2bFc5MFlXa3lJc2hmV2tOMkQtODJQVUVHdHhaSnppMzdHYXZvRzE3WTlMQlIxaldaUnFXaFVGc05SMGR6SG5raTd0QUZhX0JOdkJ2UGlqRS1ZQUZTcF82QkxUcXNqWVEwcGZSWmJfa1N2cUZEUw?oc=5"
     },
     {
       "title": "Bitcoin ETFs hold billions despite price crash, but resilience masks harsh reality",
@@ -58,25 +58,18 @@
       "url": "https://www.coindesk.com/markets/2026/02/18/bitcoin-etfs-hold-billions-after-price-crash-but-resilience-masks-harsh-reality"
     },
     {
+      "title": "btc weekly rsi just hit covid crash levels. sharing what im watching",
+      "polarity": 0.06814748048782349,
+      "ts": "2026-02-18T10:38:48",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1r7zn0r/btc_weekly_rsi_just_hit_covid_crash_levels/"
+    },
+    {
       "title": "Bitcoin ETFs hold billions despite price crash, but resilience masks harsh reality - CoinDesk",
       "polarity": 0.052599068731069565,
       "ts": "2026-02-18T06:10:20",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOWpYVWkwUEVKbU9kTktXTzYyNjltWWtBUzNUQXhBTUxtcVFIeldxQlFKUEMwV3g1SzRzNHh1dTkxMGNyTFFGSkNNaEF3RUdCNEF0U0ZIOEJ1VGQzc2IxazA0RUxxUDJXXzdzX0p0YXUtc29WcTZ2VkpVMEtVYTJ3T0pmQzJjU2RONE9WNV84UHEtYnN4SlZLY0JUNWxsVUdMMzVTNnB5Rmh2UHpNTHFsVzllbUlFRUxlX2xFVHVRTkg?oc=5"
-    },
-    {
-      "title": "Intesa\u2019s Crypto Push Includes $96 Million in Bitcoin ETFs - Bloomberg",
-      "polarity": 0.046535749919712543,
-      "ts": "2026-02-18T10:03:12",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWUNYQUNsV3ROOUdhVFBYc2pBejVpZGh1TldSS0ZacUtneFQzTUxFR2tRWWgtUlZ2b0N1T1EtNlJfcE9MVnpxelRXSFF1c1hWa3k4bmx2NzA1aFVtSTFvVnpXaVVJQkw4cDJLVS1CNlpkeEljNF9ldEpVWkJxZGhCX2dzZGdzTkowUXBndmV3eEdocm81NS1jWnJjcV91TlpNY0o1WG5ycnNfRmpqcXVlS1FyaDJSVEYwbFdxNDJGN25LRElvUVEw?oc=5"
-    },
-    {
-      "title": "Intesa\u2019s Crypto Push Includes $96 Million in Bitcoin ETFs - Bloomberg",
-      "polarity": 0.046535749919712543,
-      "ts": "2026-02-18T10:03:12",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdndydUgwTVpFTG1hekpOMmlWbFpqWkdGcEZCT044MHl5a3BFR3UzZWN5OXg4bl9wQjd5S1lmOUxtSXhTSkE3SThLRWdZWWQxRXoxdGUzSTJ0NVJKZTVhWkc2bmsySWdiaDBieldJamc0RnNqTlR0SVZ2aXZfTTlYRk12YTNPNjU0WkpvU3VIYTAxZ05SNEZESlRWTnRUcGxUUFBYLVFobnQyZEU?oc=5"
     },
     {
       "title": "NAKA Stock Pops On All-Stock Bitcoin Empire Deal At Steep Discount \u2014 But Is Retail Fully Convinced? - Stocktwits",
@@ -86,11 +79,25 @@
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPV1pUaktOS2RmQ2lkZmlfdnlFdkxEOHhfOUFzMzdjLVlFdnNoSGd4MGR3ZHVCOHJQQTEycEVzckxDRUJpRlpzd0VsbVpSRmQxc0N4MHlTNlRQUTVxY2dGVUVGajZGeVo3T0U3N0drbzZ6cUxvM0E4Z08zZDRoV2xNMzJXdTYwSnBrNWJsMFY1QkZNanI0cE1ySVFHb0l1U0dQVy1LUWkxdkZWaWdKZ1lJYXNrVHlidDFfQmhDVV94QzlVMmJ0eWJpMTN1OE5xblRUQ05xcA?oc=5"
     },
     {
+      "title": "The Modern Guide to Balancing Bitcoin, Gold, and Tokenized Real-World Assets in Corporate Reserves - businessfocusmagazine.com",
+      "polarity": 0.027851518243551254,
+      "ts": "2026-02-18T10:54:13",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWXN6VkhJaHRNSTVFal9hWlF4bFRLNTR6TzJVZU1SR0FZN01zYUo2LS1hMWNYcFAxbHNtaU0zRXRVRDNwRW1lTmNkZTlpMm43cm9hQW1vakZCSGYyZXlCQnpBdElFZUZSazJxSU5VQXluZldBMTUzNVV3LTA5SEN6ZndFanlNeTdMTHdYTlI0ZGdtLUFOM254OHNnRVY2Ukk2MDVGeU1tMHRKT1RyT0JYcHdZYU5hTkVmWmdjZVNSbkFtRzlnenFPQjljM2JwLTJSeVNyT0Y1X3RWQQ?oc=5"
+    },
+    {
       "title": "how to sell a very small amount of BTC?",
       "polarity": 0.025794686749577522,
       "ts": "2026-02-18T05:32:00",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1r7ujdq/how_to_sell_a_very_small_amount_of_btc/"
+    },
+    {
+      "title": "Intesa\u2019s Crypto Push Includes $96 Million in Bitcoin ETFs - Bloomberg.com",
+      "polarity": 0.024463552981615067,
+      "ts": "2026-02-18T10:03:12",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdndydUgwTVpFTG1hekpOMmlWbFpqWkdGcEZCT044MHl5a3BFR3UzZWN5OXg4bl9wQjd5S1lmOUxtSXhTSkE3SThLRWdZWWQxRXoxdGUzSTJ0NVJKZTVhWkc2bmsySWdiaDBieldJamc0RnNqTlR0SVZ2aXZfTTlYRk12YTNPNjU0WkpvU3VIYTAxZ05SNEZESlRWTnRUcGxUUFBYLVFobnQyZEU?oc=5"
     },
     {
       "title": "BTC/USD Forecast Today 18/02:Bitcoin Continues - DailyForex",
@@ -107,9 +114,23 @@
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqNFV4c1RPaEtPZHF5Sk1fdFZwWlMyZmtOS0R3U1p6SzM4SVBINjBFeFJQNS1qT3VlUU9MUVNTbjYxcGp1ME9VT3lSbVM3aTc3UmVxZW5DRTIwZU5WVVY4N1BWS0U2NXZFUlJVaXdOLTR1MGxCVk9HeA?oc=5"
     },
     {
+      "title": "The Bitcoin Vector #43 - Glassnode Insights - On-Chain Market Intelligence",
+      "polarity": 0.012860866263508797,
+      "ts": "2026-02-18T10:29:35",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE16QWVKa3dyczVmN2lWU2t0V0dtZHpxQlMwUmEyNGpPOUo4aGVZTFVubEVqRnZsdzQ5RV9zUFdibXotQXhPbTU3YzRPc3NxSDhUU1lUVVZ2MXFOVTE4WWRKNzJ6RQ?oc=5"
+    },
+    {
+      "title": "Starboard Urges Bitcoin Miner Riot to Speed Up Shift to Data Centers - Bloomberg.com",
+      "polarity": 0.01158878579735756,
+      "ts": "2026-02-18T01:01:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeUhoUlZZbDdYQWZSVi00RW01X2V3VVV6dWZWRUF1bV93LUF5dlFIa0RNY3JjVmhQUENNTUI5OEdaNmNtZWN3ZmZwNzF6QUZnWDViYkI3UGQ0RFAweWJtSHEwb3c3c1R1X2dya1NiaFBMaU5rQ2IzMzk2ZmluYVJNUm03QktEQUJOYTl5S1hMQlQ2NGNycFFzWmZJQ09rbzZPbWNKaFVhcVU2WE9KbUJzcjFsTTBGUQ?oc=5"
+    },
+    {
       "title": "How Bitcoin can demonetize farmland - Iowa State Daily",
       "polarity": 0.009164296090602875,
-      "ts": "2026-02-18T05:16:17",
+      "ts": "2026-02-18T05:21:26",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbThza3V0OWNYWXFMbXhRcFVoZlRKUXFGLWdFanZKMUhQRWRRbVF6M2gzYS1fbUVBSV9WVV9IbURPYnR4aDR6THppLTRxcjRrS1hkcWZITzMtd1UtRFhEWmpzMzRjUWRHaFdydjFodVFDcjBCQ1hzQnkwSW5QaDF1Zg?oc=5"
     },
@@ -186,6 +207,13 @@
       "url": "https://cointelegraph.com/news/bitcoin-divergence-tech-fire-alarm-fiat-system-hayes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "title": "Arthur Hayes Warns Bitcoin Could Fall Below $60,000 in AI-Driven Credit Crisis \u2014 Why He Still Sees a New High After - Yahoo Finance",
+      "polarity": -0.8904172796756029,
+      "ts": "2026-02-18T10:21:38",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQY2xROEpCWW9xcWpDWmZrR0VyUWpQMjV1ZEtfSVVScF9kWDNweHM3LThkZTQ0dEpuQjBoS21sTWc4TkJTanBzMllFMG54dFBtLU5naER1Qmk1NGI3WjdrdzNqZXp5cEFOMjI1V3hxbjc4akpfM1pkSTBlQ2lGQ0ozdzE1Z20?oc=5"
+    },
+    {
       "title": "Bitcoin's Divergence From Nasdaq Is a Warning on Dollar Liquidity: Arthur Hayes",
       "polarity": -0.8597770221531391,
       "ts": "2026-02-18T03:43:18",
@@ -197,7 +225,7 @@
       "polarity": -0.7775982525199652,
       "ts": "2026-02-18T09:05:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihARBVV95cUxQSURhNVBSQnMtQnZRRnotZXRzSEtxSXpwWVpVVDVRSjU2TlFmQUpicmpjc0RzLTNKTVJIUjJ5OTRwRWpDUTBrLThHblZFR2VDcWpTYzVtRFd3RE0ySDNJcHVFcjZyMkQzeFR3MjlJUkVXcWlfUFFwZnRaVUtzN0xweU40UllYQUNVY2V3Zmw3MHlNOHpybk1pNW95NmNaaEtGUkp3QUhwbEVEelF6NHFFUDB3QkZ5YzZMd2RmV0xyNUpETW1LWHRza243bS15cTItcWpmQzZyanBXekt3R0N1SUNRVTd5RXRFQy1xSno2Vzh4WFkxWUF0RnFnVTBnSkhneWtsV3dKN2M4T3ZxN2xTZmJ3bmR3TWlOU2NqeWJQdlloWHJrS3ZGa3RJS2tYVVBwZEc3dURVMmwwTEV4ZEhqZFVHQ29VOF9ZN3ZNWFlaYVQzZzRRYTVHZmE0QzB2TWJKcWpXSE41eHFqWk1GaVlxR09ETm4yWkNfNkFGNjRMYXctbWN1cjVzWXZ3cDByMmxHVGNLYjU3VDFFc3hINU45aE9GMGRTUFl5c3ByOVRTTHVNYUlkYURMY0FFbGRUOHZBdUR4ZXhlRngyWW9oRWF3My00QmJHdWJwN1NzbkdBbVZ6bW9OVllYZlQxSV96YUZWalJITzRTOE9wSmpmMUo3SlpwTEw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMihARBVV95cUxOXzFnMFMtck1FbjFoYTVHSkNWUFR4NWxfVnN4ajlWOC11ckpxY3FRR1d4dU5rOU5fWFhEQnNURTdYTkFzU284ZWVnTDVrYXNEcmRSNkRzNlVsczEzV1pzcDVaYlJxWGJaWmpLZWxSeklDWG5SUFFoVUY0UTltYUstd3pURHFfRW1DbnI5ZW5rbFd3bld4Ny1wMktnQXh5YTNMM01uXzZ0OGE1Z2dXVVdhTE0yb21OX25LT19WMFJWVkZEZFFhUkVLQkdjYVRmeTdPYU5DVzZNZXBhWnN2ZEZCd0RJMDE4cnFFa0ZPMS1IY1o0THhqeUpWX2IwS3VScm1VWVhsN1lwM1d3d1k0bjB5dVV3LUJWajBnNU90VDBsX3pJRF9GS1dlbl9jQVpKUWFDVnotTDlDbUFmZlZWYVJzSjduYTNOOFo3cXI1Q29qTGdVYWNBU2x5NnM5MEFjOUVVcFZGeHNVV1ZhWjUya3NrWm0zcFpENDdkX1hWZkdzaFNrT3kzcnN6QzZFdW9jTWpYMUNCX3BzNDI1SXhJUmw2V1Q0dXk2eEhNZloxeURmWGVEaVlCQ2k1RlVCR2lTSTZjUlY2VHUxaUxuMGNCYVpFVllIeFpGV0F5bWZlSmxzbHhmSXNxRXRfMlluUkJ4QWVjV3ZLRmJraVVSdW5tQk5EdnBHX2w?oc=5"
     },
     {
       "title": "Bitcoin ETFs log $105M outflows as mystery IBIT buyer surfaces",
@@ -219,27 +247,6 @@
       "ts": "2026-02-18T09:03:20",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1r7y2gc/been_tracking_altcoin_sectors_last_30_days_ai/"
-    },
-    {
-      "title": "Eric Trump Celebrates American Bitcoin's 'Incredible' 6,000 BTC Milestone \u2014 But Stock Has Sunk 85% Since Nasdaq Debut - Benzinga",
-      "polarity": -0.6285919658839703,
-      "ts": "2026-02-18T05:41:53",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOYlZ3ZnR2alFiRTVaWTd0NWxabk5xRi1qaFRJYnNiSS1NOEtDanQ3eHVuZE15dFp4LUFyVDJ4d1I5eE5iMVc0cklGTmt3dE5fV08xUjBnUmtVQ1BMejA3Y1BvejB2S2lOVnB5dlVLcnduck5sNGIyV0QwZ2ZDc1ZOTGkteWhUTlIwUDcxTkl0ZmxweWxHWF80YnNnTDN4Q3hVaTA2czlGVktvWVBsRHc0SFNNa3JSZkNuUzVPYjJYWUd4a1AwSmdsc1VxUWZkZlFfZjBzSVV3SU5ON085dm40cXhpYUdXaC1OVXVvQnhqcERFcE5XcGJuS3lSNDJqVE9tVUE?oc=5"
-    },
-    {
-      "title": "Macro Wobbles May Send Bitcoin Back To The $50,000s, Industry CEO Claims - TradingView",
-      "polarity": -0.5369788780808449,
-      "ts": "2026-02-18T10:00:12",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNWtBWlpDZXFEdW4zemV6TVEtLWpaVlRjZV8tcUxnUTk3cG1xeldGaHhNZkRYbVBlWUYxNVlqenRUTjNwT3J5djlzVlpsNFJkRE9sNDN5REdzWTh4YjJNc2xxQ1ZGbko4VTA0LWJYUDBCNkYyQWtORk53ZVRlazAxMERMejhUNjNYbHExNVBCR2ZiSy15YlhlZEI3VWVPamdtZHpMajJlWFR5T1lyQ0xybGpRdlp0ZEZMT1VMbXJ0bU9sTFlMQUUw?oc=5"
-    },
-    {
-      "title": "Pi Network\u2019s PI Token Is Back in Green as Bitcoin (BTC) Struggles at $68K: Market Watch - CryptoPotato",
-      "polarity": -0.5214342027902603,
-      "ts": "2026-02-18T08:36:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPS2FwXzZYaXFkRmlOa0FCWlBoeUlKX0k5ZnR1MkZ3RENOcFJDTFNWTVplMzdnSmdpNlR3cWxTaFY0eHhyN1pEUHRfQ01udGFzZW5JRHdIZVg1VDR1YWdXRXNiNzRXX1NUSmRWZVBia2xEMmJ5YnVoTEh6RXA1VWI4NnR0dXczcTlnczJTaE5MSVVrU28yQzg0YmhsdGdSSTJBVy1fQXE3b2VzbTBi?oc=5"
     },
     {
       "title": "Moonwell hack shows new DeFi risk: AI-generated oracle bug",
@@ -282,6 +289,20 @@
       "ts": "2026-02-18T03:16:26",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1r7rr6g/i_just_hit_017_bitcoin_todayj/"
+    },
+    {
+      "title": "If No One Owns Bitcoin, Who Pays Bitcoin Developers? Inside the Hidden Backers of BTC Core - CCN.com",
+      "polarity": -0.022041726857423782,
+      "ts": "2026-02-18T10:44:37",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVU0td2dPLUpUeDAxYzRLZXVOZV83NGlTMUlJbS03S2dXeWVkMkJOX09lUDZmUC1VRFNTd1FLRXIzQ3YzZDJMZFZPTm9iSVFCeDFNbW9jcjVIeEZsaGFYUUU4TkRWQy1HQUY4TkRVTEtrRGUwMXhLMW9tdXBWRHZwdE1DZDI3SmdlSjVNU3hBcS1DWGo4VGhUdzZ2aE5uOG9INnZB?oc=5"
+    },
+    {
+      "title": "Quantum risk and exposed Bitcoin public keys: protocol implications",
+      "polarity": -0.004964128136634827,
+      "ts": "2026-02-18T11:04:45",
+      "source": "r/CryptoTechnology",
+      "url": "https://www.reddit.com/r/CryptoTechnology/comments/1r803a9/quantum_risk_and_exposed_bitcoin_public_keys/"
     },
     {
       "title": "Bitcoin's tech stock divergence is a 'fire alarm' for fiat: Arthur Hayes - MSN",
