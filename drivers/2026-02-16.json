@@ -2,25 +2,18 @@
   "day": "2026-02-16",
   "positives": [
     {
+      "title": "MicroStrategy claims it can survive Bitcoin crash to $8,000 - thestreet.com",
+      "polarity": 0.7794564180076122,
+      "ts": "2026-02-16T16:38:35",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYmt5QVY4RlJNNm5iZTF4dWZXWHRuXzh2N25IZjU4bHQ2TVBPSzNmVnkxSy1Za3pUMl9UeW9hSkJRNUMyQkxKdzRqcFJDYXZtdXBULWhTMlp5TC1KaTlhT3o3ZENHX1l4UV9tbTR1NlFJR0tydnNnczV5R1BVVllub0ZHVnZKOUhjNVBJU1pWWmhTdHliNm8zYnl0Yzhvamc?oc=5"
+    },
+    {
       "title": "Michael Saylor's Strategy says it can survive a bitcoin (BTC) price crash to $8,000 - CoinDesk",
       "polarity": 0.6041467469185591,
       "ts": "2026-02-16T09:09:46",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMkRQZFVYbDl3WnNwTmFuaW1SLXZJanY0aTdBZXo1WXM5ZUc3bVR0VlVyR3A0SFNVUjFfRmw2VFJ2b2ZnU3M2RWV4S0ZLaldLQU0zVzhYZm1pNXJYQ056Q0dCbTczRmVmX0RkSmNqXzlNZGhCekVodHlLWnFKb1N4bzM2Smg2Rm11ZWtJX3RlYnhxTlc2TTRPVHZjQlRjNnZRRUllVU5PWmFwc1UzNVN0cVFzZzFIVXVveVh2V0VVdUZXQ0tYTXVhOA?oc=5"
-    },
-    {
-      "title": "Aave founder: tokenized solar and infrastructure could unlock a $30\u201350T DeFi market",
-      "polarity": 0.19001027662307024,
-      "ts": "2026-02-16T14:59:23",
-      "source": "r/defi",
-      "url": "https://www.reddit.com/r/defi/comments/1r6bts0/aave_founder_tokenized_solar_and_infrastructure/"
-    },
-    {
-      "title": "Payjoin Foundation Gains 501(c)(3) Status, Enabling Tax-Deductible Donations for Bitcoin Privacy Development",
-      "polarity": 0.18035977892577648,
-      "ts": "2026-02-16T16:49:49",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/business/payjoin-foundation-gains-501c3-status-enabling-tax-deductible-donations-for-bitcoin-privacy-development"
     },
     {
       "title": "Bitcoin 'Boom-Bust' Era Is Over as Institutions Take the Lead: WisdomTree",
@@ -60,13 +53,6 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT241OTZFZV9MSmFpOW9oNmNhNzdGdXd5cVhmVFpkQnpOUmt3QzBxLTd6bUFiYjRRTC1ib0xfQUV6bWNhRk52THJ3S0xkU0xoVkZVRy1KMUVPVzhJeS1sYXIzTGlOV3d0eXhWd1V2UTRsckdiUElxN0dxbTAxa204ZHR1eXNrUXVDTnE3OWpBbUlST2cxMnFtUkYtaFFzN1VZblN2Y3lvVFZQU0k?oc=5"
     },
     {
-      "title": "Metaplanet Reports $619 Million Loss As Bitcoin Holdings Take Hit - Bitcoin Magazine",
-      "polarity": -0.9504341594874859,
-      "ts": "2026-02-16T18:49:54",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15ZGIwd0dhTVZfbHhkY0FHT19mMEMzbU5fYVM5aWVtTnBXVHJLZlZZTzR5dkNLNjBYMUlCNl9BMVplUHJ0WlludmdKdTJzQWo5RWxzdnoySDZ0NXEwbEFMV1A3T0lhczVjWTFVMm1oUkdmMk1vZHRj?oc=5"
-    },
-    {
       "title": "This Top Analyst Warns Bitcoin Price Could Fall to $10,000 as Bear Market Deepens - Yahoo Finance",
       "polarity": -0.9476719917729497,
       "ts": "2026-02-16T12:53:32",
@@ -88,6 +74,20 @@
       "url": "https://decrypt.co/358184/bitcoin-longest-losing-streak-2018-bear-market"
     },
     {
+      "title": "Bitcoin\u2019s slide may signal broader market trouble and a U.S. recession, Mike McGlone says - CoinDesk",
+      "polarity": -0.9336219290271401,
+      "ts": "2026-02-16T22:03:03",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSEtyT0M4a1p4WnFETFgwRHE5SFlEa3hWMzhGQ1Y5cnd4Y2FldXVLYXRVZjZCMFZfYjJ3RDNuUW1LMXM5LWZvOXZ6RDVkdXFuUDNRdGRNbk8xblBhWTdJQXVxQ0FWWDZDMG1PRGR1R3FCWTZCRWR0bVZrWVNHZjlDV0xiUV8wSy1hZnVUVmFqdGgzY09BMmczbVV2cF9NY3hGRFRtRHZhVXFfRWFTcTljWWd1LUVPekRUMjZ6cG91cFNjeEs0amNKN0gzSQ?oc=5"
+    },
+    {
+      "title": "Bitcoin Looks for Direction After Four Straight Weekly Losses - Bloomberg.com",
+      "polarity": -0.24389874190092087,
+      "ts": "2026-02-16T15:53:31",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVHgwN0pSZ1RQR3drTWRUbnJGLWsxamdpbUhIZHhZZEtYZ0V1SmRWa3N5M2FEcU4xZGlxVi13N0tfVTdXdnNBM3JUSlBsQzdIR0RFQ3ZrVUljcnFETHMwQmVKOU5FcHdEakV2YmpnWXUtVmg4am5nRkVUUlBoU3A0Qm93WExKM1FzaHB3dl9Na2J0RWd4SE5SUzltejdmbFVjUnMyWGlaWEVVVFpWVEtQT3pn?oc=5"
+    },
+    {
       "title": "My thoughts on current market conditions and my updated plan \u2013 loading up in extreme fear",
       "polarity": -0.210768461227417,
       "ts": "2026-02-16T00:57:45",
@@ -102,25 +102,11 @@
       "url": "https://cryptoslate.com/coinbase-diamond-hands-vs-binance-panic-sellers-the-60000-stress-test/"
     },
     {
-      "title": "$2.5 billion liquidated in 24 hours. 80% were longs. sharing my near-death experience",
-      "polarity": -0.1508997604250908,
-      "ts": "2026-02-16T13:01:40",
-      "source": "r/CryptoMarkets",
-      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1r690uk/25_billion_liquidated_in_24_hours_80_were_longs/"
-    },
-    {
       "title": "Bitcoin Bears Dominate: Failure to Break $71,800 Keeps Downside Risk Alive",
       "polarity": -0.017863603308796883,
       "ts": "2026-02-16T18:21:12",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/markets/bitcoin-bears-dominate-failure-to-break-71800-keeps-downside-risk-alive"
-    },
-    {
-      "title": "Bitcoin 'Boom-Bust' Era Is Over as Institutions Take the Lead: WisdomTree - Yahoo Finance",
-      "polarity": -0.00016939640045166016,
-      "ts": "2026-02-16T16:40:48",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBiSTRUUzI1UVh4RVFiTHl3N1ZNc091dnNKenZJUlduR19BX2JyeG1IcXJSX2gwWGlncTY3aEtkc0l1cUNIR1hQbE1aWl9nWWQ4Y3YxQzB6N1ktNy0tZV9HWTlOZmVTaHRmQnk1NTJpS3E4VjVrdGkxdl9DSE8?oc=5"
     }
   ]
 }
