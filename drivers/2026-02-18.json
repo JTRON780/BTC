@@ -2,6 +2,27 @@
   "day": "2026-02-18",
   "positives": [
     {
+      "title": "Starboard Urges Bitcoin Miner Riot to Speed Up Shift to Data Centers",
+      "polarity": 0.45359029341489077,
+      "ts": "2026-02-18T01:01:11",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-18/starboard-is-said-to-urge-riot-to-speed-up-shift-to-data-centers"
+    },
+    {
+      "title": "Ki Young Ju Says Bitcoin May Need to Hit $55K Before True Recovery Begins - BeInCrypto",
+      "polarity": 0.24081623554229736,
+      "ts": "2026-02-18T03:07:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kZ0FXWFZxcnozUGtpd3hwTllUemJralRJaG1hR0RMUjF6Vnc0U0w0dFlUaUJwTXBlMEF6dFo1YnRhZW9xaFg4d1lHTGx6bGgwb3Z3Wl94UzNDVFE?oc=5"
+    },
+    {
+      "title": "Starboard Urges Bitcoin Miner Riot to Speed Up Shift to Data Centers - Bloomberg.com",
+      "polarity": 0.011588603258132935,
+      "ts": "2026-02-18T01:01:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeUhoUlZZbDdYQWZSVi00RW01X2V3VVV6dWZWRUF1bV93LUF5dlFIa0RNY3JjVmhQUENNTUI5OEdaNmNtZWN3ZmZwNzF6QUZnWDViYkI3UGQ0RFAweWJtSHEwb3c3c1R1X2dya1NiaFBMaU5rQ2IzMzk2ZmluYVJNUm03QktEQUJOYTl5S1hMQlQ2NGNycFFzWmZJQ09rbzZPbWNKaFVhcVU2WE9KbUJzcjFsTTBGUQ?oc=5"
+    },
+    {
       "title": "Circa Las Vegas casino hosting Bitcoin takeover event - CDC Gaming",
       "polarity": 0.007420126348733902,
       "ts": "2026-02-18T00:06:41",
@@ -9,5 +30,48 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWUlWbWFvRllMNXE1Zk5Yd01iTXZJeTdvY1dhZ0JQcS1sVXh2MUstX0VPSl8yTlhaQVRISmdZN3hZQlZiR0U5RTBFZlF1Y1hWRVp2d3paZW9xOTFTdGZYalpUSXROSXdiVVFtUUtPd3g2dF84dmJIdHdKT2lmeTVmUHpNZk1nUndaU0E?oc=5"
     }
   ],
-  "negatives": []
+  "negatives": [
+    {
+      "title": "Top cryptocurrencies fall; Bitcoin holds above $67,000 - MSN",
+      "polarity": -0.958050555549562,
+      "ts": "2026-02-18T03:11:15",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbkVScjQxVDRnQUx4OVhqaXZhTlZtSlNpWVB5OWRSdWUxRWg2SFFhTjlJUHR4UUtmZHlXMFhQSWhLdnVQOE5JbFFvYUkyc1ZfMURNd3g1ZGc5TUdMdTd5czNNbFUtNE03RWp1SHE0RXVlUC1rSk9nT1plSnBGbmF0NkluUlJaNzU5NHd0YmhDcEx0YXVSbVRVZ3FjTDhlNjhCR2FfSUtVaw?oc=5"
+    },
+    {
+      "title": "Bitcoin's Divergence From Nasdaq Is a Warning on Dollar Liquidity: Arthur Hayes",
+      "polarity": -0.8597769364714622,
+      "ts": "2026-02-18T03:43:18",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/358372/bitcoin-divergence-nasdaq-warning-dollar-liquidity-hayes"
+    },
+    {
+      "title": "Bitcoin's (BTC/USD) Battle: The $70k wall and technical breakout hint at further downside. Is $50k a possibility? - marketpulse.com",
+      "polarity": -0.09167265146970749,
+      "ts": "2026-02-18T02:03:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNT0RvdXJiVDRYUDU5ZjMzeExqUUctQlJGZ1hOM3dObTAwWklXdkFWalZGVlg2UkFTOWdZWEc4aUcySERnYWhOdXRWQzVsYjdJS2g1UXhTcDRBZG8yOG1VbzE1d3pRMnl2OXNCc24tTHh1UC1KblRMQnowTXJDWEo1ZTN6VklsNFo0ZzU5Q0NXd3hBLTlTb1REY0hxVjZ0LUJWb25RQzljM3Vlc2doNTUzaTJqVmJZbWxYcGpveU9BZ2o4ZFIyMHVodW1jX3RZWXR3TjRTWGozVmo?oc=5"
+    },
+    {
+      "title": "Bitcoin's Divergence From Nasdaq Is a Warning on Dollar Liquidity: Arthur Hayes - Yahoo Finance",
+      "polarity": -0.07000555470585823,
+      "ts": "2026-02-18T03:43:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNHk5QVdzcVlBaXBIQTNwS0pGeFd1ZVlBNGE5cG9MbXpGZWhFSjlsUUlrUzhHT1J4S3JUMVJKOFF4YTk1MkdoMU1xVzdMcEtYSFJua1pJUjhRUnNsbm91RGk2WnRBc1ROdDdvMGhIT1JDMmZKc3FSQXZDMllHZzZJc1Y0UWZoejhfQVM4LUdsRHY?oc=5"
+    },
+    {
+      "title": "Bitcoin's Divergence From Nasdaq Is a Warning on Dollar Liquidity: Arthur Hayes - Decrypt",
+      "polarity": -0.04681980609893799,
+      "ts": "2026-02-18T03:44:04",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcEgxb1plcDlWYjF4LU9FSnFCZm44MWpZMjZoU0NKR19TbHlEbVlPd3dIajBtaFM2LXRsSXNTRVBOVnl6cEtsNDg3ZllKbHlqeVhEV0FHM0wtamU5NmpCVEd4RXkzTlJXTURGV2lMREx5WGZKRnBoZ0haUHdGSWFQelg3WTFNMU1NYVHSAZIBQVVfeXFMUGpmN2ZadjR5TGdobEZKWnNkVGlBbXZGNTN0Y3ZIQVhoWWtPdHJMMDJkbEcyU2Nmc2dkMWViUlNrNEJ2ajU5cjF0SExLczRZV3Q1b1JlRGZFQmNDM0dYRUMyRkpuXzU4aldMTjB4SHpPM3pOUi05UnlMWF9yc1dvbHBfaUhnRHM0NDdEczc4RjNqQlE?oc=5"
+    },
+    {
+      "title": "I just hit 0.17 bitcoin todayj",
+      "polarity": -0.024583440274000168,
+      "ts": "2026-02-18T03:16:26",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1r7rr6g/i_just_hit_017_bitcoin_todayj/"
+    }
+  ]
 }
