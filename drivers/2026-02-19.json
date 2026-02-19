@@ -2,34 +2,83 @@
   "day": "2026-02-19",
   "positives": [
     {
+      "title": "WLFI surges 10% after Apex stablecoin deal, outperforming BTC and ETH",
+      "polarity": 0.9040544033050537,
+      "ts": "2026-02-19T03:10:20",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/02/19/wlfi-surges-10-after-apex-stablecoin-deal-outperforming-btc-and-eth"
+    },
+    {
       "title": "Key facts: MSTR's Saylor buys 2,486 Bitcoin; long-term holders surge; BTC stable at $67,600 - TradingView",
-      "polarity": 0.8301049619913101,
+      "polarity": 0.8301052711904049,
       "ts": "2026-02-19T00:03:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPMUsyTE9VbDRmVGctTlpwSEkwbW00NEtJaTY2WjFrLW9fWjJpUEVKaGdqbXo5U0t1SXpvTl9pRTNickhXZ2kyQzJOXzFuV2xCdGZ3ZjBYeEJPeS13UlZPdEdXT3VyaWlsVG9MQW9Uc0pJZ3BVQzBad1lndzF3c29OVF9PckhXUFBLWkVxaEZQdnEtSXFZNm51MWt3c2dvd1cyYjhKb3dBSzdIR3ZXSXRUeF96aTQ1TENseVp4NzdLUGZ6cUN1ZXFMRVdmX1FBSXdaNUR0WEpRVUhDUDRoRUpYbG5Wcw?oc=5"
     },
     {
-      "title": "Bitcoin's Leading Scythe: A Reverse Takeover After a 99% Stock Price Plunge, A Predesigned Nasdaq Harvest - \u5bcc\u9014\u725b\u725b",
-      "polarity": 0.07294066995382309,
-      "ts": "2026-02-19T00:03:17",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbWR5OUJlSTVaekhjbkllRTBwMl93eDdmYVJCZllnZGNQTGZQd0Uzektkb0c0cDlRdWYxNXhsSHhMWExxWkFTR3ZDNXk0eHVyUTJMbFZoSXUtaDAtcHBqc0thNVdXSkR2a29iMzYzMDUyTjZ5N1hMekFKQVNYOW9SS3NWYkVlcVlMVkpJcThseGRNekVmUzl3QlFPUQ?oc=5"
+      "title": "LONGITUDE recap: Bitcoin\u2019s 2-step quantum plan, US crypto policy",
+      "polarity": 0.072864243760705,
+      "ts": "2026-02-19T02:56:03",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/cointelegraph-longitude-us-clarity-act-quantum-computing-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "negatives": [
     {
-      "title": "Bitcoin Falls Below 100M Won Amid Contrasting Forecasts - \uc870\uc120\uc77c\ubcf4",
-      "polarity": -0.8113612290471792,
-      "ts": "2026-02-19T00:02:31",
+      "title": "BTC will probably fall to $50k within a few weeks?",
+      "polarity": -0.9419779740273952,
+      "ts": "2026-02-19T01:34:09",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1r8lwek/btc_will_probably_fall_to_50k_within_a_few_weeks/"
+    },
+    {
+      "title": "Bitcoin Falls Below 100 Million Won Again Amid Divided Expert Forecasts - \uc870\uc120\uc77c\ubcf4",
+      "polarity": -0.8511513192206621,
+      "ts": "2026-02-19T00:23:55",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUDFlQnhhNTA0ZVJILUdLQVhydExtMzlXQ0VWcW90UHpHN1oyVnlyZm9aSHRRYlJKWkhZTkhPN3pDLThraGVuT1B6bk15WDZiTGdqMDhiTzNUVEE0VVNyd3RLdGdsRU5tVlFSR2JHWm9DeTRDaUk5YWhZRzgxSXhlYXowMXE0Nk5jWUt3SHZB?oc=5"
     },
     {
-      "title": "Where Is Bitcoin Headed? Arthur Hayes Predicts $60K Breakdown or $126K Surge - Bitcoin.com News",
-      "polarity": -0.07622620835900307,
-      "ts": "2026-02-19T00:38:57",
+      "title": "Bitcoin Caught Between Hawkish Fed and Dovish Warsh - BeInCrypto",
+      "polarity": -0.7453347630798817,
+      "ts": "2026-02-19T01:25:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQmlTMW9JZDdBU1lxSExxQUh6dllFeTRHRTZLRkNXVHlkSjNudUp1QmJXUXA1ak84aU81MHo1NHd4V1BiakNWNUMxSS04dXNXcjdzRkt2c3pxbXZYeGhQblIySGQweTc4cGgtQlMxSUFWU0FRbUxNQ1dRdngtN2dBc2ZjWHBGT1pMUXh5OVJrYjluM3Y1blZDQUlmUGl3LXBi?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVlpOUXlBU2dvenkwT3pSOHVHSWxLc3F1dFp2NTA4UFlJTzA0ZzhYcF95RmllV3NTdHp3UUZTTWRITEhlVlRvRjUxRXNRdTFyZEg4YUNsNG1KMDMxcUY2SzR6TXJpZ0FlNDE3QnRJbUNmb2RVdGdXLW0yc3JKaGZ0Zg?oc=5"
+    },
+    {
+      "title": "Bitcoin ATM scams in Montana expose residents to fraud risks - NonStop Local Billings",
+      "polarity": -0.2786528244614601,
+      "ts": "2026-02-19T01:55:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdmdFNnlfaGFsakhUZ3dPUW00V1dUN1FOWjBrS2stS2dFS1FXdUcwR3BOdnV1Q09hZUIyeHhBM0lLWWdxM2R0SVJZQmh0bzFMRU1MX3MxOEJwQmEzbFBrSE1JbHB6WW50RXIxSTVVLWRhUDBfYUlEMzMzd253WjR4MVZKSXJSZ2VqcWt4a0hFeXU4LTRWc2UtWVpsT0tFZGJvZ0tBWk5Zb1cxUWdEUy15b2pzRUV5Z1ZNZ29Ld0M1T1JzRTl5YW1yOW5IWU9PdTBQ?oc=5"
+    },
+    {
+      "title": "Cryptocurrencies: Bitcoin Remains Below $70,000 - Advisor Perspectives",
+      "polarity": -0.2670782823115587,
+      "ts": "2026-02-19T03:07:44",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRUh0XzFJcmJqbnQ0c3V1QXhqeUVxbGs1QlNrX0hYcS1Zc1JGVTVWMEVwRnoyeWtzSEhmOVFmX3hwRUNqcS1xVlFuT2FVdEtnQ0wwUTY0OGFpWXdJSFpKZktwdi1qTENhZFE3N0M5dzFFUkpuYzZsTklDS2xGWm5nRTk3NS00RFhndTVZQUM2aG11RGpvT1F1XzlRODhTbVpNd3JyWEx0d0FuQUE?oc=5"
+    },
+    {
+      "title": "Shorts are crowded. Technicals are ugly. My model says hold",
+      "polarity": -0.06485702097415924,
+      "ts": "2026-02-19T03:31:56",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1r8og98/shorts_are_crowded_technicals_are_ugly_my_model/"
+    },
+    {
+      "title": "Bitcoin\u2019s consolidation nears \u2018turning point\u2019 as $70K comes in focus: Analyst",
+      "polarity": -0.00825202465057373,
+      "ts": "2026-02-19T02:25:29",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-s-consolidation-nears-turning-point-as-dollar70k-comes-in-focus-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Ledn's Bitcoin ABS is no wild crypto punt - GlobalCapital",
+      "polarity": -0.0052842870354652405,
+      "ts": "2026-02-19T01:25:45",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRXUyWW8xS2YwR1J5bThFOU1PZWlxRXJwRW8wdXVjTWJEd2xONXdybkdzS1I2dGhKX1lMU3BrRlBlZkQwdXZya2NLZG5wQWx3TnRSV0FvekltaWJYOHZxWUpzcGJ1bGo3TFVKN1FtamhmRXJkQUwxYl9BVllXOUU5VFpRQ1VwRTlLbnlYMF9VYzFveE1Zc0FwejlxRHQtTWphODEzX3BXWGlUOUUwRndzOG1rbnBHRDdMSWF4NFhpOThMRk0?oc=5"
     }
   ]
 }
