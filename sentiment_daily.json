@@ -164,6 +164,15 @@
       "directional_bias": 0.0
     },
     {
+      "ts": "2026-02-14T00:00:00",
+      "raw": -0.6492793480865657,
+      "smoothed": -0.6492793480865657,
+      "n_posts": 2,
+      "n_positive": 0,
+      "n_negative": 2,
+      "directional_bias": -1.0
+    },
+    {
       "ts": "2026-02-15T00:00:00",
       "raw": -0.8281027935445309,
       "smoothed": -0.8281027935445309,
@@ -174,39 +183,39 @@
     },
     {
       "ts": "2026-02-16T00:00:00",
-      "raw": -0.08366685081273317,
-      "smoothed": -0.08366685081273317,
-      "n_posts": 2,
+      "raw": -0.40990948071703315,
+      "smoothed": -0.40990948071703315,
+      "n_posts": 3,
       "n_positive": 1,
-      "n_negative": 1,
-      "directional_bias": 0.0
+      "n_negative": 2,
+      "directional_bias": -0.3333333333333333
     },
     {
       "ts": "2026-02-17T00:00:00",
-      "raw": 0.04201703240989517,
-      "smoothed": 0.04201703240989517,
-      "n_posts": 9,
-      "n_positive": 5,
+      "raw": -0.32964341811321923,
+      "smoothed": -0.32964341811321923,
+      "n_posts": 5,
+      "n_positive": 1,
       "n_negative": 4,
-      "directional_bias": 0.1111111111111111
+      "directional_bias": -0.6
     },
     {
       "ts": "2026-02-18T00:00:00",
-      "raw": -0.13718206837889133,
-      "smoothed": -0.13718206837889133,
-      "n_posts": 34,
-      "n_positive": 15,
+      "raw": -0.14187937442892493,
+      "smoothed": -0.14187937442892493,
+      "n_posts": 32,
+      "n_positive": 13,
       "n_negative": 19,
-      "directional_bias": -0.11764705882352941
+      "directional_bias": -0.1875
     },
     {
       "ts": "2026-02-19T00:00:00",
-      "raw": -0.17997060731354422,
-      "smoothed": -0.17997060731354422,
-      "n_posts": 107,
-      "n_positive": 43,
-      "n_negative": 64,
-      "directional_bias": -0.19626168224299065
+      "raw": -0.17843304531881932,
+      "smoothed": -0.17843304531881932,
+      "n_posts": 110,
+      "n_positive": 48,
+      "n_negative": 62,
+      "directional_bias": -0.12727272727272726
     }
   ]
 }
