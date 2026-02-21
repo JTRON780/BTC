@@ -156,11 +156,11 @@
     },
     {
       "ts": "2026-02-15T00:00:00",
-      "raw": -0.7132824957370758,
-      "smoothed": -0.7132824957370758,
-      "n_posts": 2,
+      "raw": -0.8281027935445309,
+      "smoothed": -0.8281027935445309,
+      "n_posts": 1,
       "n_positive": 0,
-      "n_negative": 2,
+      "n_negative": 1,
       "directional_bias": -1.0
     },
     {
@@ -183,39 +183,39 @@
     },
     {
       "ts": "2026-02-18T00:00:00",
-      "raw": -0.10554578863084316,
-      "smoothed": -0.10554578863084316,
-      "n_posts": 7,
-      "n_positive": 2,
+      "raw": -0.09028927981853485,
+      "smoothed": -0.09028927981853485,
+      "n_posts": 8,
+      "n_positive": 3,
       "n_negative": 5,
-      "directional_bias": -0.42857142857142855
+      "directional_bias": -0.25
     },
     {
       "ts": "2026-02-19T00:00:00",
-      "raw": -0.1387319403954528,
-      "smoothed": -0.1387319403954528,
-      "n_posts": 26,
-      "n_positive": 12,
+      "raw": -0.13339686088729655,
+      "smoothed": -0.13339686088729655,
+      "n_posts": 27,
+      "n_positive": 13,
       "n_negative": 14,
-      "directional_bias": -0.07692307692307693
+      "directional_bias": -0.037037037037037035
     },
     {
       "ts": "2026-02-20T00:00:00",
-      "raw": -0.15640191878821388,
-      "smoothed": -0.15640191878821388,
-      "n_posts": 63,
+      "raw": -0.13832460200516045,
+      "smoothed": -0.13832460200516045,
+      "n_posts": 59,
       "n_positive": 26,
-      "n_negative": 37,
-      "directional_bias": -0.1746031746031746
+      "n_negative": 33,
+      "directional_bias": -0.11864406779661017
     },
     {
       "ts": "2026-02-21T00:00:00",
-      "raw": -0.11987677948331846,
-      "smoothed": -0.11987677948331846,
-      "n_posts": 47,
-      "n_positive": 24,
-      "n_negative": 23,
-      "directional_bias": 0.02127659574468085
+      "raw": -0.1353421293051232,
+      "smoothed": -0.1353421293051232,
+      "n_posts": 54,
+      "n_positive": 27,
+      "n_negative": 27,
+      "directional_bias": 0.0
     }
   ]
 }
