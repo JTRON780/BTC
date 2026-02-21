@@ -3,21 +3,28 @@
   "positives": [
     {
       "title": "Bitcoin Won Over Wall Street and Now It\u2019s Paying the Price - Yahoo Finance",
-      "polarity": 0.08088945411145687,
+      "polarity": 0.08088933397084475,
       "ts": "2026-02-18T12:45:11",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15YmtiU2tFVXJGcGFzZDFBU25pX0dFZkphWkdTUklXTURMaHpHVXQ4aElfR3BVS3p2cU52S2JUZUtEVlpoTmw1aGNOZW56Z194UC0xRGVtMzg1LXJXc1NhSTYyMFJEYXdmMm4xS2ZDUW1SYktNNzI2TnBLTjZEaFk?oc=5"
     },
     {
       "title": "Crypto Firm Ledn Sells Bitcoin-Backed Bonds In ABS Market First - Bloomberg",
-      "polarity": 0.03901943378150463,
+      "polarity": 0.03901945799589157,
       "ts": "2026-02-18T20:48:06",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMTBKNTNib3RPdHZ4cV92LWppczFRbnJpRnlJa3FPS2xnNDRSVDNXeE5aTlR0ZXhmS216NEF2NnFtTm53cXhrR1NxUlpqZjhjY2p3d0FGdzdDempJTEZVblBsVGRwR3Z4TDEwbWZmTTE0MUUtck9ZU1kxOFZLQm1UX21wVDA5Z050bHFoUGs3d2lmbDFjVEpVX0ZIaG9HM0tLS3Yyc2dfNGxNenpULWNSSmRFQTQ?oc=5"
     },
     {
+      "title": "Goldman CEO Solomon, Long a Crypto Skeptic, Says He Owns Bitcoin - Bloomberg",
+      "polarity": 0.019865358248353004,
+      "ts": "2026-02-18T17:12:05",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUTAzVDVwLTNtbXB5YjRCYjl5OHFQTFFOd1NWRERvYUtnclN3UWV6R1l0MnhEdkZVSWhzV0JIb2paTnpVb3BmSjlBWmhUbjFTdDE0ZWVobUt2NV9ROFUxOENHd0ctel9lM0wwbFNGM1JPNW5TM3Rubk1tUkprdTRnLXNtRkdhUWoteUp1X1hZand5RVFSYjB2emtVVFdMbFBuRFdRcE9qQmRjbkJmS0pZOUhDWQ?oc=5"
+    },
+    {
       "title": "Weeks-Long War With Iran Could Start Within Days: Bitcoin Under Pressure, But Gold, Silver, Oil Prices Surge - Yahoo Finance",
-      "polarity": 0.0042062848806381226,
+      "polarity": 0.004206269979476929,
       "ts": "2026-02-18T20:47:16",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54Z1lScjJVV2h0Y184WV94cWhOYzRMaFgxcDFIWnlCWFR2N2s2X25nM3RxeHVsUU1WN0VxVXgxUWY1aWxEMWs4ODlEaE5WOWpQMnNCOWtzaExsTnltSEI0bDZQeTVDOFdIS3BiSlJwVXQ1ejlURy1qSFp6dw?oc=5"
@@ -26,49 +33,49 @@
   "negatives": [
     {
       "title": "Brevan Howard\u2019s crypto fund slumped 30% in 2025 amid bitcoin rout - Financial Times",
-      "polarity": -0.9645932568237185,
+      "polarity": -0.9645932633429766,
       "ts": "2026-02-18T05:00:42",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91U3hzeUxadUN2Ym8wRjNXZEpHY01kdDZvblpTNjM2RmFGU3E1ZnJDQUpPdjNPSm5Pa1l1Uk9SM2VWT1ZRYTRFbmZ2VzJJQVdveXFUWUNOenJPcVVqZnUxcEhsZkpGbzR5MHNVYVJhRTU?oc=5"
     },
     {
       "title": "'Dr. Doom' Nouriel Roubini blasts bitcoin as 'bogus' and a risk to the financial system - Business Insider",
-      "polarity": -0.7402763925492764,
+      "polarity": -0.7402775622904301,
       "ts": "2026-02-18T15:09:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOUtLODdLNGxpa0l0Slg3MWpSOU53dV9rZ25kVWFOcVVGNVV5ZDRtMGI2NW45LTZXVGZTTVFDNnVSeTJGeXRGNnkwUzlLWS1kWEpnLWo0UGJseXMyZzJZVmFNTDVyR3BXdnBsNDdHNXI1V0IzbFpyZGFHdHZiWE51MDA0elVQQ29qdU02d3JoUGRMYVM3TkxqR3hkZ0VHVDNqU0FrNTNsQko?oc=5"
     },
     {
       "title": "Bitcoin price news: BTC's bounce from this month's crash evaporates - CoinDesk",
-      "polarity": -0.5441856198012829,
+      "polarity": -0.5441854186356068,
       "ts": "2026-02-18T20:39:50",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOT1NvcEZDYnJuYjRXS1labXhsSFBzMEdMeWhmdldrVnZYMFZ4TWVibTBOYVZJcHAzd1FFdndlZUdSUmM5TmxHRnYxZmNJa2NnTEp0VHhKa3VfU0xZYjlCcmllT3lvZmtzWE8zby1kRV9rdmp2Q0xQa09nMFJSSUVqVTllOUlrbjdHaWw2T0tNTnJFVG5lejVJNmg5aVVxLWFpU0NmYTFwVkFLVE56cmtseVp5bEYxZmpsR2M4UE5PTVBmdGhZYmhqNjloLTVzNXc?oc=5"
     },
     {
       "title": "How safe is my pocket broker scenario for upcoming weeks?",
-      "polarity": -0.0614125020802021,
+      "polarity": -0.06141265854239464,
       "ts": "2026-02-18T11:59:23",
       "source": "r/CryptoCurrencyTrading",
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1r8139n/how_safe_is_my_pocket_broker_scenario_for/"
     },
     {
       "title": "Goldman Sachs CEO Reveals He Owns Bitcoin After Public Criticism - Forbes",
-      "polarity": -0.02101699449121952,
+      "polarity": -0.021017082035541534,
       "ts": "2026-02-18T18:39:05",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY1d4SWpma3U4Y0lfSXlhWENGd3dLN0ozdjhmSW5ZRUYzcmc5QUVFYXR4RUNhemxhV1JLZ1pLTm9mOHhqWWFuZUFuN0hqdW8zNTJqRWZxc2w0NG0wMFBWb2JsaE9NN3d3cm5Md09RMDRRMFlhZXB5ZEowcDlHeDdhR3F5a2tNTGZEclp2Zl9ZZTRrVmhYX1FEZndxOGR6MUdVeDZuQmM2aW5NYmlrM0p0dG9iMmYxb0FQanR6YklLazBnZw?oc=5"
     },
     {
       "title": "Quantum risk and exposed Bitcoin public keys: protocol implications",
-      "polarity": -0.004964128136634827,
+      "polarity": -0.004964269697666168,
       "ts": "2026-02-18T11:04:45",
       "source": "r/CryptoTechnology",
       "url": "https://www.reddit.com/r/CryptoTechnology/comments/1r803a9/quantum_risk_and_exposed_bitcoin_public_keys/"
     },
     {
       "title": "Goldman Sachs' David Solomon says he owns 'very little' bitcoin but watching it closely - CoinDesk",
-      "polarity": -9.41343605518341e-05,
+      "polarity": -9.42181795835495e-05,
       "ts": "2026-02-18T16:27:31",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUlFrc1NkNTBjT3hsbFRsanFDRGlvaUFUd0ZKa3Q2LXJsY0hkVTFGYmZkZUVfVDhBc3FyYTBiY0Vhb2F5ZWp1SUZXazVRU0dHR3F2bC12b243RTR0R0ZrVE1ZWXBBeDA1cm16emZNeDl6SVJmSzAyd0x6VGJPZnFjMm0zaE5LTlpFNU15eDFHaGFMQk1MTzE4YmR5UGtGZW9JV1prSmtNNmZobk5FdFotRVlOY2FYX0VXMVU5dnlOa0RTUTBfU3Nj?oc=5"
