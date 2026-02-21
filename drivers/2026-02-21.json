@@ -2,11 +2,25 @@
   "day": "2026-02-21",
   "positives": [
     {
+      "title": "Bitcoin miner MARA buys majority stake in AI data center firm Exaion",
+      "polarity": 0.6206206548959017,
+      "ts": "2026-02-21T06:55:45",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/mara-majority-stake-exaion-ai-data-centers-bitcoin-miner?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "title": "Jill Gunter: Crypto\u2019s Evolving Landscape, Privacy Concerns, and Regulatory Shifts | Empire",
       "polarity": 0.4520452646538615,
       "ts": "2026-02-21T00:15:00",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/jill-gunter-cryptos-evolving-landscape-privacy-concerns-and-regulatory-shifts-empire/"
+    },
+    {
+      "title": "Strategy CEO to discuss Bitcoin with Morgan Stanley\u2019s digital asset head next week",
+      "polarity": 0.16841457225382328,
+      "ts": "2026-02-21T06:46:23",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/strategy-ceo-discuss-bitcoin-banking-morgan-stanley-head-digital-assets/"
     },
     {
       "title": "Bitcoin's bull catalyst could be AI stocks turning 'silly big': Lyn Alden",
@@ -60,6 +74,13 @@
   ],
   "negatives": [
     {
+      "title": "Not a ponzi but a real risk Saylor Strategy",
+      "polarity": -0.7999854106456041,
+      "ts": "2026-02-21T02:15:33",
+      "source": "r/CryptoCurrency",
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1raexcl/not_a_ponzi_but_a_real_risk_saylor_strategy/"
+    },
+    {
       "title": "Bitcoin holds above $68k, but set for weekly loss amid rate, geopolitical risks - Investing.com",
       "polarity": -0.6238320991396904,
       "ts": "2026-02-21T04:30:00",
@@ -74,11 +95,25 @@
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1radsnc/supreme_court_struck_down_tariffs_63_btc_spiked/"
     },
     {
+      "title": "Etherium Bug",
+      "polarity": -0.17579671181738377,
+      "ts": "2026-02-21T07:11:24",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1raknqd/etherium_bug/"
+    },
+    {
       "title": "Skrill sold my BCH to wrong address",
       "polarity": -0.1154341995716095,
       "ts": "2026-02-21T03:16:30",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1rag7o8/skrill_sold_my_bch_to_wrong_address/"
+    },
+    {
+      "title": "Bitcoin News: What's Happening On OSCTwitterSC? - thedetroitbureau.com",
+      "polarity": -0.09675205126404762,
+      "ts": "2026-02-21T06:47:45",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMXpzSkZzc3lqOUhaQWkzdWJySkVGN2gyYnltbENuLUZ2VmhRWU1xNDUwZUQzZkxWZEkwR0xWSXpwLXdOTUtBX1VabnlHQ3R5YnN3M3JLb1RCNENnYVZ4cDNsQmRaa0FlUEhKZlU1WG1vNlExUW9TbzljZC15LXVXeUdZaW8tMnZkVF9PVV8xT281Szl3UDRLOVBpdEEwMEZXeGdR?oc=5"
     },
     {
       "title": "New BTC ATH After the Halving ?",
