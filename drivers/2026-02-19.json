@@ -2,13 +2,6 @@
   "day": "2026-02-19",
   "positives": [
     {
-      "title": "Bitcoin price news: BTC climbs to $67,000 as Trump says U.S. deficit cut by 78% - CoinDesk",
-      "polarity": 0.8923408277332783,
-      "ts": "2026-02-19T04:12:53",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNF94TjZGS3U5UXIxQzZjelVyRHctNjFBYjcyczVxSXZFa1VhWUJuM3UyamV0TnR5YUFXSzZFXy1sR2ViVHp3aTdWX2hhMm90ZXpBQ2Q3cTA0anVvcWJ4WExyVGZkSjFRNVVpdHRNTW5abjZHazNBQjZ2X3lveU5fVWR6bWlHa3lWRVNWa1Y0T2JKUVAyNHZYb2pUN0NOUGwzeFgzeWFuVV8tSFpfandrWFlja0c2Y1hQeklPMTNMQ3Q?oc=5"
-    },
-    {
       "title": "Bitcoin\u2019s Lightning Network Surpasses $1 Billion in Monthly Volume As Adoption Grows",
       "polarity": 0.11509596928954124,
       "ts": "2026-02-19T19:37:48",
@@ -23,11 +16,25 @@
       "url": "https://bitcoinmagazine.com/news/the-uae-453-million-bitcoin-reserve"
     },
     {
+      "title": "Ditch the Bitcoin Illusion and Tokenize Real Assets - Bloomberg",
+      "polarity": 0.036139076575636864,
+      "ts": "2026-02-19T19:00:02",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeUJ0M2xuQU1qc2lIRlZUbmwwN0JBeXJEUHE5cVpYUXVPY2M4SC1GRnpVMW05d3o3ekxFM0tJeE13aDlfRFBTVC12a3YwbUw1YmtOeW5aQ3o1ZG1UZ2g2dTJkbE5IM1FFRGI2Q2ZndVFtdEVSdDJwOElacWc1Y3AxcUpkTlpQbmFMZjAtOXRfUlhEdzJhNnpWTnRLMTM2emozS2N5T2ZZR0I?oc=5"
+    },
+    {
       "title": "just signed up on coinswitch. verification pending. how should a beginner actually start?",
       "polarity": 0.02517728880047798,
       "ts": "2026-02-19T12:17:25",
       "source": "r/CryptoCurrencyTrading",
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1r8xpi4/just_signed_up_on_coinswitch_verification_pending/"
+    },
+    {
+      "title": "Michael Saylor Is Telling The Truth About Strategy's Bitcoin Stash, Coinbase Exec Says - Yahoo Finance",
+      "polarity": 0.02266811393201351,
+      "ts": "2026-02-19T20:30:26",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORUloV3hiR2tmeEg4eW9jOV92aUhmQldzb0ZFNkN5Si1FazB1WUExdTFlSHR1Snp6VzdrQlBTdDMwS2xKRkpUcFF3TlNZM0xmWndHQ3g1dDExbTZFdm55VDEyUGxVbE9nX19KdmlaOTlqcl8xanRBU1FkWmNZaG4xeWVIRTdWN2hscExNcQ?oc=5"
     },
     {
       "title": "Bitcoin To $10M? Major Crypto VC Founder Says 'It's Not That Crazy' - Yahoo Finance",
@@ -42,13 +49,6 @@
       "ts": "2026-02-19T22:22:11",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSERZR3Y4emJQMThrSFo2WkxMQS0yZjUtaHNGUWxTeUVnNURvTkhmd0tPclBrVWVSWEQwRW5Pd2JWMXRIdGs2T2cwdUZZSlZabW5DLUpWUDZRakJmeW1xVExldUJ1dHA1ZFhIak9CRDJMWm9qd0pJSFRBRkNuSG9jako4d1NIY3VINWVXLWQzOVRTaVNLLWFadTN2SUFfVHhFV0dTSDg0SlYyRTJtREI1SzZXVkpyUHF5Zno1ZE5kZktKQ2s4emJqNUc4VFJ2b1d3SlhXYW1aUFdwaE1BV0d4QzdOZw?oc=5"
-    },
-    {
-      "title": "Ditch the Bitcoin Illusion and Tokenize Real Assets - Bloomberg.com",
-      "polarity": 0.005878165364265442,
-      "ts": "2026-02-19T19:00:02",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeUJ0M2xuQU1qc2lIRlZUbmwwN0JBeXJEUHE5cVpYUXVPY2M4SC1GRnpVMW05d3o3ekxFM0tJeE13aDlfRFBTVC12a3YwbUw1YmtOeW5aQ3o1ZG1UZ2g2dTJkbE5IM1FFRGI2Q2ZndVFtdEVSdDJwOElacWc1Y3AxcUpkTlpQbmFMZjAtOXRfUlhEdzJhNnpWTnRLMTM2emozS2N5T2ZZR0I?oc=5"
     }
   ],
   "negatives": [
@@ -67,18 +67,18 @@
       "url": "https://bitcoinmagazine.com/news/bitdeer-stock-btdr-crashes-18"
     },
     {
+      "title": "Bitcoin Trapped in Fragile Trading as Hedge Funds Pivot to Cash - Bloomberg",
+      "polarity": -0.841747822239995,
+      "ts": "2026-02-19T22:02:36",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeGZaUGNQMzctbXFXZGo3dzJuc2ZEMTRtT3RDZXpSTUctcGNQTzRFcDVzWHl5ZTE1SnNkUEp6a1c3dlQxc3pZVXZROTNBeWtzaWViY3VHMHhrZW1nQVRONDB1c3kzZXlCMzZGc1pMTGhEdFF1Y0F0V2hKUzZSUF9LQmI4WEZJa0RaY2oxMHNQd08wQUJnY1hOSmdCdG9JZ2Z1RzhEZEtUZTBTTVZ2eVpQUm5QQkRwdw?oc=5"
+    },
+    {
       "title": "Warren Presses Treasury, Fed to Rule Out Bitcoin Bailout As Prices Tumble: Report",
       "polarity": -0.48342080786824226,
       "ts": "2026-02-19T17:19:12",
       "source": "Decrypt",
       "url": "https://decrypt.co/358593/warren-presses-treasury-fed-to-rule-out-bitcoin-bailout-as-prices-tumble-report"
-    },
-    {
-      "title": "Bitcoin Trapped in Fragile Trading as Hedge Funds Pivot to Cash - Bloomberg.com",
-      "polarity": -0.4416737649589777,
-      "ts": "2026-02-19T22:02:36",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeGZaUGNQMzctbXFXZGo3dzJuc2ZEMTRtT3RDZXpSTUctcGNQTzRFcDVzWHl5ZTE1SnNkUEp6a1c3dlQxc3pZVXZROTNBeWtzaWViY3VHMHhrZW1nQVRONDB1c3kzZXlCMzZGc1pMTGhEdFF1Y0F0V2hKUzZSUF9LQmI4WEZJa0RaY2oxMHNQd08wQUJnY1hOSmdCdG9JZ2Z1RzhEZEtUZTBTTVZ2eVpQUm5QQkRwdw?oc=5"
     },
     {
       "title": "Fed\u2019s Kashkari: Crypto \u201cUtterly Useless,\u201d Stablecoins No Match for Venmo",
