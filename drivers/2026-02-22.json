@@ -2,14 +2,63 @@
   "day": "2026-02-22",
   "positives": [
     {
+      "title": "Searches for \"Bitcoin going to zero\" surge in the US, hitting an all-time high. - PANews",
+      "polarity": 0.4960748702287674,
+      "ts": "2026-02-22T01:55:26",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jNUYxYzRzbzlUUGVaM2JsbWtvUU9OLXVURU1Rb1RjcDRGUXQ0YzlETzRRajBhRmR3MWpES0Y0TjQ1YWVFY2xDemdrUzM5aDJUYmNidWlncTFhTTcxWVlVWF9mQlVPX0o1TUs0MDlqMDNKLTdBVlhSLWNNS2RsTVE?oc=5"
+    },
+    {
       "title": "Robert Kiyosaki Bullish, Buys Bitcoin at $67K as He Warns of Imminent Historic Crash - Bitcoin.com News",
       "polarity": 0.07309512794017792,
-      "ts": "2026-02-22T00:34:41",
+      "ts": "2026-02-22T00:32:06",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeDRuTDBsVG9xM0pXQnA4S25xRlpRcHVJTWNMMXd5UnJVY280RzNQMGhwSVpkXy1nYVlqaDdva19TS1E3aTRwOU8xWlFDVl81bHVka3VPbWZXVUh2QkZYN29Td0o5bU01VU1SV3RVVWhMNWs3dXRiRmNYaURwX0IzV0dEanloVjdWT1FwUXBTTzU0SHphbGNreFVVXzVRWmpKYWg4NXVjbkxYUmgw?oc=5"
+    },
+    {
+      "title": "Best Bitcoin & Crypto Casinos For Instant Withdrawals - Eudaimonia and Co",
+      "polarity": 0.039549101144075394,
+      "ts": "2026-02-22T02:00:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCaDBweVNWSDEtbHhscjNBRTJLb0lVaDZrbjdxV3BIMkM1ZFJoSEg5VElqNEl4ZlFvVzl5bUNoTWlLT3p3T21FWnpYeFBFbFZhODJNa2ExMUJPVm5fYkgtZ1RWZWhDR241M2pSVHZmLUtHaEdxM3c?oc=5"
+    },
+    {
+      "title": "Bitcoin: How $335M whale move tests BTC as inflation looms - AMBCrypto",
+      "polarity": 0.031592832878232,
+      "ts": "2026-02-22T03:02:23",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSlRWV3V1WEozbWtfNnp5UElQMFlMV053MXpUSFJ4ejVhX2RmN1RfaUhYZjVIcFZyZl9WSkNjLURBbEFRWFg0T3hXV2hndl9vbW81N2Z3X3M5RWR3aE12d284TC1PZDZDVE5YMDB3M1NfM2RCb1R0NDdWYjZ5ZXdidC1NQmJzUdIBiwFBVV95cUxQdjBtdW1aRHFOYTVFUV9QZGtnMFVZLXc1bGpWUVlFN2VhSWJkNEJ0X0NORnpzNi1HeGo0czlBc1lIUUVXbUVhbVpJOS04NUtlMHdiaHhmSHNHc0hSQ29CdHBxWkhIU3NjYjRsV09mbmViRUFrQmZKdlRtdEhZTVpTYjhvMFl4WjBBYnlj?oc=5"
+    },
+    {
+      "title": "Clarity act",
+      "polarity": 0.0053602587431669235,
+      "ts": "2026-02-22T03:33:32",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1rbb8if/clarity_act/"
+    },
+    {
+      "title": "Use paypal for buying btc?",
+      "polarity": 0.0008590761572122574,
+      "ts": "2026-02-22T02:33:01",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1rb9zmv/use_paypal_for_buying_btc/"
     }
   ],
   "negatives": [
+    {
+      "title": "Bitcoin miners face a margin crunch that historically precedes strong returns within 90 days - CryptoSlate",
+      "polarity": -0.8188956864178181,
+      "ts": "2026-02-22T01:39:45",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAwY2szRFpZLUZNTlZqYlZNTkNHVDBhOGpTTk1BOVFrWko0c2VDY2xfc2thTGVSQUtWRUNLSVNFVHBPZ0tlUjZleA?oc=5"
+    },
+    {
+      "title": "Supreme Court nukes Trump tariffs \u2014 up to $175B in refunds could hit Bitcoin market next",
+      "polarity": -0.7678079884499311,
+      "ts": "2026-02-22T02:45:16",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/supreme-court-just-nuked-trumps-ieepa-tariffs-and-bitcoin-is-bracing-for-a-179-billion-surprise-payout/"
+    },
     {
       "title": "Key facts: U.S. Bitcoin ETFs face $3.8B outflows; $760M BTC transfer raises concerns - TradingView",
       "polarity": -0.7118645757436752,
@@ -18,11 +67,32 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNaTQ5eC1yaUZlVDRuLTdMdF83djNuc0ZqVEl5dkFra3NHeEhVTXlNWmd0VWZvNVBPMXBnUTE2amY1UTkzVHlvYUVoWG9Sc0J4RjdaNDFZNEdEREtjQjc0bXNZV0lRWDVDRGlTbXB2ajdrN3V0RTdKN2drcW5Wd1MyNUxIbF96UFphbExJY0RsbkhiY1VXQWxkNFNZb0tKbWFkWEVGN3RNUkxpWWpBS1FQajVpRWZ3b0RPbThCQ004WTF3MFlwYzFtWEJ5NzJHcW5uV00wZUw4VXM?oc=5"
     },
     {
+      "title": "Bitcoin miners face a margin crunch that historically precedes strong returns within 90 days",
+      "polarity": -0.6840598434209824,
+      "ts": "2026-02-22T01:39:45",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/bitcoin-mining-stress-signals-possible-bullish-trend-ahead/"
+    },
+    {
+      "title": "50% of Bitcoin's past 24 months ended in gains: Economist",
+      "polarity": -0.44954147934913635,
+      "ts": "2026-02-22T03:24:40",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-price-uptrend-economist-forecast-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "title": "Built an open-source tool to detect a known Polymarket exploit (incrementNonce ghost fills)",
       "polarity": -0.17648617178201675,
       "ts": "2026-02-22T00:04:08",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1rb6r80/built_an_opensource_tool_to_detect_a_known/"
+    },
+    {
+      "title": "Crystalline Tension \u2014 Calls Dominate Puts as Bitcoin Derivatives Swell in Tight Trading Band - Bitcoin.com News",
+      "polarity": -0.04332011193037033,
+      "ts": "2026-02-22T02:30:50",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYk0zOExTVFExOVpvbTZYTUZmRU12Q3QydjN1V0c5ZDBlNk1KemlvclZiaWIzMXpZWTlSeEZ2dUZoX3BhSVItNmg4bGtKX1ZvTzVpM2U5NEVySjRna0R4NlZ3N1g4TU85Q2xPTUZyakhnNk1xN2xUbGdrUVBpSmVzX282bzhOcFd3dXFmRVJsY19fdVA0czg4cW1jYW9pN0lMUjFmR3QyampaN1l5blZGREd0WHVNazA?oc=5"
     },
     {
       "title": "ETH whale positioning showing an unusual split right now",
