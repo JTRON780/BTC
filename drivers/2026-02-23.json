@@ -2,6 +2,20 @@
   "day": "2026-02-23",
   "positives": [
     {
+      "title": "Alt/BTC just did something for the first time in 27 months",
+      "polarity": 0.8710294030606747,
+      "ts": "2026-02-23T12:24:47",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1rcg20j/altbtc_just_did_something_for_the_first_time_in/"
+    },
+    {
+      "title": "Bitcoin treasuries log rare selling streak as BTC trades near $66K",
+      "polarity": 0.8644576221704483,
+      "ts": "2026-02-23T11:38:21",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-treasury-selling-streak-btc-66-000?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "title": "Michael Saylor Hints At 100th Bitcoin Buy; MSTR Posts Modest Gains - Eudaimonia and Co",
       "polarity": 0.8342960439622402,
       "ts": "2026-02-23T09:10:15",
@@ -14,6 +28,13 @@
       "ts": "2026-02-23T10:24:47",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTUtUaFlZcjdURjB6X25DSzdEWFlnaEwyQkoxT202VkVJbjRLaU5tcVRwNGMxSlFPVy0zb1ZUbnI2MmFBWkpZWHh6SUlBRnFCa2ZkSEFPSUY5alI4ak9sYjBJa3dKWE5mY1otSk9Kd3p2N2hxclplLW5oa083MGxsLUU0b2ROR0VvdHhiWGttcV9feXBhRV9PVzJzd2lUTy1Rcm5pSmxRTWZOOFdkVWVDX3ExelRJMm1RMDItQUJpRmo5QQ?oc=5"
+    },
+    {
+      "title": "Bitcoin stabilizes after overnight crypto rout, bouncing to $66,000",
+      "polarity": 0.5592977851629257,
+      "ts": "2026-02-23T11:30:00",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/02/23/overnight-crypto-rout-reverses-bitcoin-rebounds-to-usd66-300"
     },
     {
       "title": "BTC/USD: Bitcoin Cracks $65,000 Support as Trump\u2019s Tariff Broadside Knocks Risk Assets - TradingView",
@@ -46,7 +67,7 @@
     {
       "title": "GEMI Stock Bucks Bitcoin Dip \u2013 CEO Tyler Winklevoss Says He\u2019s \u2018Optimistic\u2019 With Crypto Fear And Greed Index At COVID-Era Low - Stocktwits",
       "polarity": 0.4718811083585024,
-      "ts": "2026-02-23T08:14:37",
+      "ts": "2026-02-23T08:23:19",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMzU0dEdLY1BpOWNCMkZ4b0JWdDhjaVhvUDkyYmVON3BmT1JpMmxWcmd5RU5ZNjR3VWdReVV5ekpkcDllQjZOQm51OUhVTDlXM3JsVlFjSG5zTjB2R2Vxbjk5ZlZjNTNjMEJ2Q2R5U05pazFlMzF6TzM2WFZ0dlNvZ0xpRWRJUEtuTDg0UlZNSE1qbnctMUMtcWxkeXBYOVVOOUQzZjJGbEJEMi1qM1ppeVVKaXhKZ1dnR0xmaTV4QmJibXRDbURqNXJqRjBXQjVHZTV4RzJ6ZlQ?oc=5"
     },
@@ -58,25 +79,11 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOczFxNmFsbGl4LVVibFRJVno5REQ0RVFqY1dNeUR3NG0xbVRrZ2d4UUNIemgzM3R0Ul9KdXZiU3RDN3VhNW1meWk3N3NPd1hDZG9LNzJIOVlSS2g1cGlYOTlNNUdKUFRFVHptakZiQ1pjb01hMDg2TThhc3d6M3pLUjFJU0ZwckFCSDB6YlgtWTN6VEJJY2hZY0lHZ0Y1NVV1dUdadHZ1TGxHUdIBqgFBVV95cUxOczFxNmFsbGl4LVVibFRJVno5REQ0RVFqY1dNeUR3NG0xbVRrZ2d4UUNIemgzM3R0Ul9KdXZiU3RDN3VhNW1meWk3N3NPd1hDZG9LNzJIOVlSS2g1cGlYOTlNNUdKUFRFVHptakZiQ1pjb01hMDg2TThhc3d6M3pLUjFJU0ZwckFCSDB6YlgtWTN6VEJJY2hZY0lHZ0Y1NVV1dUdadHZ1TGxHUQ?oc=5"
     },
     {
-      "title": "Overnight crypto rout reverses, bitcoin rebounds to $66,300",
-      "polarity": 0.1918584704399109,
-      "ts": "2026-02-23T11:30:00",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/02/23/overnight-crypto-rout-reverses-bitcoin-rebounds-to-usd66-300"
-    },
-    {
       "title": "Bitcoin Took Its First Step Against Quantum Computers - Forbes",
       "polarity": 0.1707164328545332,
       "ts": "2026-02-23T10:25:26",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOHhZX2FYcnJoMjlmZnlMR0Flek5LZ3VweV82QTA5VUNzV29XUVYtZVlZXzYtZjdOX1ZYNThoaXZlaTBhSVg5QlhEYmNBemhzNHhQbFJlRWhxSXJTYTdrZ1VqVUhvV3RVRmpIRG9nemJVdmVUbzFHVS1MVHo1cWJORDl0ZDVPREdJOXdueHp5cVhoWnJOOVptVE9TMGxYaVZ2S1htSEZ6N1NiM1BaMEE?oc=5"
-    },
-    {
-      "title": "Bitcoin (BTC) news today: ETFs bleed $3.8 billion in historic five-week outflow streak - CoinDesk",
-      "polarity": 0.14476800709962845,
-      "ts": "2026-02-23T02:45:07",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOV2hLMEV3SHlUMnBZVWhnNm1QbTg1SzY0MGJFZU1sTjR5WDBrSkJMV25ld243WU5hN3YwaFh0RDlYMVVFS25jem5lRnNEVW5xV2JNMjlrWHJrYl9yMW9ndG1HckdaUjdDY3lQOW1pVHdyMVJNdEJqaXJwYWhITmRUcTBlb0hHdTg1YWY1OTdKMlUyWU5ocE1UR1pXRFo1ZzlRU085SU5vWGRNYUIwOEF2cjVJVnI?oc=5"
     },
     {
       "title": "Missouri advances bitcoin reserve bill to House committee, reviving crypto treasury push - The Block",
@@ -100,13 +107,6 @@
       "url": "https://www.reddit.com/r/Bitcoin/comments/1rc9i0y/bitcoin_sustainability_is_bitvm_the_missing_link/"
     },
     {
-      "title": "Missouri lawmakers advance new Bitcoin strategic reserve bill - TradingView",
-      "polarity": 0.10917137190699577,
-      "ts": "2026-02-23T03:53:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX0JFZHF4R1ppSmstM3VaclI3QWhzQVJPZFJOWjROc0lFLVdaV1ZOTzBrVHZXSC1VSEczX3FPcHpMclM5cDF3T2F0b3pjYTNWbE1TTzk3NnlKb1ViMjhvY2cwV3FkVjNTMU1VVWM0ejIzNE5GQndhM3JWNi0xbFJmNUY1dUw2RzJpWVZFMmZldE1xanlzS1ZBeGx3S2pvQWJKVF9HdTUzbGhUVzB0NDlTeThzb29iNG9RX2M4VFl4OEF2Q1k?oc=5"
-    },
-    {
       "title": "Missouri advances second attempt at state Bitcoin reserve - Invezz",
       "polarity": 0.09882321022450924,
       "ts": "2026-02-23T09:19:21",
@@ -119,6 +119,13 @@
       "ts": "2026-02-23T05:20:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kNml2OVVKNG84NlBURDdBQ05GZ3hndUQ1bnJWb3dqQm5FbjdzcnBxMUlURVYzY2k3dlV3WUpVc3FhWjBrZVY0MEkxZUJGQS1mYk9OZkFaWEZDYXYyZ2c?oc=5"
+    },
+    {
+      "title": "Whales are buying BTC but the short book on ETH is getting insane",
+      "polarity": 0.08056369051337242,
+      "ts": "2026-02-23T12:13:16",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1rcftvn/whales_are_buying_btc_but_the_short_book_on_eth/"
     },
     {
       "title": "Missouri lawmakers advance new Bitcoin strategic reserve bill",
@@ -214,6 +221,20 @@
       "url": "https://cointelegraph.com/news/bitcoin-below-55k-polymarket-market-cap-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "title": "Bitcoin price falls to two-week low amid ETF outflows and risk-off sentiment - IG Group",
+      "polarity": -0.9609040170907974,
+      "ts": "2026-02-23T10:35:16",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRzVjQ2Vub2hjQW42U2V0X2xPVkJtRGF0SGdBZjBYa0JQVnZoU0x3Tmd2bm1JQl9IaDFLbk5aZmNCSlB6M1duT185dXIxbUxFOGJOclc1NFd2MGtvQUs0eWNGM3NFT3JmakFTUjNRQ04ta0VKbVBFSExTVER2akxjblFJUk5RTjg5Rkt3Yy1ZM3l6cG93a0Y1UVI5UTBwQkhjQkMtajFJRGJhZlhpS1p1TTRINjI?oc=5"
+    },
+    {
+      "title": "Crypto funds lose $288M as ETPs extend outflow run to five weeks",
+      "polarity": -0.9569612108170986,
+      "ts": "2026-02-23T11:54:56",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-etp-five-week-exit-fresh-288-million-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "title": "Bitcoin Down to $65K as Heavy Selling Drives a Sharp BTC Price Drop",
       "polarity": -0.9557685041800141,
       "ts": "2026-02-23T09:37:33",
@@ -235,25 +256,25 @@
       "url": "https://cointelegraph.com/news/bitcoin-etf-united-states-metaplanet-btc-treasury-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "title": "Bitcoin Falls Below $65,000 in Latest Bout of Tariff Uncertainty - Bloomberg",
-      "polarity": -0.9539516186341643,
-      "ts": "2026-02-23T11:11:32",
+      "title": "Bitcoin Price Crashes Below $65,000, Drops 5% in 2 Hours Amid Six-Week Slump - Bitcoin Magazine",
+      "polarity": -0.9506861167028546,
+      "ts": "2026-02-23T02:43:07",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN0lLMks5Q1dhLU9OMldaaXFKYnk0WDc2RmQ2MEFEZm9qa0RMajBjSlVmbFRub3RqNFdsWU42ZkgwbTZheTBoaEpmZkx3VGdGbi1MM2J3OW04a0FLMW1ZSlZvTDEtTFdZdS0zYVlJQVh6dDZDOXhNTERzMmRaRXN2V0pmMjdQcWpKd2RyRTh6SkFGeTZzTkxUZ3ZRazM2UDA1aWxFQXdxTDhYSDVzX0FxWlhRbGhjVE0?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12OUxKZHFPLVZjZE9mcUFHMWFzd0szSExMRkZRQTVUYnZDU1plV3JDUkxuUFNmTHFsTFNOVWVwUFloM2hOQm1SRDh5VGJLTGg1S1VRWkljNjZkRUczV3c3WVVTN3I5UkRrYVl0SDZxdXFKRl9uaWQ0eA?oc=5"
     },
     {
-      "title": "Bitcoin fell below the $65,000 mark due to investor concerns about the new US tariff policy - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
-      "polarity": -0.95323346555233,
-      "ts": "2026-02-23T05:20:29",
+      "title": "Bitcoin faces weekly downward trend due to continuous institutional sell-offs - Anadolu Ajans\u0131",
+      "polarity": -0.949325880035758,
+      "ts": "2026-02-23T12:22:35",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOczE0bnhQVkd6VDFORVVZWXBERS1VUWplTFJKb3FtZjd4eWt2VHE5UkZyMUo4eFdVaDRTZHpVZXZiZTJlQjJBLXdwMDBRSVpWVWl1bHN5ck8xQUpoQmlqbkNWa1ZtWERoQWNBSTUzVVk1aFZKTk5XZ2hGbUh6Y213Z3c1cHBjRE9BNmlMbnR5b0cwbGxLZ1cxZHBpMTlhdk9Ld29haGhSSEpiUFZTQVJBRS1ULWdubjNhMWfSAbgBQVVfeXFMUGxTa1BWS0lValctZ2lmN0NXaUVUbzZYQ1hfX1ViNlpuVW1FcEhNS3habDhMVkwxWncxVkJFSXBrSlQzdEZVNERoZmQ2ZkRtUE5wWHIxM2U5ZkZwNXc0cWhXUFVBQlk5U0JrN2hfbjFYdXJJYjZNa29wZFlUTWZLbFVKWmZNUjhZSG0yaTlmZTY5THZoU1owMU9NaVctUXJzTzlSQWZRUnpNaE5ucGlJOVA2NEcwWVQ2Ug?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcmZKMUJrc1pYeDlDaTVENHpiVk0ydmphdXJHV1QwSzdaM0M2eW1mVHAyQ0hGVU10QVRSMXg1YkVlWVpzNXEyUWtONEhTMWM0cER3ZGlqUWg1TEhpUlNhNXdiODBhbzNpUU1SZnNLSjhVOXFEZERWSTNmX1BTX3YzSU53Sy1pOWFnNmhSajBCYkM4RkZEOGMtcjFvSmZ0WVdMRURXdjJaYTBvZHpEQkF5d1F1a180Zm83Tmc?oc=5"
     },
     {
-      "title": "US futures, bitcoin fall and Asian markets are mixed after the Supreme Court nixes Trump's tariffs - Ottumwa Courier",
-      "polarity": -0.9495853474363685,
-      "ts": "2026-02-23T05:42:52",
+      "title": "Bitcoin falls as much as 5% as Trump tariff moves raise uncertainty - CNBC",
+      "polarity": -0.9492049617692828,
+      "ts": "2026-02-23T01:53:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQYU5HV3VzMjFoR2tFS1JNWE1MVFpBNk5FZHF1U0NlOGw2aUdyWVc2NThCYVpiLTFyZXBEaUxrVThyM1Z4aGlEa2g5UkYySFBvemNjU3hiNlViTVY5dENKQW5UUnZZbXZrZDlzNHQ3US1SNFNFaWk3UHRXc2FobTEtbkN1Ym9aakdnVTV0bW9RNlA0UXlnZy15V2hhNUo1bkpKZWpuVHB4UDdXckRQQlo1enBCU2V0cWotYjMxSGF5YUlsNXhuVHVHd0xrdmZRMmpzSjlfNFVWNUJ4Mm9nNzZmay1sNXl3b0dDY0VIRGg0d2VvenFHT29LUE1YVjU0Y2J0RzRzRWVUbmktNENLVjVXRDFFVVgxU1k?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9KOVlMMkJ6alBfQUtyaUdQcEtPNVItbDliQXJLZVE0NUpWWUdpWmptbWgwUnpKVDhCUGNGOHdpMy1EREdXMzFDWURGWGtUWGloMjd2ZFRpeklVZFk2UkhjSXBEYl9LTWtINEoyWnBWdTN5Z9IBd0FVX3lxTE5veFNabXpDTlN6TW9tMGNLeFlERndSYzdiUEVWSWh5WDJ2ZWFXaVJkVmxWUDhUSEZJbGdnckJMOURqVmhNWFBuQ2lNaWpvYzdlS19BOFNzVHhMczBSVzEwLWN4c3pwSHVQbC1PV3lsSE51X1V3azRV?oc=5"
     },
     {
       "title": "Bitcoin's Dip Under $65K Pushes Crypto Liquidations to $500M",
@@ -267,7 +288,7 @@
       "polarity": -0.9469840871170163,
       "ts": "2026-02-23T04:02:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxNTVIxOTV6aUdKekRFX2lnUkRTWnZZZlgyZjA0bmg2VTNDckhKXzJ6cl9ybGVfRlZYV2RZUDZZSm0zTjBINWRLS2lBZkhlbTdOZ1c4VW1UWHJfVGdqN1RJX2o1VXA3UXEwaWNZeFhZRG53TWZldUhRbDRjWDc2a3l3Q2V6YnMwLXlqTDV0ZzhDLWxEUVBvcjEzSnZSQm5rSWdvSzZkdmF3NkY3N1JhbUQ3RmMtVm4teDV6WE83al83U2xlWkk3VHppRE9Ga2p0dUI3R3lCYmk1d3FfaFRBSkRsc1hXOEQwZHpkcUstbnFTb0VtbDRpQkZBYUZhdnVYQ2VZcjRpUjFzdGxmaWtsbmx3dTRFRTU5b1d2QTVsT2ZUcm9ndmJiX3NDelE2WDRiQ1NFUW5NZ0hqWWgwM1A2eDhxRlEtMUgyc0ZVWmE2aWdEcHlhU202YVhieHc5aVZXbmJCU1UyeHpWcjA4YXVtOUNCV2FwVWZaX2pMOHVjS2FSVEU4LTM1VEVydXJjN1lqQm9YRWQxNGhsODQ0WEFMVUlVU3JOUWE3V2VOQWJVWmd2dkZEZEVxaWNjTFJvd2Z1MGdiVTZpQg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxPakVXbjlBX3RzekhKTTBGdWZXZmN0N0VuMk1kOGpFamkxM3A5TFB2bm5ZNGNQckFOUFRONUxPcEo1NTFDTkJnRnpIUzc0U29oWExHV29iUU4wdjMzN0dIbzdid3U3Q1VsUjBYTzRkaXh0NGM5VlpkdXEzUlZLWnpmak9tQ0FvT19DWGRuUnNRcHZtRXpKcm5Ccmczdk1Hb1NreF9KdHJnMVU5a1VDNjRsNGxDUnY5aUZNSU5HWGlRV3ZCX0UyUXhXMTVLYThmTDNGYV9nLWhaUWpYZGszLTQzRXNIN2lORjNTdlp5X2NtNm5mbEFZQkZyYjgxdWk5dDltUkxBZ0lZOU9aOUMtdklmdHl2MFFqMFoxSTU5ZUs4UEQwenlCVWFhNG53TmxSbXRXSWNqTDZEWFJhdzdMaEo1VWhZRFh1a0s4V0dJQ1BJWXUyYVlscTRTM1dnSWpMN19Zd0dOZ1JCbEhhSkxJOEw5SnNROVRMWTc5ZmQ3cnRpRFJOM3ZqYWNYdU5ReC1INEtOb29oeFJmdEE5NzR5MUJaTk0yV2ZGRG5OTGdvVWdzMVZLWXVWbFU3UjlXV09HaTdXUHAxUw?oc=5"
     },
     {
       "title": "Bitcoin looks busy but 31% of its users vanished as ETFs bleed $4.5B in 2026",
@@ -275,6 +296,13 @@
       "ts": "2026-02-23T11:06:30",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/bitcoin-looks-busy-but-31-of-its-users-vanished-as-etfs-bleed-4-5b-in-2026/"
+    },
+    {
+      "title": "Bitcoin Price Crashes To $65,000 Amid Six-Week Slump - Eudaimonia and Co",
+      "polarity": -0.9462318848818541,
+      "ts": "2026-02-23T12:04:57",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Ra2lrZ3lkYzlPNW5NZ2sxNTlTZFRZQzVhNXBBRjk5M2ktenR2MVIxWDQ3eHlfdldrY0pxbzB5QTktM3Npd1NPajVkb29qU3ZnalBsdkhMbEs5ZVRCWXlwVldMdmJvVEZJeGFxdExEbFpGckZx?oc=5"
     },
     {
       "title": "Hedge Funds That Piled Into US Bitcoin Funds Are First to Exit",
@@ -305,13 +333,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVXhVY0ZWV01pQW1VQzZ5SnNELWRQVTM1TVN5RkZwVmVWckpwSGx5TWh1aXc4WnVqWjhkZEFrX1FTVERlYTRKbF9HQXBzbXotV29xMm5nMkNwUUo0N0d4MWtrSU5ORkZNSDdzTG84UER6Ym9EQjc4MG53ZWYxZFZaZi1jTWlzMzgtN3V5cWZkRVBQQmU3VWI2UnRqNS13eklidl9PTTJ2eXpxQ3JNWnFrZnFTamI3T0FfUTFWZ3ZpQ2w?oc=5"
     },
     {
-      "title": "Bitcoin Falls Below $65,000 in Latest Bout of Tariff Uncertainty - Yahoo Finance",
-      "polarity": -0.9372054086998105,
-      "ts": "2026-02-23T08:06:27",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE41YkJUNFRMTzJ1NEN1aHdnbkR0ZXpmMGUxREZfUnV3MkRRQUplcDNsUTVTQnFieFloSDNubDg2dFFfWUJ6d0FlMUgwa1BPUllya2lNSEpTQkluVTlBVS1Nbzd1UVVuQjlwR3ZxWFFQVUNMaEgtMFVXdTl0N1M?oc=5"
-    },
-    {
       "title": "Bitcoin falls with US dollar and equity futures amid Trump tariff angst - thenationalnews.com",
       "polarity": -0.9368595518171787,
       "ts": "2026-02-23T08:48:53",
@@ -319,18 +340,11 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQUgzWUdYX1p6LUxOQ0RMa1FxNHBNb0tvVV9SR25XOWRIaTRJRFhqUG9jUnBBaGpGcmNrNTRMV05EeEs0eEV4YlJpbEdVdEZlLWt2VzVQYURvaXJ1TXF3OUR5SEJKMWhyOEpETTZETGhyajF2MDZiYV9vZmJHNUdQaS1iRzlXeGZOQVdSY1g3aU93U0Y3U0M3bg?oc=5"
     },
     {
-      "title": "Bitcoin sinks below $65,000 as macro shocks rattle fragile market: analysts - The Block",
-      "polarity": -0.9310580734163523,
-      "ts": "2026-02-23T03:03:49",
+      "title": "Bitcoin Dips Below $65,000 as Tariff Uncertainty Weighs on Risk - unchainedcrypto.com",
+      "polarity": -0.9257331062108278,
+      "ts": "2026-02-23T11:53:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBFYnpWejRmMEpkMkpBc2NndUptLS1wUU40R29Fbmc2RHNRbVJvaEhROXBYdmFuallhN3V5S1BqZngxc0R5LVdvTGgtaXBuMnkwUEx1a09NdTNDaGUwWjV1NlZIeVdERVoyR29wZjR3?oc=5"
-    },
-    {
-      "title": "US futures, bitcoin fall and Asian markets are mixed after the Supreme Court nixes Trump's tariffs - LancasterOnline",
-      "polarity": -0.9265400255098939,
-      "ts": "2026-02-23T05:42:52",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNTlMxdVhoRDNJYVk4VW9CMF9aZWVpQzRxR0xRVzNkNGp1M1ViMkdlOF9Yb2lFb3AxLUpPNjRjMkRzRDVJVUVCbE1NdWFVcDgyeEJ3WEJhNnM2LXI0blAyaHZNV2dzdnRScW5YcXN5dEQ3bjRZa2hnNDdNNUM4anU4RFVTb0JGZ3B4Tnk1V2gzOGdBZnBvVlB6NzNpNndQSDZINmtMTVJiWW9hOUIteGU2ZVFndHBXbEZXM3NzVHI1S05PaFFDTmNhVU1NU2d2SmJER2NPM0pEY0U5cFcyUWZPQjIwb2ZuZEYtMVkxMmIzY21SMC1hT1R6QUlybks4Um92MFhCZkVNUDFHS0ttVUdFZWEtTGVCQzA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSFVhOVJqRzdUWWdOZHZLZHFoQ1hsVHlwc2xSb0JCeHhkZEFaZmh1ZmtRLTlBQWF5UVNEcU41bkQwNUVHNTNoRHVCVGU1eXFzVjd1Y3puRG5CNUtFRlU5UTN6aTg4aGhEZS12S25PUC0wZ3B6ZTByX0Rqc21CYjllVDhqMFRVdndpRmRBZDA2aExpSi11Z1lOd0ln?oc=5"
     },
     {
       "title": "Hodlers have \u2018given up\u2019 at $65K: Five things to know in Bitcoin this week",
@@ -354,6 +368,13 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb3poV0puSTYyUTZlT2dqTHNyYlVjbG5ocUJqdndaaXkxdnAxV09BblVMV2JCdnpULTlFaTZ3NjY3U21VUXlod0puM0RLQjViTGdKYXBVUDI2LU8tSWFfMmZWRFpzdVM0Y0Jxb0lEMjFSVHJOTUVqUkhOX1Rsc2o2dzd6OHhxV05kRS1XRHJBV1BTWHp0ZmNRTXpZOHdPc1pfbEdpRzhhUQ?oc=5"
     },
     {
+      "title": "US futures, bitcoin fall and Asian markets are mixed after the Supreme Court nixes Trump's tariffs - AP News",
+      "polarity": -0.910155650228262,
+      "ts": "2026-02-23T05:42:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR0FYRjJvTFh3LWx1TC0zei1Tdk1jc2pwVTZfOHkxRVhPa0Zfb1I3S3FyQWFoeEZvYnA3RGRMd3lvcm1UUWQ1YXhwZGdMNUpNTVExdmVpaGRscGs4czFVM1BxclVPTmNqRUdjcFZNUjlmNm5adHczT0xMUGFFcl9tVVR4WmtoOFE5OXNnLWJXUHEtUQ?oc=5"
+    },
+    {
       "title": "Bitcoin Price Slumps 5%, Bearish Momentum Returns With Force - TradingView",
       "polarity": -0.9017732366919518,
       "ts": "2026-02-23T02:34:00",
@@ -368,6 +389,13 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMTJDd2xqdWpwMmVLODBLZU9UaXg1S3hPcGthd2JScmZRVWFVeFhLNE5mOEI3Z3Z1NG9JUkdzTzRNT1ZBUmliaUNaLXY0SkhhdjFnYktxVmJ3ZmFlcGRLM01CSXZUUnkzOVE0ZVdFMVJkYW4xM1hwcGRzSW1oTmEyb0J6cG4tYXlDZW5uWHpnVDBwcFF2U1E4WWxicXJ5Tm11b0Y2U05WZFJhWUZ6SzJhMkxab9IBuAFBVV95cUxPRjhBQnlKSmZqZ0xiTVZuZlJBNEg1aDg5MUFrUEt1Wkh5RlFVMHB0ajZFa3dQSTA2QjFqZGgzX05nS1Fublc5U1ZHZDNJU1hTV3c4XzdyaHhhUXFGYVBLdE9zRkJEUXFRSXZ3bHJuUmhEamZXc192THhLTk1OeXh4bnN1Mm5tN0lPelJVNUlDZUhHNS1PaC1saDF3Z1hkUGxDNUdnY2p1NUVGOW1yVkhiM0RsblQ3X2I3?oc=5"
     },
     {
+      "title": "\u2018Worse\u2019 Than 2008\u2014Urgent Fed Financial Crisis Warning Predicted To Blow Up The Bitcoin Price - Forbes",
+      "polarity": -0.8955255877226591,
+      "ts": "2026-02-23T12:15:38",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVk5ra1EwczNab1lyMWRUYkhpdEI4anhYdmlGYXU5MkY1NEVlb3I5dEFGTDV5aHdFRHhFc3dZLUVwVDQtRDc2U0d5bmFCTkRkRk91MlFnazFDelNaSHppQ1ZaTG82VHk2YlBKNXBUS3VEX1JudG53SkRrSnJzZ001UGtQQ3g3UHVTaHhFNDc4R0l1ajB1QkpRVkoyN3lVYVp1T2s3RlhwZEY2Ymt3cW4tczFQUnZnNGJJakFBRk4tMzFwNzVRWUpaZFFyVjJzY3BTRTZoWWliczhJTHNMWVVN?oc=5"
+    },
+    {
       "title": "Bitcoin slides 5%,  tumbling below $65,000 as whale selling grows and recent buyers lock in losses",
       "polarity": -0.8928004652261734,
       "ts": "2026-02-23T01:49:11",
@@ -375,18 +403,18 @@
       "url": "https://www.coindesk.com/markets/2026/02/23/bitcoin-slides-4-to-usd65-000-as-whale-selling-grows-and-recent-buyers-lock-in-losses"
     },
     {
-      "title": "US futures, bitcoin fall and Asian markets are mixed after the Supreme Court nixes Trump's tariffs - Click2Houston",
-      "polarity": -0.8831009808927774,
-      "ts": "2026-02-23T05:50:04",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQbFZlay0weVNnLWlQdExZZUVtRFhnMl9XajJ6c0E0X0doWVFRUGxWMXhocE94OGs5LWMybDg4Y0NBQjNoOGd6dUNjQ2dnUHJIY0VBRklJSnZsRWdpckFOczFoQm1pSTNpNl9mSFo3d1VCRnBxZ1k0WVlCcy1LYnUtLVNxU0lIQnoxSmRzeGlOYVhjTVpiQlZpSGhnXzMyMEJfVEpYbDdnZFVmRWI4TXRnc3d1RFF0Rlg0LU9TN2d5ZGJ6emdmZ3RrbG1nbUZVMElPWFBMVUI5RUZLR3pQLWhsOA?oc=5"
-    },
-    {
       "title": "Bitcoin price news: BTC plunges to begin week, pulling back to $64,700 - CoinDesk",
       "polarity": -0.878802377730608,
       "ts": "2026-02-23T03:35:23",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ09sTk5Cb09adjJkcnVJbjRib1hsZTIydXlpZzg4U2xKelVfZnhoY1UwN0RFN2ZCMkpNYTN2OVY0YVN0Sll3S2xablJ4MUswNDNWZlhRNHVMSEp5cGQ1Q1dkU1NfZ1MzM1ZDUUtGYjRzLWtpVDNOQkFNalcwUVhXZWl4bm1JaU54dFBWSV9xSnZRT2J2aTJRSzNGdzItend5ekVpX2FIb2V2SHlBeXR3dlVPZEVaY3hMYW9QUTJUY28tRG9JZ1RDdg?oc=5"
+    },
+    {
+      "title": "Watch Trump Regroups After Supreme Court Loss, Bitcoin Falls Below $65,000 | The Opening Trade 2/23/2026 - Bloomberg",
+      "polarity": -0.8639938533306122,
+      "ts": "2026-02-23T00:00:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVWpmVEgzWTNoUjNwS3lWdnJIaG9lc0hIaGNWTk1VbjlKb0t1Qk5KTVBUd2QwZGV1MkUwLXpRb3RLdlhCTHdHcFdzaUcxOERnZWd5Wi05NWpKSmdZMjFZQ0xTQUhsR3otQnlxWlptSmFuWmpvTldBSEcxVVVHOXNHaEtlWllRU2IySHc?oc=5"
     },
     {
       "title": "Bitcoin price dips under $65,000 after Trump fires fresh trade war volley - dlnews.com",
@@ -401,20 +429,6 @@
       "ts": "2026-02-23T10:04:30",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSTNhYS1JNmtXbFVGOGRBeXJ5MU1FZXJOZlZ5TC1hdWtqM3hBTDRhZEo1WVh1NUgtYTYzM0ZGVHN0Q0ladG9ESlBhcGdNS0VoallLQmNxYVQyRkk3c0Rudmstd0hubnNkYTVneElmX1ZRTTdndHM5bF9YazZFLVhDczc1ZG9adHB3Q21NR3plVnNjZw?oc=5"
-    },
-    {
-      "title": "Bitcoin falls over 3% as Trump tariff moves raise uncertainty - CNBC",
-      "polarity": -0.8416514713317156,
-      "ts": "2026-02-23T01:53:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9KOVlMMkJ6alBfQUtyaUdQcEtPNVItbDliQXJLZVE0NUpWWUdpWmptbWgwUnpKVDhCUGNGOHdpMy1EREdXMzFDWURGWGtUWGloMjd2ZFRpeklVZFk2UkhjSXBEYl9LTWtINEoyWnBWdTN5Z9IBd0FVX3lxTE5veFNabXpDTlN6TW9tMGNLeFlERndSYzdiUEVWSWh5WDJ2ZWFXaVJkVmxWUDhUSEZJbGdnckJMOURqVmhNWFBuQ2lNaWpvYzdlS19BOFNzVHhMczBSVzEwLWN4c3pwSHVQbC1PV3lsSE51X1V3azRV?oc=5"
-    },
-    {
-      "title": "Is BTC headed for deeper losses below $65K amid tariff jitters? - FXStreet",
-      "polarity": -0.8374323267489672,
-      "ts": "2026-02-23T09:54:05",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSG02X0lwSmRYZ3Yzc2JPUDcxMDI4ZlB5Zkp1LVFpQ0dIQldfR3FoWGNob2t2LWpiVDRzNnhrczBfQ1BUeTEtMXZqU0FlNjNDWFQyYm53a3g4Q0k2RVZvLXRCWlZFWFctR1pUMll4WlZKaDNYd0RQRDNDcVJuN3VJRTdWMU9ycTZPVkNCNXg4YTliY21xZ2xRV0lDTWZfNzhObUVCZmpIb0dnVlM1cVc1M3NXejhpQ0gyd24zT2o2UGxMemxtTWllbXVLRTJYN1BJOWlMcGlZU3hjbDg1VmpqbjZhWXRQRFlhekNTRmdBN3ZXd9IB9wFBVV95cUxOM0pTejQ5YzM1SHRGc185dEhkMVJJQjhZYnY0ZUtsb3NjNk0tQ1Yta2x0ZWdwdmdQVTd2SjZjWnQ4RTk5WURwMC0tV19XUWZsNVB3dURRRHBWc19DY0RNMFNNRTRSamlvbEFueVhvNUkwUHgwU0FPUmZCY2ZhQUpSYUtyV2xhc2tYYy1IdTJobU9ub1hSdDlvZ19HRlp0Nm1JWExlay03ejdZTV93U29kVGlzVEhKT19PMjBMZlJOQmdkUzFrclJEU0JlNFZ3SzBjbzZpYU1XakgxLXZReWxINW5QNDZUakdQMURYcWFaSUNtUENSUlpZ?oc=5"
     },
     {
       "title": "Bitdeer's bitcoin treasury drops to zero after miner liquidates remaining 943 BTC",
@@ -466,18 +480,18 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORHNDcElSQlB6ZmVSN2p0Z01lN21kM0s3UDJBaHpQT0k0eGpob2laTTNCSTdOZ2dUWFJ2QjZOTXowdkp5Q3FOTXhpTjdMUFpiYnRObTlwNXhSN0NrVzZIVVQ2ekcxR2MwbFFmM2pFSFV6NWdKR2ZlUEE5eG1QZDdtdHV6Q1c3UXhET1dyYzlPbw?oc=5"
     },
     {
-      "title": "Michael Saylor Signals 100th Bitcoin Buy \u2013 MSTR Stock Slides With BTC Below $65K - Stocktwits",
-      "polarity": -0.7343223057687283,
-      "ts": "2026-02-23T04:53:14",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOM0tWdmdfM1lRSHRNYVFKMS1nVWVpcjB6SHRNRWxCcmZLTllaM3B4alBNTl8wWUJRY1k2Q09hU1NPdzNVMGZ2dm9MbHFsZGpnaF82QjNsLXZLUEtfdk5ick5vcEM1cWpxZHRPZVpsZmZyQ29fN2RwbEd4RVdXNUx1aFAzdFRFbEY0clFUMG9DZkRwc0dKLUZnVzBVaTB5MUxQQnZnWGVDdzJaQjRlLV9mUkd3ZV9HY3FFVFN0VW1OTzQzNWJhQVpyYjZCTzhST2d1RTJBRERMbmlUTmJpSmNFUUFsZw?oc=5"
+      "title": "Tariff travails resurface, bitcoin holders prepare for declines",
+      "polarity": -0.7277578972280025,
+      "ts": "2026-02-23T12:15:00",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/02/23/tariff-travails-resurface-bitcoin-holders-prepare-for-declines"
     },
     {
       "title": "Gold rallies and bitcoin falls below $65,000 on Trump\u2019s new trade war - The Times",
       "polarity": -0.6311677284538746,
       "ts": "2026-02-23T08:40:28",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMirgNBVV95cUxPQ0gteUFsbVNKUHYwRVNCRHVoZExZbTQ4M1d6YXZkQi00aWtydmZ2cEhtVXAweEF2WWo0bG5BTW9yc2k1NjgxMzRnaUJGTDNVMVBKTV9CV1ZfclBHZmY1Ny1TNUladEwxOGVEcWR6eVBPRlJPazQ1OWtKcG13blFPOUpFQnZ6S09NbWRUTFdpRGs2bHRpSk5FWWREamJuaU5xUndQZHlraTFUdkJ0dXlNeFZWNGdVRUNEeXRjRkR4ZHFFTDR2WE9Ram8yN0hjbjg0NTRtd1lVNHVmSUthLWdaX0N2ZDhpRFRZMG4xTjk0Q2xJRlVyVWx2ckFZR3E1aV83bEw0T1JQdHpCSDFJZkFBODd4TWFiNE9FVmJkdGp4akNPejU3Ym5UQXVKYWlVS3VOcm03ckJIWC1TSWF2dkFKdFBiS0Rzb01Rc0IzY2hZd2JzX2J4SExQakQ3YXBucVVuOElZWFdYSTVPa1ZfeFFIMjZ2UEM2dDRIalhiQkhRY3VKR2p4THVYYy1xSDFRUnNPaENuZ2NtT1l1NUJ2MXl0MWZrdk9YbUZsOV9ka3dn?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMirgNBVV95cUxPZ0luelhNSGoxelNsNFY4bVBZVV9LelRJbDJ4NGRRWTEyeTRtU2lEb0ZwcXlXaTRPTm1KcHRnX2M4eE05WjVxdnBYUlBnWDd5ZFVQOFozbGxXVDdPUGNJUnd2STBlVlhUTmdwUmFmX0hWOGdMb3hnaHg5eXNBUk5qQlAzTFJTNHYzLTVNNU5tMWh1ZGdpZHFEMWRSMjB4LWU4b1FIZjJnWVBTVUdfNG5yMVVXTnQ4YnkwSFBVdXJtOTY1U1FNYk85amRhVnI5Vk9SZ1E2M3MxMkFXWk9kTXNRdUY2OHdldU9SemJlTUFSN2xJS2xPWFh5cS1UcGNxZ1c3WjZLQlg3WHdITkFxZ0ZSOWNXdHpWTW9VaGNWZUlKSU5MM0FURzdWcVdYTFZYR2RwbjQzZXpJN2pSWUJobWFERFVUTE9kZjR2RmhycmFCa0h3Q3F2U0FQaWpMUEZGYV94VGhMRFA5TzNTNTREcGJaZzZhWlRRa28zX0NjcXZ2ZElPVC0xN1BrVUM1YWhScXNyNEN3MVBJNWNmaTFJUElXY0RYeS16YndSQlJ1ZVJB?oc=5"
     },
     {
       "title": "Thinking of selling Alts for Btc now",
@@ -501,11 +515,25 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQd3F4eFBFa0pDcFdWU0NqTC1hbWVBc2ZVZkUwS2ZvUnZuZTRyT3ZvUkVZZGZtdks3ZGlWWnNnelpQdlRGc256a2FRNEVsbU92YjJmVHBBZkZJSXRzNzA3UlBXVV9VSmt3WjFlQ2dQYVhCdE5yZE51WEQ4alNxV3BmQWdUZ0JVQlZ0enliVndVbUZ2a0pNS3V3UlZsQVd1c0hqbEF5NEVJaVZHeGwxVGhXOXBOLVJibUQ1cW51dlFSdndWZVFyaFZUSENRVFNSdw?oc=5"
     },
     {
+      "title": "Bitcoin ETFs bleed $3.8 billion in historic five-week outflow streak - CoinDesk",
+      "polarity": -0.521226666867733,
+      "ts": "2026-02-23T04:44:42",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOV2hLMEV3SHlUMnBZVWhnNm1QbTg1SzY0MGJFZU1sTjR5WDBrSkJMV25ld243WU5hN3YwaFh0RDlYMVVFS25jem5lRnNEVW5xV2JNMjlrWHJrYl9yMW9ndG1HckdaUjdDY3lQOW1pVHdyMVJNdEJqaXJwYWhITmRUcTBlb0hHdTg1YWY1OTdKMlUyWU5ocE1UR1pXRFo1ZzlRU085SU5vWGRNYUIwOEF2cjVJVnI?oc=5"
+    },
+    {
+      "title": "Why are Bitcoin, Ethereum and Ripple prices down today, and will crypto crash continue or BTC, ETH and XRP - The Economic Times",
+      "polarity": -0.48687619529664516,
+      "ts": "2026-02-23T11:51:03",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxNdU9YS0NERkVPd1NnY3FFZTJFSWVTOHFrRDN3UkRWMFhUNElGekhZZWZLc1NLRkVYYW5HX3ItVFFLeXM3MGRZSm5icFlGdGQwZ1RaX2NndnJvNzF4bzAxWVI3YWdleExDOTBydnNMVnJRWHAyalNsMVJISFgzT2kyT3gzQ1ZvN2NKYkJsMFFVaTdlUWlNQnBUZTM1RENUT1dDUmg2bmROR096bnNSLXpxOEF3ZDRIQUpLaTJRdmNVR0tra3Z6UG5SU3NsdW5VWXRFeGpmaTFSTFV4cEI5SW5kRGpJZEdTSS1iZ0JuMFJWZmRYQkJaTm9xbHY1RjliRERRRkZPbFdFcTBzcVpDTTM1TTNaV2JhaFVsNkVwUUpMMWl6ZFNLUmFLNTlpbllIMmo5a3hsdUsybXI0M3dMeU00cEYzVFRwNXBDSFlJalZaX3NwQ3VUVEdvY3dVMXJwQzVmT2dTYUprZDk1OWU3dW9rb3dWZFFHVkxqeHl3OUpFWmxBd19mMTJKdkJTV2M3ZmY4Q2RsTFZXZWdNenVKZUFoMml6cElYRjZDdVdteTJQeUR3anJncWtfU0hrZHNKVGs3dl9HZtIBygNBVV95cUxQMC0zMjd1by1JSTZXeTFlYmVmbFd1NzdaeW5RZXAwNUJLR1ljc3FsdE4xeVQ5UXAwNG1uclZBRkZRamdpUGlfQWcxdkZjTWNRQl9MMWtKNjRfaXVXOENISnUycmhEXzBfWGZzSUcxNV81eVhvVDdacE82MlZGWEdLcFFLVVhnLURUQ28yenluclhub1JSRUpSQWdESEplaVZINVUzTU1UeXRMYWhpR2d0d0xXM0UwQTA0el9hYzJaRjhUQ0x2bC1BUzYyM1lET09PQjN0d3V6Tjk3NmVBOEpCRXdxZVV5VDdGeGVfMzdleENpVi05TXNnZkl1NXJXVTFMNGpwN25MV2lzaFJWa0tpYUdLUUh6cDc2bms3TTV3VlFxbFNOcE1DN1h4TUNGRWNfVmNkcjhtUWlPQkJNaXlLNWl1WWtaLURSa0ZaeFlxei1KckVYU1pCZTVzc1o4X0tuSGxoWTZneXpjamlMUEwwQVpUZjlOSnl2cXhPaWsxc3ZZQlVDT2E3VzAxWEFJd1VyYTRhZ0RJV211SURTYXM3OTNKYkZ1OFkwY3lMUlhKajV4dkw2TV9Dd0xQRVk3U3JUREFRVDl4STc4UQ?oc=5"
+    },
+    {
       "title": "Bitcoin Price Fell Below $65,000. Why Trump Tariff Turmoil Is Crushing Cryptos. - Barron's",
       "polarity": -0.47276125848293304,
       "ts": "2026-02-23T10:03:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxOU3NOLUFldGdPSkFfbDJYc1BQNUYtZUR1ZW9FN0EzRXZua0NpNkNMTXZUeGJYMkpzcklNeWNPSXBXN1VlUUdueDZlQXBGQ2xHaE1KV0s0U1R2bG44NEpYemJlZWI1NEl6R2l2MHpINFJFNElSeTVSdUZNWU1fQUZ1RW1qSnVqQU5Kc2NMaEN2SlpBY3BnaGJlYUt6Nldyc05jeEZTMVRlRENDaEVZYnVBNmZNTUFxODk5OFI1ZzNaOV9HbE1FY2I0TXRDcURtaVltS3NRV1VUbkNoaFJTM0tjMEhhdWljV2VhdTZ1b0I3cy1CVF90bEJ1aXFmM0l0dTdxRmwxRTJyVnhsNUpFWGpsLW41eHNsYnlHSUZoSmM1MjFEWTN6S1dObU5HSXhSV0tZX3ZfQlI3ZDB2X0tOeG9aWHliNm12SWgzR0ZlVUFDN054UFZ2cXM3MnRyUWVkaGFEakpRTVZtcHVocjUydFp4bVJRZ2w3VlBlNEVyZ1dYOFhfbDR5Zmxmd3hKaU8?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxPRkRKaG5PdElDLVZjMTdZb2JoTXRyT3dFZHlvSTZIdUFhbmoxb1pGWGk0bWN6UjFZMWJMOGU4SjY5ZFM1QzY4SE40d2UtcTBOaWN2YzBIeXhnbUtlUkNtUTM2dkwwT1NCWFJLYlRWUjVpdWNSLXRUcjJXYmgxRWJzM1pIcjRBUmY5Skg3d2pTdXlBTnRaOWF4ZjNiUE5WLUdoR09vN1FGcGM5RFNFb1dPMjJGUjFfOVZCek1RR1lWdjFPMDltd3d4a2dFQ3BvNEdHcG9FOXhRMTRfOHRQOGxCZ1JSS2M0dDdaVTFVVU56eUhJYjFONk56YUg5LW1GODdldHVHVVFjTGtINHR0YjA0TGNnNWZoZHJvd3RiRnRYYmJmNmJtWmNmUm93MlRKYVd1YUVJZ1NQOFVZaENMX192OFJpQlNZWFY5UnRDRlFmeWZrVjZPYTNWblozZVRXTWd2cEt5OF9qa1dGNTBuT2F4UF9OUFEteF9PZnRTMDNYbjJHUk9iVWRlT25WWEg?oc=5"
     },
     {
       "title": "Top 4 Reasons Why Bitcoin Price Is Down Today? - TradingView",
@@ -519,14 +547,35 @@
       "polarity": -0.4331859312951565,
       "ts": "2026-02-23T09:24:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihwRBVV95cUxNQlNUTU1LZWFhZkp6S0ZYV3dCZ1hpbk9OSUwxYzRtNEUtMllLQWdkY0FtWW5KVDJ6TUhGbHdSS0tPdl9aZ0dJOGtkaHRsczB0WFEtSWc3bU1tZFpNUTFDeTFyTGg1bEhqSVhEUWVaR3dSS2tWZ0dSUS1Tc240amxyMFN4UXp3T0E4SXMzRmdiOGxCYmxWU0Vucjgta01tY04yTlpsZ25JcFluM2ZSZzMzQmJBanJBVktqdWEtcGEtNGUxMWFSME1FLXNwcko0VmVmUllrQWpGRUhrMDl5WGloSFhOOGxlT1V4eWxrQVU3V2lXc3FmTVhITFhIR2c3UmZaTGNLS3RBZ2hlbF9vM1Y4Sm1oWFFYakl6aGlVR18zR2U1WUF4YU1BU21sTjNSMlBHdXRWbGowN3NiZ3Z4bmJSNlYzc2l5ZWg1cG04N1MxeGkxUE5WNUNuNldOdWRxckpCMG5tRFBqM2NNWjBMQXBLRmhmZElFOGJPTnotZnpXOEJOdTcwT3NIYlFGU3RHMnNvVnh2NnpUal9FVzhFNVpXNmZPMFpMbWtDR055eFBBcnBOOS1xVE5UenBrd0hmYzJoQXlvc2l6OVIwQXY5S0JQbFpTNVM1Mm1sV0s4M2VTUDhJTHVPWTRTZkFjSnJRTEl5eHZ5VnVGOGlKM0tPYTN6QnNORVYxN0E?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMihwRBVV95cUxOWXlUa3pOdlVzTlpDX21QNEEzNGNudUxERTdRVTBvdnA0U1NaVXhjamJQRFVjODNZdTRoWktiYklRTl8tQnA5UFd0WXZrdUNZVThERTRrX0s1VXZjNm9JZk1KM2Zud1E0aEpDa1BsRlJEU3hLbTNYc2tZbWdLUUxhd05Vb2pNVWNRMEg5cmd2cEhVX3hqOWNqMmNCMy1jWEtNaUszNjZ3cWdVV1lUa1B1NVhZMHZDUC00TU5KWUZKSWVMRDBLX1NaLXpORkVfQS1aVnJjSHZISEZwa2ZaOVdqLS1ITjFPak9NUm1wd0w1MHdBQTlKLUs1Z2hDdjh5RVI0MDl1TU5GaGw3VXVVSU1aWlg4dXJsSDZZOEMwb2ZERmdOZEI4VnIzdjZ4cHR4UExTU1RHNVcxUGQ0U0duWTRvbFN0QS1hNi1aOGFSZGl5QU0xTWNuRzNDVFFFNU5EV3piVG55LUxEV3YxYWM5YmVCSlRIRGZfVEJNS1NCc0Yzc1lFd2l3SEZjNTJZUEpiNlNZei1nUFFqVjZjOENBVTRCcENWUTBwV0dXRUVoOFFSd0M2dlRCTFRfdkQ2SWZUZmpIUU0zYkFhXzdxcjhNQk83ZEVJUWtWRG1LSE9YVE8wQUZyNnBuTlVfdTZmeDI2SUtROVNVa0dxR2pGSWFxenhLSjVkX1E0dDQ?oc=5"
     },
     {
-      "title": "Bitcoin Price Prediction: Is a Deeper Correction to $60K Incoming Next for BTC? - CryptoPotato",
-      "polarity": -0.31488246470689774,
-      "ts": "2026-02-23T09:30:00",
+      "title": "Tariff travails resurface, bitcoin holders prepare for declines: Crypto Daybook Americas - CoinDesk",
+      "polarity": -0.42681438103318214,
+      "ts": "2026-02-23T12:19:54",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZnhGQl91anYxWmFpZkd3eDgxOXlDYjRFcnRLNUlEbG5OOXlzbTBlekxQUTY5TXNhRkZOVkl0Y3dwbUlkU0YtVmxOWTc1cFQ2bC1nUWwtSGt4LWxQaDRZVUZIZ2dlWmtOLTFkSmRBWFpXQVotRHpiUmtSM2ludEVkSHlQd3VQVnRnWW8yMk0zc0JfclA1c0tidm94aFRRMklsUGlydA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU3ducXA5Nk0xNGlhSHl1Ry1LSE81bDEtRjV4dDRDb0RfS2k1TnBEcHMtNDF1cW1qNDdxOGV3SHdqZ203ejE4UnFlVTN0bnRFbnBrdE1ETnhFZm5ZT0hVZnhrUFZpQlhxTFNOWnFYQXpyTl9Sc2FJemtlUzBzakZ0c2JFcEN1RXI2ckdXN2JOcFZJb2doekE0bXluZkRsVWdNSGt1WHMtMVJvUGFKUFE?oc=5"
+    },
+    {
+      "title": "Bitcoin (BTC) price hit by swift Asia-hours selloff, stages partial recovery - CoinDesk",
+      "polarity": -0.35852234065532684,
+      "ts": "2026-02-23T11:34:50",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOV1M0N3VSTjNNRG1ZRkg5UmlET2ZveHlkQncxdDZfYlhPTkxWclBnLWNXSWdyc0c1U3BEalNMQ1c1MXF2M0xKbnA4Zmp6dUdxYjBhNmoxVnpLendoUm1XQjcwQkRxTnRFb00wUElFamVGdWMtNG5COUVESGx1T2ZEcnljRHFNWVhwTTd2MDRBcnFBWGFjLUJrZ3BpS3k1STl5MF9oNTIzZw?oc=5"
+    },
+    {
+      "title": "Bitdeer (BTDR) Dumps Bitcoin Treasury After Eight-Week Drawdown, Holds Zero BTC - Bitcoin Magazine",
+      "polarity": -0.35066276602447033,
+      "ts": "2026-02-23T11:40:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1QV0dmOGQyODR1RExDcTlOdkhwRVE4dlVuYjZTZUttZE4tbXZRNVlCWTY4M0lGb0Nfa2w1WGFwUHhROG9BY1E3NkFwUU1yOC01MHdjUDROa1U1UTFITXgyZVlTdWExT1IyZ1l3WkRTWXhLYUpQWTA4?oc=5"
+    },
+    {
+      "title": "Crypto funds see $288M in outflows as short Bitcoin demand grows",
+      "polarity": -0.26650458574295044,
+      "ts": "2026-02-23T11:49:03",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/digital-asset-outflows-short-bitcoin/"
     },
     {
       "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC breakdown hints at deeper correction as ETH and XRP extend losses - FXStreet",
@@ -571,11 +620,18 @@
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWVRNT3RMRkdRLTI5YXFib2ozeUFTWW5XajFMVG5rTzc5UUxBYlVkbEFtcW9NZm5wNFpmSDVpT28zQ0lWMjVzdzlpdFZ0SHZ5cmpGUGtsSjRpYmp2M1prMHE0azQ5aGRhTUQybGNSUUVxZjg5RVN3VjRTOVhockRXV1FPb1NRZ0pia0Y0YnRUREdNWDRqeDdhRmgwUFZoT2ZYWFdackNVVUZyeW82QTVtZG95RDdJQjlRbzl4MDRwckowekhJNjVWNzRWMk9XOElGMGY1Q1RweVBqaDV6Qnc?oc=5"
     },
     {
-      "title": "Bitcoin ETFs\u2019 5-week bleed, Metaplanet rejects accusations: Hodlers Digest, Feb. 15 \u2013 22 - TradingView",
-      "polarity": -0.07081525400280952,
-      "ts": "2026-02-23T04:35:00",
+      "title": "The Breakdown of the Fiat World Order | Parker Lewis - WHAT BITCOIN DID",
+      "polarity": -0.07539367489516735,
+      "ts": "2026-02-23T11:41:59",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTDlBOUF5RkhQc1lOQVd3V0RIbVhKbHBzYmVPMm9uZjQ4cVB4MEF6ckdrZkl3WXhrbk5UWThCV09oNmhhVHVKNWM3d0Vaa1NQdUdKRHFpVEtjVW9nSlQxcmhmbF92bmtUNTB0R09hTV9Vc1ZPX0wtUGpuNU1hZEZ5b2cyZk1WamNkY0JDQXQ5WVNLYWV1aTROWDV3Y0wwMlV5QUtvdHVzV1BSRHVIVndzTFhFeGVsYndoenA0R19HdExONXIzdVpzNkNBaGRQWjFsNWx6cEFRcEl5Z09FRHc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0ySmIySEtnSlUyX0lkRnFoOFI2MG0xaElYV2ZZMGp3VC01NmpJQS1CbjBHYjlpMUVMTHRWUE0xd0dtY2FJdjh3VVhJeDNEU0FXR3MyYnllU0cxemp2dTFFbG5xRUpjYnl6VlFn?oc=5"
+    },
+    {
+      "title": "Bitcoin at $64K: Fear Is the Feature, Not the Bug - Binance",
+      "polarity": -0.07239082641899586,
+      "ts": "2026-02-23T10:28:48",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YQ1FsRGx6VWdPNUFtQTkySDhqRUVDaS0yZjJ1eFBoVGR4TUFtYXEtYzFSMTVqSnBaU1FOUVhjN2RsN2luQXkxcGItRDdZclBWUGFvbXEtVHI0THpKM3lCajFLejdZZzVf?oc=5"
     },
     {
       "title": "Bitcoin client sync and spending",
@@ -620,6 +676,13 @@
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1rcbsbj/breaking_bitcoin_would_require_19_billion_qubits/"
     },
     {
+      "title": "Hedge funds that piled into US Bitcoin funds are first to exit - The Business Times",
+      "polarity": -0.036759816110134125,
+      "ts": "2026-02-23T10:51:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcnBVc0FNSnd4UVQyZ0FyalpNNHZkRURZX1B1el96c29Xa1A3VnpwQWxKU2dDOXd4M190X1RwcktpLVJ3eFEyZUdxcS1iNElqSFJjcUw0eEdYQW5tWWRVMXR6d1ZHSC00a25Bdl9va2lramVmOWx1a2wyYTNGblJWcHNXOWZtSUU3cUtRX0x5dTlod3A2eWZBbGlraWdjYXlWRFpuUmZhcmxLdw?oc=5"
+    },
+    {
       "title": "$61 million bitcoin whale liquidated on HTX as sentiment back at 'extreme fear'",
       "polarity": -0.0232161283493042,
       "ts": "2026-02-23T06:15:20",
@@ -641,6 +704,13 @@
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOcXc5eWpyWV9DUHRBOXRCQWtVU3NmUEc4SnVGZHVBeDZSbkFXaGNkd3BwZ0pzOXZncHZQNUw1MVdOQjVYeFpCRVoxX1lxTS1pSHpXdkEtenFSVzRwd2FwRWlhU0JpN2dfLTdTa0d0TkhoeWRiS3oxQVRGV2dXR1pUSUtVVVo0R3JmOXYxOWRUY0I1dThxeGN3T3lCM2FDaHJBcWhiOVdXT0E4ak9Fc281N3FJeWhMdldxLWs3cXQxZm5kazNReTJxdWZjc3Z5MnU3YkE0WDhQWHpyRkFM?oc=5"
     },
     {
+      "title": "Bitdeer (BTDR) Dumps Bitcoin Treasury After Eight-Week Drawdown, Holds Zero BTC",
+      "polarity": -0.012935947626829147,
+      "ts": "2026-02-23T11:40:00",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/news/bitdeer-btdr-dumps-bitcoin-treasury"
+    },
+    {
       "title": "BTC/USD Forex Signal 23/02: Signal: Bitcoin Price at Risk as - DailyForex",
       "polarity": -0.01152481883764267,
       "ts": "2026-02-23T08:09:47",
@@ -653,6 +723,13 @@
       "ts": "2026-02-23T11:28:59",
       "source": "r/BitcoinMarkets",
       "url": "https://www.reddit.com/r/BitcoinMarkets/comments/1rcezt5/what_would_you_do_if_someone_gave_you_100_btc/"
+    },
+    {
+      "title": "Astrology's Impact On Bitcoin Trading - thedetroitbureau.com",
+      "polarity": -0.0005379151552915573,
+      "ts": "2026-02-23T12:08:05",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVXBRaTdmRjVjLWRWT3JzNlgwb2lFOVdUQWlDUjVDMkFDRWFmUjNZNW5rYjFnS2JyNWpIamZLVmdUaEZNVkFSc2R5TTR6cUFCZHlHX1JCLTZiYmJubGRIaFNHMjkzdy1qSG95TlFyV1gyOFNNUHhFcWY5MzQtZ2x2dDk4Rm4tZUhlTkR1SVp0RHp1N1JobEJfSQ?oc=5"
     }
   ]
 }
