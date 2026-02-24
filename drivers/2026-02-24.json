@@ -9,14 +9,42 @@
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1DWnMtSEJCajNFbkphckNkZkI1elp3ZEVpV1VUVklpNDhWQUlNWTVaLXZWZXZzbU5HZjlnTEl5eUw1dkY5ZkJncTY1d1RWNm9Lb1hfdXI5ZjZZc2VoZ01TZXBJd3Fza2MtR1QxWEI4emJKMXNwZWQwZHZVWGw?oc=5"
     },
     {
+      "title": "Thoughts on Variational.io vs Lighter? For BTC perps",
+      "polarity": 0.08261936623603106,
+      "ts": "2026-02-24T03:53:24",
+      "source": "r/defi",
+      "url": "https://www.reddit.com/r/defi/comments/1rd4cq0/thoughts_on_variationalio_vs_lighter_for_btc_perps/"
+    },
+    {
+      "title": "Almost sold but didn\u2019t",
+      "polarity": 0.0688135139644146,
+      "ts": "2026-02-24T03:44:48",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1rd422h/almost_sold_but_didnt/"
+    },
+    {
       "title": "Auto buy",
       "polarity": 0.06314504332840443,
       "ts": "2026-02-24T01:23:36",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1rd0o4y/auto_buy/"
+    },
+    {
+      "title": "Canaan acquires Cipher Mining's stake in West Texas bitcoin mining projects in $40 million deal - The Block",
+      "polarity": 0.03411592077463865,
+      "ts": "2026-02-24T04:36:43",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUWlxR3JKRVBsOXJJLTVzbm1STGVXUW5KS2dJTlVWRDdyQ3cwdUFYb19UenJfV0FibHB6SU9SUzdlUEk1Y1BBVTd2NEJXcmxBNnJzbHM4SUw2YmYzcW1pM0FrTTMtSEVITXhqaDA4MWdYUlphMXF4VUxKZ2h3TGNaMUhnQmp5VGUzakE?oc=5"
     }
   ],
   "negatives": [
+    {
+      "title": "Bitcoin extends decline, falling over 5% to below $63,000 - CNBC",
+      "polarity": -0.9627835480496287,
+      "ts": "2026-02-24T03:31:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSEhHVEQ4MzdIZF9iNTBZQ2d2OS01bHdlVkNNeDByZjB4eGxjU2RQM29hVW5OX2t3YmtUQW1hdllPaVppOEJVekVMU3lVdjhTODN6NzE2cC1qeUdaNHpVSVZQQlVZampCVlo5M3d3OFlaOFVGODhDTmI4NXBsYmItNkNmX0xrVDBBUkdTWTZXWjkxY3M4Xzk0ZTFrT0ZRZ0ZpWjNSMW5EY3FMcG1N0gGyAUFVX3lxTE5XeXB1YnBSaTF0ZTFIYmJjek9ZUUJua2oxTUlCZWNOSTJrZmJqdFdfNDliVkxUb3J0cWFwc3dCY2N6dl9IREJvVWhBZU1UM3NwdFpTbWROWG1TR2NKS1ZjTjZNMlJQVktZcmJRYTNTVjVKREN6U2VITTF2TVVzTTcxdktmbGNNUGN3SlR0cDlOWnhSbHhxLTRXcEROaUdGUWlIM1g4aHpKT2xBNmNfSE9IYUE?oc=5"
+    },
     {
       "title": "Bitcoin's Slide to $64,000 Is a 'Macro Shock,' Not a Market Breakdown",
       "polarity": -0.9422216191887856,
@@ -25,11 +53,18 @@
       "url": "https://decrypt.co/358934/bitcoin-64000-macro-shock-not-market-breakdown"
     },
     {
-      "title": "Bitcoin Price Sinks to New Weekly Low, Bulls Lose Key Support - TradingView",
-      "polarity": -0.932650238275528,
-      "ts": "2026-02-24T02:38:00",
+      "title": "Bitcoin's Price Drops Below $63K After IBM's Worst Day In 25 Years \u2013 Triggers $370 Million Liquidation Wave - Stocktwits",
+      "polarity": -0.9408155046403408,
+      "ts": "2026-02-24T04:39:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWktlcVhXc1B5YWcyZnpIN3prbFlWM2NHZkdBU3RsdE1KT0plNS0xZWM5OWRqeGNQLVdDMk5KMkJ6bjlvNFZXMmNHUXNLdjdnSG9QNnRoSzhSWVBSZlRSODQwZHdaZzZfYnJUcHdDMUdzN2VudUJ4ODFnZmU4c2ozeDdRNk16VGh2SWRsdnlHcnVqWVJMbEtLMUtfMW9meWJPN182RUZuNDQtNHhkcl9wVUhnbUtNbWthY3c?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUzBoOUVDQUlFaURvWHB5Mkh3ZFdPNkZJUC1FX3lRRjZfWWwzbjNvMHBHZDFEZ19HX3hBM0pVN0ZBZUo3ZEYydFFlczlaNndKQmMyMUZYYmJLOUt5UW9sMVFSQThGRUxVSzNOTWhpODJJTE80aEh2WnpCU1FCeUZBbm5ZS0ljX2dmSXBtQkdMSkREbXZkcHdZcTg2alhSRmFwM2RlVE80Z0NDYXJXTjdwdzVVNmExUVdCSkljdENwRVRnT2ZyZ284Y0JpSGpCa3VvUnc?oc=5"
+    },
+    {
+      "title": "Bitdeer Exits Bitcoin, Cutting Holdings to Zero Amid BTC\u2019s Slide to $65K - Eudaimonia and Co",
+      "polarity": -0.9391382839530706,
+      "ts": "2026-02-24T04:56:40",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaEUtY2ZDVi1EOTJEVHFySmtJTndBdFBGb0tPN2ltZkk1cE5mUWJGTmNRdTN2blI0RXRmM0JFeDY0UHByT1o5WXd2QXJuWktia291Wlh6Qm85VlowSHRHczRpUnBtZUI3b19WUldKa19jT05kNjBFQ2x1THdhci1ITUxhQ3VYZ21ZMnRyUFB3?oc=5"
     },
     {
       "title": "Bitcoin Weekly Close Weakens: $65,650 Support Fails, $60,000 Next Major Test",
@@ -39,18 +74,11 @@
       "url": "https://bitcoinmagazine.com/markets/bitcoin-weekly-close-weakens-65650-support-fails-60000-next-major-test"
     },
     {
-      "title": "Bitcoin Drops, Gold and Silver Surge Amid Tariffs - \uc870\uc120\uc77c\ubcf4",
-      "polarity": -0.16964033246040344,
-      "ts": "2026-02-24T01:12:26",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdDYwMFdiREZQQkFPdUtZemo5aC1VSklMTXJZV0hXN2huRndCeF9sUEZsRmlva3pCQUN4eFVYR0RMMlhYYUNIc1RmckxEaVEzOTJ2MzJMUzNWYUZHbDI2TnRBN1A0UWU5Vl9kM1NUNXFfRU1CNldQbnpVWFpQS294bFhwbUNVR3RIcUZVTW9B?oc=5"
-    },
-    {
-      "title": "Abundant Mines CEO says Bitcoin mining now offers 100% first-year tax write-off - Yahoo Finance",
-      "polarity": -0.13085369020700455,
-      "ts": "2026-02-24T01:54:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTmEtSUx1QVc5MDhRbDAxbDh2TlhVT3FxbnRlNWhwalhTY2pTLWxPdjlsUGdtOHlad3BpWHNIeVBtajgyRHRldFR1MzFDMGhWeEZnVXNET2QtNHU0bkJKOEpibUdyVjNlRFBLTmtDeHRSU3N5amxrOTBUdzFNaUVGVjVPYw?oc=5"
+      "title": "Bitcoin dips under $63,000 and history says more pain ahead before bottom forms",
+      "polarity": -0.8808527979999781,
+      "ts": "2026-02-24T04:44:42",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/02/24/bitcoin-dips-under-usd63-000-and-history-says-more-pain-ahead-before-bottom-forms"
     },
     {
       "title": "Bitcoin Outlook: Is 60k the Bounce Zone or a Trap Door to 50k? - FOREX.com",
@@ -65,6 +93,13 @@
       "ts": "2026-02-24T01:16:35",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR2dXRFVnRG9tWGh2Y3hRUUxmb1R2Z0FPMUVETlY0Y0ZvTlhCWUFXaGhCTHZhRTNvYlNMWDNyUnhrbzJ5YXBnS3poajBPNnZRc2IxYjVpclpNd0owMDg5d01sbEtabWZ6b250WHN6TzhieTFsdFlwSktSOFJfbFV0amcwVVFmd2MtbGhibVpsNlotWVRHRE03cnJWM19JUXpTNlhOMnFISHpBZw?oc=5"
+    },
+    {
+      "title": "Bitcoin drops, gold and silver surge amid tariffs - MSN",
+      "polarity": -0.022020995616912842,
+      "ts": "2026-02-24T02:10:52",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZUtyNm5TMV9rNDhzWVdQbDBOLURRS2dIVFkxaVRacGV5UDhUMDdoa2VpRWhpUlVQYVcxODZfS0gtV0c5aC1CVmg2ZHc5LUViTTFuSkNoQmdLZnNLSVlFcEZSVWpKanJoNm16THowMmdDNEdlUWk1QTM2S1hXblUtSmVyZWs1cDFyTG9GNUdkWFJfQk1VeDBVeFRHTmplUQ?oc=5"
     },
     {
       "title": "2nd day in a row Bitcoin dumped at 8 pm Eastern time - Why?",
