@@ -2,29 +2,43 @@
   "day": "2026-02-20",
   "positives": [
     {
+      "title": "Bitcoin Rises After Supreme Court Rules Against Trump Tariffs - Yahoo Finance",
+      "polarity": 0.11951956152915955,
+      "ts": "2026-02-20T17:20:49",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZEZ5Mjc2bkp2NGFGRkd6Wlpzam9HZmJydEpRZG1DZ0dsR3FtRUlZMC1mOUwwWWs3R2VyOFpVampjbXotZnVxUDRXZFBuM0JuTDVUSm5qck1zY2I2RFdQRmZwd3IxaFlKaFdUYW5TeFU1SnhyaHhxbUZSa3otN1BGeW1kd0RoQQ?oc=5"
+    },
+    {
+      "title": "Bitcoin Is Not Going To Zero (Cryptocurrency:BTC-USD) - Seeking Alpha",
+      "polarity": 0.04803217947483063,
+      "ts": "2026-02-20T12:18:21",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2NEtFLWlWbDB3X1pfZFNfdWtDdVBBWWxybkw3VEcxQ0JNTWRLTnpPbVFEcDhuRXRXTUdlZHZSbFdZbVd6N3ViTmtjSDRHVkhjRFFTNlBqWFdWQ3MwazN2UlczcklpWFZJdnZDMkx2TVdBUHpUX0xSYQ?oc=5"
+    },
+    {
       "title": "Nakamoto Inc. ($NAKA) Completes Acquisition of BTC Inc. and UTXO Management",
-      "polarity": 0.041143747977912426,
+      "polarity": 0.04114390816539526,
       "ts": "2026-02-20T21:17:44",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/news/nakamoto-inc-naka-completes-acquisition-of-btc-inc-and-utxo-management"
     },
     {
       "title": "Modular blockchain stacks are separating execution, data availability and settlement into distinct infrastructure layers",
-      "polarity": 0.03838220238685608,
+      "polarity": 0.038382211700081825,
       "ts": "2026-02-20T22:07:05",
       "source": "r/CryptoTechnology",
       "url": "https://www.reddit.com/r/CryptoTechnology/comments/1ra93ri/modular_blockchain_stacks_are_separating/"
     },
     {
       "title": "What Is Strategy (MSTR)? The Bitcoin Treasury Company",
-      "polarity": 0.019278250634670258,
+      "polarity": 0.01927831955254078,
       "ts": "2026-02-20T17:40:02",
       "source": "Decrypt",
       "url": "https://decrypt.co/resources/what-is-strategy-microstrategy-mstr-the-bitcoin-treasury-company"
     },
     {
       "title": "When Bitcoin prices turned against Michael Saylor, he quietly pivoted to a risky financial gambit at Strategy - Fortune",
-      "polarity": 0.0075279101729393005,
+      "polarity": 0.007527880370616913,
       "ts": "2026-02-20T09:30:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOVhmU3RaR3ZmaUprR2paZGJOeG1HUlV1ZU9Ib1lTYWVZUzRVcWQ2bzJRc3hWZ3B4eUVVeDIzZ0k1RVg2d2NWTklHZUJCZ1JtVHg0ZjBCOUk2TFRMeUFIZE8yY29nUHJNV2NuSmJKeldqRThLZ21HWnFPUHNYWHk1VGd0ZV9Cb3ZpTEFreXRTak94emplN05ReWcwekw?oc=5"
@@ -33,42 +47,42 @@
   "negatives": [
     {
       "title": "Bitcoin Sell Pressure Is Easing, But Whales Keep Dumping on Exchanges: CryptoQuant",
-      "polarity": -0.9666749937459826,
+      "polarity": -0.966675000730902,
       "ts": "2026-02-20T20:41:31",
       "source": "Decrypt",
       "url": "https://decrypt.co/358782/bitcoin-sell-pressure-easing-whales-dumping-exchanges"
     },
     {
       "title": "South Korean Lawmakers Slam Regulators Over Bithumb's $43 Billion Bitcoin Blunder",
-      "polarity": -0.9402290750294924,
+      "polarity": -0.9402289455756545,
       "ts": "2026-02-20T16:27:42",
       "source": "Decrypt",
       "url": "https://decrypt.co/358744/south-korean-lawmakers-slam-regulators-bithumb-43-billion-bitcoin-blunder"
     },
     {
       "title": "Bitcoin Rises After Supreme Court Rules Against Trump Tariffs",
-      "polarity": -0.5614253580570221,
+      "polarity": -0.5614236891269684,
       "ts": "2026-02-20T17:20:49",
       "source": "Decrypt",
       "url": "https://decrypt.co/358761/bitcoin-rises-supreme-court-rules-against-trump-tariffs"
     },
     {
       "title": "Bitcoin whale Garrett Jin sends $761 million in BTC to Binance",
-      "polarity": -0.17902173846960068,
+      "polarity": -0.17902099713683128,
       "ts": "2026-02-20T18:01:04",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/bitcoin-whale-moves-binance/"
     },
     {
       "title": "The IRS quietly changed how crypto transaction fees are taxed in 2025, and it actually benefits you",
-      "polarity": -0.03221529722213745,
+      "polarity": -0.03221534565091133,
       "ts": "2026-02-20T23:47:30",
       "source": "r/ethtrader",
       "url": "https://www.reddit.com/r/ethtrader/comments/1rabllc/the_irs_quietly_changed_how_crypto_transaction/"
     },
     {
       "title": "The Core Issue: Cluster Mempool, Problems Are Easier In Chunks",
-      "polarity": -0.023702409118413925,
+      "polarity": -0.023702437058091164,
       "ts": "2026-02-20T19:38:23",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/print/the-core-issue-cluster-mempool-problems-are-easier-in-chunks"
