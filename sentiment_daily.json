@@ -102,48 +102,57 @@
     },
     {
       "ts": "2026-02-20T00:00:00",
-      "raw": 0.003083452582359314,
-      "smoothed": 0.003083452582359314,
-      "n_posts": 2,
+      "raw": 0.03838220238685608,
+      "smoothed": 0.03838220238685608,
+      "n_posts": 1,
       "n_positive": 1,
-      "n_negative": 1,
-      "directional_bias": 0.0
+      "n_negative": 0,
+      "directional_bias": 1.0
     },
     {
       "ts": "2026-02-21T00:00:00",
-      "raw": -0.4920253162272275,
-      "smoothed": -0.4920253162272275,
-      "n_posts": 2,
+      "raw": -0.5982683695231875,
+      "smoothed": -0.5982683695231875,
+      "n_posts": 3,
       "n_positive": 0,
-      "n_negative": 2,
+      "n_negative": 3,
       "directional_bias": -1.0
     },
     {
       "ts": "2026-02-22T00:00:00",
-      "raw": -0.17578983736102993,
-      "smoothed": -0.17578983736102993,
-      "n_posts": 4,
-      "n_positive": 1,
+      "raw": -0.27415683471104674,
+      "smoothed": -0.27415683471104674,
+      "n_posts": 3,
+      "n_positive": 0,
       "n_negative": 3,
-      "directional_bias": -0.5
+      "directional_bias": -1.0
     },
     {
       "ts": "2026-02-23T00:00:00",
-      "raw": -0.35966771355964594,
-      "smoothed": -0.35966771355964594,
-      "n_posts": 32,
+      "raw": -0.33242959596364835,
+      "smoothed": -0.33242959596364835,
+      "n_posts": 30,
       "n_positive": 12,
-      "n_negative": 20,
-      "directional_bias": -0.25
+      "n_negative": 18,
+      "directional_bias": -0.2
     },
     {
       "ts": "2026-02-24T00:00:00",
-      "raw": -0.28826240808074444,
-      "smoothed": -0.28826240808074444,
-      "n_posts": 117,
-      "n_positive": 45,
-      "n_negative": 72,
-      "directional_bias": -0.23076923076923078
+      "raw": -0.27710638585980835,
+      "smoothed": -0.27710638585980835,
+      "n_posts": 112,
+      "n_positive": 43,
+      "n_negative": 69,
+      "directional_bias": -0.23214285714285715
+    },
+    {
+      "ts": "2026-02-25T00:00:00",
+      "raw": -0.11797605765362582,
+      "smoothed": -0.11797605765362582,
+      "n_posts": 9,
+      "n_positive": 4,
+      "n_negative": 5,
+      "directional_bias": -0.1111111111111111
     }
   ]
 }
