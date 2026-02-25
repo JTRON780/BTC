@@ -102,12 +102,12 @@
     },
     {
       "ts": "2026-02-19T00:00:00",
-      "raw": -0.0009479461745782335,
-      "smoothed": -0.0009479461745782335,
-      "n_posts": 2,
+      "raw": 0.025177277624607086,
+      "smoothed": 0.025177277624607086,
+      "n_posts": 1,
       "n_positive": 1,
-      "n_negative": 1,
-      "directional_bias": 0.0
+      "n_negative": 0,
+      "directional_bias": 1.0
     },
     {
       "ts": "2026-02-20T00:00:00",
@@ -120,8 +120,8 @@
     },
     {
       "ts": "2026-02-21T00:00:00",
-      "raw": -0.4920253162272275,
-      "smoothed": -0.4920253162272275,
+      "raw": -0.49318431643769145,
+      "smoothed": -0.49318431643769145,
       "n_posts": 2,
       "n_positive": 0,
       "n_negative": 2,
@@ -138,30 +138,30 @@
     },
     {
       "ts": "2026-02-23T00:00:00",
-      "raw": -0.3059305254704296,
-      "smoothed": -0.3059305254704296,
-      "n_posts": 20,
-      "n_positive": 7,
-      "n_negative": 13,
-      "directional_bias": -0.3
+      "raw": -0.3641913158183055,
+      "smoothed": -0.3641913158183055,
+      "n_posts": 21,
+      "n_positive": 6,
+      "n_negative": 15,
+      "directional_bias": -0.42857142857142855
     },
     {
       "ts": "2026-02-24T00:00:00",
-      "raw": -0.3036819390229172,
-      "smoothed": -0.3036819390229172,
-      "n_posts": 56,
-      "n_positive": 23,
-      "n_negative": 33,
-      "directional_bias": -0.17857142857142858
+      "raw": -0.31334716908384413,
+      "smoothed": -0.31334716908384413,
+      "n_posts": 46,
+      "n_positive": 19,
+      "n_negative": 27,
+      "directional_bias": -0.17391304347826086
     },
     {
       "ts": "2026-02-25T00:00:00",
-      "raw": 0.10768163934045892,
-      "smoothed": 0.10768163934045892,
-      "n_posts": 75,
-      "n_positive": 49,
-      "n_negative": 26,
-      "directional_bias": 0.30666666666666664
+      "raw": 0.1469636807596841,
+      "smoothed": 0.1469636807596841,
+      "n_posts": 83,
+      "n_positive": 55,
+      "n_negative": 28,
+      "directional_bias": 0.3253012048192771
     }
   ]
 }
