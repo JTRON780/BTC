@@ -3,35 +3,28 @@
   "positives": [
     {
       "title": "'If it's not going to zero, it's going to a million': Michael Saylor's Strategy buys another 592 bitcoin for $40M - The Block",
-      "polarity": 0.045978305861353874,
+      "polarity": 0.04597814567387104,
       "ts": "2026-02-23T13:06:10",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcU5BcU84SEZwbTMzOXpFU2YwUWNDeUswQ3E3UVpvemFjWUZNSkxtdWg5dmJkd3FhY1JjcWxZR3gzMG1QYV9abGRia2NBSzlYUTAyLVE0TXFrUWJlWldIZTZSVVdfaVZZZW0wRjVIcUIzWUtKRkwyOXRIRmFPU3pLX2g2SF80Rm5WQWU3Y3hCVUlxUEtjM3c5em5ucDNvTXpmNktTcV9WVzBEWnVpa2N2dTRiTFhZMWxDRFJNRjZkQnlUMVdK?oc=5"
     },
     {
       "title": "Bitdeer Liquidates Entire Bitcoin Treasury as Mining Margins Tighten \u2014 Will Other Crypto Miners Follow in 2026? - Yahoo Finance",
-      "polarity": 0.044021837413311005,
+      "polarity": 0.04402182251214981,
       "ts": "2026-02-23T07:49:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMWR6NFZxdWZ1WU1UMm9ONW03dzk5Q0N2Z0FMbkRORkF3XzE1eGZfWUJuVlo4eFZCZjI1M0hha0pZNVdWYTVpcXdOLXBqQnBSR3RZMGF3T080SVhBTGRVTWtwZHlBMWRBUHRheklkT3kwcHNDa2xGOWJlaFBuWTFUc0tKRUJUV3FxSHBZcVEzVkgwdw?oc=5"
     },
     {
-      "title": "Michael Saylor Hints at Strategy\u2019s 100th Bitcoin Buy: Why Corporate Accumulation Still Matters - Yahoo Finance",
-      "polarity": 0.017530405893921852,
-      "ts": "2026-02-23T07:29:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd0k3S18yU3RrczBRVWhTenZicEhmQzduN2gzOS1DYnF2R1kxOUV6WG1DTFl3b293eklKUnpaX3Z2YmR0SlczUDhEZVNfS2pvU0xkZTRzNzI3NEo2STY5LVRGSTBOMC1zRUlBMHRyT2hKTEU4NkhFbFhPZmlMTVdpTldicDJTQVly?oc=5"
-    },
-    {
       "title": "Is bitcoin's price slump an investing opportunity? Here's how to buy bitcoin. - Yahoo Finance",
-      "polarity": 0.0098128542304039,
+      "polarity": 0.009812906384468079,
       "ts": "2026-02-23T17:01:09",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYk1Uem9kSFREVTJTRTVfMFU3R3F3eG9EaFA3X0RyYlMzUGRwU09RRmRMaDBQcXI2RU1wSVkxeWg0eVNWSm9FQlhQTGp0SnVOTWpNX2pldW1mMWVPZTRSajRKMUdrQ05wMkpRcVdXejJmRFhzZUxKd1lTNDN3cUpXazQ3Y0U1MTVIekIxMnljNmllSWtGTkRsYlRn?oc=5"
     },
     {
       "title": "Engie eyes bitcoin mine and storage system at huge new Brazil solar plant - Reuters",
-      "polarity": 0.008850498124957085,
+      "polarity": 0.008850479498505592,
       "ts": "2026-02-23T16:55:59",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbEF6T3FzaW55NUtxaVFSUUt4NjFHMzBoWWd1dEtGRzFNQ0ZRRTc5MzJoUGo5dVJwTjhXUTAyeEdrcXZGM25rU1RxXzdGRzNjUXBPc2Izck9FcVg3SVlJT1NoVC1OZjJzR3B5azkzYldTSXNXQ0JvYXdia1U3bVh0OWFRcGlXOGRtTGFUa1hvTndGRjdMY0dLT0RYaEhMM3ZEX2xkNGJoenpRbkZINlNGNEZ0ajZfZmxEUzFCSldiUHA1aXB4NWJIRWZ1MUI?oc=5"
@@ -40,63 +33,77 @@
   "negatives": [
     {
       "title": "Bitcoin Down to $65K as Heavy Selling Drives a Sharp BTC Price Drop",
-      "polarity": -0.9557685097679496,
+      "polarity": -0.9557685041800141,
       "ts": "2026-02-23T10:40:44",
       "source": "r/CryptoCurrencyTrading",
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1rce51y/bitcoin_down_to_65k_as_heavy_selling_drives_a/"
     },
     {
       "title": "Bitcoin falls to $65,000, putting token on pace for fifth month of losses - Yahoo Finance",
-      "polarity": -0.9379108361899853,
+      "polarity": -0.9379108194261789,
       "ts": "2026-02-23T15:28:32",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMFhXallMU2I3SVkzMnFyNjloZTFDWVRTU3M2b0xQRjlyR2pFYWV5RVhfSkh1VTZnQm1Gc1dpdmx6NGtzQjFMSDhUV0NxSzlVUUg5N3d4YkpOczFjdUVwTmtBR1NhVUhRakoweTdlVU1FN3YzaV9TbkZWLUxKbDRzWGwxUjd3LXlKbU13NDNUTWk0U1dUa245OVQ0WWMzcHBjNFhIa3R1LWdxQmtYbFRwQkd1S3dhbVU?oc=5"
     },
     {
-      "title": "Bitcoin Falls Below $65,000 in Latest Bout of Tariff Uncertainty - Bloomberg",
-      "polarity": -0.9306570421904325,
-      "ts": "2026-02-23T17:50:49",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN0lLMks5Q1dhLU9OMldaaXFKYnk0WDc2RmQ2MEFEZm9qa0RMajBjSlVmbFRub3RqNFdsWU42ZkgwbTZheTBoaEpmZkx3VGdGbi1MM2J3OW04a0FLMW1ZSlZvTDEtTFdZdS0zYVlJQVh6dDZDOXhNTERzMmRaRXN2V0pmMjdQcWpKd2RyRTh6SkFGeTZzTkxUZ3ZRazM2UDA1aWxFQXdxTDhYSDVzX0FxWlhRbGhjVE0?oc=5"
-    },
-    {
       "title": "Bitcoin falls as much as 5% as Trump tariff moves raise uncertainty - CNBC",
-      "polarity": -0.868939945474267,
+      "polarity": -0.868940144777298,
       "ts": "2026-02-23T01:53:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9KOVlMMkJ6alBfQUtyaUdQcEtPNVItbDliQXJLZVE0NUpWWUdpWmptbWgwUnpKVDhCUGNGOHdpMy1EREdXMzFDWURGWGtUWGloMjd2ZFRpeklVZFk2UkhjSXBEYl9LTWtINEoyWnBWdTN5Z9IBd0FVX3lxTE5veFNabXpDTlN6TW9tMGNLeFlERndSYzdiUEVWSWh5WDJ2ZWFXaVJkVmxWUDhUSEZJbGdnckJMOURqVmhNWFBuQ2lNaWpvYzdlS19BOFNzVHhMczBSVzEwLWN4c3pwSHVQbC1PV3lsSE51X1V3azRV?oc=5"
     },
     {
+      "title": "Bitcoin Falls Below $65,000 in Latest Bout of Tariff Uncertainty - Bloomberg.com",
+      "polarity": -0.820561733096838,
+      "ts": "2026-02-23T17:50:49",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN0lLMks5Q1dhLU9OMldaaXFKYnk0WDc2RmQ2MEFEZm9qa0RMajBjSlVmbFRub3RqNFdsWU42ZkgwbTZheTBoaEpmZkx3VGdGbi1MM2J3OW04a0FLMW1ZSlZvTDEtTFdZdS0zYVlJQVh6dDZDOXhNTERzMmRaRXN2V0pmMjdQcWpKd2RyRTh6SkFGeTZzTkxUZ3ZRazM2UDA1aWxFQXdxTDhYSDVzX0FxWlhRbGhjVE0?oc=5"
+    },
+    {
       "title": "Anthony Pompliano's Bitcoin Treasury ProCap Buys Back Stock Amid 85% Price Plunge",
-      "polarity": -0.6768556088209152,
+      "polarity": -0.676855593919754,
       "ts": "2026-02-23T22:19:15",
       "source": "Decrypt",
       "url": "https://decrypt.co/358871/anthony-pompliano-bitcoin-treasury-procap-buys-back-stock"
     },
     {
+      "title": "Peter Schiff Says 'Highly Likely' Bitcoin 'At Least' Falls To $20,000: 'I Know BTC Has Done That Before, But...' - Yahoo Finance",
+      "polarity": -0.6283213458955288,
+      "ts": "2026-02-23T20:31:09",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZlNGdkhOTVh2WllDeTBSVGlWeUlMYXM5NUxLaWViaWdmTTB0TVFrdUJJRVhPc21PU2R2NVNQNmVNT0JaZjVGU0ZPcllUd3VmM1R4NDNwU1FwSmFKUS0wcEJDeTN6eEZjVFFCY3NiQl8yTTVValhIQ0h5ZGV5SnVoTUhmOA?oc=5"
+    },
+    {
       "title": "Strategy shows no fear \u2014 it keeps adding to a losing bitcoin position as prices drop - MarketWatch",
-      "polarity": -0.5758972764015198,
+      "polarity": -0.5758962705731392,
       "ts": "2026-02-23T18:25:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiyANBVV95cUxOWk82ckFtUVdvZkRwVFFOYVpsQ0ZGMGNUeFdVbzVRNkthMlV1NGlOb2Vvend6OUJSQlNVNm1scGsyeEdfRDc5ZndrVzk3M21xWGc1YkFjNmdRR3pXbVRCaVd5WnhkU3RIYm1FTmNLSzJIZ0Fjei1wOHY5Q3JJM1p4ZE9XWXVnWmxoUFRabFlLUGU5UnFNZkkwbDZidUhnczlhNjVwY2ZXMnJzN2JsalAxU1NDTGxKV0hfTW85QWw3NlR4UlRNZzd0REpPcXN0c1ZkOXZSeE9LelhqZWsxckhQNVFJTjNFM3JTRV9id1FxOHp5cUVfTER4N3Y2R212V1FSeUtGRXhqeUV3T29pdFhWX1dJSFgzQkNxcmdraUNsSm92QlV1RHhrYWxvNjZmVmg4WXU2N1ZzMTdpQkg0enlMaXJONmdlZ0J2VmhuaHd4cVBrdl8wOXdSUzlfNHRuWUN2S2V5ejZyZlhTcEd4OGJrbDZRbUx6Qk5JV0pZTjI0b1VJUEdqN3RKejNVR010dUNEb0U0THVtWFNOV01IZWlCaHRkMm5YTFdPNk40NG4wSGFkZFZVcERubHJ2cGJGRE04c2ExUHRJY2Y?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiyANBVV95cUxPRzY0RkU5dkNzd2FfUFAwUGpvLXJ6NmlwRHRDVG9IT0JGX1hKaWtDdmJEMVp2N09BMW45cGw0Z2c0eWs3UkE0ZEhtOU53MERCXzdtaGtPWnV4ZDJlYXBMVEhGLTRBWktUQUZ1ZzFDbDVEZWJpczR6RjA0c2o5QklpWC1OZTY2SmxLN0NOUU02aGlwNk53YWJTZlBzUlg3STlYZDNKM1RVQlppdDQ4cXJKbW4tc2VXb3JPX0p5eHdCMHE5c2ZoY19EeXlBb0o2dWhIT2x5bFZFWGlmXzBxbVVzckVVdVc2aFQ1Tjh6YnpRM2JPNkNqYnVDR1hYTDFPY192U19jbndvZmpFYkF4MkNkZUZKaUJSWk9XUTdET29DOHR6RG55ODlXYjZNSnlHX3NsRHZGMDh5LUZPVGx0MU1iWm5SdTZVbHlZeXo2YmNfeVhwZnpRNEpoaWJMeTZwVjBuVXY2NlpoM3BoNFNTeUwzbWc3dE1hVW5FcFpwcjdSajRUNml6Zm5HTUhmSV9WamJjSmRSMWUtZWJ2c3BXNjVlczhRdXM1SDh4dnpyZjhRYWxWWmVLQ09hMnhSOVFrM1d4QmQtcmEwcHg?oc=5"
     },
     {
       "title": "Hedge Funds That Piled Into US Bitcoin Funds Are First to Exit - Yahoo Finance",
-      "polarity": -0.05796140246093273,
+      "polarity": -0.057961467653512955,
       "ts": "2026-02-23T09:33:55",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1vMi1ocFd0WUdZR1YzQWxmcEZOaTQzdzdKMUtHR1h2bjBTSjlaMDFJWVoxLVlPZ2p2cXcxMENKeHZsM0I4QmNTOEJTUWppMDJhUEprWXowYWgyQVlZTXdQMC1RXzREQzFUZTB1TXVoUlJCbFEzWjNOZjNZVktpd28?oc=5"
     },
     {
+      "title": "Bitcoin Miner Bitdeer Tells Market Not to Worry After Selling Entire Crypto Stash - Gizmodo",
+      "polarity": -0.03033483773469925,
+      "ts": "2026-02-23T22:00:02",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZWpqX2lURDh6cVVneUF2VzFKYS1VbGs1eTZOQjhrak9MaWRMYlJvM3cwV1hjZGJqUVREYVNyRFpCb3FKT3dHTVd3cVFkU2RpVURPZTFVMkZRbFJzenBpV1Y3X2U5SEVNd0kteW0yeFhpLTRPTWVmT0lxSU1ibXRoWE1WbjFJQV9Md096cnp5azY3UWpnN1drTGxkdmtWaHJVSVA4aE5KbDJUd2FQMzZESDlR?oc=5"
+    },
+    {
       "title": "Bitcoin ETFs are hemorrhaging billions. Here\u2019s what investors awaiting a crypto turnaround should watch for. - MarketWatch",
-      "polarity": -0.011441288515925407,
+      "polarity": -0.011441320180892944,
       "ts": "2026-02-23T20:16:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi5wNBVV95cUxPRXYtd0pUdlU2MWVnS1VDVU83bFM1TGdCMzJmT3puOE8zelM5VFRfRnEwdV9oMUFZenkwUzdMNzhnLThVZkFrLUN4RVFvbUVTR1dtY2VqSUIwWW9Oc0ZUUTIyUjNXQm9XczZ6ejFYUFotdS1OMWdNbDNRTndvdXZLeTZxTEljcHNCNHBBNlNDblZqNUs2SXlNNWV1MVRzR1VvSmo4dHlmRjJrQXF5U2l5UnVKN1NXTDB4M0NrVVRoRHlpbC1BQ2tPUDZGZnJ2emhrU2ZrbFhnNHBqdlRLQUNUUThlbTZKYXNaOHM1MGlqd3hScGRtN0VuMHpPdHhoVEVuRjZSTldubnJzSXgzMDZfaUFOMUxfZ3gzdE00eGlVV2NBVWdmTVhUMzBYNU55ZFFhRDdOeTJVOFlLODZkR1Z6VzZxaGJIM1luTmVVNU9GX3VvYV9Ic1JodTJ3VVhNN1NkemtSY1FhRUlvSFE5RnQ4M1JvRDVQQ0NDSFI2alI0NTczazBPVGdzS01icTRnUFBRRXJkMjlCZE41UzEwTEtpVlluSTV1SVJWYjlHekFzOVNqTFNhRnRuUG1rVWlTMkppc2FQN0JVRExtQUNLc3hmQWFXR21mSUFNb2ZoS1pjcUhpOUJLQ3lz?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi5wNBVV95cUxNb3ZBVGxIa09WdGFWRFVkU0JDa2EtTDdZQmowQ1JkbFYyNXVsMmFGMVBYbGRySmNmUm4xdnBWVy00ajdTQldaRjctc2FtRi1qckVsV0JZM2owRWRfRWhqaWRSUUhWRkRLbno4eWxkd1lKdFc1S2hxWTd4Skl0Nml2QjBhd1VVNXVGdnQzUmd4UkVXTXdEdUpzREdkNjlUNmVRWW5saUNGRHZwLUw5cW5md2RJd0FaWVI2cVp5aS1ueUJwNDNwMUlvT2JpTGRDNnBEbVhPcms3YUJpRFByOXd6ZG1FMFEweFA1ZEllOFpBYkFTc2hYZEdJQUFiTDRvN0YxR3k2RWEtcm9nYUxpdGZjaW9Ja04wdk5Ocy1XVnRGaXNEa2VZdmZQRk9CVFFWZlFFRGI2bkhoODVTTmVBbktWZUMwVjlTZHZlai1NdWlKMm9tUFBWR1MzTnlSSDlfdnhOTW1lMWZWb3dtTGZoYWx3Tm9qQWJKbEVHNkFLYVpCNzRsZjZXQXlmMzNPRVZSQmV6THZhYVp1SmZTeVd4RUxqZ3VJT1UwSUZ6UktFdGVrYm4tZ1VPZldGMGlwQmViTVFyVDVIajgyQjZUWG1FTEZJMDI0NEY4eW10RkN3RjFDTE1xb0RueW8w?oc=5"
     },
     {
       "title": "What would you do if someone gave you 100 BTC?",
-      "polarity": -0.006718462333083153,
+      "polarity": -0.0067185889929533005,
       "ts": "2026-02-23T11:28:59",
       "source": "r/BitcoinMarkets",
       "url": "https://www.reddit.com/r/BitcoinMarkets/comments/1rcezt5/what_would_you_do_if_someone_gave_you_100_btc/"
