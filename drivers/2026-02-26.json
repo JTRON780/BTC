@@ -2,27 +2,6 @@
   "day": "2026-02-26",
   "positives": [
     {
-      "title": "Bitcoin rebounds to $68k on bargain buying, positive Wall St cues - Investing.com UK",
-      "polarity": 0.8607508204877377,
-      "ts": "2026-02-26T06:46:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWXl1TzA1WGV5VG1seUM4ZjRlbjJVZ3VMWTlObmdiMUM1Vm4wejRsMUJsczMtdGZzazJFZS1SN1E0TXVQaEZ4TlpPYVdoZXVPTFIyOUlvZjdjMURZSTV6MEZrV0w0amQ3Z2tOTFk4bE1la2lNY2RVRVhoc2lPUURjclYyUjk1c3FkS0Y4M0U1ZGFSaDRFSnlLazdMY3VSd1RNSUlObkJiRFVXcGw5d25uNk9wQkczWmVmbG5BVTlB?oc=5"
-    },
-    {
-      "title": "Bitcoin Price Explodes Higher, $70K Level Faces Fresh Bullish Assault - TradingView",
-      "polarity": 0.8134033232927322,
-      "ts": "2026-02-26T02:38:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN25GVXQtVE0zOERDSmhKSnVONGpUSmhnTEdaUGNlUXJyTEMweXdTTGFHa3dnWUdsRzNVR3ZVcWFROGxkT3Z1YUxrd2VEQnBZMHFORXhXd01mSFVVazFMblcwbnc5OUxRZlpEaWZQa0NONUFJdUlzT21NNUd1aGkwcUV6RDFVZ3hzenVZSDhJR1VBSUlyVkMxSkotM0xtX3pDcXBUekR1OGt6b0xJQ3FWZWF0dU8xMFg2Rkg0Z0preHR1ZG8?oc=5"
-    },
-    {
-      "title": "Key facts: Bitcoin ETFs see $258M inflows; price rises amid demand - TradingView",
-      "polarity": 0.7637583315372467,
-      "ts": "2026-02-26T00:03:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWHBrdTk3UWk2NHFNX21vbFkxUlYwc2VDR0hWZUVVbXNaVzNKNWhwbVY0UV8wVkxzdGtCVXdwRWZEV0ltMXFVNjZqcUF2TTc5WDFIMlcxaHF1eTRMcWZXUWZvTmxZX1E5ZUgzRndVT2NRbnI1c3JOcDZoTGVVTGM5alVZZmRJXzBMZGdRZV9zSkNtNkRsOFhpOThwU3IteFJYcTZOSzB0UC1VVnpNaS1PNjZPZW16UTJ0NFdqaGg0WnJmS1k?oc=5"
-    },
-    {
       "title": "Bitcoin And Altcoins Catch Breather After Jane Street Lawsuit \u2013 $70,000 Coming? (BTC-USD) - Seeking Alpha",
       "polarity": 0.6587341204285622,
       "ts": "2026-02-26T03:15:00",
@@ -30,11 +9,25 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOWlNWnRSb0FVOXBfU2F4ZnRxTUNNNlBxMkI5SXZXajQ4VXFzT2l1T1F2czZDblFSNGo0OFRkenMydjNxeHBPRy1TSzJQeEI4eDhiZFJqTjFDd1dIblQ4aXlSdXNaZ25JV2NfQ0t4N0U2QWlQZ1c3dHo2bVk4STJ0MlFBbldCNldWWXgxcWctTnVNRWhGakpHaUpqSjdOZU9zSDRRUUY2RXo1QzB2Zmt1RA?oc=5"
     },
     {
+      "title": "BTC, ETH, DOGE price news: Bitcoin at $68,000 as majors see strongest bounce in weeks - CoinDesk",
+      "polarity": 0.49704934284090996,
+      "ts": "2026-02-26T05:33:22",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdEpfYVVGdUU3RXc4bTFQUnhJY2FMd21HaUcyYUhhdkpCeTBnN0xkdHdmeDQ3T1NfMmhLRXNOeW9XSXNlbGcwUnJsQVlmV2MtNE84RHdYWkVSenNmOTBURlI0cmVzLXB0UmJpLXdtNjE4R0F2QnJ3RVVOQTRXM3pBV3pfencwNzBGRkQ5R2cwQlBuUkVPblA3NWVLZFV6Rmp6N3VJSktLTEVIdEtzcUdfdDktZWtBSXMzZmUyTGFESF9FdjBGQ0E?oc=5"
+    },
+    {
       "title": "Short Bets Against Bitcoin Giant Strategy Reach $6 Billion - ForkLog",
       "polarity": 0.42471151798963547,
       "ts": "2026-02-26T07:36:28",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON2tvWE9taTYzMEY0NDl0a3JWNGp4LW5YOHhJWTJUd09CZHBSWm5tdVdjRFhBWnVKTnFVSk1qNTdDRURHdXhRT0dIb082QnpmMmpUUGVfaVpYcDFoOE1WdC15VWVyNDNOTjdlSGFfLW9nUXJkVDc3alFwQnpPQTVKVUlsNTREVEFf0gGOAUFVX3lxTE9NMFMySkpZd1ZLZ1NIaFdOclJIVm5rM3d1emViYVdNQnBRQUwtbzZnNlFDeDZlOWo2TGtuVVQ3OUNGVURnaFBTbTNveVhKX2ljZV9UX1Jkdmo3Q0FEZ1Y0cVBFTHFzQzRKaFAydzVnc1VLQnJ4Z29EM3RaVnRrQmtDZWQ5LWZWUGY2MW1BWEE?oc=5"
+    },
+    {
+      "title": "Bitcoin Faces Crucial $70,000 Test\u2014Can Bulls Secure the Level and Shift Momentum? - Coinpedia Fintech News",
+      "polarity": 0.27230136282742023,
+      "ts": "2026-02-26T08:26:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNd1VCMldQS3pmdEZfdEtDU1ZpV2lRUkhWNlNxd01SSHllaldZZy02QmFCTk9TeTZyT05UeWY0ME81NTdOZmkwdWxGRXR4VDFjalVNQkdkRWV1cl90UUNBSDI5UFJ4RS1kZDVXUzN5SnhzVHNCd2RTSHhJSm9JWi1lcE1ZVnVjNWI0OEJTQ3N2UTBjaVM5N00xdXJIX1k0UWNrTmtGYnJfZHlxMFVGYnh5ZlcwYmozQmPSAbwBQVVfeXFMTVQtVFhtZGVOVEx6T3k3cnpxTUt1NVpTNGlWU2hRUTVja2RHSHNqOWlfMWtJNHAtYklwX0UtOW5MdzlFRTVTWUd4b1daVWtfTUdWNmlNX01Uenl6eFdBUlc1Z2Z6REEwY1dGZ0tIY08zYWFrWjZid05zTlJlalRtR25mZ3VMMGJMb0s4UnpoS2MwdnRFVDMtWHJiOHFJNGFGeTBxSW94N0JueUZSZjZCUWNnRS1zSGh6ZVhZYzg?oc=5"
     },
     {
       "title": "Michael Saylor Says Bitcoin's Newness Is The 'Strongest Argument' Against It, But Notes It Took People 30 Years To Embrace Electricity - Yahoo Finance",
@@ -49,6 +42,20 @@
       "ts": "2026-02-26T05:07:58",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN2ZKS0hmYlprVzlKUWFxM0NMN2pUbUp0M09vMEh1anFweDBWcmhDUDVZaWU1aEtKdlRPVV81R21ib0ZLOXdQZlFiSlVSUlc0c1ZmbzFXY3llWXQ2VjhDVkhzbFVzZjktV19UNHRZYnZzTjF4LTNFN1FCTW0ycEpScnE1Nm5kNjhvQUVxYUN6a0ZhWGZ5VC1fLUQ2SUI4eE84dXFWWXpKdjlyMVhpMW1DYUJQb19LaHlGQ3NtYmFzMTdmQQ?oc=5"
+    },
+    {
+      "title": "Took out 3 loans to buy Bitcoin 1 year ago. Planning to take out 3 more.",
+      "polarity": 0.04998340085148811,
+      "ts": "2026-02-26T09:12:35",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1rf5hcb/took_out_3_loans_to_buy_bitcoin_1_year_ago/"
+    },
+    {
+      "title": "Bitcoin Price Rises Close to $70,000. What Nvidia Earnings Mean for Cryptos. - Barron's",
+      "polarity": 0.04713679850101471,
+      "ts": "2026-02-26T08:50:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiggRBVV95cUxPekk4a1lyX1k2dml6SmZSR3VGQk9kcFlOQWNBaVY2Y2VrMkl6blp0MkRxNXc0Q2ZuVlJjek5hQnVtdUFjMmJSVVRmTDBXNVYwOHY5RWlubFN1MW1acDdNMzFlS290UG1EcWZfQ1JiSkFOTWV2Uzlib2xCRHEzZGc2THdKS1VqV3JVM3R6eFU1OXdxX0R1N01FYmRGSktIR2dxTE1iTm1xc0FMcG5KM1BaRmtDX1g5U3FqT3JUdFNYMV9GdFhDRU1fLWlMNzNhdjlYRThsUGVDTko4cnkxQ0h2X2JtdmhINlVnODlzXzdQWVEyY3FrLXpDbmlNTlFWSEw2Y20wcjJ0OEJzRXB5NEVkb3hQNWE4RVRRSktwVWhyTEoyUVo5eTJ1Nm44R0huU1NuWkplOFRmdnZkRUxzSmpZWjIwWW4tUHZsb3J3V2RiTnRTR3ExWWRQRV9uTTVZZDZGaDhLUm5RMGVtWVc3XzhCVE5hT3VUdy1kYmZRNlByTl9sR1R2UzJjNkVjdEh3ekN6NjdxSDZMN3B4VGNTRVgzeHRBZUlLeTRWQ1JEY29TVThzNHlSbEoyTTRiQzM0Nm1FbkJFZUYwWGNOd2k3cWVvRWpQbHQ3dEZrTnlqR3hKQmRFUVo5a0VTckRRVjEtMk5tZ1FoQk1qUGR0Q2MtOFJxUVVR?oc=5"
     },
     {
       "title": "Bitcoin Price Faces Conviction Test Near $70,000 Resistance - BeInCrypto",
@@ -84,6 +91,20 @@
       "ts": "2026-02-26T02:22:38",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQjVsRVphemxCLW5XQVhYdWVYOVIwVjVGTzg1WFhHSTZMS1ZudEp6eGExYUkzWUVJRzM4Xy16QmdkSGlZMG5sWVFnLVBoempZTUk5Q0FmenFWQTVFVU14RTFuMWJlWmpkVGlEd05SaE1WczJFUnNpOVNlc3hBYUlndkN1NlTSAYwBQVVfeXFMTTJuWFZfaDc1b251R2s2eDZwcWQ4M0R3aGZXUzA2UDF2ekMxU1l6Q1NBcl9XLVhRZGdQM05MN0x5ZzVYRE5pRFJ0aWppU05HaXNMXzAxUFVETWtQRllua1RUczBMUE9LQXU1MGJmWUIwVWk4eThtenpKc0FfYVl3UTd3VDhQWkZhQmk2QXI?oc=5"
+    },
+    {
+      "title": "Mass selling at/near ATH",
+      "polarity": 0.00998472049832344,
+      "ts": "2026-02-26T08:59:44",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1rf5a4i/mass_selling_atnear_ath/"
+    },
+    {
+      "title": "How Low Can Bitcoin Go? BTC Sees Best Rally in 10 Months, But -30% Forecast Still on the Table - Finance Magnates",
+      "polarity": 0.009257934987545013,
+      "ts": "2026-02-26T07:51:40",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcmlZaElkUWpKWnZMTjZ4ZnNPazM3amF3R2RaR1hUZ0pBSVJTNEx0NHB4ZzBFRmhXMkhhcTZzQ2lHRWxaWGRzWUdGa1h5QmZTUHhrUGo4RVg1V3RuZG90VVVEOTRjXzJYbDJYbXotX2FvZHNsOTBoRTBZc0VSTzhzRkk1S3pCTkVGSzh2U1Q3WDQtZUNsLU8tYTQxRm9SY2JCRUNVZDVFVllpNll5QzJPUHlra0szcHE5LXQ4Sk9XWWRqUDQ3VkhCbmFjVdIB0AFBVV95cUxNMjRZelhpd25MUjZKSTI5aXMzaEJmREZEaVhtOTBmTk9kZk1NRVlXRkJBSjdmc2tWRkJKRHlmenZvQ3hVQ0phVDcxbGdhN3JkNUl0MlRReldlZzVfMXhHblZCX3I2TVQ3MFQ2dU5URmFJa1hDSld5MnFrNWc4aGNncGd1cWdrSVo4a0huT2xHVzBtcnpiS1JMMTVQX2RJUkIyd1k5ZE12RnVnUXU0alAtTmhTczd3TERUcUpTOXB0ak5EeVFSMmc1ZDdqTTFxU0ZM?oc=5"
     }
   ],
   "negatives": [
@@ -95,6 +116,13 @@
       "url": "https://decrypt.co/359182/jane-street-speculation-bitcoin-etf-market-mechanics"
     },
     {
+      "title": "Fabricated email suggesting Epstein is bitcoin inventor misleads online - Yahoo",
+      "polarity": -0.4453141037374735,
+      "ts": "2026-02-26T08:35:45",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPV2l6anhXVVMzS2h5XzVmZTdqRzFMbkJqQS1HUzZsQVdTNWxoaUFzclF1UGZYYlcxT1F3TzV5U1NUV0ZNVHJNOUIxUElnd3l0b2tlYVpzWlVHYUxOQTRUdVpxU3Y2V2M4UnJteGdmMHpmd0FYalR5X2hQY09OU3V3b1pvZjNuNGk4dG9jWU5RSFVneE1VRGFuaTZB?oc=5"
+    },
+    {
       "title": "UK security committee chair urges temporary ban on crypto political donations",
       "polarity": -0.35113130509853363,
       "ts": "2026-02-26T02:08:17",
@@ -102,11 +130,25 @@
       "url": "https://cointelegraph.com/news/uk-temporary-ban-crypto-political-donations-matt-western?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "title": "Fabricated email suggesting Epstein is bitcoin inventor misleads online - Yahoo News Malaysia",
+      "polarity": -0.2758198529481888,
+      "ts": "2026-02-26T08:35:45",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQajFIQWMxd0FtTGZ1Unp1bkpjNnRGSHF1bXdrRm4tNXk0Z013SnNZek9jeGRMZl9PTUU1dnlkSDBmWjFGbEczcFNseEMzSkNSSERJbmNnN3N5dWdmZWluMzFPUnN5MFoxZXJuODJPZFVibzNrUzltcUxOa2VNdHJKV0pVdEl2Z1hkVGwzdnRISGJtU1NB?oc=5"
+    },
+    {
       "title": "Movie2k.to operators face trial for billions in Bitcoin laundering - SC Media",
       "polarity": -0.1662069633603096,
       "ts": "2026-02-26T00:41:31",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMFloa3NET3pOZGRLQmpyeTlNU19YbmpSLUtMWHY5aVpzRVpmd0h4XzdoU0I1QWN0U0ZnYV83UmtZREhkeW96U2owYVd6MTBVY0xrQ01BZUtmNkZiVVRaWkRxTlhjY2dGc01zanZLLTNIYUQtejhab1k4V1hwTzBfdm9xUlZxaWFqcS1DVDZEbDNZblVmbnpMUzJMVWo?oc=5"
+    },
+    {
+      "title": "Jane St allegedly manipulated crypto markets for years",
+      "polarity": -0.14861200004816055,
+      "ts": "2026-02-26T08:52:16",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1rf561q/jane_st_allegedly_manipulated_crypto_markets_for/"
     },
     {
       "title": "Elliot Wave Analyst Predicts Bitcoin Price Will Crash In Final Move, What\u2019s The Target? - TradingView",
@@ -121,6 +163,13 @@
       "ts": "2026-02-26T00:53:53",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1revshr/the_wallet_with_the_best_roi_i_track_just_went/"
+    },
+    {
+      "title": "Is Wall Street Capping Bitcoin Every Morning? Bitwise Breaks Silence - Coinpedia Fintech News",
+      "polarity": -0.05775425210595131,
+      "ts": "2026-02-26T08:54:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON0tnLWk2c3VKVHBUMjkxaGpITHh2N3EzOW1wVVBnVHZ5cU04SElyLWUwX1pRc3ZBWjhZNHNxQ3hSWnNzNEtDbXBseTJsWV9LX0k3bmlEN29oT1dBTFVra3A2M09fWDlDLWlMSTlfaE1UN1czQjNxbHVYeXVZMUNpUmhPcFdrRm1zNkdlQ0stRktVQlhZaTJNQjQzRdIBoAFBVV95cUxNejRHdTJKVDA1TUp2YmVNRlpEaGhOVjNfYTRqNXEwOXNsOGt1cXFFcF8ybDlkZ1E0SVVFeWlqNnRsRVJvVDd3RWZEVVBTa1BidklEckpNNWg3VU8tVVBMLWhfLWVMbEVFNksxSG9IMm9nM1BUQ2RGQ3NtRm5sN2h2N3ZBdjhpMWdOV2E1em94emtEcnFtaDRvd2s2d2RRMlZk?oc=5"
     },
     {
       "title": "Bitcoin Market Predictions: Here is what Recent Crypto Updates Mean - AMBCrypto",
