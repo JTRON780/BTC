@@ -2,13 +2,6 @@
   "day": "2026-02-25",
   "positives": [
     {
-      "title": "Bitcoin Approaches $70,000 as Risk Appetite Returns to Crypto - Yahoo Finance",
-      "polarity": 0.8883192557841539,
-      "ts": "2026-02-25T22:00:21",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB0bjE3MkVCTzZFdFJMbUY5bVpieFpHd3RqVmIwbW1TdVZhZEpLWDUxbE5tOXJ1SFFYczRKVFRHaXRxSkxMdnhNZVRZbTB0b1lXWDVZSFRGbmczSTZ3RU1NVGJLTGFNSXhlYXhtajROaUZLMGhZZl9pZHVpalg?oc=5"
-    },
-    {
       "title": "Bitcoin Treasury Company GD Culture May Sell BTC to Buy Back Shares",
       "polarity": 0.8854870311915874,
       "ts": "2026-02-25T20:12:25",
@@ -37,6 +30,13 @@
       "url": "https://bitcoinmagazine.com/news/gd-culture-gdc-shares-surge"
     },
     {
+      "title": "Bitcoin Jumps Above $66,000 Ahead of Trump\u2019s Address to Congress - Bloomberg.com",
+      "polarity": 0.7898930981755257,
+      "ts": "2026-02-25T22:00:21",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNzhUS3dkS3BQMkRTaWFLLWQyUkdjdlV1ZmtyZmZDWmw3clR3Q01MMXlraWpFRjJyODBhQldNWmlkRVF3MTJDRDNDOEktYWRZSktYOWVmc1dyS3JIRFVjZHFieEJEUzJReWRCTG53R29NMkJKWk91ekdVTm1HNlJYa3gyV1o0alFMVmZZNzVwMV9mM2JKdWlDMFV0OTliT0tZMTROV1ZaTlFTaWRmOTFrVWcwLXc?oc=5"
+    },
+    {
       "title": "Bitcoin surges past $68K as Circle jumps 28%, fueling surge in crypto stocks",
       "polarity": 0.7815571427345276,
       "ts": "2026-02-25T17:24:43",
@@ -56,13 +56,6 @@
       "ts": "2026-02-25T19:24:43",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYkt3SDZwVkppVTU4eHkzSjF4RXd3aGxDblg1dE16dmdaNENUcDNWRnhtVEtIdENSTWV2ZEtJakV5RWVCLVdCZW9JY0l6cldBNFhhN2Q5aGE0aDVpX21JNTllamdZS3pLS0tjYlJYbGRvbWhGOUE3cWQzYmlEdXE4WGxzLUM4MkdJdXRsT3hxUXBQZllNYUZRV3BUYXUwdnQ5ZmdERVZzN2s5RFFVWVpfOGU0RUYtaWgwRzhTWmF0dmZPVVRRTVE?oc=5"
-    },
-    {
-      "title": "Bitcoin Rises as Markets Price State of the Union Trump Address - Yahoo Finance",
-      "polarity": 0.5902107059955597,
-      "ts": "2026-02-25T11:00:34",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNa25uSzN0aEU0RFo4ZDhYM29aaWVETVFkUXZmWVd5NkUxOUd0R2lvWElHV1F4TzN6Zi1ocGdXVFRvdlIxYlA2ak5Hb2dmeHg1RktPdTQ5STZyRzZGLUxhSmZqZU9HSzk0WTBDZEZ5OHJaUkk3dUk3czJFcE5rVWNWV24tQmxtQQ?oc=5"
     },
     {
       "title": "Bitcoin Price Roars Over 7% to $69,000 as Market Tests Post-Capitulation Range",
@@ -86,20 +79,6 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMUJ1ZHdadGZQdjBlR09uaHVTckdHU2lpNm5iX2plc0pnbXVzMklQd1V3MnM2RTBJSm1JRVBJbjdrdVpQZEx3Y2hpLUZqT3NpSkN2X0s2ZE92c0NOWXVSZ0JiVnZpOVhzVmNLY2JlclZaTWRtSWUwaG1qVjlXQTltZ3B0ZWR2SFlzcllObFpVb0lzV0dac0V0eG9qOWZnQWlscVBYdXhmdHo0cE9jUFNMeG43QjhqQQ?oc=5"
     },
     {
-      "title": "Strategy (MSTR) Becomes Most-Shorted $25B+ Stock, Shares Surge 8%",
-      "polarity": 0.10238653793931007,
-      "ts": "2026-02-25T16:53:57",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/markets/strategy-mstr-becomes-shorted-25b"
-    },
-    {
-      "title": "Why crypto is up today: Bitcoin is facing a major hurdle around $70,000 that will decide if this rally is built to last - CoinDesk",
-      "polarity": 0.09726674109697342,
-      "ts": "2026-02-25T22:33:35",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYjdTOUhxcGdvY0FBSVhDcGpHcF9TOFhuVnFNT2FFcGF3OTZBN25QcVRYLW1HRW94VGlmOVVEZ1IzZVJLRnpkTDFsSmprWTBXQU9CRGdYZkR0TUNMSnhGZk5MQ3dOZUlnOGFERGt3cDVvLTgtcDh2MmQwbkNYbmVHMm9ZdlhKdDhGLUpPMzdTRjhHTHNUTW9VMzUydmpjOE9udGxhNmp4dUhsOWktd29uVEh0MmVHR1p3MThURVJXYWhHbnJOajRKQlc4UHNMZlRHTkdPSg?oc=5"
-    },
-    {
       "title": "Morgan Stanley Has Future Plans for Bitcoin Trading, Lending, and Custody",
       "polarity": 0.0937469033524394,
       "ts": "2026-02-25T20:43:29",
@@ -121,6 +100,13 @@
       "url": "https://decrypt.co/359126/bitcoin-giant-strategy-coinbase-most-shorted-stocks-goldman-sachs"
     },
     {
+      "title": "The Bull Case for Bitcoin Is Hiding in the $1 Trillion Wreckage - Bloomberg.com",
+      "polarity": 0.036787934601306915,
+      "ts": "2026-02-25T23:55:31",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZlZ0eC1nbWRITlFJWU5fSlNvUHAtcnBKeTJmWUlMUUxzcDhjODlYQUN3cncwRmMwYmUzcXlIRVVGdlRYaXZKQ3luNTMtNzRFQU1Qb1VHREp1aHNZUUxjbEl6SldEdzdlS3p4cHdDR1lKZXNQU3ZGdlVpemlweFBwU0lPbjItNHBxM19HRFFMUGNrYmdvRS1KLUUyaUMzejRlZzBhTGhSUDJtVTQ3d0VlOE5Ocw?oc=5"
+    },
+    {
       "title": "Nasdaq-listed GD Culture authorized to sell part of 7,500 Bitcoin reserve for stock buyback",
       "polarity": 0.034166885539889336,
       "ts": "2026-02-25T14:53:34",
@@ -133,13 +119,6 @@
       "ts": "2026-02-25T20:53:02",
       "source": "r/CryptoTechnology",
       "url": "https://www.reddit.com/r/CryptoTechnology/comments/1repikx/are_onchain_prediction_markets_becoming_core/"
-    },
-    {
-      "title": "Bitcoin price hits $66,000 after Trump hails economy in record State of the Union address - dlnews.com",
-      "polarity": 0.02134881541132927,
-      "ts": "2026-02-25T09:55:20",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbDNWeU5aVUtPTlJqRU1tTTN1NkRlTU5wWE1yazNIUkE1bXlSSGp0Wk9kcjV5Z05lelB1eUZranJhUDVGMlA5NlFhSm1lWlFwZGpOWnctNS0zSExaTUg5MGRoaGVWblBOQU91NFlrRVc5ZEtKUDJkVGg1aG9xNmdILUw3WmZKTnpUdk1YVGRSVTBFZlk?oc=5"
     },
     {
       "title": "$1,000,000 \u2265 BTC on sale for 70k",
@@ -186,13 +165,6 @@
       "url": "https://cryptoslate.com/us-strategic-bitcoin-reserve-looks-massive-but-one-court-order-could-erase-94000-btc-overnight/"
     },
     {
-      "title": "Bitcoin price levels can stablize fast and avoid a deep crypto winter if it can hold $65,000",
-      "polarity": -0.37512874603271484,
-      "ts": "2026-02-25T14:35:17",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/if-bitcoin-can-hold-65000-after-its-strong-bounce-it-can-avoid-a-deeper-crypto-winter/"
-    },
-    {
       "title": "'Raise Your Hand If You've Bought Or Sold Something With Bitcoin': Fed Official Reportedly Slams Crypto And Stablecoins As 'Utterly Useless' - Yahoo Finance",
       "polarity": -0.282942820340395,
       "ts": "2026-02-25T20:19:35",
@@ -214,18 +186,11 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTHhhR1JDZEp2bUJ6VS1BNmFsckNEcjVxdEY2RzBKaGtydHZ1LU5fQWJ0NDhDTlYzYTZJTDFXUkJYUm9nMFl3eUZQalV6aFZkejNpM1MzU1lSVWJJXzV1NVRod3pQNUhLREd2UTNfTXMzeU5md0JjNXYxNEQwWmU5dGxfTGdNYWFkUkNtZF9XTnNHRDdHZUN2ajlUMVo1amJCQ2JNOUgxQVktTjhaaXc?oc=5"
     },
     {
-      "title": "The Bull Case for Bitcoin Is Hiding in the $1 Trillion Wreckage - Bloomberg",
-      "polarity": -0.08021274022758007,
-      "ts": "2026-02-25T23:55:31",
+      "title": "Strategy becomes the most shorted stock as Bitcoin price soars near $70,000 - Yahoo Finance",
+      "polarity": -0.1298980712890625,
+      "ts": "2026-02-25T20:46:59",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZlZ0eC1nbWRITlFJWU5fSlNvUHAtcnBKeTJmWUlMUUxzcDhjODlYQUN3cncwRmMwYmUzcXlIRVVGdlRYaXZKQ3luNTMtNzRFQU1Qb1VHREp1aHNZUUxjbEl6SldEdzdlS3p4cHdDR1lKZXNQU3ZGdlVpemlweFBwU0lPbjItNHBxM19HRFFMUGNrYmdvRS1KLUUyaUMzejRlZzBhTGhSUDJtVTQ3d0VlOE5Ocw?oc=5"
-    },
-    {
-      "title": "Bitcoin (BTC) and Altcoins catch a breather after Jane Street lawsuit \u2013 $70,000 coming? - marketpulse.com",
-      "polarity": -0.039871782064437866,
-      "ts": "2026-02-25T20:57:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTDJFTzhZQVgwVS1yOThvRm54ck5iNUd1aURIZ2MxclFWQ0hlSE1zR1poU0V4RGdiVS1lT3FsQkc2RjF6M0NSNi1ENU91aC1QZGlkV2hHV3ZWN1k0Nm41RmMzOFdCUmdtczUxVEY5TUdmMWpGS29WWjViMm41aGxLeFNsc1Z1ZkVqQ2FjMHh0TQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY19RVTZ5M0JVa0xRRk00X05fRHJnVEpTcHZCSEJFeFFHZnFoSUFTaUZiVTBmR3BMVURPaHdRdUlqV1ZDRk5PaTZQemF3U2szbmNMUTFTOGtuc2U3UE5xLVR0eVdsQ1BwajZ5WWdNU0hfWFZLYTRBM3M4a19XTHo5dzBtZmpYRnBN?oc=5"
     },
     {
       "title": "Michael Saylor defends bitcoin's plunge by comparing it to Apple's 'valley of despair,' which preceded a huge rebound - Business Insider",
