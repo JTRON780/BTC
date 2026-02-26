@@ -23,6 +23,13 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOXpkZXVEbjJTb0NXR1FCcVVsZTV6bTVlUl9iVmYxdEFfM1J4Uy05d1RnclppaVJSSGs4U3ZMUTNYVUlYMWpWbGxkSHU1T3hpMGoyQVp0UFJfYkhnbHNHaDJqeHFGa0d0ZmJiZUZyQXZ1bklRMVNLanRXdlczREJnV3FGRU4?oc=5"
     },
     {
+      "title": "Bitcoin price news: BTC narrows big early losses, rallying back above $64,000 - CoinDesk",
+      "polarity": 0.1532469093799591,
+      "ts": "2026-02-24T17:30:55",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQT3FFbHFzV2JHX1NJQWptdkNmSDdqNmZCTmJwZTRkdGdfMVlmc1V5bXl1SDcxSGxpZzBJbmU3WHVfZUZNNEhQeWtUUWx2WlZzSEpHb2tlaGUzVi1PSktOT1ZDWWpjQ0pMaDNnMzJ4eDBDelh5NHdoYjhLR1VmT0dMSWhVaS1VOWJVMzhOYlF2bU5xcDU5NnlwQlQxeHNfOUFocUZzeWRXZGNyakV6cTRJT0dFRm9lZjZCUlNHNDBRdlU?oc=5"
+    },
+    {
       "title": "Bitcoin Miner Canaan Acquires Cipher\u2019s Stake in Texas Mining Projects, Expands AI and Power Strategy",
       "polarity": 0.12664818484336138,
       "ts": "2026-02-24T18:31:27",
@@ -49,6 +56,13 @@
       "ts": "2026-02-24T20:35:26",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/news/numo-launches-bitcoin-tap-to-pay-app"
+    },
+    {
+      "title": "Canaan acquires Cipher Mining's stake in West Texas bitcoin mining projects in $40 million deal - The Block",
+      "polarity": 0.03411592077463865,
+      "ts": "2026-02-24T04:36:43",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUWlxR3JKRVBsOXJJLTVzbm1STGVXUW5KS2dJTlVWRDdyQ3cwdUFYb19UenJfV0FibHB6SU9SUzdlUEk1Y1BBVTd2NEJXcmxBNnJzbHM4SUw2YmYzcW1pM0FrTTMtSEVITXhqaDA4MWdYUlphMXF4VUxKZ2h3TGNaMUhnQmp5VGUzakE?oc=5"
     },
     {
       "title": "Solo Miner Turns $75 into $200,000 Bitcoin Block Reward Using Rented Hashrate",
@@ -107,13 +121,6 @@
       "ts": "2026-02-24T21:20:07",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/bitcoin-losing-63k-means-crypto-winter-is-refusing-to-thaw-as-tariff-shock-rattles-etf-flows/"
-    },
-    {
-      "title": "Saylor\u2019s Strategy sees over $9B loss as Bitcoin drops toward $63K",
-      "polarity": -0.9546427661553025,
-      "ts": "2026-02-24T12:16:52",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/bitcoin-treasury-losses-strategy/"
     },
     {
       "title": "Bitcoin's Slide to $64,000 Is a 'Macro Shock,' Not a Market Breakdown",
@@ -179,11 +186,25 @@
       "url": "https://cryptoslate.com/bitcoin-slides-into-worst-profit-cycle-in-history-as-59-of-supply-turns-red/"
     },
     {
+      "title": "Bitcoin's Slide to $64,000 Is a 'Macro Shock,' Not a Market Breakdown - Yahoo Finance",
+      "polarity": -0.5393372774124146,
+      "ts": "2026-02-24T03:19:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9CU0hEREFhRmlHakN0a2ZuUGVkYlg1STd0ZldsRG52MGxmcC13N0RCamxneVVyUUVWbmtnXy1FbGtpUDJlODhUQWQ5Nkx2RmptVUZaQS11SWUxLXZkM2lsVXlRQ0VtLXdldzdpbXhTaXBZd1Z0MGxJbzAxakJEdw?oc=5"
+    },
+    {
       "title": "Fear & Greed has been single digits for 2 weeks straight. Last time this happened was right before a 90% move.",
       "polarity": -0.4470805749297142,
       "ts": "2026-02-24T15:19:27",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1rdj057/fear_greed_has_been_single_digits_for_2_weeks/"
+    },
+    {
+      "title": "Markets AM Need to Know: Bitcoin falls again, Tesla files lawsuit, and more (SP500:) - Seeking Alpha",
+      "polarity": -0.44563180580735207,
+      "ts": "2026-02-24T11:09:22",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTGNvd1c1MXdFWWxSUkFENGJub3ZSY3JLWlNtMFk2ekxhTVU2S2xSNUdCT0pON3AyLURyRkN2aVFUNkx5WFk3ZWZqMURNcnZLQ3RqaFItSXBoQ0xDQ3kzYTJJTTA2bzJCYmF4RlptUV9YVlhIb3lTUE4wS2FKN0ExUW40M0xGTUF4aXpUUWNMaHZSdU9DWmstZ2hjd0dmbkFFcGROVkduc1QtRkpSVEVB?oc=5"
     },
     {
       "title": "U.S. Treasury Sanctions Russian Exploit Broker Over Crypto-Funded Cyber Theft",
