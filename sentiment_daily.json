@@ -2,15 +2,6 @@
   "granularity": "daily",
   "data": [
     {
-      "ts": "2026-01-27T00:00:00",
-      "raw": 0.019481174647808075,
-      "smoothed": 0.019481174647808075,
-      "n_posts": 1,
-      "n_positive": 1,
-      "n_negative": 0,
-      "directional_bias": 1.0
-    },
-    {
       "ts": "2026-01-28T00:00:00",
       "raw": 0.005257206037640572,
       "smoothed": 0.005257206037640572,
@@ -63,6 +54,15 @@
       "n_positive": 1,
       "n_negative": 3,
       "directional_bias": -0.5
+    },
+    {
+      "ts": "2026-02-12T00:00:00",
+      "raw": 0.11532673612236977,
+      "smoothed": 0.11532673612236977,
+      "n_posts": 1,
+      "n_positive": 1,
+      "n_negative": 0,
+      "directional_bias": 1.0
     },
     {
       "ts": "2026-02-16T00:00:00",
@@ -129,30 +129,39 @@
     },
     {
       "ts": "2026-02-23T00:00:00",
-      "raw": -0.3614749606931583,
-      "smoothed": -0.3614749606931583,
-      "n_posts": 15,
+      "raw": -0.368578341403144,
+      "smoothed": -0.368578341403144,
+      "n_posts": 16,
       "n_positive": 4,
-      "n_negative": 11,
-      "directional_bias": -0.4666666666666667
+      "n_negative": 12,
+      "directional_bias": -0.5
     },
     {
       "ts": "2026-02-24T00:00:00",
-      "raw": -0.3242952613832635,
-      "smoothed": -0.3242952613832635,
-      "n_posts": 37,
-      "n_positive": 15,
-      "n_negative": 22,
-      "directional_bias": -0.1891891891891892
+      "raw": -0.3166490010720081,
+      "smoothed": -0.3166490010720081,
+      "n_posts": 32,
+      "n_positive": 14,
+      "n_negative": 18,
+      "directional_bias": -0.125
     },
     {
       "ts": "2026-02-25T00:00:00",
-      "raw": 0.11041058508031391,
-      "smoothed": 0.11041058508031391,
-      "n_posts": 118,
-      "n_positive": 74,
+      "raw": 0.10625894459232835,
+      "smoothed": 0.10625894459232835,
+      "n_posts": 120,
+      "n_positive": 76,
       "n_negative": 44,
-      "directional_bias": 0.2542372881355932
+      "directional_bias": 0.26666666666666666
+    },
+    {
+      "ts": "2026-02-26T00:00:00",
+      "raw": -0.03468776401132345,
+      "smoothed": -0.03468776401132345,
+      "n_posts": 4,
+      "n_positive": 2,
+      "n_negative": 2,
+      "directional_bias": 0.0
     }
   ]
 }
