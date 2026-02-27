@@ -1,6 +1,21 @@
 {
   "day": "2026-02-24",
-  "positives": [],
+  "positives": [
+    {
+      "title": "Bitcoin\u2019s 'Oldest' 2009 Whale Reportedly Sells $1.24B BTC as Price Falls Below $65,000 \u2014 Is It Accurate? - Yahoo Finance",
+      "polarity": 0.016771797090768814,
+      "ts": "2026-02-24T14:42:15",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPN1dzNUM4ZjBYU1A4SGVvS2hvNkZFcXpoUGtlWDFKeGRfQnVFV3EzWVlHY2Y4eWVNQmpfNVhEdXNvdmlLR0U1a3BxX3htLXFCdFh0cjdRZXVRMjlRYng2ay04cThzMnA3WXM0ZEdMeE1OTHZLMW9wV2FQdVVtdmtZTHlldw?oc=5"
+    },
+    {
+      "title": "What Is Jane Street Really Doing? Terraform Allegations, Bitcoin Sale, MSTR Buys - Yahoo Finance",
+      "polarity": 0.00041042082011699677,
+      "ts": "2026-02-24T11:17:15",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUEh4cjZwVkpGbml3Wk4tb3hMaWt4YWJxSEpSZXpRei01VG0tZzFialktbkhjSEdQeFR6M3ZNR1NJX3lxQVI4MENqcHdzWFBkYnEwa3dOTzZhZW9TaFZiRlBnS2I4T19EdVNIblNMWWFQem1VWkJnZkd3dUp6ZWRYVGFwQ2MzTUU?oc=5"
+    }
+  ],
   "negatives": [
     {
       "title": "Bitcoin Heads for Worst Month Since Crypto Collapse of June 2022 - Bloomberg.com",
@@ -29,13 +44,6 @@
       "ts": "2026-02-24T16:48:29",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ3BYOWtwZXJaYTFBeWdZbHRYSHNVMUh3NXBRQnZGQi1jY1J5QVJDcEJpWHM4Tm9nZ0d6NXlqMzBVZmVuY0dBLTFVX0MwMTVXbWt1dy1WcEVSZmVfUDhTUEUtUEszZ2VBWUN4aG1OLXQ0a1lqNHcyOTBkTGh1eEsyVzZMOE5DT0NVWnF1dTNXTXlobXVpTUhUR3c4MEFkOXozU0h4dmJnb1Q3X1VzSS1CbFlnelYzbjk5aVFtbm43TERtME0?oc=5"
-    },
-    {
-      "title": "America\u2019s most shorted stock is Wall Street\u2019s Bitcoin machine - thestreet.com",
-      "polarity": -0.02175155282020569,
-      "ts": "2026-02-24T23:03:36",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPODdmSWQxbTdaWXVMajdCcjVET3c1dzRhWkRlTUlnZHpiNnBFdnp5Qno5bGVrUkh6TzRlNFJMNk5SM3ZKRXhObHdZWldLTmFGc3RiYzdNRkFPN3JFcllOa2xqT1RmWHQycEsxek05YTN5UUVQRGsxODNYNU43WUJuSjlSUktLQ3NjYWg4NVBzdnlKaVFpVV83Z2VuaU5pRjJvZVE?oc=5"
     }
   ]
 }
