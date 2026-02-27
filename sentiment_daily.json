@@ -84,57 +84,57 @@
     },
     {
       "ts": "2026-02-22T00:00:00",
-      "raw": -0.7203782200813293,
-      "smoothed": -0.7203782200813293,
-      "n_posts": 1,
+      "raw": -0.3643339667469263,
+      "smoothed": -0.3643339667469263,
+      "n_posts": 2,
       "n_positive": 0,
-      "n_negative": 1,
+      "n_negative": 2,
       "directional_bias": -1.0
     },
     {
       "ts": "2026-02-23T00:00:00",
-      "raw": -0.5087349949171767,
-      "smoothed": -0.5087349949171767,
+      "raw": -0.4478624365697413,
+      "smoothed": -0.4478624365697413,
+      "n_posts": 8,
+      "n_positive": 2,
+      "n_negative": 6,
+      "directional_bias": -0.5
+    },
+    {
+      "ts": "2026-02-24T00:00:00",
+      "raw": -0.5155876269564031,
+      "smoothed": -0.5155876269564031,
       "n_posts": 7,
       "n_positive": 2,
       "n_negative": 5,
       "directional_bias": -0.42857142857142855
     },
     {
-      "ts": "2026-02-24T00:00:00",
-      "raw": -0.49090395138288534,
-      "smoothed": -0.49090395138288534,
-      "n_posts": 6,
-      "n_positive": 2,
-      "n_negative": 4,
-      "directional_bias": -0.3333333333333333
-    },
-    {
       "ts": "2026-02-25T00:00:00",
-      "raw": 0.0741498757533397,
-      "smoothed": 0.0741498757533397,
-      "n_posts": 27,
-      "n_positive": 16,
+      "raw": 0.04043513957090332,
+      "smoothed": 0.04043513957090332,
+      "n_posts": 26,
+      "n_positive": 15,
       "n_negative": 11,
-      "directional_bias": 0.18518518518518517
+      "directional_bias": 0.15384615384615385
     },
     {
       "ts": "2026-02-26T00:00:00",
-      "raw": -0.07400521942294162,
-      "smoothed": -0.07400521942294162,
-      "n_posts": 106,
-      "n_positive": 60,
-      "n_negative": 46,
-      "directional_bias": 0.1320754716981132
+      "raw": -0.11207076103811876,
+      "smoothed": -0.11207076103811876,
+      "n_posts": 99,
+      "n_positive": 52,
+      "n_negative": 47,
+      "directional_bias": 0.050505050505050504
     },
     {
       "ts": "2026-02-27T00:00:00",
-      "raw": -0.03552164391724655,
-      "smoothed": -0.03552164391724655,
-      "n_posts": 16,
+      "raw": -0.1411642518340268,
+      "smoothed": -0.1411642518340268,
+      "n_posts": 20,
       "n_positive": 10,
-      "n_negative": 6,
-      "directional_bias": 0.25
+      "n_negative": 10,
+      "directional_bias": 0.0
     }
   ]
 }
