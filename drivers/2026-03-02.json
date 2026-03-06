@@ -1,32 +1,24 @@
 {
   "day": "2026-03-02",
-  "positives": [
-    {
-      "title": "Bitcoin's price is rising again in a sharp market reversal. Why the Middle East crisis has investors turning to crypto - Fast Company",
-      "polarity": 0.16559027880430222,
-      "ts": "2026-03-02T18:28:41",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON3dacFVTal9mLXJPTmsxZVdfUm9pcFNIeExGZ3R6VWZ2MkgwamRJenZPNUN0bDhQYk0wVUVBYXRsZ3NsZzNBcThRVGJDWkk2aTdMR25DVTNYNjkyLXFIUk5XRmYwRzhYa09OYlo2QjRZOEhKYjRfV09SMWRZb3NZa0U0bEx6T2Z6UzRrRURMdw?oc=5"
-    }
-  ],
+  "positives": [],
   "negatives": [
     {
-      "title": "A brief collapse in Bitcoin price echoes earlier geopolitical conflicts\u2014but a rapid bounceback shows the long term impact of Iran strikes are unclear - Fortune",
-      "polarity": -0.3107903003692627,
-      "ts": "2026-03-02T17:55:00",
+      "title": "Bitcoin price stabilizes after Iran conflict sparks $300 million in liquidations: QCP Capital - Yahoo Finance",
+      "polarity": -0.5489319115877151,
+      "ts": "2026-03-02T16:06:04",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTDFLMjhtaVU2MENlSDVIcHFGZ2MtM3UtQXVyOVNZRUpYM3V0SUZ6WWhhQktDT2YtaVpCdmI1UUdqY1NPYVRxc1BQakZxTll0b3lnT3FkMGp5VnFyXzJvNXVuampvdzF4ZE81M2JSeFRQbG4zeFJCaXhWUTdnTGFSUTREZVN2QkViaWJQenVBSkNkOUxnMDVRN0h5enhjcDh6Y3B1cFN3?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdHVnMjROTERBeUZNaTZVYzhkMEVqdWcyV0Q4dkRFZVF0cUJTNGRCWFRWbzczZFN2ODJndVVIRk9wZkFGa2ktZGhZQzZmQ082aU1XSTV6N0ZkcGpZZFlXQVp2em52RGhGbG5kWG0ycGJoWEVGTEc4Tl9rYXJ5VFdVNFB4Y3FCMDZ1bkVDNw?oc=5"
     },
     {
       "title": "Strategy Stock Rises. The World\u2019s Largest Bitcoin Holder Doubles Down on Its Crypto Bet. - Barron's",
-      "polarity": -0.2664238214492798,
+      "polarity": -0.2664216160774231,
       "ts": "2026-03-02T20:28:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiiANBVV95cUxPVzBJTUR0d3A5N08yYnpoZmx2cHBzMDBnM3FiRGxnUGU3WEZoREhLRjBpa2Q0SHlYbHBJb1VWNk9jbFByWnpOMjhfaXdKYjNtS3JkczRmbnNDWEctSWVHdDJkeWtHUXl5dy1iVnRSQml0RXZJemJ1bnVKWHlhWWN0Y3dTci03LWxKSWYzWlhGUWpYcUhybGxqU3BMOThmSlhoLTdkRjNXdFhidDNZeHlDLXhyYnVJZ3ZuMFUxZ0xXaFd3NFdGdWQ4aDYyNmdJNmpwYmhnelBUYy1rYThQbXFsU3daY0g0SHlqaS1scDVqdHAxS3lsUmFjM2ZQaEhzWjRYMWN4ZFE1bVJ1UjNkTHBBTlVPM0VJdWdQZDJxTzZYZVhBa0h3NUhxRlNwREZFcFFmMkFoeXZ0Wk5vZHZDU2p6Zm8wd0JaaFlWUnZVZUpNdEk2TTZ4dGVaWVUxbk9CSEtmc21Ocmg5RFQ0MkVaSTBzTklsNTNyZTZSMWhXdUFRWmpkS1g0ODRHLQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiiANBVV95cUxOSDdXUTZWZ2VYaGswVEgzbGxFLXgxZ05ENE1qRGVNOTNpU1U2ZTNKRnBSWmtWbi1zcUhQR2JOajJqdkRnTGNGaXk1M3l1cVdxS1N6SzJuR05Zc0U5ZUZLX1NPQUlmNDdBR3VPdHFWbFlIT3ZiVjJuVEZhT2xEcHJwWjNWMG1kTDRVTldEN3JuN1dZUEVrTUFMWXRUNnFTTFVQLXVfbXBNMEkzY3pZV0lCVXZQYnppcGZhUjVHNGQ1cHVvQkNmQy1OS1pCUFk0N05ZeU5OMFJKMk5JbjZsb3ZwZWhyWFRPMkdzTlJfaXVBeFU4VmE1ZEJkSm9LVVNYMUYzMnREUnZjME9mUjFEX0ZiZjZDSFNja3JuQ2l2T0tGeUZGTEVMemRjTFVfeFNDOVV0enZFZXl5SnQxNnJIOWwzcUd3RjVQSkpHUEt5cGNsaTIxUzMzY01saG4zTFdXQk9DZ2F3NHNaR3UxZ2sxVWxSZHpzTmxNWWlYZjNrS0pDR2I0T1BnelU3TQ?oc=5"
     },
     {
       "title": "Bitcoin's 4-year cycles explained - Fidelity",
-      "polarity": -0.004559529945254326,
+      "polarity": -0.004559513181447983,
       "ts": "2026-03-02T19:24:56",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSzhlZThpMGJIbVAxMUVUUEY1QVJweDAtTjV4TXNxbXBweWVoa1ZOWlZ2S0RtX0E1SmRrQU9uQms3OXVza3NLc1M2aVJyNGdnVG5MQ2Z2THpJby1qQThFVnNQR2kxR1ZydGtSNmxpLWp6NndmNUJ5Z1dXWHhLUVQ1NkxRa3l2VHV1XzlRZ2o2TEFFSE12MmdpbEJB?oc=5"
