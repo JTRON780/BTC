@@ -1,6 +1,14 @@
 {
   "day": "2026-03-03",
-  "positives": [],
+  "positives": [
+    {
+      "title": "Bitcoin Miner MARA Says It May Sell BTC Holdings in Strategy Shift - Yahoo Finance",
+      "polarity": 0.0065638162195682526,
+      "ts": "2026-03-03T16:37:52",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBTdlNYYnlrYW9kX0hmOHg5S2hnRVZwRXBqVldvYlhCS19tQkNnTTZzSmRqeUpIVUdubW9mbUFQUnViM3VGaXVHS2g4QmR0RnVDdGhuc1ZuZHpLczNTWGFlYXE3WmpsWnlKSWIyT25XV3dxb3JsSW1aUVRTSjFWdw?oc=5"
+    }
+  ],
   "negatives": [
     {
       "title": "Bitcoin Slides as Risk of Prolonged Iran War Weighs on Crypto - Bloomberg.com",
@@ -15,13 +23,6 @@
       "ts": "2026-03-03T11:57:40",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY2dCbUJWTXpJUUxnMlVQcXU2Y25KRFZ0NG1iekQ3NVhqQ1I4aXh6c3l3TmllNnJKMjNSOTgydDg0aXIwYUl2OGRVaF9MRGxEZEdQOEVUNjNtMWEzMHcxNWVrMHBFRlJtMzBhX25td1lZekNKczl1N2hsMFpaOEtQOF84QUZZYlRF?oc=5"
-    },
-    {
-      "title": "Iran war & markets: How bitcoin, gold, oil, US dollar are moving - Yahoo Finance",
-      "polarity": -0.004323385655879974,
-      "ts": "2026-03-03T20:26:17",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdkRVcF81NENyQm5LM0U1NnZhalB4SW5aWTNwR1NlLUFxLWt5dlEtS0FjZVJFVGx0TkhGTHRTSUZ6aEZCSE85eEVMZXA1SUN5ejZORmtLN2J2dDFBcllEVzN0Z21XNVMzWWN1NEFxVU9CVFBrTGhYMVptSkRBTTcxSTNR?oc=5"
     }
   ]
 }
