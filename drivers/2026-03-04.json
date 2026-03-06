@@ -2,11 +2,46 @@
   "day": "2026-03-04",
   "positives": [
     {
+      "title": "Bitcoin Spikes Nearly 8% As Rally Accelerates Amid U.S.-Iran War - Forbes",
+      "polarity": 0.9008185677230358,
+      "ts": "2026-03-04T19:51:31",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWjVTX3dMQlp6R0NKNDJYazRWdW1SWmt3enplU2tac043NTBSRFpuRDNsNW0tVHYtVHF3VVB1X3gzY0MydEd0dVZYTlYycWE5NEdHN0gyZzJKZ1gxMlNyaGc5Tk45YVlhVU90TGt1SmY5OGRkRWJFeDZiTzZXT3lISGtWd3M2amEtUXYyZVZLQk5wdG1YaEpXUDlLUExJXzJOUHRjQ255SmdQOWRLZW9TTjhkNXBfT01kdGJj?oc=5"
+    },
+    {
+      "title": "Bitcoin Surges to $74,000 After President Trump Throws Support Behind Key Crypto Bill - Investopedia",
+      "polarity": 0.8836682699620724,
+      "ts": "2026-03-04T20:15:47",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObUcyUHBYcmhtV21Sa0xtU2R6QlZZTi1KMWtkQlZ3NC1HXzBVZnVNX18xQWFjZUpqejdzd0Vjc0l1WFZ2ZHhTM1N2NjRQb3Q4aGVoVW9nU1JqckRNTXd2REF0aS1pLVU1QUphbk5sOFQyZWE4OUMwSlBXdGMxUGhScG04UXotakl1c1RYWGZDblVQU1J5Z3lYWGVCWnRVaEhzcTBLdURKRTJOUXF6b0RkWnlR?oc=5"
+    },
+    {
       "title": "Dogecoin Pumps as Bitcoin Pops, Reversing Recent DOGE Losing Streak",
       "polarity": 0.8776840530335903,
       "ts": "2026-03-04T19:20:49",
       "source": "Decrypt",
       "url": "https://decrypt.co/359967/dogecoin-pumps-bitcoin-pops-reversing-doge-losing-streak"
+    },
+    {
+      "title": "Bitcoin Surpasses $73,000 as Crypto\u2019s Coveted Volatility Returns - Yahoo Finance",
+      "polarity": 0.6926593743264675,
+      "ts": "2026-03-04T21:48:39",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52TzYycnJoOW9tZkRleElWajduS190alhoWmh2WG1kM0xGemdsVTdJS2RZZFpOTE8tR0RUa1pOMVVXNFdWSTU4cnBIZlg5VmJJZ2dwSU56S3FoZndpZzBmaWcydFY2QXh6RTU4NGplYUxEVm9EQlRkaWgyV1NmZw?oc=5"
+    },
+    {
+      "title": "Bitcoin and crypto stocks surge amid relief rally for risky assets - Financial Times",
+      "polarity": 0.5749376565217972,
+      "ts": "2026-03-04T18:26:54",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBxNzQ2cUM1VnlsaVFqSTBJc0VWWUtuWjJSSTUyQXgzcElIODJvM3JrNGdmSXpqbnRaN1FkZlY5dUtHaHRfZGhxTVJrdWE5OU5lc0s2QU1FVFZpN24xaHFDSmZsTDJraTVrR09HNXFVR0k?oc=5"
+    },
+    {
+      "title": "Bitcoin Roars Back: Here's What Drove a 7% Surge In the World's Largest Cryptocurrency Today - Yahoo Finance",
+      "polarity": 0.4319647438824177,
+      "ts": "2026-03-04T19:39:48",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOS09uN25lSHg5X2cwN280XzdSenpCZkdLYlB4S1Y2R25JVUhjUW1wYlkxTkNVQndyRDQwcF9iWVRwbjFjVGFBYXJOckg2Rk5PT1ItNF9pYXVUYzdkWjFMdEZDN3VwWmdjX2xROFFOc2pndi1OUEotZFpEdVNsallwa3p3?oc=5"
     },
     {
       "title": "Morgan Stanley Picks Coinbase, BNY as Custodians for Planned Bitcoin ETF",
@@ -28,7 +63,36 @@
       "ts": "2026-03-04T21:22:04",
       "source": "Decrypt",
       "url": "https://decrypt.co/359970/worst-behind-us-bitcoin-market-conditions-mirror-ftx-bottom-analysts"
+    },
+    {
+      "title": "Bitcoin ETF news: BTC funds see $1.7 billion in recent inflows - CoinDesk",
+      "polarity": 0.06329785659909248,
+      "ts": "2026-03-04T17:01:08",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdnpldXc1cjNVVjdpS3RnUEJ1T0lMRW90UVEtNl80N3hrZmNFTHZoSmxfTlpLV0VpVl9XOXJmQ3VaeEtKZndla19TczQ3Z0k5Z3hkV3pnbks0dFlxMFJaME9FbEVyRXZUTFprQjY4bW1Gam5EbUtYdC1MMHZDU0wteEdzdjUwRWl0YlRjUEN1Qno1ODNQUVhQM3FLamEwTG9wYmlHM3lhYUJlUHczWDB4Q01aY1p5TXRkeVpzVXNjdnRXY3lMaVl5ejNJczhyaWhyZWhJWDM0RzJra0k?oc=5"
+    },
+    {
+      "title": "Bitcoin price analysis: BTC sitting just below an 'air pocket' above $72,000 - CoinDesk",
+      "polarity": 0.005430601537227631,
+      "ts": "2026-03-04T15:01:22",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWTZ4TXBFcmI1TWkzZlNMMXdmS0Fpd19FZFV2RFd5WFRVRV9LUXUwc3c4TnVFdlJ3RUJpSHpRbHp6RXZ0NmRDenRBRlhIckdkeFhvYk93VEFQazhiVE1PbmVFZ0RnVXdBV0F4SHB6NlFwQjl5ekVidHhuMGFNVGVtNDd1LW5HRmp3dzFyV05fMk9kdE5pMmNqRVNCemNMOV9mQkxrTTVxNmMzU0FqVmxkQWVB?oc=5"
     }
   ],
-  "negatives": []
+  "negatives": [
+    {
+      "title": "Bitcoin Jumps With ETF Flows, Trump Blames Banks For Clarity Delay - Investor's Business Daily",
+      "polarity": -0.6199114210903645,
+      "ts": "2026-03-04T21:27:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeFV0VTJEc21pUDM5aHZVeTRNbmhCbEdUb29lcmpOZUFEVWRhcEhJMERlVDJYdmdEeFNPdjJuZnpfWjJVVmdNdF9tRTMtTjR5dTFlS08wdjlmTEg1SVhzWjFVWUozTzd5dmdyTUpmS2lWSVZiTGQ5QW54ZXAxZktYQmNhQ0xndE1FVEhoUUFYSUprRFRZYkZMTkthSFJING5jUUpTd1dPNEZJdzA2M1NYS1FYZ1gtaEpLZjh6dXNyQnNVejVfQmc?oc=5"
+    },
+    {
+      "title": "Current price of Bitcoin for March 4, 2026 - Fortune",
+      "polarity": -0.01716713421046734,
+      "ts": "2026-03-04T14:23:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EQzNYWGdmNEVXMkhhbnNlREd1RjQ1RlVTeERUNUF0V3lncGRRTVNocTIwcExRSWFoN1d4NmxXeVQ1elQ5eU1WaGV3MEVXMEJsV2k1Q1ZWd3c4VDlsaXlNdFR5OG5ROWM?oc=5"
+    }
+  ]
 }
