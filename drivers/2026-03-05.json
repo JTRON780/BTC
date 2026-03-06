@@ -2,18 +2,18 @@
   "day": "2026-03-05",
   "positives": [
     {
-      "title": "Bitcoin Holds Firm Above $70,000 as Global Assets Recover - Bloomberg",
-      "polarity": 0.8707514367997646,
-      "ts": "2026-03-05T21:47:15",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS2RpY3c0dXlhQWF1SldDd0NSelYyQjhyX1lKYXBfNHI5U3QxTHV2RktrcC1YVVBadmhFNDA1el9IcVdMcmpvcEl2Z2VDNWdVYjZPaUQzdjZGaGFodG5BT1BFX2x1QVd2QVJIS0ZHLTFCLU5nZlhyNElJcmdYNDdVT1ZvdFlYNjgxY05Kbk4xcFVQeUw5MGFXYmUxLW0ydGhUSGdNbnZqNm16WlpWQWZnNg?oc=5"
-    },
-    {
       "title": "Core Scientific Secures Up to $1 Billion From Morgan Stanley for Pivot From Bitcoin Mining to AI",
       "polarity": 0.7708016242831945,
       "ts": "2026-03-05T15:33:08",
       "source": "Decrypt",
       "url": "https://decrypt.co/360117/core-scientifics-secures-1-billion-morgan-stanley-pivot-bitcoin-ai"
+    },
+    {
+      "title": "Bitcoin rebound appears a 'relief rally,' not the start of a new bullish cycle, says CryptoQuant - theblock.co",
+      "polarity": 0.7310147285461426,
+      "ts": "2026-03-05T21:04:41",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSGRIbGlaR3JUMjV3aG12Z0dBSXJUcTJwNDZUVUFoRWFyYTdDR0JJMno1U0llMVlkQ2RHREhQaWNzSTFPTHliYXh2Tk1QcHdVQ25tTFBtUFVJVDFDTVEzaGNlWklGdHBVTXdtOU1iV0lRblBPMjhKMWJneDJrVVI3aldsdHJHXzVaZW4zUjVfUFFmeGhJZmhaTFB3ZEVmcy1pTWc?oc=5"
     },
     {
       "title": "Bitcoin price rallies as Wall Street pours $462m into ETFs - Yahoo Finance UK",
@@ -30,13 +30,6 @@
       "url": "https://cryptobriefing.com/american-bitcoin-holdings-increase/"
     },
     {
-      "title": "Bitcoin rebound appears a 'relief rally,' not the start of a new bullish cycle, says CryptoQuant - The Block",
-      "polarity": 0.6195176094770432,
-      "ts": "2026-03-05T21:04:41",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSGRIbGlaR3JUMjV3aG12Z0dBSXJUcTJwNDZUVUFoRWFyYTdDR0JJMno1U0llMVlkQ2RHREhQaWNzSTFPTHliYXh2Tk1QcHdVQ25tTFBtUFVJVDFDTVEzaGNlWklGdHBVTXdtOU1iV0lRblBPMjhKMWJneDJrVVI3aldsdHJHXzVaZW4zUjVfUFFmeGhJZmhaTFB3ZEVmcy1pTWc?oc=5"
-    },
-    {
       "title": "How Policy Shifts, Geopolitical Tensions Are Reshaping the Bitcoin Trade",
       "polarity": 0.5161923915147781,
       "ts": "2026-03-05T01:02:06",
@@ -51,18 +44,32 @@
       "url": "https://cointelegraph.com/news/cleanspark-sells-most-february-bitcoin-output-generating-36-6m-in-proceeds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "title": "Trump-linked American Bitcoin pushes holdings to 6,500 BTC amid mining-fueled treasury expansion as stock jumps - theblock.co",
+      "polarity": 0.5045073740184307,
+      "ts": "2026-03-05T14:32:57",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNU1NCemJrb3lpYzY5eUZLZ19rNndsblFFMkZCYnZ5ekNmajlEMTNySkxNWm5JSDZNazFYcGJEOTlHR0xGZXZfNHdEY1B4ZUxhLW5HN1V4TE9JdFo4c2xrNDNqV1M3TUNnX3FzSDVKV3JkVEpBME5JWUgyMXFDR3YyODlMQlo1TnBDQUI2Y1ZrdnJWSm8xT09aZnM5XzVvS0c2b1NTdUFWQmtZY0xkYXM1NDM4Zk5qdWJ1VkNTZTJYS1JRVDNDNmI1V2tyQXAxWlpxN01fTm9sSDVQRmw4WjRj?oc=5"
+    },
+    {
+      "title": "Bitcoin Holds Firm Above $70,000 as Global Assets Recover - Bloomberg.com",
+      "polarity": 0.3157063163816929,
+      "ts": "2026-03-05T21:47:15",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS2RpY3c0dXlhQWF1SldDd0NSelYyQjhyX1lKYXBfNHI5U3QxTHV2RktrcC1YVVBadmhFNDA1el9IcVdMcmpvcEl2Z2VDNWdVYjZPaUQzdjZGaGFodG5BT1BFX2x1QVd2QVJIS0ZHLTFCLU5nZlhyNElJcmdYNDdVT1ZvdFlYNjgxY05Kbk4xcFVQeUw5MGFXYmUxLW0ydGhUSGdNbnZqNm16WlpWQWZnNg?oc=5"
+    },
+    {
+      "title": "Crypto Currents: Bitcoin tops $71,000 as ETF inflows return - Yahoo Finance",
+      "polarity": 0.31446849554777145,
+      "ts": "2026-03-05T16:45:36",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcW5RU2hsMmt0VF9odVlULVNDQzlLNmxjUUM3NXQ3cUZOWDFPYW1sdUJTZ1lHRVV0ZTBqMFRrSmRpYkduaV9adVBpUTJlNnowVW9vNGxSLVAtVGxlZEg0M1A2SlJRczAtRDh2aFBsODFwZzU0YlB2aS1rVmpyRkduQTcxRQ?oc=5"
+    },
+    {
       "title": "CleanSpark sells 553 BTC for $36.6M in February as miners offload Bitcoin",
       "polarity": 0.20899061858654022,
       "ts": "2026-03-05T20:51:14",
       "source": "r/CryptoCurrency",
       "url": "https://www.reddit.com/r/CryptoCurrency/comments/1rltb2f/cleanspark_sells_553_btc_for_366m_in_february_as/"
-    },
-    {
-      "title": "Dollar-cost averaging Bitcoin is safest strategy for long-term gains: Data",
-      "polarity": 0.19665774796158075,
-      "ts": "2026-03-05T19:47:17",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/dollar-cost-averaging-bitcoin-is-safest-strategy-for-long-term-gains-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "title": "American Bitcoin Expands Treasury to 6,500 BTC as Eric Trump Accuses Big Banks of Lobbying Against Crypto",
@@ -93,13 +100,6 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSG5hRUIyQmxpMzI2dmlTbjB3Vlp1dUpjUXBmR1ZzdGZwQnIzQVEwNmhiamRsVkVUQUlab1VEeGJ0QUVaamtlMUg2UVdQZjJ2MHh6RUxBLVI5akpacHd4Mm9FLWIyTktJRmZraURvS1k1YUpVUFZobi0tMmVEX245eDlGdEo1LThjTm5fMXNoc1BtNDFQSVMwa1Q3bzRpaXlKa01Oc0xsNmFkQTJkRWpNbXZzVDUtUTBHOWhhem42QQ?oc=5"
     },
     {
-      "title": "Why Leopold Aschenbrenner\u2019s AI hedge fund is betting big on power companies and Bitcoin miners to fuel the AI boom - Fortune",
-      "polarity": 0.037950899451971054,
-      "ts": "2026-03-05T08:00:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeWhaM21TRUdXWEtiMHZYMGk1WjNNUlFiRlJNMklGYmxnXzFFWGcxTmd2NGNJM05vb0ZEN0NqNG5uSlhSNVh4cjBBX2lLTU9CSXZrQkt6V3JYZVhCSFhTTGd4dTduZjRlTEJqRFlXU3pzS0VvLWo1V3lvdTgxWjhTOXZ0UlI4dlVGYms5SlV5aEY1MHZYUWVtbDdPRWlGMEZtUUh3RWUtM3Jsc1FsekhScWdCTGJsdE8yRGNn?oc=5"
-    },
-    {
       "title": "Mike Selig Confirmed As A Bitcoin 2026 Speaker",
       "polarity": 0.03720247372984886,
       "ts": "2026-03-05T20:43:26",
@@ -107,15 +107,8 @@
       "url": "https://bitcoinmagazine.com/conference/mike-selig-confirmed-as-a-bitcoin-2026-speaker"
     },
     {
-      "title": "So You're Saying There's a Chance",
-      "polarity": 0.031527211889624596,
-      "ts": "2026-03-05T06:12:17",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1rl9y3g/so_youre_saying_theres_a_chance/"
-    },
-    {
-      "title": "Bitcoin \u2013 the spot, the future, the financial - Bloomberg",
-      "polarity": 0.018911726772785187,
+      "title": "Bitcoin \u2013 the spot, the future, the financial - Bloomberg.com",
+      "polarity": 0.01246679201722145,
       "ts": "2026-03-05T23:09:31",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWmw4dVpXcEI2eHd1RFRwM29lanVpdnVscEhNYklhRG9DZ2FqRGY4UElZNUpaTzgxSWVtaTJ6VmdzTTZCSHFya2tpdzdzZUpNTzZjUEVxbnp2aWZ6bWJPM2Q5eXBDd0pnZ2VTYlBjU3duQU5MVTRyX1VJTWU3RFloUlRINGI5enJTYnNoNDVqa3VyM0hQNDZ3dGdjLUNmZ2c?oc=5"
