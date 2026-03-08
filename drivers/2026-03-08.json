@@ -9,6 +9,13 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOT0VULWhzc2UtTm1Hb1ExZHBHSVhIdU5BSWNfUnRJY2t3NmVQZXI3SlNLRFBYSG4tSW1LaHJkamg3dzNNd1Rhdjd0aWluQlh3RjZSVVdoNWRFN1I2Z0hVYjNOQ3k4X0F0ZVVQN2hsNEZDX3Z2OHVHc3l6ekRJb0JqdlFBZzN3b052cDhaUHBYY3dhLWRYaGgxWlZZczZQWG8?oc=5"
     },
     {
+      "title": "Block Earner BTC loan",
+      "polarity": 0.04059219639748335,
+      "ts": "2026-03-08T05:31:15",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1rnwegr/block_earner_btc_loan/"
+    },
+    {
       "title": "Best Bitcoin Casinos Reviewed (2026): Top Crypto Casinos for Instant Payouts & Bonuses - Eudaimonia and Co",
       "polarity": 0.027997825294733047,
       "ts": "2026-03-08T01:00:00",
@@ -18,7 +25,7 @@
     {
       "title": "Grok, Claude, Qwen, ChatGPT, and More: 9 AI Models Predict Bitcoin\u2019s Next Price Path - Bitcoin.com News",
       "polarity": 0.02077857404947281,
-      "ts": "2026-03-08T03:35:32",
+      "ts": "2026-03-08T05:15:50",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcjBPd3hHUF96ZmFJLWUtdnhQYnBrWlhyOWFNdS1kZ29NWC1tcE9BbXFBS3Zldnl5Z1FhSDZwMk0yV1JkVy1lcjVuUWZZQjZCU2NxVG5EVzZQNmpMQkVYa0pNdG9jOVAwUGlWaHlfM1AydXkxSEZZeU5ObUhXcks0aVN1MGY2bEhscHVpdnZpZk1tUllJM2I4S1ltWEZSSEpYdmwzQWNoSQ?oc=5"
     },
@@ -46,6 +53,20 @@
   ],
   "negatives": [
     {
+      "title": "Bitcoin USD Drops 3.88% as Macro Headwinds Override Institutional Gains - Meyka",
+      "polarity": -0.9619857324287295,
+      "ts": "2026-03-08T05:58:23",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNk1hTkl5ZktiZ3pXNno0TnFPUzdPd3NDNUxiQnFxX2hINTRxckpuNkc2MFZzTzJ5SEswU3ZJMWlLSWkyVDNlbkZNZ1A3S1JXUUw0UUE3Zk9YYXFrZzBneHNEYVNESGNMdXlEQVhoTFlUenQ5VlFzaUE1M1pwellBWGtMWk1rX2tyS3o1Mk5SajFYeWc0T1pVUG9nWDF6WlU?oc=5"
+    },
+    {
+      "title": "Bitcoin dip may not be over as whales sell into retail buying \u2014 a bearish signal",
+      "polarity": -0.36390145868062973,
+      "ts": "2026-03-08T05:16:45",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/03/08/bitcoin-dip-may-not-be-over-as-whales-sell-into-retail-buying-a-bearish-signal"
+    },
+    {
       "title": "Key facts: Bitcoin at $70,900; $132.79M in liquidations reported; 31,900 BTC withdrawn - TradingView",
       "polarity": -0.2489674761891365,
       "ts": "2026-03-08T00:03:00",
@@ -58,6 +79,27 @@
       "ts": "2026-03-08T04:06:50",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MaGdIdDNmRXkxNHg0N2ttRUkwTkhHaHltYjJhWE13LXI2S1lHWHl5T1ZCVVhoVHkwVUNfdFh0U3dMdUw4UEVyYnJNUE9telVYRFUtMG12REpBRXpFS09reUNKMA?oc=5"
+    },
+    {
+      "title": "Bitcoin Up or Down - 5 Minutes Predictions & Odds - Polymarket",
+      "polarity": -0.17529916390776634,
+      "ts": "2026-03-08T05:25:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1xbHVTbS1SRUNURGhiamxqdHZnRmVCZXo3czI5d1ZqaVpxTzJCeGFnZ0FsY2pSeUU1OURyY3ROTm0wc2x5TVp4RGFGRTN0cmt4RDl6VlVpZC1mUDJuY3lCX0NrUQ?oc=5"
+    },
+    {
+      "title": "Bitcoin dip may not be over as whales sell into retail buying \u2014 a bearish signal - CoinDesk",
+      "polarity": -0.07274361699819565,
+      "ts": "2026-03-08T05:17:42",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ29DU21DMzBwNFQ2UjJVdUVJNEVrSF9wVUFTRk1iWVpEeWN4XzEteUlVVWNVTzZfMHpVXzhrcnhwc1pqY2s5ckJUdE9KQnV5RmJaY0hIYWhpZzl5RWJvajZmNnVpZWJrRndia2FDaHMwX0V5V2pxcUFkYURPQTNGdVlQSGpMcGVWN3U2TklLMzdnd18zcHdrNDFZbmNnZnJsX3FxVWVjZzB5b0hma2V6WlhWQmx2UUE1MG1TdVAyMA?oc=5"
+    },
+    {
+      "title": "Bitcoin Dip May Not Be Over as Whales Sell Into Retail Buying \u2014 a Bearish Signal - \u5bcc\u9014\u725b\u725b",
+      "polarity": -0.047418661415576935,
+      "ts": "2026-03-08T05:16:45",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRG15T3E3eGR6WWd6ampUd3FuZS1KM2pFR3lMcmFYakFIQTRiSi1NS0Mzejh2ZUl6bHVtQjVmNERQeWp1YzhhRU5yUzhnZnRVbTlhOHV3M1J2dlh1WWZVUzdOR1RTNkhYY0U4X3hpcnNrRVBnV1dIdWFLVmlDblpKNkVUdEs1WjRZaWFBdVRxRW1YUQ?oc=5"
     },
     {
       "title": "The Bettors on Polymarket Don't Think Bitcoin Will Hit $150,000 in March. Here's What I Think. - The Motley Fool",
