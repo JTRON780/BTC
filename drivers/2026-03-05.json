@@ -2,13 +2,6 @@
   "day": "2026-03-05",
   "positives": [
     {
-      "title": "Bitcoin Holds Firm Above $70,000 as Global Assets Recover - Bloomberg",
-      "polarity": 0.8707514367997646,
-      "ts": "2026-03-05T21:47:15",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS2RpY3c0dXlhQWF1SldDd0NSelYyQjhyX1lKYXBfNHI5U3QxTHV2RktrcC1YVVBadmhFNDA1el9IcVdMcmpvcEl2Z2VDNWdVYjZPaUQzdjZGaGFodG5BT1BFX2x1QVd2QVJIS0ZHLTFCLU5nZlhyNElJcmdYNDdVT1ZvdFlYNjgxY05Kbk4xcFVQeUw5MGFXYmUxLW0ydGhUSGdNbnZqNm16WlpWQWZnNg?oc=5"
-    },
-    {
       "title": "Core Scientific Secures Up to $1 Billion From Morgan Stanley for Pivot From Bitcoin Mining to AI",
       "polarity": 0.7708016242831945,
       "ts": "2026-03-05T15:33:08",
@@ -28,6 +21,13 @@
       "ts": "2026-03-05T01:02:06",
       "source": "Decrypt",
       "url": "https://decrypt.co/360056/policy-shifts-geopolitical-tensions-reshaping-bitcoin-trade"
+    },
+    {
+      "title": "Bitcoin Holds Firm Above $70,000 as Global Assets Recover - Bloomberg.com",
+      "polarity": 0.3157063163816929,
+      "ts": "2026-03-05T21:47:15",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS2RpY3c0dXlhQWF1SldDd0NSelYyQjhyX1lKYXBfNHI5U3QxTHV2RktrcC1YVVBadmhFNDA1el9IcVdMcmpvcEl2Z2VDNWdVYjZPaUQzdjZGaGFodG5BT1BFX2x1QVd2QVJIS0ZHLTFCLU5nZlhyNElJcmdYNDdVT1ZvdFlYNjgxY05Kbk4xcFVQeUw5MGFXYmUxLW0ydGhUSGdNbnZqNm16WlpWQWZnNg?oc=5"
     },
     {
       "title": "American Bitcoin Expands Treasury to 6,500 BTC as Eric Trump Accuses Big Banks of Lobbying Against Crypto",
@@ -86,13 +86,6 @@
       "ts": "2026-03-05T15:49:07",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/news/u-s-crypto-contractor-arrested-theft"
-    },
-    {
-      "title": "How Policy Shifts, Geopolitical Tensions Are Reshaping the Bitcoin Trade - Yahoo Finance",
-      "polarity": -0.013575542718172073,
-      "ts": "2026-03-05T01:02:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNmJJTlBCYWUxdjMxOXk1TUI3d0NxLXc5M2ZjRzFldDduRlBlLWZTYm1SR0lEVGVBTmRrWURlcUx5YUpkNW5GUVRCdnhFbWFRdlJLYXpfZlVpeWpmYzlxcVFRXy1ZWm1qdjdyN0Y5cTNYbklvRFlPa0Zyb0daTkFOMlo4TWhCWWZ6V1oteUh4cG45cFVqMHc?oc=5"
     },
     {
       "title": "The Core Issue: Consensus Cleanup",
