@@ -2,6 +2,13 @@
   "day": "2026-03-08",
   "positives": [
     {
+      "title": "Bitcoin preps fresh trend line showdown as weekly close sparks $60K target",
+      "polarity": 0.8509100526571274,
+      "ts": "2026-03-08T13:20:42",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-fresh-trend-line-showdown-weekly-close-60k-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "title": "Valkyrie\u2019s BRRR ETF Attracts Fresh Inflows as Bitcoin Slides, Testing Investor Nerves - TipRanks",
       "polarity": 0.8064654916524887,
       "ts": "2026-03-08T11:35:17",
@@ -14,13 +21,6 @@
       "ts": "2026-03-08T11:35:17",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUlBUZzdidDVPREh6RFo0WWlpZDlWQjkwQ2FHN1BpaXdpZ3NmUWZuMloxRkdzMHdmczRaR2JBYmp4ZzFFd0ZJOGJ0X1A4ZXJWRVhtSUN3cU05MTVtRHZFQjhjYUljbTNsRnY3VEQxbTR3WGNyWU1lUTZUYzdxa3ROaW02SGFmRVM1a2NpQ0lDaF9QWEdSVENTUjJiYk9PZndBWXA2Y2tWdjh0UDBDemh3X0ZHUnB2WDc4ellPbFk1dw?oc=5"
-    },
-    {
-      "title": "Bitcoin recovers from $66,000 shock as experts predict volatility \u2014 and silver linings - Yahoo Finance",
-      "polarity": 0.7669150307774544,
-      "ts": "2026-03-08T09:11:16",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY0hvX2dQODVaOVU3VW4wdzI0Zm5hTnpKTXBnVy1yNFJFWXIwZk9WaGFJeTRJckEwaVp3Yk1QaEdud3dlMWJVa2JJWmJFcjFFM3l3RV9SZHJVVlFndFZhMDVCSi1wd0R5T1NidmgzTWZUUVNzMDNONlJJOExaam1iRQ?oc=5"
     },
     {
       "title": "Traders Ease Off the Brake: Inverse Bitcoin ETF SBIT Sees $4 Million Rush for the Exit - TipRanks",
@@ -107,13 +107,6 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOU2NKTFlRMWFyTlJXZEZoZy1uc2QtTVFwVkI3b210ckdlOWs1bUJqYjBWbXo4LW1qTUZzcktHZFhoeGNOQmxNRnZGc0lETDZ1Z0pqQkNybGtRUno2TTZwR2lwWWtsRDRZWWNVTG1tbDI5dExSRjRPYWtIcW5kX0hWS19rMm1acUV5Mkt3OS1GZ0JBcEFlU1V2ajdia3h1RDVy?oc=5"
     },
     {
-      "title": "Bitcoin Cycle Repeat Chart",
-      "polarity": 0.03234395757317543,
-      "ts": "2026-03-08T08:47:13",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1rnzux2/bitcoin_cycle_repeat_chart/"
-    },
-    {
       "title": "Trump's Trade Wars, AI Displacement, Bitcoin's Future And More: This Week In Economy - Benzinga",
       "polarity": 0.03120342083275318,
       "ts": "2026-03-08T10:00:53",
@@ -126,6 +119,13 @@
       "ts": "2026-03-08T10:24:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IS1hjSk5HdWM5dTJDOURHa2JESk1KT1F1R0hEWHlYdkI0QWNER29SSFBwSmNfa0ZoeU5WYmdsbjJtbzdINWZrczZLVVhqWk5iLTJacHBHZWg2bVU?oc=5"
+    },
+    {
+      "title": "Is Bitcoin Going to $0? - Yahoo Finance",
+      "polarity": 0.026894206181168556,
+      "ts": "2026-03-08T10:24:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfeXgwVEVfOW1xbEp3NDlOLVpTR1BGdzM0cFJKM0FGUDkxRkl4bU5PZWtld2NnSmJhczI0SHc0SmlLeGJUTWRGTlh4YlgtN0wtUXEwbzV2Tng0OXhFNWxRajdaOU43clY3eE5OR1Bn?oc=5"
     },
     {
       "title": "Can statistical models actually predict crypto prices? I built a small experiment to test it",
@@ -146,7 +146,7 @@
       "polarity": 0.020559092983603477,
       "ts": "2026-03-08T10:02:28",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi4wNBVV95cUxNMkNJeWZCQVZsZE91a2U2SS04dlliZEpGNlZheC1pZ1JJS2hPSFZjUHdPQjRFcVBPUThYMG85U1MzUndCdlVSRkl0aHdpX2k2TkNMb1FqSEVYak9BUFhEbzdxY0tFTTgyc0xRUTNWYkZqTHBVenZhaHNyLURrZmhPeEFaR0Y0X1Y5RW9zaldRdGtmY0RUVFZjd3pjOU0xcFJzY2pFY01WdlRMX2xTaWFkRUU1WjVxb05WU183RWZjdlMzVnN5ZzV5YUNIamotQlhhMUVIMm1zcnpMRHkyUTJtdUJ6MWl5c2VkTjlMcnViUGhGbVBsSk9IUURnaG8tbzJyN3BNYUl3Rk5Ga3lEOTJnSWdTX0JJbm1LTHZIb2oyZjB0NERKdExHbGpqYlhyMWhMWGxjeFdlX0hwUS1SX29rMXdjSnFWWjFjQXdPSzVJcFBwbUdseUxiZktoQU5YcjJ2OF83NVhoU1JKdEJQYUphcFhtYzI1dnhUU2xaanBLTkVCSkhrRkVIQXN3bHV6bHoyYXlsQTVHZldTeEhXdmNrM0s0NEIxXy1OdjZDZVhSSzhkOXFKY1h6WEQ0Z2VLUXA1dVEtelBfWGhIZnhkT2Q1d3JxQUZOWWZPZVpzT0NhWGVOaEE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi4wNBVV95cUxPRW9IQjRBVDVHWGJDLXhMQUhMRGd6Wkh2UjhvVjY4UEF2OHNXMmluNXE0STg1NXFZbzlONFNSVU84aHFxVmNpX1ZhaFVMdUJmT2FuSGoxcnpHQnRReGNhN05FM19fUmVPWW1MX1RaRkJ6VFpwS1htV1pHdVJGNm1tRDVPNHFVeUhRVUEzRXhvek02Ul9aMjBKY0lkc0Q3YjNyd3ZzdWNPeUhpQWwwUGZueDJoWTFfdzFlRVVzT0lSbnRaYjBDRldYSkFobGxMamlSMjZRaE5ReHgyRHpZWmFjWUk1cF96ODR0NWM0clh2cTVZSjJobTlBNU9pN1h1NTVkQnc2NUxvcnU3VHBGM1dOT282WU5IX1dXZ1dDUFVGQS01d3VMS21Wa0xCZHdRUU5hX3BDZGh6c1dMMEs3UjRSeThnNGxUU2sxT1BnRG5aTXROTzBWdzlZU3BwU0NKLTQzWU1iUE80X3pydjZMejZYNm5FeVNXWXpDWXBzbGtZaG1WeHYwSndsVVdodnFzLVJhMy0zeWhsRzBsdVJMUGFaT1MyN2hsVzlfTzZ6azJlUFhXdUVmYTZiUERtZ3JEanc0UUNNVmk5c1drOHFXNW5fbzQwZVZzaTdmbmcyZUNGU3ZaNEk?oc=5"
     },
     {
       "title": "Bitcoin \u2018bull trap\u2019 forming as bear market enters middle phase: Willy Woo - TradingView",
@@ -154,6 +154,13 @@
       "ts": "2026-03-08T04:55:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQajZ6Y1ZUbWc1NkZSNmhaNlUxNjFobUhJaG9Fa2FENjg1YXVjTGMzRTlCQTc2NkZBbEctdE5fMVY3ajdCVWNYV0dNZFVmUThqWWFHVzZFcVRPdGFjaXlMckVZLUtMQXk3LUNvYVAwZndGZnhDY2UtVXk4Yng5cUxtNUQ2TzNwVkJiU3FXWThFbkV4d3dNaVNsMExJSmJ4M1dLdXM3bG0tclJNTzlXRko5aGhJLS1mdHJSTlM3NWpzWGtjbm5ocngtOHVRTTBCc00?oc=5"
+    },
+    {
+      "title": "Los password btc.dat",
+      "polarity": 0.01170717179775238,
+      "ts": "2026-03-08T13:25:10",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1ro4tp6/los_password_btcdat/"
     },
     {
       "title": "The Bettors on Polymarket Don't Think Bitcoin Will Hit $150,000 in March. Here's What I Think. - Nasdaq",
@@ -170,6 +177,13 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNR2ktUDVqdDN2QWF2amt3MmwxZGNnb1lnaE5ydEljOTdXdW1CVkxpTUtzM292TDBDMjlDU2V4UE9fUlI1LXo4T1M0NnZkZTFObU5JbzlTd1A5OWNSVXBrZ2dpU2ljRVRPNXRLRXZ2QWNURjVVNTZBMldVdHNUemFod01kTm9QQjlienIySXlRNlZNRm1VVUVZVFQyQnItSzgyZHlyRk94NjNITVE0TDNfNUQyTDFpaGhFbzlMdjJtQkI1X0tSQXdN?oc=5"
     },
     {
+      "title": "Where Will Bitcoin Be in 2036? - AOL.com",
+      "polarity": 0.0013989508152008057,
+      "ts": "2026-03-08T12:59:56",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE93WE9jRWhBNUxRMDNvQmdOM2l2N0hwTEdqdklWcGVwaUFqTi04QnZJa0NTcW01TkkxZDZTMzRjMER3Tkw5MjZKMC04Z0VLSExfa3hyODZoOENfZmxVQzZxakxPMzFaYkVSTERmNER5VQ?oc=5"
+    },
+    {
       "title": "Is Bitcoin Going to $0? - The Motley Fool",
       "polarity": 0.00032858923077583313,
       "ts": "2026-03-08T10:30:18",
@@ -184,6 +198,13 @@
       "ts": "2026-03-08T05:58:23",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNk1hTkl5ZktiZ3pXNno0TnFPUzdPd3NDNUxiQnFxX2hINTRxckpuNkc2MFZzTzJ5SEswU3ZJMWlLSWkyVDNlbkZNZ1A3S1JXUUw0UUE3Zk9YYXFrZzBneHNEYVNESGNMdXlEQVhoTFlUenQ5VlFzaUE1M1pwellBWGtMWk1rX2tyS3o1Mk5SajFYeWc0T1pVUG9nWDF6WlU?oc=5"
+    },
+    {
+      "title": "161,000 US jobs just disappeared after a revision as Bitcoin navigates increasingly messy macro data",
+      "polarity": -0.9431696766987443,
+      "ts": "2026-03-08T13:10:22",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/161000-us-jobs-just-disappeared-after-a-revision-as-bitcoin-navigates-messy-macro-data/"
     },
     {
       "title": "Bitcoin Struggles to Maintain $67K, Pi Network's PI Plunges After Recent Rally: Weekend Watch - CryptoPotato",
@@ -279,9 +300,16 @@
     {
       "title": "Bitcoin Up or Down - 5 Minutes Predictions & Odds - Polymarket",
       "polarity": -0.17529916390776634,
-      "ts": "2026-03-08T11:04:12",
+      "ts": "2026-03-08T05:15:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5sNW4xV1AxVDBvREkyTXJ2Ymwyd1ZNQXlEWXhsRXJNbHhHb0JFSjJaakZVQWl6NE1sRkdpdTNHNlR3UmM3X3BKcnZ0T1ZDaHBnMEhrZXpEdC1ETGNsZXc1RUgxSQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ZcmE0b2Z5NjM3WjdqV0xQQkxXdzVxLVVuOHpycllfMFNIcjNLbHVBMF83M2x2bG1kQzlEdXI3YTFYeUQwWEl0RW9qaVJUZnJNSnRkLWJZbTFDVXdERl9sdHZoUQ?oc=5"
+    },
+    {
+      "title": "Bitcoin Up or Down - 5 Minutes Predictions & Odds - Polymarket",
+      "polarity": -0.17529916390776634,
+      "ts": "2026-03-08T06:31:55",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9NQVBqdDl1cWdaU2xiZEVxVlpMNklHN3BwUXZYVWFWU2tZQUM3WFZjRHdMdm1pZGl5cWMtN0xfOE5pQnNSM2t3c21CUF9paW95bms0N2RSbjg5Nm14UVZQaEhWWQ?oc=5"
     },
     {
       "title": "Bitcoin Up or Down - 5 Minutes Predictions & Odds - Polymarket",
@@ -291,11 +319,25 @@
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB2THM4Y2ZiTE1kd2Rhc05oUnRpczNFeDJsbXdjZFJZSS1TY3hTd19OMFlTLUhSYnl0YXU0LWlhZzV5aVlzYXdLY3pkMHRWYnlpSy1GUGFZWnhtTHRRdkRlZ09GWQ?oc=5"
     },
     {
+      "title": "Bitcoin Up or Down - 5 Minutes Predictions & Odds - Polymarket",
+      "polarity": -0.17529916390776634,
+      "ts": "2026-03-08T11:22:02",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RVmZBb2hqbE1DX3p6Z2xnOWd5NFZkc3N3NFNjNkxJT0dKaTJWUmtza3BnT0tWdHl4VlQyTHp1Mzl0a0RYaTRrNUs3RlMyQWRKX2tfcEJGUGtWNzdfajJjYnlOVQ?oc=5"
+    },
+    {
       "title": "Investors Buy the Dip: WisdomTree\u2019s BTCW Draws $7.8 Million as Bitcoin Slumps - TipRanks",
       "polarity": -0.12853434681892395,
       "ts": "2026-03-08T11:35:22",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWVNtQ0JYQWdzUzBrLVc3Y2NuSDFVa3ZrVWVoR3JLWHNQRGZ1aFF5ZnJyQTl6QlB2clR1bzYyQmVtclJXb0g3Z1M5UE96cU5EMlNMMmx3TjBsbjdLOHlHNkJBT2luajRXMWtaVXc2MnVEX3JHRnVheTNyc3RtRWowRFl2MDJEVFgtNFhKN3E4dDJUNmYtZllINkJBeGZVajVpbDh6czVjbWZXREF3SlVGWHgzcU9PZzhxOGVRcUR3?oc=5"
+    },
+    {
+      "title": "I got roasted yesterday for sounding like a bot. Fair enough. Here is the actual logic behind the AI-built DCA Firewall. Tear it apart.",
+      "polarity": -0.100567527115345,
+      "ts": "2026-03-08T12:24:50",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1ro3l4h/i_got_roasted_yesterday_for_sounding_like_a_bot/"
     },
     {
       "title": "Bitcoin Chill: ARK\u2019s ARKB Logs $22.7M Outflow as BTC Slump Tests ETF Nerves - TipRanks",
@@ -319,11 +361,11 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRDBlNlRGMURldERFc2NPY1hweEFRVFVfM1FRczRmUkZCVXo4SWE5WVVDdEs4TE5fclkzbl9uTDk3b0J5YjBxVDFqR3l3aUY3N1dIRFJxTzR6bTN3SEhWeFZzS3pjQmoxYmZ3OWFmN0hNdHF3WFp0QXVhWXRwd0Jzb3hJR1g3M25MNy1rUWJFOVl5YnZ1VjV4Q2czN0JSNlFqaXNuUzZ6dXhpR01ucjh5c3dXMTE1djg?oc=5"
     },
     {
-      "title": "Bitcoin Dip May Not Be Over as Whales Sell Into Retail Buying \u2014 a Bearish Signal - \u5bcc\u9014\u725b\u725b",
-      "polarity": -0.047418661415576935,
-      "ts": "2026-03-08T05:16:45",
+      "title": "Where Will Bitcoin Be in 2036? - The Motley Fool",
+      "polarity": -0.045875390991568565,
+      "ts": "2026-03-08T12:52:33",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRG15T3E3eGR6WWd6ampUd3FuZS1KM2pFR3lMcmFYakFIQTRiSi1NS0Mzejh2ZUl6bHVtQjVmNERQeWp1YzhhRU5yUzhnZnRVbTlhOHV3M1J2dlh1WWZVUzdOR1RTNkhYY0U4X3hpcnNrRVBnV1dIdWFLVmlDblpKNkVUdEs1WjRZaWFBdVRxRW1YUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBaSlVqdFVnbGhGSjBwLU5HYTUteDY5Y0QxbDFaWmZIdlhMdmNvMHpiRVVFRGM3d2VxRzdtajJlV3d6UlhCQVBHLWg2RnozS2YtRjRQZ1BPakVESHFxeHR6aERmeFBxN1dHSXlTQkczZ0NTeTlYcFJ1VlRWcG0?oc=5"
     },
     {
       "title": "Bitcoin ETFs post $568M inflows after $1.15B buying wave - crypto.news",
@@ -361,11 +403,11 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSEU5NEFtS1J3Mm03X0lYT1lBSFlFQkJrVDRJbEJIdzlFOUpBdWVPTDItNU54LTgzbGhwclRiN0FiOHBWajBEVUZNUUhRTi1LQlVUZmNQZ3IzTUwtYWFCZ1dINENhaEJmYnhHbmR1aXczVk9xc1FpbDNhZzBqOE00MEFKS3ZXUUxrVF9NcF9FXzVUeDhyVUZXQ2Zva05HazNGOHc?oc=5"
     },
     {
-      "title": "Bitcoin Rainbow Chart predicts BTC price for March 31, 2026 - Finbold",
-      "polarity": -0.003456413745880127,
-      "ts": "2026-03-08T10:03:32",
+      "title": "Michael Saylor has released another Bitcoin Tracker update; he may disclose his accumulating data next week. - PANews",
+      "polarity": -0.007454102858901024,
+      "ts": "2026-03-08T13:17:32",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPS3lJcGllamNXX1E1cDRMd1pwR0R6YnZUenpSZjF1cGZxRTRpcHdySDVJMHNKMWRIUVZqM2ZWMnlQZDJhWlZKYmk4UjMtRVpxSm12SUtDcjVaMF9nZEJsNEFsYUhQUnlyUF81dDY5eUhXMlZ3cktEdnFrZ1E3UmNZZFhCQ3R5UQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFTENKa1ZDWDNPRzRpSU1IcTEyREVtZVBiQUtrdmdwcl9sUFJHaFZpUEREUTlnNjd2NHUtajdSWHgyRUV6TWdwbGZBNnhNMUVVc29TU2RhRjV6UXpsem9qUUxwVkstMWlnN3FoWWdjN0JTMkhuNW5qZkFjdVU2TXM?oc=5"
     }
   ]
 }
