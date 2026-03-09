@@ -1,28 +1,15 @@
 {
   "day": "2026-03-07",
-  "positives": [],
-  "negatives": [
+  "positives": [
     {
-      "title": "Crypto markets dropped 0.5% this week while global equities lost $3.2 trillion",
-      "polarity": -0.8229160066694021,
-      "ts": "2026-03-07T15:29:22",
-      "source": "r/defi",
-      "url": "https://www.reddit.com/r/defi/comments/1rncrcw/crypto_markets_dropped_05_this_week_while_global/"
-    },
-    {
-      "title": "Bitcoin might remain bearish, but the R:R has rarely been better",
-      "polarity": -0.768306914716959,
-      "ts": "2026-03-07T04:47:11",
-      "source": "r/CryptoMarkets",
-      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1rn0ovc/bitcoin_might_remain_bearish_but_the_rr_has/"
-    },
-    {
-      "title": "Bitcoin price news: BTC in deep bear market, could crash by another 30%, investment firm says - CoinDesk",
-      "polarity": -0.7384650856256485,
-      "ts": "2026-03-07T05:46:45",
+      "title": "AI Agents Have Already Chosen Their Money: Bitcoin - Forbes",
+      "polarity": 0.028162476606667042,
+      "ts": "2026-03-07T22:26:31",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQTBTcGhWZUtSSUIzZER2T0dqZUhIY0RzZGxORkg1VldlalJhXzZSUjNBMnU1SjlBT0pmcEF5MkxMdzNPUm9RZjV1eURGVm9aaFhPdGxEbWt4UWY0U3VwS05mSjJpalVDWWk3eWFEcFVRT19TemlGemRPdFpuYmxwQ1E5VHF6dWFlWllEZWY2Y3lMRzQzSGR0aUlWWkgyS0xKcnJlRDI4NDhYODJZRHVoeVhVMlZudXBxdDBZalYyQ0xPYkVNb25raA?oc=5"
-    },
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVDVpc2FWZml2OTJrb2dzbkdWVm5wdFpVUHl2WWRMTDRVMjFraWh4N1I0dFZoa1RBZEc0ZVpjeE53aGZ1ak9fMjZmbjJUazdhakVWT2VNakVNb3d5RVgwenV5bTJSWGhGRUdINmNRaTk0Q1FEdEtuLWtIUWFtMlk1Q05wai1qTTBQal9XWHR4Snp4dG1uLThEbGNoWmZmSllXUE94TWIyQQ?oc=5"
+    }
+  ],
+  "negatives": [
     {
       "title": "Bitcoin price news: BTC suffers late-week $110 billion wipeout as Iran trumps positive developments - CoinDesk",
       "polarity": -0.22723913192749023,
