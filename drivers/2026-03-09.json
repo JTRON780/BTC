@@ -72,13 +72,6 @@
       "url": "https://www.coindesk.com/markets/2026/03/09/oil-futures-surge-20-past-usd110-as-war-fears-hammer-asian-stocks-bitcoin-steady-near-usd67k"
     },
     {
-      "title": "Oil futures surge 20% past $110 as war fears hammer Asian stocks, bitcoin steady near $67K - CoinDesk",
-      "polarity": 0.7903685197234154,
-      "ts": "2026-03-09T15:23:19",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeWpnVm1PVTZ6ekJCUTBpSDk5LUpPUDJqYzNuREFKTnRoWDdPUGdQbm1ZdTVpVnR2enBMVUJVZXBVTkpwb1FSS1JDaHBjZUdwWFZ4NVRnN092X1F4Nzg2cG1ZZFA1bFZIdWFPYk1mcUpKYTRuTWI4SmNMZE1BQnM5eHBBUnhVeUNpWGxSaXhocG9va0NzV20tY3ltLVVHejQ0UU9nTWN0X2xHSWVuZC1EakU4OGh6UnJUT3RXYURxdkhwWkJqUG5rcGRfRWVsZ0NUY2c?oc=5"
-    },
-    {
       "title": "Strategy (MSTR) added 17,994 bitcoin last week, bringing total holdings to 738,731 coins - CoinDesk",
       "polarity": 0.7393572181463242,
       "ts": "2026-03-09T12:12:55",
@@ -98,6 +91,13 @@
       "ts": "2026-03-09T06:02:27",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/03/09/u-s-isn-t-really-exposed-to-oil-shocks-and-that-might-be-helping-bitcoin"
+    },
+    {
+      "title": "U.S. isn\u2019t really exposed to oil shocks and that might be helping bitcoin stay resilient - CoinDesk",
+      "polarity": 0.6448557991534472,
+      "ts": "2026-03-09T06:06:59",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRVhuT3lCMmVLZ2tmbWNhUGRUdEIwaUVJbzNidGs0T0stMGRDVnFpTnN2cWJXcEZHaWRVZGZUZzhNdlIxY0Qtd2NDRXEwQ3hCN3JvMDlheGIzVDBNU0JaS1R6UHlyRmpLeURnUE4wTlRjWWNhN0tNcGZLQ3dHNm9SRnMtY29LVnI0UXhfSmxDYW5vRlB2MHI5bFVBaWZFczdVVXJYbmNaOHJSbjhoUlAwODVlazRYQlk?oc=5"
     },
     {
       "title": "Morning Minute: Bitcoin Rebounds to $69K as Oil Skyrockets, Then Cools - Decrypt",
@@ -153,14 +153,7 @@
       "polarity": 0.30836497247219086,
       "ts": "2026-03-09T16:45:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxNeU94UFRlVzFhR2NuNmR4cFBxTUNkMUV6eGg3Sl9kSVBOd2d3UzdRRlhtVzlYLTR3aC1MTXg1enlycnVvN2JKZU9ieHVBR1FRUS1lTDV2YnRtbXFvb09HT1dSMFlZbnNWTzR0Tl9NNXhHeXlXem5WbTU2SU1WMjEwNUNFQTQxUm10Sm1BS2tqc0NpMmVfcU1ZcW1MOU1wa0dqZzctSHZ2aTV3b01fWWhibGpHa3NnamJ4Q2VDZlFBd3FneDI2eEYtWUZrNlNxQ2ZJM2tUeTA2dTBXZVBkVURsNHV4Z3ItMGo3RWdDay1ZamJybFUzRE9MUlpHeTExZFllQ3pVbzJ0NjZGcWtMYzNKZmpXQl9Pc3dSZmZsY1JwZUhXajAzRzFwdnpFOEQ4Y2IwcmRmaGlYM3JQVHdGRFBuUVhLN3NpRUwxOU02MF9sVXltNXZlUHZQNGtqRm1nTVhMd3V0Z2VCbmdfWnpsSVR4THNjczFxUndUNE44MEVvdEg?oc=5"
-    },
-    {
-      "title": "Strategy Buys 17,994 Bitcoin for $1.28B, Expands Corporate BTC Hoard to 738,731 - Bitcoin.com News",
-      "polarity": 0.2773437984287739,
-      "ts": "2026-03-09T13:07:36",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN1FUSmRocDZDZHRWVUFlVUU4eXNJZWlWdnNld3JZcEVrXy1TbWlfdU1zbjhuMTVVcVpPTFJUOHRmTmhFbDhYdXZXUHhLRzFiTV9xUkh1VkFyQ3FBeFNUeGpGMmd3Q2hzcGhTSWY2Z3ZOVm81R2VEOE02UXpXdkVuR1pvQkhVNUtsTE9IY0taNm9HMUJzTDRzX3R6WVRIT3Y1M2ZB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxPSkd1X05ZWWJHRDE4cVgzUjRFUVRXVWduekdJZEF6NVl3UzBsZ0FnOURRY3NSR28zYnU2aThYNXZNeXdmRkxpOFh5NDE2V0I2ZHZFUEx6SzVvd2RrLWtRY3ZQSzZHcXJ3MFFNUTc1NWstTTlBYUFPNWhBRUI2MURhU0NNS2tEVUlmaUE3dWNiaVNzNUZYYlo2QnUyb1EyQ0RGTEZqbUJVaUVyb1BLZVlETktJUGcyaUZqNnZ4RUNEaF9FWmxzZ1RBakZzaGpOcGZfNmhFemVncVAxclcwWjI1OXlCeHBOZmtwR2huWnVFd1Qzam9HTFJid3FPQk52MkZFNGFvS3NHbE5UbEFza0V2eTl0cGMxZzM5RUFBU3JSaEZKelQyUjRvUUVBdVRKRENLZUprWDJEaVNvWElnUDFFQWQtY05iNlBLb0g0ay1uazJVYmFmNjluZHlQSURrM3BqYTM3MVdVVEtxMEFBMUpHdGFTb0pCYU8tQ093Nk96aU8?oc=5"
     },
     {
       "title": "Bitcoin is beating stocks and gold as the Middle East conflict rattles global markets",
@@ -168,6 +161,13 @@
       "ts": "2026-03-09T11:38:11",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/03/09/bitcoin-is-beating-stocks-and-gold-as-the-middle-east-conflict-rattles-global-markets"
+    },
+    {
+      "title": "Bhutan moves $12M in Bitcoin as government transfers top $42M so far this year",
+      "polarity": 0.1817022915929556,
+      "ts": "2026-03-09T18:41:52",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/bhutan-bitcoin-transfers-soar/"
     },
     {
       "title": "Hyperliquid opens \u2018Pandora\u2019s box\u2019 as oil skyrockets while Bitcoin price flatlines near $68,000 - dlnews.com",
@@ -181,14 +181,7 @@
       "polarity": 0.17244191095232964,
       "ts": "2026-03-09T13:31:27",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQY0lrZThPRTBLMlI0eDZFVzRNUHZ2NVZDaG1WY1pVXzRleGVRWGNDekhXZGRMaUdoaEQwNFNiSnYxOUVlVHJpNzY0ZjBaU1BSUmFPeGIzcklfQXUyaEFqVmFhM1pZYjJ3M0dMOFU3Q3ctSi15MmtWcVVIUm9mSkpYb1dVV1N0Q3ZfRVBHWDk3b1JtN3dmUDQybXQxMHpncUtTeDRONk1Pa0pNZw?oc=5"
-    },
-    {
-      "title": "Bitcoin Climbs in Break With Stocks Amid Inflation Concerns",
-      "polarity": 0.17183461785316467,
-      "ts": "2026-03-09T02:49:01",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-09/bitcoin-drops-to-7-day-low-as-oil-surges-on-iran-war-concerns"
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNjZQSGlWdGxNWU04M09fSUFucVhrb2RTRmNoSDZfLUxseUhGUUREWW9OQU54OE5YZWFUWjlRTjZiaW1vTXdiOFp5azYxbXVwbWFRZndpOXY0ZEhtMGN4RW10d2JsaEZNYVE0M2gtZm1pUVBESG0wUUdXMDc1ZjVQaWxB?oc=5"
     },
     {
       "title": "The crypto comeback: Why bitcoin is rising even as the S&P 500 and tech stocks stumble - CoinDesk",
@@ -196,6 +189,13 @@
       "ts": "2026-03-09T11:39:06",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeVh2bHFQQm9XTGc3SGxNY3RGRkpWNWZ4WFR5OFZiYnF4QVB1dmJka2tYR2VOM1VSSTVDQXRZVFFRZWlqanlsOFBfTW9oaEIzeEdCNl9acjl3aldGQUZCODVsNU9KZFozb3lvdmx4dV93WTZ0ZFZqRFJpam9OWENLZ2dpLW5kbVlzeUVDRUE5NEw0a1hyOXJkSWhZcWV6S2g2UFdhSkpOUzl2RkI1bTdzV1k0ZkVPalA2bjJRaVRDeDdkbW1GeVZZNA?oc=5"
+    },
+    {
+      "title": "Best Bitcoin Wallets (2026) \u2014 Top BTC Crypto Wallets and Apps - CryptoSlate",
+      "polarity": 0.13690575305372477,
+      "ts": "2026-03-09T19:12:25",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zQTNhTWVZYnVveGh2cDItQ2xFYk1yajlGcWQ5M29RYVZxNmhONTdnOXdscUtUWkFyWHN4QTZNUU1NMks2dVBMSDNOdldVT0pxRDIyeWZoWDRQZmtPUEpoNW9SLWdCdw?oc=5"
     },
     {
       "title": "Bitcoin starts week volatile above $67,000 as Iran conflict, oil surge rattle markets (BTC-USD:Cryptocurrency) - Seeking Alpha",
@@ -252,6 +252,13 @@
       "ts": "2026-03-09T17:00:13",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbzVyemF2d05oci12R184QjljOVJnSjRlSDJmb0VhQmNadURRRldLYnpLblQ2SFNCTW9kX3AxMlpXOGdub3F3Q0FncjlMaF9JeURoWmV0WDllOVU1QU9Wa2lTZGxoaE5MLVJNUFpnSG95R25ON182em9idzJ4WVAtakxNT3k?oc=5"
+    },
+    {
+      "title": "Cboe Is Bringing A VIX-Style Volatility Gauge To BlackRock\u2019s Bitcoin ETF - Finimize",
+      "polarity": 0.11207759473472834,
+      "ts": "2026-03-09T18:09:21",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZzZjSElsTFN0eXd0NF94LXJhSmJkb3pWR1dEZHVDN2J0STJXUjhwU044ZXNISWlreFpid0k4T1h6TWt3RWZhRmI0M2sxQ3FjQV85RDVGSzVCNTlSblZ2WjRSX2ZrQjFPTzJzTW16R0dsLS0xcWdIZ3hkVEdJdExVMXdoZjBDUlFHbTVwa1lxdDZUdXZSamJGcHkybGdIX1YyUXc?oc=5"
     },
     {
       "title": "ELI5: Why invest in Bitcoin when Ethereum exists?",
@@ -314,12 +321,12 @@
       "polarity": 0.06891791522502899,
       "ts": "2026-03-09T12:07:52",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQzFhV19WTS1peWdIUlUwZHVCSEZHb0FyYmgxTnlWRkFxNDExY196b0NmNE41SEJCT0plY3BWOEtqME42Qk1WWGM3Zjgzc1hlc2hQbldrZkE2VXRYeU5ldlEtci12RHM2amxrMTRYc2xrb29tVEVXLUtWaEVzTU84TVZWSXhIMS1MLTljUW1GbVNheFBEcHdpaVM2R1VrMW1PWGhJa1hFWjRHMU5vcUMzbFN1emFpaHdPNzhfNE9kbmtGNV83YkY2OU9YckFMRlVJbC1OTFloM3hYUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTmRFSF94Q1pDcUdDVGpiQlRfWFFmX1h1bnJ3RWNGUlhlN25CQjdlUDM4WHdZTEVHa3NBVms4Zkp1RHZ4S1hhZ0d0Y1ZtMFFpVThZZXVIcWtWU00weEFuYkxneE55c2VWdlZEVHlBY3hsWFdKSjJybGgwS3VGUF9jU0g4YU9JdVB1akg1djA3b2pxWG53NjNtMkM1THNXak9JM0x5Y3hQRjhLX2FQb2hwTGJ1bi1CR2JPNGh4OXZNaTZ0ZVo4ajZaSnRzc1FUeUk?oc=5"
     },
     {
       "title": "\u2018Thank You, Mr. President\u2019\u2014Trump Oil Price Shock Crashes Bitcoin Price - Forbes",
       "polarity": 0.0675953384488821,
-      "ts": "2026-03-09T18:04:33",
+      "ts": "2026-03-09T16:58:31",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVElvWnFmV2VGSmQ0MTZSeElBd0E1Uzh5Q0g4M0w4TzdkWFpTR1FiN2lTbFlObVIwMVdwQXFDNEd1NF93RTNnUlZwSFVlbG9YSVJnSDJ0b2ZhU29WMFU2a1U0T2YtTVNoZ01uS292YXZZV0VWaVJ3YUFwMm1Fa2V3LWQwdWNub2VWLUNqeldjLUxaUWhLU2V4TWtmRnNfZmRiczJoVTBscFVtQ2U0aE5xbFFvWVU4cnF2bVNzZzc3cw?oc=5"
     },
@@ -333,7 +340,7 @@
     {
       "title": "Nigel Farage invests \u00a3215,000 in Kwasi Kwarteng\u2019s bitcoin firm - The Guardian",
       "polarity": 0.06102647911757231,
-      "ts": "2026-03-09T14:44:00",
+      "ts": "2026-03-09T18:26:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZkZBSENpY2lkeW1mbVRjMVVtMXhRN2hKLXAzYmRpXzNweDVRVk4yalNlQkVSR3o4ZWlZbHpOU19uUGt5aUtnSVRXU1RsbWdqYmRsN1ZyS0lFMjlSTi1PSEZCbzFNbjlHOHpwMXVPX2FXRE81NXRGbVpJam9Vc0s4SDQ5ZnVCYURUNlREZTJ1TWlpUjVXRnZiZU44aVl4aHFZWTFpTWFqQ2F0eFJnNnRQeA?oc=5"
     },
@@ -366,11 +373,25 @@
       "url": "https://www.reddit.com/r/Bitcoin/comments/1rp6uwc/why_i_feel_extremly_bullish_rn/"
     },
     {
+      "title": "Price predictions 3/9: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, ADA, BCH",
+      "polarity": 0.04992762207984924,
+      "ts": "2026-03-09T17:57:56",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/price-predictions-3-9-spx-dxy-btc-eth-bnb-xrp-sol-doge-ada-bch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "title": "Nigel Farage Acquires 6% Stake In Bitcoin Firm Stack BTC - Bitcoin Magazine",
       "polarity": 0.048649187199771404,
       "ts": "2026-03-09T14:01:19",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxLUdZMUVJckloTVlrZENlbWVwS2hFNFdaV0M5LTJWZTVNYWVveXcwQ3JVNHJDM1YyYkZNUTlaMV81VmxCZVp5dG1oSDVZVFUtX3pmZ0JrRHBfdXl5LVcwOTBtLWdNeEJRaVBjRVAzNjlpRGQ5emtjbUJ3?oc=5"
+    },
+    {
+      "title": "Coinbase Launches Regulated Bitcoin and Crypto Futures Across Europe",
+      "polarity": 0.04765075072646141,
+      "ts": "2026-03-09T18:35:43",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/news/coinbase-regulated-bitcoin-futures"
     },
     {
       "title": "Nigel Farage invests $286K in UK Bitcoin treasury company Stack BTC",
@@ -385,13 +406,6 @@
       "ts": "2026-03-09T15:14:31",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNY21mQ0ZnbDRndTFKcmVxc2pMTVZ3azhrQTlwVlhoQUo3dVNvdElFM0lZU1RxbVVIdHRnQnFPN09IVlRGVjZEdVFmMDhLemx3RTEtWWM2YV9JbHp0NlZobXJXc0hMdzZCbDZDT0gxelp4R3FVZ2phR1JPaUpMTlpMMGJSbzRockk?oc=5"
-    },
-    {
-      "title": "Strategy buys $1.3 billion of Bitcoin using mostly common stock - Fortune",
-      "polarity": 0.045080699026584625,
-      "ts": "2026-03-09T18:20:35",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONjdOTXJNdFBEdDZOczlNQjdzVXVaRUk2a3lNU2oxQVdleDA5T1BYWmFzOWI0TmVqM1BHMmpuaFk2dGlaRWczeXJjZkloYW9BXzA1LVo2cG5IS25POGdjcG1fdk92RHMxaUhEOWpFdmZKTHJJZGllVGxVYmlEY2JJZGZpdW5xWnM?oc=5"
     },
     {
       "title": "Nigel Farage takes significant stake in Kwasi Kwarteng\u2019s bitcoin company - Yahoo Finance UK",
@@ -413,6 +427,20 @@
       "ts": "2026-03-09T01:32:21",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1romuob/why_do_people_say_dont_sell_your_bitcoin_borrow/"
+    },
+    {
+      "title": "Crypto News: Pepeto Announces AI Market Protection by Binance Expert as Bitcoin Price Prediction Target $250K - markets.businessinsider.com",
+      "polarity": 0.038555809296667576,
+      "ts": "2026-03-09T18:52:12",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOWnJtekNURnhUMXktRV8yc184cVlGQ2tZMUdrek5YX0FCR1lYMWRCeEQyaDJpRVo3M1hTYmRHaC1uQVVVZUhaci11VWpacUFhcUZ6aUFwN3NiLU4tM1NNSXJlVTRCcTVrTGNVQ29PZHNCVHdpTHFRWXl3MGJtQzQtRm9kMnJvT1pJSExyVEZ3bFR1ZFd2Tno2R2RHR1gyUGc4M2IyRTBmZmx5cDNIbUZYTk9yaDlLV1ZhYnBwN0tNYnRCNGVja0NZSGw0ZGY5UWFIQnlkY1RNUkhENzM0TG4ydk05NmowUTNXODJueFh6YUVZRE1oY0F4cTVB?oc=5"
+    },
+    {
+      "title": "Coinbase Launches Regulated Bitcoin And Crypto Futures Across Europe - Bitcoin Magazine",
+      "polarity": 0.03524112142622471,
+      "ts": "2026-03-09T18:35:43",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tQWFsV0RYOTVsbHZlZlBoSDJKV0tpNlZIdXk5cW1sRUoydVlKNGZaZmNISkpHRlBERFBBWnFCTjJzMVExel9VVHBuUGhWblU0VHhTOVhSRUVKVlg4R2JKdlFGd2d5SUVfMkJncmx2cGhHb295cHc?oc=5"
     },
     {
       "title": "Farage Invests in Kwarteng\u2019s Bitcoin Treasury Firm Stack BTC - Bloomberg.com",
@@ -506,11 +534,11 @@
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX29FbEFjQUNUZ0pRVVMxekpaYzNKa0l0N0t5MW9YdGRTNlJXZFhGQklpajBaMGxxd2VIWENfODN6RzVYS3F3R2dxZ1AwcGtZSDhhRVhRdnlzZzl3Qnl4dXJIUFZMMER4WGUzMDN1dVpmc3MtT0d3WGdfVkx0VkQxZXNHQkk5QWZ5aDdRZVNNUmdOLUVUZ00xU281UXpvLW84dHE2d2dPQ1FFRkxfSDVOaTA4QkgzVHBKaDVN?oc=5"
     },
     {
-      "title": "3D printer that can mine Bitcoin uses excess heat for temperature control \u2014 throttled ASICs use printing bed as a heatsink - Tom's Hardware",
-      "polarity": 0.010180098935961723,
-      "ts": "2026-03-09T12:18:26",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPSThTY2g0clhCbll5TXJZMk9NZG1uOGFwX082Tl9zenhVOFRjY1duc0kya05qRXhqck0yTDFBeG1LNWFjdlRVdU43VHJDU1hEamkza3FiczhzazRSelBDenBvY0Nuam5jQkpqZ2xUSGhqb05zTjlFbDFwZzNUdm90a0dEZVhzbmhiMVA1aWFEdWRmUm5ZbTAyWE1mSlpQVndBR0hUdkVuVk1MdXBYbzAtcERyOHd0dk01TzNSeHRzeGoxWXNRMnZPZlBSMTg2QlJKWVZ5N20tRzJLMjFVSVc2aS04ckhMOUlHNzVyd3J4OS1icGd4dXIxYWJqN0xHLVZ5UTBfT2pUSQ?oc=5"
+      "title": "A Bitcoin Strategy For DCA",
+      "polarity": 0.009221423417329788,
+      "ts": "2026-03-09T18:41:46",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1rp8qlq/a_bitcoin_strategy_for_dca/"
     },
     {
       "title": "Nigel Farage takes stake in Bitcoin company led by Kwasi Kwarteng - Yahoo Finance UK",
@@ -604,11 +632,25 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM2lwX05xR0pra05mYjBocG1yRzNDcHNEQjk4VWRkbmhzS0J5Xzh4Vk5ISXJyeVZqT1lVMEtLSjhUN2FfaWEzcTdXZkw2Mi1HYTNkaVFoNXBHeEtKSlRiUC1wN2lnWFVESkFhS0tlWTR2dURSaVAwQlZIUjRpT3o0TFd2aVFqM1NpTjBfUzdINDItMGZSci1ZTg?oc=5"
     },
     {
+      "title": "Bitcoin\u2019s Fixed Supply Comes Into Focus as Network Passes 20 Million Coins Mined - Bitcoin.com News",
+      "polarity": 0.001199532300233841,
+      "ts": "2026-03-09T16:38:47",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORzBzUEQ1SXh3Yzg4N3poUzMxWEJlZUNUakQ3ckRIMEZXZ3J3NDNNM2g0NHdGV0dNYnpBYTZITXkzRUU1SVgzUjE5aHRKTnNscktwZWlzQmh2RXdEWXdFTWg3RFQ3MHBodGhITGFoNUloZDRoVE9qdjNuNFItVDFBMlo3VVhHSjU4LUtzd2w3ZXdqUTJqRjZvelAwOHFIN0FkVndKNU91eVQ?oc=5"
+    },
+    {
       "title": "Nigel Farage Backs Bitcoin Treasury Firm Chaired By Former Chancellor - Yahoo",
       "polarity": 0.0008656326681375504,
       "ts": "2026-03-09T17:41:23",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaVVVYldkMEZfY3RlTHdsTkludGNTeUVVdXdfZ1MxSlBDMDkta1FUTzdNRUJ6a0Fqbjlra2RWdWczMDB3WXluN3NlUkUyUzNwaG9xamVtTVF2RWZqM2QyZmw1ajNaQkwtUnFhN01OOE01SEEzbUdCTjRMTlRSaTJkUE9CdDM2ZGdMTDFETXBsbw?oc=5"
+    },
+    {
+      "title": "Bitcoin Price Rises. Why Oil Could Dictate What Happens Next for Cryptos. - Barron's",
+      "polarity": 0.0008473843336105347,
+      "ts": "2026-03-09T17:26:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiANBVV95cUxOWmc5Z1NXN2VNWHVwcVN5WVF4bXFHUFJmeGlVNXItV2VJeDN3M0pSdmRzcW1KQXRRbnZNSm1Ia2xabWhDdThHN3k0b2UyZExPNzFDdTBvYk1RblZfLVA5NnBJaVQzdW5VaV9tazU1VmtPeEd6ekpNSHZjYWRnS3ZET0hwRjhLUW5acVE4WFRzdndENHdJUFY5bXNzeDBzemE5OV91czdTUzIteVVmNzZKZDNDajJYanNlQkh5aEpscTZ5X3NwMGppRWNWelh4WjlORlZKMDg1NWZjUHFScC1FNzBYenJWY251akJQZURERUVmdXBHaWtqWmIzWjZucEoza0t2aDlmbVUzZnE2V08zRERXdnpRM0pBdDBWcHNwMi12bjFyYkJHWTVqZVpxZlBaU1M0OU4wcXB6RXh1UlFQeXdSbGxiQ0ZCZ3VReFBjckk0ek1rWEN3R2RGLWg2RnZqSjhCVkF1a2E2U2RQUnVJQ01WbC1EUHBFaGFOcDhRRnZZNFhsZlNYbQ?oc=5"
     }
   ],
   "negatives": [
@@ -662,6 +704,13 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeUU3Qkd2anNQNXRmNnZTSmt2eUFNZDlzNXhkOW9acmExNVdnRHNIb0Rqc0x3UzlrNkpFNXU0NkJzTTlLR0dPTW9aUGEtd2NibE5UT3JfM00tdTNWMkZLcmV2MW5LZ1hNLVV3M2JVX0xOdU9IX3FLd2Nfa3lkOUcwZkY2ZzYtMTVmNElWamxvMVVJMFhtOUE?oc=5"
     },
     {
+      "title": "Bitcoin slumps to $66,000 as oil price spike rattles Asian stock markets - The Block",
+      "polarity": -0.9322501756250858,
+      "ts": "2026-03-09T03:02:53",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWmZZOXhnTngxRHZGY2ZNaXVhQTNadGF5M3o2c0tGWXVsRElKak84UVYyQ3Vxc3dsY2oxX0dwLVgxbWtiN0Y2b3RuWEhkT19BRmd1aEl2YUl0akxGdkZWTjBSNUI5T2dCQk51NHpnWGd5LWhjdlRVdGtvMzhoQmhwWQ?oc=5"
+    },
+    {
       "title": "Bitcoin traders focus on $61k as oil surges past $115 and weak jobs data rattle markets",
       "polarity": -0.9143050108104944,
       "ts": "2026-03-09T11:01:33",
@@ -681,13 +730,6 @@
       "ts": "2026-03-09T16:24:26",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTnJnTFEzY2Y4LUdrVGJmQVEtUEJhSTVhQVZpQ0R3NlhqUXU3WVZFU1pwdWlPUDdLX25mZjNIM1M0RlVMLURLc0EyT2lBdjNLV2JKeS1NMm9wakxFY2VFMFRGVzM3am9kUEJmcEc1VmU3YlhYSXdOSW5ubmFxSlUtRURIVzd4SXRIZHljVGg4WWRfeTFrcElsdjlzTWp5T2gtYjBVMnNuamZyVFFIVFZKRWl3?oc=5"
-    },
-    {
-      "title": "Strategy Drops $1.28 Billion on Bitcoin, Issues $377 Million in Preferred Shares - Decrypt",
-      "polarity": -0.7873245738446712,
-      "ts": "2026-03-09T14:50:47",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUmluQ0gxN2owRUV5czNCMkZ5YUdjbHJ1eTJrNHBfdlA0VTF3dDB3Y2o4MVJHVjczUmxCRTUzUUZKY0JhUHUyUFBURXoyS1lET18yWUx5MTg4Tl93eVVvbmJ0amlDVFZLMFRBSkNTYlF4TVVqeXFzdnZvWkFVWnRaX0VONDZleWtWZEdKWG8xcGZQblZz0gGcAUFVX3lxTFBrOW1ZQjR5VHdZT2sza2YzTllvVVlzaVJ1WWRDMzZWRHNlWmRsbUJBZnZKSlBJWU5ZQUFZMVNuS1RQUzdNU01HVzV5cS0xaXViMlZPeC1ZTjRkTDZ6RjJjSlBBVjV3aENWdWVLMDliYllpRjRQbDlnbDZMR0JNeUhFQVdxSlBFYU1jU3F2d2RUczlPLWJzajFuakpwNg?oc=5"
     },
     {
       "title": "Bitcoin could face deeper downside as odds of U.S. market meltdown rise to 35% - CoinDesk",
@@ -753,6 +795,13 @@
       "url": "https://cryptoslate.com/new-bitcoin-indicator-reveals-we-just-avoided-a-major-drop-but-one-level-could-decide-the-next-breakout/"
     },
     {
+      "title": "Bitcoin Defies Market Rout: Price Rebounds to $69K as 20 Millionth Coin is Mined - Bitcoin.com News",
+      "polarity": -0.3836039900779724,
+      "ts": "2026-03-09T19:06:11",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOEo1UGE5cGNOT2hlZV9HbUhEcW1UU1ZLTzk5SDhhdG1rRWdDMlVPNXpIY1ZyTlI2cS03c1BFOTNrNHpCc0dhV1E0UDBwX0pEUWJTXzZFR3NDcHQ1NklJQ05rMTZjMzl1WXJSc2pQWGpsQVBBVU53ckdSZk9kYVBfY1YyYU0zOE5SbkJEaUJrZ3Q5TEwxMTRKSXNtVVJEcVpiLXJBTUZfYw?oc=5"
+    },
+    {
       "title": "Oil retreats from 25% surge as G7 weighs emergency reserve release",
       "polarity": -0.3675166070461273,
       "ts": "2026-03-09T10:19:03",
@@ -800,20 +849,6 @@
       "ts": "2026-03-09T09:55:04",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWE44Sy1yZ2xXQzNVOXlweUJDMVRVMER1Q2MxXzdLNC1pR3MtWXA5YVJsOXlwdERCYU9qcVhEeG4xcWw4bFFrakJXcElBZDc5MVpXUWpCeHVBWFptbFZaeGduNFVGNWc4S2xfTlZnb25sSVVBTnVlNzdkVGZpY2I4U0dDSFdNY1kzRFQ5WERvYnRkR21qNFFsb0twSlBQM3RxZ3J1OHV0TU1XZWdvOWNQcXQ1YlJHYkdQT3dIRUFIZmFzRWFBQmdySHBzcGdlZ9IB0wFBVV95cUxOQy1HTHJPeFhRMmp5U1hxSnV3YWdJWDhxV3lZTGpPaFRrRUFhTTFSdXBweHJ6dkVrX3Y3ekxHYWY3aTZOVVZzdUhGdmljN3lvRkd3YVVGclc4UFdhRDZMRm9jUkd4WlVIMGs5ZncwR1ZPSjN3SlhtWlUyekYwZElXU0hjek5abE9HYTgxNXNkTDdLX244YWZ0TG4yQnR0OU5hUXQwRzNEc2hQVi1vN19iQ2pNaWVMTFVNQkF3b2tKME9ucEhod3NWOHNzS3M1cXljWGow?oc=5"
-    },
-    {
-      "title": "Bitcoin Up or Down - 5 Minutes Predictions & Odds - Polymarket",
-      "polarity": -0.17529916390776634,
-      "ts": "2026-03-09T16:17:07",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1USGVzbWRZS01LbmRwRzRMMEp6TUF6Y21Kekx2WWZJeTZEX25zQ2dBb2gwWTRORmU1TF9Gd3FBTnJ5WDktTGc5WWRTb21CYkpJLVpwa3J0X0I0bG9DZklPWjNZOA?oc=5"
-    },
-    {
-      "title": "Bitcoin\u2019s Next Big Move Brewing? Charts Show Market Locked in Tense Standoff - Bitcoin.com News",
-      "polarity": -0.12044748291373253,
-      "ts": "2026-03-09T12:50:48",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVm4wYVJ6Z3ltR2c0TkZaeDBwVGhLS3BfZlhrOEVOUEVsR1JjWmFFcXlWSE5kRGVSd25JOGRUN2xYMFkxVUktMFN3Q2p3SDJUUWZWdGRjOUpDeVZDRmVqczhpNFB5WUJCeUNXZE45MXhCZ1kzV1ppYjIyeVdPWHpoN2tfMllzajNxcl9XcTI1ZFJVMGlPLUl4YkkwR21mQkxzSGc?oc=5"
     },
     {
       "title": "Lost 40% of my crypto portfolio this cycle. Here's what I'm actually doing about it.",
@@ -921,13 +956,6 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1VN1FFT3d0QkpfRldjeUdoaGEtTWJCX3dBeXlreGd5NkRaVmpHOHJkbVhQR1hEMlgwVHpvTFFYQmZXYl85dXUzVVFhUEEzbUZTcUNsR3FtYngyUHY3T2ZpSXFqN2pWMS1aVnotSVhXel8yWkhVSXhj?oc=5"
     },
     {
-      "title": "Current price of Bitcoin for March 9, 2026 - Fortune",
-      "polarity": -0.017829056829214096,
-      "ts": "2026-03-09T16:09:34",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzZFlqMjFuSzc1dkxJeDFCNEVqLUlTUFQ1R0Q1Zkh5YVBGMzJNVGd4bTBhckdkX21qR2hTcVRJcW9KNEs5TTBaTnRXNUhrbTVsTHJDS1N3MnZVQkJNSVdMV3c1MXlIRDA?oc=5"
-    },
-    {
       "title": "Bitcoin Is Suddenly Braced For A Surprise Fed Price Shock - Forbes",
       "polarity": -0.017004024237394333,
       "ts": "2026-03-09T12:03:00",
@@ -954,13 +982,6 @@
       "ts": "2026-03-09T15:32:56",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/markets/bitcoin-hits-20-million-less-1m-left"
-    },
-    {
-      "title": "Trade of the week: long Bitcoin - IG Group",
-      "polarity": -0.002003045752644539,
-      "ts": "2026-03-09T13:40:23",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON3htUVpxeWpMMzVvc3BOLW40SWVvOFZqeVByOVkwamhOWmQwbGdNWjNUMUoxRFhIM1ZyMlVHcnVNQ1pOVWt2VnYzQkEwRnhscXUza2JmSEptOVVuTkVCN05vbDFKeVQ2Zjk3WDRWaGpTbzFBUnoyMzVxa05xYndnWVJhZF9xQlRjZE9TSw?oc=5"
     },
     {
       "title": "Nigel Farage backs UK bitcoin treasury venture Stack BTC - Yahoo! Finance Canada",
