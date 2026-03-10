@@ -12,30 +12,30 @@
     },
     {
       "ts": "2026-03-04T00:00:00",
-      "raw": 0.33233180548995733,
-      "smoothed": 0.33233180548995733,
-      "n_posts": 4,
+      "raw": 0.6497462143500646,
+      "smoothed": 0.6497462143500646,
+      "n_posts": 3,
       "n_positive": 3,
-      "n_negative": 1,
-      "directional_bias": 0.5
+      "n_negative": 0,
+      "directional_bias": 1.0
     },
     {
       "ts": "2026-03-05T00:00:00",
-      "raw": -0.8745901249349117,
-      "smoothed": -0.8745901249349117,
-      "n_posts": 1,
-      "n_positive": 0,
+      "raw": 0.07741436328400267,
+      "smoothed": 0.07741436328400267,
+      "n_posts": 2,
+      "n_positive": 1,
       "n_negative": 1,
-      "directional_bias": -1.0
+      "directional_bias": 0.0
     },
     {
       "ts": "2026-03-07T00:00:00",
-      "raw": 0.005229519680142402,
-      "smoothed": 0.005229519680142402,
-      "n_posts": 3,
+      "raw": -0.19759628176689148,
+      "smoothed": -0.19759628176689148,
+      "n_posts": 4,
       "n_positive": 1,
-      "n_negative": 2,
-      "directional_bias": -0.3333333333333333
+      "n_negative": 3,
+      "directional_bias": -0.5
     },
     {
       "ts": "2026-03-08T00:00:00",
@@ -48,21 +48,21 @@
     },
     {
       "ts": "2026-03-09T00:00:00",
-      "raw": -0.041112935084605624,
-      "smoothed": -0.041112935084605624,
-      "n_posts": 58,
-      "n_positive": 35,
-      "n_negative": 23,
-      "directional_bias": 0.20689655172413793
+      "raw": -0.04791154959207382,
+      "smoothed": -0.04791154959207382,
+      "n_posts": 51,
+      "n_positive": 29,
+      "n_negative": 22,
+      "directional_bias": 0.13725490196078433
     },
     {
       "ts": "2026-03-10T00:00:00",
-      "raw": 0.09284974082438922,
-      "smoothed": 0.09284974082438922,
-      "n_posts": 101,
-      "n_positive": 69,
-      "n_negative": 32,
-      "directional_bias": 0.36633663366336633
+      "raw": 0.10834780664545056,
+      "smoothed": 0.10834780664545056,
+      "n_posts": 113,
+      "n_positive": 79,
+      "n_negative": 34,
+      "directional_bias": 0.39823008849557523
     }
   ]
 }
