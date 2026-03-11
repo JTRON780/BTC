@@ -2,6 +2,20 @@
   "day": "2026-03-11",
   "positives": [
     {
+      "title": "Bitcoin is back in \u2018FOMO territory\u2019 after crossing $70K: Santiment",
+      "polarity": 0.9133872613310814,
+      "ts": "2026-03-11T03:03:33",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-sentiment-jumps-back-into-fomo-territory-santiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "newbie in trading",
+      "polarity": 0.2636658689007163,
+      "ts": "2026-03-11T02:22:34",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1rqhe4k/newbie_in_trading/"
+    },
+    {
       "title": "Key facts: Bitcoin ETFs see $568M inflows; Strategy buys $1B BTC - TradingView",
       "polarity": 0.12434881739318371,
       "ts": "2026-03-11T00:03:00",
@@ -9,11 +23,39 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcFVLNXJTcldWeUFVbXg5RW13bjg3TERBUkFhUWJMaGh1c2lRaDAtOWV0NTRHMXVEZFpzOG4tWlg2UWpadmR1VE92UW1VN21IaTdpUjEwYzE1eU1vdWZJR2llOTFDZmZGX21XQkk3M1lLUFZ3TXBJQWsxc3dtbk9jUHUyamZteXNfLWNNVXRWejU0aTRRNHQ1cXpQTHRqYzhyZ2ZYNHV6X2cybTRIVjV4U3E2eDAta0F1dVpZdVB2bw?oc=5"
     },
     {
+      "title": "Bitcoin permabull Arthur Hayes says he wouldn't bet $1 on BTC right now",
+      "polarity": 0.10822228156030178,
+      "ts": "2026-03-11T02:05:53",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoiner-arthur-hayes-hesitant-buying-btc-federal-reserve-monetary-stance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "title": "Best Bitcoin Casinos USA: My Honest Experience With Top Crypto Casinos 2026 - eand.co",
       "polarity": 0.07956658024340868,
       "ts": "2026-03-11T00:00:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTekJNZkR3QW5aRndEUzdqLTVZeVk4TkJTYVJ0MVFPMXZRcWcxeFBJTjJzekpOczFCcjlGZkQ0M05zT05JVlVsZGJVR3htWWJub0ZPeVpIZ0xfNVZUbFNmZ2hTVjFwTjQ0V3gwSVg4SnJtZw?oc=5"
+    },
+    {
+      "title": "Bitcoin Hits $71.7K Before Pullback as Equities Rally on Ceasefire Hopes \u2013 Markets and Prices Bitcoin News - Bitcoin.com News",
+      "polarity": 0.03349115699529648,
+      "ts": "2026-03-11T00:31:19",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUVJKaUVrczdLQ1RyZkNURmF4MUpqR3ZFcVM4ZGhBNnVkTFNMUzZkcWs4amVZSk5FaHFGVUZaeFhBV3N4NXFqNFBveGRpZXVONWk2aUhjMG8yclg4U2NMQ0xObTN4dUxDZENmU0hqWEpRdHJKc2NaaHRVTzF3TG00dkhjOXJCb2tQSmJISTJxdmY5RE5HOENDSFhzbG9pQQ?oc=5"
+    },
+    {
+      "title": "Bitcoin Worth Nearly $12 Million Moved By Bhutan In Fresh On-Chain Activity - TradingView",
+      "polarity": 0.031598400324583054,
+      "ts": "2026-03-11T01:00:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUk1JbTEySTZ4UTViRWZ1V1lYTUp0OHZ6dmYwcWVTaE9ONGcybzBRM19JZElrcmZablRMaGd4Nl9nREZWREtmUFVtNXExZXhMeENtSF9CUXlqUmVfOHhtQkVPdUdXSXk2bWxmaVZndTA1a1hjMlFZaHZFUGxrS3lXZnU3ZUVMRlF6Q05ka0g4VktUU1dHWU9ManFDcXR3akxyQWM5YXdmUmFhZ2t1V0NGajl3Sml0NEl0aWp5YXhNemFmVXgtZkE5UUJHbFA?oc=5"
+    },
+    {
+      "title": "Bitcoin permabull Arthur Hayes says he wouldn't bet $1 on BTC right now - TradingView",
+      "polarity": 0.004434103146195412,
+      "ts": "2026-03-11T02:05:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQU1BXejFndzloRkxXNTNTRE9RMEZCRjRuU3BCQ1dGZHNjSFlpLVNLdm5FYXFBa2wxSzQwWExmb19XcmhsczBJNFRpUXk4N0lzRTdjOTRYZ254bzRWYV9ZOWFBYWxsaGVSSEpRNkloS1o0cHpBampxY3dPdm9oVjIxWW9VMXlmZWdZSDZjQTBxX3RyRzBVRF9lYl84TVNrT2pfNmlyRkdpdi1vcVRnYko1WHE4MV9tVXlOTnpRcHJyNGY4dTd5OU9JQUQwcFN1bDQ?oc=5"
     }
   ],
   "negatives": [
@@ -23,6 +65,20 @@
       "ts": "2026-03-11T00:35:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB1SHZXMl90V3JBN1Z4b1QwRGNEa2daN1F3dWtSN1BneVQ2R3RSSTRUUlpCZVMwN0ZJdGVvbWdHUGRkNmhhbjZKR1dUTUF1N213Tm5LSFBzVnhKYWdyU3RzUGViLVZwc3g5aDNmaWsyeWxiVmd5UEh1WA?oc=5"
+    },
+    {
+      "title": "Bitcoin Diverges From Global Prices in South Korea \u2014 Third Major Discount Since FTX - Bitcoin.com News",
+      "polarity": -0.23530349135398865,
+      "ts": "2026-03-11T01:06:30",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdW1ENDVoTjhMbEMzVjViOVo4dk1BOHA2eGo0cHl6ZHcwMGZvLUg0YTVHbDJxdEhRNndqNnpxWVpBSTZuTDFTZG5NcVpIc3FGMlR2clhNTU9kNGlHMWxwYXFrUTVXcEJLSTV0NHpKYXJQcVExbTktNklsWmNUSXd6QzhYV1p5VW5BdXpTRW5Mb0pjdjJhUHlBX0IzSGRZVHZ5YVFBMHRXXzByNDg?oc=5"
+    },
+    {
+      "title": "Bitcoin Up or Down - 5 Minutes Predictions & Odds - Polymarket",
+      "polarity": -0.17529916390776634,
+      "ts": "2026-03-11T03:00:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1QZ1FxQUhQTjBzSEtRQWNPRXVoakFzMlV5ZHh5YldiMWlET2k3ZjlCZmExM0RmeHJKbEJMMEhkcXpqa0ZkZ291Ujk4LVRaM0xzbWl6d2g1WDFaUGVHZTJXQmotUQ?oc=5"
     }
   ]
 }
