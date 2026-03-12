@@ -2,11 +2,11 @@
   "day": "2026-03-09",
   "positives": [
     {
-      "title": "Bitcoin Rises Amid Signs of a Potential End to the Iran War - Yahoo Finance",
-      "polarity": 0.6377304345369339,
-      "ts": "2026-03-09T20:21:53",
+      "title": "Bitcoin's mined supply hits 20 million milestone, leaving final 1 million BTC to be issued over next 114 years - The Block",
+      "polarity": 0.17244191095232964,
+      "ts": "2026-03-09T13:31:27",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQWNBb2RHSlI0MzJDczhUXy01VFBtNVBXUXVabHVMWWdqN0JfLVZWaXFmeDVvTHMxQWFSeUZwTVhrd3VSZUZKNHZYRk1ZcFFYbkN1OWN6bExLTURnaS03MDg1TF9KVmNjVDJydnExcVlBS0RVRkpKOFJoSGp4ZHdpbQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNjZQSGlWdGxNWU04M09fSUFucVhrb2RTRmNoSDZfLUxseUhGUUREWW9OQU54OE5YZWFUWjlRTjZiaW1vTXdiOFp5azYxbXVwbWFRZndpOXY0ZEhtMGN4RW10d2JsaEZNYVE0M2gtZm1pUVBESG0wUUdXMDc1ZjVQaWxB?oc=5"
     },
     {
       "title": "Coinbase rolling out crypto futures trading for users across 26 European countries",
@@ -14,6 +14,13 @@
       "ts": "2026-03-09T09:21:57",
       "source": "r/CryptoCurrencyTrading",
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1rovghx/coinbase_rolling_out_crypto_futures_trading_for/"
+    },
+    {
+      "title": "Strategy buys $1.3 billion of Bitcoin using mostly common stock - Fortune",
+      "polarity": 0.045080699026584625,
+      "ts": "2026-03-09T19:13:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONjdOTXJNdFBEdDZOczlNQjdzVXVaRUk2a3lNU2oxQVdleDA5T1BYWmFzOWI0TmVqM1BHMmpuaFk2dGlaRWczeXJjZkloYW9BXzA1LVo2cG5IS25POGdjcG1fdk92RHMxaUhEOWpFdmZKTHJJZGllVGxVYmlEY2JJZGZpdW5xWnM?oc=5"
     },
     {
       "title": "Reform UK's Nigel Farage invests in bitcoin-buying company - Reuters",
@@ -25,11 +32,25 @@
   ],
   "negatives": [
     {
+      "title": "Bitcoin Drops to 7-Day Low as Oil Surges on Iran War Concerns - Bloomberg",
+      "polarity": -0.951401730068028,
+      "ts": "2026-03-09T20:21:53",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTnJnTFEzY2Y4LUdrVGJmQVEtUEJhSTVhQVZpQ0R3NlhqUXU3WVZFU1pwdWlPUDdLX25mZjNIM1M0RlVMLURLc0EyT2lBdjNLV2JKeS1NMm9wakxFY2VFMFRGVzM3am9kUEJmcEc1VmU3YlhYSXdOSW5ubmFxSlUtRURIVzd4SXRIZHljVGg4WWRfeTFrcElsdjlzTWp5T2gtYjBVMnNuamZyVFFIVFZKRWl3?oc=5"
+    },
+    {
       "title": "Strategy Drops $1.28 Billion on Bitcoin, Issues $377 Million in Preferred Shares - Yahoo Finance",
       "polarity": -0.9136174963787198,
       "ts": "2026-03-09T14:50:47",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE91dy0zblJtWkRZZjJqNGNFOHh1SFN1MkZIb2xqMnhJSlowUWZOTHJJcVJVV1BoenRqLXBsNDA2Smt5NENQZlM3R0NKd3VHLVlYUDhoX3U4Q2hCOFlTX3hsLXYySjZ2RGtUcDVWVHFqZEN6UFRadXVQc0lQVnRBdw?oc=5"
+    },
+    {
+      "title": "Bitcoin Up or Down - 5 Minutes Predictions & Odds - Polymarket",
+      "polarity": -0.17529916390776634,
+      "ts": "2026-03-09T14:49:55",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91aHJxbXNBeXBXVE1uT2kwbVEtRm5leW5OSGFheWpMbXVvLWZMOEstYWJ1Z3BSN3VMRjJTbVh5bEdNUnMwbThWZ2FVakxqeGFDdG9lZzRlamV1OHpiZXdGVUtaaw?oc=5"
     },
     {
       "title": "Bitcoin Price Rebounds From Oil-Fueled Retreat, Nasdaq To Launch Tokenized Stocks - Investor's Business Daily",
@@ -40,7 +61,7 @@
     },
     {
       "title": "QNT Quietly Bled 2.5% Today \u2013 TD Sequential Bullish 9 Now Signals the Sell-Off May Be Done",
-      "polarity": -0.0464881956577301,
+      "polarity": -0.046488285064697266,
       "ts": "2026-03-09T12:26:10",
       "source": "r/CryptoCurrencyTrading",
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1roytg6/qnt_quietly_bled_25_today_td_sequential_bullish_9/"
