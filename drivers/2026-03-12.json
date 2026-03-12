@@ -2,12 +2,55 @@
   "day": "2026-03-12",
   "positives": [
     {
-      "title": "Deep Dive: The Argument For Bitcoin's Return to $100K - Santiment",
-      "polarity": 0.05196472629904747,
-      "ts": "2026-03-12T00:13:41",
+      "title": "Bitcoin Reclaims $70,000: Does the Three-Day Surge Signal a Bullish Reversal? - TradingKey",
+      "polarity": 0.038931094110012054,
+      "ts": "2026-03-12T02:44:42",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMUlIS0VMZ1hTZTd2SVlJRUdGMU5ha2FyMTBGN0hzYUphbG1tZno2R1JxOE9iQ2Y5alVNYXV6UFZmSlZueTZZLVNKVmVvcjV0Q2ZwQ09sa1Y0TnktLVZZbE9BcnQ4N1pTenI2QlY5TkZpX3VacVdxZllzM3NfSk5DdFNPOHh4V1htN0lsYjd4N2d5TWpNM3hoLWlhOWlqdw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWW1UMVVlTUJqZ000bVVTNDZfRDN4WnJ5azFlUWc3ZkJjRW1hWnVTYXUtT2V2a0Zkd3NxRUp5WDVzanFGaGVsSWVKMUlBYUo1MUVkWGs2MGYtd3pFSmxaS3Y5TmtUOEVzUTRLNVl3R3ZQV2NIdk5ka1RnczFzVFhIQUo3azZRY0gwZXYtZTl2V1k5bDJBVzVqcXA3WVpjRi0xZFlBU1VSMFR3d2l4LUNEbG8yMkhSbXRMZjBQUGxrbHFzQQ?oc=5"
+    },
+    {
+      "title": "Tottenham Report: Bitcoin meets the Gambling Commission - CDC Gaming",
+      "polarity": 0.014438733458518982,
+      "ts": "2026-03-12T03:05:29",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNzItSWRwUm8yTzBqaHg4aVJxV3ZfZzQzU1d4a3l2cnFMUnlRdlBJRWx2VVFvNDFJdmdqMzFPcG1TX3ZnTGI5cmIzRHpWNUs1RENhalZhenQ4X0UxMUVjUEMyandXd1FZcUhyYURFd0tnbEZQbDBnR1hiRGhDSFdWbTUzdmVkYmNCdFItOE16NUxqQQ?oc=5"
+    },
+    {
+      "title": "Quantum Computing Bitcoin Risk Analysis: Why Experts Reveal No Immediate Threat - MEXC",
+      "polarity": 0.008046908304095268,
+      "ts": "2026-03-12T02:54:23",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5YUmlkaDVreGt1RHVvdk1XNTZJSHVtbG5lOU1XajVCWDVWakN3NDBPMldlcXVxZ1BFM3BQVWNqUmtXTHg0S0hMbUgzY1RGT00?oc=5"
     }
   ],
-  "negatives": []
+  "negatives": [
+    {
+      "title": "Why Bitcoin Is Dropping Right Now (and What I'm Watching Next) - Yahoo Finance",
+      "polarity": -0.7686627246439457,
+      "ts": "2026-03-12T01:17:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeWVDMjFKX0cxMndkZE4zUi12ZHpqSHF2dGtzOXpNV1piZDktVV8wY0pfR0RlZTN3VHl4QlNHX2R0a1FJZkxvTVNrSExHRExpTl81SFJlcndMNjZHM28xTkIwbUtBNHhFZlhmcWFfelFKdTJqaS1uQ3ZyNm1ZQQ?oc=5"
+    },
+    {
+      "title": "Why Bitcoin Is Dropping Right Now (and What I'm Watching Next) - The Motley Fool",
+      "polarity": -0.4800667576491833,
+      "ts": "2026-03-12T01:19:28",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY0pUbnMwRG50cnU2NkRUN2dzNW91VldCNHk1Ul9TYkhFZ3VIaEhrTE00ZUp1WEZmaFNrODBkUE1MZHRudmJzY0VvQjRWNFRDd0Z3OVRUSTVSRVJLWFhIOWR6QW1KZ2Fvc1Zka0taU29ILXU5ajFBS0lFTHF0Xzk1bjE3Q1kzbUM0NUVtX3Q3clhDMXc?oc=5"
+    },
+    {
+      "title": "Bitcoin, Ethereum, XRP Flat, Dogecoin Slides Amid Trump Moves To Combat Iran War Oil Spike: Analyst Says BTC Downside Won't Be 'Heavier' - Benzinga",
+      "polarity": -0.44532132148742676,
+      "ts": "2026-03-12T01:55:39",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNT29zaHRfUmlBMDR4MW5TMHJibFBqeWZQTXlCV1B1RWhwV1AxZHJHNFprR2JUUVdQNW1oT0R1aW9zTEZrUV9ZRVJxZHBYSEs5dXpXNzlTTGZIcklxcDQ2X1BqaVRuaTJneDV6ZlBfMVNoMzVGTENHNjE1ckRqS2JxbGhzaWliYTZwSmFHbUJqWk1TTlJyazRmSE9rV1VjdW5CWXJpa1g3RmN2MVNOYklMZ3VjdDRlaHJvbGgtSmxjMlZ5dkdjdkZiMFFsTDJpZjIzVlNaa2I3SzVRM2ozMU5mSXdwSU1CV2QxREo2aUd1eUNZc1I5OVlMZnNITDltLWdtWFZwZ0szMnllejZ5MFVmSDlDZ0tNcGxQRkpj?oc=5"
+    },
+    {
+      "title": "Bitcoin Up or Down - 5 Minutes Predictions & Odds - Polymarket",
+      "polarity": -0.17529916390776634,
+      "ts": "2026-03-12T00:37:10",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9HVUZyczNvQ0t1SGxrV3lGSWc4Q2phVEFINHo5WlZvWFhNb08xdGI3NVQ4dmJHLXpRZTllRmhVZTFHUXVaai0xZmh0T2MzLUNZR1hBRWIxQ1llYVZzU0J4MURNUQ?oc=5"
+    }
+  ]
 }
