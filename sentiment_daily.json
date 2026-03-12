@@ -11,15 +11,6 @@
       "directional_bias": -1.0
     },
     {
-      "ts": "2026-03-05T00:00:00",
-      "raw": 0.04491668380796909,
-      "smoothed": 0.04491668380796909,
-      "n_posts": 1,
-      "n_positive": 1,
-      "n_negative": 0,
-      "directional_bias": 1.0
-    },
-    {
       "ts": "2026-03-07T00:00:00",
       "raw": -0.0063766129314899445,
       "smoothed": -0.0063766129314899445,
@@ -39,39 +30,39 @@
     },
     {
       "ts": "2026-03-09T00:00:00",
-      "raw": -0.20159174638268137,
-      "smoothed": -0.20159174638268137,
-      "n_posts": 5,
-      "n_positive": 2,
+      "raw": -0.0534760673968669,
+      "smoothed": -0.0534760673968669,
+      "n_posts": 6,
+      "n_positive": 3,
       "n_negative": 3,
-      "directional_bias": -0.2
+      "directional_bias": 0.0
     },
     {
       "ts": "2026-03-10T00:00:00",
-      "raw": 0.25972700764999745,
-      "smoothed": 0.25972700764999745,
-      "n_posts": 8,
-      "n_positive": 7,
-      "n_negative": 1,
-      "directional_bias": 0.75
+      "raw": 0.20665402896702287,
+      "smoothed": 0.20665402896702287,
+      "n_posts": 6,
+      "n_positive": 6,
+      "n_negative": 0,
+      "directional_bias": 1.0
     },
     {
       "ts": "2026-03-11T00:00:00",
-      "raw": -0.07943361594494604,
-      "smoothed": -0.07943361594494604,
+      "raw": -0.08098797254097558,
+      "smoothed": -0.08098797254097558,
       "n_posts": 23,
-      "n_positive": 14,
-      "n_negative": 9,
-      "directional_bias": 0.21739130434782608
+      "n_positive": 13,
+      "n_negative": 10,
+      "directional_bias": 0.13043478260869565
     },
     {
       "ts": "2026-03-12T00:00:00",
-      "raw": 0.04102737836551679,
-      "smoothed": 0.04102737836551679,
-      "n_posts": 106,
-      "n_positive": 66,
-      "n_negative": 40,
-      "directional_bias": 0.24528301886792453
+      "raw": 0.030935028533992482,
+      "smoothed": 0.030935028533992482,
+      "n_posts": 112,
+      "n_positive": 70,
+      "n_negative": 42,
+      "directional_bias": 0.25
     }
   ]
 }
