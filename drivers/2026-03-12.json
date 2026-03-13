@@ -9,13 +9,6 @@
       "url": "https://decrypt.co/360845/bitcoin-recovers-above-70k-as-tanker-attacks-push-oil-back-over-100"
     },
     {
-      "title": "Metaplanet Deepens Bitcoin Strategy With $25M Investment Plan, New Venture Arm",
-      "polarity": 0.7269159518182278,
-      "ts": "2026-03-12T05:10:17",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/360812/metaplanet-bitcoin-strategy-new-venture-arm-investment-plan"
-    },
-    {
       "title": "Bitcoin Miners \u2018Sitting on a Gold Mine\u2019 as AI Demand Ramps Up: VanEck",
       "polarity": 0.47470100969076157,
       "ts": "2026-03-12T10:29:49",
@@ -137,11 +130,25 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORnV1aTZZcW9jeGRJSVVicEV3MWpfQm9xcVFDbjZtQmpmTFVaR3VSUXV2eFRQcWdmcU1nTjQxbXFmNmJhX0tvVmxYUUJ4RXZQdkFucUpVQ2pjSTJ5eTd6WG1DWG5yWFNuanQ0RVF6UWF6YkVRZFNPVkIzY1FTNWZXTlBFQnJYMEdFM1VtY2ZZQnR3bGw2MVE?oc=5"
     },
     {
+      "title": "Bitcoin Weakens as Oil Surges Back Above $100 on Iran War - Bloomberg.com",
+      "polarity": -0.9053888320922852,
+      "ts": "2026-03-12T16:26:49",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbEcxMkoxM1k3SU9xRTMyNHZEb2ZfVzcwUERLX1dBc0hFblI0UEttcDNmWUQwMVdwTTJWWWJTdkQ2cjVpVDRsS2JtbXVmbkFoTDhzYklIUWVwVzJ6QnZ1TllWOHhtbVZkbkpwX1M1MzVRdHZfUnZtaUQwdXNpSXVqT2l6Z2p6QmlmZWFxOUNJNGx5bVladW02RXZpSGlSNzliaVMzNW5iVGgtRXc?oc=5"
+    },
+    {
       "title": "The AI reset is now underway as layoffs accelerate and one group is hit hardest",
       "polarity": -0.8999022245407104,
       "ts": "2026-03-12T19:00:26",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/ai-begins-stealing-thousands-of-jobs-from-humans-but-is-it-as-bad-as-we-all-feared/"
+    },
+    {
+      "title": "Why Bitcoin Is Dropping Right Now (and What I'm Watching Next) - Yahoo Finance",
+      "polarity": -0.7686627246439457,
+      "ts": "2026-03-12T01:17:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeWVDMjFKX0cxMndkZE4zUi12ZHpqSHF2dGtzOXpNV1piZDktVV8wY0pfR0RlZTN3VHl4QlNHX2R0a1FJZkxvTVNrSExHRExpTl81SFJlcndMNjZHM28xTkIwbUtBNHhFZlhmcWFfelFKdTJqaS1uQ3ZyNm1ZQQ?oc=5"
     },
     {
       "title": "Why Bitcoin Is About To Enter The 'Most Frustrating Phase' Of Its Cycle - Yahoo Finance",
@@ -172,18 +179,18 @@
       "url": "https://www.reddit.com/r/Bitcoin/comments/1rs6ivy/btc_payment_to_amex_via_bitcoinwell_shows_failed/"
     },
     {
+      "title": "'Bitcoin Is Going To Die', Oscar-Nominated Actor Declares, But Silver Will Reach 'Thousands Of Dollars' - Yahoo Finance",
+      "polarity": -0.24677077680826187,
+      "ts": "2026-03-12T15:30:50",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaWdWczRTNThIWHdiSmlNWEw2Ukd2TGtIbzNSTkRsREp3YkZnaWdaTXRuZlJCM2I3TEM1X2k5WUpmLUpmNEJ5Q0lrdlR3ZzRWRzd0VUNKRkw1X2R2MEFpSExOYllvVXkxOXJNOGI5YlZmc3QtdWs0MDRIcWdsN1lxdk9rQVk0dw?oc=5"
+    },
+    {
       "title": "Bitcoin Quantum Threat Is Real But Not Imminent, Says Cathie Wood's Ark Invest",
       "polarity": -0.1812751516699791,
       "ts": "2026-03-12T20:16:02",
       "source": "Decrypt",
       "url": "https://decrypt.co/360945/bitcoin-quantum-threat-real-not-imminent-cathie-wood-ark-invest"
-    },
-    {
-      "title": "Bitcoin price analysis: Large and small holders are selling, but BTC remains resilient - CoinDesk",
-      "polarity": -0.1716543734073639,
-      "ts": "2026-03-12T14:32:11",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdVkxZnh4TFFuV2JUaTQzMnphVXVaYWZqVHFsOXhTVXlXWXN1MEszRC14Mll5b20ySkQxTG14eGI4Y1ZEMjRlVVVGaURYZXZmZXVHYW1EQnR3RVdUX19RNkprVG9zenZPejk0b1lSVHVVQUZxSWFfcVk5V01GeHdPM0JYMFFsX2E3ZXVyRk9VU3FZUUtJcHFqYjdIRWd0NEhzVUJNWHhyM01TRzBCLTQzZWxvNWZZX0dxd0puM2J4MDYzSGVBajd4ZUUwYjM?oc=5"
     },
     {
       "title": "Bitcoin's 'Nuclear Winter' May Be Over Soon, ETF Analysts Say - Yahoo Finance",
