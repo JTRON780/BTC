@@ -2,11 +2,11 @@
   "day": "2026-03-11",
   "positives": [
     {
-      "title": "Morning Minute: Bitcoin Outperforms Gold, Stocks During Iran War",
-      "polarity": 0.7559378277510405,
-      "ts": "2026-03-11T15:04:47",
-      "source": "Decrypt",
-      "url": "https://decrypt.co/360677/morning-minute-bitcoin-outperforms-gold-stocks-during-iran-war"
+      "title": "Bitcoin Could Hit $1M in 10 Years If It Does This One Thing, Says Bitwise CIO Matt Hougan - Yahoo Finance",
+      "polarity": 0.34309560153633356,
+      "ts": "2026-03-11T10:32:15",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBMTnljSXAzeGZQZzNuaEctY3o1cUl0WWhNWEM3bGtPaXNhUXpybC1QbmgwdWFBOTdaMnhjeUxRbTZTUnVKdHhYckl5bDFUa2dYUjd3UVlwdHVzWXhSRUc2QTE3YzdIWi03b3M2Y1J2SXNvMkM3cFFhVQ?oc=5"
     },
     {
       "title": "Top Bitcoin Mining Pool Operator Foundry Is Getting Into Zcash",
@@ -51,13 +51,6 @@
       "url": "https://cryptobriefing.com/oil-price-impact-bitcoin-volatility/"
     },
     {
-      "title": "Cex or dex",
-      "polarity": 0.032436428591609,
-      "ts": "2026-03-11T21:49:55",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1rr7mrq/cex_or_dex/"
-    },
-    {
       "title": "Are you just trading BTC or holding as well?",
       "polarity": 0.02870911918580532,
       "ts": "2026-03-11T18:01:46",
@@ -81,13 +74,6 @@
   ],
   "negatives": [
     {
-      "title": "Bloomberg strategist doubles down on $10,000 bitcoin call but peers say it would take a nuclear war to get there - CoinDesk",
-      "polarity": -0.9571777982637286,
-      "ts": "2026-03-11T17:03:03",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPeE13dENrYzBTYU1FMEVBRDRkNnd1bnFwQVNHa2oyMkRodkxOUFNBZUlVUDk2bXVnQVFnNXRRQ25KS0Q3QWI2V2swMVBlS1BLNGFoVURvbGhrT1lTU0RvTEFqa2kzd1JhbWNuQV95X2Y0UTd2QnViRUdHcFlWNlFkVW4xdTU0bzZtMzVLSTNWUDhUVzNrSGtucldfUmlIT0tkd3Y5cUZBRlV2RUEzWEhIYWdxTkVYb3ZwdGlTWVlPeFhlcGthUmprb1A1V2ktajA5N0xILWR6YzZvTUtzbHdCR3FLcU9nOEtKNU5uVVcwcw?oc=5"
-    },
-    {
       "title": "Bitcoin price news: BTC remains modestly lower at $69,500 following in line inflation data - CoinDesk",
       "polarity": -0.9494700944051147,
       "ts": "2026-03-11T12:37:04",
@@ -95,18 +81,18 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZjY3M08wMWVEMWNSQmpvSjNGOUR4SC0ySElMalJ4V1A1eVczQndNcVEtQUdESS1QV2hzdVV1VnlEaDN1V2VZUi1GMzVVMTNGcXhXN1piQWxzbTBMN1FZVlQ2dG9FUjVqSVctQ2lvNXJJOHp1eGxkWmdrU2JiRjZtWkF0b3d0WnBaclgyUGdBMGZtMTVTNmVpOGdDUmVmMl96aVhTLVR2ZVhLWGFVTGVxQnJ3MEwzSk5vRFk4aE1JdGNOZTBNeThSa2N0X3FpbUtCcFdtQm1fZVI?oc=5"
     },
     {
-      "title": "Bitcoin outperforms gold and stocks since beginning of Iran conflict - Fortune",
-      "polarity": -0.19589200615882874,
-      "ts": "2026-03-11T20:38:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbUcxVExzRTNHdTBqQUFmZnV6WlkyeGo1UndZX0Zxak9ubS1qYnNOdmxTT1ByTUh3N0phMWxvWG9TckFnT2VoOVVaSE00eVdZWkRXOTRtMThTbi1vNGlwaUtwV1F6TUtiUW9FZlllNXd2NVBlMG1hdFV4cjc5N1RLaTRWcHU2Nms5RG8zWktzZUQzZUpCc1dfY0Vfbw?oc=5"
-    },
-    {
       "title": "Why oil panic hitting global markets caused traders to dump Bitcoin instead of hiding in it",
       "polarity": -0.06438012421131134,
       "ts": "2026-03-11T15:15:14",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/when-oil-panic-hit-global-markets-traders-dumped-bitcoin-instead-of-hiding-in-it/"
+    },
+    {
+      "title": "Bitcoin outperforms gold and stocks since beginning of Iran war - Fortune",
+      "polarity": -0.014346152544021606,
+      "ts": "2026-03-11T20:38:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbUcxVExzRTNHdTBqQUFmZnV6WlkyeGo1UndZX0Zxak9ubS1qYnNOdmxTT1ByTUh3N0phMWxvWG9TckFnT2VoOVVaSE00eVdZWkRXOTRtMThTbi1vNGlwaUtwV1F6TUtiUW9FZlllNXd2NVBlMG1hdFV4cjc5N1RLaTRWcHU2Nms5RG8zWktzZUQzZUpCc1dfY0Vfbw?oc=5"
     }
   ]
 }
