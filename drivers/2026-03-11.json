@@ -3,56 +3,56 @@
   "positives": [
     {
       "title": "Billionaire analyst reveals the right time to buy Bitcoin as war escalates - Yahoo Finance",
-      "polarity": 0.10429144464433193,
+      "polarity": 0.10429185070097446,
       "ts": "2026-03-11T20:44:47",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUzlRWmFsYlB0SXhfTU5VZXNrQUNXLVEySU1oaFI4V0FtMXFFaUh4ejJUVnI4UE16NnhTT3dISjUwaEpoWTNPU2xMZ1pFOEVPNmVzb0ZWQnFtUUh0MVlnZGZwLXNfQmlsQXVMcW1FRFdJMF8waGJ6V1dSUnRINkNZSGdKRnBWMERfSEE?oc=5"
     },
     {
       "title": "Al Thinks Bitcoin Is the Money of the Future \u2013 New Study Says It's the Top Pick - Yahoo Finance",
-      "polarity": 0.0881859352812171,
+      "polarity": 0.08818590268492699,
       "ts": "2026-03-11T17:26:41",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTUlIaDdydDVUT3BObGxZai1fSm5MX3I3ODhaTk5sUzI0Wk9VYzFXNjFjSWZNR0kzLTdnUmk1Rl85YThlOG5ZT0lyQl9hS1VUQlJrUmlnX3FqWlFMM2hhWk8wQmJPV1RsbnM2bGNzVUtVcXJUbHd4MWkxUTItUzAtUThR?oc=5"
     },
     {
       "title": "Bitcoin To $1.3 Million? Coinbase CEO Brian Armstrong Urges: 'Own A Crypto Wallet' - Yahoo Finance",
-      "polarity": 0.07862931676208973,
+      "polarity": 0.07862950302660465,
       "ts": "2026-03-11T17:31:08",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBreTB4c1REeEE5MWR5X1RWODgzaTFWczViVU9HcWlQVV9HbzBUMDJSeVNfR3pSS0dIclloNmdYU0ZFSHR6UWpTYVFMblM5ZU1fbWJWVEI3VWxmWkxNckxadlM5WjMwZkxSb2g3b2JESE9ldzJTNmEtakVWQUotdVE?oc=5"
     },
     {
       "title": "Vivek Ramaswamy\u2019s Strive overtakes Tesla in Bitcoin holdings following new purchase",
-      "polarity": 0.07759305089712143,
+      "polarity": 0.07759302388876677,
       "ts": "2026-03-11T14:21:05",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/digital-asset-reserves-strategy/"
     },
     {
       "title": "Bitcoin holds above $70K as Iran warns oil could reach $200 amid escalating war",
-      "polarity": 0.04776407778263092,
+      "polarity": 0.047764286398887634,
       "ts": "2026-03-11T23:54:16",
       "source": "Crypto Briefing",
       "url": "https://cryptobriefing.com/oil-price-impact-bitcoin-volatility/"
     },
     {
       "title": "Are you just trading BTC or holding as well?",
-      "polarity": 0.02870911918580532,
+      "polarity": 0.028709178790450096,
       "ts": "2026-03-11T18:01:46",
       "source": "r/BitcoinMarkets",
       "url": "https://www.reddit.com/r/BitcoinMarkets/comments/1rr17lr/are_you_just_trading_btc_or_holding_as_well/"
     },
     {
       "title": "You can't switch platforms until 2027. What's your play?",
-      "polarity": 0.02823762781918049,
+      "polarity": 0.028237702324986458,
       "ts": "2026-03-11T19:55:02",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1rr4fu0/you_cant_switch_platforms_until_2027_whats_your/"
     },
     {
       "title": "Bitcoin price forecast: Traders bet on bitcoin reclaiming $80,000 - CoinDesk",
-      "polarity": 0.024127662181854248,
+      "polarity": 0.02412797510623932,
       "ts": "2026-03-11T05:04:56",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdjJTUVRrREQ5akRjNWlRNmN2SFVuVFVpakVZMlNFb0VmZE1famxWSnMyQ21ydm1jRWE2Y2Z2V1FPR0ZqX2NEalJSMEYxNXVNYzhXcG43MW1MUnlGbUZ3bmE4Z05PRERnMnNDQ2l0aG1YU1RfU2gxWnNOWXNhWDctSUZXLUQzSk9WRC1hQjBENldGSTY5ejRv?oc=5"
@@ -60,25 +60,18 @@
   ],
   "negatives": [
     {
-      "title": "Bitcoin price news: BTC remains modestly lower at $69,500 following in line inflation data - CoinDesk",
-      "polarity": -0.9494700944051147,
-      "ts": "2026-03-11T12:37:04",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZjY3M08wMWVEMWNSQmpvSjNGOUR4SC0ySElMalJ4V1A1eVczQndNcVEtQUdESS1QV2hzdVV1VnlEaDN1V2VZUi1GMzVVMTNGcXhXN1piQWxzbTBMN1FZVlQ2dG9FUjVqSVctQ2lvNXJJOHp1eGxkWmdrU2JiRjZtWkF0b3d0WnBaclgyUGdBMGZtMTVTNmVpOGdDUmVmMl96aVhTLVR2ZVhLWGFVTGVxQnJ3MEwzSk5vRFk4aE1JdGNOZTBNeThSa2N0X3FpbUtCcFdtQm1fZVI?oc=5"
-    },
-    {
-      "title": "Fake Police Raid In France Ends With a $1 Million BTC Loot",
-      "polarity": -0.10772963240742683,
-      "ts": "2026-03-11T08:48:20",
-      "source": "r/CryptoMarkets",
-      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1rqoeq4/fake_police_raid_in_france_ends_with_a_1_million/"
-    },
-    {
       "title": "Why oil panic hitting global markets caused traders to dump Bitcoin instead of hiding in it",
-      "polarity": -0.06438012421131134,
+      "polarity": -0.06438006460666656,
       "ts": "2026-03-11T15:15:14",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/when-oil-panic-hit-global-markets-traders-dumped-bitcoin-instead-of-hiding-in-it/"
+    },
+    {
+      "title": "Bitcoin outperforms gold and stocks since beginning of Iran war - Fortune",
+      "polarity": -0.014347195625305176,
+      "ts": "2026-03-11T20:38:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbUcxVExzRTNHdTBqQUFmZnV6WlkyeGo1UndZX0Zxak9ubS1qYnNOdmxTT1ByTUh3N0phMWxvWG9TckFnT2VoOVVaSE00eVdZWkRXOTRtMThTbi1vNGlwaUtwV1F6TUtiUW9FZlllNXd2NVBlMG1hdFV4cjc5N1RLaTRWcHU2Nms5RG8zWktzZUQzZUpCc1dfY0Vfbw?oc=5"
     }
   ]
 }
