@@ -20,15 +20,6 @@
       "directional_bias": 0.3333333333333333
     },
     {
-      "ts": "2026-03-05T00:00:00",
-      "raw": 0.6666372120380402,
-      "smoothed": 0.6666372120380402,
-      "n_posts": 1,
-      "n_positive": 1,
-      "n_negative": 0,
-      "directional_bias": 1.0
-    },
-    {
       "ts": "2026-03-08T00:00:00",
       "raw": -0.4088793788951906,
       "smoothed": -0.4088793788951906,
@@ -48,10 +39,10 @@
     },
     {
       "ts": "2026-03-10T00:00:00",
-      "raw": 0.3389824721962213,
-      "smoothed": 0.3389824721962213,
-      "n_posts": 5,
-      "n_positive": 5,
+      "raw": 0.26792923593893647,
+      "smoothed": 0.26792923593893647,
+      "n_posts": 4,
+      "n_positive": 4,
       "n_negative": 0,
       "directional_bias": 1.0
     },
@@ -66,30 +57,30 @@
     },
     {
       "ts": "2026-03-12T00:00:00",
-      "raw": 0.024014451414346702,
-      "smoothed": 0.024014451414346702,
+      "raw": -0.01973383575677873,
+      "smoothed": -0.01973383575677873,
       "n_posts": 21,
-      "n_positive": 15,
-      "n_negative": 6,
-      "directional_bias": 0.42857142857142855
+      "n_positive": 14,
+      "n_negative": 7,
+      "directional_bias": 0.3333333333333333
     },
     {
       "ts": "2026-03-13T00:00:00",
-      "raw": 0.16120738761956652,
-      "smoothed": 0.16120738761956652,
-      "n_posts": 46,
-      "n_positive": 32,
+      "raw": 0.15867259902846212,
+      "smoothed": 0.15867259902846212,
+      "n_posts": 47,
+      "n_positive": 33,
       "n_negative": 14,
-      "directional_bias": 0.391304347826087
+      "directional_bias": 0.40425531914893614
     },
     {
       "ts": "2026-03-14T00:00:00",
-      "raw": 0.04911215304115991,
-      "smoothed": 0.04911215304115991,
+      "raw": 0.044261500145688866,
+      "smoothed": 0.044261500145688866,
       "n_posts": 57,
-      "n_positive": 32,
-      "n_negative": 25,
-      "directional_bias": 0.12280701754385964
+      "n_positive": 31,
+      "n_negative": 26,
+      "directional_bias": 0.08771929824561403
     }
   ]
 }
