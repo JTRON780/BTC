@@ -153,10 +153,10 @@ def upsert_raw_items(items: List[Dict[str, Any]]) -> int:
         stmt = sqlite_insert(RawItem).values(items)
         stmt = stmt.on_conflict_do_nothing(index_elements=['id'])
         
-        session.execute(stmt)
+        result = session.execute(stmt)
         session.commit()
-    
-    return len(items)
+        # Return actual number of newly inserted rows (not attempted)
+        return result.rowcount
 
 
 def get_recent_raw_items(hours: int = 24, source: Optional[str] = None) -> List[Dict[str, Any]]:
@@ -239,10 +239,10 @@ def save_scores(scored: List[Dict[str, Any]]) -> int:
         stmt = sqlite_insert(ScoredItem).values(scored)
         stmt = stmt.on_conflict_do_nothing(index_elements=['id'])
         
-        session.execute(stmt)
+        result = session.execute(stmt)
         session.commit()
-    
-    return len(scored)
+        # Return actual number of newly inserted rows (not attempted)
+        return result.rowcount
 
 
 def save_prices(prices: List[Dict[str, Any]]) -> int:

@@ -112,9 +112,13 @@ def collect_news(feeds: List[str]) -> int:
         logger.info("No Bitcoin-related news items found")
         return 0
     
-    count = upsert_raw_items(btc_items)
-    logger.info("Bitcoin news items saved", extra={"count": count})
-    return count
+    new_count = upsert_raw_items(btc_items)
+    dupe_count = len(btc_items) - new_count
+    logger.info(
+        "Bitcoin news collection complete",
+        extra={"fetched": len(btc_items), "new": new_count, "duplicates_skipped": dupe_count}
+    )
+    return new_count
 def collect_reddit(feeds: List[str]) -> int:
     """Fetch and persist Bitcoin-related reddit items."""
     items = fetch_reddit_feeds(feeds)
@@ -136,9 +140,13 @@ def collect_reddit(feeds: List[str]) -> int:
         logger.info("No Bitcoin-related reddit items found")
         return 0
     
-    count = upsert_raw_items(btc_items)
-    logger.info("Bitcoin reddit items saved", extra={"count": count})
-    return count
+    new_count = upsert_raw_items(btc_items)
+    dupe_count = len(btc_items) - new_count
+    logger.info(
+        "Bitcoin reddit collection complete",
+        extra={"fetched": len(btc_items), "new": new_count, "duplicates_skipped": dupe_count}
+    )
+    return new_count
 def collect_price_snapshot() -> int:
 	"""Fetch and persist a single BTC price snapshot."""
 	try:
