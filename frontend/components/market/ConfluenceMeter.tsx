@@ -58,7 +58,7 @@ export function ConfluenceMeter({ score, label, state }: ConfluenceMeterProps) {
 
             {/* Gauge */}
             <div className="flex flex-col items-center gap-1">
-                <svg width="140" height="80" viewBox="0 0 140 80">
+                <svg width="140" height="90" viewBox="0 0 140 90">
                     {/* Track */}
                     <path
                         d="M 10 70 A 60 60 0 0 1 130 70"
@@ -77,8 +77,8 @@ export function ConfluenceMeter({ score, label, state }: ConfluenceMeterProps) {
                         strokeDasharray={`${arcLength} ${circumference}`}
                         style={{ transition: 'stroke-dasharray 0.6s ease' }}
                     />
-                    <text x="70" y="68" textAnchor="middle" className={color} fill="currentColor" fontSize="24" fontWeight="bold">{score}</text>
-                    <text x="70" y="82" textAnchor="middle" fill="#64748b" fontSize="11" style={{ textTransform: 'capitalize' }}>{label}</text>
+                    <text x="70" y="65" textAnchor="middle" className={color} fill="currentColor" fontSize="24" fontWeight="bold">{score}</text>
+                    <text x="70" y="79" textAnchor="middle" fill="#64748b" fontSize="11" style={{ textTransform: 'capitalize' }}>{label}</text>
                 </svg>
             </div>
 
