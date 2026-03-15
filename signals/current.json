@@ -1,13 +1,13 @@
 {
-  "ts": "2026-03-15T21:18:34.144150Z",
+  "ts": "2026-03-15T22:16:38.362288Z",
   "current": {
-    "price": 71718.0,
+    "price": 71750.25,
     "regime": "trend_up",
     "bias": "bullish",
-    "confluence_score": 77,
-    "confluence_label": "favorable",
+    "confluence_score": 84,
+    "confluence_label": "strong",
     "ema_alignment": "bullish",
-    "price_vs_vwap": "above",
-    "rsi14": 56.79
+    "price_vs_vwap": "near",
+    "rsi14": 55.1
   }
 }
