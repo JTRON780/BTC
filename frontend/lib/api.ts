@@ -51,11 +51,11 @@ export async function fetchSentimentIndex(
     `${API_BASE_URL}/sentiment_${granularity}.json`,
     { cache: 'no-store' }
   );
-  
+
   if (!res.ok) {
     throw new Error(`Failed to fetch sentiment data: ${res.statusText}`);
   }
-  
+
   return res.json();
 }
 
@@ -67,14 +67,14 @@ export async function fetchTopDrivers(day: string): Promise<TopDriversResponse> 
     `${API_BASE_URL}/drivers/${day}.json`,
     { cache: 'no-store' }
   );
-  
+
   if (!res.ok) {
     if (res.status === 404) {
       return { day, positives: [], negatives: [] };
     }
     throw new Error(`Failed to fetch top drivers: ${res.statusText}`);
   }
-  
+
   return res.json();
 }
 
@@ -85,11 +85,11 @@ export async function fetchCurrentPrice(): Promise<PriceData> {
   const response = await fetch(`${API_BASE_URL}/price.json`, {
     cache: 'no-store', // Always get fresh price data
   });
-  
+
   if (!response.ok) {
     throw new Error(`Failed to fetch price: ${response.statusText}`);
   }
-  
+
   const data: PriceData = await response.json();
   return data;
 }
@@ -99,11 +99,41 @@ export async function fetchCurrentPrice(): Promise<PriceData> {
  */
 export async function checkHealth(): Promise<{ status: string; time: string }> {
   const res = await fetch(`${API_BASE_URL}/index.json`, { cache: 'no-store' });
-  
+
   if (!res.ok) {
     throw new Error('API health check failed');
   }
-  
+
   const data = await res.json();
   return { status: 'ok', time: data.updated };
 }
+
+/**
+ * Fetch derived market state (regime, confluence score, indicators, setup callout)
+ */
+export async function fetchMarketState() {
+  const res = await fetch(`${API_BASE_URL}/market_state.json`, { cache: 'no-store' });
+  if (!res.ok) throw new Error(`Failed to fetch market state: ${res.statusText}`);
+  return res.json();
+}
+
+/**
+ * Fetch OHLCV candles with pre-computed indicators for a given timeframe.
+ * granularity: 'hourly' | '4h'
+ */
+export async function fetchTechnicals(granularity: 'hourly' | '4h') {
+  const file = granularity === 'hourly' ? 'hourly.json' : '4h.json';
+  const res = await fetch(`${API_BASE_URL}/technicals/${file}`, { cache: 'no-store' });
+  if (!res.ok) throw new Error(`Failed to fetch technicals (${granularity}): ${res.statusText}`);
+  return res.json();
+}
+
+/**
+ * Fetch support/resistance levels and Fibonacci retracements.
+ */
+export async function fetchLevels() {
+  const res = await fetch(`${API_BASE_URL}/levels.json`, { cache: 'no-store' });
+  if (!res.ok) throw new Error(`Failed to fetch levels: ${res.statusText}`);
+  return res.json();
+}
+
