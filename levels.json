@@ -1,13 +1,13 @@
 {
-  "ts": "2026-03-15T18:22:34.923246Z",
-  "current_price": 71763.99,
+  "ts": "2026-03-15T19:21:49.075007Z",
+  "current_price": 71487.45,
   "session_high": 71999.5,
-  "session_low": 70606.26,
+  "session_low": 70661.09,
   "support_zones": [
     {
-      "low": 71191.61,
-      "high": 71476.95,
-      "strength": 0.8
+      "low": 71190.05,
+      "high": 71475.38,
+      "strength": 0.9
     },
     {
       "low": 70196.15,
@@ -19,23 +19,23 @@
   "fibonacci_levels": [
     {
       "label": "23.6%",
-      "price": 71670.7
+      "price": 71683.64
     },
     {
       "label": "38.2%",
-      "price": 71467.28
+      "price": 71488.23
     },
     {
       "label": "50.0%",
-      "price": 71302.88
+      "price": 71330.29
     },
     {
       "label": "61.8%",
-      "price": 71138.48
+      "price": 71172.36
     },
     {
       "label": "78.6%",
-      "price": 70904.41
+      "price": 70947.51
     }
   ]
 }

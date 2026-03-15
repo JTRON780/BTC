@@ -1,37 +1,37 @@
 {
-  "ts": "2026-03-15T18:22:34.923007Z",
-  "price": 71763.99,
+  "ts": "2026-03-15T19:21:49.074784Z",
+  "price": 71487.45,
   "market_regime": "trend_up",
   "trend_bias": "bullish",
   "ema_alignment": "bullish",
-  "price_vs_vwap": "above",
+  "price_vs_vwap": "near",
   "volume_regime": "low",
   "sentiment_regime": "neutral",
-  "confluence_score": 77,
+  "confluence_score": 69,
   "confluence_label": "favorable",
   "indicators": {
-    "ema9": 71645.02,
-    "ema21": 71487.6,
-    "ema50": 71237.85,
-    "vwap": 71481.55,
-    "rsi14": 59.91,
-    "atr14": 306.51
+    "ema9": 71555.07,
+    "ema21": 71457.41,
+    "ema50": 71234.0,
+    "vwap": 71479.39,
+    "rsi14": 52.12,
+    "atr14": 323.61
   },
   "setup": {
     "bias": "Bullish",
-    "long_zone": "$71,192\u2013$71,477",
+    "long_zone": "$71,190\u2013$71,475",
     "invalidation": "Below $70,196",
     "take_profit_zone": null,
-    "summary": "BTC is above VWAP. EMA alignment is bullish. volume is light \u2014 treat with caution.",
+    "summary": "BTC is near VWAP. EMA alignment is bullish. volume is light \u2014 treat with caution.",
     "confluence_label": "favorable"
   },
   "divergence": {
     "type": "price_up_sentiment_down",
-    "price_change_24h_pct": 1.54,
-    "sentiment_change_24h": -0.0401,
+    "price_change_24h_pct": 1.09,
+    "sentiment_change_24h": -0.0334,
     "volume_confirming": false,
     "headline": "Price rising while sentiment cools",
-    "detail": "BTC gained +1.5% in 24h but sentiment has softened. Rallies without sentiment support tend to be fragile \u2014 watch for distribution.",
+    "detail": "BTC gained +1.1% in 24h but sentiment has softened. Rallies without sentiment support tend to be fragile \u2014 watch for distribution.",
     "signal": "bearish"
   }
 }
