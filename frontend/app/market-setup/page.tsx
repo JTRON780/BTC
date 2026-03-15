@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { fetchMarketState, fetchTechnicals, fetchLevels } from '@/lib/api';
+import { computeLiveMarketState, reevaluateWithLiveTick } from '@/lib/api';
 import { MarketState, TechnicalsResponse, Levels, Candle } from '@/lib/indicators';
 import { MarketSummaryCards } from '@/components/market/MarketSummaryCards';
 import { TechnicalChart } from '@/components/market/TechnicalChart';
@@ -34,17 +34,13 @@ export default function MarketSetupPage() {
         try {
             setLoading(true);
             setError(null);
-            const [ms, tech, lvl] = await Promise.all([
-                fetchMarketState().catch(() => null),
-                fetchTechnicals(tf === '1h' ? 'hourly' : '4h').catch(() => null),
-                fetchLevels().catch(() => null),
-            ]);
-            setMarketState(ms);
-            setTechnicals(tech);
-            setLevels(lvl);
+            const data = await computeLiveMarketState(tf);
+            setMarketState(data.marketState);
+            setTechnicals(data.technicals);
+            setLevels(data.levels);
             setLastUpdated(new Date());
         } catch (e: any) {
-            setError(e.message ?? 'Failed to load data');
+            setError(e.message ?? 'Failed to load live data from Coinbase API');
         } finally {
             setLoading(false);
         }
@@ -72,7 +68,43 @@ export default function MarketSetupPage() {
                 if (msg.channel === 'ticker' && msg.events?.[0]?.tickers?.[0]) {
                     const ticker = msg.events[0].tickers[0];
                     const price = parseFloat(ticker.price);
-                    if (!isNaN(price) && price > 0) setLivePrice(price);
+                    if (!isNaN(price) && price > 0) {
+                        setLivePrice(price);
+                        
+                        // Live re-evaluation!
+                        setMarketState(prevMs => {
+                            if (!prevMs) return prevMs;
+                            setTechnicals(prevTech => {
+                                if (!prevTech) return prevTech;
+                                try {
+                                    const { marketState: newMs, levels: newLvl } = reevaluateWithLiveTick(
+                                        prevTech,
+                                        prevMs.sentiment_regime,
+                                        price
+                                    );
+                                    setLevels(newLvl);
+                                    // Preserve divergence from the main fetch, as live tick doesn't recalculate it
+                                    return prevTech; // We don't mutate state here, just return it
+                                } catch (e) {
+                                    return prevTech;
+                                }
+                            });
+                            
+                            // To actually set the state we do it here
+                            try {
+                                if (!technicals) return prevMs;
+                                const { marketState: newMs } = reevaluateWithLiveTick(
+                                    technicals,
+                                    prevMs.sentiment_regime,
+                                    price
+                                );
+                                newMs.divergence = prevMs.divergence;
+                                return newMs;
+                            } catch (e) {
+                                return prevMs;
+                            }
+                        });
+                    }
                 }
             } catch { }
         };

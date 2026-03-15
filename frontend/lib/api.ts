@@ -137,3 +137,264 @@ export async function fetchLevels() {
   return res.json();
 }
 
+
+import { Candle, MarketState, TechnicalsResponse, Levels } from '@/lib/indicators';
+import * as MathLib from '@/lib/technicals-math';
+
+/**
+ * Fetch live candles directly from Coinbase REST API
+ */
+export async function fetchLiveCandles(granularity: '1h' | '4h', limit: number): Promise<Candle[]> {
+    const granKey = granularity === '1h' ? 'ONE_HOUR' : 'FOUR_HOUR';
+    const secondsPerCandle = granularity === '1h' ? 3600 : 14400;
+    
+    // Coinbase needs integer seconds
+    const endTs = Math.floor(Date.now() / 1000);
+    const startTs = endTs - (limit * secondsPerCandle);
+    
+    // Call our own Next.js API route to proxy the browser CORS issue
+    const url = `/api/coinbase-candles?start=${startTs}&end=${endTs}&granularity=${granKey}`;
+    
+    const res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) {
+        throw new Error(`Failed to fetch Coinbase candles: ${res.statusText}`);
+    }
+    
+    const data = await res.json();
+    const raw = data.candles || [];
+    
+    // Coinbase returns newest-first; reverse to oldest-first
+    const candles: Candle[] = [];
+    for (let i = raw.length - 1; i >= 0; i--) {
+        const c = raw[i];
+        // Standardize timestamps to ISO string matching Python pipeline output
+        const tsDate = new Date(parseInt(c.start) * 1000);
+        candles.push({
+            ts: tsDate.toISOString(),
+            open: parseFloat(c.open),
+            high: parseFloat(c.high),
+            low: parseFloat(c.low),
+            close: parseFloat(c.close),
+            volume: parseFloat(c.volume)
+        });
+    }
+    
+    return candles;
+}
+
+/**
+ * Fetch daily sentiment data from static site
+ */
+export async function fetchStaticSentiment() {
+    try {
+        const res = await fetch(`${API_BASE_URL}/sentiment_daily.json`, { cache: 'no-store' });
+        if (res.ok) {
+            return await res.json();
+        }
+    } catch (e) {
+        console.warn("Could not fetch sentiment", e);
+    }
+    return { data: [] };
+}
+
+function getSentimentRegime(sentimentData: any): string {
+    const pts = sentimentData?.data || [];
+    if (pts.length > 0) {
+        const last = pts[pts.length - 1];
+        const smoothed = last.smoothed || 0;
+        if (smoothed >= 0.25) return "strongly_positive";
+        if (smoothed >= 0.05) return "positive";
+        if (smoothed <= -0.25) return "strongly_negative";
+        if (smoothed <= -0.05) return "negative";
+    }
+    return "neutral";
+}
+
+/**
+ * Compute the live market state directly on the client
+ */
+export async function computeLiveMarketState(timeframe: '1h' | '4h' = '1h'): Promise<{
+    marketState: MarketState;
+    technicals: TechnicalsResponse;
+    levels: Levels;
+}> {
+    // 1. Fetch live candles & static sentiment
+    const limit = timeframe === '1h' ? 168 : 90; // 7 days of 1h, ~15 days of 4h
+    const [candles, sentiment] = await Promise.all([
+        fetchLiveCandles(timeframe, limit),
+        fetchStaticSentiment()
+    ]);
+
+    if (candles.length === 0) {
+        throw new Error("No live candles available");
+    }
+
+    // 2. Compute indicators
+    const closes = candles.map(c => c.close);
+    const e9 = MathLib.ema(closes, 9);
+    const e21 = MathLib.ema(closes, 21);
+    const e50 = MathLib.ema(closes, 50);
+    const vwaps = MathLib.vwapFromCandles(candles);
+    const rsiVals = MathLib.rsi(closes, 14);
+    const atrVals = MathLib.atr(candles, 14);
+    const avgVols = MathLib.rollingAvgVolume(candles, 20);
+
+    // 3. Enrich candles for chart (matching Python TechnicalsResponse)
+    const enrichedCandles: Candle[] = candles.map((c, i) => ({
+        ...c,
+        ema9: e9[i] ? Number(e9[i]!.toFixed(4)) : null,
+        ema21: e21[i] ? Number(e21[i]!.toFixed(4)) : null,
+        ema50: e50[i] ? Number(e50[i]!.toFixed(4)) : null,
+        vwap: vwaps[i] ? Number(vwaps[i]!.toFixed(4)) : null,
+        rsi14: rsiVals[i] ? Number(rsiVals[i]!.toFixed(4)) : null,
+        atr14: atrVals[i] ? Number(atrVals[i]!.toFixed(4)) : null,
+        avg_volume: avgVols[i] ? Number(avgVols[i]!.toFixed(4)) : null,
+    }));
+
+    const technicals: TechnicalsResponse = {
+        granularity: timeframe,
+        updated: new Date().toISOString(),
+        candles: enrichedCandles
+    };
+
+    // 4. Derive Market State & Confluence
+    const currentPrice = candles[candles.length - 1].close;
+    const states = MathLib.deriveStates(candles, e9, e21, e50, vwaps, rsiVals, atrVals, avgVols);
+    const { supportZones, resistanceZones } = MathLib.computeSupportResistance(candles);
+    
+    // Session high/low (last 24h = 24 candles for 1h, 6 for 4h)
+    const sessionLen = timeframe === '1h' ? 24 : 6;
+    const sessionCandles = candles.slice(-sessionLen);
+    const sessionHigh = Math.max(...sessionCandles.map(c => c.high));
+    const sessionLow = Math.min(...sessionCandles.map(c => c.low));
+
+    const fibs = MathLib.fibonacciLevels(sessionHigh, sessionLow);
+    
+    // RSI Current
+    let rsiCurrent: number | null = null;
+    for (let i = rsiVals.length - 1; i >= 0; i--) {
+        if (rsiVals[i] !== null) {
+            rsiCurrent = rsiVals[i];
+            break;
+        }
+    }
+
+    const sentimentRegime = getSentimentRegime(sentiment);
+    const score = MathLib.computeConfluenceScore(states, sentimentRegime, supportZones, currentPrice, rsiCurrent);
+    const setup = MathLib.generateSetupCallout(states, supportZones, resistanceZones, score, currentPrice);
+    
+    // Div is only computed exactly if we have 1h candles
+    let divergence = null;
+    if (timeframe === '1h') {
+        const divObj = MathLib.computeDivergence(candles, sentiment?.data || []);
+        if (divObj) {
+            // Re-map the signal cast from the untyped return
+            divergence = {
+                ...divObj,
+                signal: divObj.signal as 'bullish' | 'bearish' | 'neutral'
+            };
+        }
+    }
+
+    const marketState: MarketState = {
+        ts: new Date().toISOString(),
+        price: currentPrice,
+        market_regime: states.market_regime,
+        trend_bias: states.trend_bias,
+        ema_alignment: states.ema_alignment,
+        price_vs_vwap: states.price_vs_vwap,
+        volume_regime: states.volume_regime,
+        sentiment_regime: sentimentRegime,
+        confluence_score: score,
+        confluence_label: MathLib.confluenceLabel(score),
+        indicators: states.indicators,
+        setup: setup,
+        divergence: divergence ? divergence : undefined
+    };
+
+    const levels: Levels = {
+        ts: new Date().toISOString(),
+        current_price: currentPrice,
+        session_high: sessionHigh,
+        session_low: sessionLow,
+        support_zones: supportZones,
+        resistance_zones: resistanceZones,
+        fibonacci_levels: fibs.map(f => ({
+            label: f.label,
+            price: f.price
+        }))
+    };
+
+    return { marketState, technicals, levels };
+}
+
+/**
+ * Helper exported for the frontend to re-evaluate the current close vs live price
+ */
+export function reevaluateWithLiveTick(
+    technicals: TechnicalsResponse,
+    sentimentRegime: string,
+    livePrice: number
+): { marketState: MarketState, levels: Levels } {
+    // Clone candles to avoid mutating react state
+    const candles = [...technicals.candles.map(c => ({...c}))];
+    if (candles.length === 0) throw new Error("No candles");
+    
+    // Override the latest candle's close price
+    candles[candles.length - 1].close = livePrice;
+    if (livePrice > candles[candles.length - 1].high) candles[candles.length - 1].high = livePrice;
+    if (livePrice < candles[candles.length - 1].low) candles[candles.length - 1].low = livePrice;
+
+    const closes = candles.map(c => c.close);
+    const e9 = MathLib.ema(closes, 9);
+    const e21 = MathLib.ema(closes, 21);
+    const e50 = MathLib.ema(closes, 50);
+    const vwaps = MathLib.vwapFromCandles(candles);
+    const rsiVals = MathLib.rsi(closes, 14);
+    const atrVals = MathLib.atr(candles, 14);
+    const avgVols = MathLib.rollingAvgVolume(candles, 20);
+
+    const states = MathLib.deriveStates(candles, e9, e21, e50, vwaps, rsiVals, atrVals, avgVols);
+    const { supportZones, resistanceZones } = MathLib.computeSupportResistance(candles);
+
+    const timeframe = technicals.granularity;
+    const sessionLen = timeframe === '1h' ? 24 : 6;
+    const sessionCandles = candles.slice(-sessionLen);
+    const sessionHigh = Math.max(...sessionCandles.map(c => c.high));
+    const sessionLow = Math.min(...sessionCandles.map(c => c.low));
+    const fibs = MathLib.fibonacciLevels(sessionHigh, sessionLow);
+
+    let rsiCurrent: number | null = null;
+    for (let i = rsiVals.length - 1; i >= 0; i--) {if (rsiVals[i] !== null) { rsiCurrent = rsiVals[i]; break; }}
+
+    const score = MathLib.computeConfluenceScore(states, sentimentRegime, supportZones, livePrice, rsiCurrent);
+    const setup = MathLib.generateSetupCallout(states, supportZones, resistanceZones, score, livePrice);
+
+    const marketState: MarketState = {
+        ts: new Date().toISOString(),
+        price: livePrice,
+        market_regime: states.market_regime,
+        trend_bias: states.trend_bias,
+        ema_alignment: states.ema_alignment,
+        price_vs_vwap: states.price_vs_vwap,
+        volume_regime: states.volume_regime,
+        sentiment_regime: sentimentRegime,
+        confluence_score: score,
+        confluence_label: MathLib.confluenceLabel(score),
+        indicators: states.indicators,
+        setup: setup,
+        divergence: undefined // Skip divergence for real-time strict ticks, keep UI stable
+    };
+
+    const levels: Levels = {
+        ts: new Date().toISOString(),
+        current_price: livePrice,
+        session_high: sessionHigh,
+        session_low: sessionLow,
+        support_zones: supportZones,
+        resistance_zones: resistanceZones,
+        fibonacci_levels: fibs.map(f => ({ label: f.label, price: f.price }))
+    };
+
+    return { marketState, levels };
+}
