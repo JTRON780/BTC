@@ -1,9 +1,14 @@
 {
-  "ts": "2026-03-15T07:38:23.477534Z",
-  "current_price": 71500.43,
+  "ts": "2026-03-15T08:24:28.080560Z",
+  "current_price": 71645.11,
   "session_high": 71802.0,
   "session_low": 70372.99,
   "support_zones": [
+    {
+      "low": 71251.74,
+      "high": 71537.32,
+      "strength": 0.6
+    },
     {
       "low": 70236.64,
       "high": 70869.03,
