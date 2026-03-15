@@ -1,6 +1,6 @@
 {
-  "ts": "2026-03-15T14:20:49.232073Z",
-  "price": 71506.0,
+  "ts": "2026-03-15T15:19:27.682684Z",
+  "price": 71548.76,
   "market_regime": "trend_up",
   "trend_bias": "bullish",
   "ema_alignment": "bullish",
@@ -10,12 +10,12 @@
   "confluence_score": 69,
   "confluence_label": "favorable",
   "indicators": {
-    "ema9": 71589.97,
-    "ema21": 71402.18,
-    "ema50": 71163.18,
-    "vwap": 71451.97,
-    "rsi14": 55.05,
-    "atr14": 294.52
+    "ema9": 71602.12,
+    "ema21": 71426.03,
+    "ema50": 71182.96,
+    "vwap": 71457.77,
+    "rsi14": 56.02,
+    "atr14": 291.11
   },
   "setup": {
     "bias": "Bullish",
@@ -27,8 +27,8 @@
   },
   "divergence": {
     "type": "price_up_sentiment_down",
-    "price_change_24h_pct": 1.26,
-    "sentiment_change_24h": -0.0734,
+    "price_change_24h_pct": 1.35,
+    "sentiment_change_24h": -0.0599,
     "volume_confirming": false,
     "headline": "Price rising while sentiment cools",
     "detail": "BTC gained +1.3% in 24h but sentiment has softened. Rallies without sentiment support tend to be fragile \u2014 watch for distribution.",
