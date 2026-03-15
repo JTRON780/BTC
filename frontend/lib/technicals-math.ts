@@ -341,29 +341,25 @@ export function deriveStates(
 
 export function computeConfluenceScore(
     states: ReturnType<typeof deriveStates>,
-    sentimentRegime: string,
     supportZones: PriceLevel[],
     currentPrice: number,
     rsiVal: number | null
 ): number {
     let score = 0;
 
-    if (sentimentRegime === "positive" || sentimentRegime === "strongly_positive") {
-        score += 15;
-    } else if (sentimentRegime === "neutral") {
-        score += 7;
-    }
-
+    // VWAP (20 pts max)
     if (states.price_vs_vwap === "above") {
-        score += 15;
+        score += 20;
     } else if (states.price_vs_vwap === "near") {
-        score += 7;
+        score += 10;
     }
 
+    // EMA Cross (20 pts max)
     const { ema9, ema21, ema50 } = states.indicators;
     if (ema9 !== null && ema21 !== null && ema9 > ema21) {
-        score += 15;
+        score += 20;
     }
+    // EMA Trend (10 pts max)
     if (ema21 !== null && ema50 !== null && ema21 > ema50) {
         score += 10;
     }
@@ -374,11 +370,12 @@ export function computeConfluenceScore(
         score += 7;
     }
 
+    // RSI (15 pts max)
     if (rsiVal !== null) {
         if (rsiVal > 30 && rsiVal < 70) {
-            score += 10;
+            score += 15;
         } else if (rsiVal >= 25 && rsiVal <= 75) {
-            score += 5;
+            score += 7;
         }
     }
 
@@ -473,91 +470,4 @@ export function generateSetupCallout(
     };
 }
 
-export function computeDivergence(
-    candles: Candle[],
-    sentimentData: any[]
-) {
-    if (candles.length < 25) return null;
 
-    const priceNow = candles[candles.length - 1].close;
-    const price24hAgo = candles[candles.length - 25].close;
-    const priceChgPct = ((priceNow - price24hAgo) / price24hAgo) * 100;
-    
-    const priceUp = priceChgPct > 0.5;
-    const priceDown = priceChgPct < -0.5;
-
-    let sentNow: number | null = null;
-    let sent24h: number | null = null;
-    
-    if (sentimentData && sentimentData.length > 0) {
-        sentNow = sentimentData[sentimentData.length - 1]?.smoothed ?? 0;
-        if (sentimentData.length >= 2) {
-            sent24h = sentimentData[sentimentData.length - 2]?.smoothed ?? 0;
-        }
-    }
-
-    const sentChg = (sentNow !== null && sent24h !== null) ? (sentNow - sent24h) : null;
-    const sentUp = sentChg !== null && sentChg > 0.02;
-    const sentDown = sentChg !== null && sentChg < -0.02;
-
-    const recentVols = candles.slice(-24).map(c => c.volume);
-    const priorVols = candles.slice(-48, -24).map(c => c.volume);
-    
-    const avgRecent = recentVols.length ? recentVols.reduce((a, b) => a + b, 0) / recentVols.length : 0;
-    const avgPrior = priorVols.length ? priorVols.reduce((a, b) => a + b, 0) / priorVols.length : 1;
-    
-    const volConfirming = avgRecent > avgPrior * 1.1;
-
-    let divType = "none";
-    let headline = "No clear divergence";
-    let detail = "Price and sentiment are moving in tandem or within normal ranges.";
-    let signal: 'bullish' | 'bearish' | 'neutral' = "neutral";
-
-    if (priceUp && sentDown) {
-        divType = "price_up_sentiment_down";
-        headline = "Price rising while sentiment cools";
-        detail = `BTC gained ${priceChgPct.toFixed(1)}% in 24h but sentiment has softened. Rallies without sentiment support tend to be fragile — watch for distribution.`;
-        signal = "bearish";
-    } else if (priceDown && sentUp) {
-        divType = "price_down_sentiment_up";
-        headline = "Sentiment improving while price dips";
-        detail = `BTC is down ${Math.abs(priceChgPct).toFixed(1)}% but crowd sentiment is turning positive. This can precede a reversal — possible seller exhaustion.`;
-        signal = "bullish";
-    } else if (priceUp && sentUp) {
-        if (!volConfirming) {
-            divType = "confluence_low_volume";
-            headline = "Price and sentiment both rising — volume not confirming";
-            detail = `Both price (+${priceChgPct.toFixed(1)}%) and sentiment are up, but volume is below average. The rally lacks heavy accumulation.`;
-            signal = "neutral";
-        } else {
-            divType = "bullish_confluence";
-            headline = "Strong bullish confluence";
-            detail = `Price (+${priceChgPct.toFixed(1)}%), sentiment, and volume are all trending up together. Strong momentum.`;
-            signal = "bullish";
-        }
-    } else if (priceDown && sentDown) {
-        if (!volConfirming) {
-            divType = "bearish_low_volume";
-            headline = "Drifting lower on light volume";
-            detail = `Price (${priceChgPct.toFixed(1)}%) and sentiment are down, but selling pressure (volume) is light. Potential for a bounce if buyers return.`;
-            signal = "neutral";
-        } else {
-            divType = "bearish_confluence";
-            headline = "Strong bearish confluence";
-            detail = `Price (${priceChgPct.toFixed(1)}%) and sentiment are dropping on elevated volume. Sellers are in control.`;
-            signal = "bearish";
-        }
-    } else {
-        return null;
-    }
-
-    return {
-        type: divType,
-        price_change_24h_pct: priceChgPct,
-        sentiment_change_24h: sentChg,
-        volume_confirming: volConfirming,
-        headline,
-        detail,
-        signal
-    };
-}

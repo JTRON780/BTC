@@ -182,33 +182,7 @@ export async function fetchLiveCandles(granularity: '1h' | '4h', limit: number):
     return candles;
 }
 
-/**
- * Fetch daily sentiment data from static site
- */
-export async function fetchStaticSentiment() {
-    try {
-        const res = await fetch(`${API_BASE_URL}/sentiment_daily.json`, { cache: 'no-store' });
-        if (res.ok) {
-            return await res.json();
-        }
-    } catch (e) {
-        console.warn("Could not fetch sentiment", e);
-    }
-    return { data: [] };
-}
 
-function getSentimentRegime(sentimentData: any): string {
-    const pts = sentimentData?.data || [];
-    if (pts.length > 0) {
-        const last = pts[pts.length - 1];
-        const smoothed = last.smoothed || 0;
-        if (smoothed >= 0.25) return "strongly_positive";
-        if (smoothed >= 0.05) return "positive";
-        if (smoothed <= -0.25) return "strongly_negative";
-        if (smoothed <= -0.05) return "negative";
-    }
-    return "neutral";
-}
 
 /**
  * Compute the live market state directly on the client
@@ -218,11 +192,10 @@ export async function computeLiveMarketState(timeframe: '1h' | '4h' = '1h'): Pro
     technicals: TechnicalsResponse;
     levels: Levels;
 }> {
-    // 1. Fetch live candles & static sentiment
+    // 1. Fetch live candles
     const limit = timeframe === '1h' ? 168 : 90; // 7 days of 1h, ~15 days of 4h
-    const [candles, sentiment] = await Promise.all([
-        fetchLiveCandles(timeframe, limit),
-        fetchStaticSentiment()
+    const [candles] = await Promise.all([
+        fetchLiveCandles(timeframe, limit)
     ]);
 
     if (candles.length === 0) {
@@ -279,22 +252,8 @@ export async function computeLiveMarketState(timeframe: '1h' | '4h' = '1h'): Pro
         }
     }
 
-    const sentimentRegime = getSentimentRegime(sentiment);
-    const score = MathLib.computeConfluenceScore(states, sentimentRegime, supportZones, currentPrice, rsiCurrent);
+    const score = MathLib.computeConfluenceScore(states, supportZones, currentPrice, rsiCurrent);
     const setup = MathLib.generateSetupCallout(states, supportZones, resistanceZones, score, currentPrice);
-    
-    // Div is only computed exactly if we have 1h candles
-    let divergence = null;
-    if (timeframe === '1h') {
-        const divObj = MathLib.computeDivergence(candles, sentiment?.data || []);
-        if (divObj) {
-            // Re-map the signal cast from the untyped return
-            divergence = {
-                ...divObj,
-                signal: divObj.signal as 'bullish' | 'bearish' | 'neutral'
-            };
-        }
-    }
 
     const marketState: MarketState = {
         ts: new Date().toISOString(),
@@ -304,12 +263,10 @@ export async function computeLiveMarketState(timeframe: '1h' | '4h' = '1h'): Pro
         ema_alignment: states.ema_alignment,
         price_vs_vwap: states.price_vs_vwap,
         volume_regime: states.volume_regime,
-        sentiment_regime: sentimentRegime,
         confluence_score: score,
         confluence_label: MathLib.confluenceLabel(score),
         indicators: states.indicators,
-        setup: setup,
-        divergence: divergence ? divergence : undefined
+        setup: setup
     };
 
     const levels: Levels = {
@@ -333,7 +290,6 @@ export async function computeLiveMarketState(timeframe: '1h' | '4h' = '1h'): Pro
  */
 export function reevaluateWithLiveTick(
     technicals: TechnicalsResponse,
-    sentimentRegime: string,
     livePrice: number
 ): { marketState: MarketState, levels: Levels } {
     // Clone candles to avoid mutating react state
@@ -367,7 +323,7 @@ export function reevaluateWithLiveTick(
     let rsiCurrent: number | null = null;
     for (let i = rsiVals.length - 1; i >= 0; i--) {if (rsiVals[i] !== null) { rsiCurrent = rsiVals[i]; break; }}
 
-    const score = MathLib.computeConfluenceScore(states, sentimentRegime, supportZones, livePrice, rsiCurrent);
+    const score = MathLib.computeConfluenceScore(states, supportZones, livePrice, rsiCurrent);
     const setup = MathLib.generateSetupCallout(states, supportZones, resistanceZones, score, livePrice);
 
     const marketState: MarketState = {
@@ -378,12 +334,10 @@ export function reevaluateWithLiveTick(
         ema_alignment: states.ema_alignment,
         price_vs_vwap: states.price_vs_vwap,
         volume_regime: states.volume_regime,
-        sentiment_regime: sentimentRegime,
         confluence_score: score,
         confluence_label: MathLib.confluenceLabel(score),
         indicators: states.indicators,
-        setup: setup,
-        divergence: undefined // Skip divergence for real-time strict ticks, keep UI stable
+        setup: setup
     };
 
     const levels: Levels = {

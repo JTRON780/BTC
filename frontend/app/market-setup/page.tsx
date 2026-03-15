@@ -8,7 +8,6 @@ import { TechnicalChart } from '@/components/market/TechnicalChart';
 import { ConfluenceMeter } from '@/components/market/ConfluenceMeter';
 import { SupportResistanceCard } from '@/components/market/SupportResistanceCard';
 import { SetupCallout } from '@/components/market/SetupCallout';
-import { SentimentDivergenceCard } from '@/components/market/SentimentDivergenceCard';
 import { RefreshCw, Wifi, WifiOff } from 'lucide-react';
 
 type Timeframe = '1h' | '4h';
@@ -79,11 +78,9 @@ export default function MarketSetupPage() {
                                 try {
                                     const { marketState: newMs, levels: newLvl } = reevaluateWithLiveTick(
                                         prevTech,
-                                        prevMs.sentiment_regime,
                                         price
                                     );
                                     setLevels(newLvl);
-                                    // Preserve divergence from the main fetch, as live tick doesn't recalculate it
                                     return prevTech; // We don't mutate state here, just return it
                                 } catch (e) {
                                     return prevTech;
@@ -95,10 +92,8 @@ export default function MarketSetupPage() {
                                 if (!technicals) return prevMs;
                                 const { marketState: newMs } = reevaluateWithLiveTick(
                                     technicals,
-                                    prevMs.sentiment_regime,
                                     price
                                 );
-                                newMs.divergence = prevMs.divergence;
                                 return newMs;
                             } catch (e) {
                                 return prevMs;
@@ -258,13 +253,6 @@ export default function MarketSetupPage() {
                                 />
                             )}
 
-                            {/* Sentiment divergence */}
-                            {marketState.divergence && (
-                                <SentimentDivergenceCard
-                                    divergence={marketState.divergence}
-                                    sentimentRegime={marketState.sentiment_regime}
-                                />
-                            )}
 
                             {/* Indicator table */}
                             <div className="rounded-xl border border-white/10 bg-white/5 p-5">

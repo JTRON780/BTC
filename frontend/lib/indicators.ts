@@ -27,7 +27,6 @@ export interface MarketState {
     ema_alignment: string;
     price_vs_vwap: string;
     volume_regime: string;
-    sentiment_regime: string;
     confluence_score: number;
     confluence_label: string;
     indicators: {
@@ -39,7 +38,6 @@ export interface MarketState {
         atr14: number | null;
     };
     setup: SetupCallout;
-    divergence?: Divergence;
 }
 
 export interface SetupCallout {

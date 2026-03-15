@@ -9,33 +9,29 @@ interface ConfluenceMeterProps {
         price_vs_vwap: string;
         ema_alignment: string;
         volume_regime: string;
-        sentiment_regime: string;
         indicators: { rsi14: number | null };
     };
 }
 
 const signals = [
-    { key: 'sentiment', label: 'Sentiment', maxPts: 15 },
-    { key: 'vwap', label: 'Price vs VWAP', maxPts: 15 },
-    { key: 'ema_cross', label: 'EMA 9 > 21', maxPts: 15 },
+    { key: 'vwap', label: 'Price vs VWAP', maxPts: 20 },
+    { key: 'ema_cross', label: 'EMA 9 > 21', maxPts: 20 },
     { key: 'ema_trend', label: 'EMA 21 > 50', maxPts: 10 },
     { key: 'volume', label: 'Volume', maxPts: 15 },
-    { key: 'rsi', label: 'RSI Neutral Zone', maxPts: 10 },
+    { key: 'rsi', label: 'RSI Neutral Zone', maxPts: 15 },
     { key: 'support', label: 'Near Support', maxPts: 20 },
 ];
 
 function computeSignalPoints(state: ConfluenceMeterProps['state']): Record<string, number> {
     const pts: Record<string, number> = {};
-    const { price_vs_vwap, ema_alignment, volume_regime, sentiment_regime, indicators } = state;
+    const { price_vs_vwap, ema_alignment, volume_regime, indicators } = state;
 
-    pts['sentiment'] = ['positive', 'strongly_positive'].includes(sentiment_regime)
-        ? 15 : sentiment_regime === 'neutral' ? 7 : 0;
-    pts['vwap'] = price_vs_vwap === 'above' ? 15 : price_vs_vwap === 'near' ? 7 : 0;
-    pts['ema_cross'] = ['bullish', 'mixed_bullish'].includes(ema_alignment) ? 15 : 0;
+    pts['vwap'] = price_vs_vwap === 'above' ? 20 : price_vs_vwap === 'near' ? 10 : 0;
+    pts['ema_cross'] = ['bullish', 'mixed_bullish'].includes(ema_alignment) ? 20 : 0;
     pts['ema_trend'] = ema_alignment === 'bullish' ? 10 : 0;
     pts['volume'] = volume_regime === 'elevated' ? 15 : volume_regime === 'normal' ? 7 : 0;
     const rsi = indicators.rsi14;
-    pts['rsi'] = rsi != null ? (rsi > 30 && rsi < 70 ? 10 : rsi > 25 && rsi < 75 ? 5 : 0) : 0;
+    pts['rsi'] = rsi != null ? (rsi > 30 && rsi < 70 ? 15 : rsi >= 25 && rsi <= 75 ? 7 : 0) : 0;
     // Support proximity — use remaining score gap
     pts['support'] = 0; // filled by backend; shown as 0 when unknown
 
