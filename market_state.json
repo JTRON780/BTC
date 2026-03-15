@@ -1,6 +1,6 @@
 {
-  "ts": "2026-03-15T11:16:24.936786Z",
-  "price": 71765.99,
+  "ts": "2026-03-15T12:25:39.324282Z",
+  "price": 71707.94,
   "market_regime": "trend_up",
   "trend_bias": "bullish",
   "ema_alignment": "bullish",
@@ -10,12 +10,12 @@
   "confluence_score": 77,
   "confluence_label": "favorable",
   "indicators": {
-    "ema9": 71589.56,
-    "ema21": 71336.2,
-    "ema50": 71107.59,
-    "vwap": 71408.41,
-    "rsi14": 64.66,
-    "atr14": 286.85
+    "ema9": 71627.8,
+    "ema21": 71377.52,
+    "ema50": 71134.21,
+    "vwap": 71432.09,
+    "rsi14": 61.51,
+    "atr14": 288.4
   },
   "setup": {
     "bias": "Bullish",
@@ -26,12 +26,12 @@
     "confluence_label": "favorable"
   },
   "divergence": {
-    "type": "neutral",
-    "price_change_24h_pct": 1.43,
-    "sentiment_change_24h": -0.0051,
+    "type": "price_up_sentiment_down",
+    "price_change_24h_pct": 1.31,
+    "sentiment_change_24h": -0.0235,
     "volume_confirming": false,
-    "headline": "No notable divergence",
-    "detail": "Price action and sentiment are moving broadly in line. No meaningful divergence to act on at this time.",
-    "signal": "neutral"
+    "headline": "Price rising while sentiment cools",
+    "detail": "BTC gained +1.3% in 24h but sentiment has softened. Rallies without sentiment support tend to be fragile \u2014 watch for distribution.",
+    "signal": "bearish"
   }
 }
