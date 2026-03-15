@@ -647,6 +647,7 @@ def run_technicals(output_dir: str = "api-output") -> None:
             "confluence_label": confluence_label(score),
             "indicators": states["indicators"],
             "setup": setup,
+            "divergence": compute_divergence(candles_1h, output_path),
         }
 
         with open(output_path / "market_state.json", "w") as f:
@@ -720,6 +721,121 @@ def _read_sentiment_regime(output_path: Path) -> str:
     except Exception:
         pass
     return "neutral"
+
+
+def compute_divergence(
+    candles_1h: List[Dict],
+    output_path: Path,
+) -> Dict[str, Any]:
+    """
+    Detect divergence between price trend and sentiment trend over 24h.
+
+    Compares:
+      - Price: current close vs close 24 candles ago
+      - Sentiment: latest daily smoothed vs smoothed from 24h ago
+
+    Returns a divergence dict with:
+      - type: key describing the divergence case
+      - price_change_24h_pct: float
+      - sentiment_change_24h: float
+      - headline: short plain-English headline
+      - detail: expanded explanation
+      - signal: 'bullish' | 'bearish' | 'neutral'
+    """
+    # --- Price 24h change ---
+    price_now = candles_1h[-1]["close"]
+    price_24h_ago = candles_1h[-25]["close"] if len(candles_1h) >= 25 else candles_1h[0]["close"]
+    price_chg_pct = ((price_now - price_24h_ago) / price_24h_ago) * 100
+    price_up = price_chg_pct > 0.5    # >0.5% move counts as up
+    price_down = price_chg_pct < -0.5  # <-0.5% move counts as down
+
+    # --- Sentiment 24h change ---
+    sent_now: Optional[float] = None
+    sent_24h: Optional[float] = None
+    try:
+        sentiment_file = output_path / "sentiment_daily.json"
+        if sentiment_file.exists():
+            with open(sentiment_file) as f:
+                data = json.load(f)
+            pts = data.get("data", [])
+            if len(pts) >= 1:
+                sent_now = pts[-1].get("smoothed", 0)
+            if len(pts) >= 2:
+                sent_24h = pts[-2].get("smoothed", 0)
+    except Exception:
+        pass
+
+    sent_chg = (sent_now - sent_24h) if (sent_now is not None and sent_24h is not None) else None
+    sent_up = sent_chg is not None and sent_chg > 0.02
+    sent_down = sent_chg is not None and sent_chg < -0.02
+
+    # --- Volume context ---
+    recent_vols = [c["volume"] for c in candles_1h[-24:]]
+    prior_vols = [c["volume"] for c in candles_1h[-48:-24]]
+    avg_recent = sum(recent_vols) / len(recent_vols) if recent_vols else 0
+    avg_prior = sum(prior_vols) / len(prior_vols) if prior_vols else 1
+    vol_confirming = avg_recent > avg_prior * 1.1
+
+    # --- Classify divergence type ---
+    if price_up and sent_down:
+        div_type = "price_up_sentiment_down"
+        headline = "Price rising while sentiment cools"
+        detail = (
+            f"BTC gained {price_chg_pct:+.1f}% in 24h but sentiment has softened. "
+            "Rallies without sentiment support tend to be fragile — watch for distribution."
+        )
+        signal = "bearish"
+    elif price_down and sent_up:
+        div_type = "price_down_sentiment_up"
+        headline = "Sentiment improving while price dips"
+        detail = (
+            f"BTC is down {abs(price_chg_pct):.1f}% but crowd sentiment is turning positive. "
+            "This can precede a reversal — possible seller exhaustion."
+        )
+        signal = "bullish"
+    elif price_up and sent_up:
+        if not vol_confirming:
+            div_type = "confluence_low_volume"
+            headline = "Price and sentiment both rising — volume not confirming"
+            detail = (
+                f"BTC gained {price_chg_pct:+.1f}% and sentiment improved, but volume is below average. "
+                "A low-volume rally can reverse quickly on any negative catalyst."
+            )
+            signal = "neutral"
+        else:
+            div_type = "full_confluence"
+            headline = "Confluence: price, sentiment, and volume aligned bullish"
+            detail = (
+                f"BTC gained {price_chg_pct:+.1f}%, sentiment improved, and volume is confirming the move. "
+                "This is the highest-quality setup — all three factors aligned."
+            )
+            signal = "bullish"
+    elif price_down and sent_down:
+        div_type = "bearish_confluence"
+        headline = "Price and sentiment both weakening"
+        detail = (
+            f"BTC fell {abs(price_chg_pct):.1f}% and sentiment deteriorated. "
+            "Both factors aligned bearish — high probability of continued weakness."
+        )
+        signal = "bearish"
+    else:
+        div_type = "neutral"
+        headline = "No notable divergence"
+        detail = (
+            "Price action and sentiment are moving broadly in line. "
+            "No meaningful divergence to act on at this time."
+        )
+        signal = "neutral"
+
+    return {
+        "type": div_type,
+        "price_change_24h_pct": round(price_chg_pct, 2),
+        "sentiment_change_24h": round(sent_chg, 4) if sent_chg is not None else None,
+        "volume_confirming": vol_confirming,
+        "headline": headline,
+        "detail": detail,
+        "signal": signal,
+    }
 
 
 def main():

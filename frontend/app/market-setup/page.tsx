@@ -8,6 +8,7 @@ import { TechnicalChart } from '@/components/market/TechnicalChart';
 import { ConfluenceMeter } from '@/components/market/ConfluenceMeter';
 import { SupportResistanceCard } from '@/components/market/SupportResistanceCard';
 import { SetupCallout } from '@/components/market/SetupCallout';
+import { SentimentDivergenceCard } from '@/components/market/SentimentDivergenceCard';
 import { RefreshCw, Wifi, WifiOff } from 'lucide-react';
 
 type Timeframe = '1h' | '4h';
@@ -212,7 +213,7 @@ export default function MarketSetupPage() {
                         </div>
 
                         {/* Bottom row */}
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                             {/* S/R levels */}
                             {levels && (
                                 <SupportResistanceCard
@@ -222,6 +223,14 @@ export default function MarketSetupPage() {
                                     fibLevels={levels.fibonacci_levels}
                                     sessionHigh={levels.session_high}
                                     sessionLow={levels.session_low}
+                                />
+                            )}
+
+                            {/* Sentiment divergence */}
+                            {marketState.divergence && (
+                                <SentimentDivergenceCard
+                                    divergence={marketState.divergence}
+                                    sentimentRegime={marketState.sentiment_regime}
                                 />
                             )}
 

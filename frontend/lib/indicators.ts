@@ -39,6 +39,7 @@ export interface MarketState {
         atr14: number | null;
     };
     setup: SetupCallout;
+    divergence?: Divergence;
 }
 
 export interface SetupCallout {
@@ -48,6 +49,16 @@ export interface SetupCallout {
     take_profit_zone: string | null;
     summary: string;
     confluence_label: string;
+}
+
+export interface Divergence {
+    type: string;
+    price_change_24h_pct: number;
+    sentiment_change_24h: number | null;
+    volume_confirming: boolean;
+    headline: string;
+    detail: string;
+    signal: 'bullish' | 'bearish' | 'neutral';
 }
 
 export interface PriceLevel {
