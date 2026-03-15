@@ -1,0 +1,37 @@
+{
+  "ts": "2026-03-15T03:27:39.999164Z",
+  "price": 71349.49,
+  "market_regime": "trend_up",
+  "trend_bias": "bullish",
+  "ema_alignment": "bullish",
+  "price_vs_vwap": "near",
+  "volume_regime": "normal",
+  "sentiment_regime": "positive",
+  "confluence_score": 84,
+  "confluence_label": "strong",
+  "indicators": {
+    "ema9": 71077.03,
+    "ema21": 70962.45,
+    "ema50": 70905.84,
+    "vwap": 71171.87,
+    "rsi14": 59.01,
+    "atr14": 324.18
+  },
+  "setup": {
+    "bias": "Bullish",
+    "long_zone": "$70,148\u2013$71,098",
+    "invalidation": "Below $69,447",
+    "take_profit_zone": "$72,132\u2013$72,570",
+    "summary": "BTC is near VWAP. EMA alignment is bullish. volume is average.",
+    "confluence_label": "strong"
+  },
+  "divergence": {
+    "type": "neutral",
+    "price_change_24h_pct": 0.37,
+    "sentiment_change_24h": 0.0401,
+    "volume_confirming": false,
+    "headline": "No notable divergence",
+    "detail": "Price action and sentiment are moving broadly in line. No meaningful divergence to act on at this time.",
+    "signal": "neutral"
+  }
+}
