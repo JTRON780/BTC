@@ -197,6 +197,27 @@ def rolling_avg_volume(candles: List[Dict], period: int = 20) -> List[Optional[f
         result[i] = sum(volumes[i - period + 1: i + 1]) / period
     return result
 
+def rolling_mean(values: List[float], period: int) -> List[Optional[float]]:
+    """SMA of any series."""
+    result: List[Optional[float]] = [None] * len(values)
+    for i in range(period - 1, len(values)):
+        result[i] = sum(values[i - period + 1: i + 1]) / period
+    return result
+
+def rolling_high(highs: List[float], period: int) -> List[Optional[float]]:
+    """Rolling maximum."""
+    result: List[Optional[float]] = [None] * len(highs)
+    for i in range(period - 1, len(highs)):
+        result[i] = max(highs[i - period + 1: i + 1])
+    return result
+
+def rolling_low(lows: List[float], period: int) -> List[Optional[float]]:
+    """Rolling minimum."""
+    result: List[Optional[float]] = [None] * len(lows)
+    for i in range(period - 1, len(lows)):
+        result[i] = min(lows[i - period + 1: i + 1])
+    return result
+
 
 def compute_support_resistance(candles: List[Dict], lookback: int = 48) -> Tuple[List, List]:
     """
@@ -431,6 +452,98 @@ def confluence_label(score: int) -> str:
         return "strong"
 
 
+def compute_entry_quality(
+    candles: List[Dict],
+    states: Dict[str, Any],
+    confluence_score: int
+) -> Dict[str, Any]:
+    """Calculate entry quality metrics matching the frontend logic."""
+    closes = [c["close"] for c in candles]
+    highs = [c["high"] for c in candles]
+    lows = [c["low"] for c in candles]
+    
+    eq = {
+        "label": "Neutral",
+        "range_position_7d": None,
+        "range_position_14d": None,
+        "price_vs_7d_mean": None,
+        "price_vs_14d_mean": None,
+        "distance_to_3d_high": None,
+        "distance_to_7d_high": None
+    }
+    
+    if not candles:
+        return eq
+        
+    current_price = closes[-1]
+    
+    # Estimate bars per day
+    bars_per_day = 24
+    if len(candles) > 1:
+        diff_s = candles[1]["ts"] - candles[0]["ts"]
+        if diff_s > 0:
+            bars_per_day = round(86400 / diff_s)
+            
+    p3d = bars_per_day * 3
+    p7d = bars_per_day * 7
+    p14d = bars_per_day * 14
+    
+    c7d = candles[-p7d:] if len(candles) >= p7d else candles
+    c14d = candles[-p14d:] if len(candles) >= p14d else candles
+    c3d = candles[-p3d:] if len(candles) >= p3d else candles
+    
+    if c7d:
+        h7 = max(c["high"] for c in c7d)
+        l7 = min(c["low"] for c in c7d)
+        eq["range_position_7d"] = (current_price - l7) / (h7 - l7) if h7 > l7 else 0.5
+        mean7 = sum(c["close"] for c in c7d) / len(c7d)
+        eq["price_vs_7d_mean"] = (current_price - mean7) / mean7
+        eq["distance_to_7d_high"] = (current_price - h7) / h7
+        
+    if c14d:
+        h14 = max(c["high"] for c in c14d)
+        l14 = min(c["low"] for c in c14d)
+        eq["range_position_14d"] = (current_price - l14) / (h14 - l14) if h14 > l14 else 0.5
+        mean14 = sum(c["close"] for c in c14d) / len(c14d)
+        eq["price_vs_14d_mean"] = (current_price - mean14) / mean14
+        
+    if c3d:
+        h3 = max(c["high"] for c in c3d)
+        eq["distance_to_3d_high"] = (current_price - h3) / h3
+        
+    rp7 = eq["range_position_7d"] or 0.5
+    rp14 = eq["range_position_14d"] or 0.5
+    pm7 = eq["price_vs_7d_mean"] or 0.0
+    d3h = eq["distance_to_3d_high"] or 0.0
+    d7h = eq["distance_to_7d_high"] or 0.0
+    
+    ema_bullish = states["ema_alignment"] in ("bullish", "mixed_bullish")
+    ema_neutral_or_bull = ema_bullish or states["ema_alignment"] == "unknown"
+    above_vwap = states["price_vs_vwap"] == "above"
+    
+    if (
+        ema_neutral_or_bull and
+        -0.03 < pm7 < -0.01 and 
+        rp14 <= 0.25 and 
+        confluence_score >= 40
+    ):
+        eq["label"] = "Attractive Long"
+        states["trend_bias"] = "Bullish Pullback"
+    elif (
+        ema_bullish and
+        above_vwap and
+        rp7 >= 0.85 and
+        (abs(d3h) <= 0.01 or abs(d7h) <= 0.01)
+    ):
+        eq["label"] = "Chase Risk"
+    elif rp7 > 0.75:
+        eq["label"] = "Weak Long" if ema_bullish else "Avoid"
+    elif rp7 < 0.25:
+        eq["label"] = "Attractive Long" if ema_bullish else "Neutral"
+    
+    return dict(eq)
+
+
 def generate_setup_callout(
     states: Dict[str, Any],
     support_zones: List[Dict],
@@ -625,6 +738,10 @@ def run_technicals(output_dir: str = "api-output") -> None:
             states, support_zones, resistance_zones, score, current_price
         )
 
+        entry_quality = compute_entry_quality(
+            candles_1h, states, score
+        )
+
         market_state = {
             "ts": datetime.utcnow().isoformat() + "Z",
             "price": current_price,
@@ -637,6 +754,7 @@ def run_technicals(output_dir: str = "api-output") -> None:
             "confluence_label": confluence_label(score),
             "indicators": states["indicators"],
             "setup": setup,
+            "entry_quality": entry_quality
         }
 
         with open(output_path / "market_state.json", "w") as f:
@@ -686,165 +804,3 @@ def run_technicals(output_dir: str = "api-output") -> None:
     logger.info("Technicals pipeline complete")
 
 
-def _read_sentiment_regime(output_path: Path) -> str:
-    """Read latest sentiment from existing sentiment_daily.json if present."""
-    try:
-        sentiment_file = output_path / "sentiment_daily.json"
-        if sentiment_file.exists():
-            with open(sentiment_file) as f:
-                data = json.load(f)
-            pts = data.get("data", [])
-            if pts:
-                last = pts[-1]
-                smoothed = last.get("smoothed", 0)
-                if smoothed >= 0.25:
-                    return "strongly_positive"
-                elif smoothed >= 0.05:
-                    return "positive"
-                elif smoothed <= -0.25:
-                    return "strongly_negative"
-                elif smoothed <= -0.05:
-                    return "negative"
-                else:
-                    return "neutral"
-    except Exception:
-        pass
-    return "neutral"
-
-
-def compute_divergence(
-    candles_1h: List[Dict],
-    output_path: Path,
-) -> Dict[str, Any]:
-    """
-    Detect divergence between price trend and sentiment trend over 24h.
-
-    Compares:
-      - Price: current close vs close 24 candles ago
-      - Sentiment: latest daily smoothed vs smoothed from 24h ago
-
-    Returns a divergence dict with:
-      - type: key describing the divergence case
-      - price_change_24h_pct: float
-      - sentiment_change_24h: float
-      - headline: short plain-English headline
-      - detail: expanded explanation
-      - signal: 'bullish' | 'bearish' | 'neutral'
-    """
-    # --- Price 24h change ---
-    price_now = candles_1h[-1]["close"]
-    price_24h_ago = candles_1h[-25]["close"] if len(candles_1h) >= 25 else candles_1h[0]["close"]
-    price_chg_pct = ((price_now - price_24h_ago) / price_24h_ago) * 100
-    price_up = price_chg_pct > 0.5    # >0.5% move counts as up
-    price_down = price_chg_pct < -0.5  # <-0.5% move counts as down
-
-    # --- Sentiment 24h change ---
-    sent_now: Optional[float] = None
-    sent_24h: Optional[float] = None
-    try:
-        sentiment_file = output_path / "sentiment_daily.json"
-        if sentiment_file.exists():
-            with open(sentiment_file) as f:
-                data = json.load(f)
-            pts = data.get("data", [])
-            if len(pts) >= 1:
-                sent_now = pts[-1].get("smoothed", 0)
-            if len(pts) >= 2:
-                sent_24h = pts[-2].get("smoothed", 0)
-    except Exception:
-        pass
-
-    sent_chg = (sent_now - sent_24h) if (sent_now is not None and sent_24h is not None) else None
-    sent_up = sent_chg is not None and sent_chg > 0.02
-    sent_down = sent_chg is not None and sent_chg < -0.02
-
-    # --- Volume context ---
-    recent_vols = [c["volume"] for c in candles_1h[-24:]]
-    prior_vols = [c["volume"] for c in candles_1h[-48:-24]]
-    avg_recent = sum(recent_vols) / len(recent_vols) if recent_vols else 0
-    avg_prior = sum(prior_vols) / len(prior_vols) if prior_vols else 1
-    vol_confirming = avg_recent > avg_prior * 1.1
-
-    # --- Classify divergence type ---
-    if price_up and sent_down:
-        div_type = "price_up_sentiment_down"
-        headline = "Price rising while sentiment cools"
-        detail = (
-            f"BTC gained {price_chg_pct:+.1f}% in 24h but sentiment has softened. "
-            "Rallies without sentiment support tend to be fragile — watch for distribution."
-        )
-        signal = "bearish"
-    elif price_down and sent_up:
-        div_type = "price_down_sentiment_up"
-        headline = "Sentiment improving while price dips"
-        detail = (
-            f"BTC is down {abs(price_chg_pct):.1f}% but crowd sentiment is turning positive. "
-            "This can precede a reversal — possible seller exhaustion."
-        )
-        signal = "bullish"
-    elif price_up and sent_up:
-        if not vol_confirming:
-            div_type = "confluence_low_volume"
-            headline = "Price and sentiment both rising — volume not confirming"
-            detail = (
-                f"BTC gained {price_chg_pct:+.1f}% and sentiment improved, but volume is below average. "
-                "A low-volume rally can reverse quickly on any negative catalyst."
-            )
-            signal = "neutral"
-        else:
-            div_type = "full_confluence"
-            headline = "Confluence: price, sentiment, and volume aligned bullish"
-            detail = (
-                f"BTC gained {price_chg_pct:+.1f}%, sentiment improved, and volume is confirming the move. "
-                "This is the highest-quality setup — all three factors aligned."
-            )
-            signal = "bullish"
-    elif price_down and sent_down:
-        div_type = "bearish_confluence"
-        headline = "Price and sentiment both weakening"
-        detail = (
-            f"BTC fell {abs(price_chg_pct):.1f}% and sentiment deteriorated. "
-            "Both factors aligned bearish — high probability of continued weakness."
-        )
-        signal = "bearish"
-    else:
-        div_type = "neutral"
-        headline = "No notable divergence"
-        detail = (
-            "Price action and sentiment are moving broadly in line. "
-            "No meaningful divergence to act on at this time."
-        )
-        signal = "neutral"
-
-    return {
-        "type": div_type,
-        "price_change_24h_pct": round(price_chg_pct, 2),
-        "sentiment_change_24h": round(sent_chg, 4) if sent_chg is not None else None,
-        "volume_confirming": vol_confirming,
-        "headline": headline,
-        "detail": detail,
-        "signal": signal,
-    }
-
-
-def main():
-    output_dir = sys.argv[1] if len(sys.argv) > 1 else "api-output"
-
-    print("📊 BTC Technicals Pipeline")
-    print("=" * 60)
-    print(f"Output: {output_dir}")
-    print()
-
-    try:
-        run_technicals(output_dir)
-        print()
-        print("=" * 60)
-        print("✅ Technicals pipeline complete!")
-    except Exception as e:
-        logger.error("Pipeline failed", extra={"error": str(e)})
-        print(f"\n❌ Error: {e}")
-        sys.exit(1)
-
-
-if __name__ == "__main__":
-    main()
