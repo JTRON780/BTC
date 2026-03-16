@@ -38,6 +38,17 @@ export interface MarketState {
         atr14: number | null;
     };
     setup: SetupCallout;
+    entry_quality: EntryQuality;
+}
+
+export interface EntryQuality {
+    label: 'Attractive Long' | 'Chase Risk' | 'Neutral' | 'Weak Long' | 'Avoid';
+    range_position_7d: number | null;
+    range_position_14d: number | null;
+    price_vs_7d_mean: number | null;
+    price_vs_14d_mean: number | null;
+    distance_to_3d_high: number | null;
+    distance_to_7d_high: number | null;
 }
 
 export interface SetupCallout {

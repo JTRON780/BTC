@@ -193,7 +193,7 @@ export async function computeLiveMarketState(timeframe: '1h' | '4h' = '1h'): Pro
     levels: Levels;
 }> {
     // 1. Fetch live candles
-    const limit = timeframe === '1h' ? 168 : 90; // 7 days of 1h, ~15 days of 4h
+    const limit = timeframe === '1h' ? 336 : 90; // 14 days of 1h, ~15 days of 4h
     const [candles] = await Promise.all([
         fetchLiveCandles(timeframe, limit)
     ]);
@@ -254,6 +254,7 @@ export async function computeLiveMarketState(timeframe: '1h' | '4h' = '1h'): Pro
 
     const score = MathLib.computeConfluenceScore(states, supportZones, currentPrice, rsiCurrent);
     const setup = MathLib.generateSetupCallout(states, supportZones, resistanceZones, score, currentPrice);
+    const entryQuality = MathLib.computeEntryQuality(candles, states, score);
 
     const marketState: MarketState = {
         ts: new Date().toISOString(),
@@ -266,7 +267,8 @@ export async function computeLiveMarketState(timeframe: '1h' | '4h' = '1h'): Pro
         confluence_score: score,
         confluence_label: MathLib.confluenceLabel(score),
         indicators: states.indicators,
-        setup: setup
+        setup: setup,
+        entry_quality: entryQuality
     };
 
     const levels: Levels = {
@@ -325,6 +327,7 @@ export function reevaluateWithLiveTick(
 
     const score = MathLib.computeConfluenceScore(states, supportZones, livePrice, rsiCurrent);
     const setup = MathLib.generateSetupCallout(states, supportZones, resistanceZones, score, livePrice);
+    const entryQuality = MathLib.computeEntryQuality(candles, states, score);
 
     const marketState: MarketState = {
         ts: new Date().toISOString(),
@@ -337,7 +340,8 @@ export function reevaluateWithLiveTick(
         confluence_score: score,
         confluence_label: MathLib.confluenceLabel(score),
         indicators: states.indicators,
-        setup: setup
+        setup: setup,
+        entry_quality: entryQuality
     };
 
     const levels: Levels = {

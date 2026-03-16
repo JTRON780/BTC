@@ -34,7 +34,7 @@ GRANULARITY_MAP = {
 
 # How many candles to fetch per timeframe
 CANDLE_LIMITS = {
-    "1h": 168,   # 7 days of 1h
+    "1h": 336,   # 7 days of 1h
     "4h": 90,    # ~15 days of 4h
 }
 
@@ -195,6 +195,27 @@ def rolling_avg_volume(candles: List[Dict], period: int = 20) -> List[Optional[f
     result: List[Optional[float]] = [None] * len(volumes)
     for i in range(period - 1, len(volumes)):
         result[i] = sum(volumes[i - period + 1: i + 1]) / period
+    return result
+
+def rolling_mean(values: List[float], period: int) -> List[Optional[float]]:
+    """SMA of any series."""
+    result: List[Optional[float]] = [None] * len(values)
+    for i in range(period - 1, len(values)):
+        result[i] = sum(values[i - period + 1: i + 1]) / period
+    return result
+
+def rolling_high(highs: List[float], period: int) -> List[Optional[float]]:
+    """Rolling maximum."""
+    result: List[Optional[float]] = [None] * len(highs)
+    for i in range(period - 1, len(highs)):
+        result[i] = max(highs[i - period + 1: i + 1])
+    return result
+
+def rolling_low(lows: List[float], period: int) -> List[Optional[float]]:
+    """Rolling minimum."""
+    result: List[Optional[float]] = [None] * len(lows)
+    for i in range(period - 1, len(lows)):
+        result[i] = min(lows[i - period + 1: i + 1])
     return result
 
 
@@ -431,6 +452,98 @@ def confluence_label(score: int) -> str:
         return "strong"
 
 
+def compute_entry_quality(
+    candles: List[Dict],
+    states: Dict[str, Any],
+    confluence_score: int
+) -> Dict[str, Any]:
+    """Calculate entry quality metrics matching the frontend logic."""
+    closes = [c["close"] for c in candles]
+    highs = [c["high"] for c in candles]
+    lows = [c["low"] for c in candles]
+    
+    eq = {
+        "label": "Neutral",
+        "range_position_7d": None,
+        "range_position_14d": None,
+        "price_vs_7d_mean": None,
+        "price_vs_14d_mean": None,
+        "distance_to_3d_high": None,
+        "distance_to_7d_high": None
+    }
+    
+    if not candles:
+        return eq
+        
+    current_price = closes[-1]
+    
+    # Estimate bars per day
+    bars_per_day = 24
+    if len(candles) > 1:
+        diff_s = candles[1]["ts"] - candles[0]["ts"]
+        if diff_s > 0:
+            bars_per_day = round(86400 / diff_s)
+            
+    p3d = bars_per_day * 3
+    p7d = bars_per_day * 7
+    p14d = bars_per_day * 14
+    
+    c7d = candles[-p7d:] if len(candles) >= p7d else candles
+    c14d = candles[-p14d:] if len(candles) >= p14d else candles
+    c3d = candles[-p3d:] if len(candles) >= p3d else candles
+    
+    if c7d:
+        h7 = max(c["high"] for c in c7d)
+        l7 = min(c["low"] for c in c7d)
+        eq["range_position_7d"] = (current_price - l7) / (h7 - l7) if h7 > l7 else 0.5
+        mean7 = sum(c["close"] for c in c7d) / len(c7d)
+        eq["price_vs_7d_mean"] = (current_price - mean7) / mean7
+        eq["distance_to_7d_high"] = (current_price - h7) / h7
+        
+    if c14d:
+        h14 = max(c["high"] for c in c14d)
+        l14 = min(c["low"] for c in c14d)
+        eq["range_position_14d"] = (current_price - l14) / (h14 - l14) if h14 > l14 else 0.5
+        mean14 = sum(c["close"] for c in c14d) / len(c14d)
+        eq["price_vs_14d_mean"] = (current_price - mean14) / mean14
+        
+    if c3d:
+        h3 = max(c["high"] for c in c3d)
+        eq["distance_to_3d_high"] = (current_price - h3) / h3
+        
+    rp7 = eq["range_position_7d"] or 0.5
+    rp14 = eq["range_position_14d"] or 0.5
+    pm7 = eq["price_vs_7d_mean"] or 0.0
+    d3h = eq["distance_to_3d_high"] or 0.0
+    d7h = eq["distance_to_7d_high"] or 0.0
+    
+    ema_bullish = states["ema_alignment"] in ("bullish", "mixed_bullish")
+    ema_neutral_or_bull = ema_bullish or states["ema_alignment"] == "unknown"
+    above_vwap = states["price_vs_vwap"] == "above"
+    
+    if (
+        ema_neutral_or_bull and
+        -0.03 < pm7 < -0.01 and 
+        rp14 <= 0.25 and 
+        confluence_score >= 40
+    ):
+        eq["label"] = "Attractive Long"
+        states["trend_bias"] = "Bullish Pullback"
+    elif (
+        ema_bullish and
+        above_vwap and
+        rp7 >= 0.85 and
+        (abs(d3h) <= 0.01 or abs(d7h) <= 0.01)
+    ):
+        eq["label"] = "Chase Risk"
+    elif rp7 > 0.75:
+        eq["label"] = "Weak Long" if ema_bullish else "Avoid"
+    elif rp7 < 0.25:
+        eq["label"] = "Attractive Long" if ema_bullish else "Neutral"
+    
+    return dict(eq)
+
+
 def generate_setup_callout(
     states: Dict[str, Any],
     support_zones: List[Dict],
@@ -625,6 +738,10 @@ def run_technicals(output_dir: str = "api-output") -> None:
             states, support_zones, resistance_zones, score, current_price
         )
 
+        entry_quality = compute_entry_quality(
+            candles_1h, states, score
+        )
+
         market_state = {
             "ts": datetime.utcnow().isoformat() + "Z",
             "price": current_price,
@@ -637,6 +754,7 @@ def run_technicals(output_dir: str = "api-output") -> None:
             "confluence_label": confluence_label(score),
             "indicators": states["indicators"],
             "setup": setup,
+            "entry_quality": entry_quality
         }
 
         with open(output_path / "market_state.json", "w") as f:

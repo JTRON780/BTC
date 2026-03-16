@@ -129,6 +129,42 @@ export function rollingAvgVolume(candles: Candle[], period: number = 20): (numbe
     return result;
 }
 
+export function rollingMean(values: number[], period: number): (number | null)[] {
+    const result: (number | null)[] = Array(values.length).fill(null);
+    for (let i = period - 1; i < values.length; i++) {
+        let sum = 0;
+        for (let j = 0; j < period; j++) {
+            sum += values[i - j];
+        }
+        result[i] = sum / period;
+    }
+    return result;
+}
+
+export function rollingHigh(highs: number[], period: number): (number | null)[] {
+    const result: (number | null)[] = Array(highs.length).fill(null);
+    for (let i = period - 1; i < highs.length; i++) {
+        let max = -Infinity;
+        for (let j = 0; j < period; j++) {
+            if (highs[i - j] > max) max = highs[i - j];
+        }
+        result[i] = max;
+    }
+    return result;
+}
+
+export function rollingLow(lows: number[], period: number): (number | null)[] {
+    const result: (number | null)[] = Array(lows.length).fill(null);
+    for (let i = period - 1; i < lows.length; i++) {
+        let min = Infinity;
+        for (let j = 0; j < period; j++) {
+            if (lows[i - j] < min) min = lows[i - j];
+        }
+        result[i] = min;
+    }
+    return result;
+}
+
 // ---------------------------------------------------------------------------
 // S/R and Fibonacci
 // ---------------------------------------------------------------------------
@@ -337,6 +373,126 @@ export function deriveStates(
             atr14: a !== null ? Number(a.toFixed(2)) : null,
         }
     };
+}
+
+// ---------------------------------------------------------------------------
+// Entry Quality logic
+// ---------------------------------------------------------------------------
+
+import { EntryQuality } from './indicators';
+
+export function computeEntryQuality(
+    candles: Candle[],
+    states: ReturnType<typeof deriveStates>,
+    confluenceScore: number
+): EntryQuality {
+    const closes = candles.map(c => c.close);
+    const highs = candles.map(c => c.high);
+    const lows = candles.map(c => c.low);
+    
+    // We expect 1h candles here so 7d is 168h, 14d is 336h, 3d is 72h
+    // To handle 4h candles securely, we count hours using timestamps
+    // So we pick window lengths dynamically but fallback safely if array is short
+    // For simplicity, we assume we usually have enough candles
+    
+    // Default nulls
+    const eq: EntryQuality = {
+        label: 'Neutral',
+        range_position_7d: null,
+        range_position_14d: null,
+        price_vs_7d_mean: null,
+        price_vs_14d_mean: null,
+        distance_to_3d_high: null,
+        distance_to_7d_high: null
+    };
+
+    if (candles.length === 0) return eq;
+    const currentPrice = closes[closes.length - 1];
+
+    // Detect bar timeframe size to dynamically adjust lookback length
+    let barsPerDay = 24;
+    if (candles.length > 1) {
+       const msDiff = new Date(candles[1].ts).getTime() - new Date(candles[0].ts).getTime();
+       if (msDiff > 0) barsPerDay = Math.round(86400000 / msDiff);
+    }
+    
+    const p3d = barsPerDay * 3;
+    const p7d = barsPerDay * 7;
+    const p14d = barsPerDay * 14;
+
+    function getSubArray<T>(arr: T[], len: number): T[] {
+        return arr.length >= len ? arr.slice(-len) : arr;
+    }
+
+    const c7d = getSubArray(candles, p7d);
+    const c14d = getSubArray(candles, p14d);
+    const c3d = getSubArray(candles, p3d);
+
+    if (c7d.length > 0) {
+        const h7 = Math.max(...c7d.map(c => c.high));
+        const l7 = Math.min(...c7d.map(c => c.low));
+        eq.range_position_7d = h7 > l7 ? (currentPrice - l7) / (h7 - l7) : 0.5;
+        const mean7 = c7d.reduce((s, c) => s + c.close, 0) / c7d.length;
+        eq.price_vs_7d_mean = (currentPrice - mean7) / mean7;
+        eq.distance_to_7d_high = (currentPrice - h7) / h7;
+    }
+
+    if (c14d.length > 0) {
+        const h14 = Math.max(...c14d.map(c => c.high));
+        const l14 = Math.min(...c14d.map(c => c.low));
+        eq.range_position_14d = h14 > l14 ? (currentPrice - l14) / (h14 - l14) : 0.5;
+        const mean14 = c14d.reduce((s, c) => s + c.close, 0) / c14d.length;
+        eq.price_vs_14d_mean = (currentPrice - mean14) / mean14;
+    }
+
+    if (c3d.length > 0) {
+        const h3 = Math.max(...c3d.map(c => c.high));
+        eq.distance_to_3d_high = (currentPrice - h3) / h3;
+    }
+
+    // Unpack for rules
+    const rp7 = eq.range_position_7d ?? 0.5;
+    const rp14 = eq.range_position_14d ?? 0.5;
+    const pm7 = eq.price_vs_7d_mean ?? 0;
+    const d3h = eq.distance_to_3d_high ?? 0;
+    const d7h = eq.distance_to_7d_high ?? 0;
+
+    const emaBullish = ['bullish', 'mixed_bullish'].includes(states.ema_alignment);
+    const emaNeutralOrBull = emaBullish || states.ema_alignment === 'unknown';
+    const aboveVwap = states.price_vs_vwap === 'above';
+
+    // "Good long setup" aka "Attractive Long"
+    if (
+        emaNeutralOrBull &&
+        pm7 < -0.01 && pm7 > -0.03 && // price is below 7d average by 1–3%
+        rp14 <= 0.25 &&               // current price is in bottom 25% of 14d range
+        confluenceScore >= 40         // price is near support / has some confluence floor
+    ) {
+        eq.label = 'Attractive Long';
+        // Force the bias label visually if this triggers
+        states.trend_bias = 'bullish_pullback' as any; 
+    }
+    // "Bad chase setup" aka "Poor / Extended" (Chase Risk)
+    else if (
+        emaBullish &&
+        aboveVwap &&
+        rp7 >= 0.85 &&                // current price is in top 15% of 7d range
+        (Math.abs(d3h) <= 0.01 || Math.abs(d7h) <= 0.01) // within 1% of recent local high
+    ) {
+        eq.label = 'Chase Risk';
+    }
+    // "Avoid" or "Weak Long" bucket based on range position
+    else if (rp7 > 0.75) {
+        eq.label = emaBullish ? 'Weak Long' : 'Avoid';
+    }
+    else if (rp7 < 0.25) {
+        eq.label = emaBullish ? 'Attractive Long' : 'Neutral';
+    } 
+    else {
+        eq.label = 'Neutral';
+    }
+
+    return eq;
 }
 
 export function computeConfluenceScore(

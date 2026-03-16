@@ -230,7 +230,11 @@ export default function MarketSetupPage() {
 
                             {/* Right column */}
                             <div className="space-y-5">
-                                <SetupCallout setup={marketState.setup} regime={marketState.market_regime} />
+                                <SetupCallout 
+                                    setup={marketState.setup} 
+                                    entryQuality={marketState.entry_quality}
+                                    regime={marketState.market_regime} 
+                                />
                                 <ConfluenceMeter
                                     score={marketState.confluence_score}
                                     label={marketState.confluence_label}
