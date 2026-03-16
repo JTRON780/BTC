@@ -3,28 +3,63 @@
   "positives": [
     {
       "title": "Bitcoin Gains 13% amid Iran Conflict as BTC Price Decouples from Broader Stock and Gold Market - TipRanks",
-      "polarity": 0.8801471963524818,
+      "polarity": 0.8801474347710609,
       "ts": "2026-03-16T04:18:45",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR0RpdWZoM3A2ejE5VDFTNWR2QlFWNjJERGNyQkNZVGhmY1ZrbWN2MlpEMDBuZEx6OGVEOEI0OEcyeEZCWGNXSzh0TDN5WkVCZTdWWElROE4yR3JlR2ozYnVVZlI0SS1VOHQwQWFDanMyZEVhRVExWk9yT3FOaklqNmxxUXR4ZlpjOU5KZE1NMjFUSURseGtieVdNMVRhbEgwS2c4VnBlS1prdkw1cW93cGFDcEtaTHJwdFdVMnB6YVg?oc=5"
     },
     {
       "title": "72% of subsea cables need to fail to impact Bitcoin, study shows",
-      "polarity": 0.8407681435346603,
+      "polarity": 0.8407690525054932,
       "ts": "2026-03-16T03:57:49",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/72-percent-submarine-internet-cables-will-need-to-fail-to-impact-bitcoin-study?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "title": "DEXE rides Bitcoin\u2019s $70K momentum, rallies 124% in 3 weeks - AMBCrypto",
-      "polarity": 0.8359861634671688,
+      "polarity": 0.8359861299395561,
       "ts": "2026-03-16T03:00:34",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOY1d2cWpabFl3OHd6MEdteUZLNk5fakN6eVpnQUhQQ19MZkcteE12Y2lxZW5wQjEybzVXRFNiaXd1YUJTY2hFWnBBSkU3WFNFQ3J0MFplYnNONXYySExoSVlxU1JxOVhwVmFPT2lMaDRseFJnMThpWmJUekRYQk1EbmhLMnTSAYoBQVVfeXFMUFc5UUxiUjc0UHpuNmFpQktSaHZCMTRoNnk1TzNTSVU0WWJFWWlmTmd4ejQ1d1VpU2JjV3Jld3NkRHhBbVpOUVcwTHlKcmh5ZmgtQW4tZ1dBUkNxRjMzTVhMVGFLejZYZmt0a3JsVnRQNHJYNG1BQXQzUXJzTUJvWEFTLW1KdXNFUER3?oc=5"
     },
     {
+      "title": "Bitcoin's price trades above its 50-day average as bullish move gathers pace",
+      "polarity": 0.8358053378760815,
+      "ts": "2026-03-16T04:42:12",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/03/16/bitcoin-s-price-trades-above-its-50-day-average-as-bullish-move-gathers-pace"
+    },
+    {
+      "title": "Bitcoin Price Climbs Again \u2014 Bulls Aim for New Monthly High - TradingView",
+      "polarity": 0.7786128744482994,
+      "ts": "2026-03-16T04:06:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNDdtbWl5ZlhSYWtNTHp1QThjSzZINTdwM043c3IwWDcxbUJGWk5iYjQ5SnlLelNiZXJjTEVLbzZfQmhtVUxzeFRJY25aNDBSOTFCeS1tOWI3YzhIWmFKcVp2Q0JrQlJuWm5BYUt1Z21IeGY3R0hVVlZFVDM2MzFqX19sVU5qUGthbk8wbVBocklpRFhHV1RTLW5XclhraEEzS09BM1l2b1pVOEVLWklSMXlRbU83Zw?oc=5"
+    },
+    {
+      "title": "U.S. Bitcoin Demand Turns Positive After 10 Weeks of Selling - blockhead.co",
+      "polarity": 0.7311311978846788,
+      "ts": "2026-03-16T04:36:44",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZEZzdEttYkdWWkZMVEpEanhXempxSk5EQ21NS3pnN0cyTW45MG1aTTAxaXY2bzVTRmE0MTBwa09XQ1dLc2lBTUJNa29WcUtvcjd3cXNGOUhUY0VWN2tWT3pNZnZKa3JNZDdTMkpLR1hxYlpFYUNrcFQ0dFRHY3RtYXNJSU5TYmZQMF9zSTRWZ0pxSnF4aVR5Tk5qMks?oc=5"
+    },
+    {
+      "title": "Bitcoin Climbs in Asia as Other Markets Remain Tepid - Bloomberg.com",
+      "polarity": 0.7222311347723007,
+      "ts": "2026-03-16T05:03:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZTFMdlJxWmo0c1hmXzFOOGZKYktEb3BtRkJlWElBUkVYWHBBV0JQQS03VlBaZnh4XzZnR2gtcmhCNTZHYy1UdUVNUGY3aXQtcE5kZUd3ZVZheklvZGJYci1CcFdQMXBFQnR1NmwwMktoeWNuNnl3X2daNW5lNGdiR2hoWkJvQnU4ampwU2RkRjMzRmJ0TVR6TEY5a1VISkprOU45N253?oc=5"
+    },
+    {
+      "title": "Bitcoin's price trades above its 50-day average as bullish move gathers pace - CoinDesk",
+      "polarity": 0.5274484194815159,
+      "ts": "2026-03-16T04:44:36",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdEUwaXk0TGNjcDZORGNjU2pFeGRhSHpCYVNXWlF6am1RaHJDOG1WeEIwc2p5aXZWbm1XbXhmSWo5NEJwbVBrVTBoZEJjNXhaVFViTHZGWHA4cHdmRzYwUUQ4OUdaLWpyXzBMNTB3cGRZUWpjOVNvUzhpTmR2SWw5THhzYk9PRXMyYVAzVElyeXBfYk5ZRFdYN05MODV3cFJzWTBEY3Zoa1BVUWNDODN5M0YtNDVyOFFuVjJJLQ?oc=5"
+    },
+    {
       "title": "Trump\u2019s New Coalition Plan Sends Bitcoin Surging \u2014 One Catalyst Away From a Breakout - BeInCrypto",
-      "polarity": 0.45764675736427307,
+      "polarity": 0.45764729380607605,
       "ts": "2026-03-16T04:04:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQkZBOVlQZnhFamV6WE14aEhTYlJGVldycmxKMkJidm1TTnBCRnFvekd3aVlJV0ZXS1A4ZE15NzRVdzhlY1BvNVFUZFF3TnI5NzREeFdMZmZNQ3RiVFpBQTZHR09hQzliZXJMbi02S3NLbU1UN0hSVG1JamwtSWYweURJa1RGcUlJN3ZOcVoxbDBnSFNMdUJ0aHMxZkI4dEZpUTdiNF9kWXU?oc=5"
@@ -38,7 +73,7 @@
     },
     {
       "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH and XRP extend rally as technical breakout sparks bullish momentum - FXStreet",
-      "polarity": 0.3474859148263931,
+      "polarity": 0.34748514741659164,
       "ts": "2026-03-16T03:49:05",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOYVpNSmh6bVUwc1BIb1hpYk9VX1JzUUd1R0I2b19qc3haTWJ5RWFtbXpkLVNubzdGaXVJZUJmSElES1NzU3dUdVVkZGZtSHF1VVkwdEVEVEd2US1OTHprQWppeWFhRUVjUzlybk9RWS1PWjdxcm1HaTZsb2NZNUI0UUk1ZzJWUWI4Y0ZYN3A4T2FwZk1teUpMUDgwZ1VoYm12SFJXTXJIZG1GREY1NjlvdG5YVmdIcTFNdTNyX3liRmdyWmJ4X211TURFczdZVldQZkdFdkUyTFowVmotaVl3TW1tRzFnaDR1UWhsOXdLM0JtWVptTGR0a2RXYWJxbUR5Z1hkdTNIZEJ6S3F5SVHSAZMCQVVfeXFMTnF6N3ZiZXE4U0ZjYi1TWXF6YzhsTXNENFFSRnh5U3d1Y2NOdjBndEZrbWpqRFZORXJiR3ZOdnVac2FnWlBrT3ZNRExobWZiZjFGVUJXVDRKb3NiNlJmVmtkZ2pQYm0wWWh5aHFfTkUxZnlhQjRvOFktYkJUb1NLWkFvb0l0aEdtbEJmeGxyRENjZ2owTXUyS3BacDAxeGFEUTRrTXRhNXNJNXlVYVpNaTRkTjZ5eGM4MmV2c2l6b3Ftd0dzS2llYUp6QVdROG5tQ3UtZWdjUlNScWZZZ3d3VEdpcUhjN3R6S3dwOWJmOXROMmFqNFRrNFZxSWZhdzNrV0xsUTVROUJpVVlHdlNCYllmbGc?oc=5"
@@ -49,6 +84,20 @@
       "ts": "2026-03-16T00:05:27",
       "source": "Decrypt",
       "url": "https://decrypt.co/361186/bitcoin-advances-oil-jumps-further-middle-east-strikes"
+    },
+    {
+      "title": "Bitcoin price news: BTC tops $74K, ether, solana, cardano move as much as 7% - CoinDesk",
+      "polarity": 0.22361749038100243,
+      "ts": "2026-03-16T05:16:36",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd25NazRNSlhZckNrY1g3VGtEdXI3RzBPcndFOGJpTHJ3RGNKYjFLTF80YXNHOU8wMnFtOWdWV0dRTzBzaXk1MzdTWnlLVENnRUFKSUVmdUJTR0J1N2xxRjZvMC1pMlo0WDNKbXBtdUtHTkFySTFQSWVfX1JrMjJGeUdJUm1aaU5JMW9SZ3ZQbUhwSzlpVXVDT09XcjMxNElKbFB5akpaanNmVFVGaHJzMmU1d3BPV0o4LUE?oc=5"
+    },
+    {
+      "title": "'Integrity Infrastructure' Key to Prediction Market Survival, Says Pred CEO - Bitcoin.com News",
+      "polarity": 0.18817863147705793,
+      "ts": "2026-03-16T05:42:48",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb2JybDEtQzJaOTdMY0xLOEdrcE9yS3Zob0VPYU1TQmFlZGNXRkl1OVZYNWVzWnFxcWhjeGRTN29xTU9NOXp1QVpySUZqczFTTkJtRlJJTXN2WTl3WHlSY0c1bVl0RVlmLVVLV1JndUFOSXRpQTllcDVxVHhrMHh3Nm84YmRQNXQ2VXNxUUhwZTJfY2JCYjBLRWdmSnJPMlk?oc=5"
     },
     {
       "title": "Bitcoin, Ethereum, XRP, Dogecoin Spike As Trump Vows To Keep Strait Of Hormuz Open: Analyst Wants Traders To 'Pay Attention' To This BTC Level - Benzinga",
@@ -65,43 +114,36 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQc1JpQlhicVNZUVY4eFpsLXYwYThBcHZWQWdRaDVJYWxDSFFVX2NyLUZFeXVxVklZM3ZVQWRIX1VucFRZeTgyNEszMmsxTGF2cDYtamNBd0JTdzJ0RnAzMDZ3US1Nd2xFS2lZdlVHZDREcS1RYmdBM09LTUw1MHI5RFBKX1VWLVQyVS1zZFZQQzEtTGfSAZgBQVVfeXFMT1NMOVVDVlM1R2JodTQxNkFqQ3JsM2drSk1iR2x6TzJxZUUtSWtPeV9IMGFXeHFESEw0cUJpOXhSRk0wUFBLVk1SZ09ud0tlc1YwRVFNdVZYV1drNTVjU0dmWHByZExHdFA2STA0S1BNZ1RyRjdveWM1MWMxcTZiaTFGVU1WZ3JIcEVmRW9UUDh5UEVQdzY4cTU?oc=5"
     },
     {
-      "title": "Bitcoin Posts Seven-Day Rally. Nears $74,000 Mark Again, Next Target $85,000? - TradingKey",
-      "polarity": 0.08736291527748108,
-      "ts": "2026-03-16T03:52:54",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY0NuQXBRT1NkYkE3SzF2ZDNmWlE2aHJSZTF2QW1pYkh2Q0ItS1o2UzZIWHplaEpTel9WUUZxaWdqckdvU3RjbXg3YWJaSEJwZWRhNVBSTFRXRjRxVVZ4OVdFZjJpMHh0ZXUwOWJ2SUR4MDVtVjlYLWZJNm00WjNZX1EtanlVUTBmcnZteUNWSm4ySFlNb0t6c2dHZWFtSnpnMHpKaGtwa1NsNmpmc2VBYw?oc=5"
-    },
-    {
       "title": "Top Ranked Liquidity Sources and Safe Platforms for BTT/BTTc Trading",
-      "polarity": 0.0849152784794569,
+      "polarity": 0.08491532132029533,
       "ts": "2026-03-16T03:58:52",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1ruz8rh/top_ranked_liquidity_sources_and_safe_platforms/"
     },
     {
       "title": "72% of subsea cables need to fail to impact Bitcoin, study shows - TradingView",
-      "polarity": 0.06386945024132729,
+      "polarity": 0.06386938132345676,
       "ts": "2026-03-16T03:57:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd2E2N0p4dEhNMktVNC1vUm83OEZOVW9PQUtKTFU2RnBUS0R5VGxYX0tfVUJ6eWtYVjB2ZlFIRHhCdGxBVWhTSWRWbnp3MTZMdjJNVmI3Sk1sU0p6QVkydFA1RG1ySHp6SnpZTmFPZl9FQmo5TkxEZ09uMEZ2TzE5VldXQzhONWN2aG1ES0xoazFHaGp6NkdfNFNxeV9MX0ZVNUJGMVBfem94RHdqbllCbjNNSlJfT1hwdnBnZFpjSUhGMDNL?oc=5"
     },
     {
       "title": "Bitcoin Whales Resume Buying at $71K, Santiment Reports - CoinMarketCap",
-      "polarity": 0.05900781229138374,
+      "polarity": 0.059007856994867325,
       "ts": "2026-03-16T02:50:01",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONXh4bXBzc3JqeXRpdTc1VkdoN3hxVHVtU3B3NlIyRU5wdWlrMmNpMFV5alFUeUxyZVhfQ0dsdjdnaUZmc1FLdGlGUWp2WXRVeXpCZmhCaGhlVmxsZUIzNmxtQnZDNXM4YWxZbF9GeWlPd1ZoeFpISG5xTnpIUnlwTmdld3JDSXJlN0Jqdmprd1RNdGlCZjBpWjFTRE9yYWtlOWpv?oc=5"
     },
     {
       "title": "Crypto Market Overview: Bitcoin nears $73,000 breakout \u2013 River, LayerZero, Zcash lead gains - FXStreet",
-      "polarity": 0.05258605070412159,
+      "polarity": 0.05258605256676674,
       "ts": "2026-03-16T03:37:28",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQU2ZZSG81ZHRvY1lOQm1DZVd5cGRZWUowRUl0R1ZFMjFKQU44UVVVdzVqVE5uVmxybV9vUXIxcHJBUXdKYTFmdUs0NVdHNkdWUlc5MUs2QWh3YzVnUEdvSDM1U29DUHV0Mk1nLVp1bDlxSlFXeHhNQlhPSWhvSHdqWkF1eE9SbkhTdTBKN1Q0Z1FkNHRiclJLTXNDeU0tZUw3MmlVMVJPUFNoNExLWUhqaWNWMmVIRWdQSjE2RnYxV2psZDduZmdyd1RxY19tSnBNSW9LelhSR3pabFgwbHfSAeMBQVVfeXFMUGRjSWZjeklvLU1EUTdWbXA1aHRBZzdDd3lTTG1lR3JxTkd0Mm5hWEsxQWpObmxUa3hvVnRjdTJ0R0Y3VEZpNWxlN2VSaFEwOVJCc2stNGJoZk1HUnZ2VGVUbEExYlNaUWNBM29RMHJVYXhUa2tRTVBlbkpuRm1sU2x2bVZKYjZGdzd6VVNrTzZJQkpoQ2JCb3k3ckNRenl4Wml6cmhYbzN3WkJlWDV2bVNta0dOVjFsMEtPcGFiTjVaOWhPblE0dlF4ai1XdGY1anhXUlpNQk42OG81UzJHdERBR2M?oc=5"
     },
     {
       "title": "Robert Kiyosaki Bitcoin Strategy: The Shrewd Million-Dollar Move into Gold and Silver - MEXC",
-      "polarity": 0.0471639409661293,
+      "polarity": 0.04716412536799908,
       "ts": "2026-03-16T04:07:30",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1hWWk3dUo5SnB0OUZ3QWtsa0diUnpLdzN3blpFRC12ekFKZWF0OUp1Mi13cS1UeVhrWnRQS210VFpyMjQ4QkpB?oc=5"
@@ -129,7 +171,7 @@
     },
     {
       "title": "News Explorer \u2014 Bitcoin Spikes as Oil Jumps Over Middle East Tensions - Decrypt",
-      "polarity": 0.03769775480031967,
+      "polarity": 0.03769803047180176,
       "ts": "2026-03-16T03:15:28",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZG42eS0tMTdZQmI1aURWd3ljZlJpRlgtTkk2ZFdRaGlIMXdxVnNYN3lfeGtSUGZfU1pyWUZtY2h6alVMRU5FV0huX0xyOHYtanJQeW9paWRQSHBmeEV3d3IyTi10QUkzX0dYaW44Yjd0RDhHeXU2VDVGMWFWb0ZhMUw2aDdzaWFjQmlyTlAzUi1rX0dLZW1qeTRHSURzckdzRzZKeThmSUJ1WEk?oc=5"
@@ -142,6 +184,13 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMFRvUHFIenpMd3VzQTRCU0ZWdV9KSTE1dDdrTVJzWE0zRG9oZTY0ZmRHamJXZi0tNHFuUkY5dkVFVVZPb21iX0VyRkRrTUxEWlFoWmtuWE5XdW5zRG5CZ3p2b3ZxN2hrcUV1Sld6eHVPb2dpa3NqM1F2bWxZbkROdlVOZzJZd1k2TklDLVpoQ0J6LXdvR1gwb1d4SlBjY3dIMjBOWGZ6XzJaeldJMFI2Qk5mWTYtcGg4X2c?oc=5"
     },
     {
+      "title": "Bitcoin\u2019s Bull Run Intensifies: $74K Broken, Is $85K the Next Stop? - TradingKey",
+      "polarity": 0.019006438553333282,
+      "ts": "2026-03-16T03:52:54",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY0NuQXBRT1NkYkE3SzF2ZDNmWlE2aHJSZTF2QW1pYkh2Q0ItS1o2UzZIWHplaEpTel9WUUZxaWdqckdvU3RjbXg3YWJaSEJwZWRhNVBSTFRXRjRxVVZ4OVdFZjJpMHh0ZXUwOWJ2SUR4MDVtVjlYLWZJNm00WjNZX1EtanlVUTBmcnZteUNWSm4ySFlNb0t6c2dHZWFtSnpnMHpKaGtwa1NsNmpmc2VBYw?oc=5"
+    },
+    {
       "title": "Garrett Patten's 'Self Custody' Shows Two Sides of Bitcoin, With Adrien Grenier and Henry Cejudo - MovieMaker Magazine",
       "polarity": 0.0174067635089159,
       "ts": "2026-03-16T02:26:03",
@@ -150,21 +199,14 @@
     },
     {
       "title": "United Crypto States BITCOIN CRYPTOCURRENCY BTC DECAL STICKER 3M US Security Car Decals - hotelier.com.py",
-      "polarity": 0.007553484290838242,
+      "polarity": 0.007553597912192345,
       "ts": "2026-03-16T03:09:45",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9MTXNNbVBpd3FlQWtNTjktRmdzQm9hWnc4aVYtWU9TSHZEMXBFTHF1ZGM1MXFGRHhnU25hVzBkVnJTbzEzVFZuckhIQmNMUFVHUXpJeGZzakpjWjN2b3ZrTGt3UWtKcXFQaTZPcjJxVQ?oc=5"
     },
     {
-      "title": "Observing from the data: Where will Bitcoin find its bottom? - \u5bcc\u9014\u725b\u725b",
-      "polarity": 0.007079221308231354,
-      "ts": "2026-03-16T03:08:42",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYnFPUXVEazBNNjRLVWl2RmhicVlrWE1fdlZtb2tPNENtOFJrN29TTUZvTW9LTVVQejNZMkZwaERkR3ZMWGFsa0VoVUFIWm52bEM3b3hlS29aV08zRE5RYnZ0djVBMUkzNFVYMExGRXR0ZDl2bEUyOFRQWXpNMnRqTDVDVjM5cEEwSmZOczZEQ0gtUm1HdFZRRlFuUmhhTkdN?oc=5"
-    },
-    {
       "title": "Bitcoin: Fear levels reach 5 in 2026 crash \u2013 Still, BTC holds $71K - AMBCrypto",
-      "polarity": 0.002946101129055023,
+      "polarity": 0.002946197986602783,
       "ts": "2026-03-16T04:00:36",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZmdlT19wdjVYZGNzeE5JT0ZraE9aejctY3JXYnRudWpnR3N2MGJsanNlRzl4ZEhDeGs2bUhDblVHeHNGUDdIM2ZSRnhldU1Kc0JmaUV4LUlaSkUxNC1SU3lqYjVoQ0FWVjZVbXdtSjd5X3ZpckxyWklrVEFDSm8wLW5fYUptUDBkcU0yRdIBkgFBVV95cUxOWmF3WnpaQXhYdEREdzJ6bDVTbjR5OXNjWVpfY1JBYWpZbXFoZUdTRjNwVHA1akd4QlJ0eVNnbkpITkl2cVlBMmZlUXl1MmdCNHFJV0Q4b3hzdHZxOFpKSnFlQy1xa3Q1a1Ntc3U4MmgwN0lSam1EN0JfMnQtVzlvVWlLUXk1VS1CNm1YWnNhV0E3dw?oc=5"
@@ -173,7 +215,7 @@
   "negatives": [
     {
       "title": "BlockFills Entities File Bankruptcy After Withdrawals Halted, Court Froze Bitcoin",
-      "polarity": -0.9459702139720321,
+      "polarity": -0.9459702288731933,
       "ts": "2026-03-16T03:51:07",
       "source": "Decrypt",
       "url": "https://decrypt.co/361195/blockfills-bankruptcy-withdrawals-halted-court-froze-bitcoin"
@@ -194,14 +236,14 @@
     },
     {
       "title": "BlockFills Entities File Bankruptcy After Withdrawals Halted, Court Froze Bitcoin - Yahoo Finance",
-      "polarity": -0.5918067563325167,
+      "polarity": -0.5918062943965197,
       "ts": "2026-03-16T03:51:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPalFCUVJFVU9MQW5RdjZyRW1sUTlDUFhXMnFKWXRRZGNwQ01OV25DMmxvZTh4X2ZIM2J5Z0V3TFo0eTZaRXNpQXducnNweTZsV0pQYjAxcmF0ZlU4eFdnVC1jMzJ6S2JoRjMwNTZoN2FlQmRqUHpjeUMtc0lBZWxhUVZCTWstODhhYWpHOXZlak9KT0duQWFiaw?oc=5"
     },
     {
       "title": "BlockFills Entities File Bankruptcy After Withdrawals Halted, Court Froze Bitcoin - Decrypt",
-      "polarity": -0.5024863462895155,
+      "polarity": -0.5024850647896528,
       "ts": "2026-03-16T03:52:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQTl4eGVDMDVZX2ZpUmZVQzhVQVNpUXZRbF93UEphdW1rM0dKb3lxNmxXdDFSUThRb0xUYy1JM1RKNGV1T3JyWDMteU1XY3ZXSXpXZzNUNFNLT0M3WUlEenZoMDFHTEtSUi1JQUEtbEtrZmJWSHB5NnpQSjBnMWVWWjVPaERRcHVIekpTaUpwMNIBlwFBVV95cUxQZ3I0eklCdkJGWWNyYVI1ZG92YTFEZms5cGJub0hBWF9CTUpuSVVzaHVoN28wV3NOd1VtXzFTVUhtVGx6dWtuYzJGNDdLZTNWSHNPSlZkSUh4T2F2V0FUUXY2WmE4U1VjQk9ma2VXWTFXc3VmektkX20tTmVIUWRNRFJOa2FWejJMRFBFOVpINEtZckE2Wk1N?oc=5"
@@ -222,7 +264,7 @@
     },
     {
       "title": "Bitcoin Up or Down - 15 Minutes Predictions & Odds - Polymarket",
-      "polarity": -0.08934207633137703,
+      "polarity": -0.08934160321950912,
       "ts": "2026-03-16T03:30:47",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52ZENjM3FrRE9nN2czUnBGcEJydUU5NExTV3VwOEEyQnpJVEJ6ekRfYWNrNS1QV0R3dXEyOVliSkZKN2JseFpLY1J5aGJEZ3BGYkZKdFZoRjhjeVFWVV8zNzlnUU8?oc=5"
@@ -233,6 +275,20 @@
       "ts": "2026-03-16T02:16:12",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYnhtSFFxbjUwU3hySklJdmRQb0R5MGNGS051LW11VmdOWjZLVVAxX3JiLVVyNjd5aldBTzF5WGtDOUliaEhzcG5uNi14ZVNBbjRrb1N4WkI5N0R1azBfN3M1amkxb0Y4OWhEeXRDcVNaTDlxV2g4Y2xtTkZQd3hBbUJ2c1pDTkctVm1nMWNPdUtoU3o0?oc=5"
+    },
+    {
+      "title": "Bitcoin in Iran Limbo as \u2018Old Economy\u2019 Assets Steal Limelight - Bloomberg.com",
+      "polarity": -0.02546847052872181,
+      "ts": "2026-03-16T04:39:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdVVCbjU4b1UyTDdWLXlYNG9BVXVQSnhDUXBjcFdncUp6S01NdVQwSVJIb2h1RTFuQzkyc0s3NEU0U3BhWDZhMHdrUk9KNm00UlZQZzE0M1VxY2ZCb3l1SlhCS1FTSk9wMnkyUWw2c0U3ZTkyN2ZsN21XUnQ0VGRZdTZkRjJSWGFsR3ZYYkNzNWJpZ1Zuallnd3Zyc192Mk5hTVJHSGR4VzhsYllweERKRmpwOEM?oc=5"
+    },
+    {
+      "title": "Bitcoin in Iran Limbo as \u2018Old Economy\u2019 Assets Steal Limelight - Yahoo Finance",
+      "polarity": -0.022778209298849106,
+      "ts": "2026-03-16T04:39:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdUwzdFZSUUprXzRJZjlSdG91VS1YRm5rWXUzUGRBcmdHU2xPQ3BrX3k2R205QVlzVWl4NWtmWFI3VUNZczVrTjZSajl4V2tYQ3gzYnVUYTJBNHhpUTc0N09jX08tUm1aN1VsNjlDNEUyaDlDUnQ2WUJNYVYzYmNIVFpn?oc=5"
     },
     {
       "title": "Crypto Market Review: Where Did XRP's Volatility Go? Bitcoin (BTC) $72,000 Break Is Not What You Think It Is, Did Shiba Inu (SHIB) Reach Top? Price Below $0.000006 - Cryptonews.net",
