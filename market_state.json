@@ -1,37 +1,37 @@
 {
-  "ts": "2026-03-15T23:18:48.635740Z",
-  "price": 72818.95,
-  "market_regime": "trend_up",
-  "trend_bias": "bullish",
+  "ts": "2026-03-16T01:09:32.789219Z",
+  "price": 72424.52,
+  "market_regime": "range",
+  "trend_bias": "neutral",
   "ema_alignment": "bullish",
-  "price_vs_vwap": "above",
-  "volume_regime": "elevated",
+  "price_vs_vwap": "below",
+  "volume_regime": "low",
   "sentiment_regime": "neutral",
-  "confluence_score": 77,
-  "confluence_label": "favorable",
+  "confluence_score": 52,
+  "confluence_label": "mixed",
   "indicators": {
-    "ema9": 72097.84,
-    "ema21": 71762.45,
-    "ema50": 71406.78,
-    "vwap": 71870.87,
-    "rsi14": 72.44,
-    "atr14": 436.0
+    "ema9": 72236.52,
+    "ema21": 71888.34,
+    "ema50": 71490.94,
+    "vwap": 72644.92,
+    "rsi14": 62.53,
+    "atr14": 454.77
   },
   "setup": {
-    "bias": "Bullish",
+    "bias": "Neutral",
     "long_zone": "$71,190\u2013$71,475",
-    "invalidation": "Below $70,189",
-    "take_profit_zone": null,
-    "summary": "BTC is above VWAP. EMA alignment is bullish. volume confirming the move.",
-    "confluence_label": "favorable"
+    "invalidation": "Below $70,192",
+    "take_profit_zone": "$73,074\u2013$73,367",
+    "summary": "BTC is below VWAP. EMA alignment is bullish. volume is light \u2014 treat with caution.",
+    "confluence_label": "mixed"
   },
   "divergence": {
-    "type": "neutral",
-    "price_change_24h_pct": 2.23,
-    "sentiment_change_24h": -0.015,
+    "type": "full_confluence",
+    "price_change_24h_pct": 2.0,
+    "sentiment_change_24h": 0.0213,
     "volume_confirming": true,
-    "headline": "No notable divergence",
-    "detail": "Price action and sentiment are moving broadly in line. No meaningful divergence to act on at this time.",
-    "signal": "neutral"
+    "headline": "Confluence: price, sentiment, and volume aligned bullish",
+    "detail": "BTC gained +2.0%, sentiment improved, and volume is confirming the move. This is the highest-quality setup \u2014 all three factors aligned.",
+    "signal": "bullish"
   }
 }
