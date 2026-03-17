@@ -2,6 +2,20 @@
   "day": "2026-03-17",
   "positives": [
     {
+      "title": "US Bitcoin ETFs post 6-day inflow streak as crypto rallies",
+      "polarity": 0.9132574200630188,
+      "ts": "2026-03-17T05:51:54",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-etfs-record-6-day-inflow-streak-longest-since-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Bitcoin Rallies Over $75K - thedefiant.io",
+      "polarity": 0.9066792335361242,
+      "ts": "2026-03-17T01:24:22",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DZHJrdUQtcmtna1VXdkktdVI1NWZkWVROMEhKaFhBVlZzdW1mOTd6WTVyWjRWd1pFWnFVRXdsTGlpQ0ZkamFzSmdTX1FLU0V5cXNEVlFlZU8zSWFmUWUxTXl5MU9VNEIyTzI3X0tjSlJnclZWV0I0?oc=5"
+    },
+    {
       "title": "Bitcoin Pushes Higher as Macro Tests Loom - Decrypt",
       "polarity": 0.896746065467596,
       "ts": "2026-03-17T02:33:07",
@@ -30,22 +44,36 @@
       "url": "https://decrypt.co/361327/bitcoin-pushes-higher-macro-tests-loom"
     },
     {
-      "title": "Bitcoin reclaims strength vs. S&P 500 and Nasdaq \u2013 BTC pushes towards $74K - AMBCrypto",
-      "polarity": 0.8636911809444427,
-      "ts": "2026-03-17T02:00:03",
+      "title": "BTC, ETH, ADA price news: Majors post 11% weekly gains as bitcoin tests $75,000 - CoinDesk",
+      "polarity": 0.8632970508188009,
+      "ts": "2026-03-17T06:36:54",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbG9xM2N0OXhzVzkyYWpfY2w0YzBjZlNpMDE5MkhERGwwX3dMeV9BMkNzRE1DcnJmYWlnSG5nVHRERFdqbzBWWlNPSFZGODRUSm5KVnR6enFsRUpLOGdCZkFjdHYyTjlpZWdKcXh1SnhvWEZza2JyVzZPYW9WMEl2anVCUGxkV2lHRkFZa2pjbVhpQ3l3V09F0gGcAUFVX3lxTFBRdzlnaUN2dHZlSFdaQTdfZmdtNmhoTlNaSVQ4b212NU5lWGlHR1NRdENlUHZoeGdCcU8xUGczbm0tNGk3MkloLWtWbHFGWlNFSFptXzJMQTJXY2ZqX1lZbV9jOVBYNlNpbWNRc2JNcFJsbFZYcDY4YmtyQjJzR0FzUFNaN1U4MV8tcTAzUEs3elMyWWIybHVkWFF3Ng?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeUhydTVZUWtoVHc2V2tzd1liUHZtUUh3bEtPbmN3TFpRVXNubmFhenNMTjdUcW1mX2Zjek1jaHFrT2t3V3NJeE9jYmpJSHpTYkFlTFBIWVVyR1FuUVNjTHB5eWh4dW55OVN0YXVKUEdnejVCY0hLV0ViWTZIWUhnZ2dFRnRvd0VmNndCb2dDcHl0MUU1aEt4cXpFTHg2My1BQXF4SDNVWEd5VVg1RUxpVHZKMjhKNjMyYkh4Nkh3a01zQ2xvOFlMclJ5SjhPUGdsNENB?oc=5"
     },
     {
-      "title": "IREN is making moves in AI and Bitcoin. Technicals point to strong growth ahead. - MSN",
-      "polarity": 0.8489215271547437,
-      "ts": "2026-03-17T01:25:24",
+      "title": "Bitcoin price: BTC surges past $75,000, XRP (XRP) and ether (ETH) jump 8% - CoinDesk",
+      "polarity": 0.8474352285265923,
+      "ts": "2026-03-17T01:56:58",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOWjlPS3cydHpMQjYzUDh2akRyWk0zS2toWVhQaVd0d0JtRWoyeS1vV3BWeThZT0wyZVlnczR2ak1wUGEwaGRRNGwtb2RxVUs5U1pDY1RfaTFBNmtueHBOYy1hclVTMVFKcU9pTG5aZEZhakVhMGNHN2RfZmQyRDVRMjNONVRlQUNSaXBXcUJuODdsdHljRnpwaFFFX2thR1UzbXd2Y0E3NkhLUXNZcUxhdHMzTFNCT2t4bDd4dDY2Yk9HSjJSOG1tUkliU18zdGhsRzBwdVFrZFpWR1loVG9hMzlSVHdtV3R4anlyVjNkMA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPemFCWXk5R3E4QzRidnlfaHJVZU9UWHZoVDRxV3VjNVB5M3U2QXE4QXk5WkRoUnJpSXRzSkJ6dEluN1lRMkJWRTJ2Q25QUzVab2kwLU5rVWxIbUxxZDkwdlhyQl9NUC0teTRjR3FudklZdHp5Uk4xLWVtbW9qNEhWS3dXR2ZuR0pmYTBodjdVZ0FrN2ZGaXktbVIzRU01eTJGN29zNDBwWDRyNF8yTEhfag?oc=5"
     },
     {
-      "title": "Bitcoin Price Holds Gains at $75K Before Fed, Inflation Data | March 2026 - News and Statistics - IndexBox",
-      "polarity": 0.5885341800749302,
+      "title": "Bitcoin price today: pulls back after jumping near $76k; Iran war, Fed meet eyed - Investing.com",
+      "polarity": 0.6928739920258522,
+      "ts": "2026-03-17T05:28:55",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaGRZRFVRSU02N1lFM0tWS2gtbWt6S21xZDN0aWNrSXZDNEt5dGU5d0cxa2F5QnIwd25nQnE2WVhud1RRWVNCS2lTNGdZZUZPQlZUSTI2YWdjcFdVOUZaM2x3Q05Ea3lEWDJZLVdDVUFkNS1QbTJkeFBqNkJNNDd5cVV1MFVBa1BSYldtN0l0Z2EzcjE3TkZUazdUZUpkSXczand1aWxjSkdQWHhCWWpUMDdpRWxuYVF2VVBUR1Z1cVZDSzlMRjBodXZXd0dSSmF5?oc=5"
+    },
+    {
+      "title": "Crypto majors post double-digit weekly gains as bitcoin tests $75,000 ahead of Fed decision",
+      "polarity": 0.6664251610636711,
+      "ts": "2026-03-17T06:21:09",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/03/17/crypto-majors-post-double-digit-weekly-gains-as-bitcoin-tests-usd75-000-ahead-of-fed-decision"
+    },
+    {
+      "title": "Bitcoin Price Holds Gains at $75K Before Fed, Inflation Data | March 2026 - News and Statistics - IndexBox - Market Intelligence Platform",
+      "polarity": 0.5733260288834572,
       "ts": "2026-03-17T02:51:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSnkzcUEtNUZZcW41cWROelhvZ2lIV3gyT0hRbFZNWDRtaVZuU3ZZdnk1U25mbHk1TmJ2c1RnWnFHUmNnZm1aYzlMR0F0MFJJMGltOGJtTU8yUzZKcmhoUWZlcnBSX2ZuS01RY0JzdHE0bGdXYWlhMy1mV0xlM2tEeENhcw?oc=5"
@@ -58,11 +86,18 @@
       "url": "https://cryptobriefing.com/bitcoin-price-surge-economic-decisions/"
     },
     {
-      "title": "News Explorer \u2014 Bitcoin Rises Ahead of Fed Decision as \u2018Safe Haven\u2019 Narrative Resurfaces - Decrypt",
-      "polarity": 0.23272567987442017,
-      "ts": "2026-03-17T03:43:18",
+      "title": "US Bitcoin ETFs post 6-day inflow streak as crypto rallies - TradingView",
+      "polarity": 0.35800665616989136,
+      "ts": "2026-03-17T05:51:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZGg0MURGUlhGRkNKSXFmYjNxV2ZuT2YzT1Z5NW9DTVVPZXFVRmxHVnBMR1lwSF9Kc25Lb3VrTmRyZFRiS2E0ajVLY2FkdkZyZDhRZGdYSjJ6TGg4WnRQVlFtLUdpaGhBYkt2NElnVTRUS3E2ZlFtd1BhV1dmSzNjdkxrckJqQnB3ZjdTUm9JY0Nia0I0MnBoU2E2dEpuZnFBckVrUGVrU1dlUHQyQmdDUVNSR0pQZ0dIYURqSlA5Z2E0dw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVIwcHdLeWttWXlSNTd0Z1ZlTzZuSWR4YlRoRktuX3NHeVB1V2hDdlZxa3g2b3BoYzFmZ1NBcWVUbmJhVEhObERjWHVfR1RDVUhmYUtlTEVzU1laY00weXpTU1VpWVM4aTFOMDF2TmxZNHljd3pVV0JocF9OQl9mOEt6dzByLW90blZlU2ViMnRJTXNIb2NvMGZkLVZyWTJOY1RhSm5tWmRHV3BZTUszM2NyVFJSUE01aG9Ydm5Ibw?oc=5"
+    },
+    {
+      "title": "Bitcoin news: BTC gives up early gains, XRP, SOL, DOGE follow suit - CoinDesk",
+      "polarity": 0.29394134506583214,
+      "ts": "2026-03-17T04:52:52",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOR0JvQ1lSVmhucGJTdlRXU0VQN1BlMjZud3ZkdHNpSzJTTzlxTTB6cGJIb2FnRVJlZm5oeWRNcnE1Yzc4Q05BYmoxaUMxNGN6RWtBc1FxOXk3d2RJNjNUUUR5YkV1cEw0YlF2ZE80b1p5TDRVUWdIQWJHR1Q2UXZTN0VHdkozR1VIQUtxc2tRTGV1Q2pOeG5hREQ1Mk1sRjRfaTU2NzJhYTB2S252My1hQUlhLVFwdGJCVmw5aUsyX3dCeTZqbjFwQg?oc=5"
     },
     {
       "title": "Bitcoin just surged past $75,000. Derivatives seem to be driving the rally.",
@@ -70,6 +105,20 @@
       "ts": "2026-03-17T01:53:36",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/03/17/bitcoin-just-surged-past-usd75-000-derivatives-are-driving-the-move"
+    },
+    {
+      "title": "Bitcoin near $76K: are bulls gaining full control of the market? - TradingView",
+      "polarity": 0.1086925370618701,
+      "ts": "2026-03-17T04:13:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWVkxd2VpX0NQeHZVNXQ2MGEzUWZQdEFPOVc5ajBSd1lzd0cycE1fVE90N0RpS1FHNlg5SlNpMVhXbjQ0ZTV3cjJtR25FMFl2dFEyal9TTFc4ejlBTU1sSDUwMHhFeldGbkdsaEViN1F2aXRHNC1yWlM3RUpmRWlvazVmSXVTcjg1NjNQMEV1Y0pzNktaWGlIeERLT20wZzhsSXBzUXlZUUxmbmpSMFg3ZHdPSTZOLVlHQ1E?oc=5"
+    },
+    {
+      "title": "Assessing Cboe Global Markets (CBOE) Valuation After New Bitcoin Volatility Index And Prediction Market Launch - simplywall.st",
+      "polarity": 0.06671341322362423,
+      "ts": "2026-03-17T06:21:21",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTUdOZlc4OEtqaTRVOGJjV2ptc29Rd29NTTRTb1NUblRBMXVDN3JsbG1PLU05U2VTLVBSOHA5cHpuTFE1eHF3S2lndEpRdkFoNFNmT21iTWh1bzctd0FTVVl1ZGxldFN5RmFxNElnZ2JIeUpaX2hCUzdvcTN6VTRjUGRlLTRGZ0hRaVlRODVSak1WQTZqSFdjdDU4MHgwSG9sRDlmblpuRzVPSHdFOUI4X0lQb3hGNUpRYmxGd2JtRjFQQlAyUV9Ndkg4alNnWjZ3QmwteWM4THNUbEliMjVIN1pIY23SAeoBQVVfeXFMTU5oby1LbUZ4RlQ2Q1J1TDZhV1pSS1BQdFZQMURVQURLVldhVm9lQmRMTlc1ejUxSkt2ZWtGdURoQnVpX0lKWDJ5dWliMURJWTRvdE1sVTRZSzZpTzFjeU1KVzdCdHNqMXA0Ni1PU3RCR3huYUl2OERzdktLdGwxVHR3VzdpWEVuakRkaGk2aDZEMTk3TGhJejhNamd0N0VyMXI4ejd2ZGVSdXdoQmZhdkw4VHdBSzlyLW9iOWhZenEwdTVyZW51ZlpOSG90MDFFQTNCb09wUUZ0aWY4QWdlNmhtWTkzMlMxSlF3?oc=5"
     },
     {
       "title": "Bitcoin\u2019s Rollercoaster: Today\u2019s Price, Insights & a Glimpse of 2026 - Phemex",
@@ -119,23 +168,9 @@
       "ts": "2026-03-17T01:34:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Kc1UzMkFvUXd6bkptTmZ0bmRmMDRHdjZyYlZPUlJfcmdZSDdtZFd4MWxjLVlxSm9lenNZMGpNOFI3Q1ZINjQzVDZzY1JoTUJGTW1XNU0zZDZXMGdUM1ZLMzhteGswWVJkTkppZm55ZUs2WE1Pbkl0OVBUSQ?oc=5"
-    },
-    {
-      "title": "\u2018AI Has Killed Bitcoin,\u2019 Claims Famed Crypto Commentator \u2014 Why Are Traders Are Pushing Back? - CCN.com",
-      "polarity": 0.003974027931690216,
-      "ts": "2026-03-17T00:19:17",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONGRFencyOUVWNFQ2Ums5aERGQzRWa2NLckpEbXB4MjlxSHlCalNPZllESURQbGlOLXB0SlZVaG1fT00zSXM5MXZZZjFtMmpSWFhQSXlETHZCTjROUlE3M2pldEk4RnVLX3k0cEZBMGNVb1F6RGZCdjZiQzRZR3F6T0F2NnRJelBiMU1OWURhOVRvbnpqLTE5cXBfUzkycXhqbWtqU0Nn?oc=5"
     }
   ],
   "negatives": [
-    {
-      "title": "Bitcoin buyers return, exchange supply declines: Is BTC entering accumulation? - AMBCrypto",
-      "polarity": -0.800129123032093,
-      "ts": "2026-03-17T00:00:33",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMzltUEYzZnRReHJxdHg4VE4xZV9YRmNadmhQdEdiYzJOQTJoakZSNDR0ZVJ3UGtMZjBOVzFwcDBZSjlwemRWYjFmX1hDWmpvS1pqQ2dWNGhVN0hIT2dtX01zbGJSbmV5SDNsTG5jUkwyWkIzRFFKOExwUnlpNmxiVTFaZjJ4YWphNWFiNGlfU2huR0VPRFJMY01YQjl3bDDSAaQBQVVfeXFMTXg5ZEQ4STBfMkFsbjRpRGF3UFM3UUhDVFdkYTZGRlRfc2EtNEpqeE5aNmdtRUNIY1I0Zko5UkJUd1hsSzk3ZDkydzFCX0V1N0w1bXVic3Y1bl9mZGFPTDRxeldQY1RfeURPOGg5WDFRUzJvZVhmMHBvSjZOM3pmVnR0bnZod3E3U2M0NG1nUmdJMHdUVnZNZE1RLTVNbnR0RVdueUo?oc=5"
-    },
     {
       "title": "Bitcoin\u2019s derivatives-led rally is already unraveling. Prices are back below $75,000",
       "polarity": -0.6305148564279079,
@@ -153,7 +188,7 @@
     {
       "title": "Bitcoin Price Rally Roars On \u2014 $76K Level Falls to Bulls - TradingView",
       "polarity": -0.2359427586197853,
-      "ts": "2026-03-17T02:42:00",
+      "ts": "2026-03-17T02:42:10",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaTBYbThaZ05xT0Y3M25GTXpQTzBRZFhrTWxGZml1cktwLW5udXdqOER1R0dYWjNsUkIzdVBiNzNBS1V5eVZsSGlNcGlnaXVCYWkzVVE1WjFLSGtoNnJrV3VteUlGM0puVlFEV3lXb3hWejg2RGIwcmhuRk5fYkU4UURfSzVjdzh6ZUpMNWJHbHBORjlXcEI1N19TY3lyZTEwNUNwbUZFNF9oZVRiNk5xdg?oc=5"
     },
@@ -167,16 +202,9 @@
     {
       "title": "Bitcoin Up or Down - 5 Minutes Predictions & Odds - Polymarket",
       "polarity": -0.17529916390776634,
-      "ts": "2026-03-17T03:00:00",
+      "ts": "2026-03-17T05:23:48",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03Q3BVXzlJYzJ1N01lNUJISjdNQ0JFbjdCTGxNWExjZ3hmYTFiLW84dHhzeVVRWWVDSVRuUlBHWHk0TFdvMVRjVXk5NmM2VjREUlJEXzVZZnlWelJiY1hvRlVqSQ?oc=5"
-    },
-    {
-      "title": "Bitcoin Up or Down - 5 Minutes Predictions & Odds - Polymarket",
-      "polarity": -0.17529916390776634,
-      "ts": "2026-03-17T03:25:58",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9XRFRLRFFYZmFmdTNLSEp6ZnlRbThzQklQMnR0Rk1CSEcxSTdYMWRXcHMybzhyMEk0c2xNeTVLVVdfcURDZWRSenhaWTNiY2VIMjdQMkg2MjNiRVRiRU9zV3NDZw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9UekxiVDdnMjZnZklvS1IxOENaYUpvUmE5aTM4dmRGcnVWRDM1c0VmOWVfUG9MSmxSaGU1eTFQT2hBZ0V1ajh0RTFSd1psbWtkOU51djc1THRHd2pTbjdyc090Yw?oc=5"
     },
     {
       "title": "Bitcoin Reclaims $74,000 as Ray Dalio Warns of 'Final Battle' for US Credibility - Bitcoin.com News",
