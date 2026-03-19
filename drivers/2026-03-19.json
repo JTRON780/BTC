@@ -1,13 +1,98 @@
 {
   "day": "2026-03-19",
-  "positives": [],
+  "positives": [
+    {
+      "title": "Fold Q4 revenue up, CEO sees Bitcoin rewards overtaking air miles",
+      "polarity": 0.928566693328321,
+      "ts": "2026-03-19T02:02:08",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/fold-revenue-rises-adds-customers-bitcoin-rewards?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Bitcoin bows before $75,000 resistance amid strong derivatives sentiment - FXStreet",
+      "polarity": 0.6776944473385811,
+      "ts": "2026-03-19T02:55:01",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUUdKbGZCRjMwVkhpNHdpR2tQeHY0TGpQQVhTVlUzRllRS2cyeVNqVWpiWXlBa1k0VmFXUFlzeFMtcDJZaE9ybk1NcUtrYXMxSVJueXd4VDJtck0xcXZtZEpIa3R0aFNkRV93SGpWVWtFQlg2VUVOTVdMVTNFdnZhTEMxd09udzFOYmxYbFJXM0tCTDFGanZTSi16RENaS3pOckVXWlBCNXVEYk5STF9xVkpRUXJ1UDJBcGwxOHktcmNTNTgwdXZwNHdpQQ?oc=5"
+    },
+    {
+      "title": "BTC $72K Support & The AI/DeFi Rotation: Is the FOMC Decision About to Make or Break This Rally?",
+      "polarity": 0.15045326203107834,
+      "ts": "2026-03-19T03:06:50",
+      "source": "r/CryptoCurrencyTrading",
+      "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1rxp466/btc_72k_support_the_aidefi_rotation_is_the_fomc/"
+    },
+    {
+      "title": "Three companies scale the new Bitcoin financial system - Yahoo Finance Singapore",
+      "polarity": 0.04621714539825916,
+      "ts": "2026-03-19T01:11:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdHoxbHNHX0Y1d1l4QWNQWmRzR0xqLTZ2NERpRkRsSVY0bHRlZTBjWUd3aml4ZVlhQjdhM3NPbXRJS0ZwX2N5SkJVVlI1d3cxTC04VGpOLVpQTWd4S3d6d0NIVVpnOHcxSHZrMkU2SEhoUERGb3BtM1ZIcG5SaWV0V2Z3LVpqaGxFYlp4cHBMUk1SZ3V4cEtqX1ZPdEdsXzBZNm5sek4xTGJVcjJjTFJEYnVXYjdNbTgyNDFtak44TE1UQQ?oc=5"
+    },
+    {
+      "title": "BTC yield on EVM help",
+      "polarity": 0.04582285322248936,
+      "ts": "2026-03-19T01:36:33",
+      "source": "r/defi",
+      "url": "https://www.reddit.com/r/defi/comments/1rxn3js/btc_yield_on_evm_help/"
+    }
+  ],
   "negatives": [
+    {
+      "title": "Bitcoin Price Drops 4% as ETF Inflows Reverse; Fed Holds Rates High - News and Statistics - IndexBox",
+      "polarity": -0.9474087739363313,
+      "ts": "2026-03-19T03:55:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbkFFdWhuOFZFelZCUGxXSklLVDByUm14cE9xd21lUndlckxIa2xwZkQ4dEVfbjcwNkViaEFvZVU2NDJYaXpWdnRwWGxMYTVPWldXWHpzWUpCRmhJOVNNTGVic0tpVkFIX3E5cjdINGFfakcyNVU4SGhRbkNmOFlKSmo0dC1MU3hZQ3dxUGtBejFMeTg?oc=5"
+    },
+    {
+      "title": "Why Bitcoin Is Falling Despite $1.1 Billion in ETF Inflows",
+      "polarity": -0.8954465091228485,
+      "ts": "2026-03-19T03:23:37",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/361644/why-bitcoin-falling-despite-1-1-billion-etf-inflows"
+    },
+    {
+      "title": "Why Bitcoin Is Falling Despite $1.1 Billion in ETF Inflows - Decrypt",
+      "polarity": -0.874269550666213,
+      "ts": "2026-03-19T03:28:33",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcGZqUmRBQk15enJnRVdoSEtlcERSOU40U04yODJYZFc5QklvRjloSHVweW5ueTI4UmFaR01XZUpSS3Znbk9NUk9xbkctWTJzNEprQ29vWE11Zmp5Y0VyU2xkZE5zUXFjVXVyM0J2NW1fajNxT1hyNFRKT3dkejBXM1lpd9IBiwFBVV95cUxOeFVqMTdHNzdRNFd6b0JuMG5pb0ZaUkxseFp0RXp2Y1ZnOUotaTZlcThfMHE3TVpYd01MRjB6NWcxbWRRM29RNEdkQ1hCOHNZdEZaWXA0VmNyZlMwSjlfSGsxdDZkVHVRSl9rLW9RaVlwSzRUM0FWOTZRcTJxV2E1clhJdWFiTG1mS2s0?oc=5"
+    },
+    {
+      "title": "Bitcoin faces pressure after hotter-than-expected inflation data: CNBC Crypto World - MSN",
+      "polarity": -0.7956500686705112,
+      "ts": "2026-03-19T03:08:24",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQMV8yejY1SkRNYmpWb3BvazZhanB6R2poa2NXUENvcE91WnZxOUw2UGxlNWo5c3N0MjBEUnViMWlNX2dYLWJtcGVCcFAza2RIeThHaDJVay1mYm1xS2ZGY0lhaUZZMHlhRFBvbmdtMzRTZEU1Zm9UVDhyb0JlVVIxNWJZNExFWV8wcndZWk5qN01iX1pSVGVNSjFqZE5xSEFoMW9xZnpOTHZ2T05pbS05Zm0wMm1iTDN0dTVlMGNpRG43SG9SbXZwSTBNSGhsRFNPRVNEd2Y2XzZXLVZaQ1ZIWGstMXdnZ2V4eDREcFNQV0xJU1hORkY1Y1FwUktnaHFlcm95Vk02WVhnRUE5?oc=5"
+    },
+    {
+      "title": "Has AI Killed Bitcoin? Debate Erupts As Crypto Influencer Says Data Centers Outbid Miners For Power - Yahoo Finance",
+      "polarity": -0.3766765035688877,
+      "ts": "2026-03-19T02:30:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQWwzNmZvMEdiU0hEOURURmFvb0h3Ql9DVUdqay1EVV92WWRPcHROOFBSczk3REVLVmdYaFhRbkdSaXJpZkRlWkhvaFdBWEgwVHYyRnBfQXZrNzhnd21PdHktdzVSNGFOYy1tRFhsNGdlNVROUk9laXJIOWNSYUhVWGhNX2lwYUlYcjU3Qm91b2M2SW1GNWItRmFXRU8?oc=5"
+    },
+    {
+      "title": "Douglas County Sheriff: scammers post fake ads to discredit Bitcoin ATM warning stickers - WOWT",
+      "polarity": -0.20963787660002708,
+      "ts": "2026-03-19T03:30:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeDg4VFpWa1BwamhxTGNacmN2SUdSVHhVYUVfN041TnBCX1Qtckk4UFlrT29pSk14T2ZLM05aM0VPQ3dkMUQzS05RWnh3X21oWjdRZlFJenFJZUdXczFGMUpvVmxpSWVxTTQ0OVNmRzlYOUJVMkJ2Y2xVcHNNSUJXX2UxQUZLaHpsMDV4RUU0bUFDSnJYdjJhNzZMTDZfNHFVa1ZHek9wRDY3Sk1PTl9rSjctWDdiN2dZ0gHMAUFVX3lxTE5zbl9fcFRxQkVPOVB5d3pWeEJmNmFVNW1YRExfc1Y5VVlYMUxHMHVMRzdCbERFYmYteG1tRmRER29vdk9ZVDRFcU5Va2s2OVRDd29ZdTh1VHAwcXExQnJDcTNVa0hhM2JMOUllZTZTUGZyakVRaTlHWVFRQVl1Y1hWQUJLVDFhWXdQWFlzZTFSX0NmeG5ZQ2dYd2lFaGlwa09kSExCOUljWHFEZWdEZ3ZJaUxoS2gweW1rS05MZjFxTU5nT3ZILTlrT01Qdw?oc=5"
+    },
     {
       "title": "Why Bitcoin Was Sinking on Wednesday - The Globe and Mail",
       "polarity": -0.2012590542435646,
-      "ts": "2026-03-19T00:19:28",
+      "ts": "2026-03-19T00:21:47",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQU2ZkN3U5VXREY0VSTzUwUFZpMFVKV2ZnT1hoM2ZCbGdzTjduNC1KNjNoWTRGT0tBZUpCbkJSY1EwZXM1a0w0a01nbW9LSmVEX0paSnIxWmtEak1Md0dKa3ZYNGI1Wm9BSlF3RzJjRDNMRkFERFlmQm1oY2F6WnBtV0I3OGVUSTQwbk5ldEFCejJBT05sdlhTeE9mbWJTQVg3N2FvMFR2M0tUVzlGeWZyOGxPLWl0WC1HUjZoUXVMOA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZE54bm1JbE96WnVicnBKMU01QVNWTnNZMjN0SXBRX3dlNVFZeTNDS2paU2dzdlFTUnZOSjM0Qno2NmRGSjVyWEx0X1c1WWtRUTNRM3c3TzNjQWJwcXhjZnl5bUU3a0g5cHpmUU9Wb3Q3TVl6VmRueEFfZlFCTW5SQUZWTmxjZ253MFZDaFY0S3IwcEExaTVOZmpfU3E3ZGRvY3Rld0Fyb0RmOERnUU9oQ1oyZ0ZKcFFXZUJiQQ?oc=5"
+    },
+    {
+      "title": "Why Bitcoin Was Sinking on Wednesday - The Motley Fool",
+      "polarity": -0.12791454419493675,
+      "ts": "2026-03-19T00:02:40",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVG9WellQMTEza05YSTVLbmVyc1JXLVlhNDVRQlh1bGdtXzVaajdvUm5jdlFiRENvNHNaMHYxVnhSOTQ1S3lWTHZMaUNsMDBGNzE0OHl6MkRXRGd5WDlkQ1p5SFJnalhOMHc1V3REY3VQWDd6M3FhX21WNmhrNTRiV3pIcFVxUQ?oc=5"
     },
     {
       "title": "Paper hands vs diamond hands - the eternal struggle",
@@ -15,6 +100,13 @@
       "ts": "2026-03-19T00:58:27",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1rxm7xp/paper_hands_vs_diamond_hands_the_eternal_struggle/"
+    },
+    {
+      "title": "AI Data Centers Outpay Bitcoin Mining, Triggering Major Industry Shift - Bitcoin.com News",
+      "polarity": -0.005760639905929565,
+      "ts": "2026-03-19T03:05:43",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcnBWdC0ydTc3TGJuNEptWUNQVktFOTd2QVBxdW1wOGV1VWYyT1FyVTdnNVotQTFmeHNodkc4Y05YZGQydEllbUZYMXFZdEZibmFPWVdDVk5RMzZRWkx6azItUzRMaDNZVDlMb1V1S2xpWk5iMkVxdWVNbjV3dXJ0dUVKaFl4ZnZyUXRwX3lrREVHV3lmR3B4M0xFUQ?oc=5"
     }
   ]
 }
