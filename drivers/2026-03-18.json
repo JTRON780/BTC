@@ -51,6 +51,13 @@
       "url": "https://www.reddit.com/r/Bitcoin/comments/1rx24jd/bitcoin_power_law_is_as_real_as_the_4_year_cycle/"
     },
     {
+      "title": "Bitcoin Price Prediction: We Asked ChatGPT What Bitcoin Will Be Worth by 31 December 2026 - Yahoo Finance",
+      "polarity": 0.03220043145120144,
+      "ts": "2026-03-18T23:00:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZ29KVUJVVndMMXp0aFpmLWgzdWV4ZlY5ZTFmQnQweUFDajJJQ1E1bUFMLS1iamNPdkFOTm82NU1nWFpRR1FsYXk1LXNZWjhBMHV2cGJSeDFvbWJRSUJGN0R0aDNuYjFmOFQtSHVpYlV2dkxKYmFReVdBeUdNb1FOSWR3WE0tX2JrNk5yM0tYZUUzT1NTSzJmbjlFOGwzUzh1RUJlSThn?oc=5"
+    },
+    {
       "title": "Bitcoin Price Prediction: We Asked ChatGPT What Bitcoin Will Be Worth by 31 December 2026 - 24/7 Wall St.",
       "polarity": 0.0300995334982872,
       "ts": "2026-03-18T23:00:00",
@@ -70,13 +77,6 @@
       "ts": "2026-03-18T20:54:51",
       "source": "Bitcoin Magazine",
       "url": "https://bitcoinmagazine.com/print/the-core-issue-your-node-vs-the-digital-wilderness"
-    },
-    {
-      "title": "Someone just listed a pair of 1974 skis for exactly 1 Bitcoin",
-      "polarity": 0.0035053137689828873,
-      "ts": "2026-03-18T20:24:49",
-      "source": "r/Bitcoin",
-      "url": "https://www.reddit.com/r/Bitcoin/comments/1rxf7n8/someone_just_listed_a_pair_of_1974_skis_for/"
     }
   ],
   "negatives": [
@@ -93,6 +93,13 @@
       "ts": "2026-03-18T12:46:07",
       "source": "Decrypt",
       "url": "https://decrypt.co/361518/bitcoin-etfs-1-2b-streak-hangs-in-balance-as-fomc-takes-center-stage"
+    },
+    {
+      "title": "Crypto market sheds $100 billion as bitcoin price drops 5% amid Fed caution - The Block",
+      "polarity": -0.875356275588274,
+      "ts": "2026-03-18T20:26:30",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNM1lHb29nUXhTbVdfRktqR0tWNW0yblpxazd0Y3FGb3JLQjRzbGRVN1VGZmRsdUtCR25RaEFITzI3N1BrWDN2OWFtVVU2Mk9IUF95Vzg0WFVxNy1Wa1hheEtyR2w5UmpFcldQcndVVmQ2eERtOGd3YjBwVThxWEpHdUJkRllEWDJBUDU2VVozTENpMkp2Y0FXM3ZsVGdwTDl2Rkpn?oc=5"
     },
     {
       "title": "Strategy Faces Key Test It's Failed 3 Times As Bitcoin Price Slips - Investor's Business Daily",
@@ -116,13 +123,6 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY1dvVlozZWE2TUd6NWhxczk5M0RKaEYxV19PSU9HT0hMQ2RZbExiYnBlNV9sNDc2MHVnM0kxTlY4ZWN0Y1hST1BKUU9zZXE3OEdLTTFUVW5RUmZzN1kwcnpMXzgwLURFTFE5WlAzZlZWeGpDTU9OTVRnVnZZaVZPN3FWVUNHa1ctRG9yUXdMSlpqSmJ5aV9wc25tclVzc0Y2NGpIZ3hwLU5kX2JVbjFLckgxSFNTTmc4?oc=5"
     },
     {
-      "title": "Till Death or Seed Phrase: Woman Accused of Spying on Husband, Stealing $172 Million in Bitcoin - Bitcoin Magazine",
-      "polarity": -0.4160012938082218,
-      "ts": "2026-03-18T18:41:46",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoUDk0bFBFQVpaZk1ZZFBwZ0pFdnR2Y0d2cmJDZV9CbFlhbGlpYlJQLW91b19JaW9lUnpqN25ndUxiR2M2UVdFRG9GMm5VVTYxb1hINm16OC1oLVlVRGdtMlo1ZFd0VzE5U1RuejdIbHpsU2xsUWdWZy1zeEk?oc=5"
-    },
-    {
       "title": "Fold posts $69.6M net loss but doubles down on bitcoin credit card expansion",
       "polarity": -0.3598727583885193,
       "ts": "2026-03-18T19:29:12",
@@ -142,13 +142,6 @@
       "ts": "2026-03-18T20:21:59",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWldBcHJMZHNHLXdWbU5CUWQ3SzA0SEFITmQxVE1mbkZsbmZWV1NSZ1hRVkRFRy0tUjZlSTRWMFlSWEk4bmYxU1ZWRDFoSk1UTFJnc000Wm03alJwNEY1dU1OT3lVYlRtMXJ0WmkwR3dzS0dCUHZUZ0lsRzJKdi0wYzk4dVNTUUlzMWZ4SEJfa0xnbGk4VzN3RXRqNm1UUnowczhacmluMzRJRDZYMC1SRWRKMHVORnp3eXczLXI5MXhzUGNMQTFsdjlOakhaYV9HUml2Rg?oc=5"
-    },
-    {
-      "title": "Bitcoin Price Fights For $70,000 As Federal Reserve Holds Rates",
-      "polarity": -0.05772393383085728,
-      "ts": "2026-03-18T20:39:06",
-      "source": "Bitcoin Magazine",
-      "url": "https://bitcoinmagazine.com/news/bitcoin-price-fights-for-70000-fed-holds"
     },
     {
       "title": "I got hypnotized by the mempool and accidentally built a thing",
