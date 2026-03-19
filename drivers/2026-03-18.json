@@ -65,6 +65,13 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1NLXJMVVZMUzVlakROYlpMTTlzQ25Xc1dGVFJvWURDendsX244WkZvVlRIM1l3Q084NS1haG1wQkFmdFB3MDdZRTRySWdoSm9IQmJ5SWlsaEk2cnhTd2ZNU3c0ckVMa2hxZWtENURBMjFMN1JhSFBjdXRWdkE0UQ?oc=5"
     },
     {
+      "title": "What's better?",
+      "polarity": 0.1392827993258834,
+      "ts": "2026-03-18T23:38:18",
+      "source": "r/Bitcoin",
+      "url": "https://www.reddit.com/r/Bitcoin/comments/1rxka3j/whats_better/"
+    },
+    {
       "title": "Tempo launches mainnet with focus on stablecoin payments and AI-driven commerce",
       "polarity": 0.12883641198277473,
       "ts": "2026-03-18T17:52:38",
@@ -270,13 +277,6 @@
   ],
   "negatives": [
     {
-      "title": "Connecticut suspends Bitcoin Depot as 2026 revenue outlook worsens",
-      "polarity": -0.9651667210273445,
-      "ts": "2026-03-18T11:27:59",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/connecticut-bitcoin-depot-license-halt-stock-slide?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "title": "The S&P 500 Is Down 2.5% But These 3 Bitcoin ETFs Didn\u2019t Get the Memo - Yahoo Finance",
       "polarity": -0.9581244774162769,
       "ts": "2026-03-18T12:30:52",
@@ -326,13 +326,6 @@
       "url": "https://www.coindesk.com/markets/2026/03/18/bitcoin-sinks-below-usd71-000-stocks-close-at-session-lows-as-2026-rate-cut-hopes-fade-further"
     },
     {
-      "title": "Bitcoin Depot (NASDAQ: BTM) grows revenue in 2025 but loses Circle K deal - Stock Titan",
-      "polarity": -0.9446508307009935,
-      "ts": "2026-03-18T20:07:31",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWmtFSlZCLXpsa29YbTlCdlFaaktFSThKSDR2Zm1Tc2Z1QXFEQmpwRk8xNmJMRkx2RV9vcjJqUWFGRGgwNGZaQ2U3VVdjNHJYWU92a3ItYW5zbm9ETi1abTdqQk55WXFOaU0temdMaDlsU3IyZlpNdnBYeXd4S1pqblFSbHdDSUh0RVZBWGVURTlpWmg0eTh3RWpSN0ZnYUNkZGNCcXFn?oc=5"
-    },
-    {
       "title": "Bitcoin Price Falls to $72,000 as Fed Uncertainty Triggers Pullback - Bitcoin Magazine",
       "polarity": -0.9430320067331195,
       "ts": "2026-03-18T13:03:06",
@@ -340,11 +333,11 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBmTjhKWTRIQjJINk1FVzZRTDlQNlhodmJIcXF3STIxSnZfcVR1Q1NNU2F0LVBfQ3F1QmYxc19GTGZJZlI3NzQ2eHRwcHU1ZzZsR3dkdnk5d2Y0aGVlWDRDZmEtbE5aTjM3d3FMWnNyUjg3U2h1?oc=5"
     },
     {
-      "title": "Bitcoin Stalls Near $75K As Traders Move Coins To Exchanges - TradingView",
-      "polarity": -0.9418678488582373,
-      "ts": "2026-03-18T23:00:46",
+      "title": "Dogecoin Falls 5% As Bitcoin Drops Below $72,000 - Benzinga",
+      "polarity": -0.9420624701306224,
+      "ts": "2026-03-18T18:16:00",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWUZwWjJSNTlJSm00SFVfVnB1SDViQ1JXREx2ekk1M1RLLThfdEV0UU51MVNmamo4Rjc3djhFVWFmOHFPWHBHdDhEYXVpOUI0NjlmUnRPaEdnNVctMzBBWVhuREpGSjU2Rm9hdUpXdDdVRDY5ZFpMNXhOVDdvVXRRWFFKekx4dk5mTDVHVXlOWU9CUEdoOXMxMzREMllUbUZ2NnFUQjd3NzVLNUVvV2x2UjA5ZHkyODg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYlp2Z3VETklLcm54bTlKTWdzY3BrVmFZOGNWdmdNLWNtWjN0MUM1LV9OYkI3d2pOSTUzQmtHcVNrbWZrZG9tU1QtNUdaTFVDbHcyT1JqRl96RXRMeklWbHVneHlpMEtON0Q3R0NMcGhkY3VZNkV1WWMxS2t3ejBhQktYOVJMYkVBQzBTWXAxQW9Fbkl2aVFQR1pBOGtDV3E5eWs0NFFscTJ4dw?oc=5"
     },
     {
       "title": "Bitcoin price news: BTC remains down sharply as Fed stays on hold - CoinDesk",
@@ -352,6 +345,13 @@
       "ts": "2026-03-18T19:27:42",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbWRTYnNtd1BaZU5fakNndWNpbzBuYV9PR3lhbVhwS3Y3QWYwbHVGcUZQQnVtWVdHV2ZRZk9oTXFRdjNDa016SXVvX2lUSEppdlIyS2k1X0JCT3pjMGg4dWszcUR5U1RCWkx1dkJfYU9XX3NQN2lhZWtZUy1Xb2QyWGI1ZGROWDdYYldudEphc0VVM0tVZlljd1FTMUFJMW95MHR2a0NCWUYyMzhvLXVJTzdOcGFOcV9vaHgwX29Cc1phZw?oc=5"
+    },
+    {
+      "title": "Bitcoin price news: BTC adds to losses following Fed pause, Powell press conference - CoinDesk",
+      "polarity": -0.9368092436343431,
+      "ts": "2026-03-18T20:21:59",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWldBcHJMZHNHLXdWbU5CUWQ3SzA0SEFITmQxVE1mbkZsbmZWV1NSZ1hRVkRFRy0tUjZlSTRWMFlSWEk4bmYxU1ZWRDFoSk1UTFJnc000Wm03alJwNEY1dU1OT3lVYlRtMXJ0WmkwR3dzS0dCUHZUZ0lsRzJKdi0wYzk4dVNTUUlzMWZ4SEJfa0xnbGk4VzN3RXRqNm1UUnowczhacmluMzRJRDZYMC1SRWRKMHVORnp3eXczLXI5MXhzUGNMQTFsdjlOakhaYV9HUml2Rg?oc=5"
     },
     {
       "title": "Bitcoin Price Today: BTC Falls Below $72,000 After Fed Holds Rates, Crypto Stocks Drop - TechStock\u00b2",
@@ -373,13 +373,6 @@
       "ts": "2026-03-18T20:26:30",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUmZ4WWZDUzhRTldlZkxBb09LLTJsY0RlSi1EYXM5SWFkN3JWTE91NG5nNFFNVEkwRVpjT1dab192Q1Zxa0sxMDdVbWR4bmVxTEg2eEFScnY1Zk9yc0VBaXNIZmhCTXVCMEFpdUJQU2xQdmMtX3RJbkYyaDRoelhKZ1VGOXgwS2ZubGVOaWhzTWxiMjYxTWFwSDlRT3lKSHBJZkFSOVpIODdWUFdBd2FYQm9rVWZpTDZFb3hFVThBYVAwanFTd2xtc3JWRFVLT2ducFE?oc=5"
-    },
-    {
-      "title": "Crypto market sheds $100 billion as bitcoin price drops 5% amid Fed caution - The Block",
-      "polarity": -0.875356275588274,
-      "ts": "2026-03-18T20:26:30",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNM1lHb29nUXhTbVdfRktqR0tWNW0yblpxazd0Y3FGb3JLQjRzbGRVN1VGZmRsdUtCR25RaEFITzI3N1BrWDN2OWFtVVU2Mk9IUF95Vzg0WFVxNy1Wa1hheEtyR2w5UmpFcldQcndVVmQ2eERtOGd3YjBwVThxWEpHdUJkRllEWDJBUDU2VVozTENpMkp2Y0FXM3ZsVGdwTDl2Rkpn?oc=5"
     },
     {
       "title": "Fed Holds Rates But Bitcoin Crashes to $71K \u2014 Whales Dump 18,000 BTC as Inflation Data Destroys the Rally",
@@ -445,8 +438,8 @@
       "url": "https://cryptobriefing.com/us-ppi-increase-february-2025/"
     },
     {
-      "title": "Bhutan offloads an additional $72.3M Bitcoin amid market downturn",
-      "polarity": -0.6447448618710041,
+      "title": "Bhutan moves $72.3M in Bitcoin amid market downturn",
+      "polarity": -0.5944566503167152,
       "ts": "2026-03-18T16:39:32",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bhutan-offloads-72-3m-bitcoin-downturn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -543,25 +536,11 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUzRrOUxkbU5SZzFOX1B3blZBQjl3YUwyRk51Rjh4YnVqX1VBdDBwNXRZT3hUOTZmemRUMTh3Z3p1cmdfbVpqVS16eWVFRFpEd0VZTFBzbVg4Yk5DQWRIb0RuaU1UTWQ2aENzOUp3Q0hqb2pmZXFVdVBnR1c5YzBIRnctLTd0Z1dJWGxuTHAzWktadS01bkNkTE5sOS1yUTc5cmVGWkh4dG1NbFd2MFVMaTNSbmF5Qm4w?oc=5"
     },
     {
-      "title": "Bitcoin price news: BTC adds to losses following Fed pause, Powell press conference - CoinDesk",
-      "polarity": -0.08419293910264969,
-      "ts": "2026-03-18T20:21:59",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWldBcHJMZHNHLXdWbU5CUWQ3SzA0SEFITmQxVE1mbkZsbmZWV1NSZ1hRVkRFRy0tUjZlSTRWMFlSWEk4bmYxU1ZWRDFoSk1UTFJnc000Wm03alJwNEY1dU1OT3lVYlRtMXJ0WmkwR3dzS0dCUHZUZ0lsRzJKdi0wYzk4dVNTUUlzMWZ4SEJfa0xnbGk4VzN3RXRqNm1UUnowczhacmluMzRJRDZYMC1SRWRKMHVORnp3eXczLXI5MXhzUGNMQTFsdjlOakhaYV9HUml2Rg?oc=5"
-    },
-    {
       "title": "Lawmakers close to banning Bitcoin ATMs, crypto kiosks in Tennessee - WSMV",
       "polarity": -0.07179920375347137,
       "ts": "2026-03-18T16:58:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYnZKMkE2WnNhUDNReW1VT2lBazc0TFRnT0RaNThIMWV4Zk42MFlGU2ItQXh1N0lvQ216MmJLZ2VOaWxYU3lJZWp0NThHS2JmdHZsVnp2RnpEbjZ4SWpCbzNvSHdPaTFjc0k3TGNNWnp2VTRGM05sUHZqUXFMRXlXQVFZN1RMS1hORW4yb2JxWmlaYTB2dnhxeA?oc=5"
-    },
-    {
-      "title": "Bitcoin\u2019s rally runs into 'sell the news' risk ahead of Fed decision",
-      "polarity": -0.06295935064554214,
-      "ts": "2026-03-18T10:40:00",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/03/18/bitcoin-s-rally-runs-into-sell-the-news-risk-ahead-of-fed-decision"
     },
     {
       "title": "FOMC Scenarios for Bitcoin: From a $55K Plunge to a $170K Volatility Breakout - Yahoo Finance",
@@ -618,13 +597,6 @@
       "ts": "2026-03-18T20:39:06",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBvSlJqS0t0SXYwLW1SY0pNd0lSRWVxVEJBTWdydkE5TTZBQ1F2WTBuakJ0Z2ZXb0Jad1lJcWxwODhpVGtMZ2o3TmpPOWhUQkQ4MnhIU040Q2dTYWxLMExoWWVfc0p1dTYxWUUzZUhac2gwcXFicl9BQW94Z0lEdw?oc=5"
-    },
-    {
-      "title": "Bitcoin\u2019s rally runs into 'sell the news' risk ahead of Fed decision - CoinDesk",
-      "polarity": -0.02364620938897133,
-      "ts": "2026-03-18T10:42:48",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOalRuSHlzOEJLUGU2M2RVT1ozU00yUkV4cDFCUGpUSzFwRGREVkVKa29KbVZGSlR6UjY2b2k5TEZhaGc4STN6N3h1UUVQNDRzQjVwdXBKeUZadnhPZUFyLU0yUEVJb0ZyRm5KcDhmdWQyTmg2d2hqamNnVDV6NS1rdkNzQVhpMmdMdDVHVm9yY0ZJZXlVbUlNWkdHbV83Tm0tRmdlVFdqSHJVWHhWTHVj?oc=5"
     },
     {
       "title": "Current price of Bitcoin for March 18, 2026 - Fortune",
