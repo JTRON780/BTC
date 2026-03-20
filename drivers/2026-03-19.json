@@ -30,6 +30,13 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE13OVlXeHU3dFQwa0FCV0Z5TWs5dWFNb2ZvZ2NPOG1acE9lMGVJOGkzeElMTk9oNmU0RklqLWc5WV90X2dqaEc4NGkyaTVSVUJoNjlIR3hVRnlWbXo0WHBKV0V6NGxKVVVNLTRRd0VSaG11dC1mYTk2a2dyTQ?oc=5"
     },
     {
+      "title": "'Extreme Fear' Hits Crypto Markets After Bitcoin Gives Up $75K Spike - Yahoo Finance",
+      "polarity": 0.44732990860939026,
+      "ts": "2026-03-19T16:08:27",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxON3hOMkg3bDVWN1YxdVdZeENEV25fazZRTFQ4M3VBcWpiZk9SbEhoa3FJd0xDWlFNTnNVckJ0V2RySENzOTB4NEZNYldWMFVjYmU2dU1JN3Z4YzFBUGYzSC1LZTF0YVNjdU16am5hM2wwaS1CSGpGYUxSTS0wUkF0dlJabTdOQVA4dE84MTRic29lZ01oV2RqcXllWnl3X3ktLV9XQXJlcGYyd1VqS2h2bjRNck5qTE1zb09TbjY5eXJzNmktX2R3?oc=5"
+    },
+    {
       "title": "Bitcoin shows early bull market signals, but confirmation is lacking: Glassnode",
       "polarity": 0.3400004208087921,
       "ts": "2026-03-19T18:30:00",
@@ -91,13 +98,6 @@
       "ts": "2026-03-19T03:06:50",
       "source": "r/CryptoCurrencyTrading",
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1rxp466/btc_72k_support_the_aidefi_rotation_is_the_fomc/"
-    },
-    {
-      "title": "YBTC Vs. YBIT: Wrong Bitcoin Call, Diverging Outcomes (NYSEARCA:YBIT) - Seeking Alpha",
-      "polarity": 0.14604684710502625,
-      "ts": "2026-03-19T16:31:27",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSG5xbmlGM3BBZ1ZZTEZNeUo2UDZCSWxvS0xMZExlQjJOeEpJOVVTckdHbllTdk1tczlhNWlNclpJTEN3aGFQZ1QxYzlwVG9KTWJXZnN1RG42OUg5eEdhbmFtTDlkRDA4U3NOTHpHeENIMU5qUEd5cWlqNGQ4WmJfcEtTZHdtWk4wcjdwNFZzSTZsS3JtTEE?oc=5"
     },
     {
       "title": "Can Bitcoin Really Do DeFi? A New Protocol Aims to Find Out",
@@ -298,20 +298,6 @@
   ],
   "negatives": [
     {
-      "title": "Bitcoin Down 2% After $75,000 Rejection: Why Is It Going Down? - Yahoo Finance",
-      "polarity": -0.9568893080577254,
-      "ts": "2026-03-19T15:01:09",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQjhVQmlQaFpqMXJqNFplUjhoNm5adE5QdmhfcDhxV3B5NTRuOUNaY3VETk1JbUJ4cGJyZlg3LXRWczBGN1lYVFZxX0pXTG9NWTBiQnhZNkJKMndEOE8yTmRXS1dxWGxNeDlGeldtMzBLZnlzWS1Ec2hDLUdQNmpmM1NDczlRd1E5S2Q4VV9ybw?oc=5"
-    },
-    {
-      "title": "Bitcoin price falls as Fed dampens rate cut hopes for 2026 - Yahoo Finance UK",
-      "polarity": -0.953511388041079,
-      "ts": "2026-03-19T09:40:13",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc2JuVHZrMzhfMGVJZ3VERm82dDZtVHlVR1A0SmRONFY4ZWdlVldQSmpMaDJ6MElILVVEUXFVZHhVMGRaRzZZWTF6dXRvMk5ZWHVTbm1oSlFoTF9sY0R0a3JULTBpZkwxbTU4REZXbERxTm14VllBUFZVM3FLUmJmWXNQVFV0UkNKcWIwdEI3V1dSMXNxVUxFMQ?oc=5"
-    },
-    {
       "title": "'Extreme Fear' Hits Crypto Markets After Bitcoin Gives Up $75K Spike",
       "polarity": -0.9402731228619814,
       "ts": "2026-03-19T16:08:27",
@@ -368,13 +354,6 @@
       "url": "https://cointelegraph.com/news/bpi-backdoor-hardware-wallets-kentucky-crypto-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "title": "Bitcoin Price Slides Below $70,000 as Oil Spikes, Fed Hold Tightens Financial Conditions - Bitcoin Magazine",
-      "polarity": -0.6851434446871281,
-      "ts": "2026-03-19T12:38:59",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE41RFg2RVVSMnBOMGJjSGt6ZncyU3RQam9wcVBLSk1ESS1zYmNEU20yMkZHZU51UkhXM3N4Rl9FdXhPMl84X3R0ZVZJN3pWd3B3ZDRzMzY0VU10THNYTWF3V1Y0NEF5YTlYWnlGOG5aREpuTzdCZnNxaXlEbndlQQ?oc=5"
-    },
-    {
       "title": "LA Rideshare Driver Charged With Using $2M in COVID Relief Funds to Buy Crypto",
       "polarity": -0.640536492690444,
       "ts": "2026-03-19T11:45:25",
@@ -382,32 +361,11 @@
       "url": "https://decrypt.co/361680/la-rideshare-driver-charged-with-using-2m-in-covid-relief-funds-to-buy-crypto"
     },
     {
-      "title": "Strategy's STRC Is Built on a Flawed Premise. Could It Harm Bitcoin? - unchainedcrypto.com",
-      "polarity": -0.6290061436593533,
-      "ts": "2026-03-19T18:54:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeEFua3JPcGZRSDJzRDJDZGhSaFMzR193TVFXS2JWRVZEQkJBVzJZSDBydWhqR2lkeF9BTlc2aVcxQmMzanZ5TDRQN01yVWF2dDJSOVNaZlpHMFNzVHI2b2FTR2ZBeE50WXhNRXpEQXZtbzBBeHQwTWY4VC05cTFLRnA4TDR1MktJdGdwTFZzbkdYQmI4X3FlYXF4TGZoRGVLMXBn?oc=5"
-    },
-    {
-      "title": "Prediction markets price 70% chance Bitcoin drops below $55K in 2026",
-      "polarity": -0.6281649321317673,
-      "ts": "2026-03-19T15:02:02",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-prediction-markets-see-70-chance-btc-price-crashes-to-55k-in-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "title": "Gold, silver, bitcoin crash as safe-haven luster fades following Fed decision - Yahoo Finance",
       "polarity": -0.5647944211959839,
       "ts": "2026-03-19T18:06:53",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN3pLSXpnTktreDVPSzA5cUpjLVBNWG5LOGtObUhCMVJhRFhFTFhHT3BqTWQ5RXJmbFRZcF9XemU5ekRyTW1mT002SzNQUThPMjA1b2UxZS1YWEZXQkU3Tnlia0YtODZobzE4a2FWRGxZaGtYT0NWckE3c1gtSVB4NThObXNHanJFTUo3bXdnalZZdmllTkl0Y1N6TU9JdGpVYUhRQ0RUR1hGTzF0ejlVQ2ZULVp1Y1dFcTdLTmNR?oc=5"
-    },
-    {
-      "title": "Bitcoin\u2019s biggest DeFi drawback under attack as OpNet unlocks smart contracts on mainnet",
-      "polarity": -0.5273675471544266,
-      "ts": "2026-03-19T12:00:00",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/03/19/bitcoin-s-biggest-defi-drawback-under-attack-as-opnet-unlocks-smart-contracts-on-mainnet"
     },
     {
       "title": "Fed Warning Triggers Sudden Bitcoin Price Crash Fear - Forbes",
@@ -436,6 +394,13 @@
       "ts": "2026-03-19T10:01:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMjZkbHd2aG10OE9Rc0tNcm1nclNTNHhtalg0bTJwdHVaMjdQcWF1N1AtUkJXc216bjlJdGtkVFY0TzNZZ1VfV1RoTlRjUUppNVpMWTN2VVAySnlYVFlIODhKYUZCOEdacDBKSFZBR0VNQU5iNnlIZU9Dc2h6V0ZxVUdBVnc4UTFXNDJnVXM4SDh4eHZhOC1SUkdiSFNsc3AycjdacUpyV3JvV2JJVVRRV0FlbU5ydw?oc=5"
+    },
+    {
+      "title": "Why Bitcoin Was Sinking on Wednesday - Yahoo Finance",
+      "polarity": -0.32017646729946136,
+      "ts": "2026-03-19T00:18:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM3NhazNUbFNraFBCSEhaTjVNdURad1VJSUhWa3NMckhZelpwUVV3NWlpYlctRWx2VEljUUppbWdBVHJNYUhkWmlNakFEaWpzZ21iTnFsZ3htZmI5N2VHSk9EMFJwSC1pc0M4ZjZaNGw4MWxPWjRpLVRfZDhGWkd0NlRHSGhWcVU2aFJ6WFFRS2JRMUdfeV85NUxn?oc=5"
     },
     {
       "title": "Bitcoin holds $69,000 as gold tumbles and oil spikes, but one analyst says stay on sidelines",
@@ -473,13 +438,6 @@
       "url": "https://bitcoinmagazine.com/featured/despite-a-47-price-drop-bitcoin-selling"
     },
     {
-      "title": "Bitcoin OGs dump over $100 million in BTC after hawkish Fed dents rate cut hopes - CoinDesk",
-      "polarity": -0.13396409153938293,
-      "ts": "2026-03-19T07:22:07",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUzRGZElIenZwdklSRW1wWVJ3cWo0Ym11N3NnbzQwUHdhR0J2RXlrakZSWWtMVEpueUh4NWc0azN4aU1LcVZXS0ZTa0FURDZqNi1LMERQRnVlRG5nUnFVM1dQVTJPY0NfdHJMb29tSnFRNFVkcmxFSktLSDNMWXVyUzdMMDhRdFhxNkthMUdIYUJXREpVUHJDbE9XZl82WXR2RzZmNHdDRFNQVW0tWWp1ejMtY2xMcWl1dFJCN1NSWGZvN1A3?oc=5"
-    },
-    {
       "title": "Strive (ASST) Accumulates 13,600 Bitcoin Despite $393 Million Loss in First Six Months as Public Company",
       "polarity": -0.133282370865345,
       "ts": "2026-03-19T14:16:47",
@@ -499,13 +457,6 @@
       "ts": "2026-03-19T21:34:16",
       "source": "r/Bitcoin",
       "url": "https://www.reddit.com/r/Bitcoin/comments/1ryd5m3/does_anyone_else/"
-    },
-    {
-      "title": "'Extreme Fear' Hits Crypto Markets After Bitcoin Gives Up $75K Spike - Decrypt",
-      "polarity": -0.03867337107658386,
-      "ts": "2026-03-19T16:08:27",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMlZqUGFRQWI5UjdSVVZhOGNCdmlUVnl1YVRoNUE2ZlQxZ1FJdHJubHotTW1fVzdnZEpZb3NJLVE5cW12dUlpOVhSaGhPSXAxVzRhaVVQck15LUc5XzdST24xRFN0WWtKLWs1X1NCRGJUdmZxYjc1Ujg1YUExbTNqVHVqajhMTmFaNHp5OUlyMWVnbFJFQWfSAZ4BQVVfeXFMUGg1SS1idWtMeUxTSVRnSDR1UFVySHo3RDE3cTBncGJWdXVnSUszblV1LVlPNUxLU2dVcjRra0t3c3hNYWZnVFh5M241ODBYVW9UUnZKSDJ5UGNtNDZ6ZGE5RTAwTnZSdzVMc0hyTVZvazAwMzkxUlJYVU1NTjBaaUxwS1dQNzNpLU0zOXU5VFk3bjRiMTFxaElsR25na2c?oc=5"
     },
     {
       "title": "Bitcoin $20,000 put option is third most popular strike ahead of quarterly expiry",
