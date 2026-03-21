@@ -1,20 +1,70 @@
 {
   "day": "2026-03-21",
-  "positives": [],
+  "positives": [
+    {
+      "title": "Market Resilience: Bitcoin Holds $69,500 Floor Despite Global Equity Slump - Bitcoin.com News",
+      "polarity": 0.1737741380929947,
+      "ts": "2026-03-21T00:04:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQTFYbm5DVHNidGJmUEtWTUpIMDlPTXpTMVgybWhjd1FaUjI1UXlGVDlYWGgxTzBtMTdON0ZJdUQ4WnhNZGticnhIZm4xaW1uQlktMXpoRHFBM2o3LXJNM0NhaEphdm5YSkhJZnZOQWFIZ0tOdGswTzlRLWtnNy1VUU5pRmlrS2NXXzRIbERMbHdDc1JfTUF2ZE4zVXd1dw?oc=5"
+    },
+    {
+      "title": "Ala. Co. Says $2M Bitcoin Mining Suit Must Be Arbitrated - Law360",
+      "polarity": 0.0006537847220897675,
+      "ts": "2026-03-21T01:36:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQR3pBTjFiajByVzIwMG9jbS1POUdnMkxfaTZkNmlXa3FJd201RXZoMW9DQi1ZQkhIZUJYQzVWWFktRC0wNGZkS0E4YWxGcFJORlcwMzY4Y2RtUW4zY2EwY1ZfckduaHI4SUNqOVp3VFlOdW5ab1VCNFUzdm9DOWllRzgxY0RRTWpvSVNjZWVrNjB0Z3gxOHRBOTM3WG9PX2l1ZFJ3VVZCTXB4R3ROQ3lTYWdxNnBfWm5MZEg3bjBydHg0ZUo20gFzQVVfeXFMUEI4M3dFc2xTMXptRGdYWjNoODlnV2Y0X210aHVtbFJzRk5heFlleTludmNrUGVhbW80a0d6bEFaYU1nX09HaE9vTy0xTUJnb2lUM1NPWG5ybTVJUWNwMzd1OHhUQ3k4U3lJajUtS0hPVEhnQQ?oc=5"
+    }
+  ],
   "negatives": [
     {
+      "title": "Bitcoin Mining Difficulty Drops 7.76% as Hashprice Struggles to Support Miners - Bitcoin.com News",
+      "polarity": -0.9585046460852027,
+      "ts": "2026-03-21T02:01:29",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaEdNbDBLQWpjek1scUZUckVVd051RUQxeHpSVFlWSDQtdmd0dVBhZDhFV2ctanVxeXJmeENXakZJUzlPTkc3ZVJJbEdwdHl2dGtyVVkzZDFRRmpTWElzZUpVRWpNN1VnaS1yQ0JGeWpZYTl0dnVoVGlVbmdnR21RT09DTGVfMGJjUHZvcmdsOTIyZ3U2ZmFScU8wWmFQZ21ja1RGdUhR?oc=5"
+    },
+    {
+      "title": "Top cryptocurrencies fall; Bitcoin holds above $70,000 - MSN",
+      "polarity": -0.957656086422503,
+      "ts": "2026-03-21T02:15:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZmdIZUttQno0TVpvSTBkajVVZDBvV0JEOUdwTFJSZUNYRDRqY1FLblY5SHFNT1R2X2oyMVF2d01WX2prOGZ1bDlXakZqWkt3aktyY2NCU2ZSbXc2OHVuaXQxX3FSU0FueG1ySjY1eEtaMlVIMC1WSnp3T2huUU9PQnE2QWpnejYwOXV5SmxvNWdLTElOSl9TMXNONmlhNkNHb2t0UC1WWQ?oc=5"
+    },
+    {
       "title": "Over Half A Billion Dollars Wiped Out As Bitcoin Locks In At $70,000 - TradingView",
-      "polarity": -0.671147869899869,
+      "polarity": -0.6711482461541891,
       "ts": "2026-03-21T00:00:34",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSWJ3UWFCUllfeE44bnVLRHNnajdtdWhRUW9EdGxoLWJ6U1NGazhMcTU5QkZsNWZ0ZTBnWE13Q3BCY0M1andTbDBxbWRPOG1SRVRvT2FTR3p0N2xFeGRtZ3Zfb2lyTXpoRzVXYkZuRHRpelJNX2xSOVhvRkIzUjBhaEJaRmgxNG5fWkRuQlROZzJPNDkzeVFrc3p5d1ZDbndZZTJtc1htZzlYNDVoUFF4U3RCMGVQam9ObWNlcnh6cDU3T0U?oc=5"
     },
     {
       "title": "Nations don't go bankrupt. They devalue. 17 years of work pays off, crypto boys.",
-      "polarity": -0.27689380943775177,
+      "polarity": -0.3901790529489517,
       "ts": "2026-03-21T00:35:30",
       "source": "r/CryptoMarkets",
       "url": "https://www.reddit.com/r/CryptoMarkets/comments/1rzdep5/nations_dont_go_bankrupt_they_devalue_17_years_of/"
+    },
+    {
+      "title": "Could A Rotation From Gold Into Bitcoin Be Signaling A Bottom? - Yahoo Finance",
+      "polarity": -0.29085033759474754,
+      "ts": "2026-03-21T00:12:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUUVjbHcxMGRCSXNGNVR2T1NuZ1ZzRjhkNi1EcHBiQUlBbUJ3cURMbzFXQ3N2cUZEMS1hZjdPOGM5dzVDeDdCRlY4UGFYMWxlSUhZSzFiMVozbkZJOS16a3ZlQ0xlSzNMMEd3MG9OeVI3NkNmRFQ2dUFSS0hycVg3X0M1MkladFdjNWlRVg?oc=5"
+    },
+    {
+      "title": "Bitcoin Up or Down - 15 Minutes Predictions & Odds - Polymarket",
+      "polarity": -0.08934207633137703,
+      "ts": "2026-03-21T00:50:28",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GMmU1QzRuM2xwTWpPOU5ZQTVsUFhtR25SaTBDb2Y2YTlYSGV2SHNhUTF1MWFmZXMxeGkxbW1GZGJpZGtYZnpnemlJdHdLSlJDcG0tR1FibmpLZXlUMzI1Rzd5cTI?oc=5"
+    },
+    {
+      "title": "CFTC Publishes FAQs Defining Bitcoin, Ether, Stablecoin Roles in Margin - Bitcoin.com News",
+      "polarity": -0.021689536049962044,
+      "ts": "2026-03-21T01:13:03",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRExmWVMxdDE5WkRaa0NtSjZockRMenlKeHppRHplUnNVMnBHWTdCMElCNk0tYmlVYk81dzU1LV9uWWhMNENuRTN3QzFGajhVVEhBRW9ZT2Z5Z3Z1UXZDQ3VXVDJTeFBuUEtPeWdNVHpXS0xCUzFUWEZ0c2NiLXRDa0lUS255TUdqcmladzh1UERiR182aEdmMUxyYw?oc=5"
     }
   ]
 }
