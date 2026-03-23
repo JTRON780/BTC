@@ -3,28 +3,28 @@
   "positives": [
     {
       "title": "White House faces Iran war bill that is worth nearly 3 million Bitcoin",
-      "polarity": 0.12248032074421644,
+      "polarity": 0.12248014006763697,
       "ts": "2026-03-22T17:45:35",
       "source": "CryptoSlate",
       "url": "https://cryptoslate.com/white-house-faces-iran-war-bill-that-is-worth-nearly-3-million-bitcoin/"
     },
     {
       "title": "My portfolio strategy for Q2",
-      "polarity": 0.06455625407397747,
+      "polarity": 0.06455603986978531,
       "ts": "2026-03-22T12:57:26",
       "source": "r/CryptoCurrencyTrading",
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1s0ky7e/my_portfolio_strategy_for_q2/"
     },
     {
       "title": "Michael Saylor Changed Tactics To Buy More Bitcoin: What It Means For MSTR - Yahoo Finance",
-      "polarity": 0.029284916818141937,
+      "polarity": 0.029284603893756866,
       "ts": "2026-03-22T15:31:16",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObS13eC1vbjJ5SEtWYUstV1ZRNC1TcmxrT1N1MmdGX25RQnFHNmVaVzQ2VFhaUXF2MXBaWG5rWDA5ZjZOTmdEM3hnaE9BNnJWbFozQ0RnYTV6MlEwNExmQ2R2VC0xSWM2bUs1eTQ5Z3ZOVzQ0dUttNGY0RDhZSHVvSTh3SDB6LWJuNXJRUlJkSDg0c1ZoaXVrZVZEaU5tbkJn?oc=5"
     },
     {
       "title": "Leverage",
-      "polarity": 0.023067906498908997,
+      "polarity": 0.02306780219078064,
       "ts": "2026-03-22T17:10:16",
       "source": "r/ethtrader",
       "url": "https://www.reddit.com/r/ethtrader/comments/1s0r6sy/leverage/"
@@ -33,52 +33,31 @@
   "negatives": [
     {
       "title": "Bitcoin miners are losing $19,000 on every BTC produced as difficulty drops 7.8% - CoinDesk",
-      "polarity": -0.9610644392669201,
+      "polarity": -0.9610644476488233,
       "ts": "2026-03-22T06:30:18",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQmVtOUZkcjVRb0YtVnN2U3VyVmNRWU50R2V2cFV6eVFyRllfX2cyYnFsaXNNMVAzUGZRdXNscjgtVTE1Mm4yZEJVM3FMNFI0TTRLT29BY0xpRDhpXzkxVU1YU3A3VnJVR2pKdk1hdWEzNkp6UVpRM0dCYTUxZmtqcDZheFdmVi04N2RBSEVaMHZ0M01qSmpVcDBiRmZMZ0ZYd1NrcHdJWkdhR0pXdnBZQzJESDBTY0pxelVfT0tKZHJDVDQ?oc=5"
     },
     {
       "title": "Bitcoin Dips Under $69K Amid War and Regulatory Worries - PYMNTS.com",
-      "polarity": -0.880440978333354,
+      "polarity": -0.8804408125579357,
       "ts": "2026-03-22T23:56:59",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMzh6Nk5oc3hfcWZEX3c0eE5zaUpfTW55NG9WNGF3NnJJdTllZ3RQVFdRcFJNcFZoQXBIVDk5bXpvQ0MzTzdFSkhKOW1NVGhQY2luVEFSQkI2RHNwemczS05zLUh3cGN1V2tBa0NUZk1aSmVydEF3U09aUnJWLU8xb19rS293MTdScTNqRUluZkhhOTZ6RDNRUlRoZDJhVDQ?oc=5"
     },
     {
-      "title": "Bitcoin Drops Below $69,000 as War Fears Weigh on Crypto Markets - Bloomberg.com",
-      "polarity": -0.8723665978759527,
-      "ts": "2026-03-22T20:08:05",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTXVOcGhOMEJYblFBTFRGUHZ5R0tndk44WVpzRklMd0tPYl9mZ0NaWkdSMkxhNVh3UHd4NTBQc1ZWYkdSeURnUVdnM0xqbUtiamZYY00wd05RVnNtMzNRdF90alktSUJBVDZYVVpmUEpPZ2JraG91ZGhudndaVmt0S0Y0dkpjeGpyaU5RQzJFLUQxYjlyZVpvdFRpRHJPb3h4dHUyWFJzc1ZpeVZHY2NfTmdhdUw?oc=5"
-    },
-    {
       "title": "Bitcoin drops below $69,200 as Trump gives 48-hour ultimatum on Iran power plants - CoinDesk",
-      "polarity": -0.7757914699614048,
+      "polarity": -0.7757919803261757,
       "ts": "2026-03-22T06:04:20",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNM2xlcDUzV0ZraHZQdGJnRlVXeTBUYzdUeTlRUFR4ZWQ4aXdpTFY1VXVsYjY3TjFoM29HVTZZR0NvNFdpR1dwTkxWSWlpOGV5eklXeTUwY2JPWWVfV09IeGlwY01SQ1VCMkNxcEdHQlp0aVMtMDhvRTRHRUIxY2l5TjlkT1BtZVhOV2xZc2VOVWZSV18xdmxjZ291MEs5R3RxUnlOc2JtaVdkdjZzNks3N1gzMGFjczhvWjRSTDFJak9feWZtYUE?oc=5"
     },
     {
-      "title": "Scaramucci says BTC's 4-year cycle still in play, forecasts rise in Q4",
-      "polarity": -0.3544253408908844,
-      "ts": "2026-03-22T18:53:05",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/scaramucci-btc-4-year-cycle-play-rise-q4?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "BTC and gold divergence reflects split between retail and central banks: Analyst",
-      "polarity": -0.34755294770002365,
-      "ts": "2026-03-22T21:48:01",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/divergence-between-btc-gold-retail-central-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "Is It Too Late to Buy Bitcoin? - Yahoo Finance",
-      "polarity": -0.03644503280520439,
-      "ts": "2026-03-22T11:35:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTll0YUlnQ1VteTg1MlhRY2NtVTNvODRKaDhzRUthTGtJNVRXbWtnenVUT0VLT0NGb1RNYXc2WFBWUkRFbTY1Q0RrdjVVX29JYlF2NkJJc3VkUmVfeE51RGE4TjZhY3AyLWlhYURIbXRQRS1EdUs3ODRpUjZZUjNCb0lxbnFlWDg?oc=5"
+      "title": "I need advice on portfolio",
+      "polarity": -0.01887650042772293,
+      "ts": "2026-03-22T17:09:27",
+      "source": "r/CryptoMarkets",
+      "url": "https://www.reddit.com/r/CryptoMarkets/comments/1s0r61c/i_need_advice_on_portfolio/"
     }
   ]
 }
