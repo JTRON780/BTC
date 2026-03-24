@@ -2,13 +2,6 @@
   "day": "2026-03-22",
   "positives": [
     {
-      "title": "White House faces Iran war bill that is worth nearly 3 million Bitcoin",
-      "polarity": 0.12248014006763697,
-      "ts": "2026-03-22T17:45:35",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/white-house-faces-iran-war-bill-that-is-worth-nearly-3-million-bitcoin/"
-    },
-    {
       "title": "My portfolio strategy for Q2",
       "polarity": 0.06455603986978531,
       "ts": "2026-03-22T12:57:26",
@@ -30,20 +23,5 @@
       "url": "https://www.reddit.com/r/ethtrader/comments/1s0r6sy/leverage/"
     }
   ],
-  "negatives": [
-    {
-      "title": "Bitcoin miners are losing $19,000 on every BTC produced as difficulty drops 7.8% - CoinDesk",
-      "polarity": -0.9610644476488233,
-      "ts": "2026-03-22T06:30:18",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQmVtOUZkcjVRb0YtVnN2U3VyVmNRWU50R2V2cFV6eVFyRllfX2cyYnFsaXNNMVAzUGZRdXNscjgtVTE1Mm4yZEJVM3FMNFI0TTRLT29BY0xpRDhpXzkxVU1YU3A3VnJVR2pKdk1hdWEzNkp6UVpRM0dCYTUxZmtqcDZheFdmVi04N2RBSEVaMHZ0M01qSmpVcDBiRmZMZ0ZYd1NrcHdJWkdhR0pXdnBZQzJESDBTY0pxelVfT0tKZHJDVDQ?oc=5"
-    },
-    {
-      "title": "Is It Too Late to Buy Bitcoin? - Yahoo Finance",
-      "polarity": -0.036445051431655884,
-      "ts": "2026-03-22T11:35:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTll0YUlnQ1VteTg1MlhRY2NtVTNvODRKaDhzRUthTGtJNVRXbWtnenVUT0VLT0NGb1RNYXc2WFBWUkRFbTY1Q0RrdjVVX29JYlF2NkJJc3VkUmVfeE51RGE4TjZhY3AyLWlhYURIbXRQRS1EdUs3ODRpUjZZUjNCb0lxbnFlWDg?oc=5"
-    }
-  ]
+  "negatives": []
 }
