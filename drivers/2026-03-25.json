@@ -1,7 +1,50 @@
 {
   "day": "2026-03-25",
-  "positives": [],
+  "positives": [
+    {
+      "title": "Report: OpenAI Nears $10B Funding Boost at $730B Valuation - Bitcoin.com News",
+      "polarity": 0.8804049268364906,
+      "ts": "2026-03-25T00:29:49",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbGdfWWRtbzFna1BIR1cxWVZ5NDA5MmxPS3FkYmVxN1hXYXBVakZoLXBlbUMycHJHN28wZW5hVXJHWnZFd0RtTlA3Sk5wNUlsdmdUQlNheF9oMndMZlRGY0wzMFhUSnFlY1FCc0ZvcFQybHhxbzAyMHhqR0dKbUZpNkJEYm9yNjNz?oc=5"
+    },
+    {
+      "title": "Bitcoin price holds steady as investors flee gold. Have safe-haven roles finally reversed? - dlnews.com",
+      "polarity": 0.048189423978328705,
+      "ts": "2026-03-25T03:35:49",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWkU4TTNOdjNSdkprVE1WdFdFZkNoUFIyeFlaa0c0V3g1bU5XYlg2aF9hWm1uR2h4R0s3UjJjd0pJSFRLWGNMWi1ZLXhWOFI4ZFZ1MnBya0RHY1pZcnBkR09BLXpTcHJDWm55Yml3cFZxaElvd2NlRkVMMF9TcUlhME4zcnk3S0hETmk0NWp2ODJuWVJrYTZGdWRwMHBvYmpUeUFUU3o0VHRRYVhS?oc=5"
+    },
+    {
+      "title": "Why these three \u2018narrative barriers\u2019 pose clear risks to the Strategy Bitcoin scheme, says analyst - dlnews.com",
+      "polarity": 0.022313673049211502,
+      "ts": "2026-03-25T04:01:37",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbUlOUEhMaXNaWkVqcTdrMHVNMjVYeExOSlotX2pfdjBfQWJBcC13SDVVbzVpWkJoVGI3bV90bTk1QmdlejdZS0oyMUZpbE13QlowOWs0VnlvNnVRS29xczFJQWM4dWpUeHhtN3ppRFJFb252cFlVOGZrdm5Wc2p2OHFNakNMTW5NWkV0SWY1V1o0WTJQRHFrcUh1VWFOOFNEdzMxcEtjSzY?oc=5"
+    }
+  ],
   "negatives": [
+    {
+      "title": "Bitcoin slips amid Iran de-escalation uncertainty; analyst says BTC has bottomed - Investing.com",
+      "polarity": -0.9184761233627796,
+      "ts": "2026-03-25T01:29:14",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcF9VTXE4eFcwM2VDa0RMSVdKYXl4YWlucmlfY2lXc2M0VVB3MzUwdHMzVHVGOUg5dndHY1NoMjF0SFpBVnZ0MXdaOEhHdlVOUWpIM3lPVVVPcnlvUVZCUXVsazlpQzZld1dCZjF6SEVSM1ktWE5lUm9VUzkxM3NzLTdYZ2FGVTZNc1pBeVpQMnRKM0NwVk5EQ3pEOXpUbjNUSVFNQ2NLeEx1SllubklTMl92dk9Xa0lydGlUNDRCMUpjTzVzMWtN?oc=5"
+    },
+    {
+      "title": "Bitcoin Up or Down - 5 Minutes Predictions & Odds - Polymarket",
+      "polarity": -0.17529916390776634,
+      "ts": "2026-03-25T01:10:49",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Wa3pVWXJCWXhxb3NCczBQbEpQaDhhY0dfNmRXNHNKVm53TWlnRXMzNlhHVi1fMG5KTFJibHAyQW1ZNU40RHZsYm9KVXRoc1hjb2VpNVhiOGl3Q190dEphNVFzQQ?oc=5"
+    },
+    {
+      "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC, ETH and XRP send mixed cues, leaning slightly bearish - FXStreet",
+      "polarity": -0.09845228493213654,
+      "ts": "2026-03-25T03:33:56",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQbk9mVzM5Um9WZGRsREY1X2VuMHRXdk1NUXRINGY0akUxTVlGLXVpN005VG55TWRZYTJOaDRyc0VPdHM5VkR6aXJITDJSbi1veUJZaW5lNEVGT2VQYjlxN00wRnBtaXBZMjdiTUltNExoeHdEWnYyUllwNVNDSXVFOXlERU5Qbi1oZVNtOHZuWk95R0lyYUZNQzJldlhSRHZOd0RnMWZ2NWJCQ2ppYmVibFZ5OUNtcGg4TTlMQUtoTEVjZWdHa3FwSk1qMHlvUmx0RFdfY3AxenRycjVNc3VCNmxEUmpPekZvNWdyRjZ4U2lpcmV0RkE?oc=5"
+    },
     {
       "title": "Analyst flags quiet shift as Bitcoin and gold reverse roles - Yahoo Finance Singapore",
       "polarity": -0.0009639784693717957,
