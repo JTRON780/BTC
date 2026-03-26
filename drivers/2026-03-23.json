@@ -1,6 +1,28 @@
 {
   "day": "2026-03-23",
-  "positives": [],
+  "positives": [
+    {
+      "title": "Stocks start catching up with bitcoin\u2019s earlier price crash to $60,000 as bond yields rise - CoinDesk",
+      "polarity": 0.7154415883123875,
+      "ts": "2026-03-23T05:34:31",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcEVrdHNyR1NtOFdxLWthdDZYUUNUaTVJRmQ0TGJlTm12djNXSjZZWE5hSVlDa3JwTnBtdjRDS0RVNmtyaVh0bnlOb3ZCRWozekJndk9qdmRqVUp0NzBiVFBJNUxxeVNpU2s3el9oLTk2QVk0eFdEN3NaNUs3RVNGNllITkljM0U5andvU2pzN0pyOVZiTEpGOWhXTlVBN29qUDAwc2ZJXzhScEFmS2pzRFFDaEozSU9YQkU3RTl0TnVtTm10ZlZxbUNaeERZQ3BDZmc?oc=5"
+    },
+    {
+      "title": "Saylor\u2019s Strategy Returns to Common Stock for Latest Bitcoin Buy - Bloomberg.com",
+      "polarity": 0.028235794976353645,
+      "ts": "2026-03-23T18:19:47",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORVBIWG95dC1KNFR2QmFuUDRXTnV5T0p4cVdaYnlUcUotakhJU2lWRXY5YXdfV3JFNzV2TUdVZkVabFhBNW0wVl90eGVuV2ZDN2tBaXNZbDBMLXdkdldMSVh1LWJadDd4UmtJUHVqWWdOVDVPTlNTcTRLVUY1NEpUM1pyY0tOQjRDd3hSdkVsSnA2Y05JaWh1OENiU09LZXY0cWo3cVJvUUlYX1pES25QX1FmQUx5Zw?oc=5"
+    },
+    {
+      "title": "Bitcoin Is Headed to $500,000 According to This Wall Street Analyst and the Reasoning Is Hard to Dismiss - Yahoo Finance",
+      "polarity": 0.008331771939992905,
+      "ts": "2026-03-23T16:00:00",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc2xXdzdnbzRFREdUakhibnNVT0JzUlNVU0lPWWJYVlR4bjY0UjI4WnF4T05JeG53QlhnN1lidUlVZmRkQVlrLTBrS0taNnFSMjBxa1I5WkIyUTRiZWt4WkFJQWtFQjhhWk9qR2pndTgwT2dPWmxfQm4tdGpmVzl1dXE3VVo5Rm9yVXVCelc4SDFLRnN2NDlsMldEalJYZw?oc=5"
+    }
+  ],
   "negatives": [
     {
       "title": "Altcoin spot trading volumes are collapsing",
@@ -8,20 +30,6 @@
       "ts": "2026-03-23T11:25:01",
       "source": "r/CryptoCurrencyTrading",
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1s1e67z/altcoin_spot_trading_volumes_are_collapsing/"
-    },
-    {
-      "title": "Bitcoin Price Spikes As Trump Delays Strikes Against Iran - Investor's Business Daily",
-      "polarity": -0.7536740265786648,
-      "ts": "2026-03-23T21:20:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdmsyTHZHTzhxdGdEelpCYXdSUlpKUHhhY3pERThaSFFaWC1pdmtydGRlNjdNVTc4U3ZTdzlXaC1mbmZlZzRxWW1YZVR0Y0Z3enJpOG1XOGlFcTAzeEh1MDJCZVBrT0JCVjU2bHVIRDAxUUJYZlpfdDYwUjJJN0MyMUJaSTFieDdzUnhSZGo2NERBS25zRk5NS0JCdThtaV90b2pJRm9IanllZFE?oc=5"
-    },
-    {
-      "title": "Bitcoin Tops $71,000 as Trump Postpones Iran Power Plant Strike Plans - Yahoo Finance",
-      "polarity": -0.4199216514825821,
-      "ts": "2026-03-23T12:11:15",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSXJuamJJVXB6NDk1TzVTTXNJMlRlWkFLSmJzWmZweVlhV1VMTkZqU0M0dTEweFFlMWtFS1JEOGV6X2xEeFpIbmkzTUNnX0pMSm5YN19HTlZINHI1YWszR2Z6MTMzX2RkeUNKa1VHOFBzSTA5YkdyaWV4Zkp0QWdmbS1saXlyV3RIZ3FfYmpGaHhVenRi?oc=5"
     },
     {
       "title": "Surprised how many swaps require full verification now - what are you using?",
