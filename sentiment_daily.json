@@ -129,48 +129,48 @@
     },
     {
       "ts": "2026-03-22T00:00:00",
-      "raw": 0.06455603986978531,
-      "smoothed": 0.06455603986978531,
-      "n_posts": 1,
+      "raw": -0.30176992758232,
+      "smoothed": -0.30176992758232,
+      "n_posts": 3,
       "n_positive": 1,
-      "n_negative": 0,
-      "directional_bias": 1.0
+      "n_negative": 2,
+      "directional_bias": -0.3333333333333333
     },
     {
       "ts": "2026-03-23T00:00:00",
-      "raw": -0.0018987378238567408,
-      "smoothed": -0.0018987378238567408,
-      "n_posts": 5,
-      "n_positive": 3,
+      "raw": -0.19753700858828696,
+      "smoothed": -0.19753700858828696,
+      "n_posts": 4,
+      "n_positive": 2,
       "n_negative": 2,
-      "directional_bias": 0.2
+      "directional_bias": 0.0
     },
     {
       "ts": "2026-03-24T00:00:00",
-      "raw": 0.05992195655101091,
-      "smoothed": 0.05992195655101091,
-      "n_posts": 16,
+      "raw": 0.08928206841322199,
+      "smoothed": 0.08928206841322199,
+      "n_posts": 15,
       "n_positive": 7,
-      "n_negative": 9,
-      "directional_bias": -0.125
+      "n_negative": 8,
+      "directional_bias": -0.06666666666666667
     },
     {
       "ts": "2026-03-25T00:00:00",
-      "raw": -0.041333686115199664,
-      "smoothed": -0.041333686115199664,
-      "n_posts": 61,
-      "n_positive": 33,
+      "raw": -0.05468218963636306,
+      "smoothed": -0.05468218963636306,
+      "n_posts": 58,
+      "n_positive": 30,
       "n_negative": 28,
-      "directional_bias": 0.08196721311475409
+      "directional_bias": 0.034482758620689655
     },
     {
       "ts": "2026-03-26T00:00:00",
-      "raw": -0.13884147686414258,
-      "smoothed": -0.13884147686414258,
-      "n_posts": 61,
-      "n_positive": 25,
-      "n_negative": 36,
-      "directional_bias": -0.18032786885245902
+      "raw": -0.19870415702933727,
+      "smoothed": -0.19870415702933727,
+      "n_posts": 67,
+      "n_positive": 24,
+      "n_negative": 43,
+      "directional_bias": -0.2835820895522388
     }
   ]
 }
