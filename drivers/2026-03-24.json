@@ -3,14 +3,14 @@
   "positives": [
     {
       "title": "Bitcoin mining company plans to expand cryptocurrency operations to Dubuque County - KCRG",
-      "polarity": 0.8777235550805926,
+      "polarity": 0.8777232216671109,
       "ts": "2026-03-24T23:20:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY0ZPMjVpVjRjUmZVRVVRUEh6dG1GbmFkYmM0NmlodDBaYTJiY3JFblRqb3pkTmtlMUxodzJqLW1ocG5KeEdVa3FpVUNuVVl4eUFXWURMY212Uk50bUNfZHFrb1d5WnJMU1Vqcm1UOGhZQkRFMWl0WnM1U2Z2YkRpbFBndFJhN1Y2OFl5M3ZtUlA0Mm5iLXVpZ1RzbFpveVhlTHgxWktmNUU5ZWp6d1HSAcIBQVVfeXFMUEhmZEoxQXdXMWN3RE9nWlM0alZLVjgxemNNY0U3bVozNlB1U3FQbmllRWdVc19makZ3dDVSQXY1MF9zUWRPTWRmVC1hUFc4djJfSlVoQ1JnNEZNU0FZZnB4WTdXR0I2d3plMVEwMUhJZmxMcFVjc1BiTm1vel90QVRwODlxQ0RoWlZMSkVRcERfeVRmSkl0Ym1zbVFOVVhKZDl4bnd1SkZyNGxfYVlYck5TLUJyVHhMU0tGQ0l1azlsYVE?oc=5"
     },
     {
       "title": "Swapped some BTC to ETH last week - went smoother than expected",
-      "polarity": 0.02399865724146366,
+      "polarity": 0.023998696357011795,
       "ts": "2026-03-24T08:07:14",
       "source": "r/ethtrader",
       "url": "https://www.reddit.com/r/ethtrader/comments/1s27pvl/swapped_some_btc_to_eth_last_week_went_smoother/"
@@ -19,42 +19,28 @@
   "negatives": [
     {
       "title": "Bitcoin sinks below $70,000 as Bernstein analysts say token 'looks bottomed' - Yahoo Finance",
-      "polarity": -0.9347012992948294,
+      "polarity": -0.9347013048827648,
       "ts": "2026-03-24T15:52:20",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRzU5eGhMS2Y4clhtWmdyMW5RbVoxWUJFYTBZbjJzT3FmNzFXNXhhaThEdTh0bENNZThpWGFpRGRxMTM0cThCSURoVWZINTFWLV8wcmlTTFlfQmk1UTlocUpLanIwVDVadU1IanlfT2hTTVpZbDdXVng2eXhuWW02UkxmbHBDenlBd0ZIRGp4NmV0U0FBVFFNeG5LQTluZ0FId3Q3ckk1TFE0blp3Q2tzRGw0OVUxTlllWkE?oc=5"
     },
     {
-      "title": "Bernstein says bitcoin looks bottomed, sees 226% upside for Strategy - The Block",
-      "polarity": -0.36579883098602295,
-      "ts": "2026-03-24T13:54:41",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQY2xfMTVwR2VXc0cyNGU2SGlCdWJqV0hpbDVkQ3dSaDJlbDM2LVJOTkEtdGh1TFZJbUp6YjNXeHMwRU8zdTlhZmRfZl9ycHRjT3U5UHYtUDUzQmRqQVdKdmVVS3Z5dGxkVXVodXhxWUF3WkQza3Z0WkRtTEpoaGpsck5ITm00VHpOcHBqSlpXRGd3MmY5ZVRJQV8zYUdfYnlpdV84Zg?oc=5"
-    },
-    {
-      "title": "Bitcoin Surpasses 20 Million Coins, and The Final Million Are Out Of Reach For Most Miners - Yahoo Finance",
-      "polarity": -0.0546848326921463,
-      "ts": "2026-03-24T18:26:00",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVGtEMDAxMjJyU1BxMVpMSnU4cEcwa2c1MFNINFUxTkVXdnZIaE9FYTZJbUE1V1lxUHZuUWxRbTRnOXl1Ynp3ZUQyd1ExZU9tSUw1Qkk2SHlCWjNPTzNOVWp5emhMS0FfUEI0RjIxZkZXNFVjSmI2dEV2a0xCVTUzaHE4LTlVeE5aY2hVNnRhODZSVXlDZ2FYZWdnUFlzWjdT?oc=5"
-    },
-    {
       "title": "Finally moved some ETH to BTC - anyone else avoiding CEX for this?",
-      "polarity": -0.01857510581612587,
+      "polarity": -0.018575314432382584,
       "ts": "2026-03-24T08:02:46",
       "source": "r/CryptoCurrencyTrading",
       "url": "https://www.reddit.com/r/CryptoCurrencyTrading/comments/1s27nam/finally_moved_some_eth_to_btc_anyone_else/"
     },
     {
       "title": "Current price of Bitcoin for March 24, 2026 - Fortune",
-      "polarity": -0.016014473512768745,
+      "polarity": -0.01601446606218815,
       "ts": "2026-03-24T13:36:00",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5raWctbjdOVlFKV3FGLW1rTUt2RGhSY2hQMzZkaEVBVmxpSEVzQmFDa1RzZzVWRXNQOEhjX25EQ1RYZWxieG4xcTNlZm4wQXJtZkotMkVVSExrenE4ZTlFUkM0X2lFYm8?oc=5"
     },
     {
       "title": "Bitcoin\u2019s Institutional Shift Drives Bernstein\u2019s $150,000 Call - Bloomberg.com",
-      "polarity": -0.015484822914004326,
+      "polarity": -0.015484917908906937,
       "ts": "2026-03-24T16:09:40",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTTNxVl90ZUVZenM5OG9laUZEU0ZhRXhpOWpJYklWVEd5TjFBMGVNWTdRNHhIa3VwMWtjb2pKY2JIM2dUMUdfVVdhNUdVcDV5bzBrenJvWmwtbE4xcEY1OUlQQW5kcWFZQWg0VS1BVnowdnRPamNaZkhOb21pbzV0UGxPc0tzdXpocjZUUHN5S1RZNDlNMlZrUjNhSmltOXBFdFd0T2ZLbDRRTzlxRXFHS2lB?oc=5"
